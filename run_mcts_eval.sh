@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/TripCraft/outputs}"
+OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/Test_output/outputs}"
 ROLL_OUTS="${ROLL_OUTS:-5}"
 TOPK="${TOPK:-10}"
 MPLCONFIGDIR="${MPLCONFIGDIR:-${ROOT_DIR}/.mplconfig}"
@@ -22,7 +22,7 @@ run_one() {
   local out="${OUTPUT_DIR}/mcts_baseline_${day}day.jsonl"
 
   echo "==> Generate ${day}-day: ${out}"
-  python -m TripCraft.mcts_baseline.cli \
+  python -m mcts_baseline.cli \
     --input_csv "$csv" \
     --output_jsonl "$out" \
     --rollouts "$ROLL_OUTS" \
