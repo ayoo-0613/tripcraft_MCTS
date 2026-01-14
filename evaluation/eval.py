@@ -48,6 +48,10 @@ def statistics(commonsense_statistic):
                 
     return result
 
+
+def _safe_div(num, den):
+    return num / den if den else 0.0
+
 def paper_term_mapping(commonsense_constraint_record, hard_constraint_record):
     mapping_dict = {'is_valid_information_in_current_city':'Within Current City','is_valid_information_in_sandbox':'Within Sandbox','is_reasonable_visiting_city':'Reasonable City Route','is_valid_restaurants':'Diverse Restaurants','is_valid_transportation':'Non-conf. Transportation','is_valid_attractions':'Diverse Attractions','is_valid_accommodation':'Minimum Nights Stay','is_not_absent':'Complete Information', 'valid_cost':'Budget', 'is_valid_event':'No Reapeated Events', 'is_valid_meal_gaps':'Sufficient Time between meals', 'is_valid_poi_sequence':'PoI sequence starts and ends with accommodation','valid_room_rule':'Room Rule','valid_cuisine':'Cuisine','valid_room_type':'Room Type','valid_transportation':'Transportation', 'valid_event_type':'Event Type', 'valid_attraction_type':'Attraction Type'}
     remap_commonsense_constraint_record = {level:{day:{} for day in [3,5,7]} for level in ['easy','medium','hard']} 
@@ -194,30 +198,16 @@ def eval_score(set_type: str, file_path: str):
     result = {}
 
     remap_commonsense_constraint_record, remap_hard_constraint_record = paper_term_mapping(commonsenseConstraint_statistic_processed, hardConstraint_statistic_processed)
+    total_samples = len(query_data_list)
+    commonsense_total = constraint_dis_record['commonsense']['total']
+    hard_total = constraint_dis_record['hard']['total']
 
-    if set_type == '3d':
-        result['Delivery Rate'] = delivery_cnt / 230
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2300
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 230
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 521  
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 230
-        result['Final Pass Rate'] = final_all_cnt / 230
-
-    elif set_type == '5d':
-        result['Delivery Rate'] = delivery_cnt / 230
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2300
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 230
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 546 
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 230
-        result['Final Pass Rate'] = final_all_cnt / 230
-
-    elif set_type == '7d':
-        result['Delivery Rate'] = delivery_cnt / 227
-        result['Commonsense Constraint Micro Pass Rate'] = constraint_dis_record['commonsense']['pass'] / 2270
-        result['Commonsense Constraint Macro Pass Rate'] = final_commonsense_cnt / 227
-        result['Hard Constraint Micro Pass Rate'] = constraint_dis_record['hard']['pass'] / 484
-        result['Hard Constraint Macro Pass Rate'] = final_hardConstraint_cnt / 227
-        result['Final Pass Rate'] = final_all_cnt / 227
+    result['Delivery Rate'] = _safe_div(delivery_cnt, total_samples)
+    result['Commonsense Constraint Micro Pass Rate'] = _safe_div(constraint_dis_record['commonsense']['pass'], commonsense_total)
+    result['Commonsense Constraint Macro Pass Rate'] = _safe_div(final_commonsense_cnt, total_samples)
+    result['Hard Constraint Micro Pass Rate'] = _safe_div(constraint_dis_record['hard']['pass'], hard_total)
+    result['Hard Constraint Macro Pass Rate'] = _safe_div(final_hardConstraint_cnt, total_samples)
+    result['Final Pass Rate'] = _safe_div(final_all_cnt, total_samples)
 
     return result, {"Commonsense Constraint":remap_commonsense_constraint_record, "Hard Constraint":remap_hard_constraint_record}
 

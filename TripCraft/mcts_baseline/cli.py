@@ -3,11 +3,13 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 from .env import TripCraftEnv
-from .io import load_rows
+from .guidance import GuidanceConfig, build_guidance
+from .io import load_rows, load_rows_from_json, row_from_dict
 from .mcts import mcts_search
+from .ollama_client import OllamaClient
 from .ref_parser import build_unified_kb
 from .templater import make_output_record_template
 from .formatter import fill_template_with_state
@@ -19,18 +21,125 @@ def _write_json(path: Path, obj: Dict[str, Any]) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8", errors="replace")
 
 
+def _read_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace").strip()
+
+
+def _load_prompt(path: Optional[str], default_path: Path) -> str:
+    return _read_text(Path(path)) if path else _read_text(default_path)
+
+
+def _render_prompt(template: str, **kwargs: str) -> str:
+    try:
+        return template.format(**kwargs)
+    except Exception:
+        return template
+
+
+def _load_llm_config(value: Optional[str]) -> Dict[str, Any]:
+    if not value:
+        return {}
+    path = Path(value)
+    text = _read_text(path) if path.exists() else value
+    try:
+        obj = json.loads(text)
+    except Exception:
+        return {}
+    return obj if isinstance(obj, dict) else {}
+
+
+def _cfg_get(cfg: Dict[str, Any], *keys: str) -> Optional[Any]:
+    for key in keys:
+        if key in cfg:
+            return cfg.get(key)
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_csv", type=str, required=True)
+    input_group = parser.add_mutually_exclusive_group(required=True)
+    input_group.add_argument("--input_csv", type=str)
+    input_group.add_argument("--input_json", type=str)
+    input_group.add_argument("--input_query", type=str)
+    input_group.add_argument("--input_query_file", type=str)
     parser.add_argument("--output_jsonl", type=str, required=True)
     parser.add_argument("--rollouts", type=int, default=200)
     parser.add_argument("--topk", type=int, default=5)
     parser.add_argument("--debug_dir", type=str, default=None)
+    parser.add_argument("--llm_config", type=str, default=None)
+    parser.add_argument("--query_prompt", type=str, default=None)
+    parser.add_argument("--query_output_json", type=str, default=None)
+    parser.add_argument("--query_context_json", type=str, default=None)
+    parser.add_argument("--query_model", type=str, default=None)
+    parser.add_argument("--query_base_url", type=str, default=None)
+    parser.add_argument("--query_timeout", type=float, default=None)
+    parser.add_argument("--guidance", type=str, default="none", choices=["none", "heuristic", "llm", "ollama"])
+    parser.add_argument("--guidance_endpoint", type=str, default=None)
+    parser.add_argument("--guidance_model", type=str, default=None)
+    parser.add_argument("--guidance_base_url", type=str, default=None)
+    parser.add_argument("--guidance_prior_prompt", type=str, default=None)
+    parser.add_argument("--guidance_value_prompt", type=str, default=None)
+    parser.add_argument("--guidance_timeout", type=float, default=None)
+    parser.add_argument("--guidance_value_weight", type=float, default=0.0)
+    parser.add_argument("--guidance_prior_c", type=float, default=1.4)
     args = parser.parse_args()
-    if args.topk != 5:
-        raise ValueError("--topk is fixed to 5 for this baseline (per spec).")
+    if args.topk <= 0:
+        raise ValueError("--topk must be a positive integer.")
+    if not (0.0 <= args.guidance_value_weight <= 1.0):
+        raise ValueError("--guidance_value_weight must be in [0, 1].")
 
-    rows = load_rows(args.input_csv)
+    llm_cfg = _load_llm_config(args.llm_config)
+    query_model = args.query_model or _cfg_get(llm_cfg, "model", "query_model")
+    query_base_url = args.query_base_url or _cfg_get(llm_cfg, "base_url", "query_base_url") or "http://localhost:11434"
+    query_timeout = args.query_timeout
+    if query_timeout is None:
+        query_timeout = _cfg_get(llm_cfg, "timeout_sec", "query_timeout_sec")
+    query_timeout = float(query_timeout) if query_timeout is not None else 20.0
+    query_prompt_path = args.query_prompt or _cfg_get(llm_cfg, "query_prompt")
+
+    guidance_endpoint = args.guidance_endpoint or _cfg_get(llm_cfg, "endpoint", "guidance_endpoint")
+    guidance_model = args.guidance_model or _cfg_get(llm_cfg, "model", "guidance_model")
+    guidance_base_url = args.guidance_base_url or _cfg_get(llm_cfg, "base_url", "guidance_base_url")
+    guidance_prior_prompt = args.guidance_prior_prompt or _cfg_get(llm_cfg, "prior_prompt", "guidance_prior_prompt")
+    guidance_value_prompt = args.guidance_value_prompt or _cfg_get(llm_cfg, "value_prompt", "guidance_value_prompt")
+    guidance_timeout = args.guidance_timeout
+    if guidance_timeout is None:
+        guidance_timeout = _cfg_get(llm_cfg, "timeout_sec", "guidance_timeout_sec")
+    guidance_timeout = float(guidance_timeout) if guidance_timeout is not None else 10.0
+
+    rows = []
+    if args.input_csv:
+        rows = load_rows(args.input_csv)
+    elif args.input_json:
+        rows = load_rows_from_json(args.input_json)
+    else:
+        query_text = args.input_query
+        if not query_text and args.input_query_file:
+            query_text = _read_text(Path(args.input_query_file))
+        if not query_text:
+            raise ValueError("Query input is empty.")
+        if not query_model:
+            raise ValueError("--query_model is required when using --input_query or --input_query_file.")
+
+        prompt_path = Path(__file__).parent / "prompts" / "query_to_json.txt"
+        prompt_template = _load_prompt(query_prompt_path, prompt_path)
+        context_json = "{}"
+        if args.query_context_json:
+            context_json = _read_text(Path(args.query_context_json)) or "{}"
+        prompt_text = _render_prompt(prompt_template, query_text=query_text, context_json=context_json)
+
+        client = OllamaClient(
+            base_url=query_base_url,
+            model=query_model,
+            timeout_sec=query_timeout,
+        )
+        query_obj = client.generate_json(prompt_text)
+        if not query_obj:
+            raise ValueError("LLM query-to-JSON output is empty or invalid.")
+        if args.query_output_json:
+            _write_json(Path(args.query_output_json), query_obj)
+        rows = [row_from_dict(query_obj, idx_default=1)]
+
     out_path = Path(args.output_jsonl)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -39,10 +148,30 @@ def main() -> None:
 
     with out_path.open("w", encoding="utf-8", errors="replace") as f:
         for row in rows:
+            if not row.ref_blocks:
+                raise ValueError(f"row idx={row.idx} is missing reference_information.")
             template = make_output_record_template(row)
             kb = build_unified_kb(row.org, row.ref_blocks)
             env = TripCraftEnv(row=row, kb=kb, topk=args.topk)
-            terminal_state = mcts_search(env, rollouts=args.rollouts, topk=args.topk)
+            guidance = build_guidance(
+                GuidanceConfig(
+                    mode=args.guidance,
+                    endpoint=guidance_endpoint,
+                    model=guidance_model,
+                    base_url=guidance_base_url,
+                    prior_prompt_path=guidance_prior_prompt,
+                    value_prompt_path=guidance_value_prompt,
+                    timeout_sec=guidance_timeout,
+                )
+            )
+            terminal_state = mcts_search(
+                env,
+                rollouts=args.rollouts,
+                topk=args.topk,
+                guidance=guidance,
+                prior_c=args.guidance_prior_c,
+                value_weight=args.guidance_value_weight,
+            )
             rec = fill_template_with_state(template, row, kb, terminal_state)
 
             errs = validate_record(rec)

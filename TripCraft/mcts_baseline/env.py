@@ -123,6 +123,8 @@ def _overlaps(a: Tuple[int, int], b: Tuple[int, int], buffer_min: int = 0) -> bo
 
 
 _GLOBAL_POI_DF = None
+_TOOLS = None
+_COST_INDEX = None
 
 
 def _load_global_pois():
@@ -137,6 +139,126 @@ def _load_global_pois():
         except Exception:
             _GLOBAL_POI_DF = None
     return _GLOBAL_POI_DF
+
+
+def _get_tools():
+    global _TOOLS
+    if _TOOLS is None:
+        try:
+            from tools.accommodations.apis import Accommodations
+            from tools.flights.apis import Flights
+            from tools.googleDistanceMatrix.apis import GoogleDistanceMatrix
+            from tools.restaurants.apis import Restaurants
+
+            _TOOLS = {
+                "flights": Flights(),
+                "accommodations": Accommodations(),
+                "restaurants": Restaurants(),
+                "distance": GoogleDistanceMatrix(),
+            }
+        except Exception:
+            _TOOLS = False
+    return _TOOLS
+
+
+def _pricing_to_float(value: Any) -> Optional[float]:
+    if value is None:
+        return None
+    if isinstance(value, dict):
+        raw = value.get("price")
+    else:
+        text = str(value).strip()
+        if text.startswith("{") and text.endswith("}"):
+            try:
+                parsed = ast.literal_eval(text)
+                raw = parsed.get("price") if isinstance(parsed, dict) else text
+            except Exception:
+                raw = text
+        else:
+            raw = text
+    raw = str(raw or "").replace("$", "").strip()
+    try:
+        return float(raw) if raw else None
+    except Exception:
+        return None
+
+
+def _build_cost_index(tools: Dict[str, Any]) -> Dict[str, Any]:
+    flights = {}
+    if tools.get("flights") is not None:
+        df = tools["flights"].data
+        for _, r in df.iterrows():
+            key = (str(r.get("Flight Number")), str(r.get("OriginCityName")), str(r.get("DestCityName")))
+            flights[key] = r.get("Price")
+
+    restaurants_by_city: Dict[str, List[Tuple[str, float]]] = {}
+    restaurants_exact: Dict[Tuple[str, str], float] = {}
+    if tools.get("restaurants") is not None:
+        df = tools["restaurants"].data
+        for _, r in df.iterrows():
+            city = str(r.get("City"))
+            name = str(r.get("name"))
+            avg_cost = r.get("avg_cost")
+            try:
+                cost_val = float(avg_cost)
+            except Exception:
+                continue
+            restaurants_by_city.setdefault(city, []).append((name, cost_val))
+            restaurants_exact[(city, name)] = cost_val
+
+    accommodations_by_city: Dict[str, List[Tuple[str, Any, Any]]] = {}
+    accommodations_exact: Dict[Tuple[str, str], Tuple[Optional[float], Optional[float]]] = {}
+    if tools.get("accommodations") is not None:
+        df = tools["accommodations"].data
+        for _, r in df.iterrows():
+            city = str(r.get("City"))
+            name = str(r.get("name"))
+            pricing = r.get("pricing")
+            max_occ = r.get("max_occupancy")
+            accommodations_by_city.setdefault(city, []).append((name, pricing, max_occ))
+            accommodations_exact[(city, name)] = (_pricing_to_float(pricing), max_occ)
+
+    distance_cost: Dict[Tuple[str, str, str], Optional[float]] = {}
+    if tools.get("distance") is not None:
+        df = tools["distance"].data
+        for _, r in df.iterrows():
+            origin = str(r.get("origin"))
+            dest = str(r.get("destination"))
+            duration = r.get("duration_min")
+            distance = r.get("distance_km")
+            if duration is None or distance is None:
+                continue
+            try:
+                duration_val = float(duration)
+                distance_val = float(distance)
+            except Exception:
+                continue
+            if math.isnan(duration_val) or math.isnan(distance_val):
+                continue
+            if duration_val >= 1440:
+                continue
+            distance_cost[(origin, dest, "self-driving")] = int(distance_val * 0.05)
+            distance_cost[(origin, dest, "taxi")] = int(distance_val)
+
+    return {
+        "flights": flights,
+        "restaurants_by_city": restaurants_by_city,
+        "restaurants_exact": restaurants_exact,
+        "accommodations_by_city": accommodations_by_city,
+        "accommodations_exact": accommodations_exact,
+        "distance_cost": distance_cost,
+    }
+
+
+def _get_cost_index():
+    global _COST_INDEX
+    if _COST_INDEX is None:
+        tools = _get_tools()
+        if not tools:
+            _COST_INDEX = False
+        else:
+            _COST_INDEX = _build_cost_index(tools)
+    return _COST_INDEX
 
 
 def _lookup_transit(stage: StageKB, poi_name: str) -> Tuple[str, float]:
@@ -236,6 +358,7 @@ class TripCraftEnv:
                     name = str(r.get("name"))
                     subcats = set(_as_list(r.get("subcategories")))
                     self._attraction_types[(stage.city, name)] = subcats
+        self.day_cuisine_targets, self.day_attraction_targets = self._plan_coverage_targets()
 
     def clone_state(self, state: State) -> State:
         return copy.deepcopy(state)
@@ -312,6 +435,57 @@ class TripCraftEnv:
         start, end = times[slot]
         return _to_minutes(start), _to_minutes(end)
 
+    def _plan_coverage_targets(self) -> Tuple[Dict[int, set], Dict[int, set]]:
+        day_to_stage: Dict[int, int] = {}
+        stage_days: Dict[int, List[int]] = {}
+        for day in range(1, self.row.days + 1):
+            idx = min((day - 1) // 2, max(self.num_stages - 1, 0))
+            day_to_stage[day] = idx
+            stage_days.setdefault(idx, []).append(day)
+
+        def _preferred_day(days: List[int]) -> Optional[int]:
+            for d in days:
+                if not self._day_is_travel(d) and d != self.row.days:
+                    return d
+            return days[0] if days else None
+
+        stage_cuisines: List[set] = []
+        stage_attractions: List[set] = []
+        for stage in self.kb.stages:
+            cuisines = set()
+            if stage.restaurants is not None and not stage.restaurants.empty and "cuisines" in stage.restaurants.columns:
+                for c in stage.restaurants["cuisines"]:
+                    cuisines.update(_as_list(c))
+            stage_cuisines.append(cuisines)
+
+            attrs = set()
+            if stage.attractions is not None and not stage.attractions.empty and "subcategories" in stage.attractions.columns:
+                for c in stage.attractions["subcategories"]:
+                    attrs.update(_as_list(c))
+            stage_attractions.append(attrs)
+
+        day_cuisine_targets: Dict[int, set] = {}
+        for cuisine in self.required_cuisines:
+            chosen_day = None
+            for stage_idx, available in enumerate(stage_cuisines):
+                if cuisine in available:
+                    chosen_day = _preferred_day(stage_days.get(stage_idx, []))
+                    break
+            if chosen_day:
+                day_cuisine_targets.setdefault(chosen_day, set()).add(cuisine)
+
+        day_attr_targets: Dict[int, set] = {}
+        for attr_type in self.required_attraction_types:
+            chosen_day = None
+            for stage_idx, available in enumerate(stage_attractions):
+                if attr_type in available:
+                    chosen_day = _preferred_day(stage_days.get(stage_idx, []))
+                    break
+            if chosen_day:
+                day_attr_targets.setdefault(chosen_day, set()).add(attr_type)
+
+        return day_cuisine_targets, day_attr_targets
+
     def _covered_cuisines(self, state: State) -> set:
         covered = set()
         for i, d in enumerate(state.drafts):
@@ -324,10 +498,28 @@ class TripCraftEnv:
                     covered |= self._restaurant_cuisines.get((city, meal), set())
         return covered
 
+    def _covered_cuisines_for_day(self, state: State, day: int) -> set:
+        covered = set()
+        draft = state.drafts[day - 1]
+        stage = self._stage_for_day(day)
+        if stage is None:
+            return covered
+        city = stage.city
+        for meal in (draft.breakfast, draft.lunch, draft.dinner):
+            if meal and meal != "-":
+                covered |= self._restaurant_cuisines.get((city, meal), set())
+        return covered
+
     def _missing_cuisines(self, state: State) -> set:
         if not self.required_cuisines:
             return set()
         return set(self.required_cuisines) - self._covered_cuisines(state)
+
+    def _day_missing_cuisines(self, state: State, day: int) -> set:
+        targets = self.day_cuisine_targets.get(day, set())
+        if not targets:
+            return set()
+        return set(targets) - self._covered_cuisines_for_day(state, day)
 
     def _covered_attraction_types(self, state: State) -> set:
         covered = set()
@@ -341,10 +533,28 @@ class TripCraftEnv:
                     covered |= self._attraction_types.get((city, attr), set())
         return covered
 
+    def _covered_attraction_types_for_day(self, state: State, day: int) -> set:
+        covered = set()
+        draft = state.drafts[day - 1]
+        stage = self._stage_for_day(day)
+        if stage is None:
+            return covered
+        city = stage.city
+        for attr in draft.attractions:
+            if attr and attr != "-":
+                covered |= self._attraction_types.get((city, attr), set())
+        return covered
+
     def _missing_attraction_types(self, state: State) -> set:
         if not self.required_attraction_types:
             return set()
         return set(self.required_attraction_types) - self._covered_attraction_types(state)
+
+    def _day_missing_attraction_types(self, state: State, day: int) -> set:
+        targets = self.day_attraction_targets.get(day, set())
+        if not targets:
+            return set()
+        return set(targets) - self._covered_attraction_types_for_day(state, day)
 
     def _covers_missing_cuisine(self, stage: StageKB, cand: Dict[str, Any], missing: set) -> bool:
         cuisines = self._restaurant_cuisines.get((stage.city, cand.get("name")), set())
@@ -365,6 +575,89 @@ class TripCraftEnv:
         if not window:
             return False
         return _overlaps((draft.transport_start_min, draft.transport_end_min), window, buffer_min=30)
+
+    def _append_stay_if_missing(
+        self, draft: DayDraft, stage: Optional[StageKB], name: str, start: str, end: str
+    ) -> None:
+        if not name or name == "-":
+            return
+        for b in draft.poi_blocks:
+            if b.name == name and b.kind == "stay" and b.start == start and b.end == end:
+                return
+        stop, dist = _lookup_transit(stage, name) if stage else ("UNKNOWN", 99999.0)
+        draft.poi_blocks.append(POIBlock(name=name, kind="stay", start=start, end=end, nearest_transit=stop, dist_m=dist))
+
+    def _fallback_accommodation(self, stage: Optional[StageKB], remaining_budget: float) -> Optional[Dict[str, Any]]:
+        if stage is None or stage.accommodations is None or stage.accommodations.empty:
+            return None
+        df = stage.accommodations
+        people = int(self.row.people_number or 1)
+        best_within = None
+        best_any = None
+        for _, r in df.iterrows():
+            name = str(r.get("name"))
+            price_val = r.get("pricing_value")
+            try:
+                price = float(price_val) if price_val is not None and str(price_val) != "nan" else None
+            except Exception:
+                price = None
+            max_occ = r.get("max_occupancy")
+            try:
+                max_occ_int = int(max_occ) if max_occ and int(max_occ) > 0 else 1
+            except Exception:
+                max_occ_int = 1
+            rooms = math.ceil(people / max_occ_int)
+            cost = price * rooms if price is not None else None
+            meta = {"name": name, "pricing_value": price, "max_occupancy": max_occ_int}
+
+            if cost is not None and cost <= remaining_budget:
+                if best_within is None or cost < best_within[0]:
+                    best_within = (cost, meta)
+            if cost is not None:
+                if best_any is None or cost < best_any[0]:
+                    best_any = (cost, meta)
+            else:
+                if best_any is None:
+                    best_any = (float("inf"), meta)
+        if best_within:
+            return best_within[1]
+        if best_any:
+            return best_any[1]
+        return None
+
+    def _ensure_accommodation_for_day(self, state: State, day: int) -> None:
+        if day >= self.row.days:
+            return
+        draft = state.drafts[day - 1]
+        if draft.accommodation and draft.accommodation != "-":
+            return
+        stage = self._stage_for_day(day)
+        remaining = float(self.row.budget or 0.0) - state.budget_used
+        fallback = self._fallback_accommodation(stage, remaining)
+        if not fallback:
+            return
+        draft.accommodation = fallback["name"]
+        state.budget_used += self._action_cost(state, {"type": "set_accommodation", "name": fallback["name"]})
+        if day == 1 or not self._day_is_travel(day):
+            self._append_stay_if_missing(draft, stage, draft.accommodation, "08:00", "09:00")
+        if day != self.row.days:
+            self._append_stay_if_missing(draft, stage, draft.accommodation, "22:15", "08:00")
+
+    def _ensure_travel_sequence(self, state: State) -> None:
+        day = state.day
+        draft = state.drafts[day - 1]
+        if day > 1 and self._day_is_travel(day):
+            prev = state.drafts[day - 2].accommodation
+            if prev and prev != "-":
+                prev_stage = self._stage_for_day(day - 1)
+                self._append_stay_if_missing(draft, prev_stage, prev, "08:00", "09:00")
+        self._ensure_accommodation_for_day(state, day)
+        if draft.accommodation and draft.accommodation != "-":
+            stage = self._stage_for_day(day)
+            if day == 1 or (not self._day_is_travel(day) and day != self.row.days):
+                self._append_stay_if_missing(draft, stage, draft.accommodation, "08:00", "09:00")
+            if day != self.row.days:
+                self._append_stay_if_missing(draft, stage, draft.accommodation, "22:15", "08:00")
 
     def legal_actions(self, state: State, topk: int = 5) -> List[Dict[str, Any]]:
         stage = self._stage_for_day(state.day)
@@ -444,16 +737,18 @@ class TripCraftEnv:
             if self._slot_conflicts_transport(draft, slot):
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             missing_cuisines = self._missing_cuisines(state)
-            if slot in {"lunch", "dinner"} and not missing_cuisines:
+            day_missing = self._day_missing_cuisines(state, state.day)
+            if slot in {"lunch", "dinner"} and not missing_cuisines and not day_missing:
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             cands = topk_restaurants(stage, meal=slot, local_constraint=self.row.local_constraint, k=topk)
             cands = [c for c in cands if (c["name"], stage.city) not in used_restaurants]
-            if missing_cuisines:
-                helpful = [c for c in cands if self._covers_missing_cuisine(stage, c, missing_cuisines)]
-                if slot in {"lunch", "dinner"} and not helpful:
+            target_missing = day_missing or missing_cuisines
+            if target_missing:
+                helpful = [c for c in cands if self._covers_missing_cuisine(stage, c, target_missing)]
+                if slot in {"lunch", "dinner"} and not helpful and not cands:
                     return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
                 if helpful:
-                    cands = sorted(cands, key=lambda c: 0 if self._covers_missing_cuisine(stage, c, missing_cuisines) else 1)
+                    cands = sorted(cands, key=lambda c: 0 if self._covers_missing_cuisine(stage, c, target_missing) else 1)
             if not cands:
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             actions: List[Dict[str, Any]] = [
@@ -465,16 +760,18 @@ class TripCraftEnv:
             if self._slot_conflicts_transport(draft, slot):
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             missing_types = self._missing_attraction_types(state)
-            if slot == "attraction2" and not missing_types:
+            day_missing = self._day_missing_attraction_types(state, state.day)
+            if slot == "attraction2" and not missing_types and not day_missing:
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             cands = topk_attractions(stage, local_constraint=self.row.local_constraint, k=topk)
             cands = [c for c in cands if (c["name"], stage.city) not in used_attractions]
-            if missing_types:
-                helpful = [c for c in cands if self._covers_missing_attraction(stage, c, missing_types)]
-                if slot == "attraction2" and not helpful:
+            target_missing = day_missing or missing_types
+            if target_missing:
+                helpful = [c for c in cands if self._covers_missing_attraction(stage, c, target_missing)]
+                if slot == "attraction2" and not helpful and not cands:
                     return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
                 if helpful:
-                    cands = sorted(cands, key=lambda c: 0 if self._covers_missing_attraction(stage, c, missing_types) else 1)
+                    cands = sorted(cands, key=lambda c: 0 if self._covers_missing_attraction(stage, c, target_missing) else 1)
             if not cands:
                 return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
             actions = [
@@ -522,8 +819,70 @@ class TripCraftEnv:
             return float(v)
         return 0.0
 
+    def _action_cost(self, state: State, action: Dict[str, Any]) -> float:
+        index = _get_cost_index()
+        if index:
+            people = int(self.row.people_number or 1)
+            if action["type"] == "set_transport":
+                raw = str(action.get("raw") or "")
+                frm = action.get("from") or ""
+                to = action.get("to") or ""
+                if "Flight Number:" in raw:
+                    flight_no = raw.split("Flight Number: ")[1].split(",")[0]
+                    price = index["flights"].get((flight_no, frm, to))
+                    if price is not None:
+                        try:
+                            return float(price) * people
+                        except Exception:
+                            pass
+                if "Self-driving" in raw or "Taxi" in raw:
+                    mode = "self-driving" if "Self-driving" in raw else "taxi"
+                    cost = index["distance_cost"].get((frm, to, mode))
+                    if cost is not None:
+                        multiplier = math.ceil(people / 5) if mode == "self-driving" else math.ceil(people / 4)
+                        return float(cost) * multiplier
+            if action["type"] == "set_accommodation":
+                stage = self._stage_for_day(state.day)
+                if stage is not None:
+                    city = stage.city
+                    name = action.get("name") or ""
+                    exact = index["accommodations_exact"].get((city, name))
+                    price = None
+                    max_occ = None
+                    if exact:
+                        price, max_occ = exact
+                    if price is None:
+                        for cand_name, pricing, cand_occ in index["accommodations_by_city"].get(city, []):
+                            if name and name in cand_name:
+                                price = _pricing_to_float(pricing)
+                                max_occ = cand_occ
+                                break
+                    if price is not None:
+                        try:
+                            max_occ_val = int(max_occ) if max_occ else 1
+                        except Exception:
+                            max_occ_val = 1
+                        rooms = math.ceil(people / max_occ_val)
+                        return float(price) * rooms
+            if action["type"].startswith("set_") and "name" in action:
+                meal = action["type"].replace("set_", "")
+                if meal in {"breakfast", "lunch", "dinner"}:
+                    stage = self._stage_for_day(state.day)
+                    if stage is not None:
+                        city = stage.city
+                        name = action.get("name") or ""
+                        cost = index["restaurants_exact"].get((city, name))
+                        if cost is None:
+                            for cand_name, avg_cost in index["restaurants_by_city"].get(city, []):
+                                if name and name in cand_name:
+                                    cost = avg_cost
+                                    break
+                        if cost is not None:
+                            return float(cost) * people
+        return self._cost_of(action)
+
     def _budget_ok(self, state: State, action: Dict[str, Any]) -> bool:
-        add = self._cost_of(action)
+        add = self._action_cost(state, action)
         if add <= 0:
             return True
         return (state.budget_used + add) <= float(self.row.budget or 0.0)
@@ -559,7 +918,7 @@ class TripCraftEnv:
             tw = _parse_transport_window_minutes(draft.transportation)
             if tw:
                 draft.transport_start_min, draft.transport_end_min = tw
-            state.budget_used += self._cost_of(action)
+            state.budget_used += self._action_cost(state, action)
             if state.day > 1:
                 prev = state.drafts[state.day - 2].accommodation
                 if prev and prev != "-" and not draft.poi_blocks:
@@ -573,7 +932,7 @@ class TripCraftEnv:
 
         if action["type"] == "set_accommodation":
             draft.accommodation = action["name"]
-            state.budget_used += self._cost_of(action)
+            state.budget_used += self._action_cost(state, action)
 
             # Add stay POIs (baseline fixed schedule)
             start: Optional[str]
@@ -615,7 +974,7 @@ class TripCraftEnv:
             times = {"breakfast": ("09:20", "10:30"), "lunch": ("14:30", "15:30"), "dinner": ("19:30", "21:00")}
             start, end = times[meal]
             setattr(draft, meal, action["name"])
-            state.budget_used += self._cost_of(action)
+            state.budget_used += self._action_cost(state, action)
             stop, dist = _lookup_transit(stage, action["name"]) if stage else ("UNKNOWN", 99999.0)
             draft.poi_blocks.append(
                 POIBlock(name=action["name"], kind="visit", start=start, end=end, nearest_transit=stop, dist_m=dist)
@@ -642,6 +1001,7 @@ class TripCraftEnv:
             return state
 
         if action["type"] == "end_day":
+            self._ensure_travel_sequence(state)
             if state.day >= self.row.days:
                 state.done = True
                 return state

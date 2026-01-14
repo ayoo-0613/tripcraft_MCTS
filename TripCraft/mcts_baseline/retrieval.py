@@ -28,7 +28,7 @@ def _room_type_ok(room_type: str, constraint: Optional[str]) -> bool:
     if constraint == "private room":
         return rt == "private_room"
     if constraint == "entire room":
-        return rt == "entire_room" or rt == "entire_home"
+        return rt == "entire_room"
     return True
 
 
@@ -86,8 +86,28 @@ def topk_accommodations(stage: StageKB, local_constraint: Dict[str, Any], k: int
     if "pricing_value" in df.columns:
         df["__pricing"] = pd.to_numeric(df["pricing_value"], errors="coerce")
     elif "pricing" in df.columns:
-        df["__pricing"] = df["pricing"].astype(str).str.replace("$", "", regex=False)
-        df["__pricing"] = pd.to_numeric(df["__pricing"], errors="coerce")
+        def _pricing_from_raw(val: Any) -> Optional[float]:
+            if val is None:
+                return None
+            if isinstance(val, dict):
+                raw = val.get("price")
+            else:
+                text = str(val).strip()
+                if text.startswith("{") and text.endswith("}"):
+                    try:
+                        parsed = ast.literal_eval(text)
+                        raw = parsed.get("price") if isinstance(parsed, dict) else text
+                    except Exception:
+                        raw = text
+                else:
+                    raw = text
+            raw = str(raw or "").replace("$", "").strip()
+            try:
+                return float(raw) if raw else None
+            except Exception:
+                return None
+
+        df["__pricing"] = df["pricing"].apply(_pricing_from_raw)
     else:
         df["__pricing"] = pd.NA
 
@@ -102,6 +122,7 @@ def topk_accommodations(stage: StageKB, local_constraint: Dict[str, Any], k: int
                 "pricing_value": _as_float(r.get("pricing_value") if "pricing_value" in r else None),
                 "rating": _as_float(r.get("rating") if "rating" in r else None),
                 "max_occupancy": _as_float(r.get("max_occupancy") if "max_occupancy" in r else None),
+                "pricing_raw": r.get("pricing") if "pricing" in r else None,
             }
         )
     return out
@@ -116,23 +137,6 @@ def topk_restaurants(stage: StageKB, meal: str, local_constraint: Dict[str, Any]
     df = stage.restaurants.copy()
     if df.empty or "name" not in df.columns:
         return []
-
-    cuisines_required = local_constraint.get("cuisine")
-    if cuisines_required:
-        if isinstance(cuisines_required, str):
-            req = {cuisines_required.lower()}
-        else:
-            req = {str(x).lower() for x in cuisines_required if x is not None}
-
-        def _ok(c: Any) -> bool:
-            if not isinstance(c, list):
-                return False
-            return any(str(x).lower() in req for x in c)
-
-        if "cuisines" in df.columns:
-            filtered = df[df["cuisines"].apply(_ok)]
-            if not filtered.empty:
-                df = filtered
 
     if "rating" in df.columns:
         df["__rating"] = pd.to_numeric(df["rating"], errors="coerce")
