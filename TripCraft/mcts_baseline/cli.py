@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -53,6 +54,16 @@ def _cfg_get(cfg: Dict[str, Any], *keys: str) -> Optional[Any]:
         if key in cfg:
             return cfg.get(key)
     return None
+
+
+def _print_progress(done: int, total: int, width: int = 30) -> None:
+    if total <= 0 or not sys.stderr.isatty():
+        return
+    filled = int(width * done / total)
+    bar = "#" * filled + "-" * (width - filled)
+    suffix = "\n" if done >= total else "\r"
+    sys.stderr.write(f"[{bar}] {done}/{total}" + suffix)
+    sys.stderr.flush()
 
 
 def main() -> None:
@@ -147,7 +158,8 @@ def main() -> None:
     debug_dir.mkdir(parents=True, exist_ok=True)
 
     with out_path.open("w", encoding="utf-8", errors="replace") as f:
-        for row in rows:
+        total = len(rows)
+        for idx, row in enumerate(rows, start=1):
             if not row.ref_blocks:
                 raise ValueError(f"row idx={row.idx} is missing reference_information.")
             template = make_output_record_template(row)
@@ -232,6 +244,7 @@ def main() -> None:
                 },
             )
             _write_json(debug_dir / f"record_{row.idx}.json", rec)
+            _print_progress(idx, total)
 
 
 if __name__ == "__main__":

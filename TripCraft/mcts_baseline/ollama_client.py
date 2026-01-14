@@ -11,7 +11,7 @@ class OllamaClient:
         self,
         base_url: str,
         model: str,
-        timeout_sec: float = 20.0,
+        timeout_sec: float = 999.0,
         prior_prompt_path: Optional[str] = None,
         value_prompt_path: Optional[str] = None,
     ):
