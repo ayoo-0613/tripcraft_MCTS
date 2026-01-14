@@ -1,4 +1,9 @@
+import os
+import sys
 import json
+import ast
+import csv
+from pathlib import Path
 import pandas as pd
 import numpy as np
 import torch
@@ -9,9 +14,14 @@ import numpy as np
 from scipy.stats import multivariate_normal, poisson
 import argparse
 
+# Allow running from within `evaluation/` (repo scripts follow this pattern).
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-# Load the cleaned attractions data
-attractions_data = pd.read_csv('attraction_csv_path')
+from utils.paths import tripcraft_db_root
+
+
+# Load the cleaned attractions data (used for visit_duration lookup in temporal score)
+attractions_data = pd.read_csv(tripcraft_db_root() / "attraction" / "cleaned_attractions_final.csv")
 
 def get_mu_d_type(attraction, city, attractions_data):
     """
@@ -25,18 +35,26 @@ def get_mu_d_type(attraction, city, attractions_data):
     Returns:
         float: The visit duration (mu_d_type) for the matching attraction and city.
     """
-    # Filter rows that match both the attraction name and city
-    match = attractions_data[
-        (attractions_data["City"].str.strip().str.lower() == city.strip().lower()) &
-        (attractions_data["name"].str.strip().str.lower() == attraction.strip().lower())
-    ]
+    attraction_norm = attraction.strip().lower()
+    city_norm = city.strip().lower() if city else ""
+
+    if city_norm:
+        match = attractions_data[
+            (attractions_data["City"].astype(str).str.strip().str.lower() == city_norm)
+            & (attractions_data["name"].astype(str).str.strip().str.lower() == attraction_norm)
+        ]
+    else:
+        # If city is missing (common for generated plans), fall back to name-only match.
+        match = attractions_data[attractions_data["name"].astype(str).str.strip().str.lower() == attraction_norm]
     
     # If a match is found, return the visit duration
     if not match.empty:
-        return int(match.iloc[0]["visit_duration"])
+        try:
+            return float(match.iloc[0]["visit_duration"])
+        except Exception:
+            return None
     else:
-        # Handle the case where no match is found (default or raise an error)
-        raise ValueError(f"No matching entry found for attraction '{attraction}' in city '{city}'.")
+        return None
 
 def get_bert_embedding(text, tokenizer, model):
     """Encodes text into a BERT embedding."""
@@ -107,10 +125,36 @@ def compute_persona_score(travel_plan, bert_model, bert_tokenizer):
     return avg_persona_score
 
 def calculate_persona_score(travel_plan):
-    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    model = BertModel.from_pretrained("bert-base-uncased")
-    persona_score = compute_persona_score(travel_plan, model, tokenizer)
-    return persona_score
+    tokenizer, model = _get_bert()
+    if tokenizer is None or model is None:
+        return -1
+    try:
+        return compute_persona_score(travel_plan, model, tokenizer)
+    except Exception:
+        return -1
+
+
+_BERT_TOKENIZER = None
+_BERT_MODEL = None
+_BERT_TRIED = False
+
+
+def _get_bert():
+    global _BERT_TOKENIZER, _BERT_MODEL, _BERT_TRIED
+    if _BERT_TRIED:
+        return _BERT_TOKENIZER, _BERT_MODEL
+    _BERT_TRIED = True
+    try:
+        try:
+            _BERT_TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased", local_files_only=True)
+            _BERT_MODEL = BertModel.from_pretrained("bert-base-uncased", local_files_only=True)
+        except TypeError:
+            _BERT_TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
+            _BERT_MODEL = BertModel.from_pretrained("bert-base-uncased")
+    except Exception:
+        _BERT_TOKENIZER = None
+        _BERT_MODEL = None
+    return _BERT_TOKENIZER, _BERT_MODEL
 
 # Function to calculate Weighted Edit Distance (WED)
 def calculate_wed(gen_sequence, anno_sequence, weight_fn):
@@ -273,12 +317,10 @@ def calculate_temporal_score(travel_plan):
                         # end_time = time_info[1].split(",")[0].strip()
                         try:
                             time_info = poi.split("from")[1].split("to")
-                            print(time_info)
                             start_time = time_info[0].strip()
                             end_time = time_info[1].split(",")[0].strip()
                         except:
                             time_info = poi.rsplit("from", 1)[1].split("to")
-                            print(time_info)
                             start_time = time_info[0].strip()
                             end_time = time_info[1].split(",")[0].strip()
 
@@ -324,12 +366,10 @@ def calculate_temporal_score(travel_plan):
                 if attraction.strip() in poi and attraction.strip() != "-":
                     try:
                         time_info = poi.split("from")[1].split("to")
-                        print(time_info)
                         start_time = time_info[0].strip()
                         end_time = time_info[1].split(",")[0].strip()
                     except:
                         time_info = poi.rsplit("from", 1)[1].split("to")
-                        print(time_info)
                         start_time = time_info[0].strip()
                         end_time = time_info[1].split(",")[0].strip()
                     
@@ -338,10 +378,8 @@ def calculate_temporal_score(travel_plan):
                     duration = end_hour - start_hour
 
                     # Dynamically calculate mu_d_type
-                    try:
-                        mu_d_type = get_mu_d_type(attraction, city, attractions_data)
-                    except ValueError as e:
-                        print(e)
+                    mu_d_type = get_mu_d_type(attraction, city, attractions_data)
+                    if mu_d_type is None:
                         continue  # Skip this attraction if no match is found
 
                     if "Adventure Seeker" in travel_plan["persona"]:
@@ -396,27 +434,53 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--gen_file", type=str, default="./")
     parser.add_argument("--anno_file", type=str, default="./")
+    parser.add_argument("--max_samples", type=int, default=0, help="If >0, only evaluate first N samples.")
     args = parser.parse_args()
     
     gen_file_path = args.gen_file
-    anno_jsonl_file_path = args.anno_file
+    anno_file_path = args.anno_file
 
     metrics_list = []
     progress = 0
 
-    # Open both files simultaneously
-    with open(gen_file_path, 'r', encoding='utf-8') as file1, open(anno_jsonl_file_path, 'r', encoding='utf-8') as file2:
-        for line1, line2 in zip(file1, file2):
-            # Parse each line as a JSON object
-            progress += 1
-            json_object1 = json.loads(line1)
-            json_object2 = json.loads(line2)
-        
-            if json_object1["plan"][0]["days"] == 0:
-                metrics_list.append({"temporal_score": -1, "spatial_score": -1, "ordering_score": -1, "persona_score": -1})
-            else:
-                metrics_list.append({"temporal_score": calculate_temporal_score(json_object1), "spatial_score": calculate_spatial_score(json_object1), "ordering_score": calculate_ordering_score(json_object1,json_object_2), "persona_score": calculate_persona_score(json_object1)})
-            print(progress)  # Access the JSON object (a dictionary in Python)
+    def iter_jsonl(path: str):
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                yield json.loads(line)
+
+    def iter_anno(path: str):
+        if path.lower().endswith(".csv"):
+            with open(path, newline="", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for i, row in enumerate(reader, start=1):
+                    plan = ast.literal_eval(row["annotation_plan"]) if row.get("annotation_plan") else []
+                    yield {
+                        "idx": int(row.get("idx") or i),
+                        "persona": row.get("persona") or "",
+                        "plan": plan,
+                    }
+        else:
+            yield from iter_jsonl(path)
+
+    for json_object1, json_object2 in zip(iter_jsonl(gen_file_path), iter_anno(anno_file_path)):
+        if args.max_samples and progress >= args.max_samples:
+            break
+        progress += 1
+        if json_object1["plan"][0]["days"] == 0:
+            metrics_list.append({"temporal_score": -1, "spatial_score": -1, "ordering_score": -1, "persona_score": -1})
+        else:
+            metrics_list.append(
+                {
+                    "temporal_score": calculate_temporal_score(json_object1),
+                    "spatial_score": calculate_spatial_score(json_object1),
+                    "ordering_score": calculate_ordering_score(json_object2, json_object1),
+                    "persona_score": calculate_persona_score(json_object1),
+                }
+            )
+        print(progress)
 
     print(len(metrics_list))
     for met_dict in metrics_list:
@@ -460,4 +524,3 @@ if __name__ == '__main__':
     print("avg_spatial:", sum_spatial_sc/num)
     print("avg_ord:", sum_ord_sc/num)
     print("avg_persona:", sum_persona_sc/num)
-

@@ -2,10 +2,13 @@ import pandas as pd
 from pandas import DataFrame
 from typing import Optional
 # from utils.func import extract_before_parenthesis
+from utils.paths import tripcraft_db_root
 
 class Flights:
 
-    def __init__(self, path='/home/mtech/ATP_database/flights/cleaned_flights_november_2024.csv'):
+    def __init__(self, path: Optional[str] = None):
+        if path is None:
+            path = str(tripcraft_db_root() / "flights" / "cleaned_flights_november_2024.csv")
         self.path = path
         self.data = None
 

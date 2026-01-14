@@ -4,6 +4,7 @@ from tools.restaurants.apis import Restaurants
 from tools.googleDistanceMatrix.apis import GoogleDistanceMatrix
 from tools.attractions.apis import Attractions
 from tools.events.apis import Events
+from utils.paths import tripcraft_db_root
 import pandas as pd
 import json
 
@@ -95,7 +96,7 @@ def budget_calc(org, dest, days, date:list , people_number=None, local_constrain
 
 
     elif grain == "state":
-        city_set = open('/home/mtech/ATP_database/background/citySet_with_states_140.txt').read().strip().split('\n')
+        city_set = open(tripcraft_db_root() / "background" / "citySet_with_states_140.txt").read().strip().split('\n')
         
         all_hotel_data = []
         all_restaurant_data = []
@@ -293,4 +294,3 @@ def budget_calc(org, dest, days, date:list , people_number=None, local_constrain
         budgets[mode] = total_budget
 
     return budgets
-

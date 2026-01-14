@@ -13,6 +13,7 @@ import sys
 from tqdm import tqdm
 import argparse
 import pandas as pd
+from utils.paths import tripcraft_db_root
 
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -23,9 +24,10 @@ restaurants = Restaurants()
 googleDistanceMatrix = GoogleDistanceMatrix()
 attractions = Attractions()
 events = Events()
-pois = pd.read_csv('/home/soumya/ATP_database/all_poi_nearest_stops.csv')
+_DB_ROOT = tripcraft_db_root()
+pois = pd.read_csv(_DB_ROOT / "public_transit_gtfs" / "all_poi_nearest_stops.csv")
 
-city_state_set = open('/home/soumya/ATP_database/background/citySet_with_states_140.txt','r').read().split('\n')
+city_state_set = open(_DB_ROOT / "background" / "citySet_with_states_140.txt", "r").read().split('\n')
 city_state_map = {x:y for x,y in [unit.split('\t') for unit in city_state_set]}
 
 

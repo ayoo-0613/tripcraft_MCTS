@@ -2,9 +2,12 @@ import pandas as pd
 from pandas import DataFrame
 from typing import Optional
 # from utils.func import extract_before_parenthesis
+from utils.paths import tripcraft_db_root
 
 class Restaurants:
-    def __init__(self, path='/home/mtech/ATP_database/restaurants/cleaned_restaurant_details_2024.csv'):
+    def __init__(self, path: Optional[str] = None):
+        if path is None:
+            path = str(tripcraft_db_root() / "restaurants" / "cleaned_restaurant_details_2024.csv")
         self.path = path
         self.data = pd.read_csv(self.path)[['name','avg_cost','cuisines','rating','City']].dropna(subset=['name', 'avg_cost', 'cuisines', 'rating', 'City'])
         print("Restaurants loaded.")

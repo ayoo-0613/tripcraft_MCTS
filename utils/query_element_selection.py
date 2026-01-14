@@ -9,10 +9,12 @@ import json
 from datetime import datetime, timedelta
 from tools.googleDistanceMatrix.apis import GoogleDistanceMatrix
 import numpy as np
+from utils.paths import tripcraft_db_root
 
 google_distance = GoogleDistanceMatrix()
 
-city_set = open('/home/soumya/ATP_database/background/citySet_with_states_140.txt').read().strip().split('\n')
+_DB_ROOT = tripcraft_db_root()
+city_set = open(_DB_ROOT / "background" / "citySet_with_states_140.txt").read().strip().split('\n')
 
 state_city_map = {}
 
@@ -50,7 +52,7 @@ def select_consecutive_dates(num_days, start_date=datetime(2024, 11, 1), end_dat
 
 def get_org_dest(days:int):
     if days == 3:
-        city_set = open('/home/soumya/ATP_database/background/citySet_with_states_140.txt').read().strip().split('\n')
+        city_set = open(_DB_ROOT / "background" / "citySet_with_states_140.txt").read().strip().split('\n')
 
         org = random.choice(city_set)
 
@@ -64,7 +66,7 @@ def get_org_dest(days:int):
 
     elif days in [5,7]:
     
-        state_set = open('/home/soumya/ATP_database/background/citySet_with_states_140.txt').read().strip().split('\n')
+        state_set = open(_DB_ROOT / "background" / "citySet_with_states_140.txt").read().strip().split('\n')
         org = random.choice(state_set)
 
         while True:
@@ -266,7 +268,9 @@ if __name__ == "__main__":
     for num, day_list in zip([200,200,200], [[3],[5],[7]]):
         query_list = generate_elements(num,"easy",day_list=day_list)
 
-        with open('/home/soumya/MLTP/final_annotation_easy.jsonl', 'a+') as f:
+        out_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "output", "final_annotation_easy.jsonl"))
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, 'a+', encoding='utf-8') as f:
             for query in query_list:
                 # print(query)
                 json.dump(query, f)

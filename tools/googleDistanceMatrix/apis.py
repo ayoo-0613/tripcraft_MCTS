@@ -8,6 +8,7 @@ import time
 import sys
 import pandas as pd
 import numpy as np
+from utils.paths import tripcraft_db_root
 
 # This tool refers to the "DistanceMatrix" in the paper. Considering this data obtained from Google API, we consistently use this name in the code. 
 # Please be assured that this will not influence the experiment results shown in the paper. 
@@ -19,7 +20,7 @@ def extract_before_parenthesis(s):
 class GoogleDistanceMatrix:
     def __init__(self, subscription_key: str="") -> None:
         self.gplaces_api_key: str = subscription_key
-        self.data =  pd.read_csv('/home/mtech/ATP_database/distance_matrix/city_distances_times_full.csv')
+        self.data = pd.read_csv(tripcraft_db_root() / "distance_matrix" / "city_distances_times_full.csv")
         print("OSM_DistanceMatrix loaded.")
 
     def run(self, origin, destination, mode='driving'):
