@@ -18,7 +18,7 @@ export MPLCONFIGDIR
 
 run_one() {
   local day="$1"
-  local csv="${ROOT_DIR}/TripCraft/TripCraftzip/tripcraft_${day}day.csv"
+  local csv="${ROOT_DIR}/Tripcraft/Tripcraftzip/tripcraft_${day}day.csv"
   local out="${OUTPUT_DIR}/mcts_baseline_${day}day.jsonl"
 
   echo "==> Generate ${day}-day: ${out}"
