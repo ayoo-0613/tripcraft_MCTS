@@ -12,6 +12,11 @@ GUIDANCE_BASE_URL="${GUIDANCE_BASE_URL:-http://localhost:11434}"
 GUIDANCE_TIMEOUT="${GUIDANCE_TIMEOUT:-999}"
 GUIDANCE_VALUE_WEIGHT="${GUIDANCE_VALUE_WEIGHT:-0}"
 GUIDANCE_PRIOR_C="${GUIDANCE_PRIOR_C:-1.4}"
+LLM_MODEL="${LLM_MODEL:-$GUIDANCE_MODEL}"
+LLM_BASE_URL="${LLM_BASE_URL:-$GUIDANCE_BASE_URL}"
+TEMPORAL_GUIDANCE="${TEMPORAL_GUIDANCE:-ollama}"
+TEMPORAL_PROMPT="${TEMPORAL_PROMPT:-}"
+TEMPORAL_TIMEOUT="${TEMPORAL_TIMEOUT:-}"
 
 mkdir -p "$OUTPUT_DIR" "$MPLCONFIGDIR"
 export MPLCONFIGDIR
@@ -28,11 +33,14 @@ run_one() {
     --rollouts "$ROLL_OUTS" \
     --topk "$TOPK" \
     --guidance "$GUIDANCE_MODE" \
-    --guidance_model "$GUIDANCE_MODEL" \
-    --guidance_base_url "$GUIDANCE_BASE_URL" \
+    --llm_model "$LLM_MODEL" \
+    --llm_base_url "$LLM_BASE_URL" \
     --guidance_timeout "$GUIDANCE_TIMEOUT" \
     --guidance_value_weight "$GUIDANCE_VALUE_WEIGHT" \
-    --guidance_prior_c "$GUIDANCE_PRIOR_C"
+    --guidance_prior_c "$GUIDANCE_PRIOR_C" \
+    --temporal_guidance "$TEMPORAL_GUIDANCE" \
+    ${TEMPORAL_PROMPT:+--temporal_prompt "$TEMPORAL_PROMPT"} \
+    ${TEMPORAL_TIMEOUT:+--temporal_timeout "$TEMPORAL_TIMEOUT"}
 
 }
 

@@ -223,7 +223,7 @@ def build_guidance(cfg: GuidanceConfig) -> GuidanceModel:
         base_url = cfg.base_url or os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
         model = cfg.model or os.environ.get("OLLAMA_MODEL")
         if not model:
-            raise ValueError("Ollama guidance requires --guidance_model or OLLAMA_MODEL.")
+            raise ValueError("Ollama guidance requires --llm_model, llm_config:model, or OLLAMA_MODEL.")
         return OllamaGuidance(
             base_url=base_url,
             model=model,

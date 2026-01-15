@@ -9,11 +9,16 @@ draft has: breakfast, lunch, dinner, accommodation, attractions (list).
 current_city may be "from A to B" (accept A or B).
 actions_json is a list of actions with:
 - type: set_accommodation / set_breakfast / set_lunch / set_dinner / add_attraction / add_event
+  (may also include set_transport, end_day, or skip_*).
+- eval_poi_name: the exact POI name string that will appear in point_of_interest_list
+  before "stay"/"visit" (this is the evaluator's input).
 - name and meta fields (meta.poi_name or meta.name), meta.city, meta.cuisines/subcategories,
   meta.rating, meta.avg_cost/pricing, meta.roomType/house_rules, meta.max_occupancy.
 
 SCORING STEPS:
 1) Hard filter (assign tiny score like 1e-6):
+   - if action.type is set_transport, end_day, or starts with "skip_"
+   - if poi_name is empty or "-"
    - room type mismatch with local_constraint["room type"]
    - house rule conflict, max_occupancy < people_number (if provided)
    - meal cuisine mismatch with local_constraint["cuisine"] (if provided)
@@ -21,21 +26,24 @@ SCORING STEPS:
    - event type mismatch with local_constraint["event"] (if provided)
    - city mismatch: meta.city not in current_city (or not in A/B for "from A to B")
 
-2) Persona alignment (main score):
-   - Traveler Type: laidback -> calm/indoor/slow (museum/gallery/library/cafe/park walk);
-     adventure -> outdoor/sports/trail/climbing/long activities.
-   - Purpose: nature -> park/trail/river/falls/garden/scenic; cultural -> museum/history/art/theatre;
-     food -> restaurant actions weighted higher.
-   - Spending: luxury -> higher rating and higher avg_cost/pricing; budget -> lower cost.
-   - Location: mountains -> trail/ridge/summit/overlook; beaches -> beach/harbor/coast/boat.
+2) Persona alignment (main score, aligned with qualitative_metrics.py):
+   - Parse persona into 4 components:
+     "Traveler Type", "Purpose of Travel", "Spending Preference", "Location Preference".
+   - Extract poi_name as action.eval_poi_name (fallback: action.name).
+   - Estimate semantic similarity between poi_name TEXT and each persona component TEXT.
+   - Score = average of the 4 similarities.
+   - IMPORTANT: use poi_name text only for this step; do not use tags, cuisines, ratings.
+   - Accommodation actions are counted twice in point_of_interest_list (stay blocks),
+     so multiply the persona score by 2 for type set_accommodation.
 
 3) Dedup penalty:
    - if poi_name already appears in state_json.used_pois or draft fields, reduce score.
    - avoid repeating the same restaurant or attraction in the same day.
 
-4) Coverage incentive:
+4) Secondary tie-breakers (only if persona scores are similar):
    - if required cuisines/attraction/event types are not yet covered in the draft,
      prefer actions that cover them.
+   - if costs/pricing exist, prefer those that match budget constraints.
 
 MAP TO PRIORS:
 Use softmax(score / T) with T=0.5, then normalize to sum=1.

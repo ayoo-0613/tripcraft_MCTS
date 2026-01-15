@@ -78,6 +78,8 @@ def main() -> None:
     parser.add_argument("--topk", type=int, default=5)
     parser.add_argument("--debug_dir", type=str, default=None)
     parser.add_argument("--llm_config", type=str, default=None)
+    parser.add_argument("--llm_model", type=str, default=None)
+    parser.add_argument("--llm_base_url", type=str, default=None)
     parser.add_argument("--query_prompt", type=str, default=None)
     parser.add_argument("--query_output_json", type=str, default=None)
     parser.add_argument("--query_context_json", type=str, default=None)
@@ -94,8 +96,6 @@ def main() -> None:
     parser.add_argument("--guidance_value_weight", type=float, default=0.0)
     parser.add_argument("--guidance_prior_c", type=float, default=1.4)
     parser.add_argument("--temporal_guidance", type=str, default="none", choices=["none", "ollama"])
-    parser.add_argument("--temporal_model", type=str, default=None)
-    parser.add_argument("--temporal_base_url", type=str, default=None)
     parser.add_argument("--temporal_prompt", type=str, default=None)
     parser.add_argument("--temporal_timeout", type=float, default=None)
     args = parser.parse_args()
@@ -105,8 +105,17 @@ def main() -> None:
         raise ValueError("--guidance_value_weight must be in [0, 1].")
 
     llm_cfg = _load_llm_config(args.llm_config)
-    query_model = args.query_model or _cfg_get(llm_cfg, "model", "query_model")
-    query_base_url = args.query_base_url or _cfg_get(llm_cfg, "base_url", "query_base_url") or "http://localhost:11434"
+    llm_model = args.llm_model or _cfg_get(llm_cfg, "model")
+    if llm_model is None:
+        llm_model = args.guidance_model or args.query_model or _cfg_get(llm_cfg, "guidance_model", "query_model")
+    llm_base_url = args.llm_base_url or _cfg_get(llm_cfg, "base_url")
+    if llm_base_url is None:
+        llm_base_url = args.guidance_base_url or args.query_base_url or _cfg_get(llm_cfg, "guidance_base_url", "query_base_url")
+    if llm_base_url is None:
+        llm_base_url = "http://localhost:11434"
+
+    query_model = llm_model
+    query_base_url = llm_base_url
     query_timeout = args.query_timeout
     if query_timeout is None:
         query_timeout = _cfg_get(llm_cfg, "timeout_sec", "query_timeout_sec")
@@ -114,8 +123,8 @@ def main() -> None:
     query_prompt_path = args.query_prompt or _cfg_get(llm_cfg, "query_prompt")
 
     guidance_endpoint = args.guidance_endpoint or _cfg_get(llm_cfg, "endpoint", "guidance_endpoint")
-    guidance_model = args.guidance_model or _cfg_get(llm_cfg, "model", "guidance_model")
-    guidance_base_url = args.guidance_base_url or _cfg_get(llm_cfg, "base_url", "guidance_base_url")
+    guidance_model = llm_model
+    guidance_base_url = llm_base_url
     guidance_prior_prompt = args.guidance_prior_prompt or _cfg_get(llm_cfg, "prior_prompt", "guidance_prior_prompt")
     guidance_value_prompt = args.guidance_value_prompt or _cfg_get(llm_cfg, "value_prompt", "guidance_value_prompt")
     guidance_timeout = args.guidance_timeout
@@ -123,12 +132,8 @@ def main() -> None:
         guidance_timeout = _cfg_get(llm_cfg, "timeout_sec", "guidance_timeout_sec")
     guidance_timeout = float(guidance_timeout) if guidance_timeout is not None else 10.0
 
-    temporal_model = args.temporal_model or _cfg_get(llm_cfg, "temporal_model")
-    if temporal_model is None:
-        temporal_model = guidance_model
-    temporal_base_url = args.temporal_base_url or _cfg_get(llm_cfg, "temporal_base_url")
-    if temporal_base_url is None:
-        temporal_base_url = guidance_base_url or "http://localhost:11434"
+    temporal_model = llm_model
+    temporal_base_url = llm_base_url
     temporal_prompt = args.temporal_prompt or _cfg_get(llm_cfg, "temporal_prompt")
     temporal_timeout = args.temporal_timeout
     if temporal_timeout is None:
@@ -147,7 +152,7 @@ def main() -> None:
         if not query_text:
             raise ValueError("Query input is empty.")
         if not query_model:
-            raise ValueError("--query_model is required when using --input_query or --input_query_file.")
+            raise ValueError("--llm_model or llm_config:model is required when using --input_query or --input_query_file.")
 
         prompt_path = Path(__file__).parent / "prompts" / "query_to_json.txt"
         prompt_template = _load_prompt(query_prompt_path, prompt_path)
@@ -196,7 +201,7 @@ def main() -> None:
             temporal_client = None
             if args.temporal_guidance == "ollama":
                 if not temporal_model:
-                    raise ValueError("Temporal guidance requires --temporal_model or LLM config temporal_model.")
+                    raise ValueError("Temporal guidance requires --llm_model or llm_config:model.")
                 temporal_client = OllamaClient(
                     base_url=temporal_base_url,
                     model=temporal_model,

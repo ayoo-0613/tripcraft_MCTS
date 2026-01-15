@@ -712,6 +712,7 @@ class TripCraftEnv:
                     "raw": t.raw,
                     "from": frm,
                     "to": to,
+                    "eval_poi_name": "-",
                     "meta": {"cost": t.cost, "mode": t.mode, "duration_min": t.duration_min},
                     "candidates": [x.raw for x in options],
                 }
@@ -722,6 +723,7 @@ class TripCraftEnv:
                 "raw": f"Transfer, from {frm} to {to}",
                 "from": frm,
                 "to": to,
+                "eval_poi_name": "-",
                 "meta": {"cost": 0.0, "mode": "transfer"},
                 "candidates": [f"Transfer, from {frm} to {to}"],
             }
@@ -731,56 +733,79 @@ class TripCraftEnv:
 
         if slot == "accommodation":
             cands = topk_accommodations(stage, local_constraint=self.row.local_constraint, k=topk)
-            return [{"type": "set_accommodation", "name": c["name"], "meta": c, "candidates": [x["name"] for x in cands]} for c in cands]
+            return [
+                {
+                    "type": "set_accommodation",
+                    "name": c["name"],
+                    "eval_poi_name": c["name"],
+                    "meta": c,
+                    "candidates": [x["name"] for x in cands],
+                }
+                for c in cands
+            ]
 
         if slot in {"breakfast", "lunch", "dinner"}:
             if self._slot_conflicts_transport(draft, slot):
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             missing_cuisines = self._missing_cuisines(state)
             day_missing = self._day_missing_cuisines(state, state.day)
             if slot in {"lunch", "dinner"} and not missing_cuisines and not day_missing:
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             cands = topk_restaurants(stage, meal=slot, local_constraint=self.row.local_constraint, k=topk)
             cands = [c for c in cands if (c["name"], stage.city) not in used_restaurants]
             target_missing = day_missing or missing_cuisines
             if target_missing:
                 helpful = [c for c in cands if self._covers_missing_cuisine(stage, c, target_missing)]
                 if slot in {"lunch", "dinner"} and not helpful and not cands:
-                    return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                    return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
                 if helpful:
                     cands = sorted(cands, key=lambda c: 0 if self._covers_missing_cuisine(stage, c, target_missing) else 1)
             if not cands:
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             actions: List[Dict[str, Any]] = [
-                {"type": f"set_{slot}", "name": c["name"], "meta": c, "candidates": [x["name"] for x in cands]} for c in cands
+                {
+                    "type": f"set_{slot}",
+                    "name": c["name"],
+                    "eval_poi_name": c["name"],
+                    "meta": c,
+                    "candidates": [x["name"] for x in cands],
+                }
+                for c in cands
             ]
             return actions[:topk]
 
         if slot in {"attraction1", "attraction2"}:
             if self._slot_conflicts_transport(draft, slot):
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             missing_types = self._missing_attraction_types(state)
             day_missing = self._day_missing_attraction_types(state, state.day)
             if slot == "attraction2" and not missing_types and not day_missing:
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             cands = topk_attractions(stage, local_constraint=self.row.local_constraint, k=topk)
             cands = [c for c in cands if (c["name"], stage.city) not in used_attractions]
             target_missing = day_missing or missing_types
             if target_missing:
                 helpful = [c for c in cands if self._covers_missing_attraction(stage, c, target_missing)]
                 if slot == "attraction2" and not helpful and not cands:
-                    return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                    return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
                 if helpful:
                     cands = sorted(cands, key=lambda c: 0 if self._covers_missing_attraction(stage, c, target_missing) else 1)
             if not cands:
-                return [{"type": f"skip_{slot}", "name": "-", "candidates": ["-"]}]
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             actions = [
-                {"type": f"add_{slot}", "name": c["name"], "meta": c, "candidates": [x["name"] for x in cands]} for c in cands
+                {
+                    "type": f"add_{slot}",
+                    "name": c["name"],
+                    "eval_poi_name": c["name"],
+                    "meta": c,
+                    "candidates": [x["name"] for x in cands],
+                }
+                for c in cands
             ]
             return actions[:topk]
 
         if slot == "end_day":
-            return [{"type": "end_day"}]
+            return [{"type": "end_day", "eval_poi_name": "-"}]
 
         return []
 

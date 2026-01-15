@@ -12,7 +12,12 @@ GUIDANCE_MODE="${GUIDANCE_MODE:-ollama}"
 GUIDANCE_VALUE_WEIGHT="${GUIDANCE_VALUE_WEIGHT:-0.2}"
 GUIDANCE_PRIOR_C="${GUIDANCE_PRIOR_C:-1.4}"
 GUIDANCE_TIMEOUT="${GUIDANCE_TIMEOUT:-999}"
+TEMPORAL_GUIDANCE="${TEMPORAL_GUIDANCE:-ollama}"
+TEMPORAL_PROMPT="${TEMPORAL_PROMPT:-}"
+TEMPORAL_TIMEOUT="${TEMPORAL_TIMEOUT:-}"
 LLM_CONFIG="${LLM_CONFIG:-}"
+LLM_MODEL="${LLM_MODEL:-}"
+LLM_BASE_URL="${LLM_BASE_URL:-}"
 
 QUERY_TEXT="${QUERY_TEXT:-}"
 QUERY_FILE="${QUERY_FILE:-}"
@@ -23,8 +28,8 @@ QUERY_OUTPUT_JSONL="${QUERY_OUTPUT_JSONL:-${OUTPUT_DIR}/mcts_baseline_query.json
 mkdir -p "$OUTPUT_DIR" "$MPLCONFIGDIR"
 export MPLCONFIGDIR
 
-if [[ "$GUIDANCE_MODE" != "none" && -z "$LLM_CONFIG" ]]; then
-  echo "LLM_CONFIG is required when GUIDANCE_MODE is not 'none'." >&2
+if [[ ( "$GUIDANCE_MODE" != "none" || "$TEMPORAL_GUIDANCE" != "none" ) && -z "$LLM_CONFIG" && -z "$LLM_MODEL" ]]; then
+  echo "LLM_CONFIG or LLM_MODEL is required when guidance is enabled." >&2
   exit 1
 fi
 
@@ -41,11 +46,26 @@ run_query() {
   if [[ -n "$LLM_CONFIG" ]]; then
     args+=(--llm_config "$LLM_CONFIG")
   fi
+  if [[ -n "$LLM_MODEL" ]]; then
+    args+=(--llm_model "$LLM_MODEL")
+  fi
+  if [[ -n "$LLM_BASE_URL" ]]; then
+    args+=(--llm_base_url "$LLM_BASE_URL")
+  fi
   if [[ "$GUIDANCE_MODE" != "none" ]]; then
     args+=(--guidance "$GUIDANCE_MODE")
     args+=(--guidance_value_weight "$GUIDANCE_VALUE_WEIGHT")
     args+=(--guidance_prior_c "$GUIDANCE_PRIOR_C")
     args+=(--guidance_timeout "$GUIDANCE_TIMEOUT")
+  fi
+  if [[ "$TEMPORAL_GUIDANCE" != "none" ]]; then
+    args+=(--temporal_guidance "$TEMPORAL_GUIDANCE")
+    if [[ -n "$TEMPORAL_PROMPT" ]]; then
+      args+=(--temporal_prompt "$TEMPORAL_PROMPT")
+    fi
+    if [[ -n "$TEMPORAL_TIMEOUT" ]]; then
+      args+=(--temporal_timeout "$TEMPORAL_TIMEOUT")
+    fi
   fi
   if [[ -n "$QUERY_TEXT" ]]; then
     args+=(--input_query "$QUERY_TEXT")
@@ -79,11 +99,26 @@ run_one() {
   if [[ -n "$LLM_CONFIG" ]]; then
     args+=(--llm_config "$LLM_CONFIG")
   fi
+  if [[ -n "$LLM_MODEL" ]]; then
+    args+=(--llm_model "$LLM_MODEL")
+  fi
+  if [[ -n "$LLM_BASE_URL" ]]; then
+    args+=(--llm_base_url "$LLM_BASE_URL")
+  fi
   if [[ "$GUIDANCE_MODE" != "none" ]]; then
     args+=(--guidance "$GUIDANCE_MODE")
     args+=(--guidance_value_weight "$GUIDANCE_VALUE_WEIGHT")
     args+=(--guidance_prior_c "$GUIDANCE_PRIOR_C")
     args+=(--guidance_timeout "$GUIDANCE_TIMEOUT")
+  fi
+  if [[ "$TEMPORAL_GUIDANCE" != "none" ]]; then
+    args+=(--temporal_guidance "$TEMPORAL_GUIDANCE")
+    if [[ -n "$TEMPORAL_PROMPT" ]]; then
+      args+=(--temporal_prompt "$TEMPORAL_PROMPT")
+    fi
+    if [[ -n "$TEMPORAL_TIMEOUT" ]]; then
+      args+=(--temporal_timeout "$TEMPORAL_TIMEOUT")
+    fi
   fi
   "${args[@]}"
 
