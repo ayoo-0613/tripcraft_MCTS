@@ -1,11 +1,17 @@
 from __future__ import annotations
 
 import ast
+import math
+import re
+import unicodedata
 from typing import Any, Dict, List, Optional
 
 import pandas as pd
 
 from .kb import StageKB, TransportOption, UnifiedKB
+
+
+_DISTANCE_RERANK_MULTIPLIER = 3
 
 
 def _as_float(x: Any) -> Optional[float]:
@@ -62,7 +68,72 @@ def _normalize_list(val: Any) -> List[str]:
             except Exception:
                 return [val]
         return [val]
-    return []
+    return [] 
+
+
+def _sort_num(val: Any, default: float) -> float:
+    try:
+        f = float(val)
+        if math.isnan(f):
+            return default
+        return f
+    except Exception:
+        return default
+
+
+def _normalize_text(text: str) -> str:
+    s = unicodedata.normalize("NFKC", str(text or "")).lower().strip()
+    s = s.replace("\u2019", "'")
+    s = re.sub(r"\s+", " ", s)
+    s = re.sub(r"[“”]", '"', s)
+    s = re.sub(r"[()\[\]{}]", " ", s)
+    s = re.sub(r"[^a-z0-9\s'\",:&-]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def _strip_city_suffix(name: str, city: str) -> str:
+    n = str(name or "").strip()
+    c = str(city or "").strip()
+    if not c:
+        return n
+    nl = _normalize_text(n)
+    cl = _normalize_text(c)
+    if nl.endswith(", " + cl):
+        return n[: -(len(c) + 2)].strip()
+    if nl.endswith(" " + cl):
+        return n[: -(len(c) + 1)].strip()
+    return n
+
+
+def _nearest_distance(df: pd.DataFrame) -> float:
+    row0 = df.sort_values(by=["nearest_stop_distance"], ascending=True, na_position="last").iloc[0]
+    try:
+        return float(row0.get("nearest_stop_distance"))
+    except Exception:
+        return 99999.0
+
+
+def _lookup_transit_distance(stage: StageKB, poi_name: str) -> float:
+    df = stage.poi2transit if stage is not None else None
+    if df is not None and not df.empty and "PoI" in df.columns:
+        hit = df[df["PoI"] == poi_name]
+        if not hit.empty:
+            return _nearest_distance(hit)
+
+        target = _normalize_text(_strip_city_suffix(poi_name, stage.city))
+        if target != "":
+            norm_col = "__norm_poi"
+            if norm_col not in df.columns:
+                df[norm_col] = df["PoI"].astype(str).apply(lambda x: _normalize_text(_strip_city_suffix(x, stage.city)))
+
+            hit = df[df[norm_col] == target]
+            if hit.empty:
+                hit = df[df[norm_col].apply(lambda x: target in x or x in target)]
+            if not hit.empty:
+                return _nearest_distance(hit)
+
+    return 99999.0
 
 
 def topk_accommodations(stage: StageKB, local_constraint: Dict[str, Any], k: int) -> List[Dict[str, Any]]:
@@ -112,19 +183,31 @@ def topk_accommodations(stage: StageKB, local_constraint: Dict[str, Any], k: int
         df["__pricing"] = pd.NA
 
     df = df.sort_values(by=["__rating", "__pricing"], ascending=[False, True], na_position="last")
-    out: List[Dict[str, Any]] = []
-    for _, r in df.head(k).iterrows():
-        out.append(
+    pool_k = min(len(df), max(k * _DISTANCE_RERANK_MULTIPLIER, k))
+    pool: List[Dict[str, Any]] = []
+    for _, r in df.head(pool_k).iterrows():
+        name = str(r.get("name"))
+        pool.append(
             {
-                "name": str(r.get("name")),
+                "name": name,
                 "city": stage.city,
-                "raw": str(r.get("name")),
+                "raw": name,
                 "pricing_value": _as_float(r.get("pricing_value") if "pricing_value" in r else None),
                 "rating": _as_float(r.get("rating") if "rating" in r else None),
                 "max_occupancy": _as_float(r.get("max_occupancy") if "max_occupancy" in r else None),
                 "pricing_raw": r.get("pricing") if "pricing" in r else None,
+                "_dist": _lookup_transit_distance(stage, name),
+                "_rating": _sort_num(r.get("__rating"), 0.0),
+                "_pricing": _sort_num(r.get("__pricing"), float("inf")),
             }
         )
+    pool.sort(key=lambda c: (c["_dist"], -c["_rating"], c["_pricing"]))
+    out: List[Dict[str, Any]] = []
+    for cand in pool[:k]:
+        cand.pop("_dist", None)
+        cand.pop("_rating", None)
+        cand.pop("_pricing", None)
+        out.append(cand)
     return out
 
 
@@ -148,19 +231,31 @@ def topk_restaurants(stage: StageKB, meal: str, local_constraint: Dict[str, Any]
         df["__avg_cost"] = pd.NA
 
     df = df.sort_values(by=["__rating", "__avg_cost"], ascending=[False, True], na_position="last")
-    out: List[Dict[str, Any]] = []
-    for _, r in df.head(k).iterrows():
-        out.append(
+    pool_k = min(len(df), max(k * _DISTANCE_RERANK_MULTIPLIER, k))
+    pool: List[Dict[str, Any]] = []
+    for _, r in df.head(pool_k).iterrows():
+        name = str(r.get("name"))
+        pool.append(
             {
-                "name": str(r.get("name")),
+                "name": name,
                 "city": stage.city,
-                "raw": str(r.get("name")),
+                "raw": name,
                 "avg_cost": _as_float(r.get("avg_cost") if "avg_cost" in r else None),
                 "rating": _as_float(r.get("rating") if "rating" in r else None),
                 "meal": meal,
                 "cuisines": _normalize_list(r.get("cuisines")),
+                "_dist": _lookup_transit_distance(stage, name),
+                "_rating": _sort_num(r.get("__rating"), 0.0),
+                "_avg_cost": _sort_num(r.get("__avg_cost"), float("inf")),
             }
         )
+    pool.sort(key=lambda c: (c["_dist"], -c["_rating"], c["_avg_cost"]))
+    out: List[Dict[str, Any]] = []
+    for cand in pool[:k]:
+        cand.pop("_dist", None)
+        cand.pop("_rating", None)
+        cand.pop("_avg_cost", None)
+        out.append(cand)
     return out
 
 
@@ -186,17 +281,27 @@ def topk_attractions(stage: StageKB, local_constraint: Dict[str, Any], k: int) -
     else:
         df["__score"] = 0.0
     df = df.sort_values(by=["__score"], ascending=[False], na_position="last")
-    out: List[Dict[str, Any]] = []
-    for _, r in df.head(k).iterrows():
-        out.append(
+    pool_k = min(len(df), max(k * _DISTANCE_RERANK_MULTIPLIER, k))
+    pool: List[Dict[str, Any]] = []
+    for _, r in df.head(pool_k).iterrows():
+        name = str(r.get("name"))
+        pool.append(
             {
-                "name": str(r.get("name")),
+                "name": name,
                 "city": stage.city,
-                "raw": str(r.get("name")),
+                "raw": name,
                 "visit_duration": _as_float(r.get("visit_duration") if "visit_duration" in r else None),
                 "subcategories": _normalize_list(r.get("subcategories")),
+                "_dist": _lookup_transit_distance(stage, name),
+                "_score": _sort_num(r.get("__score"), 0.0),
             }
         )
+    pool.sort(key=lambda c: (c["_dist"], -c["_score"]))
+    out: List[Dict[str, Any]] = []
+    for cand in pool[:k]:
+        cand.pop("_dist", None)
+        cand.pop("_score", None)
+        out.append(cand)
     return out
 
 

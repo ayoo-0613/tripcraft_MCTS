@@ -19,7 +19,7 @@ export MPLCONFIGDIR
 run_one() {
   local day="$1"
   local csv="${ROOT_DIR}/Tripcraft/Tripcraftzip/tripcraft_${day}day.csv"
-  local out="${OUTPUT_DIR}/mcts_baseline_${day}day.jsonl"
+  local out="${OUTPUT_DIR}/mcts_baseline_${day}gitday.jsonl"
 
   echo "==> Generate ${day}-day: ${out}"
   python -m mcts_baseline.cli \

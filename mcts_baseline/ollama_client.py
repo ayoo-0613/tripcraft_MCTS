@@ -14,6 +14,7 @@ class OllamaClient:
         timeout_sec: float = 999.0,
         prior_prompt_path: Optional[str] = None,
         value_prompt_path: Optional[str] = None,
+        temporal_prompt_path: Optional[str] = None,
     ):
         self.base_url = base_url.rstrip("/")
         self.model = model
@@ -25,6 +26,10 @@ class OllamaClient:
         self.value_prompt = _load_template(
             value_prompt_path,
             default_name="ollama_value.txt",
+        )
+        self.temporal_prompt = _load_template(
+            temporal_prompt_path,
+            default_name="ollama_temporal.txt",
         )
 
     def _chat(self, messages: List[Dict[str, str]]) -> str:
@@ -59,6 +64,18 @@ class OllamaClient:
         prompt = {"role": "user", "content": content}
         text = self._chat([prompt]).strip()
         return _parse_value(text)
+
+    def get_temporal_schedule(self, state_summary: Dict[str, Any], items: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+        if not items:
+            return []
+        content = _render_prompt(
+            self.temporal_prompt,
+            state_json=json.dumps(state_summary, ensure_ascii=True),
+            items_json=json.dumps(items, ensure_ascii=True),
+        )
+        prompt = {"role": "user", "content": content}
+        text = self._chat([prompt]).strip()
+        return _parse_temporal_items(text)
 
     def generate_json(self, prompt_text: str) -> Dict[str, Any]:
         prompt = {"role": "user", "content": prompt_text}
@@ -121,8 +138,26 @@ def _load_template(path: Optional[str], default_name: str) -> str:
     return default_path.read_text(encoding="utf-8")
 
 
-def _render_prompt(template: str, *, state_json: str, actions_json: str) -> str:
+def _render_prompt(template: str, **kwargs: str) -> str:
     try:
-        return template.format(state_json=state_json, actions_json=actions_json)
+        return template.format(**kwargs)
     except Exception:
         return template
+
+
+def _parse_temporal_items(text: str) -> List[Dict[str, str]]:
+    obj = _parse_json_obj(text)
+    items = obj.get("items")
+    if not isinstance(items, list):
+        return []
+    out: List[Dict[str, str]] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        name = item.get("name")
+        start = item.get("start")
+        end = item.get("end")
+        if not isinstance(name, str) or not isinstance(start, str) or not isinstance(end, str):
+            continue
+        out.append({"name": name, "start": start, "end": end})
+    return out

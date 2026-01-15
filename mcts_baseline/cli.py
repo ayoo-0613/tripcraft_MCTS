@@ -93,6 +93,11 @@ def main() -> None:
     parser.add_argument("--guidance_timeout", type=float, default=None)
     parser.add_argument("--guidance_value_weight", type=float, default=0.0)
     parser.add_argument("--guidance_prior_c", type=float, default=1.4)
+    parser.add_argument("--temporal_guidance", type=str, default="none", choices=["none", "ollama"])
+    parser.add_argument("--temporal_model", type=str, default=None)
+    parser.add_argument("--temporal_base_url", type=str, default=None)
+    parser.add_argument("--temporal_prompt", type=str, default=None)
+    parser.add_argument("--temporal_timeout", type=float, default=None)
     args = parser.parse_args()
     if args.topk <= 0:
         raise ValueError("--topk must be a positive integer.")
@@ -117,6 +122,18 @@ def main() -> None:
     if guidance_timeout is None:
         guidance_timeout = _cfg_get(llm_cfg, "timeout_sec", "guidance_timeout_sec")
     guidance_timeout = float(guidance_timeout) if guidance_timeout is not None else 10.0
+
+    temporal_model = args.temporal_model or _cfg_get(llm_cfg, "temporal_model")
+    if temporal_model is None:
+        temporal_model = guidance_model
+    temporal_base_url = args.temporal_base_url or _cfg_get(llm_cfg, "temporal_base_url")
+    if temporal_base_url is None:
+        temporal_base_url = guidance_base_url or "http://localhost:11434"
+    temporal_prompt = args.temporal_prompt or _cfg_get(llm_cfg, "temporal_prompt")
+    temporal_timeout = args.temporal_timeout
+    if temporal_timeout is None:
+        temporal_timeout = _cfg_get(llm_cfg, "temporal_timeout_sec", "temporal_timeout")
+    temporal_timeout = float(temporal_timeout) if temporal_timeout is not None else guidance_timeout
 
     rows = []
     if args.input_csv:
@@ -176,6 +193,16 @@ def main() -> None:
                     timeout_sec=guidance_timeout,
                 )
             )
+            temporal_client = None
+            if args.temporal_guidance == "ollama":
+                if not temporal_model:
+                    raise ValueError("Temporal guidance requires --temporal_model or LLM config temporal_model.")
+                temporal_client = OllamaClient(
+                    base_url=temporal_base_url,
+                    model=temporal_model,
+                    timeout_sec=temporal_timeout,
+                    temporal_prompt_path=temporal_prompt,
+                )
             terminal_state = mcts_search(
                 env,
                 rollouts=args.rollouts,
@@ -184,7 +211,7 @@ def main() -> None:
                 prior_c=args.guidance_prior_c,
                 value_weight=args.guidance_value_weight,
             )
-            rec = fill_template_with_state(template, row, kb, terminal_state)
+            rec = fill_template_with_state(template, row, kb, terminal_state, temporal_client=temporal_client)
 
             errs = validate_record(rec)
             if errs:

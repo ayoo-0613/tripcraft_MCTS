@@ -1,10 +1,11 @@
 from __future__ import annotations
 
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, Tuple
 
 from .env import POIBlock, State
 from .io import TripCraftRow
 from .kb import UnifiedKB
+from .ollama_client import OllamaClient
 
 
 def _to_minutes(hhmm: str) -> int:
@@ -57,6 +58,112 @@ def _ensure_transport_placeholder(current_city: str, transportation: str) -> str
     if "from " in current_city:
         return f"Transfer, {current_city}"
     return transportation
+
+
+def _parse_hhmm(value: str) -> Optional[Tuple[int, int]]:
+    try:
+        h, m = value.split(":")
+        hour = int(h)
+        minute = int(m)
+    except Exception:
+        return None
+    if 0 <= hour <= 23 and 0 <= minute <= 59:
+        return hour, minute
+    return None
+
+
+def _find_visit_duration(kb: UnifiedKB, day: int, name: str) -> Optional[float]:
+    if not name:
+        return None
+    if not kb.stages:
+        return None
+    idx = min((day - 1) // 2, len(kb.stages) - 1)
+    stage = kb.stages[idx]
+    df = stage.attractions
+    if df is None or df.empty or "name" not in df.columns:
+        return None
+    target = str(name).strip().lower()
+    hit = df[df["name"].astype(str).str.strip().str.lower() == target]
+    if hit.empty or "visit_duration" not in hit.columns:
+        return None
+    try:
+        return float(hit.iloc[0]["visit_duration"])
+    except Exception:
+        return None
+
+
+def _apply_temporal_guidance(
+    *,
+    day: int,
+    row: TripCraftRow,
+    kb: UnifiedKB,
+    draft: Any,
+    client: Optional[OllamaClient],
+) -> None:
+    if client is None:
+        return
+    if not getattr(draft, "poi_blocks", None):
+        return
+
+    name_to_type: Dict[str, str] = {}
+    if getattr(draft, "breakfast", "-") != "-":
+        name_to_type[draft.breakfast] = "breakfast"
+    if getattr(draft, "lunch", "-") != "-":
+        name_to_type[draft.lunch] = "lunch"
+    if getattr(draft, "dinner", "-") != "-":
+        name_to_type[draft.dinner] = "dinner"
+    for attr in getattr(draft, "attractions", []) or []:
+        if attr and attr != "-":
+            name_to_type[attr] = "attraction"
+
+    items: List[Dict[str, Any]] = []
+    for block in draft.poi_blocks:
+        if block.kind != "visit":
+            continue
+        poi_type = name_to_type.get(block.name)
+        if not poi_type:
+            continue
+        payload: Dict[str, Any] = {
+            "name": block.name,
+            "type": poi_type,
+            "default_start": block.start,
+            "default_end": block.end,
+        }
+        if poi_type == "attraction":
+            visit_duration = _find_visit_duration(kb, day, block.name)
+            if visit_duration is not None:
+                payload["visit_duration"] = visit_duration
+        items.append(payload)
+
+    if not items:
+        return
+
+    state_summary = {
+        "day": day,
+        "persona": row.persona,
+        "num_attractions": len(getattr(draft, "attractions", []) or []),
+    }
+    updates = client.get_temporal_schedule(state_summary, items)
+    if not updates:
+        return
+
+    update_map = {item["name"]: item for item in updates if isinstance(item, dict) and "name" in item}
+    for block in draft.poi_blocks:
+        if block.kind != "visit":
+            continue
+        update = update_map.get(block.name)
+        if not update:
+            continue
+        start = update.get("start")
+        end = update.get("end")
+        if not isinstance(start, str) or not isinstance(end, str):
+            continue
+        if _parse_hhmm(start) is None or _parse_hhmm(end) is None:
+            continue
+        if _to_minutes(end) <= _to_minutes(start):
+            continue
+        block.start = start
+        block.end = end
 
 
 def _select_events(row: TripCraftRow, kb: UnifiedKB) -> Dict[int, str]:
@@ -122,7 +229,12 @@ def _get_events_api():
 
 
 def fill_template_with_state(
-    template: Dict[str, Any], row: TripCraftRow, kb: UnifiedKB, state: State
+    template: Dict[str, Any],
+    row: TripCraftRow,
+    kb: UnifiedKB,
+    state: State,
+    *,
+    temporal_client: Optional[OllamaClient] = None,
 ) -> Dict[str, Any]:
     """
     Fill template['plan'][d-1] fields:
@@ -134,6 +246,7 @@ def fill_template_with_state(
     for d in range(1, row.days + 1):
         day = template["plan"][d - 1]
         draft = state.drafts[d - 1]
+        _apply_temporal_guidance(day=d, row=row, kb=kb, draft=draft, client=temporal_client)
         city = _stage_city_for_day(kb, d)
         day["current_city"] = draft.current_city if draft.current_city != "-" else day["current_city"]
         day["transportation"] = _ensure_transport_placeholder(day["current_city"], draft.transportation)
