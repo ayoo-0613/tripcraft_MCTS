@@ -1,0 +1,933 @@
+{
+  "idx": 266,
+  "reward": 20.376443924390795,
+  "budget_used": 2689.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81",
+      "candidates": [
+        "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35",
+        "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#4 Northwest Victory Single BR",
+      "candidates": [
+        "#4 Northwest Victory Single BR",
+        "Modern Guesthouse in the Heart of the Heights",
+        "Modern Houston Heights Getaway",
+        "Secluded Suite in Southwest Houston",
+        "Garage Apt & Patio Near Rail and FREE EGGS!",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Charming Studio Apt in the heart of the Heights",
+        "Private guest suite in the greater Heights",
+        "The Green Room - Prime Location, VIP Getaway",
+        "??Perfectly located walkable to Wash- Ave. Parks??"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "The Original Ninfa's",
+        "Houston's",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Buffalo Bayou Park",
+      "candidates": [
+        "Buffalo Bayou Park",
+        "Gerald D. Hines Waterwall Park",
+        "Hermann Park",
+        "Cockrell Butterfly Center",
+        "Houston Zoo",
+        "Bayou Bend Collection and Gardens",
+        "Downtown Aquarium",
+        "The Menil Collection",
+        "Space Center Houston",
+        "Minute Maid Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#4 Northwest Victory Single BR",
+      "candidates": [
+        "#4 Northwest Victory Single BR",
+        "Modern Guesthouse in the Heart of the Heights",
+        "Modern Houston Heights Getaway",
+        "Secluded Suite in Southwest Houston",
+        "Garage Apt & Patio Near Rail and FREE EGGS!",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Charming Studio Apt in the heart of the Heights",
+        "Private guest suite in the greater Heights",
+        "The Green Room - Prime Location, VIP Getaway",
+        "??Perfectly located walkable to Wash- Ave. Parks??"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Breakfast Klub",
+      "candidates": [
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "The Original Ninfa's",
+        "Houston's",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gerald D. Hines Waterwall Park",
+      "candidates": [
+        "Gerald D. Hines Waterwall Park",
+        "Hermann Park",
+        "Cockrell Butterfly Center",
+        "Houston Zoo",
+        "Bayou Bend Collection and Gardens",
+        "Downtown Aquarium",
+        "The Menil Collection",
+        "Space Center Houston",
+        "Minute Maid Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18",
+      "candidates": [
+        "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18",
+        "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+      "candidates": [
+        "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+        "Private Hill Country Cabin Close to La Cantera",
+        "Private room in a house with shared bathroom.",
+        "Kickback and RELAX!",
+        "Casa Bohemia | 5* Location | Abundant Amenities",
+        "Texas Hill Country Get-a-Way",
+        "Welcome to my home",
+        "The Tobin Hill Maids Quarters by The Pearl",
+        "Bright Bungalow Blocks from Riverwalk",
+        "Couples getaway kink dungeon"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "1Watson",
+      "candidates": [
+        "1Watson",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio",
+        "Brenner's on the River Walk",
+        "Pollos Asados Los Nortenos",
+        "Yard House",
+        "2M Smokehouse & Catering",
+        "Zocca Cuisine D'Italia",
+        "La Fonda on Main",
+        "Cappy's Restaurant",
+        "Rosario's ComidaMex & Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+      "candidates": [
+        "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+        "Private Hill Country Cabin Close to La Cantera",
+        "Private room in a house with shared bathroom.",
+        "Kickback and RELAX!",
+        "Casa Bohemia | 5* Location | Abundant Amenities",
+        "Texas Hill Country Get-a-Way",
+        "Welcome to my home",
+        "The Tobin Hill Maids Quarters by The Pearl",
+        "Bright Bungalow Blocks from Riverwalk",
+        "Couples getaway kink dungeon"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Chama Gaucha Brazilian Steakhouse - San Antonio",
+      "candidates": [
+        "Chama Gaucha Brazilian Steakhouse - San Antonio",
+        "Brenner's on the River Walk",
+        "Pollos Asados Los Nortenos",
+        "Yard House",
+        "2M Smokehouse & Catering",
+        "Zocca Cuisine D'Italia",
+        "La Fonda on Main",
+        "Cappy's Restaurant",
+        "Rosario's ComidaMex & Bar"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Morgan's Wonderland",
+      "candidates": [
+        "Morgan's Wonderland",
+        "Six Flags Fiesta Texas",
+        "SeaWorld",
+        "Japanese Tea Gardens",
+        "San Antonio River",
+        "San Antonio Botanical Garden",
+        "Natural Bridge Caverns",
+        "San Antonio Missions National Historical Park",
+        "San Antonio Zoo",
+        "Natural Bridge Wildlife Ranch"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Side Street Private Guesthouse",
+      "candidates": [
+        "Side Street Private Guesthouse",
+        "The Bunny Bungalow",
+        "Cactus Patch Grain Bins",
+        "Nifty Nest Oasis / Impeccable Studio + Garden",
+        "Rustic Ridge | Amazing Views of Palo Duro Canyon",
+        "The Longhorn Lodge",
+        "❤️Hidden Hideaway with a View⭐️Close to I-40/City",
+        "Cozy Country Cottage",
+        "??HIDDEN HAVEN renovated King Bed studio W/garage ??",
+        "Renovated 1920’s Gem"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "It's a Punjabi Affair",
+      "candidates": [
+        "It's a Punjabi Affair",
+        "El Bracero Mexican Grill",
+        "Ye Olde Pancake Station",
+        "El Manantial",
+        "Golden Light Cafe & Cantina",
+        "Tyler's Barbeque",
+        "The Plaza Restaurant",
+        "Toscana Italian Steakhouse",
+        "Abuelo's Mexican Restaurant",
+        "Fire Slice Pizzeria"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Wonderland Amusement Park",
+      "candidates": [
+        "Wonderland Amusement Park",
+        "Amarillo Botanical Gardens",
+        "Amarillo Zoo",
+        "Texas Air & Space Museum",
+        "Bill's Backyard Classics",
+        "Slug Bug Ranch",
+        "Don Harrington Discovery Center",
+        "Helium Monument",
+        "Cowgirls and Cowboys in the West",
+        "Cadillac Ranch"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Side Street Private Guesthouse",
+      "candidates": [
+        "Side Street Private Guesthouse",
+        "The Bunny Bungalow",
+        "Cactus Patch Grain Bins",
+        "Nifty Nest Oasis / Impeccable Studio + Garden",
+        "Rustic Ridge | Amazing Views of Palo Duro Canyon",
+        "The Longhorn Lodge",
+        "❤️Hidden Hideaway with a View⭐️Close to I-40/City",
+        "Cozy Country Cottage",
+        "??HIDDEN HAVEN renovated King Bed studio W/garage ??",
+        "Renovated 1920’s Gem"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "El Bracero Mexican Grill",
+      "candidates": [
+        "El Bracero Mexican Grill",
+        "Ye Olde Pancake Station",
+        "El Manantial",
+        "Golden Light Cafe & Cantina",
+        "Tyler's Barbeque",
+        "The Plaza Restaurant",
+        "Toscana Italian Steakhouse",
+        "Abuelo's Mexican Restaurant",
+        "Fire Slice Pizzeria"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Amarillo Botanical Gardens",
+      "candidates": [
+        "Amarillo Botanical Gardens",
+        "Amarillo Zoo",
+        "Texas Air & Space Museum",
+        "Bill's Backyard Classics",
+        "Slug Bug Ranch",
+        "Don Harrington Discovery Center",
+        "Helium Monument",
+        "Cowgirls and Cowboys in the West",
+        "Cadillac Ranch"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ye Olde Pancake Station",
+      "candidates": [
+        "Ye Olde Pancake Station",
+        "El Manantial",
+        "Golden Light Cafe & Cantina",
+        "Tyler's Barbeque",
+        "The Plaza Restaurant",
+        "Toscana Italian Steakhouse",
+        "Abuelo's Mexican Restaurant",
+        "Fire Slice Pizzeria"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Amarillo Zoo",
+      "candidates": [
+        "Amarillo Zoo",
+        "Texas Air & Space Museum",
+        "Bill's Backyard Classics",
+        "Slug Bug Ranch",
+        "Don Harrington Discovery Center",
+        "Helium Monument",
+        "Cowgirls and Cowboys in the West",
+        "Cadillac Ranch"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Oklahoma City to Houston",
+      "transportation": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81",
+      "accommodation": "#4 Northwest Victory Single BR",
+      "breakfast": "Hugo's",
+      "attractions": [
+        "Buffalo Bayou Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        },
+        {
+          "name": "Buffalo Bayou Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Waugh Dr @ Allen Pkwy",
+          "dist_m": 136.32
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "#4 Northwest Victory Single BR",
+      "breakfast": "The Breakfast Klub",
+      "attractions": [
+        "Gerald D. Hines Waterwall Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "The Breakfast Klub",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Ensemble/Hcc Stn SB",
+          "dist_m": 127.57
+        },
+        {
+          "name": "Gerald D. Hines Waterwall Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "West Alabama / Galleria Station SB",
+          "dist_m": 200.43
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to San Antonio",
+      "transportation": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18",
+      "accommodation": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+      "breakfast": "1Watson",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & PERSHING",
+          "dist_m": 95.3
+        },
+        {
+          "name": "1Watson",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "FLORES BTWEEN HOUSTON & COMMERCE",
+          "dist_m": 136.26
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Antonio to San Antonio",
+      "transportation": "-",
+      "accommodation": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+      "breakfast": "Chama Gaucha Brazilian Steakhouse - San Antonio",
+      "attractions": [
+        "Morgan's Wonderland"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & PERSHING",
+          "dist_m": 95.3
+        },
+        {
+          "name": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & PERSHING",
+          "dist_m": 95.3
+        },
+        {
+          "name": "Chama Gaucha Brazilian Steakhouse - San Antonio",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1604 W ACCESS RD. AT ALZAFAR SHRINE",
+          "dist_m": 293.29
+        },
+        {
+          "name": "Morgan's Wonderland",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "THOUSAND OAKS & QUARRY PARK",
+          "dist_m": 289.67
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Antonio to Amarillo",
+      "transportation": "-",
+      "accommodation": "Side Street Private Guesthouse",
+      "breakfast": "It's a Punjabi Affair",
+      "attractions": [
+        "Wonderland Amusement Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & PERSHING",
+          "dist_m": 95.3
+        },
+        {
+          "name": "Side Street Private Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S Georgia St & SW 34th Ave",
+          "dist_m": 252.0
+        },
+        {
+          "name": "It's a Punjabi Affair",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "SW 6th Ave & S Belleview St",
+          "dist_m": 427.47
+        },
+        {
+          "name": "Wonderland Amusement Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Sycamore St & Oak Dr",
+          "dist_m": 422.14
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "-",
+      "accommodation": "Side Street Private Guesthouse",
+      "breakfast": "El Bracero Mexican Grill",
+      "attractions": [
+        "Amarillo Botanical Gardens"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Side Street Private Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S Georgia St & SW 34th Ave",
+          "dist_m": 252.0
+        },
+        {
+          "name": "Side Street Private Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S Georgia St & SW 34th Ave",
+          "dist_m": 252.0
+        },
+        {
+          "name": "El Bracero Mexican Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "SW 34th Ave & Atkinsen St",
+          "dist_m": 282.62
+        },
+        {
+          "name": "Amarillo Botanical Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "S Coulter St @ BSA Hospital",
+          "dist_m": 589.11
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Amarillo to Oklahoma City",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Ye Olde Pancake Station",
+      "attractions": [
+        "Amarillo Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Side Street Private Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S Georgia St & SW 34th Ave",
+          "dist_m": 252.0
+        },
+        {
+          "name": "Ye Olde Pancake Station",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "S Georgia St & Civic Cir",
+          "dist_m": 414.2
+        },
+        {
+          "name": "Amarillo Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "NE 24th Ave & Dumas Dr",
+          "dist_m": 456.05
+        }
+      ]
+    }
+  ]
+}

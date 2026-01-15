@@ -1,0 +1,364 @@
+{
+  "idx": 333,
+  "reward": 8.017071745488199,
+  "budget_used": 1419.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+      "candidates": [
+        "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+        "Taxi, from Dallas to Fort Wayne, Duration: 1097.3966666666668 mins, Distance: 1628.4868000000001 km, Estimated Cost: $1628.49"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Fit for a KING, lovingly restored guest house",
+      "candidates": [
+        "Fit for a KING, lovingly restored guest house",
+        "Downtown Carriage House / Pet Ok",
+        "Friendly Foster Park bungalow!",
+        "Wit's End",
+        "Carriage House near Downtown",
+        "The Palomino - Centrally Located Loft Apartment",
+        "✨ Luxurious 2 bd home - downtown w/ free parking ✨",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Lakeside Park Bungalow",
+        "*The Cambridge Place*"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fort Wayne's Famous Coney Island",
+      "candidates": [
+        "Fort Wayne's Famous Coney Island",
+        "The Bluebird Restaurant",
+        "Proximo",
+        "Han Dynasty",
+        "Los cabos mexican grill",
+        "Conner's Rooftop",
+        "The Original Oley's Pizza",
+        "Wu's Fine Chinese Cuisine",
+        "Sara's Family Restaurant",
+        "800 Degrees Wood Fired Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Fit for a KING, lovingly restored guest house",
+      "candidates": [
+        "Fit for a KING, lovingly restored guest house",
+        "Downtown Carriage House / Pet Ok",
+        "Friendly Foster Park bungalow!",
+        "Wit's End",
+        "Carriage House near Downtown",
+        "The Palomino - Centrally Located Loft Apartment",
+        "✨ Luxurious 2 bd home - downtown w/ free parking ✨",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Lakeside Park Bungalow",
+        "*The Cambridge Place*"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Bluebird Restaurant",
+      "candidates": [
+        "The Bluebird Restaurant",
+        "Proximo",
+        "Han Dynasty",
+        "Los cabos mexican grill",
+        "Conner's Rooftop",
+        "The Original Oley's Pizza",
+        "Wu's Fine Chinese Cuisine",
+        "Sara's Family Restaurant",
+        "800 Degrees Wood Fired Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Foellinger-Freimann Botanical Conservatory",
+      "candidates": [
+        "Foellinger-Freimann Botanical Conservatory",
+        "Fort Wayne Trails",
+        "Fort Wayne Outfitters and Bike Depot",
+        "Fort Wayne Children's Zoo",
+        "Historic Fort Wayne",
+        "Fort Wayne Museum of Art",
+        "Fort Wayne Firefighters Museum",
+        "Parkview Field",
+        "Fort Wayne Food Tours",
+        "Foellinger Theatre - Fort Wayne Parks and Recreation"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0447664, from Fort Wayne to Dallas, Departure Time: 12:29, Arrival Time: 14:01",
+      "candidates": [
+        "Flight Number: F0447664, from Fort Wayne to Dallas, Departure Time: 12:29, Arrival Time: 14:01",
+        "Taxi, from Fort Wayne to Dallas, Duration: 1096.5966666666668 mins, Distance: 1627.7375 km, Estimated Cost: $1627.74"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Proximo",
+      "candidates": [
+        "Proximo",
+        "Han Dynasty",
+        "Los cabos mexican grill",
+        "Conner's Rooftop",
+        "The Original Oley's Pizza",
+        "Wu's Fine Chinese Cuisine",
+        "Sara's Family Restaurant",
+        "800 Degrees Wood Fired Pizza"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Fort Wayne",
+      "transportation": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+      "accommodation": "Fit for a KING, lovingly restored guest house",
+      "breakfast": "Fort Wayne's Famous Coney Island",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Fit for a KING, lovingly restored guest house",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Lake Ave. at Tecumseh St. (WB)",
+          "dist_m": 80.73
+        },
+        {
+          "name": "Fit for a KING, lovingly restored guest house",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Lake Ave. at Tecumseh St. (WB)",
+          "dist_m": 80.73
+        },
+        {
+          "name": "Fort Wayne's Famous Coney Island",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "W. Main St. at Harrison St. (WB)",
+          "dist_m": 31.97
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Wayne to Fort Wayne",
+      "transportation": "-",
+      "accommodation": "Fit for a KING, lovingly restored guest house",
+      "breakfast": "The Bluebird Restaurant",
+      "attractions": [
+        "Foellinger-Freimann Botanical Conservatory"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Fit for a KING, lovingly restored guest house",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Lake Ave. at Tecumseh St. (WB)",
+          "dist_m": 80.73
+        },
+        {
+          "name": "Fit for a KING, lovingly restored guest house",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Lake Ave. at Tecumseh St. (WB)",
+          "dist_m": 80.73
+        },
+        {
+          "name": "The Bluebird Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Bluffton Rd. at Sandpoint Rd. (SB)",
+          "dist_m": 66.58
+        },
+        {
+          "name": "Foellinger-Freimann Botanical Conservatory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Calhoun St. just before Lewis St. (NB)",
+          "dist_m": 103.72
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Wayne to Dallas",
+      "transportation": "Flight Number: F0447664, from Fort Wayne to Dallas, Departure Time: 12:29, Arrival Time: 14:01",
+      "accommodation": "-",
+      "breakfast": "Proximo",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Fit for a KING, lovingly restored guest house",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Lake Ave. at Tecumseh St. (WB)",
+          "dist_m": 80.73
+        },
+        {
+          "name": "Proximo",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Calhoun St. before Wayne St. (NB)",
+          "dist_m": 148.86
+        }
+      ]
+    }
+  ]
+}

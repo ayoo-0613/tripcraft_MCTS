@@ -1,0 +1,987 @@
+{
+  "idx": 217,
+  "reward": -2007.7984901686525,
+  "budget_used": 3628.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76",
+      "candidates": [
+        "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy windfall",
+      "candidates": [
+        "Near Lake/Arcade/Dining Room Perfect for Holidays",
+        "Cozy windfall",
+        "Papa's Place By The Lake - CL",
+        "Family-Friendly Home 1 Block from Downtown",
+        "River House",
+        "The Lakeview! View & Location!",
+        "The Clausen House-Historic home close to the lake!",
+        "Baker's Corner",
+        "Memento Living",
+        "Lake Time Loft"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mason's Root Beer Drive-In",
+      "candidates": [
+        "Mason's Root Beer Drive-In",
+        "Off the Grid: Fort Mason Center",
+        "Taco Tico",
+        "Mason's",
+        "Northwestern Steakhouse",
+        "Two Cities Pizza Company",
+        "Mason's Restaurant",
+        "Mason Jar",
+        "Masons of Bendigo",
+        "Masons Arms"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Meredith Willson Boyhood Home",
+      "candidates": [
+        "Meredith Willson Boyhood Home",
+        "Historic Park Inn Hotel",
+        "Trinity Lutheran Church",
+        "Stockman House Museum",
+        "Music Man Square"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Taco Tico",
+      "candidates": [
+        "Taco Tico",
+        "Mason's",
+        "Two Cities Pizza Company",
+        "Masons of Bendigo",
+        "Off the Grid: Fort Mason Center",
+        "Masons Arms",
+        "Northwestern Steakhouse",
+        "Mason's Restaurant",
+        "Mason Jar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Historic Park Inn Hotel",
+      "candidates": [
+        "Historic Park Inn Hotel",
+        "Trinity Lutheran Church",
+        "Stockman House Museum",
+        "Music Man Square"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mason's",
+      "candidates": [
+        "Mason's",
+        "Two Cities Pizza Company",
+        "Masons of Bendigo",
+        "Off the Grid: Fort Mason Center",
+        "Masons Arms",
+        "Northwestern Steakhouse",
+        "Mason's Restaurant",
+        "Mason Jar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Near Lake/Arcade/Dining Room Perfect for Holidays",
+      "candidates": [
+        "Near Lake/Arcade/Dining Room Perfect for Holidays",
+        "Cozy windfall",
+        "Papa's Place By The Lake - CL",
+        "Family-Friendly Home 1 Block from Downtown",
+        "River House",
+        "The Lakeview! View & Location!",
+        "The Clausen House-Historic home close to the lake!",
+        "Baker's Corner",
+        "Memento Living",
+        "Lake Time Loft"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Off the Grid: Fort Mason Center",
+      "candidates": [
+        "Off the Grid: Fort Mason Center",
+        "Northwestern Steakhouse",
+        "Two Cities Pizza Company",
+        "Mason's Restaurant",
+        "Mason Jar",
+        "Masons of Bendigo",
+        "Masons Arms"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Trinity Lutheran Church",
+      "candidates": [
+        "Trinity Lutheran Church",
+        "Stockman House Museum",
+        "Music Man Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Two Cities Pizza Company",
+      "candidates": [
+        "Two Cities Pizza Company",
+        "Masons of Bendigo",
+        "Masons Arms",
+        "Northwestern Steakhouse",
+        "Mason's Restaurant",
+        "Mason Jar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Stockman House Museum",
+      "candidates": [
+        "Stockman House Museum",
+        "Music Man Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Masons of Bendigo",
+      "candidates": [
+        "Masons of Bendigo",
+        "Masons Arms",
+        "Northwestern Steakhouse",
+        "Mason's Restaurant",
+        "Mason Jar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00",
+      "candidates": [
+        "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casa w/ Private Hot Tub",
+      "candidates": [
+        "Cozy Casa w/ Private Hot Tub",
+        "Cozy Cottage",
+        "The Heart House in NewBo",
+        "Lovely basement Space minutes from Cedar Rapids!",
+        "Finished Basement to Yourself",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "Mount Mercy & Coe with in walking distance.",
+        "Bedroom with en suite bath"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Pedaler's Fork",
+      "candidates": [
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Pickle Palace",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Need Pizzeria",
+        "The Class Act Restaurant",
+        "Biaggi's Ristorante Italiano",
+        "Zeppelins",
+        "Lightworks Cafe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Mount Trashmore",
+      "candidates": [
+        "Mount Trashmore",
+        "Czech Village / New Bohemia District",
+        "Brucemore",
+        "Ushers Ferry Historic Village",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Grant Wood Studio",
+        "Veterans Memorial Stadium"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Czech Village / New Bohemia District",
+      "candidates": [
+        "Czech Village / New Bohemia District",
+        "Brucemore",
+        "Ushers Ferry Historic Village",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Grant Wood Studio",
+        "Veterans Memorial Stadium"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casa w/ Private Hot Tub",
+      "candidates": [
+        "Cozy Casa w/ Private Hot Tub",
+        "Cozy Cottage",
+        "The Heart House in NewBo",
+        "Lovely basement Space minutes from Cedar Rapids!",
+        "Finished Basement to Yourself",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "Mount Mercy & Coe with in walking distance.",
+        "Bedroom with en suite bath"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Tornado's Grub and Pub",
+      "candidates": [
+        "Tornado's Grub and Pub",
+        "Pickle Palace",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Need Pizzeria",
+        "The Class Act Restaurant",
+        "Biaggi's Ristorante Italiano",
+        "Zeppelins",
+        "Lightworks Cafe"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Brucemore",
+      "candidates": [
+        "Brucemore",
+        "Ushers Ferry Historic Village",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Grant Wood Studio",
+        "Veterans Memorial Stadium"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Ushers Ferry Historic Village",
+      "candidates": [
+        "Ushers Ferry Historic Village",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Grant Wood Studio",
+        "Veterans Memorial Stadium"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78",
+      "candidates": [
+        "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Twin Lakes Family Escape",
+      "candidates": [
+        "Twin Lakes Family Escape",
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool",
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Clean and cozy family home",
+        "Backyard Oasis!",
+        "12 Private twin room at cottage 5",
+        "Cozy self-contained apartment with loft.",
+        "Papa's Place By The Lake - CL",
+        "\"Cottage on the Edge\" in Steamboat Rock, IA",
+        "Pattee’s Place - 2 bedrooms 2 bath"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Dariette",
+      "candidates": [
+        "Dariette",
+        "Subway",
+        "Central Perk and Dessert",
+        "Tropical Smoothie Cafe",
+        "Gaga & Hoo",
+        "Rides Bar and Grill",
+        "Taco Tico",
+        "A Pinch Of Love Cafe",
+        "Willow Ridge Golf Course & Restaurant",
+        "Larita's Cakes 'N More"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Community Orchard",
+      "candidates": [
+        "Community Orchard"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Twin Lakes Family Escape",
+      "candidates": [
+        "Twin Lakes Family Escape",
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool",
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Clean and cozy family home",
+        "Backyard Oasis!",
+        "12 Private twin room at cottage 5",
+        "Cozy self-contained apartment with loft.",
+        "Papa's Place By The Lake - CL",
+        "\"Cottage on the Edge\" in Steamboat Rock, IA",
+        "Pattee’s Place - 2 bedrooms 2 bath"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Subway",
+      "candidates": [
+        "Subway",
+        "Central Perk and Dessert",
+        "Tropical Smoothie Cafe",
+        "Gaga & Hoo",
+        "Rides Bar and Grill",
+        "Taco Tico",
+        "A Pinch Of Love Cafe",
+        "Willow Ridge Golf Course & Restaurant",
+        "Larita's Cakes 'N More"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89",
+      "candidates": [
+        "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Central Perk and Dessert",
+      "candidates": [
+        "Central Perk and Dessert",
+        "Tropical Smoothie Cafe",
+        "Gaga & Hoo",
+        "Rides Bar and Grill",
+        "Taco Tico",
+        "A Pinch Of Love Cafe",
+        "Willow Ridge Golf Course & Restaurant",
+        "Larita's Cakes 'N More"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from St. Louis to Mason City",
+      "transportation": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76",
+      "accommodation": "Cozy windfall",
+      "breakfast": "Mason's Root Beer Drive-In",
+      "attractions": [
+        "Meredith Willson Boyhood Home",
+        "Historic Park Inn Hotel"
+      ],
+      "lunch": "Taco Tico",
+      "dinner": "Mason's",
+      "poi_blocks": [
+        {
+          "name": "Cozy windfall",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S President Ave. and 7th St. SW",
+          "dist_m": 101.64
+        },
+        {
+          "name": "Cozy windfall",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S President Ave. and 7th St. SW",
+          "dist_m": 101.64
+        },
+        {
+          "name": "Mason's Root Beer Drive-In",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "North Iowa Area Community College",
+          "dist_m": 709071.87
+        },
+        {
+          "name": "Meredith Willson Boyhood Home",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "24th St. SW and S Jefferson Ave.",
+          "dist_m": 226.5
+        },
+        {
+          "name": "Taco Tico",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Frontage Rd. SW and Briarstone Dr. (Perkins)",
+          "dist_m": 161.65
+        },
+        {
+          "name": "Historic Park Inn Hotel",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Central Park",
+          "dist_m": 110.32
+        },
+        {
+          "name": "Mason's",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "North Iowa Area Community College",
+          "dist_m": 958375.72
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "-",
+      "accommodation": "Near Lake/Arcade/Dining Room Perfect for Holidays",
+      "breakfast": "Off the Grid: Fort Mason Center",
+      "attractions": [
+        "Trinity Lutheran Church",
+        "Stockman House Museum"
+      ],
+      "lunch": "Two Cities Pizza Company",
+      "dinner": "Masons of Bendigo",
+      "poi_blocks": [
+        {
+          "name": "Near Lake/Arcade/Dining Room Perfect for Holidays",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Best Buy",
+          "dist_m": 12600.07
+        },
+        {
+          "name": "Near Lake/Arcade/Dining Room Perfect for Holidays",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Best Buy",
+          "dist_m": 12600.07
+        },
+        {
+          "name": "Off the Grid: Fort Mason Center",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Best Buy",
+          "dist_m": 2529214.57
+        },
+        {
+          "name": "Trinity Lutheran Church",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "3rd St. NE and N Pennsylvania Ave.",
+          "dist_m": 69.58
+        },
+        {
+          "name": "Two Cities Pizza Company",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "North Iowa Area Community College",
+          "dist_m": 850315.78
+        },
+        {
+          "name": "Stockman House Museum",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 57.07
+        },
+        {
+          "name": "Masons of Bendigo",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Best Buy",
+          "dist_m": 15149733.4
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Mason City to Cedar Rapids",
+      "transportation": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00",
+      "accommodation": "Cozy Casa w/ Private Hot Tub",
+      "breakfast": "The Pedaler's Fork",
+      "attractions": [
+        "Mount Trashmore",
+        "Czech Village / New Bohemia District"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Near Lake/Arcade/Dining Room Perfect for Holidays",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Best Buy",
+          "dist_m": 12600.07
+        },
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "The Pedaler's Fork",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Center Point Rd & Sylvia Ave",
+          "dist_m": 68.56
+        },
+        {
+          "name": "Mount Trashmore",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "C St & Rapids Ave",
+          "dist_m": 656.14
+        },
+        {
+          "name": "Czech Village / New Bohemia District",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "2nd St & 11th Ave",
+          "dist_m": 86.42
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "Cozy Casa w/ Private Hot Tub",
+      "breakfast": "Tornado's Grub and Pub",
+      "attractions": [
+        "Brucemore",
+        "Ushers Ferry Historic Village"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Tornado's Grub and Pub",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 181.66
+        },
+        {
+          "name": "Brucemore",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "1st Ave at Brucemore",
+          "dist_m": 274.76
+        },
+        {
+          "name": "Ushers Ferry Historic Village",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Edgewood Rd & O Ave",
+          "dist_m": 2020.86
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Cedar Rapids to Fort Dodge",
+      "transportation": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78",
+      "accommodation": "Twin Lakes Family Escape",
+      "breakfast": "Dariette",
+      "attractions": [
+        "Community Orchard"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Dariette",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 88.99
+        },
+        {
+          "name": "Community Orchard",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Village Green",
+          "dist_m": 3093.21
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Twin Lakes Family Escape",
+      "breakfast": "Subway",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Subway",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 101.37
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Fort Dodge to St. Louis",
+      "transportation": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89",
+      "accommodation": "-",
+      "breakfast": "Central Perk and Dessert",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Central Perk and Dessert",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Central Ave and S 13th St",
+          "dist_m": 105.71
+        }
+      ]
+    }
+  ]
+}

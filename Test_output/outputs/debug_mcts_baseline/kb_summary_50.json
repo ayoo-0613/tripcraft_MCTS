@@ -1,0 +1,121 @@
+{
+  "idx": 50,
+  "stages": [
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Tampa",
+      "to": "Memphis",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tampa",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Tampa to Memphis, Duration: 895.8066666666667 mins, Distance: 1240.1459 km, Estimated Cost: $62.01"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tampa",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Tampa to Memphis, Duration: 895.8066666666667 mins, Distance: 1240.1459 km, Estimated Cost: $1240.15"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $10.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": "2024-11-13",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Tampa, Duration: 628.1083333333333 mins, Distance: 921.7478000000001 km, Estimated Cost: $46.09"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Tampa, Duration: 628.1083333333333 mins, Distance: 921.7478000000001 km, Estimated Cost: $921.75"
+    }
+  ]
+}

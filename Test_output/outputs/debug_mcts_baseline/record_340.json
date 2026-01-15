@@ -1,0 +1,70 @@
+{
+  "idx": 340,
+  "JSON": {
+    "org": "Tucson",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": [
+        "American",
+        "Seafood",
+        "Pub",
+        "Gastropub"
+      ],
+      "room type": "private room",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1950.0,
+    "query": "Plan a 3-day trip for 1 person from Tucson to Seattle from November 7th to November 9th, 2024, with a budget of $1,950. Accommodations should include a private room that allows pets. Dining options should feature American, Seafood, Pub, and Gastropub cuisines.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation;  Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Tucson to Seattle",
+      "transportation": "Taxi, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle",
+      "breakfast": "Dough Zone Dumpling House - Seattle International District, Seattle",
+      "attraction": "Seattle Great Wheel, Seattle",
+      "lunch": "Lola, Seattle",
+      "dinner": "Tilikum Place Cafe, Seattle",
+      "accommodation": "Private Room in Townhome near Capitol Hill, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; Dough Zone Dumpling House - Seattle International District, visit from 09:20 to 10:30, nearest transit: 5th Ave S & S Weller St, 26.54m away; Seattle Great Wheel, visit from 11:30 to 13:30, nearest transit: 2nd Ave & Pike St, 414.45m away; Lola, visit from 14:30 to 15:30, nearest transit: Virginia St & 4th Ave, 26.10m away; Tilikum Place Cafe, visit from 19:30 to 21:00, nearest transit: Denny Way & 5th Ave N, 65.89m away; Private Room in Townhome near Capitol Hill, stay from 22:15 to 08:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "All Water Seafood & Oyster Bar, Seattle",
+      "attraction": "Kerry Park, Seattle",
+      "lunch": "Barolo Ristorante, Seattle",
+      "dinner": "Bacco Cafe, Seattle",
+      "accommodation": "Cozy room near UW, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; All Water Seafood & Oyster Bar, visit from 09:20 to 10:30, nearest transit: 1st Ave & Spring St, 19.43m away; Kerry Park, visit from 11:30 to 13:30, nearest transit: Queen Anne Ave N & W Highland Dr, 240.72m away; Barolo Ristorante, visit from 14:30 to 15:30, nearest transit: Westlake And 7th, 37.77m away; Bacco Cafe, visit from 19:30 to 21:00, nearest transit: 2nd Ave & Stewart St, 107.26m away; Cozy room near UW, stay from 22:15 to 08:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to Tucson",
+      "transportation": "Flight Number: F0245478, from Seattle to Tucson, Departure Time: 07:32, Arrival Time: 10:28",
+      "breakfast": "-",
+      "attraction": "Washington Park Arboretum, Seattle",
+      "lunch": "Toulouse Petit Kitchen & Lounge, Seattle",
+      "dinner": "Can Can Culinary Cabaret, Seattle",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Washington Park Arboretum, visit from 11:30 to 13:30, nearest transit: 24th Ave E & E Newton St, 559.60m away; Toulouse Petit Kitchen & Lounge, visit from 14:30 to 15:30, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away; Can Can Culinary Cabaret, visit from 19:30 to 21:00, nearest transit: 2nd Ave & Pike St, 135.34m away."
+    }
+  ]
+}

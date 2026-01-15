@@ -1,0 +1,908 @@
+{
+  "idx": 251,
+  "reward": -2233.2365279658925,
+  "budget_used": 983.25,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71",
+      "candidates": [
+        "Flight Number: F0457503, from Victoria to Houston, Departure Time: 19:08, Arrival Time: 19:53",
+        "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#4 Northwest Victory Single BR",
+      "candidates": [
+        "#4 Northwest Victory Single BR",
+        "Modern Guesthouse in the Heart of the Heights",
+        "Modern Houston Heights Getaway",
+        "Secluded Suite in Southwest Houston",
+        "Garage Apt & Patio Near Rail and FREE EGGS!",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Charming Studio Apt in the heart of the Heights",
+        "Private guest suite in the greater Heights",
+        "The Green Room - Prime Location, VIP Getaway",
+        "??Perfectly located walkable to Wash- Ave. Parks??"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "The Original Ninfa's",
+        "Houston's",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Houston Zoo",
+      "candidates": [
+        "Houston Zoo",
+        "Downtown Aquarium"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#4 Northwest Victory Single BR",
+      "candidates": [
+        "#4 Northwest Victory Single BR",
+        "Modern Guesthouse in the Heart of the Heights",
+        "Modern Houston Heights Getaway",
+        "Secluded Suite in Southwest Houston",
+        "Garage Apt & Patio Near Rail and FREE EGGS!",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Charming Studio Apt in the heart of the Heights",
+        "Private guest suite in the greater Heights",
+        "The Green Room - Prime Location, VIP Getaway",
+        "??Perfectly located walkable to Wash- Ave. Parks??"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Breakfast Klub",
+      "candidates": [
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "The Original Ninfa's",
+        "Houston's",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Downtown Aquarium",
+      "candidates": [
+        "Downtown Aquarium"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "candidates": [
+        "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+        "Taxi, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $337.76"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+      "candidates": [
+        "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+        "Spanish Cottage/King bed /1.5 blocks to Cole Park",
+        "McCracken Bird and Beach Guesthouse.",
+        "Amazing Sunset View from Private Balcony on Water",
+        "Cozy Cottage at Waverly House",
+        "Stylish Studio Condo near Beach - Canal Front",
+        "Waterfront +Stunning Sunsets +Fishing +Pool",
+        "“The Cheap Seats” Entertainment Suite",
+        "Turtle Beach Haus 126",
+        "Ocean View! ‘Blue Haven’ (End Unit) N.Padre Island"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bien Merite",
+      "candidates": [
+        "Bien Merite",
+        "Taqueria El Potro",
+        "Andy's Kitchen",
+        "DAO Authentic Asian Cuisine",
+        "Hoegemeyer's Barbeque Barn",
+        "Padre Pizzeria & Gourment",
+        "Bellino Ristorante Italiano and Bottega",
+        "Authentic New York Pizza company",
+        "Black Diamond Oyster Bar",
+        "Ginger Cafe and Grill"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Texas State Aquarium",
+      "candidates": [
+        "Texas State Aquarium"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+      "candidates": [
+        "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+        "Spanish Cottage/King bed /1.5 blocks to Cole Park",
+        "McCracken Bird and Beach Guesthouse.",
+        "Amazing Sunset View from Private Balcony on Water",
+        "Cozy Cottage at Waverly House",
+        "Stylish Studio Condo near Beach - Canal Front",
+        "Waterfront +Stunning Sunsets +Fishing +Pool",
+        "“The Cheap Seats” Entertainment Suite",
+        "Turtle Beach Haus 126",
+        "Ocean View! ‘Blue Haven’ (End Unit) N.Padre Island"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Taqueria El Potro",
+      "candidates": [
+        "Taqueria El Potro",
+        "Andy's Kitchen",
+        "DAO Authentic Asian Cuisine",
+        "Hoegemeyer's Barbeque Barn",
+        "Padre Pizzeria & Gourment",
+        "Bellino Ristorante Italiano and Bottega",
+        "Authentic New York Pizza company",
+        "Black Diamond Oyster Bar",
+        "Ginger Cafe and Grill"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Corpus Christi to Beaumont, Duration: 352.89666666666665 mins, Distance: 477.99859999999995 km, Estimated Cost: $478.00"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bohemian 2 Bedroom Escape",
+      "candidates": [
+        "Bohemian 2 Bedroom Escape",
+        "100+ acres, pool, lazy river, slides, & more",
+        "Relaxing 2- Bedroom Townhome in SE Texas",
+        "Riverfront Retreat ~ 1 king size bed (shared home)",
+        "Habitación solo para Hombres.",
+        "3. Master Bedroom w Private Bathroom Work Desk&TV",
+        "Cozy Home in the Heart of Beaumont",
+        "Elegant Home with Backyard Paradise - Sleeps 8.",
+        "West End Beaumont Oasis",
+        "Modern 3BR Chic Getaway"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont Bar and Grill",
+      "candidates": [
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Pappadeaux Seafood Kitchen",
+        "Beaumont’s Deli",
+        "Beaumont's",
+        "Saigon Delights",
+        "Katharine & Company",
+        "Carrabba's Italian Grill",
+        "J Wilson's",
+        "Rao's Bakery and Coffee Cafe"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gator Country",
+      "candidates": [
+        "Gator Country",
+        "Beaumont Botanical Gardens",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "Y Ravine Cemetery",
+        "John Jay French House Museum",
+        "The Chambers House",
+        "Texas Energy Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bohemian 2 Bedroom Escape",
+      "candidates": [
+        "Bohemian 2 Bedroom Escape",
+        "100+ acres, pool, lazy river, slides, & more",
+        "Relaxing 2- Bedroom Townhome in SE Texas",
+        "Riverfront Retreat ~ 1 king size bed (shared home)",
+        "Habitación solo para Hombres.",
+        "3. Master Bedroom w Private Bathroom Work Desk&TV",
+        "Cozy Home in the Heart of Beaumont",
+        "Elegant Home with Backyard Paradise - Sleeps 8.",
+        "West End Beaumont Oasis",
+        "Modern 3BR Chic Getaway"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Maina's Donair",
+      "candidates": [
+        "Maina's Donair",
+        "Pappadeaux Seafood Kitchen",
+        "Beaumont’s Deli",
+        "Beaumont's",
+        "Saigon Delights",
+        "Katharine & Company",
+        "Carrabba's Italian Grill",
+        "J Wilson's",
+        "Rao's Bakery and Coffee Cafe"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Beaumont Botanical Gardens",
+      "candidates": [
+        "Beaumont Botanical Gardens",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "Y Ravine Cemetery",
+        "John Jay French House Museum",
+        "The Chambers House",
+        "Texas Energy Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Beaumont to Victoria, Duration: 247.18166666666667 mins, Distance: 340.3243 km, Estimated Cost: $340.32"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pappadeaux Seafood Kitchen",
+      "candidates": [
+        "Pappadeaux Seafood Kitchen",
+        "Beaumont’s Deli",
+        "Beaumont's",
+        "Saigon Delights",
+        "Katharine & Company",
+        "Carrabba's Italian Grill",
+        "J Wilson's",
+        "Rao's Bakery and Coffee Cafe"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "McFaddin-Ward House Museum",
+      "candidates": [
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "Y Ravine Cemetery",
+        "John Jay French House Museum",
+        "The Chambers House",
+        "Texas Energy Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Victoria to Houston",
+      "transportation": "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71",
+      "accommodation": "#4 Northwest Victory Single BR",
+      "breakfast": "Hugo's",
+      "attractions": [
+        "Houston Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        },
+        {
+          "name": "Houston Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cambridge St @ Ben Taub Loop",
+          "dist_m": 473.45
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "#4 Northwest Victory Single BR",
+      "breakfast": "The Breakfast Klub",
+      "attractions": [
+        "Downtown Aquarium"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "The Breakfast Klub",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Ensemble/Hcc Stn SB",
+          "dist_m": 127.57
+        },
+        {
+          "name": "Downtown Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Preston St @ Bagby St",
+          "dist_m": 75.65
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Corpus Christi",
+      "transportation": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "accommodation": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+      "breakfast": "Bien Merite",
+      "attractions": [
+        "Texas State Aquarium"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#4 Northwest Victory Single BR",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Victory Dr @ Birchcroft Dr",
+          "dist_m": 213.13
+        },
+        {
+          "name": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2600-15002 Leeward",
+          "dist_m": 56.34
+        },
+        {
+          "name": "Bien Merite",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1080-Staples@ Elizabeth",
+          "dist_m": 112.69
+        },
+        {
+          "name": "Texas State Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Texas State Aquarium",
+          "dist_m": 192.08
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "-",
+      "accommodation": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+      "breakfast": "Taqueria El Potro",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2600-15002 Leeward",
+          "dist_m": 56.34
+        },
+        {
+          "name": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2600-15002 Leeward",
+          "dist_m": 56.34
+        },
+        {
+          "name": "Taqueria El Potro",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "687-Rodd Field@SkyHarbor",
+          "dist_m": 48.16
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Corpus Christi to Beaumont",
+      "transportation": "-",
+      "accommodation": "Bohemian 2 Bedroom Escape",
+      "breakfast": "Beaumont Bar and Grill",
+      "attractions": [
+        "Gator Country"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2600-15002 Leeward",
+          "dist_m": 56.34
+        },
+        {
+          "name": "Bohemian 2 Bedroom Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2185147.0
+        },
+        {
+          "name": "Beaumont Bar and Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2928838.79
+        },
+        {
+          "name": "Gator Country",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2171070.69
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "-",
+      "accommodation": "Bohemian 2 Bedroom Escape",
+      "breakfast": "Maina's Donair",
+      "attractions": [
+        "Beaumont Botanical Gardens"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bohemian 2 Bedroom Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2185147.0
+        },
+        {
+          "name": "Bohemian 2 Bedroom Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2185147.0
+        },
+        {
+          "name": "Maina's Donair",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "San Bernardino Transit Center",
+          "dist_m": 2161082.6
+        },
+        {
+          "name": "Beaumont Botanical Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2179950.04
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Beaumont to Victoria",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Pappadeaux Seafood Kitchen",
+      "attractions": [
+        "McFaddin-Ward House Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bohemian 2 Bedroom Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2185147.0
+        },
+        {
+          "name": "Pappadeaux Seafood Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2178050.12
+        },
+        {
+          "name": "McFaddin-Ward House Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2180500.56
+        }
+      ]
+    }
+  ]
+}

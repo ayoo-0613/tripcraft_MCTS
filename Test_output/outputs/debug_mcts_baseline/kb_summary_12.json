@@ -1,0 +1,121 @@
+{
+  "idx": 12,
+  "stages": [
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 17
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 10
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $74.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $1493.48"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $11.10"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $221.92"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $16.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $332.01"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $97.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $1955.49"
+    }
+  ]
+}

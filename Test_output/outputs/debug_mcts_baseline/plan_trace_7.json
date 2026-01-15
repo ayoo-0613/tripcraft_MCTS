@@ -1,0 +1,919 @@
+{
+  "idx": 7,
+  "reward": 15.58653452542373,
+  "budget_used": 3198.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0202772, from Atlanta to Los Angeles, Departure Time: 19:20, Arrival Time: 21:14",
+      "candidates": [
+        "Flight Number: F0202772, from Atlanta to Los Angeles, Departure Time: 19:20, Arrival Time: 21:14",
+        "Taxi, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Rare find! Garden Oasis Guest House in heart of LA",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "Cozy Private Room In LA.",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Cabin on the Rocks",
+        "the mid city . registration : HSR19-002172",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Cozy Beverly Hills Studio Guest House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "El Compadre",
+      "candidates": [
+        "El Compadre",
+        "n/naka",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Universal Studios Hollywood",
+      "candidates": [
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Venice Beach",
+        "Griffith Observatory",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Dodger Stadium",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Oceanfront Sunset Serenity in Malibu",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "Cozy Private Room In LA.",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Cabin on the Rocks",
+        "the mid city . registration : HSR19-002172",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Cozy Beverly Hills Studio Guest House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "n/naka",
+      "candidates": [
+        "n/naka",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Griffith Park",
+      "candidates": [
+        "Griffith Park",
+        "Venice Beach",
+        "Griffith Observatory",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Dodger Stadium",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35",
+      "candidates": [
+        "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35",
+        "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Monroe Studio 303",
+      "candidates": [
+        "Monroe Studio 303",
+        "Peaceful Studio in the Trees",
+        "Spacious and charming 1bd apartment on Ocean Beach",
+        "Airy private room in quiet home, Castro",
+        "Style & Comfort-Private Suite near UCSF and GGPark",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Glorious Room in Victorian Home",
+        "Immaculate studio space with free parking"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mersea Restaurant & Bar",
+      "candidates": [
+        "Mersea Restaurant & Bar",
+        "Good Mong Kok Bakery",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Honey Honey Cafe & Crepery",
+        "City View Restaurant",
+        "Hog Island Oyster Co.",
+        "Tadich Grill",
+        "Outerlands",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Golden Gate Park",
+      "candidates": [
+        "Golden Gate Park",
+        "Pier 39",
+        "Japanese Tea Garden",
+        "Lands End",
+        "Alcatraz Island",
+        "Walt Disney Family Museum",
+        "Cable Car Museum",
+        "California Academy of Sciences",
+        "Golden Gate Bridge",
+        "Twin Peaks"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Monroe Studio 303",
+      "candidates": [
+        "Monroe Studio 303",
+        "Peaceful Studio in the Trees",
+        "Spacious and charming 1bd apartment on Ocean Beach",
+        "Airy private room in quiet home, Castro",
+        "Style & Comfort-Private Suite near UCSF and GGPark",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Glorious Room in Victorian Home",
+        "Immaculate studio space with free parking"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Good Mong Kok Bakery",
+      "candidates": [
+        "Good Mong Kok Bakery",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Honey Honey Cafe & Crepery",
+        "City View Restaurant",
+        "Hog Island Oyster Co.",
+        "Tadich Grill",
+        "Outerlands",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Pier 39",
+      "candidates": [
+        "Pier 39",
+        "Japanese Tea Garden",
+        "Lands End",
+        "Alcatraz Island",
+        "Walt Disney Family Museum",
+        "Cable Car Museum",
+        "California Academy of Sciences",
+        "Golden Gate Bridge",
+        "Twin Peaks"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58",
+      "candidates": [
+        "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58",
+        "Taxi, from San Francisco to Sacramento, Duration: 108.31 mins, Distance: 140.708 km, Estimated Cost: $140.71"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Peaceful and Cozy Studio",
+        "Modern Apt Near Downtown Sac",
+        "The Cottage on Hendricks",
+        "Sac City Loft",
+        "Modern-Fully Loaded-EV Charger-Big Yard-10 Min DT",
+        "Large Comfy Cottage- Close to Downtown",
+        "Private Guest Bed 'N Bath near Downtown",
+        "Room with private bathroom"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Nopalitos",
+      "candidates": [
+        "Nopalitos",
+        "Tipsy Putt",
+        "El Novillero Restaurant",
+        "Tres Hermanas Mexican Restaurant",
+        "Revival",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Orphan",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Funderland Amusement Park",
+      "candidates": [
+        "Funderland Amusement Park",
+        "Fairytale Town",
+        "American River Parkway",
+        "American River Bicycle Trail",
+        "William Land Park",
+        "McKinley Park",
+        "California State Capitol Museum",
+        "Capitol Park",
+        "Sutter’s Fort State Historic Park",
+        "Sacramento Zoo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Peaceful and Cozy Studio",
+        "Modern Apt Near Downtown Sac",
+        "The Cottage on Hendricks",
+        "Sac City Loft",
+        "Modern-Fully Loaded-EV Charger-Big Yard-10 Min DT",
+        "Large Comfy Cottage- Close to Downtown",
+        "Private Guest Bed 'N Bath near Downtown",
+        "Room with private bathroom"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Tipsy Putt",
+      "candidates": [
+        "Tipsy Putt",
+        "El Novillero Restaurant",
+        "Tres Hermanas Mexican Restaurant",
+        "Revival",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Orphan",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fairytale Town",
+      "candidates": [
+        "Fairytale Town",
+        "American River Parkway",
+        "American River Bicycle Trail",
+        "William Land Park",
+        "McKinley Park",
+        "California State Capitol Museum",
+        "Capitol Park",
+        "Sutter’s Fort State Historic Park",
+        "Sacramento Zoo"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14",
+      "candidates": [
+        "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14",
+        "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Atlanta to Los Angeles",
+      "transportation": "Flight Number: F0202772, from Atlanta to Los Angeles, Departure Time: 19:20, Arrival Time: 21:14",
+      "accommodation": "Rare find! Garden Oasis Guest House in heart of LA",
+      "breakfast": "El Compadre",
+      "attractions": [
+        "Universal Studios Hollywood"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Rare find! Garden Oasis Guest House in heart of LA",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Arlington Ave.",
+          "dist_m": 1184.94
+        },
+        {
+          "name": "Rare find! Garden Oasis Guest House in heart of LA",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Arlington Ave.",
+          "dist_m": 1184.94
+        },
+        {
+          "name": "El Compadre",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Echo Park Ave & Sunset Blvd (Northbound)",
+          "dist_m": 425.51
+        },
+        {
+          "name": "Universal Studios Hollywood",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Alameda Ave & Pass Ave (Westbound)",
+          "dist_m": 1813.89
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Oceanfront Sunset Serenity in Malibu",
+      "breakfast": "n/naka",
+      "attractions": [
+        "Griffith Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "n/naka",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "National Blvd & Motor Ave (Southbound)",
+          "dist_m": 467.17
+        },
+        {
+          "name": "Griffith Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "West Observatory Rd & Mt. Hollywood Dr",
+          "dist_m": 1520.21
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to San Francisco",
+      "transportation": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35",
+      "accommodation": "Monroe Studio 303",
+      "breakfast": "Mersea Restaurant & Bar",
+      "attractions": [
+        "Golden Gate Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Monroe Studio 303",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1571.78
+        },
+        {
+          "name": "Mersea Restaurant & Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 3667.91
+        },
+        {
+          "name": "Golden Gate Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 5974.62
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Monroe Studio 303",
+      "breakfast": "Good Mong Kok Bakery",
+      "attractions": [
+        "Pier 39"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Monroe Studio 303",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1571.78
+        },
+        {
+          "name": "Monroe Studio 303",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1571.78
+        },
+        {
+          "name": "Good Mong Kok Bakery",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 1141.5
+        },
+        {
+          "name": "Pier 39",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 2268.81
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Francisco to Sacramento",
+      "transportation": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Nopalitos",
+      "attractions": [
+        "Funderland Amusement Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Monroe Studio 303",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1571.78
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Nopalitos",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "56TH ST & H ST (NB)",
+          "dist_m": 106.44
+        },
+        {
+          "name": "Funderland Amusement Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "LAND PARK DR & SUTTERVILLE RD (SB)",
+          "dist_m": 134.58
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Tipsy Putt",
+      "attractions": [
+        "Fairytale Town"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Tipsy Putt",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "J ST & 6TH ST (EB)",
+          "dist_m": 138.69
+        },
+        {
+          "name": "Fairytale Town",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "LAND PARK DR & 16TH AVE (NB)",
+          "dist_m": 93.53
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Sacramento to Atlanta",
+      "transportation": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        }
+      ]
+    }
+  ]
+}

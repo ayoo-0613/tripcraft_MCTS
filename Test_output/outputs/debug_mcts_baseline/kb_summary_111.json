@@ -1,0 +1,121 @@
+{
+  "idx": 111,
+  "stages": [
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 24
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 18
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Denver",
+      "to": "Fort Dodge",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F3380515, from Denver to Fort Dodge, Departure Time: 15:15, Arrival Time: 18:18"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Denver",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Denver to Fort Dodge, Duration: 762.6733333333334 mins, Distance: 1124.1338 km, Estimated Cost: $56.21"
+    },
+    {
+      "mode": "taxi",
+      "from": "Denver",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Denver to Fort Dodge, Duration: 762.6733333333334 mins, Distance: 1124.1338 km, Estimated Cost: $1124.13"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $12.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0462857, from Sioux City to Denver, Departure Time: 12:46, Arrival Time: 13:29"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Denver, Duration: 640.0716666666667 mins, Distance: 945.7002 km, Estimated Cost: $47.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Denver, Duration: 640.0716666666667 mins, Distance: 945.7002 km, Estimated Cost: $945.70"
+    }
+  ]
+}

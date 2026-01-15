@@ -1,0 +1,864 @@
+{
+  "idx": 241,
+  "reward": -214.868657774323,
+  "budget_used": 1662.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Bend to Everett, Duration: 466.075 mins, Distance: 572.572 km, Estimated Cost: $572.57",
+      "candidates": [
+        "-",
+        "Taxi, from Bend to Everett, Duration: 466.075 mins, Distance: 572.572 km, Estimated Cost: $572.57"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+      "candidates": [
+        "Cozy, Private Tiny Home",
+        "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+        "Cozy room/hospital, EvCC, Naval",
+        "Clean+Modern+New Silver Lake Neighborhood Studio",
+        "Private+Clean+Quiet Garden Cottage by Silver Lake",
+        "Large Room with Private Bathroom",
+        "Bedroom Apt",
+        "Seaside Suite by Mukilteo Beach",
+        "Bayside Historic Remodel Walk 2 Beach & Breweries",
+        "Spacious Tiny Home w/Private Outdoor Lounging"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Everett's",
+      "candidates": [
+        "Everett's",
+        "Wendy's Country Cafe",
+        "Nick's Jr Burgers and Gyros",
+        "Papa Everett's Pizza",
+        "Ray's Drive In",
+        "Everett Street Diner",
+        "La Palmera Family Mexican",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "Anthony's Homeport",
+        "Curries In Everett"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Schack Art Center",
+      "candidates": [
+        "Schack Art Center",
+        "Everett Farmers Market"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy, Private Tiny Home",
+      "candidates": [
+        "Cozy, Private Tiny Home",
+        "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+        "Cozy room/hospital, EvCC, Naval",
+        "Clean+Modern+New Silver Lake Neighborhood Studio",
+        "Private+Clean+Quiet Garden Cottage by Silver Lake",
+        "Large Room with Private Bathroom",
+        "Bedroom Apt",
+        "Seaside Suite by Mukilteo Beach",
+        "Bayside Historic Remodel Walk 2 Beach & Breweries",
+        "Spacious Tiny Home w/Private Outdoor Lounging"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Wendy's Country Cafe",
+      "candidates": [
+        "Wendy's Country Cafe",
+        "Nick's Jr Burgers and Gyros",
+        "Papa Everett's Pizza",
+        "Ray's Drive In",
+        "Everett Street Diner",
+        "La Palmera Family Mexican",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "Anthony's Homeport",
+        "Curries In Everett"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Everett Farmers Market",
+      "candidates": [
+        "Everett Farmers Market"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $46.81"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Queen Anne Courtyard Suite",
+      "candidates": [
+        "Queen Anne Courtyard Suite",
+        "The Nut House",
+        "Stylish Daylight Basement Apartment",
+        "Cozy room near UW",
+        "Magical Mountain Retreat and Sauna",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Ballard Greenwood Private Suite",
+        "Private Room in Townhome near Capitol Hill",
+        "Peaceful Classic Seattle Neighborhood",
+        "Detached Private Guest Cottage in Sought-After Neighborhood"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Dough Zone Dumpling House - Seattle International District",
+      "candidates": [
+        "Dough Zone Dumpling House - Seattle International District",
+        "Lola",
+        "Barolo Ristorante",
+        "All Water Seafood & Oyster Bar",
+        "Bacco Cafe",
+        "Toulouse Petit Kitchen & Lounge",
+        "Can Can Culinary Cabaret",
+        "JaK's Grill",
+        "The Pink Door",
+        "Tilikum Place Cafe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Pike Place Market",
+      "candidates": [
+        "Pike Place Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Queen Anne Courtyard Suite",
+      "candidates": [
+        "Queen Anne Courtyard Suite",
+        "The Nut House",
+        "Stylish Daylight Basement Apartment",
+        "Cozy room near UW",
+        "Magical Mountain Retreat and Sauna",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Ballard Greenwood Private Suite",
+        "Private Room in Townhome near Capitol Hill",
+        "Peaceful Classic Seattle Neighborhood",
+        "Detached Private Guest Cottage in Sought-After Neighborhood"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lola",
+      "candidates": [
+        "Lola",
+        "Barolo Ristorante",
+        "All Water Seafood & Oyster Bar",
+        "Bacco Cafe",
+        "Toulouse Petit Kitchen & Lounge",
+        "Can Can Culinary Cabaret",
+        "JaK's Grill",
+        "The Pink Door",
+        "Tilikum Place Cafe"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41",
+      "candidates": [
+        "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41",
+        "Taxi, from Seattle to Yakima, Duration: 163.36833333333334 mins, Distance: 229.5105 km, Estimated Cost: $229.51"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Ranch House | New 1 BR in Wine Country",
+      "candidates": [
+        "The Ranch House | New 1 BR in Wine Country",
+        "Newly remodeled Home in Yakima",
+        "Carriage House Apartment + Loft",
+        "Peaceful Country Hidden Jem",
+        "BED & BAR@The Dive! Modern Apt.B",
+        "Master Suite | Central Yakima | Best Value!",
+        "Fall Escape: Private Retreat in Wine Country",
+        "The Home Base",
+        "Modern Home in Central Yakima",
+        "Cozy Studio Guest House"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Salsita Antojitos Mexicanos",
+      "candidates": [
+        "Salsita Antojitos Mexicanos",
+        "Waffles Caffe",
+        "MOD Pizza",
+        "Famous Burger & Teriyaki Sandwich",
+        "Essencia Bakery",
+        "Taj Palace",
+        "Thai House Yakima",
+        "White House Cafe",
+        "Cowiche Canyon - Kitchen & Icehouse",
+        "WaterFire Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Precision Fruit and Antiques",
+      "candidates": [
+        "Precision Fruit and Antiques"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Ranch House | New 1 BR in Wine Country",
+      "candidates": [
+        "The Ranch House | New 1 BR in Wine Country",
+        "Newly remodeled Home in Yakima",
+        "Carriage House Apartment + Loft",
+        "Peaceful Country Hidden Jem",
+        "BED & BAR@The Dive! Modern Apt.B",
+        "Master Suite | Central Yakima | Best Value!",
+        "Fall Escape: Private Retreat in Wine Country",
+        "The Home Base",
+        "Modern Home in Central Yakima",
+        "Cozy Studio Guest House"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Waffles Caffe",
+      "candidates": [
+        "Waffles Caffe",
+        "MOD Pizza",
+        "Famous Burger & Teriyaki Sandwich",
+        "Essencia Bakery",
+        "Taj Palace",
+        "Thai House Yakima",
+        "White House Cafe",
+        "Cowiche Canyon - Kitchen & Icehouse",
+        "WaterFire Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Yakima to Bend, Duration: 283.655 mins, Distance: 352.404 km, Estimated Cost: $352.40"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "MOD Pizza",
+      "candidates": [
+        "MOD Pizza",
+        "Famous Burger & Teriyaki Sandwich",
+        "Essencia Bakery",
+        "Taj Palace",
+        "Thai House Yakima",
+        "White House Cafe",
+        "Cowiche Canyon - Kitchen & Icehouse",
+        "WaterFire Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Bend to Everett",
+      "transportation": "Taxi, from Bend to Everett, Duration: 466.075 mins, Distance: 572.572 km, Estimated Cost: $572.57",
+      "accommodation": "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+      "breakfast": "Everett's",
+      "attractions": [
+        "Schack Art Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GLENNWOOD AVE & KENWOOD DR - NB",
+          "dist_m": 284.43
+        },
+        {
+          "name": "Cozy 2Bdr Home in Quiet Neighborhood |8 min to PAE",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "GLENNWOOD AVE & KENWOOD DR - NB",
+          "dist_m": 284.43
+        },
+        {
+          "name": "Everett's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "13TH ST & W MARINE VIEW DR - WB",
+          "dist_m": 2281928.35
+        },
+        {
+          "name": "Schack Art Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "WALL ST & HOYT AVE - WB",
+          "dist_m": 77.88
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Everett to Everett",
+      "transportation": "-",
+      "accommodation": "Cozy, Private Tiny Home",
+      "breakfast": "Wendy's Country Cafe",
+      "attractions": [
+        "Everett Farmers Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy, Private Tiny Home",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & BEVERLY BLVD - NB",
+          "dist_m": 1674.37
+        },
+        {
+          "name": "Cozy, Private Tiny Home",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & BEVERLY BLVD - NB",
+          "dist_m": 1674.37
+        },
+        {
+          "name": "Wendy's Country Cafe",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "EVERETT AVE & OAKES AVE - EB",
+          "dist_m": 120.43
+        },
+        {
+          "name": "Everett Farmers Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "13TH ST & W MARINE VIEW DR - WB",
+          "dist_m": 523.98
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Everett to Seattle",
+      "transportation": "-",
+      "accommodation": "Queen Anne Courtyard Suite",
+      "breakfast": "Dough Zone Dumpling House - Seattle International District",
+      "attractions": [
+        "Pike Place Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy, Private Tiny Home",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & BEVERLY BLVD - NB",
+          "dist_m": 1674.37
+        },
+        {
+          "name": "Queen Anne Courtyard Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Queen Anne Ave N & W Howe St",
+          "dist_m": 58.44
+        },
+        {
+          "name": "Dough Zone Dumpling House - Seattle International District",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "5th Ave S & S Weller St",
+          "dist_m": 26.54
+        },
+        {
+          "name": "Pike Place Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "2nd Ave & Stewart St",
+          "dist_m": 182.89
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "-",
+      "accommodation": "Queen Anne Courtyard Suite",
+      "breakfast": "Lola",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Queen Anne Courtyard Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Queen Anne Ave N & W Howe St",
+          "dist_m": 58.44
+        },
+        {
+          "name": "Queen Anne Courtyard Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Queen Anne Ave N & W Howe St",
+          "dist_m": 58.44
+        },
+        {
+          "name": "Lola",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Virginia St & 4th Ave",
+          "dist_m": 26.1
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Seattle to Yakima",
+      "transportation": "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41",
+      "accommodation": "The Ranch House | New 1 BR in Wine Country",
+      "breakfast": "Salsita Antojitos Mexicanos",
+      "attractions": [
+        "Precision Fruit and Antiques"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Queen Anne Courtyard Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Queen Anne Ave N & W Howe St",
+          "dist_m": 58.44
+        },
+        {
+          "name": "The Ranch House | New 1 BR in Wine Country",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "VALLEY MALL BLVD EASTBOUND",
+          "dist_m": 11829.51
+        },
+        {
+          "name": "Salsita Antojitos Mexicanos",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "FAIR AVE / PACIFIC",
+          "dist_m": 67.92
+        },
+        {
+          "name": "Precision Fruit and Antiques",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "1808 N 1ST ST",
+          "dist_m": 2728.11
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Yakima to Yakima",
+      "transportation": "-",
+      "accommodation": "The Ranch House | New 1 BR in Wine Country",
+      "breakfast": "Waffles Caffe",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Ranch House | New 1 BR in Wine Country",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "VALLEY MALL BLVD EASTBOUND",
+          "dist_m": 11829.51
+        },
+        {
+          "name": "The Ranch House | New 1 BR in Wine Country",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "VALLEY MALL BLVD EASTBOUND",
+          "dist_m": 11829.51
+        },
+        {
+          "name": "Waffles Caffe",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1ST ST & TAMARACK AVE",
+          "dist_m": 45.18
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Yakima to Bend",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "MOD Pizza",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Ranch House | New 1 BR in Wine Country",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "VALLEY MALL BLVD EASTBOUND",
+          "dist_m": 11829.51
+        },
+        {
+          "name": "MOD Pizza",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "NOB HILL / 25TH",
+          "dist_m": 66.18
+        }
+      ]
+    }
+  ]
+}

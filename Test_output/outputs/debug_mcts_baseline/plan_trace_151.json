@@ -1,0 +1,950 @@
+{
+  "idx": 151,
+  "reward": 17.05178653869939,
+  "budget_used": 2875.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83",
+      "candidates": [
+        "-",
+        "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Safe Hideaway in Prime Midtown Location",
+      "candidates": [
+        "Guest House",
+        "Private Safe Hideaway in Prime Midtown Location",
+        "Adorable 1-bedroom guesthouse in Midtown",
+        "Midtown - Private Entrance & Garden",
+        "Collierville cottage on 3 acre farm",
+        "Clean and Cozy Cottage in Heart of Memphis",
+        "Upscale Duplex in Trendy Cooper-Young Area",
+        "Sunny Bedroom at the Greenhouse Oasis",
+        "Cottage bungalow in midtown (Cooper and Young)",
+        "Historic Cooper Young Midtown Shotgun House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Gus's World Famous Fried Chicken",
+      "candidates": [
+        "Gus's World Famous Fried Chicken",
+        "Payne's Bar-B-Que",
+        "Gibson's Donuts",
+        "Cozy Corner",
+        "Gus's World Famous Fried Chicken",
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Brother Juniper's",
+        "Memphis BBQ Grill",
+        "The Brass Door Irish Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Mud Island River Park",
+      "candidates": [
+        "Mud Island River Park",
+        "Memphis Zoo",
+        "Backbeat Tours",
+        "Memphis Riverboats",
+        "Stax Museum of American Soul Music",
+        "National Civil Rights Museum - Lorraine Motel",
+        "AutoZone Park",
+        "Graceland",
+        "The Peabody Ducks",
+        "Beale Street"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Guest House",
+      "candidates": [
+        "Guest House",
+        "Private Safe Hideaway in Prime Midtown Location",
+        "Adorable 1-bedroom guesthouse in Midtown",
+        "Midtown - Private Entrance & Garden",
+        "Collierville cottage on 3 acre farm",
+        "Clean and Cozy Cottage in Heart of Memphis",
+        "Upscale Duplex in Trendy Cooper-Young Area",
+        "Sunny Bedroom at the Greenhouse Oasis",
+        "Cottage bungalow in midtown (Cooper and Young)",
+        "Historic Cooper Young Midtown Shotgun House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Payne's Bar-B-Que",
+      "candidates": [
+        "Payne's Bar-B-Que",
+        "Gibson's Donuts",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Brother Juniper's",
+        "Memphis BBQ Grill",
+        "The Brass Door Irish Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Memphis Zoo",
+      "candidates": [
+        "Memphis Zoo",
+        "Backbeat Tours",
+        "Memphis Riverboats",
+        "Stax Museum of American Soul Music",
+        "National Civil Rights Museum - Lorraine Motel",
+        "AutoZone Park",
+        "Graceland",
+        "The Peabody Ducks",
+        "Beale Street"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+      "candidates": [
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Rustic & Modern Loft by Broadway",
+        "Loft Retreat in Nashville's Germantown/Downtown",
+        "Historic Dream In East Nashville",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "1.5 mile to DT & 12th South: Beautiful Studio",
+        "Walkable & Modern! Private Parking and a King Bed!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "12 South Original - Restored craftsman from 1905!"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Central Bar + Kitchen",
+      "candidates": [
+        "Central Bar + Kitchen",
+        "Pelato",
+        "1 Kitchen",
+        "Harriet's Rooftop",
+        "Gannons Nashville",
+        "Luogo",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "The Farm House",
+        "Smiling Elephant",
+        "417 Union"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Radnor Lake State Park",
+      "candidates": [
+        "Radnor Lake State Park",
+        "Gaylord Opryland Garden Conservatory",
+        "Centennial Park",
+        "Belmont Mansion",
+        "Cheekwood",
+        "Bridgestone Arena",
+        "Lane Motor Museum",
+        "Musicians Hall of Fame and Museum",
+        "RCA Studio B",
+        "Andrew Jackson's Hermitage"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+      "candidates": [
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Rustic & Modern Loft by Broadway",
+        "Loft Retreat in Nashville's Germantown/Downtown",
+        "Historic Dream In East Nashville",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "1.5 mile to DT & 12th South: Beautiful Studio",
+        "Walkable & Modern! Private Parking and a King Bed!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "12 South Original - Restored craftsman from 1905!"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pelato",
+      "candidates": [
+        "Pelato",
+        "1 Kitchen",
+        "Harriet's Rooftop",
+        "Gannons Nashville",
+        "Luogo",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "The Farm House",
+        "Smiling Elephant",
+        "417 Union"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gaylord Opryland Garden Conservatory",
+      "candidates": [
+        "Gaylord Opryland Garden Conservatory",
+        "Centennial Park",
+        "Belmont Mansion",
+        "Cheekwood",
+        "Bridgestone Arena",
+        "Lane Motor Museum",
+        "Musicians Hall of Fame and Museum",
+        "RCA Studio B",
+        "Andrew Jackson's Hermitage"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Stylish Studio",
+      "candidates": [
+        "Cozy Stylish Studio",
+        "-Downtown 6 miles -Mtn Views",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Modern Monteagle A-frame with Hot Tub",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Overlook Cabin: Breath-taking Views & King Bed",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "New! Luxe Ridgetop Retreat *Views *Hot Tub *Trails"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Purple Daisy Picnic Cafe",
+      "candidates": [
+        "The Purple Daisy Picnic Cafe",
+        "Uncle Larry's Restaurant",
+        "Hickory Pit Bar-B-Que",
+        "1885 Grill",
+        "Bluegrass Grill",
+        "Urban Stack",
+        "The Feed co. Table & Tavern",
+        "Champy's",
+        "Community Pie",
+        "J. Alexander's Restaurant"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lookout Mountain",
+      "candidates": [
+        "Lookout Mountain",
+        "Coolidge Park",
+        "Chattanooga Zoo",
+        "Chattanooga Ducks",
+        "Tennessee Aquarium",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "The Lookout Mountain Incline Railway",
+        "Chattanooga Ghost Tours",
+        "Tennessee Valley Railroad Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Stylish Studio",
+      "candidates": [
+        "Cozy Stylish Studio",
+        "-Downtown 6 miles -Mtn Views",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Modern Monteagle A-frame with Hot Tub",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Overlook Cabin: Breath-taking Views & King Bed",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "New! Luxe Ridgetop Retreat *Views *Hot Tub *Trails"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Uncle Larry's Restaurant",
+      "candidates": [
+        "Uncle Larry's Restaurant",
+        "Hickory Pit Bar-B-Que",
+        "1885 Grill",
+        "Bluegrass Grill",
+        "Urban Stack",
+        "The Feed co. Table & Tavern",
+        "Champy's",
+        "Community Pie",
+        "J. Alexander's Restaurant"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Coolidge Park",
+      "candidates": [
+        "Coolidge Park",
+        "Chattanooga Zoo",
+        "Chattanooga Ducks",
+        "Tennessee Aquarium",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "The Lookout Mountain Incline Railway",
+        "Chattanooga Ghost Tours",
+        "Tennessee Valley Railroad Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Chattanooga to Albany, Duration: 1060.5766666666666 mins, Distance: 1508.2908 km, Estimated Cost: $1508.29"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hickory Pit Bar-B-Que",
+      "candidates": [
+        "Hickory Pit Bar-B-Que",
+        "1885 Grill",
+        "Bluegrass Grill",
+        "Urban Stack",
+        "The Feed co. Table & Tavern",
+        "Champy's",
+        "Community Pie",
+        "J. Alexander's Restaurant"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Zoo",
+      "candidates": [
+        "Chattanooga Zoo",
+        "Chattanooga Ducks",
+        "Tennessee Aquarium",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "The Lookout Mountain Incline Railway",
+        "Chattanooga Ghost Tours",
+        "Tennessee Valley Railroad Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Albany to Memphis",
+      "transportation": "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83",
+      "accommodation": "Private Safe Hideaway in Prime Midtown Location",
+      "breakfast": "Gus's World Famous Fried Chicken",
+      "attractions": [
+        "Mud Island River Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Safe Hideaway in Prime Midtown Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "CENTRAL@METCALF",
+          "dist_m": 76.21
+        },
+        {
+          "name": "Private Safe Hideaway in Prime Midtown Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "CENTRAL@METCALF",
+          "dist_m": 76.21
+        },
+        {
+          "name": "Gus's World Famous Fried Chicken",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "POPLAR@MENDENHALL",
+          "dist_m": 189.63
+        },
+        {
+          "name": "Mud Island River Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "FRONT@POPLAR",
+          "dist_m": 539.88
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "-",
+      "accommodation": "Guest House",
+      "breakfast": "Payne's Bar-B-Que",
+      "attractions": [
+        "Memphis Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GERMANTOWN@CORDOVA STATION",
+          "dist_m": 3981.18
+        },
+        {
+          "name": "Guest House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "GERMANTOWN@CORDOVA STATION",
+          "dist_m": 3981.18
+        },
+        {
+          "name": "Payne's Bar-B-Que",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "LAMAR AVE@SEATTLE",
+          "dist_m": 20.86
+        },
+        {
+          "name": "Memphis Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "N PARKWAY@WEST DR",
+          "dist_m": 8.68
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Memphis to Nashville",
+      "transportation": "-",
+      "accommodation": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+      "breakfast": "Central Bar + Kitchen",
+      "attractions": [
+        "Radnor Lake State Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GERMANTOWN@CORDOVA STATION",
+          "dist_m": 3981.18
+        },
+        {
+          "name": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LAFAYETTE ST & EWING AVE SB",
+          "dist_m": 176.49
+        },
+        {
+          "name": "Central Bar + Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "WEST END AVE & 25TH AVE S EB",
+          "dist_m": 184.06
+        },
+        {
+          "name": "Radnor Lake State Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "SHACKLEFORD RD & BELMONT BLVD EB",
+          "dist_m": 4533.45
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+      "breakfast": "Pelato",
+      "attractions": [
+        "Gaylord Opryland Garden Conservatory"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "LAFAYETTE ST & EWING AVE SB",
+          "dist_m": 176.49
+        },
+        {
+          "name": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LAFAYETTE ST & EWING AVE SB",
+          "dist_m": 176.49
+        },
+        {
+          "name": "Pelato",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "3RD AVE N & MONROE ST SB",
+          "dist_m": 31.56
+        },
+        {
+          "name": "Gaylord Opryland Garden Conservatory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "OPRY MILLS DRIVE & WARDROBE BLDNG",
+          "dist_m": 471.91
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Nashville to Chattanooga",
+      "transportation": "-",
+      "accommodation": "Cozy Stylish Studio",
+      "breakfast": "The Purple Daisy Picnic Cafe",
+      "attractions": [
+        "Lookout Mountain"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "LAFAYETTE ST & EWING AVE SB",
+          "dist_m": 176.49
+        },
+        {
+          "name": "Cozy Stylish Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BONNOAK",
+          "dist_m": 4223.21
+        },
+        {
+          "name": "The Purple Daisy Picnic Cafe",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "St. Elmo & 40th1",
+          "dist_m": 36.0
+        },
+        {
+          "name": "Lookout Mountain",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "55TH + ALABAMA",
+          "dist_m": 1650.28
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "-",
+      "accommodation": "Cozy Stylish Studio",
+      "breakfast": "Uncle Larry's Restaurant",
+      "attractions": [
+        "Coolidge Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Stylish Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BONNOAK",
+          "dist_m": 4223.21
+        },
+        {
+          "name": "Cozy Stylish Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BONNOAK",
+          "dist_m": 4223.21
+        },
+        {
+          "name": "Uncle Larry's Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "M.L.KING BLVD + PEEPLES",
+          "dist_m": 20.49
+        },
+        {
+          "name": "Coolidge Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Frazier & Forrest-0",
+          "dist_m": 132.99
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Chattanooga to Albany",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Hickory Pit Bar-B-Que",
+      "attractions": [
+        "Chattanooga Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Stylish Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BONNOAK",
+          "dist_m": 4223.21
+        },
+        {
+          "name": "Hickory Pit Bar-B-Que",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "BRAINERD RD + HUNT",
+          "dist_m": 2036.96
+        },
+        {
+          "name": "Chattanooga Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Holtzclaw & 5th-1",
+          "dist_m": 123.88
+        }
+      ]
+    }
+  ]
+}

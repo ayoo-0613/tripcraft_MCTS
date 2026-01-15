@@ -1,0 +1,944 @@
+{
+  "idx": 191,
+  "reward": -239.73400075405655,
+  "budget_used": 3150.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
+      "candidates": [
+        "-",
+        "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Leftwich St APT 2",
+      "candidates": [
+        "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+        "Leftwich St APT 2",
+        "Foghorn's Roost",
+        "Newly Renovated Modern Ranch Home",
+        "Cozy apartment across from park",
+        "Downtown Greensboro Luxurious Hideaway",
+        "Date Night | Fall In Love With City Life! Walkable",
+        "Gate House Garden",
+        "Great spot near downtown.",
+        "Peaceful Place"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Dear Dad's",
+      "candidates": [
+        "Dear Dad's",
+        "Sarah's Kabob Shop",
+        "Carolina's Diner",
+        "Mythos Grill",
+        "Golden Wok",
+        "Scrambled Southern Diner",
+        "Hops Burger Bar",
+        "Lucky 32 Southern Kitchen",
+        "At Elm St Grill",
+        "Green Valley Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Greensboro History Museum",
+      "candidates": [
+        "Greensboro History Museum",
+        "International Civil Rights Center & Museum",
+        "Greensboro Science Center",
+        "Greensboro Children's Museum",
+        "Ambleside Gallery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Greensboro Children's Museum",
+      "candidates": [
+        "Greensboro Children's Museum",
+        "International Civil Rights Center & Museum",
+        "Greensboro Science Center",
+        "Ambleside Gallery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+      "candidates": [
+        "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+        "Leftwich St APT 2",
+        "Foghorn's Roost",
+        "Newly Renovated Modern Ranch Home",
+        "Cozy apartment across from park",
+        "Downtown Greensboro Luxurious Hideaway",
+        "Date Night | Fall In Love With City Life! Walkable",
+        "Gate House Garden",
+        "Great spot near downtown.",
+        "Peaceful Place"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sarah's Kabob Shop",
+      "candidates": [
+        "Sarah's Kabob Shop",
+        "Carolina's Diner",
+        "Mythos Grill",
+        "Golden Wok",
+        "Scrambled Southern Diner",
+        "Hops Burger Bar",
+        "Lucky 32 Southern Kitchen",
+        "At Elm St Grill",
+        "Green Valley Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "International Civil Rights Center & Museum",
+      "candidates": [
+        "International Civil Rights Center & Museum",
+        "Greensboro Science Center",
+        "Ambleside Gallery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Greensboro Science Center",
+      "candidates": [
+        "Greensboro Science Center",
+        "Ambleside Gallery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Swan • Fully Private Guest Suite",
+      "candidates": [
+        "The Swan • Fully Private Guest Suite",
+        "Harbor Oaks, rest, relax, renew...",
+        "Malibu @ TheCove - Houseboat w/ view of Battleship",
+        "Charming Historic Downtown Cottage",
+        "Celebration @ The Cove",
+        "Dockside at The Cove",
+        "Crestwood Cottage",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Chic Loft | Downtown | Front & Market",
+        "Guest home for the weekend"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Genki Sushi",
+      "candidates": [
+        "Genki Sushi",
+        "The Peppered Cupcake",
+        "Winnie's Tavern",
+        "Flaming Amy's Burrito Barn",
+        "Circa 1922",
+        "Roko Italian Cuisine",
+        "Yo Sake Downtown Sushi Lounge",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Copper Penny",
+        "Szechuan 132"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Burgwin-Wright House and Gardens",
+      "candidates": [
+        "Burgwin-Wright House and Gardens",
+        "Cameron Art Museum",
+        "Poplar Grove Plantation",
+        "Cape Fear Museum",
+        "Museum of the Bizarre",
+        "Wilmington Railroad Museum",
+        "Bellamy Mansion"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Swan • Fully Private Guest Suite",
+      "candidates": [
+        "The Swan • Fully Private Guest Suite",
+        "Harbor Oaks, rest, relax, renew...",
+        "Malibu @ TheCove - Houseboat w/ view of Battleship",
+        "Charming Historic Downtown Cottage",
+        "Celebration @ The Cove",
+        "Dockside at The Cove",
+        "Crestwood Cottage",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Chic Loft | Downtown | Front & Market",
+        "Guest home for the weekend"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Peppered Cupcake",
+      "candidates": [
+        "The Peppered Cupcake",
+        "Winnie's Tavern",
+        "Flaming Amy's Burrito Barn",
+        "Circa 1922",
+        "Roko Italian Cuisine",
+        "Yo Sake Downtown Sushi Lounge",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Copper Penny",
+        "Szechuan 132"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cameron Art Museum",
+      "candidates": [
+        "Cameron Art Museum",
+        "Poplar Grove Plantation",
+        "Cape Fear Museum",
+        "Museum of the Bizarre",
+        "Wilmington Railroad Museum",
+        "Bellamy Mansion"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "candidates": [
+        "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+        "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bedroom with Private Patio & Gym Near Uptown!",
+      "candidates": [
+        "Bedroom with Private Patio & Gym Near Uptown!",
+        "Cozy & Convenient Loft on Lakeshore LKN 1-Bed",
+        "Villa Heights Hideaway",
+        "Tippah Treehouse Retreat",
+        "3-BDR Direct Waterfront Cottage",
+        "Jungle themed airnhb",
+        "Quiet, Comfy and Stress Free Studio",
+        "Lovely Studio Apartment for 2 with a patio garden",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Charlotte Lane",
+      "candidates": [
+        "Charlotte Lane",
+        "Pinky's Westside Grill",
+        "Charlotte Bakery",
+        "Charlotte's Eats and Sweets",
+        "Le Potager de Charlotte",
+        "Charlotte Quay Restaurant",
+        "Mac's Speed Shop",
+        "Cabo Fish Taco Baja Seagrill",
+        "Charlotte's Restaurant",
+        "Charlottes Chocolates"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hendrick Motorsports Complex",
+      "candidates": [
+        "Hendrick Motorsports Complex",
+        "Discovery Place Science",
+        "NASCAR Hall of Fame",
+        "Mint Museum Uptown",
+        "Levine Museum of the New South",
+        "Sullenberger Aviation Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bedroom with Private Patio & Gym Near Uptown!",
+      "candidates": [
+        "Bedroom with Private Patio & Gym Near Uptown!",
+        "Cozy & Convenient Loft on Lakeshore LKN 1-Bed",
+        "Villa Heights Hideaway",
+        "Tippah Treehouse Retreat",
+        "3-BDR Direct Waterfront Cottage",
+        "Jungle themed airnhb",
+        "Quiet, Comfy and Stress Free Studio",
+        "Lovely Studio Apartment for 2 with a patio garden",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pinky's Westside Grill",
+      "candidates": [
+        "Pinky's Westside Grill",
+        "Charlotte Bakery",
+        "Charlotte's Eats and Sweets",
+        "Le Potager de Charlotte",
+        "Charlotte Quay Restaurant",
+        "Mac's Speed Shop",
+        "Cabo Fish Taco Baja Seagrill",
+        "Charlotte's Restaurant",
+        "Charlottes Chocolates"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Discovery Place Science",
+      "candidates": [
+        "Discovery Place Science",
+        "NASCAR Hall of Fame",
+        "Mint Museum Uptown",
+        "Levine Museum of the New South",
+        "Sullenberger Aviation Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "candidates": [
+        "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+        "Taxi, from Charlotte to Oklahoma City, Duration: 1194.2333333333333 mins, Distance: 1762.3656 km, Estimated Cost: $1762.37"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Charlotte Bakery",
+      "candidates": [
+        "Charlotte Bakery",
+        "Charlotte's Eats and Sweets",
+        "Le Potager de Charlotte",
+        "Charlotte Quay Restaurant",
+        "Mac's Speed Shop",
+        "Cabo Fish Taco Baja Seagrill",
+        "Charlotte's Restaurant",
+        "Charlottes Chocolates"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "NASCAR Hall of Fame",
+      "candidates": [
+        "NASCAR Hall of Fame",
+        "Mint Museum Uptown",
+        "Levine Museum of the New South",
+        "Sullenberger Aviation Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Oklahoma City to Greensboro",
+      "transportation": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
+      "accommodation": "Leftwich St APT 2",
+      "breakfast": "Dear Dad's",
+      "attractions": [
+        "Greensboro History Museum",
+        "Greensboro Children's Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "Dear Dad's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Battleground/Old Battleground",
+          "dist_m": 64.41
+        },
+        {
+          "name": "Greensboro History Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Church/Lindsay",
+          "dist_m": 131.5
+        },
+        {
+          "name": "Greensboro Children's Museum",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Lindsay/Church",
+          "dist_m": 95.37
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "-",
+      "accommodation": "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+      "breakfast": "Sarah's Kabob Shop",
+      "attractions": [
+        "International Civil Rights Center & Museum",
+        "Greensboro Science Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Battleground/Brassfield",
+          "dist_m": 1545.29
+        },
+        {
+          "name": "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Battleground/Brassfield",
+          "dist_m": 1545.29
+        },
+        {
+          "name": "Sarah's Kabob Shop",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "West Market/Montleiu (OB)",
+          "dist_m": 50.3
+        },
+        {
+          "name": "International Civil Rights Center & Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "International Civil Rights Museum",
+          "dist_m": 3.98
+        },
+        {
+          "name": "Greensboro Science Center",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Lawndale/Natural Science Center",
+          "dist_m": 145.66
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "-",
+      "accommodation": "The Swan • Fully Private Guest Suite",
+      "breakfast": "Genki Sushi",
+      "attractions": [
+        "Burgwin-Wright House and Gardens"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New!COZY!Ranch,3bed /2bath Private wooded yard!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Battleground/Brassfield",
+          "dist_m": 1545.29
+        },
+        {
+          "name": "The Swan • Fully Private Guest Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Forden Station",
+          "dist_m": 1934.13
+        },
+        {
+          "name": "Genki Sushi",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "New Centre Dr SB at Red Roof Inn",
+          "dist_m": 99.0
+        },
+        {
+          "name": "Burgwin-Wright House and Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "3rd St SB at Dock St",
+          "dist_m": 75.52
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "-",
+      "accommodation": "The Swan • Fully Private Guest Suite",
+      "breakfast": "The Peppered Cupcake",
+      "attractions": [
+        "Cameron Art Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Swan • Fully Private Guest Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Forden Station",
+          "dist_m": 1934.13
+        },
+        {
+          "name": "The Swan • Fully Private Guest Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Forden Station",
+          "dist_m": 1934.13
+        },
+        {
+          "name": "The Peppered Cupcake",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Front St SB at Orange St",
+          "dist_m": 107.21
+        },
+        {
+          "name": "Cameron Art Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "17th St NB at Independence Blvd (CAM)",
+          "dist_m": 185.73
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "accommodation": "Bedroom with Private Patio & Gym Near Uptown!",
+      "breakfast": "Charlotte Lane",
+      "attractions": [
+        "Hendrick Motorsports Complex"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Swan • Fully Private Guest Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Forden Station",
+          "dist_m": 1934.13
+        },
+        {
+          "name": "Bedroom with Private Patio & Gym Near Uptown!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "West Blvd & Beech Nut Rd",
+          "dist_m": 390.41
+        },
+        {
+          "name": "Charlotte Lane",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Beaty St @ 866",
+          "dist_m": 1612739.2
+        },
+        {
+          "name": "Hendrick Motorsports Complex",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Concord Mills Mall",
+          "dist_m": 2546.56
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "-",
+      "accommodation": "Bedroom with Private Patio & Gym Near Uptown!",
+      "breakfast": "Pinky's Westside Grill",
+      "attractions": [
+        "Discovery Place Science"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bedroom with Private Patio & Gym Near Uptown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "West Blvd & Beech Nut Rd",
+          "dist_m": 390.41
+        },
+        {
+          "name": "Bedroom with Private Patio & Gym Near Uptown!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "West Blvd & Beech Nut Rd",
+          "dist_m": 390.41
+        },
+        {
+          "name": "Pinky's Westside Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Morehead St & Grandin Rd",
+          "dist_m": 166.98
+        },
+        {
+          "name": "Discovery Place Science",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Church St & 6th St",
+          "dist_m": 53.42
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Charlotte to Oklahoma City",
+      "transportation": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "accommodation": "-",
+      "breakfast": "Charlotte Bakery",
+      "attractions": [
+        "NASCAR Hall of Fame"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bedroom with Private Patio & Gym Near Uptown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "West Blvd & Beech Nut Rd",
+          "dist_m": 390.41
+        },
+        {
+          "name": "Charlotte Bakery",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "White Street Park and Ride",
+          "dist_m": 1016826.02
+        },
+        {
+          "name": "NASCAR Hall of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Caldwell St & 3rd St",
+          "dist_m": 96.74
+        }
+      ]
+    }
+  ]
+}

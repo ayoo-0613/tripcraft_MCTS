@@ -1,0 +1,954 @@
+{
+  "idx": 170,
+  "reward": 22.48189701369226,
+  "budget_used": 4468.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+      "candidates": [
+        "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+        "Taxi, from Chicago to San Diego, Not feasible to drive from Chicago to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Central & Serene Secret Garden Guesthouse",
+      "candidates": [
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Central & Serene Secret Garden Guesthouse",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "Place to Stay with Private Entrance near Beach",
+        "Private Hideaway, Shelter Island, Beach & Bay",
+        "Hilltop cabin retreat with lake & mountain views",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Covewood Restaurant",
+      "candidates": [
+        "Covewood Restaurant",
+        "The Butcher Shop",
+        "El Agave Restaurant & Tequileria",
+        "La Puerta",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Alforon",
+        "Filippi's Pizza Grotto Little Italy",
+        "Civico 1845",
+        "Ironside Fish & Oyster",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Cabrillo National Monument",
+        "San Diego Zoo",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "Coronado Bridge",
+        "Seaport Village",
+        "Point Loma",
+        "Little Italy",
+        "Old Town San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "El Agave Restaurant & Tequileria",
+      "candidates": [
+        "El Agave Restaurant & Tequileria",
+        "La Puerta",
+        "Alforon",
+        "The Butcher Shop",
+        "Filippi's Pizza Grotto Little Italy",
+        "Civico 1845",
+        "Ironside Fish & Oyster",
+        "Oceana Coastal Kitchen",
+        "Provisional Kitchen, Cafe, and Mercantile"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Cabrillo National Monument",
+      "candidates": [
+        "Cabrillo National Monument",
+        "Mt. Soledad National Veterans Memorial",
+        "Coronado Bridge",
+        "Seaport Village",
+        "Point Loma",
+        "Little Italy",
+        "Old Town San Diego",
+        "San Diego Zoo",
+        "Birch Aquarium at Scripps"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Great Beach Fun and Rest in Pacific Beach!",
+      "candidates": [
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Central & Serene Secret Garden Guesthouse",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "Place to Stay with Private Entrance near Beach",
+        "Private Hideaway, Shelter Island, Beach & Bay",
+        "Hilltop cabin retreat with lake & mountain views",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Butcher Shop",
+      "candidates": [
+        "The Butcher Shop",
+        "La Puerta",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Alforon",
+        "Filippi's Pizza Grotto Little Italy",
+        "Civico 1845",
+        "Ironside Fish & Oyster",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "San Diego Zoo",
+      "candidates": [
+        "San Diego Zoo",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "Coronado Bridge",
+        "Seaport Village",
+        "Point Loma",
+        "Little Italy",
+        "Old Town San Diego"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Puerta",
+      "candidates": [
+        "La Puerta",
+        "Alforon",
+        "Filippi's Pizza Grotto Little Italy",
+        "Civico 1845",
+        "Ironside Fish & Oyster",
+        "Oceana Coastal Kitchen",
+        "Provisional Kitchen, Cafe, and Mercantile"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Mt. Soledad National Veterans Memorial",
+      "candidates": [
+        "Mt. Soledad National Veterans Memorial",
+        "Coronado Bridge",
+        "Seaport Village",
+        "Point Loma",
+        "Little Italy",
+        "Old Town San Diego",
+        "Birch Aquarium at Scripps"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+      "candidates": [
+        "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+        "Taxi, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $806.21"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Peaceful Studio in the Trees",
+      "candidates": [
+        "Peaceful Studio in the Trees",
+        "Spacious and charming 1bd apartment on Ocean Beach",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Immaculate studio space with free parking",
+        "1 Queen bedded room w/full bath",
+        "#1 Private room with private bathroom with tub",
+        "Recent Remodeled Beautiful Unit",
+        "Private cozy room 1"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Peaceful Studio in the Trees",
+      "candidates": [
+        "Peaceful Studio in the Trees",
+        "Spacious and charming 1bd apartment on Ocean Beach",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Immaculate studio space with free parking",
+        "1 Queen bedded room w/full bath",
+        "#1 Private room with private bathroom with tub",
+        "Recent Remodeled Beautiful Unit",
+        "Private cozy room 1"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mersea Restaurant & Bar",
+      "candidates": [
+        "Mersea Restaurant & Bar",
+        "Good Mong Kok Bakery",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Honey Honey Cafe & Crepery",
+        "City View Restaurant",
+        "Hog Island Oyster Co.",
+        "Tadich Grill",
+        "Outerlands",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Alcatraz Island",
+      "candidates": [
+        "Alcatraz Island",
+        "Golden Gate Bridge",
+        "Twin Peaks",
+        "Oracle Park",
+        "Coit Tower",
+        "Fisherman's Wharf",
+        "Ghirardelli Square",
+        "Ferry Building Marketplace"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+      "candidates": [
+        "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+        "Taxi, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $299.86"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+      "candidates": [
+        "Beautifully remodeled NE Fresno home 3bed/2Bath",
+        "Private Bedroom & Bath SE Fresno",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "Lazy Private Cottage",
+        "Mid-Century Modern Oasis W/Spa",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "1 Bedroom PRIVATE GUESTHOUSE (w/ Private Entry)",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Warm Suite with Private Bath and Kitchenette"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Forestiere Underground Gardens",
+      "candidates": [
+        "Forestiere Underground Gardens",
+        "Fresno Chaffee Zoo",
+        "St. Johns Cathedral of Fresno",
+        "Fresno City Hall",
+        "Kearney Mansion Museum & Gallery",
+        "Chukchansi Park",
+        "Old Fresno Water Tower",
+        "First Armenian Presbyterian Church"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+      "candidates": [
+        "Beautifully remodeled NE Fresno home 3bed/2Bath",
+        "Private Bedroom & Bath SE Fresno",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "Lazy Private Cottage",
+        "Mid-Century Modern Oasis W/Spa",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "1 Bedroom PRIVATE GUESTHOUSE (w/ Private Entry)",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Warm Suite with Private Bath and Kitchenette"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ampersand Ice Cream",
+      "candidates": [
+        "Ampersand Ice Cream",
+        "Sam's Italian Deli and Market",
+        "Chef Paul's Cafe",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Fig Garden Village",
+        "The Lime Lite",
+        "Mediterranean Grill & Cafe",
+        "Gem of Thailand",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fresno Chaffee Zoo",
+      "candidates": [
+        "Fresno Chaffee Zoo",
+        "St. Johns Cathedral of Fresno",
+        "Fresno City Hall",
+        "Kearney Mansion Museum & Gallery",
+        "Chukchansi Park",
+        "Old Fresno Water Tower",
+        "First Armenian Presbyterian Church"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+      "candidates": [
+        "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+        "Taxi, from Fresno to Chicago, Not feasible to drive from Fresno to Chicago"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sam's Italian Deli and Market",
+      "candidates": [
+        "Sam's Italian Deli and Market",
+        "Chef Paul's Cafe",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Fig Garden Village",
+        "The Lime Lite",
+        "Mediterranean Grill & Cafe",
+        "Gem of Thailand",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "St. Johns Cathedral of Fresno",
+      "candidates": [
+        "St. Johns Cathedral of Fresno",
+        "Fresno City Hall",
+        "Kearney Mansion Museum & Gallery",
+        "Chukchansi Park",
+        "Old Fresno Water Tower",
+        "First Armenian Presbyterian Church"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to San Diego",
+      "transportation": "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+      "accommodation": "Central & Serene Secret Garden Guesthouse",
+      "breakfast": "Covewood Restaurant",
+      "attractions": [
+        "SeaWorld",
+        "Cabrillo National Monument"
+      ],
+      "lunch": "El Agave Restaurant & Tequileria",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Covewood Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Morena Bl & Asher St",
+          "dist_m": 354.99
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "El Agave Restaurant & Tequileria",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Sunset Bl & Witherby St",
+          "dist_m": 469.6
+        },
+        {
+          "name": "Cabrillo National Monument",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Cabrillo National Monument",
+          "dist_m": 267.46
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Great Beach Fun and Rest in Pacific Beach!",
+      "breakfast": "The Butcher Shop",
+      "attractions": [
+        "San Diego Zoo",
+        "Mt. Soledad National Veterans Memorial"
+      ],
+      "lunch": "La Puerta",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Great Beach Fun and Rest in Pacific Beach!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 192.26
+        },
+        {
+          "name": "Great Beach Fun and Rest in Pacific Beach!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 192.26
+        },
+        {
+          "name": "The Butcher Shop",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Kearny Villa Rd & Kearny Villa Way",
+          "dist_m": 77.63
+        },
+        {
+          "name": "San Diego Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Park Bl & Zoo Pl",
+          "dist_m": 300.95
+        },
+        {
+          "name": "La Puerta",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "4th Av & G St",
+          "dist_m": 127.08
+        },
+        {
+          "name": "Mt. Soledad National Veterans Memorial",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Torrey Pines Rd & Calle De La Plata",
+          "dist_m": 1714.29
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to San Francisco",
+      "transportation": "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+      "accommodation": "Peaceful Studio in the Trees",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Great Beach Fun and Rest in Pacific Beach!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 192.26
+        },
+        {
+          "name": "Peaceful Studio in the Trees",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 2057.84
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Peaceful Studio in the Trees",
+      "breakfast": "Mersea Restaurant & Bar",
+      "attractions": [
+        "Alcatraz Island"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Peaceful Studio in the Trees",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 2057.84
+        },
+        {
+          "name": "Peaceful Studio in the Trees",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 2057.84
+        },
+        {
+          "name": "Mersea Restaurant & Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 3667.91
+        },
+        {
+          "name": "Alcatraz Island",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 4605.72
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Francisco to Fresno",
+      "transportation": "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+      "accommodation": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+      "breakfast": "-",
+      "attractions": [
+        "Forestiere Underground Gardens"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Peaceful Studio in the Trees",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 2057.84
+        },
+        {
+          "name": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SW CHAMPLAIN - FOXHILL",
+          "dist_m": 865.19
+        },
+        {
+          "name": "Forestiere Underground Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "NW SHAW - CORNELIA",
+          "dist_m": 95.29
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "-",
+      "accommodation": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+      "breakfast": "Ampersand Ice Cream",
+      "attractions": [
+        "Fresno Chaffee Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SW CHAMPLAIN - FOXHILL",
+          "dist_m": 865.19
+        },
+        {
+          "name": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SW CHAMPLAIN - FOXHILL",
+          "dist_m": 865.19
+        },
+        {
+          "name": "Ampersand Ice Cream",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "NW WISHON - WELDON",
+          "dist_m": 251.67
+        },
+        {
+          "name": "Fresno Chaffee Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "NE BELMONT - DELNO",
+          "dist_m": 397.09
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Fresno to Chicago",
+      "transportation": "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+      "accommodation": "-",
+      "breakfast": "Sam's Italian Deli and Market",
+      "attractions": [
+        "St. Johns Cathedral of Fresno"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Beautifully remodeled NE Fresno home 3bed/2Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SW CHAMPLAIN - FOXHILL",
+          "dist_m": 865.19
+        },
+        {
+          "name": "Sam's Italian Deli and Market",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "NE FIRST - CLINTON",
+          "dist_m": 48.67
+        },
+        {
+          "name": "St. Johns Cathedral of Fresno",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "NW TULARE - S ST",
+          "dist_m": 114.24
+        }
+      ]
+    }
+  ]
+}

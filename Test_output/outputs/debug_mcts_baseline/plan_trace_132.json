@@ -1,0 +1,1098 @@
+{
+  "idx": 132,
+  "reward": 27.45926271469171,
+  "budget_used": 4603.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "candidates": [
+        "Flight Number: F0455334, from Colorado Springs to Los Angeles, Departure Time: 06:50, Arrival Time: 08:23",
+        "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Rare find! Garden Oasis Guest House in heart of LA",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "Cozy Private Room In LA.",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Cabin on the Rocks",
+        "the mid city . registration : HSR19-002172",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Cozy Beverly Hills Studio Guest House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "El Compadre",
+      "candidates": [
+        "El Compadre",
+        "n/naka",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Universal Studios Hollywood",
+      "candidates": [
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Venice Beach",
+        "Griffith Observatory",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Dodger Stadium",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "n/naka",
+      "candidates": [
+        "n/naka",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bubba Gump Shrimp Co.",
+      "candidates": [
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Oceanfront Sunset Serenity in Malibu",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "Cozy Private Room In LA.",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Cabin on the Rocks",
+        "the mid city . registration : HSR19-002172",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Cozy Beverly Hills Studio Guest House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Maccheroni Republic",
+      "candidates": [
+        "Maccheroni Republic",
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Griffith Park",
+      "candidates": [
+        "Griffith Park",
+        "Venice Beach",
+        "Griffith Observatory",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Dodger Stadium",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Olive & Thyme",
+      "candidates": [
+        "Olive & Thyme",
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Au Lac Dtla",
+      "candidates": [
+        "Au Lac Dtla",
+        "Belles Beach House",
+        "Park's BBQ",
+        "L'Antica Pizzeria Da Michele",
+        "Langer's Delicatessen Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+      "candidates": [
+        "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+        "Taxi, from Los Angeles to Redding, Duration: 597.2816666666666 mins, Distance: 875.9086 km, Estimated Cost: $875.91"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Song Bird Retreat, 1 Bedroom, Private Bath",
+      "candidates": [
+        "Song Bird Retreat, 1 Bedroom, Private Bath",
+        "The Forest Room",
+        "Redding Farmhouse Getaway",
+        "Central, 65\" TV, Kitchen, Fast Wi-Fi | Red Room",
+        "Berit’s Place ~ Oasis with Scenic Views",
+        "House of Peace - Quiet, Peaceful, near Shasta Lake",
+        "★ Spacious Modern Peaceful || 2 Bedroom",
+        "The Cottage, 3 bedroom 2 bath w/ garden view",
+        "Relax and Enjoy!",
+        "Close to I-5, private room w/patio, queen bed"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Los Gordos",
+      "candidates": [
+        "Los Gordos",
+        "Champa Garden",
+        "Trendy's",
+        "New China",
+        "Chu's Too",
+        "Priya Indian Cuisine",
+        "Fratelli’s Pizza Parlour",
+        "Sweetie's Cafe & Catering",
+        "Karlines",
+        "Vintage Public House"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Champa Garden",
+      "candidates": [
+        "Champa Garden",
+        "Trendy's",
+        "New China",
+        "Chu's Too",
+        "Priya Indian Cuisine",
+        "Fratelli’s Pizza Parlour",
+        "Sweetie's Cafe & Catering",
+        "Karlines",
+        "Vintage Public House"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Song Bird Retreat, 1 Bedroom, Private Bath",
+      "candidates": [
+        "Song Bird Retreat, 1 Bedroom, Private Bath",
+        "The Forest Room",
+        "Redding Farmhouse Getaway",
+        "Central, 65\" TV, Kitchen, Fast Wi-Fi | Red Room",
+        "Berit’s Place ~ Oasis with Scenic Views",
+        "House of Peace - Quiet, Peaceful, near Shasta Lake",
+        "★ Spacious Modern Peaceful || 2 Bedroom",
+        "The Cottage, 3 bedroom 2 bath w/ garden view",
+        "Relax and Enjoy!",
+        "Close to I-5, private room w/patio, queen bed"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Trendy's",
+      "candidates": [
+        "Trendy's",
+        "New China",
+        "Chu's Too",
+        "Priya Indian Cuisine",
+        "Fratelli’s Pizza Parlour",
+        "Sweetie's Cafe & Catering",
+        "Karlines",
+        "Vintage Public House"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "WaterWorks Park",
+      "candidates": [
+        "WaterWorks Park",
+        "Clear Creek",
+        "Caldwell Park",
+        "Whiskeytown Lake",
+        "Sacramento River Trail",
+        "Sacramento Rail Trail",
+        "Turtle Bay Exploration Park",
+        "Shasta State Historic Park",
+        "AC Fly Fishing",
+        "Lema Ranch"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "New China",
+      "candidates": [
+        "New China",
+        "Chu's Too",
+        "Priya Indian Cuisine",
+        "Fratelli’s Pizza Parlour",
+        "Sweetie's Cafe & Catering",
+        "Karlines",
+        "Vintage Public House"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Chu's Too",
+      "candidates": [
+        "Chu's Too",
+        "Priya Indian Cuisine",
+        "Fratelli’s Pizza Parlour",
+        "Sweetie's Cafe & Catering",
+        "Karlines",
+        "Vintage Public House"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Redding to San Luis Obispo, Duration: 513.515 mins, Distance: 705.7975 km, Estimated Cost: $705.80"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The SLO Weekender",
+      "candidates": [
+        "The SLO Weekender",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "Stylish and Comfortable Lofted Townhouse, Downtown SLO",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "SLO Guesthouse - quiet - near downtown - #115545",
+        "Cottage in SLO / Historic Downtown District",
+        "Wilderness Cottage",
+        "Downtown Historic District Sunset Studio",
+        "Mid Century Modern Loft Downtown SLO",
+        "The Downtown House SLO with Private Parking"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lure Fish House",
+      "candidates": [
+        "Lure Fish House",
+        "Taco King",
+        "Bear & The Wren",
+        "Cowgirl Cafe",
+        "Mistura Restaurant",
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "San Luis Obispo botanical garden",
+      "candidates": [
+        "San Luis Obispo botanical garden",
+        "El Chorro Regional Park",
+        "Reservoir Canyon Trail",
+        "Bishop Peak",
+        "Highway 1 Road Trip",
+        "Bubblegum Alley",
+        "Avila Valley Barn",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Taco King",
+      "candidates": [
+        "Taco King",
+        "Bear & The Wren",
+        "Cowgirl Cafe",
+        "Mistura Restaurant",
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bear & The Wren",
+      "candidates": [
+        "Bear & The Wren",
+        "Cowgirl Cafe",
+        "Mistura Restaurant",
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The SLO Weekender",
+      "candidates": [
+        "The SLO Weekender",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "Stylish and Comfortable Lofted Townhouse, Downtown SLO",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "SLO Guesthouse - quiet - near downtown - #115545",
+        "Cottage in SLO / Historic Downtown District",
+        "Wilderness Cottage",
+        "Downtown Historic District Sunset Studio",
+        "Mid Century Modern Loft Downtown SLO",
+        "The Downtown House SLO with Private Parking"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cowgirl Cafe",
+      "candidates": [
+        "Cowgirl Cafe",
+        "Mistura Restaurant",
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "El Chorro Regional Park",
+      "candidates": [
+        "El Chorro Regional Park",
+        "Reservoir Canyon Trail",
+        "Bishop Peak",
+        "Highway 1 Road Trip",
+        "Bubblegum Alley",
+        "Avila Valley Barn",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mistura Restaurant",
+      "candidates": [
+        "Mistura Restaurant",
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Spirit of San Luis Restaurant",
+      "candidates": [
+        "Spirit of San Luis Restaurant",
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Luis Obispo to Colorado Springs, Duration: 1332.3899999999999 mins, Distance: 1959.5327 km, Estimated Cost: $1959.53"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mama's Meatball",
+      "candidates": [
+        "Mama's Meatball",
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Reservoir Canyon Trail",
+      "candidates": [
+        "Reservoir Canyon Trail",
+        "Bishop Peak",
+        "Highway 1 Road Trip",
+        "Bubblegum Alley",
+        "Avila Valley Barn",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Locanda",
+      "candidates": [
+        "La Locanda",
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Thai Palace",
+      "candidates": [
+        "Thai Palace",
+        "Flour House"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Colorado Springs to Los Angeles",
+      "transportation": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "accommodation": "Rare find! Garden Oasis Guest House in heart of LA",
+      "breakfast": "El Compadre",
+      "attractions": [
+        "Universal Studios Hollywood"
+      ],
+      "lunch": "n/naka",
+      "dinner": "Bubba Gump Shrimp Co.",
+      "poi_blocks": [
+        {
+          "name": "Rare find! Garden Oasis Guest House in heart of LA",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Arlington Ave.",
+          "dist_m": 1184.94
+        },
+        {
+          "name": "Rare find! Garden Oasis Guest House in heart of LA",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Arlington Ave.",
+          "dist_m": 1184.94
+        },
+        {
+          "name": "El Compadre",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Echo Park Ave & Sunset Blvd (Northbound)",
+          "dist_m": 425.51
+        },
+        {
+          "name": "Universal Studios Hollywood",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Alameda Ave & Pass Ave (Westbound)",
+          "dist_m": 1813.89
+        },
+        {
+          "name": "n/naka",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "National Blvd & Motor Ave (Southbound)",
+          "dist_m": 467.17
+        },
+        {
+          "name": "Bubba Gump Shrimp Co.",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Alameda Ave & Pass Ave (Westbound)",
+          "dist_m": 2046.63
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Oceanfront Sunset Serenity in Malibu",
+      "breakfast": "Maccheroni Republic",
+      "attractions": [
+        "Griffith Park"
+      ],
+      "lunch": "Olive & Thyme",
+      "dinner": "Au Lac Dtla",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Maccheroni Republic",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "4th St & Spring St (Eastbound)",
+          "dist_m": 135.37
+        },
+        {
+          "name": "Griffith Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "West Observatory Rd & Mt. Hollywood Dr",
+          "dist_m": 1520.21
+        },
+        {
+          "name": "Olive & Thyme",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Alameda Ave & Pass Ave (Eastbound)",
+          "dist_m": 219.8
+        },
+        {
+          "name": "Au Lac Dtla",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "1st St & Hope St",
+          "dist_m": 37.19
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Redding",
+      "transportation": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+      "accommodation": "Song Bird Retreat, 1 Bedroom, Private Bath",
+      "breakfast": "Los Gordos",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Champa Garden",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Song Bird Retreat, 1 Bedroom, Private Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Quartz Hill Rd at Benton Dr",
+          "dist_m": 641.85
+        },
+        {
+          "name": "Los Gordos",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Fast Track at Churn Creek Rd",
+          "dist_m": 236.43
+        },
+        {
+          "name": "Champa Garden",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Hilltop Dr at Rockaway Dr",
+          "dist_m": 83.4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Redding to Redding",
+      "transportation": "-",
+      "accommodation": "Song Bird Retreat, 1 Bedroom, Private Bath",
+      "breakfast": "Trendy's",
+      "attractions": [
+        "WaterWorks Park"
+      ],
+      "lunch": "New China",
+      "dinner": "Chu's Too",
+      "poi_blocks": [
+        {
+          "name": "Song Bird Retreat, 1 Bedroom, Private Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Quartz Hill Rd at Benton Dr",
+          "dist_m": 641.85
+        },
+        {
+          "name": "Song Bird Retreat, 1 Bedroom, Private Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Quartz Hill Rd at Benton Dr",
+          "dist_m": 641.85
+        },
+        {
+          "name": "Trendy's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Court St at Gold St",
+          "dist_m": 87.96
+        },
+        {
+          "name": "WaterWorks Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Lake Blvd at Black Marble Way",
+          "dist_m": 173.96
+        },
+        {
+          "name": "New China",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Buenaventura Blvd at Eureka Way",
+          "dist_m": 95.08
+        },
+        {
+          "name": "Chu's Too",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Trinity St at Liberty St",
+          "dist_m": 176.8
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Redding to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The SLO Weekender",
+      "breakfast": "Lure Fish House",
+      "attractions": [
+        "San Luis Obispo botanical garden"
+      ],
+      "lunch": "Taco King",
+      "dinner": "Bear & The Wren",
+      "poi_blocks": [
+        {
+          "name": "Song Bird Retreat, 1 Bedroom, Private Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Quartz Hill Rd at Benton Dr",
+          "dist_m": 641.85
+        },
+        {
+          "name": "The SLO Weekender",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 1579.04
+        },
+        {
+          "name": "Lure Fish House",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 83.37
+        },
+        {
+          "name": "San Luis Obispo botanical garden",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cuesta College",
+          "dist_m": 1230.74
+        },
+        {
+          "name": "Taco King",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 166.07
+        },
+        {
+          "name": "Bear & The Wren",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 253.45
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The SLO Weekender",
+      "breakfast": "Cowgirl Cafe",
+      "attractions": [
+        "El Chorro Regional Park"
+      ],
+      "lunch": "Mistura Restaurant",
+      "dinner": "Spirit of San Luis Restaurant",
+      "poi_blocks": [
+        {
+          "name": "The SLO Weekender",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 1579.04
+        },
+        {
+          "name": "The SLO Weekender",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 1579.04
+        },
+        {
+          "name": "Cowgirl Cafe",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Santa Rosa & Murray",
+          "dist_m": 470.31
+        },
+        {
+          "name": "El Chorro Regional Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cuesta College",
+          "dist_m": 1080.52
+        },
+        {
+          "name": "Mistura Restaurant",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 259.05
+        },
+        {
+          "name": "Spirit of San Luis Restaurant",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Higuera & Prado",
+          "dist_m": 3120.14
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from San Luis Obispo to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Mama's Meatball",
+      "attractions": [
+        "Reservoir Canyon Trail"
+      ],
+      "lunch": "La Locanda",
+      "dinner": "Thai Palace",
+      "poi_blocks": [
+        {
+          "name": "The SLO Weekender",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 1579.04
+        },
+        {
+          "name": "Mama's Meatball",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 273.15
+        },
+        {
+          "name": "Reservoir Canyon Trail",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Monterey @ Peach Tree Inn",
+          "dist_m": 1842.85
+        },
+        {
+          "name": "La Locanda",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 114.39
+        },
+        {
+          "name": "Thai Palace",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Government Center",
+          "dist_m": 168.21
+        }
+      ]
+    }
+  ]
+}
