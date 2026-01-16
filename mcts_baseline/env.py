@@ -11,6 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from .io import TripCraftRow
 from .kb import StageKB, UnifiedKB
 from .retrieval import select_transport, topk_accommodations, topk_attractions, topk_restaurants
+from .persona_utils import average_persona_similarity, candidate_poi_name, get_persona_embeddings, get_poi_embedding
 
 
 @dataclass
@@ -120,6 +121,14 @@ def _overlaps(a: Tuple[int, int], b: Tuple[int, int], buffer_min: int = 0) -> bo
     a0, a1 = a
     b0, b1 = b
     return (a0 - buffer_min) < b1 and (b0 - buffer_min) < a1
+
+
+PERSONA_REWARD_WEIGHT = 2.0
+PERSONA_UCT_WEIGHT = 0.2
+PERSONA_POOL_K = 20
+PERSONA_THRESHOLD_MEAL = 0.2
+PERSONA_THRESHOLD_ATTRACTION = 0.2
+PERSONA_THRESHOLD_ACCOMMODATION = 0.2
 
 
 _GLOBAL_POI_DF = None
@@ -341,6 +350,7 @@ class TripCraftEnv:
         self.row = row
         self.kb = kb
         self.topk = topk
+        self.PERSONA_UCT_WEIGHT = PERSONA_UCT_WEIGHT
         self.num_stages = len(kb.stages)
         local = row.local_constraint or {}
         self.required_cuisines = _as_list(local.get("cuisine"))
@@ -434,6 +444,135 @@ class TripCraftEnv:
             return None
         start, end = times[slot]
         return _to_minutes(start), _to_minutes(end)
+
+    def _rerank_candidates_by_persona(self, cands: List[Dict[str, Any]], kind: str) -> List[Dict[str, Any]]:
+        if not cands:
+            return cands
+        persona_embeddings = get_persona_embeddings(self.row.persona or "")
+        if not persona_embeddings:
+            return cands
+        scored: List[Tuple[float, int, Dict[str, Any]]] = []
+        for idx, cand in enumerate(cands):
+            name = str(cand.get("name") or "")
+            if not name or name == "-":
+                scored.append((-1.0, idx, cand))
+                continue
+            poi_name = candidate_poi_name(name, kind)
+            if not poi_name:
+                scored.append((-1.0, idx, cand))
+                continue
+            poi_emb = get_poi_embedding(poi_name)
+            if poi_emb is None:
+                scored.append((-1.0, idx, cand))
+                continue
+            score = average_persona_similarity(poi_emb, persona_embeddings)
+            if kind == "stay" and "Luxury Traveler" in (self.row.persona or ""):
+                score += self._luxury_bonus(cand)
+            scored.append((score, idx, cand))
+        scored.sort(key=lambda t: (-t[0], t[1]))
+        return [cand for _, _, cand in scored]
+
+    def _luxury_bonus(self, cand: Dict[str, Any]) -> float:
+        name = str(cand.get("name") or "").lower()
+        bonus = 0.0
+        for kw in ("resort", "spa", "luxury", "grand", "palace", "boutique", "villa", "hotel"):
+            if kw in name:
+                bonus += 0.05
+        rating = cand.get("rating")
+        if isinstance(rating, (int, float)):
+            bonus += min(float(rating) / 5.0, 0.2)
+        pricing = cand.get("pricing_value")
+        if isinstance(pricing, (int, float)):
+            bonus += min(float(pricing) / 500.0, 0.3)
+        return bonus
+
+    def _score_candidates_by_persona(
+        self, cands: List[Dict[str, Any]], kind: str
+    ) -> Optional[List[Tuple[float, int, Dict[str, Any]]]]:
+        if not cands:
+            return None
+        persona_embeddings = get_persona_embeddings(self.row.persona or "")
+        if not persona_embeddings:
+            return None
+        scored: List[Tuple[float, int, Dict[str, Any]]] = []
+        for idx, cand in enumerate(cands):
+            name = str(cand.get("name") or "")
+            if not name or name == "-":
+                scored.append((-1.0, idx, cand))
+                continue
+            poi_name = candidate_poi_name(name, kind)
+            if not poi_name:
+                scored.append((-1.0, idx, cand))
+                continue
+            poi_emb = get_poi_embedding(poi_name)
+            if poi_emb is None:
+                scored.append((-1.0, idx, cand))
+                continue
+            score = average_persona_similarity(poi_emb, persona_embeddings)
+            if kind == "stay" and "Luxury Traveler" in (self.row.persona or ""):
+                score += self._luxury_bonus(cand)
+            scored.append((score, idx, cand))
+        return scored
+
+    def _filter_candidates_by_persona(
+        self, cands: List[Dict[str, Any]], kind: str, threshold: float
+    ) -> Tuple[List[Dict[str, Any]], Optional[float]]:
+        scored = self._score_candidates_by_persona(cands, kind)
+        if scored is None:
+            return cands, None
+        scored.sort(key=lambda t: (-t[0], t[1]))
+        top_score = scored[0][0] if scored else None
+        filtered = [cand for score, _, cand in scored if score >= threshold]
+        if filtered:
+            return filtered, top_score
+        return [cand for _, _, cand in scored], top_score
+
+    def persona_action_score(self, action: Dict[str, Any]) -> float:
+        action_type = action.get("type") or ""
+        if action_type.startswith("skip_") or action_type in {"end_day", "set_transport"}:
+            return 0.0
+        name = action.get("eval_poi_name") or action.get("name") or ""
+        if not name or name == "-":
+            return 0.0
+        kind = "stay" if action_type == "set_accommodation" else "visit"
+        poi_name = candidate_poi_name(str(name), kind)
+        if not poi_name:
+            return 0.0
+        persona_embeddings = get_persona_embeddings(self.row.persona or "")
+        if not persona_embeddings:
+            return 0.0
+        poi_emb = get_poi_embedding(poi_name)
+        if poi_emb is None:
+            return 0.0
+        score = average_persona_similarity(poi_emb, persona_embeddings)
+        if kind == "stay" and "Luxury Traveler" in (self.row.persona or ""):
+            meta = action.get("meta") or {}
+            meta_with_name = dict(meta)
+            meta_with_name["name"] = name
+            score += self._luxury_bonus(meta_with_name)
+        return score
+
+    def _persona_reward(self, state: State) -> float:
+        persona_embeddings = get_persona_embeddings(self.row.persona or "")
+        if not persona_embeddings:
+            return 0.0
+        total = 0.0
+        count = 0
+        for draft in state.drafts:
+            for block in draft.poi_blocks:
+                name = str(block.name or "")
+                if not name or name == "-":
+                    continue
+                kind = "stay" if block.kind == "stay" else "visit"
+                poi_name = candidate_poi_name(name, kind)
+                if not poi_name:
+                    continue
+                poi_emb = get_poi_embedding(poi_name)
+                if poi_emb is None:
+                    continue
+                total += average_persona_similarity(poi_emb, persona_embeddings)
+                count += 1
+        return (total / float(count)) if count > 0 else 0.0
 
     def _plan_coverage_targets(self) -> Tuple[Dict[int, set], Dict[int, set]]:
         day_to_stage: Dict[int, int] = {}
@@ -568,13 +707,26 @@ class TripCraftEnv:
             subcats = set(_as_list(cand.get("subcategories")))
         return bool(missing & subcats)
 
-    def _slot_conflicts_transport(self, draft: DayDraft, slot: str) -> bool:
-        if draft.transport_start_min is None or draft.transport_end_min is None:
-            return False
+    def _slot_conflicts_transport(self, state: State, slot: str) -> bool:
+        draft = state.drafts[state.day - 1]
         window = self._slot_window(slot)
         if not window:
             return False
-        return _overlaps((draft.transport_start_min, draft.transport_end_min), window, buffer_min=30)
+        if draft.transport_start_min is None or draft.transport_end_min is None:
+            return False
+        buffer_min = 30
+        if self._day_is_travel(state.day):
+            if state.day == self.row.days:
+                # Return day: ensure activities finish before departure.
+                latest_end = draft.transport_start_min - buffer_min
+                if window[1] > latest_end:
+                    return True
+            else:
+                # Travel-to day: ensure activities start after arrival.
+                earliest_start = draft.transport_end_min + buffer_min
+                if window[0] < earliest_start:
+                    return True
+        return _overlaps((draft.transport_start_min, draft.transport_end_min), window, buffer_min=buffer_min)
 
     def _append_stay_if_missing(
         self, draft: DayDraft, stage: Optional[StageKB], name: str, start: str, end: str
@@ -732,7 +884,10 @@ class TripCraftEnv:
             return actions
 
         if slot == "accommodation":
-            cands = topk_accommodations(stage, local_constraint=self.row.local_constraint, k=topk)
+            pool_k = max(topk, PERSONA_POOL_K)
+            cands = topk_accommodations(stage, local_constraint=self.row.local_constraint, k=pool_k)
+            cands, _ = self._filter_candidates_by_persona(cands, "stay", PERSONA_THRESHOLD_ACCOMMODATION)
+            cands = self._rerank_candidates_by_persona(cands, "stay")[:topk]
             return [
                 {
                     "type": "set_accommodation",
@@ -745,13 +900,12 @@ class TripCraftEnv:
             ]
 
         if slot in {"breakfast", "lunch", "dinner"}:
-            if self._slot_conflicts_transport(draft, slot):
+            if self._slot_conflicts_transport(state, slot):
                 return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             missing_cuisines = self._missing_cuisines(state)
             day_missing = self._day_missing_cuisines(state, state.day)
-            if slot in {"lunch", "dinner"} and not missing_cuisines and not day_missing:
-                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
-            cands = topk_restaurants(stage, meal=slot, local_constraint=self.row.local_constraint, k=topk)
+            pool_k = max(topk, PERSONA_POOL_K)
+            cands = topk_restaurants(stage, meal=slot, local_constraint=self.row.local_constraint, k=pool_k)
             cands = [c for c in cands if (c["name"], stage.city) not in used_restaurants]
             target_missing = day_missing or missing_cuisines
             if target_missing:
@@ -762,6 +916,8 @@ class TripCraftEnv:
                     cands = sorted(cands, key=lambda c: 0 if self._covers_missing_cuisine(stage, c, target_missing) else 1)
             if not cands:
                 return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+            cands, top_score = self._filter_candidates_by_persona(cands, "visit", PERSONA_THRESHOLD_MEAL)
+            cands = self._rerank_candidates_by_persona(cands, "visit")
             actions: List[Dict[str, Any]] = [
                 {
                     "type": f"set_{slot}",
@@ -772,16 +928,23 @@ class TripCraftEnv:
                 }
                 for c in cands
             ]
-            return actions[:topk]
+            actions = actions[:topk]
+            if not missing_cuisines and not day_missing and top_score is not None and top_score < PERSONA_THRESHOLD_MEAL:
+                actions.append({"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]})
+            if slot in {"lunch", "dinner"} and not missing_cuisines and not day_missing:
+                actions.append({"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]})
+            return actions
 
         if slot in {"attraction1", "attraction2"}:
-            if self._slot_conflicts_transport(draft, slot):
+            if self._slot_conflicts_transport(state, slot):
+                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+            adventure = "Adventure Seeker" in (self.row.persona or "")
+            if slot == "attraction2" and not adventure:
                 return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
             missing_types = self._missing_attraction_types(state)
             day_missing = self._day_missing_attraction_types(state, state.day)
-            if slot == "attraction2" and not missing_types and not day_missing:
-                return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
-            cands = topk_attractions(stage, local_constraint=self.row.local_constraint, k=topk)
+            pool_k = max(topk, PERSONA_POOL_K)
+            cands = topk_attractions(stage, local_constraint=self.row.local_constraint, k=pool_k)
             cands = [c for c in cands if (c["name"], stage.city) not in used_attractions]
             target_missing = day_missing or missing_types
             if target_missing:
@@ -792,6 +955,8 @@ class TripCraftEnv:
                     cands = sorted(cands, key=lambda c: 0 if self._covers_missing_attraction(stage, c, target_missing) else 1)
             if not cands:
                 return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+            cands, _ = self._filter_candidates_by_persona(cands, "visit", PERSONA_THRESHOLD_ATTRACTION)
+            cands = self._rerank_candidates_by_persona(cands, "visit")
             actions = [
                 {
                     "type": f"add_{slot}",
@@ -949,8 +1114,23 @@ class TripCraftEnv:
                 if prev and prev != "-" and not draft.poi_blocks:
                     prev_stage = self._stage_for_day(state.day - 1)
                     stop, dist = _lookup_transit(prev_stage, prev) if prev_stage else ("UNKNOWN", 99999.0)
+                    start_min = _to_minutes("08:00")
+                    end_min = _to_minutes("09:00")
+                    if draft.transport_start_min is not None:
+                        latest_end = draft.transport_start_min - 30
+                        if latest_end < end_min:
+                            end_min = max(latest_end, 0)
+                            duration = min(60, end_min)
+                            start_min = max(end_min - duration, 0)
                     draft.poi_blocks.append(
-                        POIBlock(name=prev, kind="stay", start="08:00", end="09:00", nearest_transit=stop, dist_m=dist)
+                        POIBlock(
+                            name=prev,
+                            kind="stay",
+                            start=_minutes_to_hhmm(start_min),
+                            end=_minutes_to_hhmm(end_min),
+                            nearest_transit=stop,
+                            dist_m=dist,
+                        )
                     )
             state.substep += 1
             return state
@@ -963,7 +1143,21 @@ class TripCraftEnv:
             start: Optional[str]
             end: Optional[str]
             if state.day == 1:
-                start, end = "08:00", "09:00"
+                start_min = _to_minutes("08:00")
+                end_min = _to_minutes("09:00")
+                if draft.transport_end_min is not None:
+                    earliest_start = draft.transport_end_min + 30
+                    if earliest_start > start_min:
+                        start_min = earliest_start
+                        end_min = start_min + 60
+                night_start_min = _to_minutes("22:15")
+                if start_min >= night_start_min:
+                    start, end = None, None
+                else:
+                    if end_min > night_start_min:
+                        end_min = night_start_min
+                    start = _minutes_to_hhmm(start_min)
+                    end = _minutes_to_hhmm(end_min)
             else:
                 # On travel days (except day1), do not add a morning stay in the destination city.
                 if self._day_is_travel(state.day):
@@ -1055,7 +1249,8 @@ class TripCraftEnv:
 
         budget_left = max(float(self.row.budget or 0.0) - state.budget_used, 0.0)
         budget_reward = 0.1 * (1.0 / (1.0 + budget_left / 1000.0))
-        return float(filled) - dist_pen + budget_reward
+        persona_reward = self._persona_reward(state)
+        return float(filled) - dist_pen + budget_reward + (PERSONA_REWARD_WEIGHT * persona_reward)
 
     def greedy_rollout(self, state: State, topk: int = 5, *, record_trace: bool = False) -> State:
         s = self.clone_state(state)

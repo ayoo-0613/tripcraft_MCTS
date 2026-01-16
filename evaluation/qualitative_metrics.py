@@ -156,6 +156,35 @@ def _get_bert():
         _BERT_MODEL = None
     return _BERT_TOKENIZER, _BERT_MODEL
 
+
+def _normalize_name(value):
+    return str(value or "").strip().lower()
+
+
+def _split_semicolon_list(value):
+    parts = []
+    for chunk in str(value or "").split(";"):
+        chunk = chunk.strip()
+        if not chunk or chunk == "-":
+            continue
+        parts.append(chunk)
+    return parts
+
+
+def _iter_poi_entries(poi_list_str):
+    entries = []
+    for raw in str(poi_list_str or "").split(";"):
+        raw = raw.strip()
+        if not raw:
+            continue
+        if raw.endswith("."):
+            raw = raw[:-1]
+        name = raw.split(",", 1)[0].strip()
+        if not name:
+            continue
+        entries.append((_normalize_name(name), raw))
+    return entries
+
 # Function to calculate Weighted Edit Distance (WED)
 def calculate_wed(gen_sequence, anno_sequence, weight_fn):
     m, n = len(gen_sequence), len(anno_sequence)
@@ -294,24 +323,25 @@ def calculate_temporal_score(travel_plan):
 
     for day_plan in travel_plan["plan"]:
         day_result = {"day": day_plan["days"]}
+        poi_entries = _iter_poi_entries(day_plan["point_of_interest_list"])
 
         # Calculate restaurant scores
         for meal in ["breakfast", "lunch", "dinner"]:
             if meal in day_plan and day_plan[meal] != "-":
-                poi_info = day_plan["point_of_interest_list"].split(";")
-                for poi in poi_info:
-                    if "," in day_plan[meal]:
-                        day_plan_meal = day_plan[meal]
-                        day_plan_meal, city = day_plan_meal.rsplit(",", 1)
-                        day_plan_meal = day_plan_meal.strip()
-                        city = city.strip()
-                    else:
-                        # Fallback if no city is mentioned
-                        day_plan_meal = day_plan[meal]
-                        day_plan_meal = day_plan_meal.strip()
-                        city = ""
+                if "," in day_plan[meal]:
+                    day_plan_meal = day_plan[meal]
+                    day_plan_meal, city = day_plan_meal.rsplit(",", 1)
+                    day_plan_meal = day_plan_meal.strip()
+                    city = city.strip()
+                else:
+                    # Fallback if no city is mentioned
+                    day_plan_meal = day_plan[meal]
+                    day_plan_meal = day_plan_meal.strip()
+                    city = ""
 
-                    if day_plan_meal in poi:
+                meal_key = _normalize_name(day_plan_meal)
+                for poi_name, poi in poi_entries:
+                    if meal_key == poi_name:
                         # time_info = poi.split("from")[1].split("to")
                         # start_time = time_info[0].strip()
                         # end_time = time_info[1].split(",")[0].strip()
@@ -348,7 +378,7 @@ def calculate_temporal_score(travel_plan):
                         break
 
         # Calculate attraction score
-        attractions = day_plan["attraction"].split(";")
+        attractions = _split_semicolon_list(day_plan["attraction"])
         num_attractions = len(attractions)
         attraction_scores = []
 
@@ -362,8 +392,9 @@ def calculate_temporal_score(travel_plan):
                 attraction = attraction.strip()
                 city = ""
 
-            for poi in day_plan["point_of_interest_list"].split(";"):
-                if attraction.strip() in poi and attraction.strip() != "-":
+            attraction_key = _normalize_name(attraction)
+            for poi_name, poi in poi_entries:
+                if attraction_key == poi_name and attraction.strip() != "-":
                     try:
                         time_info = poi.split("from")[1].split("to")
                         start_time = time_info[0].strip()

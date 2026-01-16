@@ -8,12 +8,36 @@ from .kb import UnifiedKB
 from .ollama_client import OllamaClient
 
 
+_ATTRACTIONS_DATA = None
+
+
+def _load_attractions_data():
+    global _ATTRACTIONS_DATA
+    if _ATTRACTIONS_DATA is not None:
+        return _ATTRACTIONS_DATA
+    try:
+        import pandas as pd
+        from utils.paths import tripcraft_db_root
+
+        _ATTRACTIONS_DATA = pd.read_csv(tripcraft_db_root() / "attraction" / "cleaned_attractions_final.csv")
+    except Exception:
+        _ATTRACTIONS_DATA = None
+    return _ATTRACTIONS_DATA
+
+
 def _to_minutes(hhmm: str) -> int:
     try:
         h, m = hhmm.split(":")
         return int(h) * 60 + int(m)
     except Exception:
         return 0
+
+
+def _minutes_to_hhmm(minutes: int) -> str:
+    minutes = max(0, min(int(minutes), 23 * 60 + 59))
+    h = minutes // 60
+    m = minutes % 60
+    return f"{h:02d}:{m:02d}"
 
 
 def build_poi_list_str(poi_blocks: List[POIBlock]) -> str:
@@ -60,43 +84,86 @@ def _ensure_transport_placeholder(current_city: str, transportation: str) -> str
     return transportation
 
 
-def _parse_hhmm(value: str) -> Optional[Tuple[int, int]]:
-    try:
-        h, m = value.split(":")
-        hour = int(h)
-        minute = int(m)
-    except Exception:
+def _get_mu_d_type(attraction: str, city: str) -> Optional[float]:
+    df = _load_attractions_data()
+    if df is None or df.empty:
         return None
-    if 0 <= hour <= 23 and 0 <= minute <= 59:
-        return hour, minute
+    attraction_norm = str(attraction or "").strip().lower()
+    city_norm = str(city or "").strip().lower()
+    if not attraction_norm:
+        return None
+    if city_norm:
+        match = df[
+            (df["City"].astype(str).str.strip().str.lower() == city_norm)
+            & (df["name"].astype(str).str.strip().str.lower() == attraction_norm)
+        ]
+    else:
+        match = df[df["name"].astype(str).str.strip().str.lower() == attraction_norm]
+    if not match.empty:
+        try:
+            return float(match.iloc[0]["visit_duration"])
+        except Exception:
+            return None
     return None
 
 
-def _needs_time_fill(start: str, end: str) -> bool:
-    if not isinstance(start, str) or not isinstance(end, str):
-        return True
-    if _parse_hhmm(start) is None or _parse_hhmm(end) is None:
-        return True
-    return _to_minutes(end) <= _to_minutes(start)
-
-
-def _default_visit_times(draft: Any) -> Dict[str, Tuple[str, str]]:
-    times: Dict[str, Tuple[str, str]] = {}
-    meal_times = {
-        "breakfast": ("09:20", "10:30"),
-        "lunch": ("14:30", "15:30"),
-        "dinner": ("19:30", "21:00"),
+def _meal_time_window(meal: str) -> Optional[Tuple[str, str]]:
+    params = {
+        "breakfast": (9.84, 50.71 / 60),
+        "lunch": (14.44, 59.19 / 60),
+        "dinner": (20.42, 69.27 / 60),
     }
-    for meal, window in meal_times.items():
+    if meal not in params:
+        return None
+    mean_time, mean_duration = params[meal]
+    start_h = mean_time - (mean_duration / 2.0)
+    end_h = mean_time + (mean_duration / 2.0)
+    start_min = int(round(start_h * 60))
+    end_min = int(round(end_h * 60))
+    if end_min <= start_min:
+        end_min = start_min + 30
+    return _minutes_to_hhmm(start_min), _minutes_to_hhmm(end_min)
+
+
+def _attraction_duration_hours(mu_d_type: Optional[float], persona: str, num_attractions: int) -> Optional[float]:
+    if mu_d_type is None:
+        return None
+    k = 16.61 / 60
+    mu_d_max = 4
+    mu_d_min = 0
+    if "Adventure Seeker" in (persona or ""):
+        return mu_d_type - k * (num_attractions - mu_d_min)
+    return mu_d_type + k * (mu_d_max - num_attractions)
+
+
+def _default_visit_times(draft: Any, persona: str, kb: UnifiedKB, day: int, city: str) -> Dict[str, Tuple[str, str]]:
+    times: Dict[str, Tuple[str, str]] = {}
+    for meal in ("breakfast", "lunch", "dinner"):
         name = getattr(draft, meal, "-")
         if name and name != "-":
-            times[name] = window
-    attraction_windows = [("11:30", "13:30"), ("16:30", "18:00")]
-    for idx, name in enumerate(getattr(draft, "attractions", []) or []):
-        if idx >= len(attraction_windows):
+            window = _meal_time_window(meal)
+            if window:
+                times[name] = window
+
+    attraction_starts = ["11:30", "16:30"]
+    attractions = [a for a in (getattr(draft, "attractions", []) or []) if a and a != "-"]
+    num_attractions = len(attractions)
+    for idx, name in enumerate(attractions):
+        if idx >= len(attraction_starts):
             break
-        if name and name != "-":
-            times[name] = attraction_windows[idx]
+        mu_d_type = _get_mu_d_type(name, city)
+        if mu_d_type is None:
+            mu_d_type = _find_visit_duration(kb, day, name)
+        duration_h = _attraction_duration_hours(mu_d_type, persona, num_attractions)
+        start_min = _to_minutes(attraction_starts[idx])
+        if duration_h is None:
+            end_min = start_min + 120
+        else:
+            end_min = start_min + int(round(duration_h * 60))
+        if end_min <= start_min:
+            end_min = start_min + 30
+        end_min = min(end_min, 23 * 60 + 59)
+        times[name] = (_minutes_to_hhmm(start_min), _minutes_to_hhmm(end_min))
     return times
 
 
@@ -130,79 +197,15 @@ def _apply_temporal_guidance(
 ) -> None:
     if not getattr(draft, "poi_blocks", None):
         return
-
-    name_to_type: Dict[str, str] = {}
-    if getattr(draft, "breakfast", "-") != "-":
-        name_to_type[draft.breakfast] = "breakfast"
-    if getattr(draft, "lunch", "-") != "-":
-        name_to_type[draft.lunch] = "lunch"
-    if getattr(draft, "dinner", "-") != "-":
-        name_to_type[draft.dinner] = "dinner"
-    for attr in getattr(draft, "attractions", []) or []:
-        if attr and attr != "-":
-            name_to_type[attr] = "attraction"
-
-    default_times = _default_visit_times(draft)
+    city = _stage_city_for_day(kb, day)
+    default_times = _default_visit_times(draft, row.persona, kb, day, city)
     for block in draft.poi_blocks:
         if block.kind != "visit":
             continue
         window = default_times.get(block.name)
         if not window:
             continue
-        if _needs_time_fill(block.start, block.end):
-            block.start, block.end = window
-
-    items: List[Dict[str, Any]] = []
-    for block in draft.poi_blocks:
-        if block.kind != "visit":
-            continue
-        poi_type = name_to_type.get(block.name)
-        if not poi_type:
-            continue
-        default_start, default_end = default_times.get(block.name, (block.start, block.end))
-        payload: Dict[str, Any] = {
-            "name": block.name,
-            "type": poi_type,
-            "default_start": default_start,
-            "default_end": default_end,
-        }
-        if poi_type == "attraction":
-            visit_duration = _find_visit_duration(kb, day, block.name)
-            if visit_duration is not None:
-                payload["visit_duration"] = visit_duration
-        items.append(payload)
-
-    if not items:
-        return
-    if client is None:
-        return
-
-    state_summary = {
-        "day": day,
-        "persona": row.persona,
-        "num_attractions": len(getattr(draft, "attractions", []) or []),
-    }
-    updates = client.get_temporal_schedule(state_summary, items)
-    if not updates:
-        return
-
-    update_map = {item["name"]: item for item in updates if isinstance(item, dict) and "name" in item}
-    for block in draft.poi_blocks:
-        if block.kind != "visit":
-            continue
-        update = update_map.get(block.name)
-        if not update:
-            continue
-        start = update.get("start")
-        end = update.get("end")
-        if not isinstance(start, str) or not isinstance(end, str):
-            continue
-        if _parse_hhmm(start) is None or _parse_hhmm(end) is None:
-            continue
-        if _to_minutes(end) <= _to_minutes(start):
-            continue
-        block.start = start
-        block.end = end
+        block.start, block.end = window
 
 
 def _select_events(row: TripCraftRow, kb: UnifiedKB) -> Dict[int, str]:

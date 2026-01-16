@@ -20,13 +20,14 @@ class _Node:
     untried_actions: Optional[List[Dict[str, Any]]] = None
     prior_map: Dict[int, float] = field(default_factory=dict)
     prior: float = 1.0
+    persona_bonus: float = 0.0
 
     @property
     def value(self) -> float:
         return self.value_sum / self.visits if self.visits > 0 else 0.0
 
 
-def _puct_select(node: _Node, c: float = 1.4) -> _Node:
+def _puct_select(node: _Node, c: float = 1.4, persona_weight: float = 0.0) -> _Node:
     assert node.children
     log_n = math.log(node.visits + 1)
 
@@ -34,7 +35,7 @@ def _puct_select(node: _Node, c: float = 1.4) -> _Node:
         if ch.visits == 0:
             return float("inf")
         prior = ch.prior if ch.prior > 0 else 1.0
-        return ch.value + c * prior * math.sqrt(log_n / ch.visits)
+        return ch.value + c * prior * math.sqrt(log_n / ch.visits) + persona_weight * ch.persona_bonus
 
     return max(node.children, key=score)
 
@@ -74,7 +75,7 @@ def mcts_search(
 
         # Selection
         while not env.is_terminal(node.state) and node.untried_actions == [] and node.children:
-            node = _puct_select(node, c=prior_c)
+            node = _puct_select(node, c=prior_c, persona_weight=getattr(env, "PERSONA_UCT_WEIGHT", 0.0))
 
         # Expansion
         if not env.is_terminal(node.state):
@@ -91,7 +92,8 @@ def mcts_search(
                 next_state = env.clone_state(node.state)
                 next_state = env.apply_action(next_state, action, record_trace=False)
                 prior = node.prior_map.get(id(action), 1.0)
-                child = _Node(state=next_state, parent=node, action=action, prior=prior)
+                persona_bonus = env.persona_action_score(action) if hasattr(env, "persona_action_score") else 0.0
+                child = _Node(state=next_state, parent=node, action=action, prior=prior, persona_bonus=persona_bonus)
                 node.children.append(child)
                 node = child
             else:
