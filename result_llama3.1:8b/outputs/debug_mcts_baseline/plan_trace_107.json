@@ -1,0 +1,382 @@
+{
+  "idx": 107,
+  "reward": 9.026498119266055,
+  "budget_used": 1410.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+      "candidates": [
+        "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+        "Taxi, from Milwaukee to Atlanta, Duration: 903.0699999999999 mins, Distance: 1243.1483999999998 km, Estimated Cost: $1243.15"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Grant Park Guest House | Charming Tiny House",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Historic Lounge - Private BR in the Heart of ATL#2"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ray's in the City",
+      "candidates": [
+        "Ray's in the City",
+        "La Tavola Trattoria",
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Grant Park Guest House | Charming Tiny House",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Historic Lounge - Private BR in the Heart of ATL#2"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "La Tavola Trattoria",
+      "candidates": [
+        "La Tavola Trattoria",
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fox Theatre",
+      "candidates": [
+        "Fox Theatre",
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0099488, from Atlanta to Milwaukee, Departure Time: 17:59, Arrival Time: 18:47",
+      "candidates": [
+        "Flight Number: F0099488, from Atlanta to Milwaukee, Departure Time: 17:59, Arrival Time: 18:47",
+        "Taxi, from Atlanta to Milwaukee, Duration: 901.6716666666667 mins, Distance: 1243.0748999999998 km, Estimated Cost: $1243.07"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Agora",
+      "candidates": [
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "College Football Hall of Fame",
+      "candidates": [
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Milwaukee to Atlanta",
+      "transportation": "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+      "accommodation": "Grant Park Guest House | Charming Tiny House",
+      "breakfast": "Ray's in the City",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Ray's in the City",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "PEACHTREE ST @ JOHN PORTMAN BLVD (P'TREE CTR STATION)",
+          "dist_m": 15.57
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Grant Park Guest House | Charming Tiny House",
+      "breakfast": "La Tavola Trattoria",
+      "attractions": [
+        "Fox Theatre"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "La Tavola Trattoria",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "VIRGINIA AVE NE @ TODD RD NE",
+          "dist_m": 27.36
+        },
+        {
+          "name": "Fox Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "PEACHTREE ST NE @ PONCE DE LEON AVE",
+          "dist_m": 41.68
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Milwaukee",
+      "transportation": "Flight Number: F0099488, from Atlanta to Milwaukee, Departure Time: 17:59, Arrival Time: 18:47",
+      "accommodation": "-",
+      "breakfast": "Cafe Agora",
+      "attractions": [
+        "College Football Hall of Fame"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Cafe Agora",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "PEACHTREE ST @ PEACHTREE PL",
+          "dist_m": 29.31
+        },
+        {
+          "name": "College Football Hall of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "MARIETTA ST NW @ PARK AVE WEST",
+          "dist_m": 70.48
+        }
+      ]
+    }
+  ]
+}

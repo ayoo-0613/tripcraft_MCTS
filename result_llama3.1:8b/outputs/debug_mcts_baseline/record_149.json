@@ -1,0 +1,67 @@
+{
+  "idx": 149,
+  "JSON": {
+    "org": "Raleigh",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": [
+        "Museums"
+      ]
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 1 person from Raleigh to New York from November 3rd to November 5th, 2024, with a budget of $1,800. Include visits to museums as part of the itinerary.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Raleigh to New York",
+      "transportation": "Taxi, from Raleigh to New York, Duration: 593.1216666666667 mins, Distance: 781.4707 km, Estimated Cost: $781.47",
+      "breakfast": "Blue Smoke Battery Park City, New York",
+      "attraction": "New York Public Library, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "NYC Bliss | Sightseeing. Fitness Center, New York",
+      "event": "-",
+      "point_of_interest_list": "NYC Bliss | Sightseeing. Fitness Center, stay from 08:00 to 09:00, nearest transit: W 34 ST/BROADWAY, 60.68m away; Blue Smoke Battery Park City, visit from 09:20 to 10:30, nearest transit: VESEY ST/NORTH END AV, 10.23m away; New York Public Library, visit from 11:30 to 13:30, nearest transit: 5 AV/W 42 ST, 34.90m away; NYC Bliss | Sightseeing. Fitness Center, stay from 22:15 to 08:00, nearest transit: W 34 ST/BROADWAY, 60.68m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Lillie's Victorian Establishment, New York",
+      "attraction": "American Museum of Natural History, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Lillie's Victorian Establishment, visit from 09:20 to 10:30, nearest transit: 8 AV/W 49 ST, 40.41m away; American Museum of Natural History, visit from 11:30 to 13:30, nearest transit: CENTRAL PARK WEST/W 79 ST, 124.14m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to Raleigh",
+      "transportation": "Flight Number: F0115451, from New York to Raleigh, Departure Time: 05:54, Arrival Time: 07:28",
+      "breakfast": "Westway Diner, New York",
+      "attraction": "The Metropolitan Museum of Art, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Westway Diner, visit from 09:20 to 10:30, nearest transit: 9 AV/W 44 ST, 44.32m away; The Metropolitan Museum of Art, visit from 11:30 to 13:30, nearest transit: 5 AV/E 80 ST, 182.01m away."
+    }
+  ]
+}

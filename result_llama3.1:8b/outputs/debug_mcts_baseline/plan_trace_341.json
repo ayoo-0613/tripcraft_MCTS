@@ -1,0 +1,452 @@
+{
+  "idx": 341,
+  "reward": 15.005144847328244,
+  "budget_used": 1602.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58",
+      "candidates": [
+        "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58",
+        "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New Town House in Historic District of Chattanooga",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Maple Street Biscuit Company - City Center",
+      "candidates": [
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "Mayan Kitchen",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Moon Pie General Store",
+      "candidates": [
+        "Moon Pie General Store",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Walnut Street Bridge",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Uncle Larry's Restaurant",
+      "candidates": [
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "Mellow Mushroom Chattanooga",
+        "Public House",
+        "Mayan Kitchen",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Tennessee Aquarium",
+      "candidates": [
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Lookout Mountain",
+        "Tennessee Riverwalk",
+        "Walnut Street Bridge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New Town House in Historic District of Chattanooga",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Community Pie",
+      "candidates": [
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "Mayan Kitchen",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Zoo",
+      "candidates": [
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Walnut Street Bridge",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "HiFi Clyde's Chattanooga",
+      "candidates": [
+        "HiFi Clyde's Chattanooga",
+        "Mellow Mushroom Chattanooga",
+        "Public House",
+        "Mayan Kitchen",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Coolidge Park",
+      "candidates": [
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Walnut Street Bridge",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mayan Kitchen",
+      "candidates": [
+        "Mayan Kitchen",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0440749, from Chattanooga to Washington, Departure Time: 06:56, Arrival Time: 08:27",
+      "candidates": [
+        "Flight Number: F0440749, from Chattanooga to Washington, Departure Time: 06:56, Arrival Time: 08:27",
+        "Taxi, from Chattanooga to Washington, Duration: 663.0733333333334 mins, Distance: 961.8596 km, Estimated Cost: $961.86"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "St. John's Restaurant",
+      "candidates": [
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tennessee Riverwalk",
+      "candidates": [
+        "Tennessee Riverwalk",
+        "Walnut Street Bridge",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Washington to Chattanooga",
+      "transportation": "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58",
+      "accommodation": "New Town House in Historic District of Chattanooga",
+      "breakfast": "Maple Street Biscuit Company - City Center",
+      "attractions": [
+        "Moon Pie General Store",
+        "Tennessee Aquarium"
+      ],
+      "lunch": "Uncle Larry's Restaurant",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Maple Street Biscuit Company - City Center",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "BROAD + 4TH",
+          "dist_m": 19.08
+        },
+        {
+          "name": "Moon Pie General Store",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Broad & Jack's Alley",
+          "dist_m": 46.95
+        },
+        {
+          "name": "Uncle Larry's Restaurant",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "M.L.KING BLVD + PEEPLES",
+          "dist_m": 20.49
+        },
+        {
+          "name": "Tennessee Aquarium",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "BRO AQ 1",
+          "dist_m": 109.14
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "-",
+      "accommodation": "New Town House in Historic District of Chattanooga",
+      "breakfast": "Community Pie",
+      "attractions": [
+        "Chattanooga Zoo",
+        "Coolidge Park"
+      ],
+      "lunch": "HiFi Clyde's Chattanooga",
+      "dinner": "Mayan Kitchen",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Community Pie",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "MARKET + M.L.KING",
+          "dist_m": 20.76
+        },
+        {
+          "name": "Chattanooga Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Holtzclaw & 5th-1",
+          "dist_m": 123.88
+        },
+        {
+          "name": "HiFi Clyde's Chattanooga",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "MAIN + WILLIAMS",
+          "dist_m": 21.15
+        },
+        {
+          "name": "Coolidge Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Frazier & Forrest-0",
+          "dist_m": 132.99
+        },
+        {
+          "name": "Mayan Kitchen",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "BROAD + 5TH",
+          "dist_m": 15.62
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Chattanooga to Washington",
+      "transportation": "Flight Number: F0440749, from Chattanooga to Washington, Departure Time: 06:56, Arrival Time: 08:27",
+      "accommodation": "-",
+      "breakfast": "St. John's Restaurant",
+      "attractions": [
+        "Tennessee Riverwalk"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "St. John's Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Market & King1",
+          "dist_m": 25.22
+        },
+        {
+          "name": "Tennessee Riverwalk",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Amnicol a& River Terminal-1",
+          "dist_m": 178.82
+        }
+      ]
+    }
+  ]
+}

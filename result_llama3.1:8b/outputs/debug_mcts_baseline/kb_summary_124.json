@@ -1,0 +1,59 @@
+{
+  "idx": 124,
+  "stages": [
+    {
+      "city": "Atlanta",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 9
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Jackson",
+      "to": "Atlanta",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0032859, from Jackson to Atlanta, Departure Time: 18:35, Arrival Time: 20:37"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Jackson",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Jackson to Atlanta, Duration: 416.27833333333336 mins, Distance: 614.0448 km, Estimated Cost: $30.70"
+    },
+    {
+      "mode": "taxi",
+      "from": "Jackson",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Jackson to Atlanta, Duration: 416.27833333333336 mins, Distance: 614.0448 km, Estimated Cost: $614.04"
+    },
+    {
+      "mode": "flight",
+      "from": "Atlanta",
+      "to": "Jackson",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0038585, from Atlanta to Jackson, Departure Time: 19:56, Arrival Time: 20:10"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Atlanta",
+      "to": "Jackson",
+      "date": null,
+      "raw": "Self-driving, from Atlanta to Jackson, Duration: 416.4633333333333 mins, Distance: 613.952 km, Estimated Cost: $30.70"
+    },
+    {
+      "mode": "taxi",
+      "from": "Atlanta",
+      "to": "Jackson",
+      "date": null,
+      "raw": "Taxi, from Atlanta to Jackson, Duration: 416.4633333333333 mins, Distance: 613.952 km, Estimated Cost: $613.95"
+    }
+  ]
+}

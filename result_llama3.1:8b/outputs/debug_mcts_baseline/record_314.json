@@ -1,0 +1,69 @@
+{
+  "idx": 314,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "Tulsa",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Mediterranean",
+        "Mexican",
+        "American"
+      ],
+      "room type": "private room",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1200.0,
+    "query": "Plan a 3-day trip for 2 people from St. Louis to Tulsa from November 19th to November 21st, 2024, with a budget of $1,200. Accommodations should include a private room, and dining options should feature Mediterranean, Mexican, and American cuisines.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to Tulsa",
+      "transportation": "Flight Number: F0021541, from St. Louis to Tulsa, Departure Time: 10:43, Arrival Time: 11:50",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Peacemaker Lobster & Crab Co., Tulsa",
+      "dinner": "Ti Amo Ristorante Italiano, Tulsa",
+      "accommodation": "The Jade Suite in Safe South Tulsa Neighborhood, Tulsa",
+      "event": "-",
+      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away; Peacemaker Lobster & Crab Co., visit from 14:30 to 15:30, nearest transit: (7611) 2ND ST & DETROIT AVE EB, 12.86m away; Ti Amo Ristorante Italiano, visit from 19:30 to 21:00, nearest transit: (7607) 3rd St & Denver Ave EB, 72.37m away; The Jade Suite in Safe South Tulsa Neighborhood, stay from 22:15 to 08:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Tulsa to Tulsa",
+      "transportation": "Transfer, from Tulsa to Tulsa",
+      "breakfast": "Tally's Good Food Cafe, Tulsa",
+      "attraction": "River Parks, Tulsa",
+      "lunch": "Prhyme Downtown Steakhouse, Tulsa",
+      "dinner": "Juniper, Tulsa",
+      "accommodation": "The Jade Suite in Safe South Tulsa Neighborhood, Tulsa",
+      "event": "-",
+      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away; Tally's Good Food Cafe, visit from 09:20 to 10:30, nearest transit: (6967) YALE AVE & 11TH ST SB, 32.59m away; River Parks, visit from 11:30 to 13:30, nearest transit: (8912) RIVERSIDE PRKWY & E 56TH ST S SB, 32.34m away; Prhyme Downtown Steakhouse, visit from 14:30 to 15:30, nearest transit: (7365) Archer St & Main St EB, 32.65m away; Juniper, visit from 19:30 to 21:00, nearest transit: (7612) ELGIN AVE & 3RD ST SB, 33.69m away; The Jade Suite in Safe South Tulsa Neighborhood, stay from 22:15 to 08:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Tulsa to St. Louis",
+      "transportation": "Flight Number: F0051592, from Tulsa to St. Louis, Departure Time: 05:23, Arrival Time: 06:25",
+      "breakfast": "Leon's Smoke Shack BBQ, Tulsa",
+      "attraction": "Tulsa Performing Arts Center, Tulsa",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away; Leon's Smoke Shack BBQ, visit from 09:20 to 10:30, nearest transit: (7720) Sheridan Rd & 6th St NB, 39.34m away; Tulsa Performing Arts Center, visit from 11:30 to 13:30, nearest transit: (7610) S Cincinnati Ave & E 3rd St S EB, 71.33m away."
+    }
+  ]
+}

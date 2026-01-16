@@ -1,0 +1,65 @@
+{
+  "idx": 255,
+  "JSON": {
+    "org": "Denver",
+    "dest": "San Francisco",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-23",
+      "2024-11-24",
+      "2024-11-25"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 12450.0,
+    "query": "Plan a 3-day trip for 7 people from Denver to San Francisco from November 23rd to November 25th, 2024, with a budget of $12,450. Accommodations should include an entire home.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Denver to San Francisco",
+      "transportation": "Taxi, from Denver to San Francisco, Duration: 1299.995 mins, Distance: 2018.7035 km, Estimated Cost: $2018.70",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; John's Grill, visit from 09:20 to 10:30, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, visit from 11:30 to 13:30, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Stylish Room in The Heart Of San Francisco, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Hog Island Oyster Co., San Francisco",
+      "attraction": "Oracle Park, San Francisco",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Hog Island Oyster Co., visit from 09:20 to 10:30, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Oracle Park, visit from 11:30 to 13:30, nearest transit: 4th @ Library (Caltrain), 474.04m away; Stylish Room in The Heart Of San Francisco, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Francisco to Denver",
+      "transportation": "Flight Number: F0098906, from San Francisco to Denver, Departure Time: 06:06, Arrival Time: 09:26",
+      "breakfast": "-",
+      "attraction": "Exploratorium, San Francisco",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Exploratorium, visit from 11:30 to 13:30, nearest transit: Mission @ Spear (Embarcadero), 1042.01m away."
+    }
+  ]
+}

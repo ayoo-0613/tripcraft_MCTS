@@ -1,0 +1,367 @@
+{
+  "idx": 286,
+  "reward": 7.887363304998589,
+  "budget_used": 7868.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0396197, from Dallas to San Luis Obispo, Departure Time: 20:49, Arrival Time: 22:54",
+      "candidates": [
+        "Flight Number: F0396197, from Dallas to San Luis Obispo, Departure Time: 20:49, Arrival Time: 22:54",
+        "Taxi, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Cottage in SLO / Historic Downtown District",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "SLO Guesthouse - quiet - near downtown - #115545"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "1865 Craft House and Kitchen",
+      "candidates": [
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "La Locanda",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Farmers Market",
+      "candidates": [
+        "Farmers Market",
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Cottage in SLO / Historic Downtown District",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "SLO Guesthouse - quiet - near downtown - #115545"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lure Fish House",
+      "candidates": [
+        "Lure Fish House",
+        "Koberl At Blue",
+        "La Locanda",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bubblegum Alley",
+      "candidates": [
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+      "candidates": [
+        "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+        "Taxi, from San Luis Obispo to Dallas, Not feasible to drive from San Luis Obispo to Dallas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to San Luis Obispo",
+      "transportation": "Flight Number: F0396197, from Dallas to San Luis Obispo, Departure Time: 20:49, Arrival Time: 22:54",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "1865 Craft House and Kitchen",
+      "attractions": [
+        "Farmers Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "1865 Craft House and Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Monterey & Grand",
+          "dist_m": 55.98
+        },
+        {
+          "name": "Farmers Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 112.91
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "Lure Fish House",
+      "attractions": [
+        "Bubblegum Alley"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "Lure Fish House",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 83.37
+        },
+        {
+          "name": "Bubblegum Alley",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 136.91
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Luis Obispo to Dallas",
+      "transportation": "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        }
+      ]
+    }
+  ]
+}

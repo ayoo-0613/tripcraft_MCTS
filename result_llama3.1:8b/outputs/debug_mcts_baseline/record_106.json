@@ -1,0 +1,65 @@
+{
+  "idx": 106,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Boise",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 8000.0,
+    "query": "Plan a 3-day trip for 6 people from Houston to Boise from November 4th to November 6th, 2024, with a budget of $8,000. The accommodations should follow house rules that do not allow parties.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Boise",
+      "transportation": "Flight Number: F0484529, from Houston to Boise, Departure Time: 16:31, Arrival Time: 19:41",
+      "breakfast": "Capitol Cellars Restaurant, Boise",
+      "attraction": "Bogus Basin Mountain Recreation Area, Boise",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "9th St. Retreat | Modern DT condo w/ free parking, Boise",
+      "event": "-",
+      "point_of_interest_list": "9th St. Retreat | Modern DT condo w/ free parking, stay from 08:00 to 09:00, nearest transit: W Fort St & N 9th St NEC, 60.33m away; Capitol Cellars Restaurant, visit from 09:20 to 10:30, nearest transit: W Main St & S 5th St SWC, 28.03m away; Bogus Basin Mountain Recreation Area, visit from 11:30 to 13:30, nearest transit: W Parkhill Dr & N Bogus Basin Rd SEC, 18.60m away; 9th St. Retreat | Modern DT condo w/ free parking, stay from 22:15 to 08:00, nearest transit: W Fort St & N 9th St NEC, 60.33m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Boise to Boise",
+      "transportation": "Transfer, from Boise to Boise",
+      "breakfast": "Flying M Coffee House, Boise",
+      "attraction": "Julia Davis Park, Boise",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "9th St. Retreat | Modern DT condo w/ free parking, Boise",
+      "event": "-",
+      "point_of_interest_list": "9th St. Retreat | Modern DT condo w/ free parking, stay from 08:00 to 09:00, nearest transit: W Fort St & N 9th St NEC, 60.33m away; Flying M Coffee House, visit from 09:20 to 10:30, nearest transit: W Idaho St & N 5th St NEC, 33.92m away; Julia Davis Park, visit from 11:30 to 13:30, nearest transit: S Capitol Blvd & W River St NEC, 46.12m away; 9th St. Retreat | Modern DT condo w/ free parking, stay from 22:15 to 08:00, nearest transit: W Fort St & N 9th St NEC, 60.33m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Boise to Houston",
+      "transportation": "Taxi, from Boise to Houston, Not feasible to drive from Boise to Houston",
+      "breakfast": "Guido's Original New York Style Pizza Downtown, Boise",
+      "attraction": "North End, Boise",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "9th St. Retreat | Modern DT condo w/ free parking, stay from 08:00 to 09:00, nearest transit: W Fort St & N 9th St NEC, 60.33m away; Guido's Original New York Style Pizza Downtown, visit from 09:20 to 10:30, nearest transit: W Idaho St & N 5th St NEC, 44.09m away; North End, visit from 11:30 to 13:30, nearest transit: N 8th St & W Franklin St SEC, 65.34m away."
+    }
+  ]
+}

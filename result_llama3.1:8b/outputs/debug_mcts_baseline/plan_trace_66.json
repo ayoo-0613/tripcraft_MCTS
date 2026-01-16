@@ -1,0 +1,367 @@
+{
+  "idx": 66,
+  "reward": 8.04524735359439,
+  "budget_used": 2289.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0253283, from Raleigh to Seattle, Departure Time: 18:39, Arrival Time: 21:19",
+      "candidates": [
+        "Flight Number: F0253283, from Raleigh to Seattle, Departure Time: 18:39, Arrival Time: 21:19",
+        "Taxi, from Raleigh to Seattle, Not feasible to drive from Raleigh to Seattle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private mother-in-law studio apartment.",
+      "candidates": [
+        "Private mother-in-law studio apartment.",
+        "Stylish Daylight Basement Apartment",
+        "Queen Anne Courtyard Suite",
+        "At Mine - Studio Apartment In Seattle.",
+        "Private Room in Townhome near Capitol Hill",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Cozy room near UW",
+        "At Mine - Prime Apartment in Seattle Downtown",
+        "Room#2 Seattle Spruce Street BnB",
+        "Inviting heart of Seattle hidaway"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Wild Ginger",
+      "candidates": [
+        "Wild Ginger",
+        "All Water Seafood & Oyster Bar",
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "Metropolitan Grill",
+        "The Capital Grille",
+        "JaK's Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Washington State Ferries",
+      "candidates": [
+        "Washington State Ferries",
+        "Sky View Observatory",
+        "Seattle Public Library",
+        "Museum of Pop Culture",
+        "Chihuly Garden and Glass",
+        "Seattle Center",
+        "The Museum of Flight",
+        "Space Needle",
+        "Kubota Garden",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private mother-in-law studio apartment.",
+      "candidates": [
+        "Private mother-in-law studio apartment.",
+        "Stylish Daylight Basement Apartment",
+        "Queen Anne Courtyard Suite",
+        "At Mine - Studio Apartment In Seattle.",
+        "Private Room in Townhome near Capitol Hill",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Cozy room near UW",
+        "At Mine - Prime Apartment in Seattle Downtown",
+        "Room#2 Seattle Spruce Street BnB",
+        "Inviting heart of Seattle hidaway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "All Water Seafood & Oyster Bar",
+      "candidates": [
+        "All Water Seafood & Oyster Bar",
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "Metropolitan Grill",
+        "The Capital Grille",
+        "JaK's Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Sky View Observatory",
+      "candidates": [
+        "Sky View Observatory",
+        "Seattle Public Library",
+        "Museum of Pop Culture",
+        "Chihuly Garden and Glass",
+        "Seattle Center",
+        "The Museum of Flight",
+        "Space Needle",
+        "Kubota Garden",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0254575, from Seattle to Raleigh, Departure Time: 09:03, Arrival Time: 17:15",
+      "candidates": [
+        "Flight Number: F0254575, from Seattle to Raleigh, Departure Time: 09:03, Arrival Time: 17:15",
+        "Taxi, from Seattle to Raleigh, Not feasible to drive from Seattle to Raleigh"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Raleigh to Seattle",
+      "transportation": "Flight Number: F0253283, from Raleigh to Seattle, Departure Time: 18:39, Arrival Time: 21:19",
+      "accommodation": "Private mother-in-law studio apartment.",
+      "breakfast": "Wild Ginger",
+      "attractions": [
+        "Washington State Ferries"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Wild Ginger",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "3rd Ave & Pike St",
+          "dist_m": 13.86
+        },
+        {
+          "name": "Washington State Ferries",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Denny Way & 2nd Ave N",
+          "dist_m": 14.59
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "-",
+      "accommodation": "Private mother-in-law studio apartment.",
+      "breakfast": "All Water Seafood & Oyster Bar",
+      "attractions": [
+        "Sky View Observatory"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "All Water Seafood & Oyster Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1st Ave & Spring St",
+          "dist_m": 19.43
+        },
+        {
+          "name": "Sky View Observatory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "4th Ave & Cherry St",
+          "dist_m": 20.75
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Seattle to Raleigh",
+      "transportation": "Flight Number: F0254575, from Seattle to Raleigh, Departure Time: 09:03, Arrival Time: 17:15",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        }
+      ]
+    }
+  ]
+}

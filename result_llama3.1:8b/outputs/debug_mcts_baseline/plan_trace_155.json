@@ -1,0 +1,382 @@
+{
+  "idx": 155,
+  "reward": 8.836515535612536,
+  "budget_used": 6442.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43",
+      "candidates": [
+        "Flight Number: F1169882, from Missoula to San Francisco, Departure Time: 16:11, Arrival Time: 17:33",
+        "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Modern Single Studio",
+        "Modern Double Studio with Bay Window",
+        "Glorious Room in Victorian Home",
+        "Monroe Studio 303",
+        "Airy private room in quiet home, Castro",
+        "Updated Private Bedroom with Ensuite Bathroom."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "John's Grill",
+      "candidates": [
+        "John's Grill",
+        "Hog Island Oyster Co.",
+        "Scala's Bistro",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Akiko's Sushi Bar and Restaurant",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ferry Building Marketplace",
+      "candidates": [
+        "Ferry Building Marketplace",
+        "Oracle Park",
+        "Exploratorium",
+        "Cable Car Museum",
+        "Cable Cars",
+        "Coit Tower",
+        "Pier 39",
+        "Fisherman's Wharf",
+        "Ghirardelli Square",
+        "Twin Peaks"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Modern Single Studio",
+        "Modern Double Studio with Bay Window",
+        "Glorious Room in Victorian Home",
+        "Monroe Studio 303",
+        "Airy private room in quiet home, Castro",
+        "Updated Private Bedroom with Ensuite Bathroom."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hog Island Oyster Co.",
+      "candidates": [
+        "Hog Island Oyster Co.",
+        "Scala's Bistro",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Akiko's Sushi Bar and Restaurant",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Oracle Park",
+      "candidates": [
+        "Oracle Park",
+        "Exploratorium",
+        "Cable Car Museum",
+        "Cable Cars",
+        "Coit Tower",
+        "Pier 39",
+        "Fisherman's Wharf",
+        "Ghirardelli Square",
+        "Twin Peaks"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+      "candidates": [
+        "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+        "Taxi, from San Francisco to Missoula, Duration: 1112.4816666666666 mins, Distance: 1581.5231999999999 km, Estimated Cost: $1581.52"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Scala's Bistro",
+      "candidates": [
+        "Scala's Bistro",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Akiko's Sushi Bar and Restaurant",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Missoula to San Francisco",
+      "transportation": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "John's Grill",
+      "attractions": [
+        "Ferry Building Marketplace"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "John's Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 128.62
+        },
+        {
+          "name": "Ferry Building Marketplace",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 334.47
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "Hog Island Oyster Co.",
+      "attractions": [
+        "Oracle Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Hog Island Oyster Co.",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 358.44
+        },
+        {
+          "name": "Oracle Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "4th @ Library (Caltrain)",
+          "dist_m": 474.04
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Francisco to Missoula",
+      "transportation": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+      "accommodation": "-",
+      "breakfast": "Scala's Bistro",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Scala's Bistro",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 451.0
+        }
+      ]
+    }
+  ]
+}

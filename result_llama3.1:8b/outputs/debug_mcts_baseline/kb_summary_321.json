@@ -1,0 +1,59 @@
+{
+  "idx": 321,
+  "stages": [
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Kansas City",
+      "to": "Los Angeles",
+      "date": "2024-11-26",
+      "raw": "Flight Number: F0101338, from Kansas City to Los Angeles, Departure Time: 13:55, Arrival Time: 15:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Kansas City",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles"
+    },
+    {
+      "mode": "taxi",
+      "from": "Kansas City",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "Kansas City",
+      "date": "2024-11-28",
+      "raw": "Flight Number: F0028235, from Los Angeles to Kansas City, Departure Time: 12:37, Arrival Time: 17:30"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to Kansas City, Not feasible to drive from Los Angeles to Kansas City"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to Kansas City, Not feasible to drive from Los Angeles to Kansas City"
+    }
+  ]
+}

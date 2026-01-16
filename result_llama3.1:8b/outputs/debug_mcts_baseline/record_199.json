@@ -1,0 +1,65 @@
+{
+  "idx": 199,
+  "JSON": {
+    "org": "Louisville",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-24",
+      "2024-11-25",
+      "2024-11-26"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": null,
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": "Museums"
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 2 people from Louisville to New York from November 24th to November 26th, 2024, with a budget of $1,800. Accommodations should include an entire home, and the itinerary should feature visits to museums. Avoid accommodations that allow parties.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Louisville to New York",
+      "transportation": "Flight Number: F0120166, from Louisville to New York, Departure Time: 12:44, Arrival Time: 14:44",
+      "breakfast": "Blue Smoke Battery Park City, New York",
+      "attraction": "New York Public Library, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "NYC Bliss | Sightseeing. Fitness Center, New York",
+      "event": "-",
+      "point_of_interest_list": "NYC Bliss | Sightseeing. Fitness Center, stay from 08:00 to 09:00, nearest transit: W 34 ST/BROADWAY, 60.68m away; Blue Smoke Battery Park City, visit from 09:20 to 10:30, nearest transit: VESEY ST/NORTH END AV, 10.23m away; New York Public Library, visit from 11:30 to 13:30, nearest transit: 5 AV/W 42 ST, 34.90m away; NYC Bliss | Sightseeing. Fitness Center, stay from 22:15 to 08:00, nearest transit: W 34 ST/BROADWAY, 60.68m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Lillie's Victorian Establishment, New York",
+      "attraction": "American Museum of Natural History, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Sonder at One Platt | Queen Studio, New York",
+      "event": "-",
+      "point_of_interest_list": "Sonder at One Platt | Queen Studio, stay from 08:00 to 09:00, nearest transit: WATER ST/JOHN ST, 47.08m away; Lillie's Victorian Establishment, visit from 09:20 to 10:30, nearest transit: 8 AV/W 49 ST, 40.41m away; American Museum of Natural History, visit from 11:30 to 13:30, nearest transit: CENTRAL PARK WEST/W 79 ST, 124.14m away; Sonder at One Platt | Queen Studio, stay from 22:15 to 08:00, nearest transit: WATER ST/JOHN ST, 47.08m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to Louisville",
+      "transportation": "Flight Number: F0120145, from New York to Louisville, Departure Time: 09:18, Arrival Time: 11:36",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Sonder at One Platt | Queen Studio, stay from 08:00 to 09:00, nearest transit: WATER ST/JOHN ST, 47.08m away."
+    }
+  ]
+}

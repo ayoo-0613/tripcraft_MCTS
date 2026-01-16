@@ -1,0 +1,399 @@
+{
+  "idx": 180,
+  "reward": 9.97428266489832,
+  "budget_used": 2338.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08",
+      "candidates": [
+        "Flight Number: F0156888, from Indianapolis to Detroit, Departure Time: 18:39, Arrival Time: 19:49",
+        "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Historic Carriage House Apartment in Brush Park",
+      "candidates": [
+        "Historic Carriage House Apartment in Brush Park",
+        "Luxury 1BD | DT Detroit | 1 Bed | Free Parking",
+        "Amazing 1 BR Apt In City Center",
+        "Stay downtown and walk everywhere!",
+        "Sonder Gabriel Richard | Queen Studio Apartment",
+        "Alexandrine Studio Midtown: Walk to the DIA",
+        "Upper unit with parking & private deck",
+        "Historic Corktown Loft at Old Tiger Stadium",
+        "Aveline's Abode - N. Corktown",
+        "Sky Carriage House: Light, Bright, Corktown Escape"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Besa",
+      "candidates": [
+        "Besa",
+        "Chartreuse Kitchen & Cocktails",
+        "The Whitney",
+        "Hudson Cafe",
+        "Mom's Spaghetti",
+        "Dime Store",
+        "Wright & Company",
+        "The Caucus Club Restaurant",
+        "London Chop House",
+        "Cliff Bells"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Guardian Building",
+      "candidates": [
+        "The Guardian Building",
+        "Detroit Downtown",
+        "Campus Martius Park",
+        "Detroit Historical Museum",
+        "Detroit Institute of Arts",
+        "Comerica Park",
+        "Detroit Rolling Pub",
+        "The HandleBar",
+        "Shinola Bicycles",
+        "The Ford Piquette Avenue Plant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Historic Carriage House Apartment in Brush Park",
+      "candidates": [
+        "Historic Carriage House Apartment in Brush Park",
+        "Luxury 1BD | DT Detroit | 1 Bed | Free Parking",
+        "Amazing 1 BR Apt In City Center",
+        "Stay downtown and walk everywhere!",
+        "Sonder Gabriel Richard | Queen Studio Apartment",
+        "Alexandrine Studio Midtown: Walk to the DIA",
+        "Upper unit with parking & private deck",
+        "Historic Corktown Loft at Old Tiger Stadium",
+        "Aveline's Abode - N. Corktown",
+        "Sky Carriage House: Light, Bright, Corktown Escape"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Chartreuse Kitchen & Cocktails",
+      "candidates": [
+        "Chartreuse Kitchen & Cocktails",
+        "The Whitney",
+        "Hudson Cafe",
+        "Mom's Spaghetti",
+        "Dime Store",
+        "Wright & Company",
+        "The Caucus Club Restaurant",
+        "London Chop House",
+        "Cliff Bells"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Detroit Downtown",
+      "candidates": [
+        "Detroit Downtown",
+        "Campus Martius Park",
+        "Detroit Historical Museum",
+        "Detroit Institute of Arts",
+        "Comerica Park",
+        "Detroit Rolling Pub",
+        "The HandleBar",
+        "Shinola Bicycles",
+        "The Ford Piquette Avenue Plant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
+      "candidates": [
+        "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
+        "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Whitney",
+      "candidates": [
+        "The Whitney",
+        "Hudson Cafe",
+        "Mom's Spaghetti",
+        "Dime Store",
+        "Wright & Company",
+        "The Caucus Club Restaurant",
+        "London Chop House",
+        "Cliff Bells"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Campus Martius Park",
+      "candidates": [
+        "Campus Martius Park",
+        "Detroit Historical Museum",
+        "Detroit Institute of Arts",
+        "Comerica Park",
+        "Detroit Rolling Pub",
+        "The HandleBar",
+        "Shinola Bicycles",
+        "The Ford Piquette Avenue Plant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Indianapolis to Detroit",
+      "transportation": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08",
+      "accommodation": "Historic Carriage House Apartment in Brush Park",
+      "breakfast": "Besa",
+      "attractions": [
+        "The Guardian Building"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Historic Carriage House Apartment in Brush Park",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sproat St - Southbound",
+          "dist_m": 58.4
+        },
+        {
+          "name": "Historic Carriage House Apartment in Brush Park",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sproat St - Southbound",
+          "dist_m": 58.4
+        },
+        {
+          "name": "Besa",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Congress St",
+          "dist_m": 71.32
+        },
+        {
+          "name": "The Guardian Building",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Congress St",
+          "dist_m": 46.14
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Detroit to Detroit",
+      "transportation": "-",
+      "accommodation": "Historic Carriage House Apartment in Brush Park",
+      "breakfast": "Chartreuse Kitchen & Cocktails",
+      "attractions": [
+        "Detroit Downtown"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Historic Carriage House Apartment in Brush Park",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sproat St - Southbound",
+          "dist_m": 58.4
+        },
+        {
+          "name": "Historic Carriage House Apartment in Brush Park",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sproat St - Southbound",
+          "dist_m": 58.4
+        },
+        {
+          "name": "Chartreuse Kitchen & Cocktails",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Ferry St - Northbound",
+          "dist_m": 81.76
+        },
+        {
+          "name": "Detroit Downtown",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Congress St",
+          "dist_m": 56.59
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Detroit to Indianapolis",
+      "transportation": "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
+      "accommodation": "-",
+      "breakfast": "The Whitney",
+      "attractions": [
+        "Campus Martius Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Historic Carriage House Apartment in Brush Park",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sproat St - Southbound",
+          "dist_m": 58.4
+        },
+        {
+          "name": "The Whitney",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Canfield St - Southbound",
+          "dist_m": 81.76
+        },
+        {
+          "name": "Campus Martius Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Campus Martius - Southbound",
+          "dist_m": 69.69
+        }
+      ]
+    }
+  ]
+}

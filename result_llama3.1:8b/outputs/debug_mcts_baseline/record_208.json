@@ -1,0 +1,71 @@
+{
+  "idx": 208,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": [
+        "French",
+        "Mediterranean",
+        "Italian"
+      ],
+      "room type": "entire home",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": [
+        "Food & Drink"
+      ]
+    },
+    "budget": 9450.0,
+    "query": "Plan a 3-day trip for 7 people from St. Louis to Seattle from November 21st to November 23rd, 2024, with a budget of $9,450. Accommodations should be an entire home, and no self-driving transportation is allowed. Include dining options featuring French, Mediterranean, and Italian cuisines, as well as attractions related to food and drink.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to Seattle",
+      "transportation": "Flight Number: F0253112, from St. Louis to Seattle, Departure Time: 06:56, Arrival Time: 09:22",
+      "breakfast": "-",
+      "attraction": "Pike Place Market, Seattle",
+      "lunch": "Lola, Seattle",
+      "dinner": "Barolo Ristorante, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Pike Place Market, visit from 11:30 to 13:30, nearest transit: 2nd Ave & Stewart St, 182.89m away; Lola, visit from 14:30 to 15:30, nearest transit: Virginia St & 4th Ave, 26.10m away; Barolo Ristorante, visit from 19:30 to 21:00, nearest transit: Westlake And 7th, 37.77m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Wild Ginger, Seattle",
+      "attraction": "-",
+      "lunch": "All Water Seafood & Oyster Bar, Seattle",
+      "dinner": "Dough Zone Dumpling House - Seattle International District, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Wild Ginger, visit from 09:20 to 10:30, nearest transit: 3rd Ave & Pike St, 13.86m away; All Water Seafood & Oyster Bar, visit from 14:30 to 15:30, nearest transit: 1st Ave & Spring St, 19.43m away; Dough Zone Dumpling House - Seattle International District, visit from 19:30 to 21:00, nearest transit: 5th Ave S & S Weller St, 26.54m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to St. Louis",
+      "transportation": "Taxi, from Seattle to St. Louis, Not feasible to drive from Seattle to St. Louis",
+      "breakfast": "The Butcher's Table, Seattle",
+      "attraction": "-",
+      "lunch": "Toulouse Petit Kitchen & Lounge, Seattle",
+      "dinner": "Metropolitan Grill, Seattle",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; The Butcher's Table, visit from 09:20 to 10:30, nearest transit: Westlake & 9th-Denny, 32.31m away; Toulouse Petit Kitchen & Lounge, visit from 14:30 to 15:30, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away; Metropolitan Grill, visit from 19:30 to 21:00, nearest transit: 2nd Ave & Marion St, 39.95m away."
+    }
+  ]
+}

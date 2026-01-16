@@ -1,0 +1,356 @@
+{
+  "idx": 218,
+  "reward": 9.028091674255691,
+  "budget_used": 1808.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0510917, from Tucson to Everett, Departure Time: 14:06, Arrival Time: 17:19",
+      "candidates": [
+        "Flight Number: F0510917, from Tucson to Everett, Departure Time: 14:06, Arrival Time: 17:19",
+        "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Large Room with Private Bathroom",
+      "candidates": [
+        "Large Room with Private Bathroom",
+        "Cozy Room in Healing Home",
+        "Private room rental"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Chianti Italian Restaurant",
+      "candidates": [
+        "Chianti Italian Restaurant",
+        "Mazatlan Restaurant",
+        "Brooklyn Brothers Pizzeria",
+        "Curries In Everett",
+        "Tampico Mexican Restaurant",
+        "Ray's Drive In",
+        "Vintage Cafe",
+        "Nick's Jr Burgers and Gyros",
+        "Capers + Olives",
+        "Kate's Greek & American Deli"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Imagine Children's Museum",
+      "candidates": [
+        "Imagine Children's Museum",
+        "Museum of Flight Restoration Center",
+        "Schack Art Center",
+        "Flying Heritage & Combat Armor Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Large Room with Private Bathroom",
+      "candidates": [
+        "Large Room with Private Bathroom",
+        "Cozy Room in Healing Home",
+        "Private room rental"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mazatlan Restaurant",
+      "candidates": [
+        "Mazatlan Restaurant",
+        "Brooklyn Brothers Pizzeria",
+        "Curries In Everett",
+        "Tampico Mexican Restaurant",
+        "Ray's Drive In",
+        "Vintage Cafe",
+        "Nick's Jr Burgers and Gyros",
+        "Capers + Olives",
+        "Kate's Greek & American Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Museum of Flight Restoration Center",
+      "candidates": [
+        "Museum of Flight Restoration Center",
+        "Schack Art Center",
+        "Flying Heritage & Combat Armor Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+      "candidates": [
+        "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+        "Taxi, from Everett to Tucson, Not feasible to drive from Everett to Tucson"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Brooklyn Brothers Pizzeria",
+      "candidates": [
+        "Brooklyn Brothers Pizzeria",
+        "Curries In Everett",
+        "Tampico Mexican Restaurant",
+        "Ray's Drive In",
+        "Vintage Cafe",
+        "Nick's Jr Burgers and Gyros",
+        "Capers + Olives",
+        "Kate's Greek & American Deli"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Tucson to Everett",
+      "transportation": "Flight Number: F0510917, from Tucson to Everett, Departure Time: 14:06, Arrival Time: 17:19",
+      "accommodation": "Large Room with Private Bathroom",
+      "breakfast": "Chianti Italian Restaurant",
+      "attractions": [
+        "Imagine Children's Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Large Room with Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & 79TH ST SE - NB",
+          "dist_m": 85.18
+        },
+        {
+          "name": "Large Room with Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & 79TH ST SE - NB",
+          "dist_m": 85.18
+        },
+        {
+          "name": "Chianti Italian Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "HEWITT AVE & WETMORE - EB",
+          "dist_m": 12.79
+        },
+        {
+          "name": "Imagine Children's Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "WALL ST & HOYT AVE - WB",
+          "dist_m": 29.48
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Everett to Everett",
+      "transportation": "-",
+      "accommodation": "Large Room with Private Bathroom",
+      "breakfast": "Mazatlan Restaurant",
+      "attractions": [
+        "Museum of Flight Restoration Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Large Room with Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & 79TH ST SE - NB",
+          "dist_m": 85.18
+        },
+        {
+          "name": "Large Room with Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & 79TH ST SE - NB",
+          "dist_m": 85.18
+        },
+        {
+          "name": "Mazatlan Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "RUCKER AVE & PACIFIC AVE - NB",
+          "dist_m": 33.15
+        },
+        {
+          "name": "Museum of Flight Restoration Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "100TH ST SW & 29TH AVE W - WB",
+          "dist_m": 59.54
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Everett to Tucson",
+      "transportation": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+      "accommodation": "-",
+      "breakfast": "Brooklyn Brothers Pizzeria",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Large Room with Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & 79TH ST SE - NB",
+          "dist_m": 85.18
+        },
+        {
+          "name": "Brooklyn Brothers Pizzeria",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "HEWITT AVE & LOMBARD AVE - WB",
+          "dist_m": 33.88
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "idx": 160,
+  "JSON": {
+    "org": "Indianapolis",
+    "dest": "Baltimore",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1500.0,
+    "query": "Plan a 3-day trip for 1 person from Indianapolis to Baltimore from November 1st to November 3rd, 2024, with a budget of $1,500. Accommodations should include a private room.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; ; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Indianapolis to Baltimore",
+      "transportation": "Taxi, from Indianapolis to Baltimore, Duration: 662.675 mins, Distance: 924.8583000000001 km, Estimated Cost: $924.86",
+      "breakfast": "Fogo de Chao Brazilian Steakhouse, Baltimore",
+      "attraction": "Hippodrome Theatre, Baltimore",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Bed next to JHH, Baltimore",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Fogo de Chao Brazilian Steakhouse, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 282.15m away; Hippodrome Theatre, visit from 11:30 to 13:30, nearest transit: LEXINGTON MARKET (METRO) sb, 137.78m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "Transfer, from Baltimore to Baltimore",
+      "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+      "attraction": "Edgar Allan Poe's Grave Site and Memorial, Baltimore",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Bed next to JHH, Baltimore",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; Edgar Allan Poe's Grave Site and Memorial, visit from 11:30 to 13:30, nearest transit: LEXINGTON MARKET (METRO) sb, 246.16m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Baltimore to Indianapolis",
+      "transportation": "Flight Number: F0009062, from Baltimore to Indianapolis, Departure Time: 13:15, Arrival Time: 14:50",
+      "breakfast": "The Capital Grille, Baltimore",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; The Capital Grille, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away."
+    }
+  ]
+}

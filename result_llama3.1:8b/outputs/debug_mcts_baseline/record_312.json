@@ -1,0 +1,65 @@
+{
+  "idx": 312,
+  "JSON": {
+    "org": "New York",
+    "dest": "Reno",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": "American",
+      "room type": "private room",
+      "event": null,
+      "attraction": "Nature & Parks",
+      "transportation": null
+    },
+    "budget": 4200.0,
+    "query": "Plan a 3-day trip for 2 people from New York to Reno from November 2nd to November 4th, 2024, with a budget of $4,200. Accommodations should include a private room. The itinerary should feature American cuisine and visits to Nature & Parks attractions.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from New York to Reno",
+      "transportation": "Flight Number: F0270511, from New York to Reno, Departure Time: 21:32, Arrival Time: 00:36",
+      "breakfast": "Purple Parrot, Reno",
+      "attraction": "Virginia Lake Park, Reno",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Sealy Super Comfy Mattress 4.1 Stars, Reno",
+      "event": "-",
+      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; Purple Parrot, visit from 09:20 to 10:30, nearest transit: S Virginia Street and W Peckham Lane, 36.43m away; Virginia Lake Park, visit from 11:30 to 13:30, nearest transit: Lakeside Drive and Brinkby Avenue, 38.73m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 22:15 to 08:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Reno to Reno",
+      "transportation": "Transfer, from Reno to Reno",
+      "breakfast": "Two Chicks Reno, Reno",
+      "attraction": "Rancho San Rafael Regional Park, Reno",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Sealy Super Comfy Mattress 4.1 Stars, Reno",
+      "event": "-",
+      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; Two Chicks Reno, visit from 09:20 to 10:30, nearest transit: S Virginia Street and Thoma Street, 50.95m away; Rancho San Rafael Regional Park, visit from 11:30 to 13:30, nearest transit: Lawlor Station, 214.19m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 22:15 to 08:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Reno to New York",
+      "transportation": "Flight Number: F0270515, from Reno to New York, Departure Time: 00:00, Arrival Time: 07:47",
+      "breakfast": "Oyster & Sushi Bar on the Sky Terrace, Reno",
+      "attraction": "Wilbur D. May Center, Reno",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; Oyster & Sushi Bar on the Sky Terrace, visit from 09:20 to 10:30, nearest transit: S Virginia Street and W Peckham Lane, 21.94m away; Wilbur D. May Center, visit from 11:30 to 13:30, nearest transit: N Virginia Street at Planetarium, 386.17m away."
+    }
+  ]
+}

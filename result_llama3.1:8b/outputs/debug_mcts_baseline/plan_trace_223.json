@@ -1,0 +1,385 @@
+{
+  "idx": 223,
+  "reward": 9.998423012794882,
+  "budget_used": 799.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $548.26",
+      "candidates": [
+        "Taxi, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $548.26"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "EmeraldShinobi Villa Plus",
+      "candidates": [
+        "EmeraldShinobi Villa Plus",
+        "A single room for your stay",
+        "Convenient for 2, No cleaning fee Discounts to 10%",
+        "Lexington Home for Bluegrass Adventures"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Distilled Restaurant & Bourbon Bar",
+      "candidates": [
+        "Distilled Restaurant & Bourbon Bar",
+        "Harry's American Bar & Grill",
+        "Malone's Hamburg",
+        "Zen Sushi & Sake",
+        "Pies & Pints",
+        "The Blue Heron Steakhouse",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bella Notte",
+        "Josie's"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lexington Visitors Center",
+      "candidates": [
+        "Lexington Visitors Center",
+        "Lexington Brewing & Distilling Co.",
+        "Thoroughbred Park",
+        "Blue Grass Tours",
+        "Keeneland",
+        "James E. Pepper Distillery",
+        "Lexington Cemetery",
+        "Kentucky Horse Park",
+        "Lexington Carriage Company",
+        "Lexington Green"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "EmeraldShinobi Villa Plus",
+      "candidates": [
+        "EmeraldShinobi Villa Plus",
+        "A single room for your stay",
+        "Convenient for 2, No cleaning fee Discounts to 10%",
+        "Lexington Home for Bluegrass Adventures"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Harry's American Bar & Grill",
+      "candidates": [
+        "Harry's American Bar & Grill",
+        "Malone's Hamburg",
+        "Zen Sushi & Sake",
+        "Pies & Pints",
+        "The Blue Heron Steakhouse",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bella Notte",
+        "Josie's"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lexington Brewing & Distilling Co.",
+      "candidates": [
+        "Lexington Brewing & Distilling Co.",
+        "Thoroughbred Park",
+        "Blue Grass Tours",
+        "Keeneland",
+        "James E. Pepper Distillery",
+        "Lexington Cemetery",
+        "Kentucky Horse Park",
+        "Lexington Carriage Company",
+        "Lexington Green"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Lexington to Detroit",
+      "candidates": [
+        "Transfer, from Lexington to Detroit"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Malone's Hamburg",
+      "candidates": [
+        "Malone's Hamburg",
+        "Zen Sushi & Sake",
+        "Pies & Pints",
+        "The Blue Heron Steakhouse",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bella Notte",
+        "Josie's"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Thoroughbred Park",
+      "candidates": [
+        "Thoroughbred Park",
+        "Blue Grass Tours",
+        "Keeneland",
+        "James E. Pepper Distillery",
+        "Lexington Cemetery",
+        "Kentucky Horse Park",
+        "Lexington Carriage Company",
+        "Lexington Green"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Detroit to Lexington",
+      "transportation": "Taxi, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $548.26",
+      "accommodation": "EmeraldShinobi Villa Plus",
+      "breakfast": "Distilled Restaurant & Bourbon Bar",
+      "attractions": [
+        "Lexington Visitors Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "EmeraldShinobi Villa Plus",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sandersville @ 2977 Outbound",
+          "dist_m": 86.91
+        },
+        {
+          "name": "EmeraldShinobi Villa Plus",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sandersville @ 2977 Outbound",
+          "dist_m": 86.91
+        },
+        {
+          "name": "Distilled Restaurant & Bourbon Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Jefferson @ Quin-Shearer Court",
+          "dist_m": 27.14
+        },
+        {
+          "name": "Lexington Visitors Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "West Main @ 269",
+          "dist_m": 66.4
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Lexington to Lexington",
+      "transportation": "-",
+      "accommodation": "EmeraldShinobi Villa Plus",
+      "breakfast": "Harry's American Bar & Grill",
+      "attractions": [
+        "Lexington Brewing & Distilling Co."
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "EmeraldShinobi Villa Plus",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sandersville @ 2977 Outbound",
+          "dist_m": 86.91
+        },
+        {
+          "name": "EmeraldShinobi Villa Plus",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sandersville @ 2977 Outbound",
+          "dist_m": 86.91
+        },
+        {
+          "name": "Harry's American Bar & Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Pleasant Ridge @ Malones",
+          "dist_m": 27.84
+        },
+        {
+          "name": "Lexington Brewing & Distilling Co.",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Versailles @ Pine Inbound",
+          "dist_m": 112.53
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Lexington to Detroit",
+      "transportation": "Transfer, from Lexington to Detroit",
+      "accommodation": "-",
+      "breakfast": "Malone's Hamburg",
+      "attractions": [
+        "Thoroughbred Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "EmeraldShinobi Villa Plus",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sandersville @ 2977 Outbound",
+          "dist_m": 86.91
+        },
+        {
+          "name": "Malone's Hamburg",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Pleasant Ridge @ Malones",
+          "dist_m": 34.39
+        },
+        {
+          "name": "Thoroughbred Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Midland @ Short",
+          "dist_m": 112.6
+        }
+      ]
+    }
+  ]
+}

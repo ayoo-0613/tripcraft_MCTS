@@ -1,0 +1,351 @@
+{
+  "idx": 116,
+  "reward": 7.0326165236949,
+  "budget_used": 838.25,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0011833, from Chicago to Colorado Springs, Departure Time: 08:52, Arrival Time: 10:24",
+      "candidates": [
+        "Flight Number: F0011833, from Chicago to Colorado Springs, Departure Time: 08:52, Arrival Time: 10:24",
+        "Taxi, from Chicago to Colorado Springs, Duration: 1134.3316666666665 mins, Distance: 1729.9226 km, Estimated Cost: $1729.92"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Penrose Heritage Museum",
+      "candidates": [
+        "Penrose Heritage Museum",
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Paravicini's Italian Bistro",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Colorado City Historic District",
+      "candidates": [
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0040433, from Colorado Springs to Chicago, Departure Time: 10:24, Arrival Time: 13:38",
+      "candidates": [
+        "Flight Number: F0040433, from Colorado Springs to Chicago, Departure Time: 10:24, Arrival Time: 13:38",
+        "Taxi, from Colorado Springs to Chicago, Duration: 1133.75 mins, Distance: 1729.5706 km, Estimated Cost: $1729.57"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Colorado Springs",
+      "transportation": "Flight Number: F0011833, from Chicago to Colorado Springs, Departure Time: 08:52, Arrival Time: 10:24",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "-",
+      "attractions": [
+        "Penrose Heritage Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Penrose Heritage Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Broadmoor Hotel",
+          "dist_m": 45.08
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "Paravicini's Italian Bistro",
+      "attractions": [
+        "Old Colorado City Historic District"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Paravicini's Italian Bistro",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Colorado/28th",
+          "dist_m": 25.37
+        },
+        {
+          "name": "Old Colorado City Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cascade/Colorado",
+          "dist_m": 63.31
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Chicago",
+      "transportation": "Flight Number: F0040433, from Colorado Springs to Chicago, Departure Time: 10:24, Arrival Time: 13:38",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        }
+      ]
+    }
+  ]
+}

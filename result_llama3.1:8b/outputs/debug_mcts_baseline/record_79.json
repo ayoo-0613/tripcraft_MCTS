@@ -1,0 +1,65 @@
+{
+  "idx": 79,
+  "JSON": {
+    "org": "Hartford",
+    "dest": "Las Vegas",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-23",
+      "2024-11-24",
+      "2024-11-25"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "event": null,
+      "attraction": "Fun & Games",
+      "transportation": null
+    },
+    "budget": 4050.0,
+    "query": "Plan a 3-day trip for 2 people from Hartford to Las Vegas from November 23rd to November 25th, 2024, with a budget of $4,050. Include activities focused on 'Fun & Games' attractions.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Hartford to Las Vegas",
+      "transportation": "Flight Number: F0275341, from Hartford to Las Vegas, Departure Time: 19:35, Arrival Time: 22:08",
+      "breakfast": "Triple George Grill, Las Vegas",
+      "attraction": "Wynn Las Vegas Casino, Las Vegas",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Room Next to Strip, Las Vegas",
+      "event": "-",
+      "point_of_interest_list": "Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away; Triple George Grill, visit from 09:20 to 10:30, nearest transit: Mob Museum, 87.09m away; Wynn Las Vegas Casino, visit from 11:30 to 13:30, nearest transit: The Strat, 2447.07m away; Private Room Next to Strip, stay from 22:15 to 08:00, nearest transit: The Strat, 1578.93m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Las Vegas to Las Vegas",
+      "transportation": "Transfer, from Las Vegas to Las Vegas",
+      "breakfast": "Top of the World, Las Vegas",
+      "attraction": "The LINQ Promenade, Las Vegas",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Room Next to Strip, Las Vegas",
+      "event": "-",
+      "point_of_interest_list": "Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away; Top of the World, visit from 09:20 to 10:30, nearest transit: The Strat, 140.60m away; The LINQ Promenade, visit from 11:30 to 13:30, nearest transit: The Strat, 3611.25m away; Private Room Next to Strip, stay from 22:15 to 08:00, nearest transit: The Strat, 1578.93m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Las Vegas to Hartford",
+      "transportation": "Flight Number: F0278234, from Las Vegas to Hartford, Departure Time: 23:01, Arrival Time: 06:35",
+      "breakfast": "Garden Court, Las Vegas",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away; Garden Court, visit from 09:20 to 10:30, nearest transit: Circa, 185.80m away."
+    }
+  ]
+}

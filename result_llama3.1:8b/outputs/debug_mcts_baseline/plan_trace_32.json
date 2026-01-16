@@ -1,0 +1,750 @@
+{
+  "idx": 32,
+  "reward": 20.887005607794666,
+  "budget_used": 3863.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
+      "candidates": [
+        "-",
+        "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Single room/full bed with private 1/2 bath",
+        "Pattee’s Place - 2 bedrooms 2 bath",
+        "Backyard Oasis!",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The River View at Evergreen Hill",
+        "The Porch at Evergreen Hill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sneakers Eatry and Pub",
+      "candidates": [
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Taco Tico",
+        "Larita's Cakes 'N More"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Fort Museum & Frontier Village",
+      "candidates": [
+        "The Fort Museum & Frontier Village",
+        "Studio Fusion",
+        "Blanden Art Museum",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Community Orchard",
+        "Soldier Creek Winery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Taco Tico",
+      "candidates": [
+        "Taco Tico",
+        "Larita's Cakes 'N More",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Larita's Cakes 'N More",
+      "candidates": [
+        "Larita's Cakes 'N More",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Single room/full bed with private 1/2 bath",
+        "Pattee’s Place - 2 bedrooms 2 bath",
+        "Backyard Oasis!",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The River View at Evergreen Hill",
+        "The Porch at Evergreen Hill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Village Inn",
+      "candidates": [
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Studio Fusion",
+      "candidates": [
+        "Studio Fusion",
+        "Blanden Art Museum",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Community Orchard",
+        "Soldier Creek Winery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sports Page",
+      "candidates": [
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tea Thyme & Thyme to Shop",
+      "candidates": [
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy NewBo Historical Herda House",
+      "candidates": [
+        "Cozy NewBo Historical Herda House",
+        "Burnett Cottage @NewBo District (OG)",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Bedroom with en suite bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Heart House in NewBo",
+        "The Favorite Room at The Deer House-Room 1",
+        "Cozy Casa w/ Private Hot Tub",
+        "Charming Convenience"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bari Italian",
+      "candidates": [
+        "Bari Italian",
+        "The Breakfast House",
+        "El Bajio",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Black Sheep Social Club"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bever Park",
+      "candidates": [
+        "Bever Park",
+        "The History Center",
+        "Cedar Rapids Public Library",
+        "Cedar Rapids Museum of Art",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "NewBo City Market",
+        "Grant Wood Studio",
+        "CSPS",
+        "Czech Village / New Bohemia District",
+        "Paramount theater"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy NewBo Historical Herda House",
+      "candidates": [
+        "Cozy NewBo Historical Herda House",
+        "Burnett Cottage @NewBo District (OG)",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Bedroom with en suite bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Heart House in NewBo",
+        "The Favorite Room at The Deer House-Room 1",
+        "Cozy Casa w/ Private Hot Tub",
+        "Charming Convenience"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Breakfast House",
+      "candidates": [
+        "The Breakfast House",
+        "El Bajio",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Black Sheep Social Club"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The History Center",
+      "candidates": [
+        "The History Center",
+        "Cedar Rapids Public Library",
+        "Cedar Rapids Museum of Art",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "NewBo City Market",
+        "Grant Wood Studio",
+        "CSPS",
+        "Czech Village / New Bohemia District",
+        "Paramount theater"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "El Bajio",
+      "candidates": [
+        "El Bajio",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Black Sheep Social Club"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lucky's on 16th",
+      "candidates": [
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Black Sheep Social Club"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Cedar Rapids to Valparaiso, Duration: 327.02666666666664 mins, Distance: 451.17440000000005 km, Estimated Cost: $451.17"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cancun Mexican Grill and Bar",
+      "candidates": [
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Black Sheep Social Club"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cedar Rapids Public Library",
+      "candidates": [
+        "Cedar Rapids Public Library",
+        "Cedar Rapids Museum of Art",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "NewBo City Market",
+        "Grant Wood Studio",
+        "CSPS",
+        "Czech Village / New Bohemia District",
+        "Paramount theater"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Valparaiso to Fort Dodge",
+      "transportation": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Sneakers Eatry and Pub",
+      "attractions": [
+        "The Fort Museum & Frontier Village"
+      ],
+      "lunch": "Taco Tico",
+      "dinner": "Larita's Cakes 'N More",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Sneakers Eatry and Pub",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Central Ave and S 13th St",
+          "dist_m": 60.64
+        },
+        {
+          "name": "The Fort Museum & Frontier Village",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Museum Rd and Kenyon Rd",
+          "dist_m": 41.53
+        },
+        {
+          "name": "Taco Tico",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Crossroads Mall Entrance/Younkers",
+          "dist_m": 56.77
+        },
+        {
+          "name": "Larita's Cakes 'N More",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "2nd Ave N and N 19th St",
+          "dist_m": 57.76
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Village Inn",
+      "attractions": [
+        "Studio Fusion"
+      ],
+      "lunch": "Sports Page",
+      "dinner": "Tea Thyme & Thyme to Shop",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Village Inn",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "N 15th Ave and 20th Ave N",
+          "dist_m": 67.45
+        },
+        {
+          "name": "Studio Fusion",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 71.87
+        },
+        {
+          "name": "Sports Page",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Evergreen Estates",
+          "dist_m": 68.77
+        },
+        {
+          "name": "Tea Thyme & Thyme to Shop",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "6th Ave S and S 21st St",
+          "dist_m": 84.15
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "Cozy NewBo Historical Herda House",
+      "breakfast": "Bari Italian",
+      "attractions": [
+        "Bever Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Bari Italian",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1st St at McGrath Ampitheatre",
+          "dist_m": 71.85
+        },
+        {
+          "name": "Bever Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Memorial Dr & Bever Ave",
+          "dist_m": 31.27
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "Cozy NewBo Historical Herda House",
+      "breakfast": "The Breakfast House",
+      "attractions": [
+        "The History Center"
+      ],
+      "lunch": "El Bajio",
+      "dinner": "Lucky's on 16th",
+      "poi_blocks": [
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "The Breakfast House",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "812 6th St (Jim's Foods)",
+          "dist_m": 38.5
+        },
+        {
+          "name": "The History Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "2nd Ave & 8th St",
+          "dist_m": 41.04
+        },
+        {
+          "name": "El Bajio",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "6th St & Gateway Pl",
+          "dist_m": 42.01
+        },
+        {
+          "name": "Lucky's on 16th",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "C St & 16th Ave",
+          "dist_m": 50.35
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Cedar Rapids to Valparaiso",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Cancun Mexican Grill and Bar",
+      "attractions": [
+        "Cedar Rapids Public Library"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Cancun Mexican Grill and Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "33rd Ave & South Ridge Dr",
+          "dist_m": 62.98
+        },
+        {
+          "name": "Cedar Rapids Public Library",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "4th Ave & 5th St",
+          "dist_m": 49.12
+        }
+      ]
+    }
+  ]
+}

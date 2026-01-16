@@ -1,0 +1,69 @@
+{
+  "idx": 278,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Wichita",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Mediterranean",
+        "French",
+        "American"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3900.0,
+    "query": "Plan a 3-day trip for 6 people from Houston to Wichita from November 18th to November 20th, 2024, with a budget of $3,900. The itinerary should include dining options featuring Mediterranean, French, and American cuisines.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Wichita",
+      "transportation": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71",
+      "breakfast": "Old Mill Tasty Shop, Wichita",
+      "attraction": "Cathedral of the Immaculate Conception, Wichita",
+      "lunch": "George's French Bistro, Wichita",
+      "dinner": "Little Saigon, Wichita",
+      "accommodation": "Stunning Mid-Century Modern 3 bedroom home, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Stunning Mid-Century Modern 3 bedroom home, stay from 08:00 to 09:00, nearest transit: West St and Del Seinno OB, 97.71m away; Old Mill Tasty Shop, visit from 09:20 to 10:30, nearest transit: Douglas and St. Francis OB, 39.59m away; Cathedral of the Immaculate Conception, visit from 11:30 to 13:30, nearest transit: Central and Broadway OB, 26.16m away; George's French Bistro, visit from 14:30 to 15:30, nearest transit: Central and Pershing IB, 79.65m away; Little Saigon, visit from 19:30 to 21:00, nearest transit: Broadway and 9th St IB, 34.07m away; Stunning Mid-Century Modern 3 bedroom home, stay from 22:15 to 08:00, nearest transit: West St and Del Seinno OB, 97.71m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wichita to Wichita",
+      "transportation": "Transfer, from Wichita to Wichita",
+      "breakfast": "Redrock Canyon Grill, Wichita",
+      "attraction": "Pizza Hut Museum, Wichita",
+      "lunch": "Ziggys Pizza East, Wichita",
+      "dinner": "Prost, Wichita",
+      "accommodation": "Central ICT.Z, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Central ICT.Z, stay from 08:00 to 09:00, nearest transit: Waterman and Pattie IB, 93.90m away; Redrock Canyon Grill, visit from 09:20 to 10:30, nearest transit: Rock and Bradley Fair NB, 57.14m away; Pizza Hut Museum, visit from 11:30 to 13:30, nearest transit: WSU Welcome Center, 41.48m away; Ziggys Pizza East, visit from 14:30 to 15:30, nearest transit: Douglas and Clifton IB, 44.97m away; Prost, visit from 19:30 to 21:00, nearest transit: Central and Volutsia OB, 49.11m away; Central ICT.Z, stay from 22:15 to 08:00, nearest transit: Waterman and Pattie IB, 93.90m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wichita to Houston",
+      "transportation": "Transfer, from Wichita to Houston",
+      "breakfast": "The Sweet Spot, Wichita",
+      "attraction": "Wichita Toy Train Museum, Wichita",
+      "lunch": "Beacon Restaurant, Wichita",
+      "dinner": "Larkspur Bistro & Bar, Wichita",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Central ICT.Z, stay from 08:00 to 09:00, nearest transit: Waterman and Pattie IB, 93.90m away; The Sweet Spot, visit from 09:20 to 10:30, nearest transit: 8279 W Central OB, 64.66m away; Wichita Toy Train Museum, visit from 11:30 to 13:30, nearest transit: Douglas and Ohio IB, 73.42m away; Beacon Restaurant, visit from 14:30 to 15:30, nearest transit: Washington and Douglas IB, 66.33m away; Larkspur Bistro & Bar, visit from 19:30 to 21:00, nearest transit: Douglas and Rock Island OB, 70.73m away."
+    }
+  ]
+}

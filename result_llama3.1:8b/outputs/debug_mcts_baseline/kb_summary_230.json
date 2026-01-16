@@ -1,0 +1,59 @@
+{
+  "idx": 230,
+  "stages": [
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Seattle",
+      "date": "2024-11-15",
+      "raw": "Flight Number: F0249232, from Houston to Seattle, Departure Time: 06:54, Arrival Time: 09:51"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Self-driving, from Houston to Seattle, Not feasible to drive from Houston to Seattle"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Taxi, from Houston to Seattle, Not feasible to drive from Houston to Seattle"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "Houston",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0250472, from Seattle to Houston, Departure Time: 22:49, Arrival Time: 04:45"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Seattle to Houston, Not feasible to drive from Seattle to Houston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Seattle to Houston, Not feasible to drive from Seattle to Houston"
+    }
+  ]
+}

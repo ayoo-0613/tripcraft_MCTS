@@ -1,0 +1,59 @@
+{
+  "idx": 130,
+  "stages": [
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 14
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Oklahoma City",
+      "to": "Seattle",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0240520, from Oklahoma City to Seattle, Departure Time: 18:33, Arrival Time: 20:36"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Oklahoma City",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Self-driving, from Oklahoma City to Seattle, Not feasible to drive from Oklahoma City to Seattle"
+    },
+    {
+      "mode": "taxi",
+      "from": "Oklahoma City",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Taxi, from Oklahoma City to Seattle, Not feasible to drive from Oklahoma City to Seattle"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "Oklahoma City",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0241794, from Seattle to Oklahoma City, Departure Time: 12:32, Arrival Time: 17:51"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Seattle to Oklahoma City, Not feasible to drive from Seattle to Oklahoma City"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Seattle to Oklahoma City, Not feasible to drive from Seattle to Oklahoma City"
+    }
+  ]
+}

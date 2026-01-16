@@ -1,0 +1,65 @@
+{
+  "idx": 283,
+  "JSON": {
+    "org": "Detroit",
+    "dest": "Indianapolis",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-24",
+      "2024-11-25",
+      "2024-11-26"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1050.0,
+    "query": "Plan a 3-day trip for 1 person from Detroit to Indianapolis from November 24th to November 26th, 2024, with a budget of $1,050. Accommodations should include a private room.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Detroit to Indianapolis",
+      "transportation": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70",
+      "breakfast": "Tony's of Indianapolis, Indianapolis",
+      "attraction": "The Fashion Mall at Keystone, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Historic Private Guest Suite, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Historic Private Guest Suite, stay from 08:00 to 09:00, nearest transit: Michigan St & Spring St, 70.02m away; Tony's of Indianapolis, visit from 09:20 to 10:30, nearest transit: Washington St & Illinois St, 49.05m away; The Fashion Mall at Keystone, visit from 11:30 to 13:30, nearest transit: Keystone Crossing - 8700 N, 51.70m away; Historic Private Guest Suite, stay from 22:15 to 08:00, nearest transit: Michigan St & Spring St, 70.02m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Indianapolis to Indianapolis",
+      "transportation": "Transfer, from Indianapolis to Indianapolis",
+      "breakfast": "Bluebeard, Indianapolis",
+      "attraction": "Crown Hill Cemetery, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Queen Bed Getaway Room Downtown Indy, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Bluebeard, visit from 09:20 to 10:30, nearest transit: Virginia Ave & College Ave, 33.77m away; Crown Hill Cemetery, visit from 11:30 to 13:30, nearest transit: 38th St & Clarendon Rd, 91.22m away; Queen Bed Getaway Room Downtown Indy, stay from 22:15 to 08:00, nearest transit: New York St & State St, 65.71m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Indianapolis to Detroit",
+      "transportation": "Flight Number: F0156896, from Indianapolis to Detroit, Departure Time: 18:40, Arrival Time: 19:45",
+      "breakfast": "Milktooth, Indianapolis",
+      "attraction": "Children's Museum of Indianapolis, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Milktooth, visit from 09:20 to 10:30, nearest transit: Fletcher Place Station NB, 34.30m away; Children's Museum of Indianapolis, visit from 11:30 to 13:30, nearest transit: 30th/Museum Station SB, 91.45m away."
+    }
+  ]
+}

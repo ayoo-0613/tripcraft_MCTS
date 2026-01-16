@@ -1,0 +1,73 @@
+{
+  "idx": 299,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Albuquerque",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
+    ],
+    "people_number": 8,
+    "local_constraint": {
+      "house rule": "children under 10",
+      "cuisine": [
+        "French",
+        "Chinese",
+        "Italian",
+        "Mexican"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": [
+        "Museums",
+        "Zoos & Aquariums"
+      ]
+    },
+    "budget": 7350.0,
+    "query": "Plan a 3-day trip for 8 people from Chicago to Albuquerque from November 5th to November 7th, 2024, with a budget of $7,350. The trip should accommodate children under 10 and include visits to museums and zoos or aquariums. Dining options should feature French, Chinese, Italian, and Mexican cuisines.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Albuquerque",
+      "transportation": "Taxi, from Chicago to Albuquerque, Duration: 1421.5666666666666 mins, Distance: 2152.9278 km, Estimated Cost: $2152.93",
+      "breakfast": "The Original Cocina Azul, Albuquerque",
+      "attraction": "Albuquerque Biological Park, Albuquerque; Indian Pueblo Cultural Center, Albuquerque",
+      "lunch": "Farina, Albuquerque",
+      "dinner": "Le Troquet Bistro, Albuquerque",
+      "accommodation": "Backyard Casita - Designer Reno!, Albuquerque",
+      "event": "-",
+      "point_of_interest_list": "Backyard Casita - Designer Reno!, stay from 08:00 to 09:00, nearest transit: Martin Luther King @ Edith, 95.01m away; The Original Cocina Azul, visit from 09:20 to 10:30, nearest transit: 12th @ Granite, 25.85m away; Albuquerque Biological Park, visit from 11:30 to 13:30, nearest transit: Central @ Tingley, 39.13m away; Farina, visit from 14:30 to 15:30, nearest transit: Central @ Edith, 34.99m away; Indian Pueblo Cultural Center, visit from 16:30 to 18:00, nearest transit: 12th @ Indian School, 75.09m away; Le Troquet Bistro, visit from 19:30 to 21:00, nearest transit: 3rd @ Silver, 46.80m away; Backyard Casita - Designer Reno!, stay from 22:15 to 08:00, nearest transit: Martin Luther King @ Edith, 95.01m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Albuquerque to Albuquerque",
+      "transportation": "Transfer, from Albuquerque to Albuquerque",
+      "breakfast": "Indian Pueblo Kitchen, Albuquerque",
+      "attraction": "American International Rattlesnake Museum, Albuquerque; ABQ BioPark Zoo, Albuquerque",
+      "lunch": "The 377 Brewery, Albuquerque",
+      "dinner": "66 Diner, Albuquerque",
+      "accommodation": "Backyard Casita - Designer Reno!, Albuquerque",
+      "event": "-",
+      "point_of_interest_list": "Backyard Casita - Designer Reno!, stay from 08:00 to 09:00, nearest transit: Martin Luther King @ Edith, 95.01m away; Indian Pueblo Kitchen, visit from 09:20 to 10:30, nearest transit: 12th @ Indian School, 49.70m away; American International Rattlesnake Museum, visit from 11:30 to 13:30, nearest transit: Central @ Rio Grande, 129.00m away; The 377 Brewery, visit from 14:30 to 15:30, nearest transit: Yale @ Gibson, 8.88m away; ABQ BioPark Zoo, visit from 16:30 to 18:00, nearest transit: 8th @ Atlantic (Zoo), 284.41m away; 66 Diner, visit from 19:30 to 21:00, nearest transit: Central @ Sycamore, 33.14m away; Backyard Casita - Designer Reno!, stay from 22:15 to 08:00, nearest transit: Martin Luther King @ Edith, 95.01m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Albuquerque to Chicago",
+      "transportation": "Transfer, from Albuquerque to Chicago",
+      "breakfast": "The Artichoke Cafe, Albuquerque",
+      "attraction": "The National Museum of Nuclear Science & History, Albuquerque",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Backyard Casita - Designer Reno!, stay from 08:00 to 09:00, nearest transit: Martin Luther King @ Edith, 95.01m away; The Artichoke Cafe, visit from 09:20 to 10:30, nearest transit: Central @ Edith, 34.47m away; The National Museum of Nuclear Science & History, visit from 11:30 to 13:30, nearest transit: Eubank @ La Entrada, 169.18m away."
+    }
+  ]
+}

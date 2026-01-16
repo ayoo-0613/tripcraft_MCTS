@@ -1,0 +1,65 @@
+{
+  "idx": 263,
+  "JSON": {
+    "org": "Seattle",
+    "dest": "Charleston",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 5850.0,
+    "query": "Plan a 3-day trip for 2 people from Seattle to Charleston from November 11th to November 13th, 2024, with a budget of $5,850. Accommodations should include an entire home.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Seattle to Charleston",
+      "transportation": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston",
+      "breakfast": "Stella's, Charleston",
+      "attraction": "The Charleston Museum, Charleston",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Charleston's Most Charming Historic Inn, Charleston",
+      "event": "-",
+      "point_of_interest_list": "Charleston's Most Charming Historic Inn, stay from 08:00 to 09:00, nearest transit: Meeting St / Broad St, 34.44m away; Stella's, visit from 09:20 to 10:30, nearest transit: Warren St / St Philip St, 16.55m away; The Charleston Museum, visit from 11:30 to 13:30, nearest transit: Charleston Museum / Visitors Center, 4.15m away; Charleston's Most Charming Historic Inn, stay from 22:15 to 08:00, nearest transit: Meeting St / Broad St, 34.44m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Charleston to Charleston",
+      "transportation": "Transfer, from Charleston to Charleston",
+      "breakfast": "Eli's Table, Charleston",
+      "attraction": "Charleston Waterfront Park, Charleston",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Charleston's Most Charming Historic Inn, Charleston",
+      "event": "-",
+      "point_of_interest_list": "Charleston's Most Charming Historic Inn, stay from 08:00 to 09:00, nearest transit: Meeting St / Broad St, 34.44m away; Eli's Table, visit from 09:20 to 10:30, nearest transit: Meeting St / Queen St, 19.72m away; Charleston Waterfront Park, visit from 11:30 to 13:30, nearest transit: Vendue Range / Concord St, 19.17m away; Charleston's Most Charming Historic Inn, stay from 22:15 to 08:00, nearest transit: Meeting St / Broad St, 34.44m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Charleston to Seattle",
+      "transportation": "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29",
+      "breakfast": "The Ordinary, Charleston",
+      "attraction": "Charleston City Market, Charleston",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Charleston's Most Charming Historic Inn, stay from 08:00 to 09:00, nearest transit: Meeting St / Broad St, 34.44m away; The Ordinary, visit from 09:20 to 10:30, nearest transit: King St / Cannon St, 22.53m away; Charleston City Market, visit from 11:30 to 13:30, nearest transit: Market St / Meeting St, 50.09m away."
+    }
+  ]
+}

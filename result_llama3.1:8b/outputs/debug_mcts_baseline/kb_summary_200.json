@@ -1,0 +1,59 @@
+{
+  "idx": 200,
+  "stages": [
+    {
+      "city": "New York",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Des Moines",
+      "to": "New York",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0158577, from Des Moines to New York, Departure Time: 07:03, Arrival Time: 10:32"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Des Moines",
+      "to": "New York",
+      "date": null,
+      "raw": "Self-driving, from Des Moines to New York, Duration: 1241.2866666666666 mins, Distance: 1792.9765 km, Estimated Cost: $89.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Des Moines",
+      "to": "New York",
+      "date": null,
+      "raw": "Taxi, from Des Moines to New York, Duration: 1241.2866666666666 mins, Distance: 1792.9765 km, Estimated Cost: $1792.98"
+    },
+    {
+      "mode": "flight",
+      "from": "New York",
+      "to": "Des Moines",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0153274, from New York to Des Moines, Departure Time: 17:55, Arrival Time: 20:33"
+    },
+    {
+      "mode": "self-driving",
+      "from": "New York",
+      "to": "Des Moines",
+      "date": null,
+      "raw": "Self-driving, from New York to Des Moines, Duration: 1240.8149999999998 mins, Distance: 1792.656 km, Estimated Cost: $89.63"
+    },
+    {
+      "mode": "taxi",
+      "from": "New York",
+      "to": "Des Moines",
+      "date": null,
+      "raw": "Taxi, from New York to Des Moines, Duration: 1240.8149999999998 mins, Distance: 1792.656 km, Estimated Cost: $1792.66"
+    }
+  ]
+}

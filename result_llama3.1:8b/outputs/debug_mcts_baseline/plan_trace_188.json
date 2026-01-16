@@ -1,0 +1,441 @@
+{
+  "idx": 188,
+  "reward": 13.20530906060606,
+  "budget_used": 2500.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0003236, from Houston to Tucson, Departure Time: 13:57, Arrival Time: 14:23",
+      "candidates": [
+        "Flight Number: F0003236, from Houston to Tucson, Departure Time: 13:57, Arrival Time: 14:23",
+        "Taxi, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $1714.16"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Historic 4th Ave Sunshine Suite",
+      "candidates": [
+        "Historic 4th Ave Sunshine Suite",
+        "UofA gem. Gorgeous and convenient.",
+        "TREAT GUEST HOUSE Private, Quiet, Comfortable",
+        "Tucson home 1 mile to University of Arizona-Ask ME",
+        "Accessible Private Studio, Entrance & Parking.",
+        "Mins to U of A, Comfortable Bed, Pet Friendly!",
+        "Private Midtown Retreat",
+        "Cozy Casita Private Entry and Courtyard",
+        "Pet Friendly Casita with striking Mountain View’s",
+        "Peaceful Casita in the Foothills"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Guadalajara Original Grill",
+      "candidates": [
+        "Guadalajara Original Grill",
+        "Cafe a La C'Art",
+        "Rocco's Little Chicago",
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Coronet Restaurant",
+        "Mariscos Chihuahua",
+        "Arizona Inn - The Main Dining Room",
+        "Cup Cafe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cafe a La C'Art",
+      "candidates": [
+        "Cafe a La C'Art",
+        "Rocco's Little Chicago",
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Coronet Restaurant",
+        "Arizona Inn - The Main Dining Room",
+        "Cup Cafe",
+        "Mariscos Chihuahua"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Historic 4th Ave Sunshine Suite",
+      "candidates": [
+        "Historic 4th Ave Sunshine Suite",
+        "UofA gem. Gorgeous and convenient.",
+        "TREAT GUEST HOUSE Private, Quiet, Comfortable",
+        "Tucson home 1 mile to University of Arizona-Ask ME",
+        "Accessible Private Studio, Entrance & Parking.",
+        "Mins to U of A, Comfortable Bed, Pet Friendly!",
+        "Private Midtown Retreat",
+        "Cozy Casita Private Entry and Courtyard",
+        "Pet Friendly Casita with striking Mountain View’s",
+        "Peaceful Casita in the Foothills"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Rocco's Little Chicago",
+      "candidates": [
+        "Rocco's Little Chicago",
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Coronet Restaurant",
+        "Mariscos Chihuahua",
+        "Arizona Inn - The Main Dining Room",
+        "Cup Cafe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "University of Arizona",
+      "candidates": [
+        "University of Arizona",
+        "Reid Park Zoo",
+        "Tucson Botanical Gardens",
+        "The Mini Time Machine Museum of Miniatures",
+        "Trail Dust Town",
+        "The Gaslight Theatre",
+        "DeGrazia Gallery in the Sun Museum",
+        "Tohono Chul",
+        "Pima Air and Space Museum",
+        "Mark Sublette Medicine Man Gallery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mariscos Chihuahua",
+      "candidates": [
+        "Mariscos Chihuahua",
+        "Arizona Inn - The Main Dining Room",
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Cup Cafe",
+        "Coronet Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Arizona Inn - The Main Dining Room",
+      "candidates": [
+        "Arizona Inn - The Main Dining Room",
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Cup Cafe",
+        "Coronet Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Tucson to Houston",
+      "candidates": [
+        "Transfer, from Tucson to Houston"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Blue Willow Restaurant & Gift Shop",
+      "candidates": [
+        "Blue Willow Restaurant & Gift Shop",
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Cup Cafe",
+        "Coronet Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Reid Park Zoo",
+      "candidates": [
+        "Reid Park Zoo",
+        "Tucson Botanical Gardens",
+        "The Mini Time Machine Museum of Miniatures",
+        "Trail Dust Town",
+        "The Gaslight Theatre",
+        "DeGrazia Gallery in the Sun Museum",
+        "Tohono Chul",
+        "Pima Air and Space Museum",
+        "Mark Sublette Medicine Man Gallery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Prep & Pastry",
+      "candidates": [
+        "Prep & Pastry",
+        "Locale Neighborhood Italian",
+        "Cup Cafe",
+        "Coronet Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Locale Neighborhood Italian",
+      "candidates": [
+        "Locale Neighborhood Italian",
+        "Cup Cafe",
+        "Coronet Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Houston to Tucson",
+      "transportation": "Flight Number: F0003236, from Houston to Tucson, Departure Time: 13:57, Arrival Time: 14:23",
+      "accommodation": "Historic 4th Ave Sunshine Suite",
+      "breakfast": "Guadalajara Original Grill",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Cafe a La C'Art",
+      "poi_blocks": [
+        {
+          "name": "Historic 4th Ave Sunshine Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Time Market North",
+          "dist_m": 92.97
+        },
+        {
+          "name": "Historic 4th Ave Sunshine Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Time Market North",
+          "dist_m": 92.97
+        },
+        {
+          "name": "Guadalajara Original Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "9004 Lot",
+          "dist_m": 238.37
+        },
+        {
+          "name": "Cafe a La C'Art",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "USA Building",
+          "dist_m": 555.21
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Tucson to Tucson",
+      "transportation": "-",
+      "accommodation": "Historic 4th Ave Sunshine Suite",
+      "breakfast": "Rocco's Little Chicago",
+      "attractions": [
+        "University of Arizona"
+      ],
+      "lunch": "Mariscos Chihuahua",
+      "dinner": "Arizona Inn - The Main Dining Room",
+      "poi_blocks": [
+        {
+          "name": "Historic 4th Ave Sunshine Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Time Market North",
+          "dist_m": 92.97
+        },
+        {
+          "name": "Historic 4th Ave Sunshine Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Time Market North",
+          "dist_m": 92.97
+        },
+        {
+          "name": "Rocco's Little Chicago",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "9008 Lot",
+          "dist_m": 798.77
+        },
+        {
+          "name": "University of Arizona",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Old Main",
+          "dist_m": 110.57
+        },
+        {
+          "name": "Mariscos Chihuahua",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "9006 Lot",
+          "dist_m": 1365.92
+        },
+        {
+          "name": "Arizona Inn - The Main Dining Room",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "AHSL/ Health Sciences Innovation Building",
+          "dist_m": 804.66
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Tucson to Houston",
+      "transportation": "Transfer, from Tucson to Houston",
+      "accommodation": "-",
+      "breakfast": "Blue Willow Restaurant & Gift Shop",
+      "attractions": [
+        "Reid Park Zoo"
+      ],
+      "lunch": "Prep & Pastry",
+      "dinner": "Locale Neighborhood Italian",
+      "poi_blocks": [
+        {
+          "name": "Historic 4th Ave Sunshine Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Time Market North",
+          "dist_m": 92.97
+        },
+        {
+          "name": "Blue Willow Restaurant & Gift Shop",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Copper East",
+          "dist_m": 835.09
+        },
+        {
+          "name": "Reid Park Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "El Con Center",
+          "dist_m": 1507.93
+        },
+        {
+          "name": "Prep & Pastry",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Copper East",
+          "dist_m": 851.59
+        },
+        {
+          "name": "Locale Neighborhood Italian",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "El Con Center",
+          "dist_m": 1020.01
+        }
+      ]
+    }
+  ]
+}

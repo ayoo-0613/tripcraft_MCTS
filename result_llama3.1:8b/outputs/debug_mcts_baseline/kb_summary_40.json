@@ -1,0 +1,90 @@
+{
+  "idx": 40,
+  "stages": [
+    {
+      "city": "Rochester",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 73,
+        "events": 16
+      }
+    },
+    {
+      "city": "Watertown",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 15
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Rochester",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Rochester",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $79.02"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Rochester",
+      "date": null,
+      "raw": "Taxi, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $1580.30"
+    },
+    {
+      "mode": "flight",
+      "from": "Rochester",
+      "to": "Watertown",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Rochester",
+      "to": "Watertown",
+      "date": null,
+      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
+    },
+    {
+      "mode": "taxi",
+      "from": "Rochester",
+      "to": "Watertown",
+      "date": null,
+      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Watertown",
+      "to": "Memphis",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Watertown",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $90.30"
+    },
+    {
+      "mode": "taxi",
+      "from": "Watertown",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $1805.92"
+    }
+  ]
+}

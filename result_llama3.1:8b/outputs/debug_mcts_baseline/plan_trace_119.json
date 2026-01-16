@@ -1,0 +1,399 @@
+{
+  "idx": 119,
+  "reward": 7.862364628453715,
+  "budget_used": 4511.62,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Bend to Las Vegas, Duration: 929.025 mins, Distance: 1318.6475 km, Estimated Cost: $1318.65",
+      "candidates": [
+        "Flight Number: F0373170, from Bend to Las Vegas, Departure Time: 15:18, Arrival Time: 17:04",
+        "Taxi, from Bend to Las Vegas, Duration: 929.025 mins, Distance: 1318.6475 km, Estimated Cost: $1318.65"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casita+Private Patio+grill",
+      "candidates": [
+        "Cozy Casita+Private Patio+grill",
+        "C/private full bed tv free wif",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Our lovely master bedroom",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Luxury Suite Las Vegas",
+        "Gamble Adventure | Restaurant. Outside Pool",
+        "Private Cozy Room with own entrance and pool ."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Triple George Grill",
+      "candidates": [
+        "Triple George Grill",
+        "Top of the World",
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Mob Museum",
+      "candidates": [
+        "The Mob Museum",
+        "Las Vegas North Premium Outlets",
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casita+Private Patio+grill",
+      "candidates": [
+        "Cozy Casita+Private Patio+grill",
+        "C/private full bed tv free wif",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Our lovely master bedroom",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Luxury Suite Las Vegas",
+        "Gamble Adventure | Restaurant. Outside Pool",
+        "Private Cozy Room with own entrance and pool ."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Top of the World",
+      "candidates": [
+        "Top of the World",
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Las Vegas North Premium Outlets",
+      "candidates": [
+        "Las Vegas North Premium Outlets",
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2108508, from Las Vegas to Bend, Departure Time: 14:05, Arrival Time: 16:28",
+      "candidates": [
+        "Flight Number: F2108508, from Las Vegas to Bend, Departure Time: 14:05, Arrival Time: 16:28",
+        "Taxi, from Las Vegas to Bend, Duration: 929.785 mins, Distance: 1318.8264 km, Estimated Cost: $1318.83"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Garden Court",
+      "candidates": [
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Stratosphere Tower",
+      "candidates": [
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Bend to Las Vegas",
+      "transportation": "Taxi, from Bend to Las Vegas, Duration: 929.025 mins, Distance: 1318.6475 km, Estimated Cost: $1318.65",
+      "accommodation": "Cozy Casita+Private Patio+grill",
+      "breakfast": "Triple George Grill",
+      "attractions": [
+        "The Mob Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casita+Private Patio+grill",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 4197.8
+        },
+        {
+          "name": "Cozy Casita+Private Patio+grill",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 4197.8
+        },
+        {
+          "name": "Triple George Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mob Museum",
+          "dist_m": 87.09
+        },
+        {
+          "name": "The Mob Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mob Museum",
+          "dist_m": 48.14
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Las Vegas to Las Vegas",
+      "transportation": "-",
+      "accommodation": "Cozy Casita+Private Patio+grill",
+      "breakfast": "Top of the World",
+      "attractions": [
+        "Las Vegas North Premium Outlets"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casita+Private Patio+grill",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 4197.8
+        },
+        {
+          "name": "Cozy Casita+Private Patio+grill",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 4197.8
+        },
+        {
+          "name": "Top of the World",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "The Strat",
+          "dist_m": 140.6
+        },
+        {
+          "name": "Las Vegas North Premium Outlets",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 74.04
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Las Vegas to Bend",
+      "transportation": "Flight Number: F2108508, from Las Vegas to Bend, Departure Time: 14:05, Arrival Time: 16:28",
+      "accommodation": "-",
+      "breakfast": "Garden Court",
+      "attractions": [
+        "Stratosphere Tower"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casita+Private Patio+grill",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 4197.8
+        },
+        {
+          "name": "Garden Court",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Circa",
+          "dist_m": 185.8
+        },
+        {
+          "name": "Stratosphere Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "The Strat",
+          "dist_m": 146.81
+        }
+      ]
+    }
+  ]
+}

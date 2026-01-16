@@ -1,0 +1,65 @@
+{
+  "idx": 226,
+  "JSON": {
+    "org": "Birmingham",
+    "dest": "Detroit",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1500.0,
+    "query": "Plan a 3-day trip for 1 person from Birmingham to Detroit from November 19th to November 21st, 2024, with a budget of $1,500.",
+    "level": "easy"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Birmingham to Detroit",
+      "transportation": "Flight Number: F0508126, from Birmingham to Detroit, Departure Time: 07:03, Arrival Time: 10:15",
+      "breakfast": "-",
+      "attraction": "The Guardian Building, Detroit",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Historic Carriage House Apartment in Brush Park, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; The Guardian Building, visit from 11:30 to 13:30, nearest transit: Congress St, 46.14m away; Historic Carriage House Apartment in Brush Park, stay from 22:15 to 08:00, nearest transit: Sproat St - Southbound, 58.40m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Detroit to Detroit",
+      "transportation": "Transfer, from Detroit to Detroit",
+      "breakfast": "Besa, Detroit",
+      "attraction": "Detroit Downtown, Detroit",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Historic Carriage House Apartment in Brush Park, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; Besa, visit from 09:20 to 10:30, nearest transit: Congress St, 71.32m away; Detroit Downtown, visit from 11:30 to 13:30, nearest transit: Congress St, 56.59m away; Historic Carriage House Apartment in Brush Park, stay from 22:15 to 08:00, nearest transit: Sproat St - Southbound, 58.40m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Detroit to Birmingham",
+      "transportation": "Flight Number: F0492107, from Detroit to Birmingham, Departure Time: 18:27, Arrival Time: 19:09",
+      "breakfast": "Chartreuse Kitchen & Cocktails, Detroit",
+      "attraction": "Campus Martius Park, Detroit",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; Chartreuse Kitchen & Cocktails, visit from 09:20 to 10:30, nearest transit: Ferry St - Northbound, 81.76m away; Campus Martius Park, visit from 11:30 to 13:30, nearest transit: Campus Martius - Southbound, 69.69m away."
+    }
+  ]
+}

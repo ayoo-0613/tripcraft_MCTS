@@ -1,0 +1,70 @@
+{
+  "idx": 288,
+  "JSON": {
+    "org": "Miami",
+    "dest": "Baltimore",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": [
+        "Arts & Theatre"
+      ],
+      "attraction": [
+        "Zoos & Aquariums",
+        "Fun & Games"
+      ]
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 2 people from Miami to Baltimore from November 3rd to November 5th, 2024, with a budget of $1,800. The trip should include visits to zoos, aquariums, and fun & games attractions, as well as arts and theatre events. Accommodations should allow pets.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Miami to Baltimore",
+      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "breakfast": "Fogo de Chao Brazilian Steakhouse, Baltimore",
+      "attraction": "National Aquarium, Baltimore; Horseshoe Casino, Baltimore",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Bed next to JHH, Baltimore",
+      "event": "Shucked (Touring), Baltimore",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Fogo de Chao Brazilian Steakhouse, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 282.15m away; National Aquarium, visit from 11:30 to 13:30, nearest transit: SHOT TOWER METRO West Entrance, 474.59m away; Horseshoe Casino, visit from 16:30 to 18:00, nearest transit: CHARLES CENTER METRO West Entrance, 2023.43m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "Transfer, from Baltimore to Baltimore",
+      "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+      "attraction": "The Maryland Zoo, Baltimore",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Bed next to JHH, Baltimore",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; The Maryland Zoo, visit from 11:30 to 13:30, nearest transit: MONDAWMIN METRO Escalator 4, 586.50m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Baltimore to Miami",
+      "transportation": "Flight Number: F0039090, from Baltimore to Miami, Departure Time: 21:04, Arrival Time: 23:55",
+      "breakfast": "The Capital Grille, Baltimore",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; The Capital Grille, visit from 09:20 to 10:30, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away."
+    }
+  ]
+}

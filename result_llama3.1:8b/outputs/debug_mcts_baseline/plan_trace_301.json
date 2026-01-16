@@ -1,0 +1,399 @@
+{
+  "idx": 301,
+  "reward": 9.947792001515008,
+  "budget_used": 837.8,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego",
+      "candidates": [
+        "Flight Number: F0509097, from Everett to San Diego, Departure Time: 10:22, Arrival Time: 13:06",
+        "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Central & Serene Secret Garden Guesthouse",
+      "candidates": [
+        "Central & Serene Secret Garden Guesthouse",
+        "Bed in 4-Bed room in Stylish Hostel",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Buon Appetito",
+      "candidates": [
+        "Buon Appetito",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Point Loma",
+      "candidates": [
+        "Point Loma",
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Central & Serene Secret Garden Guesthouse",
+      "candidates": [
+        "Central & Serene Secret Garden Guesthouse",
+        "Bed in 4-Bed room in Stylish Hostel",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Casa Guadalajara",
+      "candidates": [
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego",
+      "candidates": [
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+      "candidates": [
+        "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+        "Taxi, from San Diego to Everett, Not feasible to drive from San Diego to Everett"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego State Historic Park",
+      "candidates": [
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Everett to San Diego",
+      "transportation": "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse",
+      "breakfast": "Buon Appetito",
+      "attractions": [
+        "Point Loma"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Buon Appetito",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 11.4
+        },
+        {
+          "name": "Point Loma",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cabrillo Memorial Hwy & McClelland Rd",
+          "dist_m": 112.08
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse",
+      "breakfast": "Casa Guadalajara",
+      "attractions": [
+        "Old Town San Diego"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Casa Guadalajara",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Taylor St & Juan St",
+          "dist_m": 50.62
+        },
+        {
+          "name": "Old Town San Diego",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 127.04
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to Everett",
+      "transportation": "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+      "accommodation": "-",
+      "breakfast": "Cowboy Star",
+      "attractions": [
+        "Old Town San Diego State Historic Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "10th Av & Market St",
+          "dist_m": 50.81
+        },
+        {
+          "name": "Old Town San Diego State Historic Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 133.02
+        }
+      ]
+    }
+  ]
+}

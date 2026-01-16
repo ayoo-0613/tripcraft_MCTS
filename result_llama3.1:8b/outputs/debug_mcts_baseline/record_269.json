@@ -1,0 +1,65 @@
+{
+  "idx": 269,
+  "JSON": {
+    "org": "Los Angeles",
+    "dest": "Indianapolis",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": null,
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2500.0,
+    "query": "Plan a 3-day trip for 2 people from Los Angeles to Indianapolis from November 1st to November 3rd, 2024, with a budget of $2,500. Accommodations should allow pets, and transportation should not involve self-driving.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Los Angeles to Indianapolis",
+      "transportation": "Flight Number: F0194881, from Los Angeles to Indianapolis, Departure Time: 23:47, Arrival Time: 06:40",
+      "breakfast": "Bluebeard, Indianapolis",
+      "attraction": "The Fashion Mall at Keystone, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Historic Private Guest Suite, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Historic Private Guest Suite, stay from 08:00 to 09:00, nearest transit: Michigan St & Spring St, 70.02m away; Bluebeard, visit from 09:20 to 10:30, nearest transit: Virginia Ave & College Ave, 33.77m away; The Fashion Mall at Keystone, visit from 11:30 to 13:30, nearest transit: Keystone Crossing - 8700 N, 51.70m away; Historic Private Guest Suite, stay from 22:15 to 08:00, nearest transit: Michigan St & Spring St, 70.02m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Indianapolis to Indianapolis",
+      "transportation": "Transfer, from Indianapolis to Indianapolis",
+      "breakfast": "Milktooth, Indianapolis",
+      "attraction": "Crown Hill Cemetery, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Queen Bed Getaway Room Downtown Indy, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Milktooth, visit from 09:20 to 10:30, nearest transit: Fletcher Place Station NB, 34.30m away; Crown Hill Cemetery, visit from 11:30 to 13:30, nearest transit: 38th St & Clarendon Rd, 91.22m away; Queen Bed Getaway Room Downtown Indy, stay from 22:15 to 08:00, nearest transit: New York St & State St, 65.71m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Indianapolis to Los Angeles",
+      "transportation": "Taxi, from Indianapolis to Los Angeles, Not feasible to drive from Indianapolis to Los Angeles",
+      "breakfast": "Thai Spice, Indianapolis",
+      "attraction": "Children's Museum of Indianapolis, Indianapolis",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Thai Spice, visit from 09:20 to 10:30, nearest transit: County Line Rd at Greenwood Park Mall, 41.67m away; Children's Museum of Indianapolis, visit from 11:30 to 13:30, nearest transit: 30th/Museum Station SB, 91.45m away."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "idx": 250,
+  "stages": [
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 14
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Boston",
+      "to": "Memphis",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F1695329, from Boston to Memphis, Departure Time: 07:39, Arrival Time: 09:37"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Boston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Boston to Memphis, Not feasible to drive from Boston to Memphis"
+    },
+    {
+      "mode": "taxi",
+      "from": "Boston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Boston to Memphis, Not feasible to drive from Boston to Memphis"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Boston",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F1699917, from Memphis to Boston, Departure Time: 10:45, Arrival Time: 14:33"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Boston, Not feasible to drive from Memphis to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from Memphis to Boston, Not feasible to drive from Memphis to Boston"
+    }
+  ]
+}

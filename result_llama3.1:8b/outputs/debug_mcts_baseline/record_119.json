@@ -1,0 +1,65 @@
+{
+  "idx": 119,
+  "JSON": {
+    "org": "Bend",
+    "dest": "Las Vegas",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": null,
+      "room type": null,
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 6900.0,
+    "query": "Plan a 3-day trip for 6 people from Bend to Las Vegas from November 4th to November 6th, 2024, with a budget of $6,900. The trip should adhere to house rules that do not allow parties.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Bend to Las Vegas",
+      "transportation": "Taxi, from Bend to Las Vegas, Duration: 929.025 mins, Distance: 1318.6475 km, Estimated Cost: $1318.65",
+      "breakfast": "Triple George Grill, Las Vegas",
+      "attraction": "The Mob Museum, Las Vegas",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Cozy Casita+Private Patio+grill, Las Vegas",
+      "event": "-",
+      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; Triple George Grill, visit from 09:20 to 10:30, nearest transit: Mob Museum, 87.09m away; The Mob Museum, visit from 11:30 to 13:30, nearest transit: Mob Museum, 48.14m away; Cozy Casita+Private Patio+grill, stay from 22:15 to 08:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Las Vegas to Las Vegas",
+      "transportation": "Transfer, from Las Vegas to Las Vegas",
+      "breakfast": "Top of the World, Las Vegas",
+      "attraction": "Las Vegas North Premium Outlets, Las Vegas",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Cozy Casita+Private Patio+grill, Las Vegas",
+      "event": "-",
+      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; Top of the World, visit from 09:20 to 10:30, nearest transit: The Strat, 140.60m away; Las Vegas North Premium Outlets, visit from 11:30 to 13:30, nearest transit: Las Vegas North Premium Outlets, 74.04m away; Cozy Casita+Private Patio+grill, stay from 22:15 to 08:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Las Vegas to Bend",
+      "transportation": "Flight Number: F2108508, from Las Vegas to Bend, Departure Time: 14:05, Arrival Time: 16:28",
+      "breakfast": "Garden Court, Las Vegas",
+      "attraction": "Stratosphere Tower, Las Vegas",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; Garden Court, visit from 09:20 to 10:30, nearest transit: Circa, 185.80m away; Stratosphere Tower, visit from 11:30 to 13:30, nearest transit: The Strat, 146.81m away."
+    }
+  ]
+}

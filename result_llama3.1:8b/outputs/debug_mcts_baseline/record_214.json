@@ -1,0 +1,65 @@
+{
+  "idx": 214,
+  "JSON": {
+    "org": "Cleveland",
+    "dest": "Houston",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-26",
+      "2024-11-27",
+      "2024-11-28"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": "Mexican",
+      "room type": "entire home",
+      "event": null,
+      "attraction": "Museums",
+      "transportation": null
+    },
+    "budget": 2550.0,
+    "query": "Plan a 3-day trip for 2 people from Cleveland to Houston from November 26th to November 28th, 2024, with a budget of $2,550. Accommodations should include an entire home. The itinerary should feature Mexican cuisine and visits to museums.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Cleveland to Houston",
+      "transportation": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47",
+      "breakfast": "Phoenicia Specialty Foods, Houston",
+      "attraction": "National Museum of Funeral History, Houston",
+      "lunch": "Niko Niko's Greek, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Phoenicia Specialty Foods, visit from 09:20 to 10:30, nearest transit: Lamar St @ Austin St, 9.87m away; National Museum of Funeral History, visit from 11:30 to 13:30, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Niko Niko's Greek, visit from 14:30 to 15:30, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Houston's, visit from 19:30 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "-",
+      "attraction": "Museum of Fine Arts, Houston",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Museum of Fine Arts, Houston, visit from 11:30 to 13:30, nearest transit: Bissonnet St @ Montrose Blvd, 72.67m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Houston to Cleveland",
+      "transportation": "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland",
+      "breakfast": "-",
+      "attraction": "Bayou Bend Collection and Gardens, Houston",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Bayou Bend Collection and Gardens, visit from 11:30 to 13:30, nearest transit: Memorial Dr @ Knox St, 87.75m away."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "idx": 244,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Wichita",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3900.0,
+    "query": "Plan a 3-day trip for 6 people traveling from Houston to Wichita from November 18th to November 20th, 2024. The budget is $3,900, and accommodations should allow pets.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Wichita",
+      "transportation": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71",
+      "breakfast": "Little Saigon, Wichita",
+      "attraction": "Cathedral of the Immaculate Conception, Wichita",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Charming Bungalow near Downtown, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Charming Bungalow near Downtown, stay from 08:00 to 09:00, nearest transit: Douglas and Volutsia OB, 652.74m away; Little Saigon, visit from 09:20 to 10:30, nearest transit: Broadway and 9th St IB, 34.07m away; Cathedral of the Immaculate Conception, visit from 11:30 to 13:30, nearest transit: Central and Broadway OB, 26.16m away; Charming Bungalow near Downtown, stay from 22:15 to 08:00, nearest transit: Douglas and Volutsia OB, 652.74m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wichita to Wichita",
+      "transportation": "Transfer, from Wichita to Wichita",
+      "breakfast": "Old Mill Tasty Shop, Wichita",
+      "attraction": "Pizza Hut Museum, Wichita",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central ICT.Z, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Central ICT.Z, stay from 08:00 to 09:00, nearest transit: Waterman and Pattie IB, 93.90m away; Old Mill Tasty Shop, visit from 09:20 to 10:30, nearest transit: Douglas and St. Francis OB, 39.59m away; Pizza Hut Museum, visit from 11:30 to 13:30, nearest transit: WSU Welcome Center, 41.48m away; Central ICT.Z, stay from 22:15 to 08:00, nearest transit: Waterman and Pattie IB, 93.90m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wichita to Houston",
+      "transportation": "Transfer, from Wichita to Houston",
+      "breakfast": "Ziggys Pizza East, Wichita",
+      "attraction": "Wichita Toy Train Museum, Wichita",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Central ICT.Z, stay from 08:00 to 09:00, nearest transit: Waterman and Pattie IB, 93.90m away; Ziggys Pizza East, visit from 09:20 to 10:30, nearest transit: Douglas and Clifton IB, 44.97m away; Wichita Toy Train Museum, visit from 11:30 to 13:30, nearest transit: Douglas and Ohio IB, 73.42m away."
+    }
+  ]
+}

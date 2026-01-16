@@ -1,0 +1,68 @@
+{
+  "idx": 248,
+  "JSON": {
+    "org": "Madison",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23"
+    ],
+    "people_number": 3,
+    "local_constraint": {
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": null,
+      "event": null,
+      "attraction": [
+        "Sights & Landmarks",
+        "Museums"
+      ],
+      "transportation": null
+    },
+    "budget": 4950.0,
+    "query": "Plan a 3-day trip for 3 people from Madison to New York from November 21st to November 23rd, 2024, with a budget of $4,950. The itinerary should include visits to sights and landmarks as well as museums. Accommodations should allow smoking.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Madison to New York",
+      "transportation": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
+      "breakfast": "Blue Smoke Battery Park City, New York",
+      "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Blue Smoke Battery Park City, visit from 09:20 to 10:30, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:30, nearest transit: E 42 ST/MADISON AV, 28.59m away; New York Public Library, visit from 16:30 to 18:00, nearest transit: 5 AV/W 42 ST, 34.90m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Lillie's Victorian Establishment, New York",
+      "attraction": "Manhattan Skyline, New York; American Museum of Natural History, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Lillie's Victorian Establishment, visit from 09:20 to 10:30, nearest transit: 8 AV/W 49 ST, 40.41m away; Manhattan Skyline, visit from 11:30 to 13:30, nearest transit: EAST BROADWAY/FORSYTH ST, 67.74m away; American Museum of Natural History, visit from 16:30 to 18:00, nearest transit: CENTRAL PARK WEST/W 79 ST, 124.14m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to Madison",
+      "transportation": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "breakfast": "-",
+      "attraction": "Grand Central Terminal, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Grand Central Terminal, visit from 11:30 to 13:30, nearest transit: E 42 ST / PARK AV, 75.20m away."
+    }
+  ]
+}

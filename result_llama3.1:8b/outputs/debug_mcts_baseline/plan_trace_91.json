@@ -1,0 +1,399 @@
+{
+  "idx": 91,
+  "reward": 9.04426609009009,
+  "budget_used": 1840.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Charlotte to Martha's Vineyard, Duration: 1122.7316666666666 mins, Distance: 1420.8183999999999 km, Estimated Cost: $1420.82",
+      "candidates": [
+        "-",
+        "Taxi, from Charlotte to Martha's Vineyard, Duration: 1122.7316666666666 mins, Distance: 1420.8183999999999 km, Estimated Cost: $1420.82"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+      "candidates": [
+        "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+        "Not Your Great Aunt's Island Cottage",
+        "\"Island Home\" 1 BR Suite w/Harbor View- downtown",
+        "Lovely 2 BR Oak Bluffs Apartment",
+        "\"Ferry's Landing\" Private Bed & Bath w/Harbor View",
+        "WATERFRONT Cottage, Downtown w/ Beach",
+        "Quiet Hide Away",
+        "Unique Luxury Yurt w/ Free kayaking",
+        "Loft Guest Suite in Modern Barn House",
+        "Beautiful and walk to everything Oak Bluffs!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Among The Flowers Cafe",
+      "candidates": [
+        "Among The Flowers Cafe",
+        "19 Raw Oyster Bar",
+        "Wharf Pub & Restaurant",
+        "Rockfish",
+        "Offshore Ale Company",
+        "The Newes From America",
+        "Square Rigger",
+        "Salvatore’s Ristorante Italiano",
+        "l'etoile restaurant",
+        "The Seafood Shanty"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Edgartown Tour Company",
+      "candidates": [
+        "Edgartown Tour Company",
+        "Flying Horses Carousel",
+        "Martha's Vineyard Tours and Excursions",
+        "Martha’s Vineyard Tours and Transportation",
+        "South Beach",
+        "Martha's Vineyard Sightseeing",
+        "Aquinnah Cliffs",
+        "Pirate Adventures: Martha's Vineyard",
+        "Martha's Bike Rentals",
+        "Martha's Vineyard Camp meeting Association (MVCMA)"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+      "candidates": [
+        "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+        "Not Your Great Aunt's Island Cottage",
+        "\"Island Home\" 1 BR Suite w/Harbor View- downtown",
+        "Lovely 2 BR Oak Bluffs Apartment",
+        "\"Ferry's Landing\" Private Bed & Bath w/Harbor View",
+        "WATERFRONT Cottage, Downtown w/ Beach",
+        "Quiet Hide Away",
+        "Unique Luxury Yurt w/ Free kayaking",
+        "Loft Guest Suite in Modern Barn House",
+        "Beautiful and walk to everything Oak Bluffs!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "19 Raw Oyster Bar",
+      "candidates": [
+        "19 Raw Oyster Bar",
+        "Wharf Pub & Restaurant",
+        "Rockfish",
+        "Offshore Ale Company",
+        "The Newes From America",
+        "Square Rigger",
+        "Salvatore’s Ristorante Italiano",
+        "l'etoile restaurant",
+        "The Seafood Shanty"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Flying Horses Carousel",
+      "candidates": [
+        "Flying Horses Carousel",
+        "Martha's Vineyard Tours and Excursions",
+        "Martha’s Vineyard Tours and Transportation",
+        "South Beach",
+        "Martha's Vineyard Sightseeing",
+        "Aquinnah Cliffs",
+        "Pirate Adventures: Martha's Vineyard",
+        "Martha's Bike Rentals",
+        "Martha's Vineyard Camp meeting Association (MVCMA)"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Martha's Vineyard to Charlotte, Duration: 1122.375 mins, Distance: 1427.2972 km, Estimated Cost: $1427.30"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Wharf Pub & Restaurant",
+      "candidates": [
+        "Wharf Pub & Restaurant",
+        "Rockfish",
+        "Offshore Ale Company",
+        "The Newes From America",
+        "Square Rigger",
+        "Salvatore’s Ristorante Italiano",
+        "l'etoile restaurant",
+        "The Seafood Shanty"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Martha's Vineyard Tours and Excursions",
+      "candidates": [
+        "Martha's Vineyard Tours and Excursions",
+        "Martha’s Vineyard Tours and Transportation",
+        "South Beach",
+        "Martha's Vineyard Sightseeing",
+        "Aquinnah Cliffs",
+        "Pirate Adventures: Martha's Vineyard",
+        "Martha's Bike Rentals",
+        "Martha's Vineyard Camp meeting Association (MVCMA)"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Charlotte to Martha's Vineyard",
+      "transportation": "Taxi, from Charlotte to Martha's Vineyard, Duration: 1122.7316666666666 mins, Distance: 1420.8183999999999 km, Estimated Cost: $1420.82",
+      "accommodation": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+      "breakfast": "Among The Flowers Cafe",
+      "attractions": [
+        "Edgartown Tour Company"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 23.83
+        },
+        {
+          "name": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 23.83
+        },
+        {
+          "name": "Among The Flowers Cafe",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mayhew Lane",
+          "dist_m": 18.21
+        },
+        {
+          "name": "Edgartown Tour Company",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mayhew Lane",
+          "dist_m": 78.82
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Martha's Vineyard to Martha's Vineyard",
+      "transportation": "-",
+      "accommodation": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+      "breakfast": "19 Raw Oyster Bar",
+      "attractions": [
+        "Flying Horses Carousel"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 23.83
+        },
+        {
+          "name": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 23.83
+        },
+        {
+          "name": "19 Raw Oyster Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Church Street, Edgartown",
+          "dist_m": 24.35
+        },
+        {
+          "name": "Flying Horses Carousel",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 87.87
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Martha's Vineyard to Charlotte",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Wharf Pub & Restaurant",
+      "attractions": [
+        "Martha's Vineyard Tours and Excursions"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "MORGAN HOTEL ~ Standard Queen w/ Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Ocean Park, Oak Bluffs",
+          "dist_m": 23.83
+        },
+        {
+          "name": "Wharf Pub & Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mayhew Lane",
+          "dist_m": 39.49
+        },
+        {
+          "name": "Martha's Vineyard Tours and Excursions",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Gay Head Lighthouse",
+          "dist_m": 90.35
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "idx": 291,
+  "reward": 12.968081408351026,
+  "budget_used": 1387.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
+      "candidates": [
+        "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
+        "Taxi, from Miami to Nashville, Duration: 998.965 mins, Distance: 1461.0673000000002 km, Estimated Cost: $1461.07"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Loft Retreat in Nashville's Germantown/Downtown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pelato",
+      "candidates": [
+        "Pelato",
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Deacon’s New South",
+        "Harriet's Rooftop"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Ryman Auditorium",
+      "candidates": [
+        "Ryman Auditorium",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Grand Ole Opry"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Gannons Nashville",
+      "candidates": [
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Deacon’s New South",
+        "Harriet's Rooftop"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "12 South Original - Restored craftsman from 1905!",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Loft Retreat in Nashville's Germantown/Downtown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Puckett's 5th & Church",
+      "candidates": [
+        "Puckett's 5th & Church",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Deacon’s New South",
+        "Harriet's Rooftop"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ole Smoky Distillery & Yee-Haw Brewery",
+      "candidates": [
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Grand Ole Opry"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Smiling Elephant",
+      "candidates": [
+        "Smiling Elephant",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Grand Ole Opry",
+      "candidates": [
+        "Grand Ole Opry"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Deacon’s New South",
+      "candidates": [
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Nashville to Miami",
+      "candidates": [
+        "Transfer, from Nashville to Miami"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Caney Fork River Valley Grille",
+      "candidates": [
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Miami to Nashville",
+      "transportation": "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
+      "accommodation": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "breakfast": "-",
+      "attractions": [
+        "Ryman Auditorium"
+      ],
+      "lunch": "Pelato",
+      "dinner": "Gannons Nashville",
+      "poi_blocks": [
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Pelato",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "3RD AVE N & MONROE ST SB",
+          "dist_m": 31.56
+        },
+        {
+          "name": "Ryman Auditorium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 76.95
+        },
+        {
+          "name": "Gannons Nashville",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 35.96
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "12 South Original - Restored craftsman from 1905!",
+      "breakfast": "Puckett's 5th & Church",
+      "attractions": [
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Grand Ole Opry"
+      ],
+      "lunch": "Smiling Elephant",
+      "dinner": "Deacon’s New South",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Puckett's 5th & Church",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "5TH AVE N & CHURCH ST NB",
+          "dist_m": 39.47
+        },
+        {
+          "name": "Ole Smoky Distillery & Yee-Haw Brewery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "KOREAN VETS BLVD & 6TH AVE WB",
+          "dist_m": 122.92
+        },
+        {
+          "name": "Smiling Elephant",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "8TH AVE S & BRADFORD AVE SB",
+          "dist_m": 66.14
+        },
+        {
+          "name": "Grand Ole Opry",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "OPRY MILLS DR & GENERAL JACKSON'S",
+          "dist_m": 377.07
+        },
+        {
+          "name": "Deacon’s New South",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 40.02
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Nashville to Miami",
+      "transportation": "Transfer, from Nashville to Miami",
+      "accommodation": "-",
+      "breakfast": "Caney Fork River Valley Grille",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Caney Fork River Valley Grille",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "MCGAVOCK PIKE & MUSIC VALLEY DR WB",
+          "dist_m": 44.6
+        }
+      ]
+    }
+  ]
+}

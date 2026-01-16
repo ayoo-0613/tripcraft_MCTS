@@ -1,0 +1,65 @@
+{
+  "idx": 222,
+  "JSON": {
+    "org": "Boise",
+    "dest": "Atlanta",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-26",
+      "2024-11-27",
+      "2024-11-28"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
+      "transportation": "no self_driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2400.0,
+    "query": "Plan a 3-day trip for 1 person from Boise to Atlanta from November 26th to November 28th, 2024, with a budget of $2,400. Accommodations should be an entire home, and transportation should not involve self-driving.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boise to Atlanta",
+      "transportation": "Flight Number: F0331867, from Boise to Atlanta, Departure Time: 14:00, Arrival Time: 19:45",
+      "breakfast": "Ray's in the City, Atlanta",
+      "attraction": "Fox Theatre, Atlanta",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Grant Park Guest House | Charming Tiny House, Atlanta",
+      "event": "-",
+      "point_of_interest_list": "Grant Park Guest House | Charming Tiny House, stay from 08:00 to 09:00, nearest transit: MEMORIAL DR @ CHEROKEE AVE, 93.61m away; Ray's in the City, visit from 09:20 to 10:30, nearest transit: PEACHTREE ST @ JOHN PORTMAN BLVD (P'TREE CTR STATION), 15.57m away; Fox Theatre, visit from 11:30 to 13:30, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Grant Park Guest House | Charming Tiny House, stay from 22:15 to 08:00, nearest transit: MEMORIAL DR @ CHEROKEE AVE, 93.61m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "Transfer, from Atlanta to Atlanta",
+      "breakfast": "La Tavola Trattoria, Atlanta",
+      "attraction": "College Football Hall of Fame, Atlanta",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Grant Park Guest House | Charming Tiny House, Atlanta",
+      "event": "-",
+      "point_of_interest_list": "Grant Park Guest House | Charming Tiny House, stay from 08:00 to 09:00, nearest transit: MEMORIAL DR @ CHEROKEE AVE, 93.61m away; La Tavola Trattoria, visit from 09:20 to 10:30, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; College Football Hall of Fame, visit from 11:30 to 13:30, nearest transit: MARIETTA ST NW @ PARK AVE WEST, 70.48m away; Grant Park Guest House | Charming Tiny House, stay from 22:15 to 08:00, nearest transit: MEMORIAL DR @ CHEROKEE AVE, 93.61m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Atlanta to Boise",
+      "transportation": "Flight Number: F0331870, from Atlanta to Boise, Departure Time: 10:05, Arrival Time: 12:25",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Grant Park Guest House | Charming Tiny House, stay from 08:00 to 09:00, nearest transit: MEMORIAL DR @ CHEROKEE AVE, 93.61m away."
+    }
+  ]
+}

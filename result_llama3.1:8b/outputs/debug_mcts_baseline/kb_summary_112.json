@@ -1,0 +1,59 @@
+{
+  "idx": 112,
+  "stages": [
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Milwaukee",
+      "to": "Seattle",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0808370, from Milwaukee to Seattle, Departure Time: 15:06, Arrival Time: 17:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Milwaukee",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Self-driving, from Milwaukee to Seattle, Not feasible to drive from Milwaukee to Seattle"
+    },
+    {
+      "mode": "taxi",
+      "from": "Milwaukee",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Taxi, from Milwaukee to Seattle, Not feasible to drive from Milwaukee to Seattle"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "Milwaukee",
+      "date": "2024-11-14",
+      "raw": "Flight Number: F0248628, from Seattle to Milwaukee, Departure Time: 08:08, Arrival Time: 13:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Self-driving, from Seattle to Milwaukee, Not feasible to drive from Seattle to Milwaukee"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Taxi, from Seattle to Milwaukee, Not feasible to drive from Seattle to Milwaukee"
+    }
+  ]
+}

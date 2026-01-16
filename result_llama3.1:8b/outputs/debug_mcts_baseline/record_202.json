@@ -1,0 +1,65 @@
+{
+  "idx": 202,
+  "JSON": {
+    "org": "San Francisco",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3450.0,
+    "query": "Plan a 3-day trip for 2 people from San Francisco to New York from November 8th to November 10th, 2024, with a budget of $3,450. Accommodations should include a private room, and transportation should not involve self-driving. Pets must be allowed.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from San Francisco to New York",
+      "transportation": "Flight Number: F0165557, from San Francisco to New York, Departure Time: 14:30, Arrival Time: 23:11",
+      "breakfast": "RH Rooftop Restaurant New York, New York",
+      "attraction": "SUMMIT One Vanderbilt, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "East Village, Private room with access to garden, New York",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; RH Rooftop Restaurant New York, visit from 09:20 to 10:30, nearest transit: 9 AV/W 13 ST, 56.34m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:30, nearest transit: E 42 ST/MADISON AV, 28.59m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Blue Smoke Battery Park City, New York",
+      "attraction": "New York Public Library, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "East Village, Private room with access to garden, New York",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Blue Smoke Battery Park City, visit from 09:20 to 10:30, nearest transit: VESEY ST/NORTH END AV, 10.23m away; New York Public Library, visit from 11:30 to 13:30, nearest transit: 5 AV/W 42 ST, 34.90m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to San Francisco",
+      "transportation": "Taxi, from New York to San Francisco, Not feasible to drive from New York to San Francisco",
+      "breakfast": "Lillie's Victorian Establishment, New York",
+      "attraction": "Staten Island Ferry, New York",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Lillie's Victorian Establishment, visit from 09:20 to 10:30, nearest transit: 8 AV/W 49 ST, 40.41m away; Staten Island Ferry, visit from 11:30 to 13:30, nearest transit: SOUTH ST/WHITEHALL ST, 62.29m away."
+    }
+  ]
+}

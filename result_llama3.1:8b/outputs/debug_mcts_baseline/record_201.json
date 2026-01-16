@@ -1,0 +1,65 @@
+{
+  "idx": 201,
+  "JSON": {
+    "org": "Denver",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3900.0,
+    "query": "Plan a 3-day trip for 4 people from Denver to Seattle from November 3rd to November 5th, 2024, with a budget of $3,900. Accommodations should include a private room, and the trip should not involve self-driving transportation. Pets should be allowed.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Denver to Seattle",
+      "transportation": "Flight Number: F0032476, from Denver to Seattle, Departure Time: 14:28, Arrival Time: 16:16",
+      "breakfast": "The Butcher's Table, Seattle",
+      "attraction": "Washington State Ferries, Seattle",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Room in Townhome near Capitol Hill, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; The Butcher's Table, visit from 09:20 to 10:30, nearest transit: Westlake & 9th-Denny, 32.31m away; Washington State Ferries, visit from 11:30 to 13:30, nearest transit: Denny Way & 2nd Ave N, 14.59m away; Private Room in Townhome near Capitol Hill, stay from 22:15 to 08:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Wild Ginger, Seattle",
+      "attraction": "Sky View Observatory, Seattle",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private Room in Townhome near Capitol Hill, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; Wild Ginger, visit from 09:20 to 10:30, nearest transit: 3rd Ave & Pike St, 13.86m away; Sky View Observatory, visit from 11:30 to 13:30, nearest transit: 4th Ave & Cherry St, 20.75m away; Private Room in Townhome near Capitol Hill, stay from 22:15 to 08:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to Denver",
+      "transportation": "Flight Number: F0060766, from Seattle to Denver, Departure Time: 15:03, Arrival Time: 18:21",
+      "breakfast": "All Water Seafood & Oyster Bar, Seattle",
+      "attraction": "Seattle Public Library, Seattle",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; All Water Seafood & Oyster Bar, visit from 09:20 to 10:30, nearest transit: 1st Ave & Spring St, 19.43m away; Seattle Public Library, visit from 11:30 to 13:30, nearest transit: 5th Ave & Spring St, 34.42m away."
+    }
+  ]
+}

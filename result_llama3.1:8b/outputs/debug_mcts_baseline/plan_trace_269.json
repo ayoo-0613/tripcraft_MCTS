@@ -1,0 +1,399 @@
+{
+  "idx": 269,
+  "reward": 9.985577692803437,
+  "budget_used": 1638.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0194881, from Los Angeles to Indianapolis, Departure Time: 23:47, Arrival Time: 06:40",
+      "candidates": [
+        "Flight Number: F0194881, from Los Angeles to Indianapolis, Departure Time: 23:47, Arrival Time: 06:40",
+        "Taxi, from Los Angeles to Indianapolis, Not feasible to drive from Los Angeles to Indianapolis"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Historic Private Guest Suite",
+      "candidates": [
+        "Queen Bed Getaway Room Downtown Indy",
+        "The Metro House - Modern Cozy & Pet Friendly",
+        "Historic Private Guest Suite",
+        "Luxury 1 Bed/Bath Downtown Apt.",
+        "New Private Modern Carriage House-Garage Parking!",
+        "Cityview Cottage",
+        "Comfy private studio in historic Meridian Kessler",
+        "Cobb Cabin",
+        "Beautiful 9 acre urban farm on NW side of Indy!",
+        "Convenient Location, Great Backyard"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bluebeard",
+      "candidates": [
+        "Bluebeard",
+        "Milktooth",
+        "Thai Spice",
+        "Tony's of Indianapolis",
+        "Bazbeaux Pizza",
+        "Taxman CityWay",
+        "Cafe Patachou",
+        "Mesh Indy",
+        "The Capital Grille",
+        "Conner's Kitchen + Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Fashion Mall at Keystone",
+      "candidates": [
+        "The Fashion Mall at Keystone",
+        "Crown Hill Cemetery",
+        "Children's Museum of Indianapolis",
+        "Indiana War Memorial",
+        "Gainbridge Fieldhouse",
+        "Victory Field",
+        "Central Canal",
+        "The Eiteljorg Museum",
+        "Benjamin Harrison Presidential Site",
+        "White River State Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Queen Bed Getaway Room Downtown Indy",
+      "candidates": [
+        "Queen Bed Getaway Room Downtown Indy",
+        "The Metro House - Modern Cozy & Pet Friendly",
+        "Historic Private Guest Suite",
+        "Luxury 1 Bed/Bath Downtown Apt.",
+        "New Private Modern Carriage House-Garage Parking!",
+        "Cityview Cottage",
+        "Comfy private studio in historic Meridian Kessler",
+        "Cobb Cabin",
+        "Beautiful 9 acre urban farm on NW side of Indy!",
+        "Convenient Location, Great Backyard"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Milktooth",
+      "candidates": [
+        "Milktooth",
+        "Thai Spice",
+        "Tony's of Indianapolis",
+        "Bazbeaux Pizza",
+        "Taxman CityWay",
+        "Cafe Patachou",
+        "Mesh Indy",
+        "The Capital Grille",
+        "Conner's Kitchen + Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Crown Hill Cemetery",
+      "candidates": [
+        "Crown Hill Cemetery",
+        "Children's Museum of Indianapolis",
+        "Indiana War Memorial",
+        "Gainbridge Fieldhouse",
+        "Victory Field",
+        "Central Canal",
+        "The Eiteljorg Museum",
+        "Benjamin Harrison Presidential Site",
+        "White River State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Indianapolis to Los Angeles, Not feasible to drive from Indianapolis to Los Angeles",
+      "candidates": [
+        "Flight Number: F0195405, from Indianapolis to Los Angeles, Departure Time: 08:16, Arrival Time: 10:09",
+        "Taxi, from Indianapolis to Los Angeles, Not feasible to drive from Indianapolis to Los Angeles"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Thai Spice",
+      "candidates": [
+        "Thai Spice",
+        "Tony's of Indianapolis",
+        "Bazbeaux Pizza",
+        "Taxman CityWay",
+        "Cafe Patachou",
+        "Mesh Indy",
+        "The Capital Grille",
+        "Conner's Kitchen + Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Children's Museum of Indianapolis",
+      "candidates": [
+        "Children's Museum of Indianapolis",
+        "Indiana War Memorial",
+        "Gainbridge Fieldhouse",
+        "Victory Field",
+        "Central Canal",
+        "The Eiteljorg Museum",
+        "Benjamin Harrison Presidential Site",
+        "White River State Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Los Angeles to Indianapolis",
+      "transportation": "Flight Number: F0194881, from Los Angeles to Indianapolis, Departure Time: 23:47, Arrival Time: 06:40",
+      "accommodation": "Historic Private Guest Suite",
+      "breakfast": "Bluebeard",
+      "attractions": [
+        "The Fashion Mall at Keystone"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Historic Private Guest Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Michigan St & Spring St",
+          "dist_m": 70.02
+        },
+        {
+          "name": "Historic Private Guest Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Michigan St & Spring St",
+          "dist_m": 70.02
+        },
+        {
+          "name": "Bluebeard",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Virginia Ave & College Ave",
+          "dist_m": 33.77
+        },
+        {
+          "name": "The Fashion Mall at Keystone",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Keystone Crossing - 8700 N",
+          "dist_m": 51.7
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Indianapolis to Indianapolis",
+      "transportation": "-",
+      "accommodation": "Queen Bed Getaway Room Downtown Indy",
+      "breakfast": "Milktooth",
+      "attractions": [
+        "Crown Hill Cemetery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Queen Bed Getaway Room Downtown Indy",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "New York St & State St",
+          "dist_m": 65.71
+        },
+        {
+          "name": "Queen Bed Getaway Room Downtown Indy",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "New York St & State St",
+          "dist_m": 65.71
+        },
+        {
+          "name": "Milktooth",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Fletcher Place Station NB",
+          "dist_m": 34.3
+        },
+        {
+          "name": "Crown Hill Cemetery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "38th St & Clarendon Rd",
+          "dist_m": 91.22
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Indianapolis to Los Angeles",
+      "transportation": "Taxi, from Indianapolis to Los Angeles, Not feasible to drive from Indianapolis to Los Angeles",
+      "accommodation": "-",
+      "breakfast": "Thai Spice",
+      "attractions": [
+        "Children's Museum of Indianapolis"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Queen Bed Getaway Room Downtown Indy",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "New York St & State St",
+          "dist_m": 65.71
+        },
+        {
+          "name": "Thai Spice",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "County Line Rd at Greenwood Park Mall",
+          "dist_m": 41.67
+        },
+        {
+          "name": "Children's Museum of Indianapolis",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "30th/Museum Station SB",
+          "dist_m": 91.45
+        }
+      ]
+    }
+  ]
+}

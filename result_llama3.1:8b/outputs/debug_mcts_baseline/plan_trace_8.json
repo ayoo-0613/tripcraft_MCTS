@@ -1,0 +1,729 @@
+{
+  "idx": 8,
+  "reward": 18.902110206277744,
+  "budget_used": 6666.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06",
+      "candidates": [
+        "Flight Number: F0455317, from Los Angeles to Colorado Springs, Departure Time: 18:47, Arrival Time: 22:06",
+        "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Summit at The Broadmoor",
+      "candidates": [
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "Front Range Barbeque",
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "La Bella Vita",
+        "The Great British Food Company"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Penrose Heritage Museum",
+      "candidates": [
+        "Penrose Heritage Museum",
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Paravicini's Italian Bistro",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Uchenna",
+      "candidates": [
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mountain Shadows Restaurant",
+      "candidates": [
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "Front Range Barbeque",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "La Bella Vita",
+        "The Great British Food Company"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Colorado City Historic District",
+      "candidates": [
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Carlos Bistro",
+      "candidates": [
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Pizzeria Rustica",
+      "candidates": [
+        "Pizzeria Rustica",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "skyhouse downtown: designer + walkable + spacious",
+      "candidates": [
+        "skyhouse downtown: designer + walkable + spacious",
+        "Sleek, Modern Studio in the heart of downtown.",
+        "Private Bedroom and Bath - Walk Downtown!",
+        "Cedar House Durango condo w/ sauna, hot tub & pool",
+        "1Bed/1Bath Condo in Downtown Durango",
+        "Durango Southwest Cabin",
+        "Main Street Retreat - Downtown Durango",
+        "Modern Townhome on the River, Roof Top Deck",
+        "Bright & Modern 2-Bedroom, Downtown Durango w/ A/C",
+        "Horse Gulch Loft 2Bd InTown, near Trails & FLC"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Zia Taqueria",
+      "candidates": [
+        "Zia Taqueria",
+        "Diamond Belle Saloon",
+        "Chimayo Stone Fired Kitchen",
+        "Michel's Corner Crepes",
+        "Eolus Bar & Dining",
+        "Derailed Pour House",
+        "Fired Up Pizzeria",
+        "Durango Doughworks",
+        "Bread",
+        "East by Southwest"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Roll Ebike & Paddle Board",
+      "candidates": [
+        "Roll Ebike & Paddle Board",
+        "Historic Downtown Durango",
+        "Four Leaves Winery",
+        "Durango Welcome Center",
+        "Mild to Wild Rafting and Jeep Tours",
+        "Horsefly History & Ghost Tours",
+        "Animas River Trail",
+        "Durango and Silverton Narrow Gauge Railroad and Museum",
+        "Durango Rivertrippers & Adventure Tours",
+        "Animas Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "skyhouse downtown: designer + walkable + spacious",
+      "candidates": [
+        "skyhouse downtown: designer + walkable + spacious",
+        "Sleek, Modern Studio in the heart of downtown.",
+        "Private Bedroom and Bath - Walk Downtown!",
+        "Cedar House Durango condo w/ sauna, hot tub & pool",
+        "1Bed/1Bath Condo in Downtown Durango",
+        "Durango Southwest Cabin",
+        "Main Street Retreat - Downtown Durango",
+        "Modern Townhome on the River, Roof Top Deck",
+        "Bright & Modern 2-Bedroom, Downtown Durango w/ A/C",
+        "Horse Gulch Loft 2Bd InTown, near Trails & FLC"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Diamond Belle Saloon",
+      "candidates": [
+        "Diamond Belle Saloon",
+        "Chimayo Stone Fired Kitchen",
+        "Michel's Corner Crepes",
+        "Eolus Bar & Dining",
+        "Derailed Pour House",
+        "Fired Up Pizzeria",
+        "Durango Doughworks",
+        "Bread",
+        "East by Southwest"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Historic Downtown Durango",
+      "candidates": [
+        "Historic Downtown Durango",
+        "Four Leaves Winery",
+        "Durango Welcome Center",
+        "Mild to Wild Rafting and Jeep Tours",
+        "Horsefly History & Ghost Tours",
+        "Animas River Trail",
+        "Durango and Silverton Narrow Gauge Railroad and Museum",
+        "Durango Rivertrippers & Adventure Tours",
+        "Animas Museum"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Durango to Los Angeles, Duration: 871.3349999999999 mins, Distance: 1250.8291000000002 km, Estimated Cost: $1250.83"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Chimayo Stone Fired Kitchen",
+      "candidates": [
+        "Chimayo Stone Fired Kitchen",
+        "Michel's Corner Crepes",
+        "Eolus Bar & Dining",
+        "Derailed Pour House",
+        "Fired Up Pizzeria",
+        "Durango Doughworks",
+        "Bread",
+        "East by Southwest"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Four Leaves Winery",
+      "candidates": [
+        "Four Leaves Winery",
+        "Durango Welcome Center",
+        "Mild to Wild Rafting and Jeep Tours",
+        "Horsefly History & Ghost Tours",
+        "Animas River Trail",
+        "Durango and Silverton Narrow Gauge Railroad and Museum",
+        "Durango Rivertrippers & Adventure Tours",
+        "Animas Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Los Angeles to Colorado Springs",
+      "transportation": "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "Summit at The Broadmoor",
+      "attractions": [
+        "Penrose Heritage Museum"
+      ],
+      "lunch": "Paravicini's Italian Bistro",
+      "dinner": "Uchenna",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Summit at The Broadmoor",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Broadmoor Hotel",
+          "dist_m": 68.55
+        },
+        {
+          "name": "Penrose Heritage Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Broadmoor Hotel",
+          "dist_m": 45.08
+        },
+        {
+          "name": "Paravicini's Italian Bistro",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Colorado/28th",
+          "dist_m": 25.37
+        },
+        {
+          "name": "Uchenna",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 42.42
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "Mountain Shadows Restaurant",
+      "attractions": [
+        "Old Colorado City Historic District"
+      ],
+      "lunch": "Carlos Bistro",
+      "dinner": "Pizzeria Rustica",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Mountain Shadows Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Colorado/23rd",
+          "dist_m": 76.1
+        },
+        {
+          "name": "Old Colorado City Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cascade/Colorado",
+          "dist_m": 63.31
+        },
+        {
+          "name": "Carlos Bistro",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "21st/Broadway",
+          "dist_m": 62.57
+        },
+        {
+          "name": "Pizzeria Rustica",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 64.93
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Durango",
+      "transportation": "-",
+      "accommodation": "skyhouse downtown: designer + walkable + spacious",
+      "breakfast": "Zia Taqueria",
+      "attractions": [
+        "Roll Ebike & Paddle Board"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "skyhouse downtown: designer + walkable + spacious",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Buckley Park",
+          "dist_m": 52.91
+        },
+        {
+          "name": "Zia Taqueria",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Travellodge",
+          "dist_m": 51.52
+        },
+        {
+          "name": "Roll Ebike & Paddle Board",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Buckley Park",
+          "dist_m": 34.63
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Durango to Durango",
+      "transportation": "-",
+      "accommodation": "skyhouse downtown: designer + walkable + spacious",
+      "breakfast": "Diamond Belle Saloon",
+      "attractions": [
+        "Historic Downtown Durango"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "skyhouse downtown: designer + walkable + spacious",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Buckley Park",
+          "dist_m": 52.91
+        },
+        {
+          "name": "skyhouse downtown: designer + walkable + spacious",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Buckley Park",
+          "dist_m": 52.91
+        },
+        {
+          "name": "Diamond Belle Saloon",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Main Ave. & 7th St.",
+          "dist_m": 25.56
+        },
+        {
+          "name": "Historic Downtown Durango",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Main Ave. & 9th St.",
+          "dist_m": 40.87
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Durango to Los Angeles",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Chimayo Stone Fired Kitchen",
+      "attractions": [
+        "Four Leaves Winery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "skyhouse downtown: designer + walkable + spacious",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Buckley Park",
+          "dist_m": 52.91
+        },
+        {
+          "name": "Chimayo Stone Fired Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Main Ave. & 9th St.",
+          "dist_m": 28.28
+        },
+        {
+          "name": "Four Leaves Winery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "College Dr. & Main Ave.",
+          "dist_m": 80.37
+        }
+      ]
+    }
+  ]
+}

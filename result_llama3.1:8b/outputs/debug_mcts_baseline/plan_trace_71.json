@@ -1,0 +1,438 @@
+{
+  "idx": 71,
+  "reward": 12.94920675510204,
+  "budget_used": 7764.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0011654, from Kansas City to Atlanta, Departure Time: 18:18, Arrival Time: 21:05",
+      "candidates": [
+        "Flight Number: F0011654, from Kansas City to Atlanta, Departure Time: 18:18, Arrival Time: 21:05",
+        "Taxi, from Kansas City to Atlanta, Duration: 888.6366666666667 mins, Distance: 1286.5799 km, Estimated Cost: $1286.58"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Grant Park Guest House | Charming Tiny House",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Agora",
+      "candidates": [
+        "Cafe Agora",
+        "By George restaurant and bar",
+        "Ray's in the City",
+        "La Tavola Trattoria",
+        "Murphy's Restaurant",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fox Theatre",
+      "candidates": [
+        "Fox Theatre",
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "By George restaurant and bar",
+      "candidates": [
+        "By George restaurant and bar",
+        "Ray's in the City",
+        "La Tavola Trattoria",
+        "Murphy's Restaurant",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Grant Park Guest House | Charming Tiny House",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ray's in the City",
+      "candidates": [
+        "Ray's in the City",
+        "La Tavola Trattoria",
+        "Murphy's Restaurant",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "College Football Hall of Fame",
+      "candidates": [
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Tavola Trattoria",
+      "candidates": [
+        "La Tavola Trattoria",
+        "Murphy's Restaurant",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Murphy's Restaurant",
+      "candidates": [
+        "Murphy's Restaurant",
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0016941, from Atlanta to Kansas City, Departure Time: 20:52, Arrival Time: 21:49",
+      "candidates": [
+        "Flight Number: F0016941, from Atlanta to Kansas City, Departure Time: 20:52, Arrival Time: 21:49",
+        "Taxi, from Atlanta to Kansas City, Duration: 893.7883333333334 mins, Distance: 1289.864 km, Estimated Cost: $1289.86"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Max's Coal Oven Pizzeria",
+      "candidates": [
+        "Max's Coal Oven Pizzeria",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "National Center for Civil and Human Rights",
+      "candidates": [
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Kansas City to Atlanta",
+      "transportation": "Flight Number: F0011654, from Kansas City to Atlanta, Departure Time: 18:18, Arrival Time: 21:05",
+      "accommodation": "Grant Park Guest House | Charming Tiny House",
+      "breakfast": "Cafe Agora",
+      "attractions": [
+        "Fox Theatre"
+      ],
+      "lunch": "By George restaurant and bar",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Cafe Agora",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "PEACHTREE ST @ PEACHTREE PL",
+          "dist_m": 29.31
+        },
+        {
+          "name": "Fox Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "PEACHTREE ST NE @ PONCE DE LEON AVE",
+          "dist_m": 41.68
+        },
+        {
+          "name": "By George restaurant and bar",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "PEACHTREE ST NE @ JOHN WESLEY DOBBS AVE NE",
+          "dist_m": 32.71
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Grant Park Guest House | Charming Tiny House",
+      "breakfast": "Ray's in the City",
+      "attractions": [
+        "College Football Hall of Fame"
+      ],
+      "lunch": "La Tavola Trattoria",
+      "dinner": "Murphy's Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Ray's in the City",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "PEACHTREE ST @ JOHN PORTMAN BLVD (P'TREE CTR STATION)",
+          "dist_m": 15.57
+        },
+        {
+          "name": "College Football Hall of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "MARIETTA ST NW @ PARK AVE WEST",
+          "dist_m": 70.48
+        },
+        {
+          "name": "La Tavola Trattoria",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "VIRGINIA AVE NE @ TODD RD NE",
+          "dist_m": 27.36
+        },
+        {
+          "name": "Murphy's Restaurant",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "VIRGINIA AVE NE @ TODD RD NE",
+          "dist_m": 29.86
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Kansas City",
+      "transportation": "Flight Number: F0016941, from Atlanta to Kansas City, Departure Time: 20:52, Arrival Time: 21:49",
+      "accommodation": "-",
+      "breakfast": "Max's Coal Oven Pizzeria",
+      "attractions": [
+        "National Center for Civil and Human Rights"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Max's Coal Oven Pizzeria",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "MARIETTA ST @ BAKER ST NW",
+          "dist_m": 33.64
+        },
+        {
+          "name": "National Center for Civil and Human Rights",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LOVEJOY ST",
+          "dist_m": 78.15
+        }
+      ]
+    }
+  ]
+}

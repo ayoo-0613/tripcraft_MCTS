@@ -1,0 +1,59 @@
+{
+  "idx": 118,
+  "stages": [
+    {
+      "city": "Portland",
+      "counts": {
+        "attractions": 17,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 72,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Boston",
+      "to": "Portland",
+      "date": "2024-11-22",
+      "raw": "Flight Number: F0253472, from Boston to Portland, Departure Time: 20:03, Arrival Time: 23:02"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Boston",
+      "to": "Portland",
+      "date": null,
+      "raw": "Self-driving, from Boston to Portland, Not feasible to drive from Boston to Portland"
+    },
+    {
+      "mode": "taxi",
+      "from": "Boston",
+      "to": "Portland",
+      "date": null,
+      "raw": "Taxi, from Boston to Portland, Not feasible to drive from Boston to Portland"
+    },
+    {
+      "mode": "flight",
+      "from": "Portland",
+      "to": "Boston",
+      "date": "2024-11-24",
+      "raw": "Flight Number: F0254738, from Portland to Boston, Departure Time: 10:04, Arrival Time: 18:26"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Portland",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from Portland to Boston, Not feasible to drive from Portland to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Portland",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from Portland to Boston, Not feasible to drive from Portland to Boston"
+    }
+  ]
+}

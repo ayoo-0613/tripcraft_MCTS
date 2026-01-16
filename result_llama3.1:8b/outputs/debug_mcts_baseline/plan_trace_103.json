@@ -1,0 +1,399 @@
+{
+  "idx": 103,
+  "reward": 9.9567910013336,
+  "budget_used": 4600.6,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1527139, from Las Vegas to Anchorage, Departure Time: 19:34, Arrival Time: 23:45",
+      "candidates": [
+        "Flight Number: F1527139, from Las Vegas to Anchorage, Departure Time: 19:34, Arrival Time: 23:45",
+        "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Relax! You're at the Cabin",
+      "candidates": [
+        "Relax! You're at the Cabin",
+        "The Pebble House Studio",
+        "* Private 5 -Star Apt in City Center *",
+        "Downtown Haven - Entire Private Condo",
+        "Private Room in Hostel with View/Parking/Gym 303",
+        "SaltWater Cottage",
+        "Wolf's Downtown Den with a view and parking",
+        "UMed room 1",
+        "Tiny Studio Pets Stay for Free!",
+        "Bootlegger’s Nest"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ray's Place",
+      "candidates": [
+        "Ray's Place",
+        "Kaladi Brothers Coffee",
+        "Kincaid Grill and Wine Bar",
+        "Crow's Nest",
+        "Pho Lena",
+        "Jens' Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Glacier Brewhouse",
+        "Kobuk Coffee Co",
+        "Orso"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Anchorage Museum",
+      "candidates": [
+        "Anchorage Museum",
+        "Alaska Cruise Transportation - ACT",
+        "Anchorage City Trolley Tours",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Alaska Tour & Travel",
+        "Alaska Park Connection Motorcoach",
+        "Salmon Berry Travel & Tours",
+        "Segway Tours of Anchorage",
+        "Pablo Bicycle Rentals",
+        "Tony Knowles Coastal Trail"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Relax! You're at the Cabin",
+      "candidates": [
+        "Relax! You're at the Cabin",
+        "The Pebble House Studio",
+        "* Private 5 -Star Apt in City Center *",
+        "Downtown Haven - Entire Private Condo",
+        "Private Room in Hostel with View/Parking/Gym 303",
+        "SaltWater Cottage",
+        "Wolf's Downtown Den with a view and parking",
+        "UMed room 1",
+        "Tiny Studio Pets Stay for Free!",
+        "Bootlegger’s Nest"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Kaladi Brothers Coffee",
+      "candidates": [
+        "Kaladi Brothers Coffee",
+        "Kincaid Grill and Wine Bar",
+        "Crow's Nest",
+        "Pho Lena",
+        "Jens' Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Glacier Brewhouse",
+        "Kobuk Coffee Co",
+        "Orso"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Alaska Cruise Transportation - ACT",
+      "candidates": [
+        "Alaska Cruise Transportation - ACT",
+        "Anchorage City Trolley Tours",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Alaska Tour & Travel",
+        "Alaska Park Connection Motorcoach",
+        "Salmon Berry Travel & Tours",
+        "Segway Tours of Anchorage",
+        "Pablo Bicycle Rentals",
+        "Tony Knowles Coastal Trail"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+      "candidates": [
+        "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+        "Taxi, from Anchorage to Las Vegas, Not feasible to drive from Anchorage to Las Vegas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Kincaid Grill and Wine Bar",
+      "candidates": [
+        "Kincaid Grill and Wine Bar",
+        "Crow's Nest",
+        "Pho Lena",
+        "Jens' Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Glacier Brewhouse",
+        "Kobuk Coffee Co",
+        "Orso"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Anchorage City Trolley Tours",
+      "candidates": [
+        "Anchorage City Trolley Tours",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Alaska Tour & Travel",
+        "Alaska Park Connection Motorcoach",
+        "Salmon Berry Travel & Tours",
+        "Segway Tours of Anchorage",
+        "Pablo Bicycle Rentals",
+        "Tony Knowles Coastal Trail"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Anchorage",
+      "transportation": "Flight Number: F1527139, from Las Vegas to Anchorage, Departure Time: 19:34, Arrival Time: 23:45",
+      "accommodation": "Relax! You're at the Cabin",
+      "breakfast": "Ray's Place",
+      "attractions": [
+        "Anchorage Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Relax! You're at the Cabin",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & BARBARA WNW",
+          "dist_m": 66.94
+        },
+        {
+          "name": "Relax! You're at the Cabin",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SPENARD & BARBARA WNW",
+          "dist_m": 66.94
+        },
+        {
+          "name": "Ray's Place",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "SPENARD & FIREWEED NNW",
+          "dist_m": 62.81
+        },
+        {
+          "name": "Anchorage Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "6TH AVENUE & C STREET ESE",
+          "dist_m": 48.52
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Anchorage to Anchorage",
+      "transportation": "-",
+      "accommodation": "Relax! You're at the Cabin",
+      "breakfast": "Kaladi Brothers Coffee",
+      "attractions": [
+        "Alaska Cruise Transportation - ACT"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Relax! You're at the Cabin",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & BARBARA WNW",
+          "dist_m": 66.94
+        },
+        {
+          "name": "Relax! You're at the Cabin",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SPENARD & BARBARA WNW",
+          "dist_m": 66.94
+        },
+        {
+          "name": "Kaladi Brothers Coffee",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "I STREET & 13TH AVENUE NNE",
+          "dist_m": 67.68
+        },
+        {
+          "name": "Alaska Cruise Transportation - ACT",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "CITY HALL",
+          "dist_m": 85.74
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Anchorage to Las Vegas",
+      "transportation": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+      "accommodation": "-",
+      "breakfast": "Kincaid Grill and Wine Bar",
+      "attractions": [
+        "Anchorage City Trolley Tours"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Relax! You're at the Cabin",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & BARBARA WNW",
+          "dist_m": 66.94
+        },
+        {
+          "name": "Kincaid Grill and Wine Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "JEWEL LAKE & RASPBERRY NNE",
+          "dist_m": 76.87
+        },
+        {
+          "name": "Anchorage City Trolley Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "5TH AVENUE & F STREET WNW",
+          "dist_m": 89.17
+        }
+      ]
+    }
+  ]
+}

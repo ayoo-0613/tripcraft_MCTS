@@ -1,0 +1,414 @@
+{
+  "idx": 256,
+  "reward": 11.548422487562188,
+  "budget_used": 1895.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
+      "candidates": [
+        "Flight Number: F0092582, from Las Vegas to Colorado Springs, Departure Time: 16:03, Arrival Time: 18:30",
+        "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Casa De Mariposas",
+      "candidates": [
+        "The Master Suite at the Fisher House",
+        "Cozy Colo Springs Home near transportation routes",
+        "Casa De Mariposas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Paravicini's Italian Bistro",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Colorado City Historic District",
+      "candidates": [
+        "Old Colorado City Historic District",
+        "Palmer Park",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Palmer Park",
+      "candidates": [
+        "Palmer Park",
+        "Red Rock Canyon",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Rock Ledge Ranch Historic Site",
+        "Glen Eyrie Castle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Master Suite at the Fisher House",
+      "candidates": [
+        "The Master Suite at the Fisher House",
+        "Cozy Colo Springs Home near transportation routes",
+        "Casa De Mariposas"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Uchenna",
+      "candidates": [
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Red Rock Canyon",
+      "candidates": [
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Rock Ledge Ranch Historic Site",
+      "candidates": [
+        "Rock Ledge Ranch Historic Site",
+        "Glen Eyrie Castle",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0018785, from Colorado Springs to Las Vegas, Departure Time: 05:40, Arrival Time: 06:34",
+      "candidates": [
+        "Flight Number: F0018785, from Colorado Springs to Las Vegas, Departure Time: 05:40, Arrival Time: 06:34",
+        "Taxi, from Colorado Springs to Las Vegas, Duration: 842.7216666666667 mins, Distance: 1310.3346999999999 km, Estimated Cost: $1310.33"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mountain Shadows Restaurant",
+      "candidates": [
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "North Cheyenne Canon Park and Starsmore Discovery Center",
+      "candidates": [
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Colorado Springs",
+      "transportation": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
+      "accommodation": "Casa De Mariposas",
+      "breakfast": "Paravicini's Italian Bistro",
+      "attractions": [
+        "Old Colorado City Historic District",
+        "Palmer Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Casa De Mariposas",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Galley/Ford",
+          "dist_m": 862.13
+        },
+        {
+          "name": "Casa De Mariposas",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Galley/Ford",
+          "dist_m": 862.13
+        },
+        {
+          "name": "Paravicini's Italian Bistro",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Colorado/28th",
+          "dist_m": 25.37
+        },
+        {
+          "name": "Old Colorado City Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cascade/Colorado",
+          "dist_m": 63.31
+        },
+        {
+          "name": "Palmer Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "Academy/Maizeland",
+          "dist_m": 308.09
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "The Master Suite at the Fisher House",
+      "breakfast": "Uchenna",
+      "attractions": [
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "Uchenna",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 42.42
+        },
+        {
+          "name": "Red Rock Canyon",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Colorado/34th",
+          "dist_m": 421.43
+        },
+        {
+          "name": "Rock Ledge Ranch Historic Site",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:00",
+          "nearest_transit": "902 Fontmore",
+          "dist_m": 972.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Las Vegas",
+      "transportation": "Flight Number: F0018785, from Colorado Springs to Las Vegas, Departure Time: 05:40, Arrival Time: 06:34",
+      "accommodation": "-",
+      "breakfast": "Mountain Shadows Restaurant",
+      "attractions": [
+        "North Cheyenne Canon Park and Starsmore Discovery Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "Mountain Shadows Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Colorado/23rd",
+          "dist_m": 76.1
+        },
+        {
+          "name": "North Cheyenne Canon Park and Starsmore Discovery Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mesa/Lake",
+          "dist_m": 1207.93
+        }
+      ]
+    }
+  ]
+}
