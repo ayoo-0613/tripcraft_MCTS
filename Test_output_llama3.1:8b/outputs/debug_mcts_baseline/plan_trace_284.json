@@ -1,0 +1,934 @@
+{
+  "idx": 284,
+  "reward": 21.881628703749232,
+  "budget_used": 3042.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Valparaiso to Greensboro, Duration: 798.6066666666667 mins, Distance: 1108.9996 km, Estimated Cost: $1109.00",
+      "candidates": [
+        "-",
+        "Taxi, from Valparaiso to Greensboro, Duration: 798.6066666666667 mins, Distance: 1108.9996 km, Estimated Cost: $1109.00"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Leftwich St APT 2",
+      "candidates": [
+        "Leftwich St APT 2",
+        "Downtown Greensboro Luxurious Hideaway",
+        "A little Southern Hospitality",
+        "Foghorn's Roost",
+        "Cozy apartment across from park",
+        "Great spot near downtown.",
+        "Will's Place - Close to Downtown!",
+        "⭐️ Amelia’s Retreat ⭐️ @ Greensboro ??????‍♀️??",
+        "Cottage at Three Magnolias",
+        "Gate House Garden"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "B. Christopher's",
+      "candidates": [
+        "B. Christopher's",
+        "The Sage Mule",
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "International Civil Rights Center & Museum",
+      "candidates": [
+        "International Civil Rights Center & Museum",
+        "Ambleside Gallery",
+        "Greensboro Children's Museum",
+        "Carolina Theatre",
+        "Greensboro History Museum",
+        "First National Bank Field",
+        "Greensboro Science Center",
+        "LeBauer Park",
+        "Blandwood",
+        "Greensboro Coliseum Complex"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Leftwich St APT 2",
+      "candidates": [
+        "Leftwich St APT 2",
+        "Downtown Greensboro Luxurious Hideaway",
+        "A little Southern Hospitality",
+        "Foghorn's Roost",
+        "Cozy apartment across from park",
+        "Great spot near downtown.",
+        "Will's Place - Close to Downtown!",
+        "⭐️ Amelia’s Retreat ⭐️ @ Greensboro ??????‍♀️??",
+        "Cottage at Three Magnolias",
+        "Gate House Garden"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Sage Mule",
+      "candidates": [
+        "The Sage Mule",
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ambleside Gallery",
+      "candidates": [
+        "Ambleside Gallery",
+        "Greensboro Children's Museum",
+        "Carolina Theatre",
+        "Greensboro History Museum",
+        "First National Bank Field",
+        "Greensboro Science Center",
+        "LeBauer Park",
+        "Blandwood",
+        "Greensboro Coliseum Complex"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Malibu @ TheCove - Houseboat w/ view of Battleship",
+        "Hawks Nest 3 @UNCW",
+        "Crestwood Cottage"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Circa 1922",
+      "candidates": [
+        "Circa 1922",
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Wilmington Railroad Museum",
+      "candidates": [
+        "Wilmington Railroad Museum",
+        "Historic District",
+        "Museum of the Bizarre",
+        "Cape Fear Museum",
+        "Downtown Wilmington",
+        "The Cotton Exchange",
+        "Burgwin-Wright House and Gardens",
+        "New Hanover County Arboretum",
+        "Riverwalk",
+        "Bellamy Mansion"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Malibu @ TheCove - Houseboat w/ view of Battleship",
+        "Hawks Nest 3 @UNCW",
+        "Crestwood Cottage"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Savorez",
+      "candidates": [
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Historic District",
+      "candidates": [
+        "Historic District",
+        "Museum of the Bizarre",
+        "Cape Fear Museum",
+        "Downtown Wilmington",
+        "The Cotton Exchange",
+        "Burgwin-Wright House and Gardens",
+        "New Hanover County Arboretum",
+        "Riverwalk",
+        "Bellamy Mansion"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12",
+      "candidates": [
+        "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12",
+        "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!",
+        "Villa Heights Hideaway",
+        "Comfy private bed and bath"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Midwood Smokehouse",
+      "candidates": [
+        "Midwood Smokehouse",
+        "Cabo Fish Taco Baja Seagrill",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Levine Museum of the New South",
+      "candidates": [
+        "Levine Museum of the New South",
+        "Discovery Place Science",
+        "Spectrum Center",
+        "NASCAR Hall of Fame",
+        "Mint Museum Uptown",
+        "SouthPark",
+        "Belk Theater at Blumenthal Performing Arts Center",
+        "Fourth Ward",
+        "Truist Field",
+        "Romare Bearden Park"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!",
+        "Villa Heights Hideaway",
+        "Comfy private bed and bath"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cabo Fish Taco Baja Seagrill",
+      "candidates": [
+        "Cabo Fish Taco Baja Seagrill",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Discovery Place Science",
+      "candidates": [
+        "Discovery Place Science",
+        "Spectrum Center",
+        "NASCAR Hall of Fame",
+        "Mint Museum Uptown",
+        "SouthPark",
+        "Belk Theater at Blumenthal Performing Arts Center",
+        "Fourth Ward",
+        "Truist Field",
+        "Romare Bearden Park"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0184233, from Charlotte to Valparaiso, Departure Time: 13:10, Arrival Time: 14:01",
+      "candidates": [
+        "Flight Number: F0184233, from Charlotte to Valparaiso, Departure Time: 13:10, Arrival Time: 14:01",
+        "Taxi, from Charlotte to Valparaiso, Duration: 836.4466666666667 mins, Distance: 1151.8786 km, Estimated Cost: $1151.88"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Fig Tree Restaurant",
+      "candidates": [
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Valparaiso to Greensboro",
+      "transportation": "Taxi, from Valparaiso to Greensboro, Duration: 798.6066666666667 mins, Distance: 1108.9996 km, Estimated Cost: $1109.00",
+      "accommodation": "Leftwich St APT 2",
+      "breakfast": "B. Christopher's",
+      "attractions": [
+        "International Civil Rights Center & Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "B. Christopher's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Elm/Friendly (Northbound)",
+          "dist_m": 22.34
+        },
+        {
+          "name": "International Civil Rights Center & Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "International Civil Rights Museum",
+          "dist_m": 3.98
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "-",
+      "accommodation": "Leftwich St APT 2",
+      "breakfast": "The Sage Mule",
+      "attractions": [
+        "Ambleside Gallery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "The Sage Mule",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Battleground/Wharton St",
+          "dist_m": 22.5
+        },
+        {
+          "name": "Ambleside Gallery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Elm/Lewis",
+          "dist_m": 35.43
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "Circa 1922",
+      "attractions": [
+        "Wilmington Railroad Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Leftwich St APT 2",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Elm/Fisher (OB)",
+          "dist_m": 111.24
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Circa 1922",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 33.43
+        },
+        {
+          "name": "Wilmington Railroad Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Nutt St SB at Wilmington Railroad Museum",
+          "dist_m": 46.05
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "Savorez",
+      "attractions": [
+        "Historic District"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Savorez",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "4th St SB at Chestnut St",
+          "dist_m": 39.22
+        },
+        {
+          "name": "Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 47.8
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "Midwood Smokehouse",
+      "attractions": [
+        "Levine Museum of the New South"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Midwood Smokehouse",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Central Ave & Clement Ave",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Levine Museum of the New South",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Tryon St & 2nd St",
+          "dist_m": 38.18
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "-",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "Cabo Fish Taco Baja Seagrill",
+      "attractions": [
+        "Discovery Place Science"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Cabo Fish Taco Baja Seagrill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Davidson & 35th",
+          "dist_m": 57.25
+        },
+        {
+          "name": "Discovery Place Science",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Church St & 6th St",
+          "dist_m": 53.42
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Charlotte to Valparaiso",
+      "transportation": "Flight Number: F0184233, from Charlotte to Valparaiso, Departure Time: 13:10, Arrival Time: 14:01",
+      "accommodation": "-",
+      "breakfast": "The Fig Tree Restaurant",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "The Fig Tree Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "7th St & Armory Dr",
+          "dist_m": 103.61
+        }
+      ]
+    }
+  ]
+}

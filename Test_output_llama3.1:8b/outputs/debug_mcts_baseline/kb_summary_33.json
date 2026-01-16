@@ -1,0 +1,121 @@
+{
+  "idx": 33,
+  "stages": [
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0499607, from San Antonio to San Francisco, Departure Time: 07:19, Arrival Time: 09:15"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to San Francisco, Not feasible to drive from San Antonio to San Francisco"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from San Antonio to San Francisco, Not feasible to drive from San Antonio to San Francisco"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0038043, from San Francisco to San Diego, Departure Time: 22:00, Arrival Time: 23:21"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $40.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $806.29"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Los Angeles",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0496776, from San Diego to Los Angeles, Departure Time: 20:35, Arrival Time: 21:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $9.68"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $193.57"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0085391, from Los Angeles to San Antonio, Departure Time: 15:16, Arrival Time: 19:58"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Antonio, Duration: 1380.4666666666667 mins, Distance: 2178.5612 km, Estimated Cost: $108.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Antonio, Duration: 1380.4666666666667 mins, Distance: 2178.5612 km, Estimated Cost: $2178.56"
+    }
+  ]
+}

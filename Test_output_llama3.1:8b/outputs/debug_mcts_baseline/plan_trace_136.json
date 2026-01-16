@@ -1,0 +1,957 @@
+{
+  "idx": 136,
+  "reward": 27.047903039852187,
+  "budget_used": 2453.8,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco",
+      "candidates": [
+        "Flight Number: F0241123, from Boston to San Francisco, Departure Time: 18:58, Arrival Time: 22:33",
+        "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Modern Single Studio",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "#1 Private room with private bathroom with tub",
+        "Private cozy room 1"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "John's Grill",
+      "candidates": [
+        "John's Grill",
+        "Hog Island Oyster Co.",
+        "Scala's Bistro",
+        "Sears Fine Foods",
+        "Tadich Grill",
+        "Akiko's Sushi Bar and Restaurant",
+        "Honey Honey Cafe & Crepery",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ferry Building Marketplace",
+      "candidates": [
+        "Ferry Building Marketplace",
+        "Exploratorium",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Scala's Bistro",
+      "candidates": [
+        "Scala's Bistro",
+        "Akiko's Sushi Bar and Restaurant",
+        "Hog Island Oyster Co.",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Akiko's Sushi Bar and Restaurant",
+      "candidates": [
+        "Akiko's Sushi Bar and Restaurant",
+        "Hog Island Oyster Co.",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Modern Single Studio",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "#1 Private room with private bathroom with tub",
+        "Private cozy room 1"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hog Island Oyster Co.",
+      "candidates": [
+        "Hog Island Oyster Co.",
+        "Sears Fine Foods",
+        "Tadich Grill",
+        "Honey Honey Cafe & Crepery",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Exploratorium",
+      "candidates": [
+        "Exploratorium",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sears Fine Foods",
+      "candidates": [
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Waterbar",
+      "candidates": [
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05",
+      "candidates": [
+        "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05",
+        "Taxi, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $613.27"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "the mid city . registration : HSR19-002172",
+        "Room in Happy Hollywood Home",
+        "5 star guest suite in L.A.'s best location",
+        "Secluded & Charming Hillside Studio+Pool+SkyDeck✨"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Katsuya",
+      "candidates": [
+        "Katsuya",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "Perch",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Grove",
+      "candidates": [
+        "The Grove",
+        "Citadel Outlets"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "the mid city . registration : HSR19-002172",
+        "Room in Happy Hollywood Home",
+        "5 star guest suite in L.A.'s best location",
+        "Secluded & Charming Hillside Studio+Pool+SkyDeck✨"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Au Lac Dtla",
+      "candidates": [
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "Perch",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Citadel Outlets",
+      "candidates": [
+        "Citadel Outlets"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+      "candidates": [
+        "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+        "Taxi, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $193.22"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Big Bay Views, San Diego Bay",
+      "candidates": [
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "charming, colorful, close to beach"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Buon Appetito",
+      "candidates": [
+        "Buon Appetito",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Point Loma",
+      "candidates": [
+        "Point Loma",
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Big Bay Views, San Diego Bay",
+      "candidates": [
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "charming, colorful, close to beach"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Casa Guadalajara",
+      "candidates": [
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego",
+      "candidates": [
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21",
+      "candidates": [
+        "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21",
+        "Taxi, from San Diego to Boston, Not feasible to drive from San Diego to Boston"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego State Historic Park",
+      "candidates": [
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boston to San Francisco",
+      "transportation": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "John's Grill",
+      "attractions": [
+        "Ferry Building Marketplace"
+      ],
+      "lunch": "Scala's Bistro",
+      "dinner": "Akiko's Sushi Bar and Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "John's Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 128.62
+        },
+        {
+          "name": "Ferry Building Marketplace",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 334.47
+        },
+        {
+          "name": "Scala's Bistro",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 451.0
+        },
+        {
+          "name": "Akiko's Sushi Bar and Restaurant",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 527.7
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "Hog Island Oyster Co.",
+      "attractions": [
+        "Exploratorium"
+      ],
+      "lunch": "Sears Fine Foods",
+      "dinner": "Waterbar",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Hog Island Oyster Co.",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 358.44
+        },
+        {
+          "name": "Exploratorium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 1042.01
+        },
+        {
+          "name": "Sears Fine Foods",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 459.18
+        },
+        {
+          "name": "Waterbar",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 478.55
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Francisco to Los Angeles",
+      "transportation": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "Katsuya",
+      "attractions": [
+        "The Grove"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Katsuya",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Hollywood & Vine St.",
+          "dist_m": 19.85
+        },
+        {
+          "name": "The Grove",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "3rd & Ogden (Eastbound)",
+          "dist_m": 143.67
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "Au Lac Dtla",
+      "attractions": [
+        "Citadel Outlets"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Au Lac Dtla",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1st St & Hope St",
+          "dist_m": 37.19
+        },
+        {
+          "name": "Citadel Outlets",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Herbert Ave & Whittier Blvd (4354)",
+          "dist_m": 3385.72
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Los Angeles to San Diego",
+      "transportation": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+      "accommodation": "Big Bay Views, San Diego Bay",
+      "breakfast": "Buon Appetito",
+      "attractions": [
+        "Point Loma"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Buon Appetito",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 11.4
+        },
+        {
+          "name": "Point Loma",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cabrillo Memorial Hwy & McClelland Rd",
+          "dist_m": 112.08
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Big Bay Views, San Diego Bay",
+      "breakfast": "Casa Guadalajara",
+      "attractions": [
+        "Old Town San Diego"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Casa Guadalajara",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Taylor St & Juan St",
+          "dist_m": 50.62
+        },
+        {
+          "name": "Old Town San Diego",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 127.04
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from San Diego to Boston",
+      "transportation": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21",
+      "accommodation": "-",
+      "breakfast": "Cowboy Star",
+      "attractions": [
+        "Old Town San Diego State Historic Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "10th Av & Market St",
+          "dist_m": 50.81
+        },
+        {
+          "name": "Old Town San Diego State Historic Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 133.02
+        }
+      ]
+    }
+  ]
+}

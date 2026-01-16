@@ -1,0 +1,65 @@
+{
+  "idx": 335,
+  "JSON": {
+    "org": "Tucson",
+    "dest": "Everett",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "children under 10",
+      "cuisine": null,
+      "room type": "not shared room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1950.0,
+    "query": "Plan a 3-day trip for 2 people from Tucson to Everett from November 9th to November 11th, 2024, with a budget of $1,950. Accommodations should be in a non-shared room, and transportation should not involve self-driving. Note that children under 10 are restricted by house rules.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Tucson to Everett",
+      "transportation": "Flight Number: F0510917, from Tucson to Everett, Departure Time: 14:06, Arrival Time: 17:19",
+      "breakfast": "Chianti Italian Restaurant, Everett",
+      "attraction": "Imagine Children's Museum, Everett",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Large Room with Private Bathroom, Everett",
+      "event": "-",
+      "point_of_interest_list": "Large Room with Private Bathroom, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Chianti Italian Restaurant, visit from 09:20 to 10:30, nearest transit: HEWITT AVE & WETMORE - EB, 12.79m away; Imagine Children's Museum, visit from 11:30 to 13:30, nearest transit: WALL ST & HOYT AVE - WB, 29.48m away; Large Room with Private Bathroom, stay from 22:15 to 08:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Everett to Everett",
+      "transportation": "Transfer, from Everett to Everett",
+      "breakfast": "Mazatlan Restaurant, Everett",
+      "attraction": "Narbeck Wetland Sanctuary Park, Everett",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Large Room with Private Bathroom, Everett",
+      "event": "-",
+      "point_of_interest_list": "Large Room with Private Bathroom, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Mazatlan Restaurant, visit from 09:20 to 10:30, nearest transit: RUCKER AVE & PACIFIC AVE - NB, 33.15m away; Narbeck Wetland Sanctuary Park, visit from 11:30 to 13:30, nearest transit: SEAWAY BLVD & 24TH AVE W - WB, 32.09m away; Large Room with Private Bathroom, stay from 22:15 to 08:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Everett to Tucson",
+      "transportation": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+      "breakfast": "Brooklyn Brothers Pizzeria, Everett",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Large Room with Private Bathroom, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Brooklyn Brothers Pizzeria, visit from 09:20 to 10:30, nearest transit: HEWITT AVE & LOMBARD AVE - WB, 33.88m away."
+    }
+  ]
+}

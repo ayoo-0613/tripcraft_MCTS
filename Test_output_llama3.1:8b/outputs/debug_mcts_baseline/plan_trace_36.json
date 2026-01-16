@@ -1,0 +1,933 @@
+{
+  "idx": 36,
+  "reward": 20.801378638589618,
+  "budget_used": 3545.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "candidates": [
+        "Flight Number: F0455334, from Colorado Springs to Los Angeles, Departure Time: 06:50, Arrival Time: 08:23",
+        "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Kasa Sunset | Deluxe King Studio in Hollywood",
+      "candidates": [
+        "Kasa Sunset | Deluxe King Studio in Hollywood",
+        "Cozy Beverly Hills Studio Guest House",
+        "Cozy Private Room In LA.",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "the mid city . registration : HSR19-002172",
+        "Autumn's Modern 1 bedroom with Charming Courtyard."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Katsuya",
+      "candidates": [
+        "Katsuya",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "Perch",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hollywood Walk of Fame",
+      "candidates": [
+        "Hollywood Walk of Fame",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Grove",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Kasa Sunset | Deluxe King Studio in Hollywood",
+      "candidates": [
+        "Kasa Sunset | Deluxe King Studio in Hollywood",
+        "Cozy Beverly Hills Studio Guest House",
+        "Cozy Private Room In LA.",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "the mid city . registration : HSR19-002172",
+        "Autumn's Modern 1 bedroom with Charming Courtyard."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Au Lac Dtla",
+      "candidates": [
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "Perch",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Broad",
+      "candidates": [
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Grove",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum",
+        "California Science Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+      "candidates": [
+        "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+        "Taxi, from Los Angeles to Redding, Duration: 597.2816666666666 mins, Distance: 875.9086 km, Estimated Cost: $875.91"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charming modern studio space, bethel friendly",
+      "candidates": [
+        "Charming modern studio space, bethel friendly",
+        "The Forest Room",
+        "Room& bath w/ private entrance; Great location",
+        "Hello, Redding!",
+        "Clean & Modern Studio w/ King Bed & Pull-Out Couch",
+        "Nice private room with king bed ,separate entrance",
+        "Newly remodeled studio w/private entrance, 2 beds",
+        "Iris Oasis",
+        "Centrally located with private entrance",
+        "Redding Farmhouse Getaway"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Jeff's California Cattle Company Restaurant",
+      "candidates": [
+        "Jeff's California Cattle Company Restaurant",
+        "Peter Chu's Skyroom",
+        "Thai Hut",
+        "deja vu",
+        "Guadalajara Mexican Restaurant",
+        "Sweetie's Cafe & Catering",
+        "Cattlemens",
+        "Priya Indian Cuisine",
+        "Final Draft Brewing Company",
+        "Champa Garden"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charming modern studio space, bethel friendly",
+      "candidates": [
+        "Charming modern studio space, bethel friendly",
+        "The Forest Room",
+        "Room& bath w/ private entrance; Great location",
+        "Hello, Redding!",
+        "Clean & Modern Studio w/ King Bed & Pull-Out Couch",
+        "Nice private room with king bed ,separate entrance",
+        "Newly remodeled studio w/private entrance, 2 beds",
+        "Iris Oasis",
+        "Centrally located with private entrance",
+        "Redding Farmhouse Getaway"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Peter Chu's Skyroom",
+      "candidates": [
+        "Peter Chu's Skyroom",
+        "Thai Hut",
+        "deja vu",
+        "Guadalajara Mexican Restaurant",
+        "Sweetie's Cafe & Catering",
+        "Cattlemens",
+        "Priya Indian Cuisine",
+        "Final Draft Brewing Company",
+        "Champa Garden"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Healing Corner California",
+      "candidates": [
+        "The Healing Corner California",
+        "Fantasy Fountain",
+        "Escape Redding",
+        "Sacramento River Trail",
+        "Moseley Family Cellars",
+        "WaterWorks Park",
+        "Caldwell Park",
+        "Redding Civic Auditorium",
+        "Cascade Theatre",
+        "Turtle Bay Exploration Park"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Redding to San Luis Obispo, Duration: 513.515 mins, Distance: 705.7975 km, Estimated Cost: $705.80"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Cottage in SLO / Historic Downtown District",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "SLO Guesthouse - quiet - near downtown - #115545"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "1865 Craft House and Kitchen",
+      "candidates": [
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "La Locanda",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Farmers Market",
+      "candidates": [
+        "Farmers Market",
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Cottage in SLO / Historic Downtown District",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "SLO Guesthouse - quiet - near downtown - #115545"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lure Fish House",
+      "candidates": [
+        "Lure Fish House",
+        "Koberl At Blue",
+        "La Locanda",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bubblegum Alley",
+      "candidates": [
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Luis Obispo to Colorado Springs, Duration: 1332.3899999999999 mins, Distance: 1959.5327 km, Estimated Cost: $1959.53"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Koberl At Blue",
+      "candidates": [
+        "Koberl At Blue",
+        "La Locanda",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Performing Arts Center San Luis Obispo",
+      "candidates": [
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Colorado Springs to Los Angeles",
+      "transportation": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood",
+      "breakfast": "Katsuya",
+      "attractions": [
+        "Hollywood Walk of Fame"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Kasa Sunset | Deluxe King Studio in Hollywood",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sunset & Bronson Ave.",
+          "dist_m": 51.96
+        },
+        {
+          "name": "Kasa Sunset | Deluxe King Studio in Hollywood",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sunset & Bronson Ave.",
+          "dist_m": 51.96
+        },
+        {
+          "name": "Katsuya",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Hollywood & Vine St.",
+          "dist_m": 19.85
+        },
+        {
+          "name": "Hollywood Walk of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Hollywood & Vine St.",
+          "dist_m": 17.12
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood",
+      "breakfast": "Au Lac Dtla",
+      "attractions": [
+        "The Broad"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Kasa Sunset | Deluxe King Studio in Hollywood",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sunset & Bronson Ave.",
+          "dist_m": 51.96
+        },
+        {
+          "name": "Kasa Sunset | Deluxe King Studio in Hollywood",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sunset & Bronson Ave.",
+          "dist_m": 51.96
+        },
+        {
+          "name": "Au Lac Dtla",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "1st St & Hope St",
+          "dist_m": 37.19
+        },
+        {
+          "name": "The Broad",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 30.42
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Redding",
+      "transportation": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
+      "accommodation": "Charming modern studio space, bethel friendly",
+      "breakfast": "Jeff's California Cattle Company Restaurant",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Kasa Sunset | Deluxe King Studio in Hollywood",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Sunset & Bronson Ave.",
+          "dist_m": 51.96
+        },
+        {
+          "name": "Charming modern studio space, bethel friendly",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Eureka Way at Pioneer Dr",
+          "dist_m": 99.64
+        },
+        {
+          "name": "Jeff's California Cattle Company Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Cypress Ave at Rosemary Ave",
+          "dist_m": 13.15
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Redding to Redding",
+      "transportation": "-",
+      "accommodation": "Charming modern studio space, bethel friendly",
+      "breakfast": "Peter Chu's Skyroom",
+      "attractions": [
+        "The Healing Corner California"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Charming modern studio space, bethel friendly",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Eureka Way at Pioneer Dr",
+          "dist_m": 99.64
+        },
+        {
+          "name": "Charming modern studio space, bethel friendly",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Eureka Way at Pioneer Dr",
+          "dist_m": 99.64
+        },
+        {
+          "name": "Peter Chu's Skyroom",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Redding Regional Airport",
+          "dist_m": 24.57
+        },
+        {
+          "name": "The Healing Corner California",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Court St at Sonoma St",
+          "dist_m": 38.95
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Redding to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "1865 Craft House and Kitchen",
+      "attractions": [
+        "Farmers Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Charming modern studio space, bethel friendly",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Eureka Way at Pioneer Dr",
+          "dist_m": 99.64
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "1865 Craft House and Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Monterey & Grand",
+          "dist_m": 55.98
+        },
+        {
+          "name": "Farmers Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 112.91
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "Lure Fish House",
+      "attractions": [
+        "Bubblegum Alley"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "Lure Fish House",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 83.37
+        },
+        {
+          "name": "Bubblegum Alley",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 136.91
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from San Luis Obispo to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Koberl At Blue",
+      "attractions": [
+        "Performing Arts Center San Luis Obispo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "Koberl At Blue",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Government Center",
+          "dist_m": 100.82
+        },
+        {
+          "name": "Performing Arts Center San Luis Obispo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cal Poly Performing Arts Center",
+          "dist_m": 149.78
+        }
+      ]
+    }
+  ]
+}

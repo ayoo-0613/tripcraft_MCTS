@@ -1,0 +1,933 @@
+{
+  "idx": 156,
+  "reward": -56.20703819241985,
+  "budget_used": 2925.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57",
+      "candidates": [
+        "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57",
+        "Taxi, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $1538.48"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+      "candidates": [
+        "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+        "CozyUrbanLoft Downtown-Walk to Restaurants-Fun",
+        "The Secret Society Suite",
+        "Mountain Music Loft Downtown,Walkable,Restaurants",
+        "The Budget Friendly Rest Easy (I-81 exit 5)",
+        "BordertownLoft Downtown-King Bed,Walkable-Shops",
+        "I81 Exit 1 Budget Stay- Backyard Access to Casino",
+        "Sweet Bristol Bungalow",
+        "Gorgeous Tastefully Renovated Loft Near Downtown",
+        "*NEW* Downtown* Hot Tub* Ping Pong"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Blackbird Bakery",
+      "candidates": [
+        "Blackbird Bakery",
+        "Bristol Seafood Grill",
+        "Bristol Seafood Grill",
+        "Bristol Seafood Restaurant",
+        "Little Bristol Beach Bar",
+        "The Bristol Trader",
+        "Nutmeg",
+        "Fishers Restaurant - Bristol",
+        "Bosco Pizzeria",
+        "Bravas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+      "candidates": [
+        "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+        "CozyUrbanLoft Downtown-Walk to Restaurants-Fun",
+        "The Secret Society Suite",
+        "Mountain Music Loft Downtown,Walkable,Restaurants",
+        "The Budget Friendly Rest Easy (I-81 exit 5)",
+        "BordertownLoft Downtown-King Bed,Walkable-Shops",
+        "I81 Exit 1 Budget Stay- Backyard Access to Casino",
+        "Sweet Bristol Bungalow",
+        "Gorgeous Tastefully Renovated Loft Near Downtown",
+        "*NEW* Downtown* Hot Tub* Ping Pong"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bristol Seafood Grill",
+      "candidates": [
+        "Bristol Seafood Grill",
+        "Bristol Seafood Grill",
+        "Bristol Seafood Restaurant",
+        "Little Bristol Beach Bar",
+        "The Bristol Trader",
+        "Nutmeg",
+        "Fishers Restaurant - Bristol",
+        "Bosco Pizzeria",
+        "Bravas"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bristol Motor Speedway",
+      "candidates": [
+        "Bristol Motor Speedway",
+        "Clifton Suspension Bridge",
+        "Bristol City Docks",
+        "Cabot Tower",
+        "Bristol Museum & Art Gallery",
+        "Brunel's SS Great Britain",
+        "Wills Memorial Building And Tower Tours",
+        "Blackbeard to Banksy the Ultimate Bristol Walking Tour",
+        "Bristol Cathedral",
+        "Bristol Hippodrome"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Bristol to Chattanooga, Duration: 249.65166666666667 mins, Distance: 360.1764 km, Estimated Cost: $360.18"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New Town House in Historic District of Chattanooga",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Wren’s nest on the ridge",
+        "Glenn Falls Tiny Cabin",
+        "Urban Cottage - Cozy -10 mins. from downtown",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Cozy Stylish Studio"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mayan Kitchen",
+      "candidates": [
+        "Mayan Kitchen",
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Whiskey Experimental Distillery",
+      "candidates": [
+        "Chattanooga Whiskey Experimental Distillery",
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New Town House in Historic District of Chattanooga",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Wren’s nest on the ridge",
+        "Glenn Falls Tiny Cabin",
+        "Urban Cottage - Cozy -10 mins. from downtown",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Cozy Stylish Studio"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Maple Street Biscuit Company - City Center",
+      "candidates": [
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Moon Pie General Store",
+      "candidates": [
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "12 South Original - Restored craftsman from 1905!",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Lofts At 30th-Nashville Charm -In West End"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pelato",
+      "candidates": [
+        "Pelato",
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tennessee State Museum",
+      "candidates": [
+        "Tennessee State Museum",
+        "The Johnny Cash Museum",
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Country Music Hall of Fame and Museum",
+        "Cooter’s Museum and Store Nashville",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Musicians Hall of Fame and Museum",
+        "Downtown Nashville",
+        "Lane Motor Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "12 South Original - Restored craftsman from 1905!",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Lofts At 30th-Nashville Charm -In West End"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Gannons Nashville",
+      "candidates": [
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Johnny Cash Museum",
+      "candidates": [
+        "The Johnny Cash Museum",
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Country Music Hall of Fame and Museum",
+        "Cooter’s Museum and Store Nashville",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Musicians Hall of Fame and Museum",
+        "Downtown Nashville",
+        "Lane Motor Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41",
+      "candidates": [
+        "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41",
+        "Taxi, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $1070.54"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Puckett's 5th & Church",
+      "candidates": [
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ryman Auditorium",
+      "candidates": [
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Country Music Hall of Fame and Museum",
+        "Cooter’s Museum and Store Nashville",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Musicians Hall of Fame and Museum",
+        "Downtown Nashville",
+        "Lane Motor Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Bristol",
+      "transportation": "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+      "breakfast": "Blackbird Bakery",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Downtown Transfer Center",
+          "dist_m": 120.73
+        },
+        {
+          "name": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Downtown Transfer Center",
+          "dist_m": 120.73
+        },
+        {
+          "name": "Blackbird Bakery",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Cumberland St & Waters Alley",
+          "dist_m": 84.53
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Bristol to Bristol",
+      "transportation": "-",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+      "breakfast": "Bristol Seafood Grill",
+      "attractions": [
+        "Bristol Motor Speedway"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Downtown Transfer Center",
+          "dist_m": 120.73
+        },
+        {
+          "name": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Downtown Transfer Center",
+          "dist_m": 120.73
+        },
+        {
+          "name": "Bristol Seafood Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Hard Rock Hotel Main Entrance",
+          "dist_m": 761097.8
+        },
+        {
+          "name": "Bristol Motor Speedway",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Hard Rock Hotel Main Entrance",
+          "dist_m": 9711.82
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Bristol to Chattanooga",
+      "transportation": "-",
+      "accommodation": "New Town House in Historic District of Chattanooga",
+      "breakfast": "Mayan Kitchen",
+      "attractions": [
+        "Chattanooga Whiskey Experimental Distillery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Downtown Transfer Center",
+          "dist_m": 120.73
+        },
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Mayan Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "BROAD + 5TH",
+          "dist_m": 15.62
+        },
+        {
+          "name": "Chattanooga Whiskey Experimental Distillery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "MARKET + CHOO CHOO",
+          "dist_m": 29.39
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "-",
+      "accommodation": "New Town House in Historic District of Chattanooga",
+      "breakfast": "Maple Street Biscuit Company - City Center",
+      "attractions": [
+        "Moon Pie General Store"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Maple Street Biscuit Company - City Center",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "BROAD + 4TH",
+          "dist_m": 19.08
+        },
+        {
+          "name": "Moon Pie General Store",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Broad & Jack's Alley",
+          "dist_m": 46.95
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "-",
+      "accommodation": "12 South Original - Restored craftsman from 1905!",
+      "breakfast": "Pelato",
+      "attractions": [
+        "Tennessee State Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Pelato",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "3RD AVE N & MONROE ST SB",
+          "dist_m": 31.56
+        },
+        {
+          "name": "Tennessee State Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "8TH AVE N & JEFFERSON ST SB",
+          "dist_m": 40.17
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "12 South Original - Restored craftsman from 1905!",
+      "breakfast": "Gannons Nashville",
+      "attractions": [
+        "The Johnny Cash Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Gannons Nashville",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 35.96
+        },
+        {
+          "name": "The Johnny Cash Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "BROADWAY AVE & 3RD AVE WB",
+          "dist_m": 76.93
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41",
+      "accommodation": "-",
+      "breakfast": "Puckett's 5th & Church",
+      "attractions": [
+        "Ryman Auditorium"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Puckett's 5th & Church",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "5TH AVE N & CHURCH ST NB",
+          "dist_m": 39.47
+        },
+        {
+          "name": "Ryman Auditorium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 76.95
+        }
+      ]
+    }
+  ]
+}

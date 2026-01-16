@@ -1,0 +1,975 @@
+{
+  "idx": 190,
+  "reward": 26.854488295194507,
+  "budget_used": 3680.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
+      "candidates": [
+        "-",
+        "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Peaceful Place",
+      "candidates": [
+        "Peaceful Place",
+        "Date Night | Fall In Love With City Life! Walkable",
+        "Stylish one bedroom home 5 min from downtown.",
+        "Leftwich St APT 2",
+        "Downtown Greensboro Luxurious Hideaway",
+        "Cozy Friendly Duplex",
+        "A little Southern Hospitality",
+        "Centrally Located Rainfall Shower Modern Utopia",
+        "Aqua Oasis - Central & Stylish - 3 BR / 3 BA",
+        "Foghorn's Roost"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Sage Mule",
+      "candidates": [
+        "The Sage Mule",
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Lucky 32 Southern Kitchen",
+        "Scrambled Southern Diner",
+        "B. Christopher's",
+        "Sarah's Kabob Shop",
+        "Mythos Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Greensboro History Museum",
+      "candidates": [
+        "Greensboro History Museum",
+        "First National Bank Field",
+        "Blandwood",
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "B. Christopher's",
+      "candidates": [
+        "B. Christopher's",
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Dames Chicken & Waffles",
+      "candidates": [
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Peaceful Place",
+      "candidates": [
+        "Peaceful Place",
+        "Date Night | Fall In Love With City Life! Walkable",
+        "Stylish one bedroom home 5 min from downtown.",
+        "Leftwich St APT 2",
+        "Downtown Greensboro Luxurious Hideaway",
+        "Cozy Friendly Duplex",
+        "A little Southern Hospitality",
+        "Centrally Located Rainfall Shower Modern Utopia",
+        "Aqua Oasis - Central & Stylish - 3 BR / 3 BA",
+        "Foghorn's Roost"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hops Burger Bar",
+      "candidates": [
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Lucky 32 Southern Kitchen",
+        "Scrambled Southern Diner",
+        "Sarah's Kabob Shop",
+        "Mythos Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "First National Bank Field",
+      "candidates": [
+        "First National Bank Field",
+        "Blandwood",
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "1618 West Seafood Grill",
+      "candidates": [
+        "1618 West Seafood Grill",
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Stamey's Barbecue",
+      "candidates": [
+        "Stamey's Barbecue",
+        "Sarah's Kabob Shop",
+        "Lucky 32 Southern Kitchen",
+        "Mythos Grill",
+        "Scrambled Southern Diner"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Pop’s Villa - 8th Floor - Waterfront",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Charming Historic Downtown Cottage",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Dockside at The Cove"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Caprice Bistro",
+      "candidates": [
+        "Caprice Bistro",
+        "Circa 1922",
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Copper Penny",
+        "Fork N Cork"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Historic District",
+      "candidates": [
+        "Historic District",
+        "Downtown Wilmington",
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Pop’s Villa - 8th Floor - Waterfront",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Charming Historic Downtown Cottage",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Dockside at The Cove"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Circa 1922",
+      "candidates": [
+        "Circa 1922",
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Copper Penny",
+        "Fork N Cork"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Downtown Wilmington",
+      "candidates": [
+        "Downtown Wilmington",
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "candidates": [
+        "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+        "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in apt uptown",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Midwood Smokehouse",
+      "candidates": [
+        "Midwood Smokehouse",
+        "Cabo Fish Taco Baja Seagrill",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Spectrum Center",
+      "candidates": [
+        "Spectrum Center",
+        "Fourth Ward",
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in apt uptown",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cabo Fish Taco Baja Seagrill",
+      "candidates": [
+        "Cabo Fish Taco Baja Seagrill",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fourth Ward",
+      "candidates": [
+        "Fourth Ward",
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "candidates": [
+        "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+        "Taxi, from Charlotte to Oklahoma City, Duration: 1194.2333333333333 mins, Distance: 1762.3656 km, Estimated Cost: $1762.37"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Fig Tree Restaurant",
+      "candidates": [
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Truist Field",
+      "candidates": [
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Oklahoma City to Greensboro",
+      "transportation": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
+      "accommodation": "Peaceful Place",
+      "breakfast": "The Sage Mule",
+      "attractions": [
+        "Greensboro History Museum"
+      ],
+      "lunch": "B. Christopher's",
+      "dinner": "Dames Chicken & Waffles",
+      "poi_blocks": [
+        {
+          "name": "Peaceful Place",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Glendale/Allen Middle School",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Peaceful Place",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Glendale/Allen Middle School",
+          "dist_m": 40.68
+        },
+        {
+          "name": "The Sage Mule",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Battleground/Wharton St",
+          "dist_m": 22.5
+        },
+        {
+          "name": "Greensboro History Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Church/Lindsay",
+          "dist_m": 131.5
+        },
+        {
+          "name": "B. Christopher's",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Elm/Friendly (Northbound)",
+          "dist_m": 22.34
+        },
+        {
+          "name": "Dames Chicken & Waffles",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Gorrell/MLK",
+          "dist_m": 24.89
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "-",
+      "accommodation": "Peaceful Place",
+      "breakfast": "Hops Burger Bar",
+      "attractions": [
+        "First National Bank Field"
+      ],
+      "lunch": "1618 West Seafood Grill",
+      "dinner": "Stamey's Barbecue",
+      "poi_blocks": [
+        {
+          "name": "Peaceful Place",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Glendale/Allen Middle School",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Peaceful Place",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Glendale/Allen Middle School",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Hops Burger Bar",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Spring Garden/Howard (IB)",
+          "dist_m": 34.51
+        },
+        {
+          "name": "First National Bank Field",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "201 North Eugene St/Sandhill Center",
+          "dist_m": 137.66
+        },
+        {
+          "name": "1618 West Seafood Grill",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "West Friendly/Radiance Dr (OB)",
+          "dist_m": 39.88
+        },
+        {
+          "name": "Stamey's Barbecue",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Gate City/Patterson",
+          "dist_m": 46.58
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "Caprice Bistro",
+      "attractions": [
+        "Historic District"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Peaceful Place",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Glendale/Allen Middle School",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Caprice Bistro",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 63.3
+        },
+        {
+          "name": "Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 47.8
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "Circa 1922",
+      "attractions": [
+        "Downtown Wilmington"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Circa 1922",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 33.43
+        },
+        {
+          "name": "Downtown Wilmington",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Front St SB at Chestnut St",
+          "dist_m": 66.26
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "Midwood Smokehouse",
+      "attractions": [
+        "Spectrum Center"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Midwood Smokehouse",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Central Ave & Clement Ave",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Spectrum Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "CTC/Arena CityLYNX",
+          "dist_m": 95.01
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "-",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "Cabo Fish Taco Baja Seagrill",
+      "attractions": [
+        "Fourth Ward"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Cabo Fish Taco Baja Seagrill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Davidson & 35th",
+          "dist_m": 57.25
+        },
+        {
+          "name": "Fourth Ward",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Church St & 6th St",
+          "dist_m": 129.82
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Charlotte to Oklahoma City",
+      "transportation": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "accommodation": "-",
+      "breakfast": "The Fig Tree Restaurant",
+      "attractions": [
+        "Truist Field"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "The Fig Tree Restaurant",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "7th St & Armory Dr",
+          "dist_m": 103.61
+        },
+        {
+          "name": "Truist Field",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "4th St & Graham St",
+          "dist_m": 146.25
+        }
+      ]
+    }
+  ]
+}

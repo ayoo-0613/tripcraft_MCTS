@@ -1,0 +1,902 @@
+{
+  "idx": 162,
+  "reward": 20.826103420372327,
+  "budget_used": 3999.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+      "candidates": [
+        "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+        "Taxi, from Chicago to San Diego, Not feasible to drive from Chicago to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Central & Serene Secret Garden Guesthouse",
+      "candidates": [
+        "Central & Serene Secret Garden Guesthouse",
+        "Bed in 4-Bed room in Stylish Hostel",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Buon Appetito",
+      "candidates": [
+        "Buon Appetito",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Point Loma",
+      "candidates": [
+        "Point Loma",
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Central & Serene Secret Garden Guesthouse",
+      "candidates": [
+        "Central & Serene Secret Garden Guesthouse",
+        "Bed in 4-Bed room in Stylish Hostel",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bencotto Italian Kitchen",
+      "candidates": [
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Oceana Coastal Kitchen"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego",
+      "candidates": [
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+      "candidates": [
+        "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+        "Taxi, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $806.21"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Single Bed in 4-Bed Female Capsule Room",
+        "One Bed in Shared Dormitory at Social SF Hostel #1",
+        "Modern Single Studio",
+        "Modern Double Studio with Bay Window",
+        "Glorious Room in Victorian Home",
+        "Monroe Studio 303"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Room in The Heart Of San Francisco",
+      "candidates": [
+        "Stylish Room in The Heart Of San Francisco",
+        "Harry Potter Lego themed Guestroom",
+        "1 Queen bedded room w/full bath",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Single Bed in 4-Bed Female Capsule Room",
+        "One Bed in Shared Dormitory at Social SF Hostel #1",
+        "Modern Single Studio",
+        "Modern Double Studio with Bay Window",
+        "Glorious Room in Victorian Home",
+        "Monroe Studio 303"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "John's Grill",
+      "candidates": [
+        "John's Grill",
+        "Hog Island Oyster Co.",
+        "Scala's Bistro",
+        "Sears Fine Foods",
+        "Waterbar",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Tadich Grill",
+        "Akiko's Sushi Bar and Restaurant",
+        "Honey Honey Cafe & Crepery",
+        "Kokkari Estiatorio"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ferry Building Marketplace",
+      "candidates": [
+        "Ferry Building Marketplace",
+        "Oracle Park",
+        "Exploratorium",
+        "Cable Car Museum",
+        "Cable Cars",
+        "Coit Tower",
+        "Pier 39",
+        "Fisherman's Wharf",
+        "Ghirardelli Square",
+        "Twin Peaks"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+      "candidates": [
+        "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+        "Taxi, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $299.86"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Old Fig Garden~Heritage Room/Private Bath.",
+      "candidates": [
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "Fresno Apt | 1 Bed : 1 Bath | Long Term Welcome!",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Cozy Suite with Private Bath in the Heart of Tower",
+        "Warm Suite with Private Bath and Kitchenette",
+        "Mid-Century Modern Oasis W/Spa",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Fresno Apt | Yellow 1:1 | Next to Gazebo Gardens!",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "The Dream Room"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bad Axe Throwing Fresno",
+      "candidates": [
+        "Bad Axe Throwing Fresno",
+        "Old Fresno Water Tower",
+        "Roger Rocka's Dinner Theater",
+        "Chukchansi Park",
+        "First Armenian Presbyterian Church",
+        "Forestiere Underground Gardens",
+        "Fresno Art Museum",
+        "St. Johns Cathedral of Fresno",
+        "Meux Home Museum",
+        "Fresno Convention & Entertainment Center"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Old Fig Garden~Heritage Room/Private Bath.",
+      "candidates": [
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "Fresno Apt | 1 Bed : 1 Bath | Long Term Welcome!",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Cozy Suite with Private Bath in the Heart of Tower",
+        "Warm Suite with Private Bath and Kitchenette",
+        "Mid-Century Modern Oasis W/Spa",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Fresno Apt | Yellow 1:1 | Next to Gazebo Gardens!",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "The Dream Room"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Phoenician Garden Mediterranean Bar & Grill",
+      "candidates": [
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "Dog House Grill",
+        "Sam's Italian Deli and Market",
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Fresno Water Tower",
+      "candidates": [
+        "Old Fresno Water Tower",
+        "Roger Rocka's Dinner Theater",
+        "Chukchansi Park",
+        "First Armenian Presbyterian Church",
+        "Forestiere Underground Gardens",
+        "Fresno Art Museum",
+        "St. Johns Cathedral of Fresno",
+        "Meux Home Museum",
+        "Fresno Convention & Entertainment Center"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+      "candidates": [
+        "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+        "Taxi, from Fresno to Chicago, Not feasible to drive from Fresno to Chicago"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Dog House Grill",
+      "candidates": [
+        "Dog House Grill",
+        "Sam's Italian Deli and Market",
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Roger Rocka's Dinner Theater",
+      "candidates": [
+        "Roger Rocka's Dinner Theater",
+        "Chukchansi Park",
+        "First Armenian Presbyterian Church",
+        "Forestiere Underground Gardens",
+        "Fresno Art Museum",
+        "St. Johns Cathedral of Fresno",
+        "Meux Home Museum",
+        "Fresno Convention & Entertainment Center"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to San Diego",
+      "transportation": "Flight Number: F0004008, from Chicago to San Diego, Departure Time: 05:31, Arrival Time: 07:35",
+      "accommodation": "Central & Serene Secret Garden Guesthouse",
+      "breakfast": "Buon Appetito",
+      "attractions": [
+        "Point Loma"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Buon Appetito",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 11.4
+        },
+        {
+          "name": "Point Loma",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Cabrillo Memorial Hwy & McClelland Rd",
+          "dist_m": 112.08
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse",
+      "breakfast": "Bencotto Italian Kitchen",
+      "attractions": [
+        "Old Town San Diego"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Bencotto Italian Kitchen",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 101.75
+        },
+        {
+          "name": "Old Town San Diego",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 127.04
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to San Francisco",
+      "transportation": "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Central & Serene Secret Garden Guesthouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Biona Dr",
+          "dist_m": 102.11
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Stylish Room in The Heart Of San Francisco",
+      "breakfast": "John's Grill",
+      "attractions": [
+        "Ferry Building Marketplace"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "John's Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 128.62
+        },
+        {
+          "name": "Ferry Building Marketplace",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 334.47
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Francisco to Fresno",
+      "transportation": "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+      "accommodation": "Old Fig Garden~Heritage Room/Private Bath.",
+      "breakfast": "-",
+      "attractions": [
+        "Bad Axe Throwing Fresno"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Stylish Room in The Heart Of San Francisco",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 48.88
+        },
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Bad Axe Throwing Fresno",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "SW Palm - Shields",
+          "dist_m": 28.41
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "-",
+      "accommodation": "Old Fig Garden~Heritage Room/Private Bath.",
+      "breakfast": "Phoenician Garden Mediterranean Bar & Grill",
+      "attractions": [
+        "Old Fresno Water Tower"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Phoenician Garden Mediterranean Bar & Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "SE HERNDON - FIRST",
+          "dist_m": 9.59
+        },
+        {
+          "name": "Old Fresno Water Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "NW FRESNO - O ST",
+          "dist_m": 32.38
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Fresno to Chicago",
+      "transportation": "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+      "accommodation": "-",
+      "breakfast": "Dog House Grill",
+      "attractions": [
+        "Roger Rocka's Dinner Theater"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Dog House Grill",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "SW SHAW - CHESTNUT",
+          "dist_m": 40.76
+        },
+        {
+          "name": "Roger Rocka's Dinner Theater",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "SW WISHON - FERN",
+          "dist_m": 37.33
+        }
+      ]
+    }
+  ]
+}

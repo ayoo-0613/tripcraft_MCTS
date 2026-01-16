@@ -1,0 +1,1105 @@
+{
+  "idx": 25,
+  "reward": 34.70957478645791,
+  "budget_used": 2400.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "candidates": [
+        "Flight Number: F0497830, from Chicago to Fort Dodge, Departure Time: 07:42, Arrival Time: 09:05",
+        "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Single room/full bed with private 1/2 bath",
+        "Pattee’s Place - 2 bedrooms 2 bath",
+        "Backyard Oasis!",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The River View at Evergreen Hill",
+        "The Porch at Evergreen Hill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Taco Tico",
+      "candidates": [
+        "Taco Tico",
+        "Larita's Cakes 'N More",
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Fort Museum & Frontier Village",
+      "candidates": [
+        "The Fort Museum & Frontier Village",
+        "Studio Fusion",
+        "Blanden Art Museum",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Community Orchard",
+        "Soldier Creek Winery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Larita's Cakes 'N More",
+      "candidates": [
+        "Larita's Cakes 'N More",
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sneakers Eatry and Pub",
+      "candidates": [
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Single room/full bed with private 1/2 bath",
+        "Pattee’s Place - 2 bedrooms 2 bath",
+        "Backyard Oasis!",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The River View at Evergreen Hill",
+        "The Porch at Evergreen Hill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Village Inn",
+      "candidates": [
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Studio Fusion",
+      "candidates": [
+        "Studio Fusion",
+        "Blanden Art Museum",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Community Orchard",
+        "Soldier Creek Winery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sports Page",
+      "candidates": [
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tea Thyme & Thyme to Shop",
+      "candidates": [
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Leeds Home w/Screened-in Patio",
+      "candidates": [
+        "Leeds Home w/Screened-in Patio",
+        "Bungalow",
+        "Get Cozy and Relaxed in this Stylish Bojo Home!",
+        "Siouxland Suite",
+        "Private Room Near Hospitals",
+        "Mustang House",
+        "Spacious 3 bedroom home away from home",
+        "Centrally located 3 bedroom 2 bath home",
+        "The Big Little House, Delightful 1-bed tiny home",
+        "The Burrow"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Da Kao Chinese & Vietnamese Cuisine",
+      "candidates": [
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Miles Inn",
+        "Jitters",
+        "Diamond Thai Cuisine",
+        "Jerry's Pizza",
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Palmer's Olde Tyme Candy Shoppe",
+      "candidates": [
+        "Palmer's Olde Tyme Candy Shoppe",
+        "Sioux City Art Center",
+        "Hard Rock Casino Sioux City",
+        "Sioux City Public Museum",
+        "Trinity Heights",
+        "Sergeant Floyd Monument",
+        "Chief War Eagle Monument",
+        "Sergeant Floyd River Museum and Welcome Center",
+        "Sioux City Railroad Museum",
+        "Lewis and Clark Interpretive Center"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Miles Inn",
+      "candidates": [
+        "Miles Inn",
+        "Jitters",
+        "Diamond Thai Cuisine",
+        "Jerry's Pizza",
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Jitters",
+      "candidates": [
+        "Jitters",
+        "Diamond Thai Cuisine",
+        "Jerry's Pizza",
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Leeds Home w/Screened-in Patio",
+      "candidates": [
+        "Leeds Home w/Screened-in Patio",
+        "Bungalow",
+        "Get Cozy and Relaxed in this Stylish Bojo Home!",
+        "Siouxland Suite",
+        "Private Room Near Hospitals",
+        "Mustang House",
+        "Spacious 3 bedroom home away from home",
+        "Centrally located 3 bedroom 2 bath home",
+        "The Big Little House, Delightful 1-bed tiny home",
+        "The Burrow"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Diamond Thai Cuisine",
+      "candidates": [
+        "Diamond Thai Cuisine",
+        "Jerry's Pizza",
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Sioux City Art Center",
+      "candidates": [
+        "Sioux City Art Center",
+        "Hard Rock Casino Sioux City",
+        "Sioux City Public Museum",
+        "Trinity Heights",
+        "Sergeant Floyd Monument",
+        "Chief War Eagle Monument",
+        "Sergeant Floyd River Museum and Welcome Center",
+        "Sioux City Railroad Museum",
+        "Lewis and Clark Interpretive Center"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Jerry's Pizza",
+      "candidates": [
+        "Jerry's Pizza",
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Trattoria Fresco",
+      "candidates": [
+        "Trattoria Fresco",
+        "Pete's Thai On 5th",
+        "Main + Abbey",
+        "Horizon Family Restaurant",
+        "Old Chicago"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $332.32"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+      "candidates": [
+        "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+        "Cozy windfall",
+        "Comfort on Willow",
+        "Relaxing Peaceful 1 bdrm",
+        "Baker's Corner",
+        "Updated Clear Lake Home Near Downtown",
+        "Family-Friendly Home 1 Block from Downtown",
+        "Lake Time Loft",
+        "Charming 3 bedroom lake home - on site parking",
+        "The Clausen House-Historic home close to the lake!"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pancheros Mexican Grill - Mason City",
+      "candidates": [
+        "Pancheros Mexican Grill - Mason City",
+        "RibCrib BBQ",
+        "The Quarry",
+        "Prime N Wine",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fat Hill Brewing",
+      "candidates": [
+        "Fat Hill Brewing",
+        "Target Store Mason-City",
+        "Stockman House Museum",
+        "Trinity Lutheran Church",
+        "Music Man Square",
+        "Historic Park Inn Hotel",
+        "Rancho Deluxe",
+        "Mason City Visitor Information Center",
+        "T.J.Maxx",
+        "East Park"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "RibCrib BBQ",
+      "candidates": [
+        "RibCrib BBQ",
+        "The Quarry",
+        "Prime N Wine",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Quarry",
+      "candidates": [
+        "The Quarry",
+        "Prime N Wine",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+      "candidates": [
+        "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+        "Cozy windfall",
+        "Comfort on Willow",
+        "Relaxing Peaceful 1 bdrm",
+        "Baker's Corner",
+        "Updated Clear Lake Home Near Downtown",
+        "Family-Friendly Home 1 Block from Downtown",
+        "Lake Time Loft",
+        "Charming 3 bedroom lake home - on site parking",
+        "The Clausen House-Historic home close to the lake!"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Prime N Wine",
+      "candidates": [
+        "Prime N Wine",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Target Store Mason-City",
+      "candidates": [
+        "Target Store Mason-City",
+        "Stockman House Museum",
+        "Trinity Lutheran Church",
+        "Music Man Square",
+        "Historic Park Inn Hotel",
+        "Rancho Deluxe",
+        "Mason City Visitor Information Center",
+        "T.J.Maxx",
+        "East Park"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Thai Bistro",
+      "candidates": [
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Birdsall's",
+      "candidates": [
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17",
+      "candidates": [
+        "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17",
+        "Taxi, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $568.32"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lorado's",
+      "candidates": [
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Las Palmas Mexican Grill & Bar",
+      "candidates": [
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Taco Tico",
+      "candidates": [
+        "Taco Tico",
+        "State Street Deli"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Fort Dodge",
+      "transportation": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Taco Tico",
+      "attractions": [
+        "The Fort Museum & Frontier Village"
+      ],
+      "lunch": "Larita's Cakes 'N More",
+      "dinner": "Sneakers Eatry and Pub",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Taco Tico",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Crossroads Mall Entrance/Younkers",
+          "dist_m": 56.77
+        },
+        {
+          "name": "The Fort Museum & Frontier Village",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Museum Rd and Kenyon Rd",
+          "dist_m": 41.53
+        },
+        {
+          "name": "Larita's Cakes 'N More",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "2nd Ave N and N 19th St",
+          "dist_m": 57.76
+        },
+        {
+          "name": "Sneakers Eatry and Pub",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Central Ave and S 13th St",
+          "dist_m": 60.64
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Village Inn",
+      "attractions": [
+        "Studio Fusion"
+      ],
+      "lunch": "Sports Page",
+      "dinner": "Tea Thyme & Thyme to Shop",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Village Inn",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "N 15th Ave and 20th Ave N",
+          "dist_m": 67.45
+        },
+        {
+          "name": "Studio Fusion",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 71.87
+        },
+        {
+          "name": "Sports Page",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Evergreen Estates",
+          "dist_m": 68.77
+        },
+        {
+          "name": "Tea Thyme & Thyme to Shop",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "6th Ave S and S 21st St",
+          "dist_m": 84.15
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Dodge to Sioux City",
+      "transportation": "-",
+      "accommodation": "Leeds Home w/Screened-in Patio",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine",
+      "attractions": [
+        "Palmer's Olde Tyme Candy Shoppe"
+      ],
+      "lunch": "Miles Inn",
+      "dinner": "Jitters",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Leeds Home w/Screened-in Patio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Central & 44th St",
+          "dist_m": 86.83
+        },
+        {
+          "name": "Da Kao Chinese & Vietnamese Cuisine",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "W 7th St & Omaha St",
+          "dist_m": 6.11
+        },
+        {
+          "name": "Palmer's Olde Tyme Candy Shoppe",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "West 4th St & Wesley Pkwy",
+          "dist_m": 42.99
+        },
+        {
+          "name": "Miles Inn",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Leech Ave & Fairmount St",
+          "dist_m": 28.28
+        },
+        {
+          "name": "Jitters",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "3rd St & Virginia St",
+          "dist_m": 31.46
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "-",
+      "accommodation": "Leeds Home w/Screened-in Patio",
+      "breakfast": "Diamond Thai Cuisine",
+      "attractions": [
+        "Sioux City Art Center"
+      ],
+      "lunch": "Jerry's Pizza",
+      "dinner": "Trattoria Fresco",
+      "poi_blocks": [
+        {
+          "name": "Leeds Home w/Screened-in Patio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Central & 44th St",
+          "dist_m": 86.83
+        },
+        {
+          "name": "Leeds Home w/Screened-in Patio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Central & 44th St",
+          "dist_m": 86.83
+        },
+        {
+          "name": "Diamond Thai Cuisine",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "W 7th St & Sioux St",
+          "dist_m": 46.99
+        },
+        {
+          "name": "Sioux City Art Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Nebraska St & 3rd St",
+          "dist_m": 59.94
+        },
+        {
+          "name": "Jerry's Pizza",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "W 25th St & Geneva St",
+          "dist_m": 53.92
+        },
+        {
+          "name": "Trattoria Fresco",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Pierce St & 4th St",
+          "dist_m": 54.17
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Sioux City to Mason City",
+      "transportation": "-",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+      "breakfast": "Pancheros Mexican Grill - Mason City",
+      "attractions": [
+        "Fat Hill Brewing"
+      ],
+      "lunch": "RibCrib BBQ",
+      "dinner": "The Quarry",
+      "poi_blocks": [
+        {
+          "name": "Leeds Home w/Screened-in Patio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Central & 44th St",
+          "dist_m": 86.83
+        },
+        {
+          "name": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N Connecticut Ave. and 2nd St. NE",
+          "dist_m": 96.71
+        },
+        {
+          "name": "Pancheros Mexican Grill - Mason City",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Frontage Rd. SW and Briarstone Dr. (Perkins)",
+          "dist_m": 77.65
+        },
+        {
+          "name": "Fat Hill Brewing",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Central Park",
+          "dist_m": 46.9
+        },
+        {
+          "name": "RibCrib BBQ",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Frontage Rd. NW (McGregor Furniture)",
+          "dist_m": 106.13
+        },
+        {
+          "name": "The Quarry",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Central Park",
+          "dist_m": 118.96
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "-",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+      "breakfast": "Prime N Wine",
+      "attractions": [
+        "Target Store Mason-City"
+      ],
+      "lunch": "Thai Bistro",
+      "dinner": "Birdsall's",
+      "poi_blocks": [
+        {
+          "name": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N Connecticut Ave. and 2nd St. NE",
+          "dist_m": 96.71
+        },
+        {
+          "name": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N Connecticut Ave. and 2nd St. NE",
+          "dist_m": 96.71
+        },
+        {
+          "name": "Prime N Wine",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Frontage Rd. NW (McGregor Furniture)",
+          "dist_m": 128.03
+        },
+        {
+          "name": "Target Store Mason-City",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:30",
+          "nearest_transit": "Target Super Center",
+          "dist_m": 54.68
+        },
+        {
+          "name": "Thai Bistro",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "S Delaware Ave. and 2nd St. SW",
+          "dist_m": 142.71
+        },
+        {
+          "name": "Birdsall's",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Fareway",
+          "dist_m": 155.13
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Mason City to Chicago",
+      "transportation": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17",
+      "accommodation": "-",
+      "breakfast": "Lorado's",
+      "attractions": [],
+      "lunch": "Las Palmas Mexican Grill & Bar",
+      "dinner": "Taco Tico",
+      "poi_blocks": [
+        {
+          "name": "Wonderfully Welcoming Cozy 1 bdrm Apt.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N Connecticut Ave. and 2nd St. NE",
+          "dist_m": 96.71
+        },
+        {
+          "name": "Lorado's",
+          "kind": "visit",
+          "start": "09:20",
+          "end": "10:30",
+          "nearest_transit": "Central Park",
+          "dist_m": 155.29
+        },
+        {
+          "name": "Las Palmas Mexican Grill & Bar",
+          "kind": "visit",
+          "start": "14:30",
+          "end": "15:30",
+          "nearest_transit": "Salvation Army Activity Center",
+          "dist_m": 159.31
+        },
+        {
+          "name": "Taco Tico",
+          "kind": "visit",
+          "start": "19:30",
+          "end": "21:00",
+          "nearest_transit": "Frontage Rd. SW and Briarstone Dr. (Perkins)",
+          "dist_m": 161.65
+        }
+      ]
+    }
+  ]
+}
