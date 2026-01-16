@@ -10,7 +10,7 @@ from .env import State, TripCraftEnv
 
 @dataclass
 class GuidanceConfig:
-    mode: str = "none"  # none | heuristic | llm | ollama
+    mode: str = "none"  # none | heuristic | persona | llm | ollama
     endpoint: Optional[str] = None
     model: Optional[str] = None
     base_url: Optional[str] = None
@@ -92,6 +92,152 @@ class HeuristicGuidance(GuidanceModel):
             if d.transportation != "-":
                 filled += 1
         return float(filled) / float(total) if total else 0.0
+
+
+_BERT_TOKENIZER = None
+_BERT_MODEL = None
+_BERT_TRIED = False
+
+
+def _get_bert():
+    global _BERT_TOKENIZER, _BERT_MODEL, _BERT_TRIED
+    if _BERT_TRIED:
+        return _BERT_TOKENIZER, _BERT_MODEL
+    _BERT_TRIED = True
+    try:
+        from transformers import BertTokenizer, BertModel
+
+        try:
+            _BERT_TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased", local_files_only=True)
+            _BERT_MODEL = BertModel.from_pretrained("bert-base-uncased", local_files_only=True)
+        except TypeError:
+            _BERT_TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
+            _BERT_MODEL = BertModel.from_pretrained("bert-base-uncased")
+        if _BERT_MODEL is not None:
+            _BERT_MODEL.eval()
+    except Exception:
+        _BERT_TOKENIZER = None
+        _BERT_MODEL = None
+    return _BERT_TOKENIZER, _BERT_MODEL
+
+
+def _get_bert_embedding(text: str, tokenizer: Any, model: Any):
+    if tokenizer is None or model is None:
+        return None
+    import torch
+
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+    with torch.no_grad():
+        outputs = model(**inputs)
+    return outputs.last_hidden_state.mean(dim=1).squeeze(0).numpy()
+
+
+def _extract_persona_components(persona: str) -> Dict[str, str]:
+    components = {
+        "Traveler Type": None,
+        "Purpose of Travel": None,
+        "Spending Preference": None,
+        "Location Preference": None,
+    }
+    for key in components.keys():
+        start_idx = persona.find(key + ":") + len(key) + 1
+        end_idx = persona.find(";", start_idx)
+        if end_idx == -1:
+            end_idx = len(persona)
+        components[key] = persona[start_idx:end_idx].strip()
+    return components
+
+
+def _extract_poi_name(poi: str) -> str:
+    # Match the evaluator logic exactly to avoid mismatches.
+    if "stay" in poi:
+        return poi.split("stay")[0].strip()[:-1]
+    return poi.split("visit")[0].strip()[:-1]
+
+
+def _action_poi_name(action: Dict[str, Any]) -> str:
+    name = action.get("eval_poi_name") or action.get("name") or ""
+    if not name or name == "-":
+        return ""
+    kind = "stay" if action.get("type") == "set_accommodation" else "visit"
+    return _extract_poi_name(f"{name}, {kind}")
+
+
+def _is_persona_action(action: Dict[str, Any]) -> bool:
+    return action.get("type") in {
+        "set_accommodation",
+        "set_breakfast",
+        "set_lunch",
+        "set_dinner",
+        "add_attraction1",
+        "add_attraction2",
+    }
+
+
+class PersonaGuidance(GuidanceModel):
+    def __init__(self) -> None:
+        self._persona_text: Optional[str] = None
+        self._persona_embeddings: Optional[Dict[str, Any]] = None
+        self._poi_embeddings: Dict[str, Any] = {}
+
+    def _ensure_persona_embeddings(self, persona: str) -> bool:
+        if self._persona_embeddings is not None and persona == self._persona_text:
+            return True
+        tokenizer, model = _get_bert()
+        if tokenizer is None or model is None:
+            return False
+        components = _extract_persona_components(persona or "")
+        embeddings: Dict[str, Any] = {}
+        for key, value in components.items():
+            emb = _get_bert_embedding(value, tokenizer, model)
+            if emb is None:
+                return False
+            embeddings[key] = emb
+        self._persona_text = persona
+        self._persona_embeddings = embeddings
+        return True
+
+    def prior(self, state: State, actions: List[Dict[str, Any]], env: TripCraftEnv) -> List[float]:
+        if not actions:
+            return []
+        tokenizer, model = _get_bert()
+        if tokenizer is None or model is None:
+            return [1.0 / len(actions)] * len(actions)
+        if not self._ensure_persona_embeddings(env.row.persona or ""):
+            return [1.0 / len(actions)] * len(actions)
+
+        from sklearn.metrics.pairwise import cosine_similarity
+
+        scores: List[float] = []
+        for action in actions:
+            if not _is_persona_action(action):
+                scores.append(0.0)
+                continue
+            poi_name = _action_poi_name(action)
+            if not poi_name:
+                scores.append(0.0)
+                continue
+            poi_emb = self._poi_embeddings.get(poi_name)
+            if poi_emb is None:
+                poi_emb = _get_bert_embedding(poi_name, tokenizer, model)
+                if poi_emb is None:
+                    scores.append(0.0)
+                    continue
+                self._poi_embeddings[poi_name] = poi_emb
+            total = 0.0
+            for persona_emb in self._persona_embeddings.values():
+                total += cosine_similarity([persona_emb], [poi_emb])[0][0]
+            scores.append(total / float(len(self._persona_embeddings)))
+
+        max_score = max(scores)
+        exp_scores = [math.exp(s - max_score) for s in scores]
+        total = sum(exp_scores)
+        if total <= 0:
+            return [1.0 / len(actions)] * len(actions)
+        return [v / total for v in exp_scores]
+
+    def value(self, state: State, env: TripCraftEnv) -> float:
+        return 0.0
 
 
 class LLMEndpointGuidance(GuidanceModel):
@@ -214,6 +360,8 @@ class OllamaGuidance(GuidanceModel):
 def build_guidance(cfg: GuidanceConfig) -> GuidanceModel:
     if cfg.mode == "heuristic":
         return HeuristicGuidance()
+    if cfg.mode == "persona":
+        return PersonaGuidance()
     if cfg.mode == "llm":
         endpoint = cfg.endpoint or os.environ.get("TRIPCRAFT_LLM_ENDPOINT")
         if not endpoint:

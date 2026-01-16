@@ -86,7 +86,7 @@ def main() -> None:
     parser.add_argument("--query_model", type=str, default=None)
     parser.add_argument("--query_base_url", type=str, default=None)
     parser.add_argument("--query_timeout", type=float, default=None)
-    parser.add_argument("--guidance", type=str, default="none", choices=["none", "heuristic", "llm", "ollama"])
+    parser.add_argument("--guidance", type=str, default="none", choices=["none", "heuristic", "persona", "llm", "ollama"])
     parser.add_argument("--guidance_endpoint", type=str, default=None)
     parser.add_argument("--guidance_model", type=str, default=None)
     parser.add_argument("--guidance_base_url", type=str, default=None)

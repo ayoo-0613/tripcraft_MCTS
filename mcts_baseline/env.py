@@ -996,8 +996,8 @@ class TripCraftEnv:
             if action["name"] in {draft.breakfast, draft.lunch, draft.dinner}:
                 state.substep += 1
                 return state
-            times = {"breakfast": ("09:20", "10:30"), "lunch": ("14:30", "15:30"), "dinner": ("19:30", "21:00")}
-            start, end = times[meal]
+            # Visit times are assigned later in formatter (LLM or default template).
+            start = end = "00:00"
             setattr(draft, meal, action["name"])
             state.budget_used += self._action_cost(state, action)
             stop, dist = _lookup_transit(stage, action["name"]) if stage else ("UNKNOWN", 99999.0)
@@ -1016,7 +1016,8 @@ class TripCraftEnv:
             if name in draft.attractions:
                 state.substep += 1
                 return state
-            start, end = ("11:30", "13:30") if action["type"] == "add_attraction1" else ("16:30", "18:00")
+            # Visit times are assigned later in formatter (LLM or default template).
+            start = end = "00:00"
             draft.attractions.append(name)
             stop, dist = _lookup_transit(stage, name) if stage else ("UNKNOWN", 99999.0)
             draft.poi_blocks.append(

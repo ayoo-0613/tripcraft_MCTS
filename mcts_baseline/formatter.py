@@ -72,6 +72,34 @@ def _parse_hhmm(value: str) -> Optional[Tuple[int, int]]:
     return None
 
 
+def _needs_time_fill(start: str, end: str) -> bool:
+    if not isinstance(start, str) or not isinstance(end, str):
+        return True
+    if _parse_hhmm(start) is None or _parse_hhmm(end) is None:
+        return True
+    return _to_minutes(end) <= _to_minutes(start)
+
+
+def _default_visit_times(draft: Any) -> Dict[str, Tuple[str, str]]:
+    times: Dict[str, Tuple[str, str]] = {}
+    meal_times = {
+        "breakfast": ("09:20", "10:30"),
+        "lunch": ("14:30", "15:30"),
+        "dinner": ("19:30", "21:00"),
+    }
+    for meal, window in meal_times.items():
+        name = getattr(draft, meal, "-")
+        if name and name != "-":
+            times[name] = window
+    attraction_windows = [("11:30", "13:30"), ("16:30", "18:00")]
+    for idx, name in enumerate(getattr(draft, "attractions", []) or []):
+        if idx >= len(attraction_windows):
+            break
+        if name and name != "-":
+            times[name] = attraction_windows[idx]
+    return times
+
+
 def _find_visit_duration(kb: UnifiedKB, day: int, name: str) -> Optional[float]:
     if not name:
         return None
@@ -100,8 +128,6 @@ def _apply_temporal_guidance(
     draft: Any,
     client: Optional[OllamaClient],
 ) -> None:
-    if client is None:
-        return
     if not getattr(draft, "poi_blocks", None):
         return
 
@@ -116,6 +142,16 @@ def _apply_temporal_guidance(
         if attr and attr != "-":
             name_to_type[attr] = "attraction"
 
+    default_times = _default_visit_times(draft)
+    for block in draft.poi_blocks:
+        if block.kind != "visit":
+            continue
+        window = default_times.get(block.name)
+        if not window:
+            continue
+        if _needs_time_fill(block.start, block.end):
+            block.start, block.end = window
+
     items: List[Dict[str, Any]] = []
     for block in draft.poi_blocks:
         if block.kind != "visit":
@@ -123,11 +159,12 @@ def _apply_temporal_guidance(
         poi_type = name_to_type.get(block.name)
         if not poi_type:
             continue
+        default_start, default_end = default_times.get(block.name, (block.start, block.end))
         payload: Dict[str, Any] = {
             "name": block.name,
             "type": poi_type,
-            "default_start": block.start,
-            "default_end": block.end,
+            "default_start": default_start,
+            "default_end": default_end,
         }
         if poi_type == "attraction":
             visit_duration = _find_visit_duration(kb, day, block.name)
@@ -136,6 +173,8 @@ def _apply_temporal_guidance(
         items.append(payload)
 
     if not items:
+        return
+    if client is None:
         return
 
     state_summary = {

@@ -1,0 +1,75 @@
+==> Evaluating 3-day plan: /Users/hal9000/Documents/Projects/TripCraft/Test_output_llama3.1:8b/outputs/mcts_baseline_3gitday.jsonl
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Delivery Rate: 100.0%
+Commonsense Constraint Micro Pass Rate: 97.12209302325581%
+Commonsense Constraint Macro Pass Rate: 71.80232558139535%
+Hard Constraint Micro Pass Rate: 70.08652657601978%
+Hard Constraint Macro Pass Rate: 65.11627906976744%
+Final Pass Rate: 61.337209302325576%
+------------------
+{'Commonsense Constraint': {'easy': {3: {'Reasonable City Route': {'true': 91, 'false': 0, 'total': 91}, 'Diverse Restaurants': {'true': 91, 'false': 0, 'total': 91}, 'Diverse Attractions': {'true': 91, 'false': 0, 'total': 91}, 'Non-conf. Transportation': {'true': 91, 'false': 0, 'total': 91}, 'No Reapeated Events': {'true': 91, 'false': 0, 'total': 91}, 'Sufficient Time between meals': {'true': 91, 'false': 0, 'total': 91}, 'PoI sequence starts and ends with accommodation': {'true': 86, 'false': 5, 'total': 91}, 'Within Sandbox': {'true': 73, 'false': 18, 'total': 91}, 'Within Current City': {'true': 91, 'false': 0, 'total': 91}, 'Complete Information': {'true': 91, 'false': 0, 'total': 91}}, 5: {}, 7: {}}, 'medium': {3: {'Reasonable City Route': {'true': 124, 'false': 0, 'total': 124}, 'Diverse Restaurants': {'true': 124, 'false': 0, 'total': 124}, 'Diverse Attractions': {'true': 124, 'false': 0, 'total': 124}, 'Non-conf. Transportation': {'true': 124, 'false': 0, 'total': 124}, 'No Reapeated Events': {'true': 124, 'false': 0, 'total': 124}, 'Sufficient Time between meals': {'true': 124, 'false': 0, 'total': 124}, 'PoI sequence starts and ends with accommodation': {'true': 117, 'false': 7, 'total': 124}, 'Within Sandbox': {'true': 100, 'false': 24, 'total': 124}, 'Within Current City': {'true': 124, 'false': 0, 'total': 124}, 'Complete Information': {'true': 124, 'false': 0, 'total': 124}}, 5: {}, 7: {}}, 'hard': {3: {'Reasonable City Route': {'true': 129, 'false': 0, 'total': 129}, 'Diverse Restaurants': {'true': 129, 'false': 0, 'total': 129}, 'Diverse Attractions': {'true': 129, 'false': 0, 'total': 129}, 'Non-conf. Transportation': {'true': 129, 'false': 0, 'total': 129}, 'No Reapeated Events': {'true': 129, 'false': 0, 'total': 129}, 'Sufficient Time between meals': {'true': 129, 'false': 0, 'total': 129}, 'PoI sequence starts and ends with accommodation': {'true': 126, 'false': 3, 'total': 129}, 'Within Sandbox': {'true': 87, 'false': 42, 'total': 129}, 'Within Current City': {'true': 129, 'false': 0, 'total': 129}, 'Complete Information': {'true': 129, 'false': 0, 'total': 129}}, 5: {}, 7: {}}}, 'Hard Constraint': {'easy': {3: {'Cuisine': {'true': 0, 'false': 0}, 'Room Rule': {'true': 0, 'false': 0}, 'Transportation': {'true': 0, 'false': 0}, 'Room Type': {'true': 0, 'false': 0}, 'Attraction Type': {'true': 0, 'false': 0}, 'Event Type': {'true': 0, 'false': 0}, 'Budget': {'true': 73, 'false': 0, 'total': 91}}, 5: {}, 7: {}}, 'medium': {3: {'Cuisine': {'true': 11, 'false': 7, 'total': 25}, 'Room Rule': {'true': 18, 'false': 0, 'total': 25}, 'Transportation': {'true': 4, 'false': 0}, 'Room Type': {'true': 43, 'false': 0, 'total': 49}, 'Attraction Type': {'true': 25, 'false': 0, 'total': 28}, 'Event Type': {'true': 4, 'false': 0, 'total': 5}, 'Budget': {'true': 100, 'false': 0, 'total': 124}}, 5: {}, 7: {}}, 'hard': {3: {'Cuisine': {'true': 17, 'false': 27, 'total': 61}, 'Room Rule': {'true': 56, 'false': 0, 'total': 83}, 'Transportation': {'true': 29, 'false': 0, 'total': 44}, 'Room Type': {'true': 54, 'false': 0, 'total': 75}, 'Attraction Type': {'true': 39, 'false': 0, 'total': 57}, 'Event Type': {'true': 7, 'false': 2, 'total': 13}, 'Budget': {'true': 87, 'false': 0, 'total': 129}}, 5: {}, 7: {}}}}
+------------------
+
+==============================
+
+==> Evaluating 5-day plan: /Users/hal9000/Documents/Projects/TripCraft/Test_output_llama3.1:8b/outputs/mcts_baseline_5gitday.jsonl
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Delivery Rate: 100.0%
+Commonsense Constraint Micro Pass Rate: 97.34567901234567%
+Commonsense Constraint Macro Pass Rate: 73.76543209876543%
+Hard Constraint Micro Pass Rate: 73.69696969696969%
+Hard Constraint Macro Pass Rate: 67.28395061728395%
+Final Pass Rate: 66.0493827160494%
+------------------
+{'Commonsense Constraint': {'easy': {3: {}, 5: {'Reasonable City Route': {'true': 44, 'false': 0, 'total': 44}, 'Diverse Restaurants': {'true': 44, 'false': 0, 'total': 44}, 'Diverse Attractions': {'true': 44, 'false': 0, 'total': 44}, 'Non-conf. Transportation': {'true': 44, 'false': 0, 'total': 44}, 'No Reapeated Events': {'true': 44, 'false': 0, 'total': 44}, 'Sufficient Time between meals': {'true': 44, 'false': 0, 'total': 44}, 'PoI sequence starts and ends with accommodation': {'true': 44, 'false': 0, 'total': 44}, 'Within Sandbox': {'true': 37, 'false': 7, 'total': 44}, 'Within Current City': {'true': 44, 'false': 0, 'total': 44}, 'Complete Information': {'true': 44, 'false': 0, 'total': 44}}, 7: {}}, 'medium': {3: {}, 5: {'Reasonable City Route': {'true': 158, 'false': 0, 'total': 158}, 'Diverse Restaurants': {'true': 158, 'false': 0, 'total': 158}, 'Diverse Attractions': {'true': 158, 'false': 0, 'total': 158}, 'Non-conf. Transportation': {'true': 158, 'false': 0, 'total': 158}, 'No Reapeated Events': {'true': 158, 'false': 0, 'total': 158}, 'Sufficient Time between meals': {'true': 158, 'false': 0, 'total': 158}, 'PoI sequence starts and ends with accommodation': {'true': 153, 'false': 5, 'total': 158}, 'Within Sandbox': {'true': 115, 'false': 43, 'total': 158}, 'Within Current City': {'true': 158, 'false': 0, 'total': 158}, 'Complete Information': {'true': 158, 'false': 0, 'total': 158}}, 7: {}}, 'hard': {3: {}, 5: {'Reasonable City Route': {'true': 122, 'false': 0, 'total': 122}, 'Diverse Restaurants': {'true': 122, 'false': 0, 'total': 122}, 'Diverse Attractions': {'true': 122, 'false': 0, 'total': 122}, 'Non-conf. Transportation': {'true': 122, 'false': 0, 'total': 122}, 'No Reapeated Events': {'true': 122, 'false': 0, 'total': 122}, 'Sufficient Time between meals': {'true': 121, 'false': 1, 'total': 122}, 'PoI sequence starts and ends with accommodation': {'true': 122, 'false': 0, 'total': 122}, 'Within Sandbox': {'true': 92, 'false': 30, 'total': 122}, 'Within Current City': {'true': 122, 'false': 0, 'total': 122}, 'Complete Information': {'true': 122, 'false': 0, 'total': 122}}, 7: {}}}, 'Hard Constraint': {'easy': {3: {}, 5: {'Cuisine': {'true': 0, 'false': 0}, 'Room Rule': {'true': 0, 'false': 0}, 'Transportation': {'true': 0, 'false': 0}, 'Room Type': {'true': 0, 'false': 0}, 'Attraction Type': {'true': 0, 'false': 0}, 'Event Type': {'true': 0, 'false': 0}, 'Budget': {'true': 37, 'false': 0, 'total': 44}}, 7: {}}, 'medium': {3: {}, 5: {'Cuisine': {'true': 14, 'false': 4, 'total': 34}, 'Room Rule': {'true': 29, 'false': 0, 'total': 38}, 'Transportation': {'true': 15, 'false': 0}, 'Room Type': {'true': 48, 'false': 0, 'total': 61}, 'Attraction Type': {'true': 14, 'false': 0, 'total': 22}, 'Event Type': {'true': 3, 'false': 3, 'total': 6}, 'Budget': {'true': 115, 'false': 0, 'total': 158}}, 7: {}}, 'hard': {3: {}, 5: {'Cuisine': {'true': 37, 'false': 11, 'total': 69}, 'Room Rule': {'true': 55, 'false': 1, 'total': 71}, 'Transportation': {'true': 33, 'false': 0, 'total': 42}, 'Room Type': {'true': 69, 'false': 1, 'total': 91}, 'Attraction Type': {'true': 44, 'false': 0, 'total': 57}, 'Event Type': {'true': 3, 'false': 7, 'total': 10}, 'Budget': {'true': 92, 'false': 0, 'total': 122}}, 7: {}}}}
+------------------
+
+==============================
+
+==> Evaluating 7-day plan: /Users/hal9000/Documents/Projects/TripCraft/Test_output_llama3.1:8b/outputs/mcts_baseline_7gitday.jsonl
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+OSM_DistanceMatrix loaded.
+Attractions loaded.
+Events loaded.
+Delivery Rate: 100.0%
+Commonsense Constraint Micro Pass Rate: 97.25903614457832%
+Commonsense Constraint Macro Pass Rate: 74.69879518072288%
+Hard Constraint Micro Pass Rate: 77.42749054224464%
+Hard Constraint Macro Pass Rate: 73.19277108433735%
+Final Pass Rate: 66.26506024096386%
+------------------
+{'Commonsense Constraint': {'easy': {3: {}, 5: {}, 7: {'Reasonable City Route': {'true': 72, 'false': 0, 'total': 72}, 'Diverse Restaurants': {'true': 72, 'false': 0, 'total': 72}, 'Diverse Attractions': {'true': 72, 'false': 0, 'total': 72}, 'Non-conf. Transportation': {'true': 72, 'false': 0, 'total': 72}, 'No Reapeated Events': {'true': 72, 'false': 0, 'total': 72}, 'Sufficient Time between meals': {'true': 72, 'false': 0, 'total': 72}, 'PoI sequence starts and ends with accommodation': {'true': 64, 'false': 8, 'total': 72}, 'Within Sandbox': {'true': 60, 'false': 12, 'total': 72}, 'Within Current City': {'true': 72, 'false': 0, 'total': 72}, 'Complete Information': {'true': 72, 'false': 0, 'total': 72}}}, 'medium': {3: {}, 5: {}, 7: {'Reasonable City Route': {'true': 154, 'false': 1, 'total': 155}, 'Diverse Restaurants': {'true': 155, 'false': 0, 'total': 155}, 'Diverse Attractions': {'true': 155, 'false': 0, 'total': 155}, 'Non-conf. Transportation': {'true': 155, 'false': 0, 'total': 155}, 'No Reapeated Events': {'true': 155, 'false': 0, 'total': 155}, 'Sufficient Time between meals': {'true': 155, 'false': 0, 'total': 155}, 'PoI sequence starts and ends with accommodation': {'true': 138, 'false': 17, 'total': 155}, 'Within Sandbox': {'true': 128, 'false': 27, 'total': 155}, 'Within Current City': {'true': 155, 'false': 0, 'total': 155}, 'Complete Information': {'true': 155, 'false': 0, 'total': 155}}}, 'hard': {3: {}, 5: {}, 7: {'Reasonable City Route': {'true': 105, 'false': 0, 'total': 105}, 'Diverse Restaurants': {'true': 105, 'false': 0, 'total': 105}, 'Diverse Attractions': {'true': 105, 'false': 0, 'total': 105}, 'Non-conf. Transportation': {'true': 105, 'false': 0, 'total': 105}, 'No Reapeated Events': {'true': 105, 'false': 0, 'total': 105}, 'Sufficient Time between meals': {'true': 105, 'false': 0, 'total': 105}, 'PoI sequence starts and ends with accommodation': {'true': 100, 'false': 5, 'total': 105}, 'Within Sandbox': {'true': 84, 'false': 21, 'total': 105}, 'Within Current City': {'true': 105, 'false': 0, 'total': 105}, 'Complete Information': {'true': 105, 'false': 0, 'total': 105}}}}, 'Hard Constraint': {'easy': {3: {}, 5: {}, 7: {'Cuisine': {'true': 0, 'false': 0}, 'Room Rule': {'true': 0, 'false': 0}, 'Transportation': {'true': 0, 'false': 0}, 'Room Type': {'true': 0, 'false': 0}, 'Attraction Type': {'true': 0, 'false': 0}, 'Event Type': {'true': 0, 'false': 0}, 'Budget': {'true': 60, 'false': 0, 'total': 72}}}, 'medium': {3: {}, 5: {}, 7: {'Cuisine': {'true': 23, 'false': 5, 'total': 37}, 'Room Rule': {'true': 21, 'false': 0, 'total': 33}, 'Transportation': {'true': 12, 'false': 0}, 'Room Type': {'true': 35, 'false': 0, 'total': 40}, 'Attraction Type': {'true': 38, 'false': 0, 'total': 46}, 'Event Type': {'true': 11, 'false': 0, 'total': 11}, 'Budget': {'true': 128, 'false': 0, 'total': 155}}}, 'hard': {3: {}, 5: {}, 7: {'Cuisine': {'true': 31, 'false': 13, 'total': 61}, 'Room Rule': {'true': 38, 'false': 0, 'total': 55}, 'Transportation': {'true': 39, 'false': 0, 'total': 50}, 'Room Type': {'true': 37, 'false': 0, 'total': 45}, 'Attraction Type': {'true': 40, 'false': 2, 'total': 52}, 'Event Type': {'true': 17, 'false': 14, 'total': 31}, 'Budget': {'true': 84, 'false': 0, 'total': 105}}}}}
+------------------
+
+==============================
+
