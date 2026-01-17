@@ -368,9 +368,9 @@ def calculate_temporal_score(travel_plan):
                         ]
 
                         score = multivariate_normal.pdf([midpoint, duration], mean=mu, cov=cov)
-                        k = len(mu)  # Dimensionality of the distribution
+                        k_dim = len(mu)  # Dimensionality of the distribution
                         det_cov = np.linalg.det(cov)
-                        max_pdf = 1 / np.sqrt((2 * np.pi) ** k * det_cov)
+                        max_pdf = 1 / np.sqrt((2 * np.pi) ** k_dim * det_cov)
     
                         # Normalize the score
                         normalized_score = score / max_pdf
