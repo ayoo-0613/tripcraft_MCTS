@@ -1,0 +1,59 @@
+{
+  "idx": 127,
+  "stages": [
+    {
+      "city": "Reno",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 28
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Atlanta",
+      "to": "Reno",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F2942666, from Atlanta to Reno, Departure Time: 09:56, Arrival Time: 12:06"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Atlanta",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno"
+    },
+    {
+      "mode": "taxi",
+      "from": "Atlanta",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno"
+    },
+    {
+      "mode": "flight",
+      "from": "Reno",
+      "to": "Atlanta",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F2946739, from Reno to Atlanta, Departure Time: 14:18, Arrival Time: 21:15"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Reno",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Reno to Atlanta, Not feasible to drive from Reno to Atlanta"
+    },
+    {
+      "mode": "taxi",
+      "from": "Reno",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Reno to Atlanta, Not feasible to drive from Reno to Atlanta"
+    }
+  ]
+}

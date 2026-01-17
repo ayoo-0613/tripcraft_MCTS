@@ -1,0 +1,599 @@
+{
+  "idx": 273,
+  "reward": 11.523413177534866,
+  "budget_used": 5997.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Louisville to Baltimore, Duration: 674.3633333333333 mins, Distance: 978.7724000000001 km, Estimated Cost: $978.77",
+      "candidates": [
+        "Flight Number: F0025942, from Louisville to Baltimore, Departure Time: 18:57, Arrival Time: 20:17",
+        "Taxi, from Louisville to Baltimore, Duration: 674.3633333333333 mins, Distance: 978.7724000000001 km, Estimated Cost: $978.77"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Bed next to JHH",
+      "candidates": [
+        "Private Bed next to JHH",
+        "Stunning 1BR Apt. in Historic Row Home w/ Parking",
+        "Guesthouse Bedroom 2/Private Parking - Mt. Vernon",
+        "Gorgeous Studio Apt. In Historic Chapel w/ Parking",
+        "Private ❤️ Love Nest ❤️ Downtown near Inner Harbor",
+        "Luxe Houseboat: Breathtaking Skyline 360 Views",
+        "Private Queen Suite (B) Fells and Hopkins Medical",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Cheerful room near UMB & Convention center, has TV",
+        "Secret Garden in the City"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fogo de Chao Brazilian Steakhouse",
+      "candidates": [
+        "Fogo de Chao Brazilian Steakhouse",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "The Capital Grille",
+        "Phillips Seafood",
+        "Pratt Street Ale House",
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hippodrome Theatre",
+      "candidates": [
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Top of the World Observation Level",
+        "National Aquarium",
+        "Little Italy",
+        "The Walters Art Museum",
+        "The Maryland Zoo",
+        "Inner Harbor",
+        "Peabody Library",
+        "Oriole Park at Camden Yards",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Federal Hill Park",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "Fell's Point",
+        "Horseshoe Casino",
+        "Baltimore Museum of Art",
+        "Sagamore Spirit Distillery",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Miss Shirley's Cafe, Inner Harbor",
+      "candidates": [
+        "Miss Shirley's Cafe, Inner Harbor",
+        "The Capital Grille",
+        "Phillips Seafood",
+        "Pratt Street Ale House",
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Phillips Seafood",
+        "Pratt Street Ale House",
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Bed next to JHH",
+      "candidates": [
+        "Private Bed next to JHH",
+        "Stunning 1BR Apt. in Historic Row Home w/ Parking",
+        "Guesthouse Bedroom 2/Private Parking - Mt. Vernon",
+        "Gorgeous Studio Apt. In Historic Chapel w/ Parking",
+        "Private ❤️ Love Nest ❤️ Downtown near Inner Harbor",
+        "Luxe Houseboat: Breathtaking Skyline 360 Views",
+        "Private Queen Suite (B) Fells and Hopkins Medical",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Cheerful room near UMB & Convention center, has TV",
+        "Secret Garden in the City"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Phillips Seafood",
+      "candidates": [
+        "Phillips Seafood",
+        "Pratt Street Ale House",
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Edgar Allan Poe's Grave Site and Memorial",
+      "candidates": [
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Top of the World Observation Level",
+        "National Aquarium",
+        "Little Italy",
+        "The Walters Art Museum",
+        "The Maryland Zoo",
+        "Inner Harbor",
+        "Peabody Library",
+        "Oriole Park at Camden Yards",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Federal Hill Park",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "Fell's Point",
+        "Horseshoe Casino",
+        "Baltimore Museum of Art",
+        "Sagamore Spirit Distillery",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pratt Street Ale House",
+      "candidates": [
+        "Pratt Street Ale House",
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Amicci's",
+      "candidates": [
+        "Amicci's",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Chiapparelli's Restaurant",
+        "La Tavola",
+        "Sotto Sopra",
+        "The Helmand",
+        "Restaurante Tio Pepe",
+        "Dalesio's of Little Italy Restaurant",
+        "La Scala",
+        "Tagliata",
+        "Rusty Scupper",
+        "Angies Seafood",
+        "Magdalena, A Maryland Bistro",
+        "Cinghiale",
+        "Charleston Restaurant",
+        "One-Eyed Mike's",
+        "Blue Moon Cafe",
+        "Alexander's Tavern",
+        "Twist Fell's Point",
+        "The Abbey Burger Bistro",
+        "Rec Pier Chop House",
+        "Thames Street Oyster House",
+        "CLAVEL",
+        "LP Steamers",
+        "The Food Market",
+        "Mama's On the Half Shell",
+        "Toki Underground Baltimore",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0030669, from Baltimore to Louisville, Departure Time: 08:07, Arrival Time: 09:41",
+      "candidates": [
+        "Flight Number: F0030669, from Baltimore to Louisville, Departure Time: 08:07, Arrival Time: 09:41",
+        "Taxi, from Baltimore to Louisville, Duration: 672.4366666666666 mins, Distance: 981.785 km, Estimated Cost: $981.78"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Louisville to Baltimore",
+      "transportation": "Taxi, from Louisville to Baltimore, Duration: 674.3633333333333 mins, Distance: 978.7724000000001 km, Estimated Cost: $978.77",
+      "accommodation": "Private Bed next to JHH",
+      "breakfast": "Fogo de Chao Brazilian Steakhouse",
+      "attractions": [
+        "Hippodrome Theatre"
+      ],
+      "lunch": "Miss Shirley's Cafe, Inner Harbor",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Fogo de Chao Brazilian Steakhouse",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 282.15
+        },
+        {
+          "name": "Hippodrome Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "LEXINGTON MARKET (METRO) sb",
+          "dist_m": 137.78
+        },
+        {
+          "name": "Miss Shirley's Cafe, Inner Harbor",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 285.29
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 293.21
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "-",
+      "accommodation": "Private Bed next to JHH",
+      "breakfast": "Phillips Seafood",
+      "attractions": [
+        "Edgar Allan Poe's Grave Site and Memorial"
+      ],
+      "lunch": "Pratt Street Ale House",
+      "dinner": "Amicci's",
+      "poi_blocks": [
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Phillips Seafood",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 344.26
+        },
+        {
+          "name": "Edgar Allan Poe's Grave Site and Memorial",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "LEXINGTON MARKET (METRO) sb",
+          "dist_m": 246.16
+        },
+        {
+          "name": "Pratt Street Ale House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "CHARLES CENTER METRO West Entrance",
+          "dist_m": 365.69
+        },
+        {
+          "name": "Amicci's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 440.38
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Baltimore to Louisville",
+      "transportation": "Flight Number: F0030669, from Baltimore to Louisville, Departure Time: 08:07, Arrival Time: 09:41",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "06:37",
+          "end": "07:37",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        }
+      ]
+    }
+  ]
+}

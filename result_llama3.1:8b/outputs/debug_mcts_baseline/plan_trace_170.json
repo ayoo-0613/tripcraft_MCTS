@@ -1,0 +1,593 @@
+{
+  "idx": 170,
+  "reward": 11.179787590389017,
+  "budget_used": 915.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Houston to Hartford, Not feasible to drive from Houston to Hartford",
+      "candidates": [
+        "Flight Number: F0526338, from Houston to Hartford, Departure Time: 18:10, Arrival Time: 22:25",
+        "Taxi, from Houston to Hartford, Not feasible to drive from Houston to Hartford"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+      "candidates": [
+        "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+        "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer",
+        "Private suite in James Colt townhouse",
+        "Loft - Queen Anne Row House in a historic district",
+        "JUSTICE Room @ Lighthouse Hartford - 3rd floor",
+        "Cozy Condo in Heart of Hartford",
+        "Relaxing, Sunny & Cosy.",
+        "The Silhouette in Hartford",
+        "Cozy appartment, Free Parking",
+        "Fresh Air Room #1"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Salute",
+      "candidates": [
+        "Salute",
+        "Sorella Restaurant",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Treva",
+        "Restaurant Bricco",
+        "Harry's Bishops Corner",
+        "Black-Eyed Sally's Southern Kitchen",
+        "Agave Grill",
+        "Max Downtown",
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bushnell Park",
+      "candidates": [
+        "Bushnell Park",
+        "TheaterWorks",
+        "Connecticut State Capitol",
+        "Hartford Stage",
+        "Dunkin' Park",
+        "Bushnell Center for Performing Arts",
+        "Ancient Burying Ground",
+        "Connecticut's Old State House",
+        "Wadsworth Atheneum Museum of Art",
+        "Infinity Music Hall & Bistro",
+        "Connecticut Convention Center",
+        "The Mark Twain House & Museum",
+        "Elizabeth Park",
+        "Cedar Hill Cemetery",
+        "Mission Escape Games",
+        "West Hartford Reservoir",
+        "Wisconsin Auto Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Black-Eyed Sally's Southern Kitchen",
+      "candidates": [
+        "Black-Eyed Sally's Southern Kitchen",
+        "Agave Grill",
+        "Max Downtown",
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "Sorella Restaurant",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Treva",
+        "Restaurant Bricco",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Harry's Bishops Corner",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Agave Grill",
+      "candidates": [
+        "Agave Grill",
+        "Max Downtown",
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "Sorella Restaurant",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Treva",
+        "Restaurant Bricco",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Harry's Bishops Corner",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+      "candidates": [
+        "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+        "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer",
+        "Private suite in James Colt townhouse",
+        "Loft - Queen Anne Row House in a historic district",
+        "JUSTICE Room @ Lighthouse Hartford - 3rd floor",
+        "Cozy Condo in Heart of Hartford",
+        "Relaxing, Sunny & Cosy.",
+        "The Silhouette in Hartford",
+        "Cozy appartment, Free Parking",
+        "Fresh Air Room #1"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sorella Restaurant",
+      "candidates": [
+        "Sorella Restaurant",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Treva",
+        "Restaurant Bricco",
+        "Harry's Bishops Corner",
+        "Max Downtown",
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "TheaterWorks",
+      "candidates": [
+        "TheaterWorks",
+        "Connecticut State Capitol",
+        "Hartford Stage",
+        "Dunkin' Park",
+        "Bushnell Center for Performing Arts",
+        "Ancient Burying Ground",
+        "Connecticut's Old State House",
+        "Wadsworth Atheneum Museum of Art",
+        "Infinity Music Hall & Bistro",
+        "Connecticut Convention Center",
+        "The Mark Twain House & Museum",
+        "Elizabeth Park",
+        "Cedar Hill Cemetery",
+        "Mission Escape Games",
+        "West Hartford Reservoir",
+        "Wisconsin Auto Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Max Downtown",
+      "candidates": [
+        "Max Downtown",
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Treva",
+        "Restaurant Bricco",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Harry's Bishops Corner",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Trumbull Kitchen",
+      "candidates": [
+        "Trumbull Kitchen",
+        "Feng Chophouse",
+        "Vaughan's Public House",
+        "The Capital Grille",
+        "Vivo Seasonal Trattoria",
+        "Bear's Smokehouse BBQ",
+        "J Restaurant Bar",
+        "Angelina's Pizza",
+        "Vinted Wine Bar",
+        "Arugula Bistro & Bar",
+        "Max's Oyster Bar",
+        "The Blue Elephant Trail",
+        "bartaco",
+        "Barcelona Wine Bar",
+        "Treva",
+        "Restaurant Bricco",
+        "Hartford Baking Company",
+        "Zohara Mediterranean Kitchen",
+        "Coracora",
+        "Harry's Bishops Corner",
+        "Hartford Road Cafe",
+        "New Hartford Diner",
+        "Wissota Chophouse - Hartford",
+        "Perc Place",
+        "Scoop Deville",
+        "Hartford Coffee Co.",
+        "Hartford Steak Co Tavern",
+        "Chime Hartford",
+        "Hartford Mill",
+        "Hartford House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0523993, from Hartford to Houston, Departure Time: 07:51, Arrival Time: 10:45",
+      "candidates": [
+        "Flight Number: F0523993, from Hartford to Houston, Departure Time: 07:51, Arrival Time: 10:45",
+        "Taxi, from Hartford to Houston, Not feasible to drive from Hartford to Houston"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Houston to Hartford",
+      "transportation": "Taxi, from Houston to Hartford, Not feasible to drive from Houston to Hartford",
+      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+      "breakfast": "Salute",
+      "attractions": [
+        "Bushnell Park"
+      ],
+      "lunch": "Black-Eyed Sally's Southern Kitchen",
+      "dinner": "Agave Grill",
+      "poi_blocks": [
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        },
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        },
+        {
+          "name": "Salute",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Hartford",
+          "dist_m": 599.22
+        },
+        {
+          "name": "Bushnell Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Hartford",
+          "dist_m": 407.05
+        },
+        {
+          "name": "Black-Eyed Sally's Southern Kitchen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hartford",
+          "dist_m": 224.35
+        },
+        {
+          "name": "Agave Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 315.85
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Hartford to Hartford",
+      "transportation": "-",
+      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+      "breakfast": "Sorella Restaurant",
+      "attractions": [
+        "TheaterWorks"
+      ],
+      "lunch": "Max Downtown",
+      "dinner": "Trumbull Kitchen",
+      "poi_blocks": [
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        },
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        },
+        {
+          "name": "Sorella Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Hartford",
+          "dist_m": 715.73
+        },
+        {
+          "name": "TheaterWorks",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Hartford",
+          "dist_m": 426.41
+        },
+        {
+          "name": "Max Downtown",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hartford",
+          "dist_m": 465.48
+        },
+        {
+          "name": "Trumbull Kitchen",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 569.08
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Hartford to Houston",
+      "transportation": "Flight Number: F0523993, from Hartford to Houston, Departure Time: 07:51, Arrival Time: 10:45",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "06:21",
+          "end": "07:21",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        },
+        {
+          "name": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Hartford",
+          "dist_m": 822.77
+        }
+      ]
+    }
+  ]
+}

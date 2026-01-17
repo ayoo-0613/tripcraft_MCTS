@@ -1,0 +1,65 @@
+{
+  "idx": 112,
+  "JSON": {
+    "org": "Milwaukee",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-12",
+      "2024-11-13",
+      "2024-11-14"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "children under 10",
+      "cuisine": null,
+      "room type": "not shared room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2400.0,
+    "query": "Plan a 3-day trip for 2 people traveling from Milwaukee to Seattle from November 12th to November 14th, 2024, with a budget of $2,400. Accommodations should be in a non-shared room, and transportation should not involve self-driving. Note that the house rule restricts children under 10.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Milwaukee to Seattle",
+      "transportation": "Taxi, from Milwaukee to Seattle, Not feasible to drive from Milwaukee to Seattle",
+      "breakfast": "Wild Ginger, Seattle",
+      "attraction": "Washington State Ferries, Seattle",
+      "lunch": "All Water Seafood & Oyster Bar, Seattle",
+      "dinner": "Lola, Seattle",
+      "accommodation": "2-King Executive Penthouse Near Pike & Waterfront, Seattle",
+      "event": "-",
+      "point_of_interest_list": "2-King Executive Penthouse Near Pike & Waterfront, stay from 08:00 to 09:00, nearest transit: 2nd Ave & Pike St, 194.14m away; Wild Ginger, visit from 09:25 to 10:16, nearest transit: 3rd Ave & Pike St, 13.86m away; Washington State Ferries, visit from 11:30 to 13:50, nearest transit: Denny Way & 2nd Ave N, 14.59m away; All Water Seafood & Oyster Bar, visit from 13:57 to 14:56, nearest transit: 1st Ave & Spring St, 19.43m away; Lola, visit from 19:51 to 21:00, nearest transit: Virginia St & 4th Ave, 26.10m away; 2-King Executive Penthouse Near Pike & Waterfront, stay from 22:15 to 08:00, nearest transit: 2nd Ave & Pike St, 194.14m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Dough Zone Dumpling House - Seattle International District, Seattle",
+      "attraction": "Sky View Observatory, Seattle",
+      "lunch": "The Butcher's Table, Seattle",
+      "dinner": "Toulouse Petit Kitchen & Lounge, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Dough Zone Dumpling House - Seattle International District, visit from 09:25 to 10:16, nearest transit: 5th Ave S & S Weller St, 26.54m away; Sky View Observatory, visit from 11:30 to 15:20, nearest transit: 4th Ave & Cherry St, 20.75m away; The Butcher's Table, visit from 13:57 to 14:56, nearest transit: Westlake & 9th-Denny, 32.31m away; Toulouse Petit Kitchen & Lounge, visit from 19:51 to 21:00, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to Milwaukee",
+      "transportation": "Taxi, from Seattle to Milwaukee, Not feasible to drive from Seattle to Milwaukee",
+      "breakfast": "Barolo Ristorante, Seattle",
+      "attraction": "Seattle Public Library, Seattle",
+      "lunch": "Metropolitan Grill, Seattle",
+      "dinner": "The Capital Grille, Seattle",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Barolo Ristorante, visit from 09:25 to 10:16, nearest transit: Westlake And 7th, 37.77m away; Seattle Public Library, visit from 11:30 to 14:20, nearest transit: 5th Ave & Spring St, 34.42m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: 4th Ave & University, 41.04m away."
+    }
+  ]
+}

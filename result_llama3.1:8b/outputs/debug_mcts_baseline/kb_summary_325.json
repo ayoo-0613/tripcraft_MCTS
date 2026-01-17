@@ -1,0 +1,59 @@
+{
+  "idx": 325,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Charleston",
+      "to": "Houston",
+      "date": "2024-11-18",
+      "raw": "Flight Number: F0095237, from Charleston to Houston, Departure Time: 15:25, Arrival Time: 16:56"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charleston",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Charleston to Houston, Duration: 1209.63 mins, Distance: 1714.4841999999999 km, Estimated Cost: $85.72"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charleston",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Charleston to Houston, Duration: 1209.63 mins, Distance: 1714.4841999999999 km, Estimated Cost: $1714.48"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0022957, from Houston to Charleston, Departure Time: 11:21, Arrival Time: 14:26"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Self-driving, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $85.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Taxi, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $1713.14"
+    }
+  ]
+}

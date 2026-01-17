@@ -1,0 +1,625 @@
+{
+  "idx": 259,
+  "reward": 13.018945794159885,
+  "budget_used": 1011.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle",
+      "candidates": [
+        "Flight Number: F0244132, from El Paso to Seattle, Departure Time: 20:08, Arrival Time: 23:15",
+        "Taxi, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private mother-in-law studio apartment.",
+      "candidates": [
+        "Private mother-in-law studio apartment.",
+        "Stylish Daylight Basement Apartment",
+        "Queen Anne Courtyard Suite",
+        "At Mine - Studio Apartment In Seattle.",
+        "Private Room in Townhome near Capitol Hill",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Cozy room near UW",
+        "At Mine - Prime Apartment in Seattle Downtown",
+        "Room#2 Seattle Spruce Street BnB",
+        "Inviting heart of Seattle hidaway"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Metropolitan Grill",
+      "candidates": [
+        "Wild Ginger",
+        "All Water Seafood & Oyster Bar",
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "Metropolitan Grill",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Washington State Ferries",
+      "candidates": [
+        "Washington State Ferries",
+        "Sky View Observatory",
+        "Seattle Public Library",
+        "Museum of Pop Culture",
+        "Chihuly Garden and Glass",
+        "Seattle Center",
+        "The Museum of Flight",
+        "Space Needle",
+        "Kubota Garden",
+        "Klondike Gold Rush National Historical Park",
+        "T-Mobile Park",
+        "Pike Place Market",
+        "Kerry Park",
+        "Hiram M. Chittenden Locks",
+        "Woodland Park Zoo",
+        "Seattle Aquarium",
+        "Seattle Great Wheel",
+        "Washington Park Arboretum",
+        "Discovery Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Wild Ginger",
+      "candidates": [
+        "Wild Ginger",
+        "All Water Seafood & Oyster Bar",
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "All Water Seafood & Oyster Bar",
+      "candidates": [
+        "All Water Seafood & Oyster Bar",
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private mother-in-law studio apartment.",
+      "candidates": [
+        "Private mother-in-law studio apartment.",
+        "Stylish Daylight Basement Apartment",
+        "Queen Anne Courtyard Suite",
+        "At Mine - Studio Apartment In Seattle.",
+        "Private Room in Townhome near Capitol Hill",
+        "Tiny House | Parking | PetsOK | KeylessLock | Deck",
+        "Cozy room near UW",
+        "At Mine - Prime Apartment in Seattle Downtown",
+        "Room#2 Seattle Spruce Street BnB",
+        "Inviting heart of Seattle hidaway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lola",
+      "candidates": [
+        "Lola",
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Sky View Observatory",
+      "candidates": [
+        "Sky View Observatory",
+        "Seattle Public Library",
+        "Museum of Pop Culture",
+        "Chihuly Garden and Glass",
+        "Seattle Center",
+        "The Museum of Flight",
+        "Space Needle",
+        "Kubota Garden",
+        "Klondike Gold Rush National Historical Park",
+        "T-Mobile Park",
+        "Pike Place Market",
+        "Kerry Park",
+        "Hiram M. Chittenden Locks",
+        "Woodland Park Zoo",
+        "Seattle Aquarium",
+        "Seattle Great Wheel",
+        "Washington Park Arboretum",
+        "Discovery Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Dough Zone Dumpling House - Seattle International District",
+      "candidates": [
+        "Dough Zone Dumpling House - Seattle International District",
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Butcher's Table",
+      "candidates": [
+        "The Butcher's Table",
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0245421, from Seattle to El Paso, Departure Time: 13:21, Arrival Time: 17:22",
+      "candidates": [
+        "Flight Number: F0245421, from Seattle to El Paso, Departure Time: 13:21, Arrival Time: 17:22",
+        "Taxi, from Seattle to El Paso, Not feasible to drive from Seattle to El Paso"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Toulouse Petit Kitchen & Lounge",
+      "candidates": [
+        "Toulouse Petit Kitchen & Lounge",
+        "Barolo Ristorante",
+        "The Capital Grille",
+        "JaK's Grill",
+        "Assaggio Ristorante",
+        "Tulio",
+        "Tilikum Place Cafe",
+        "Chan Seattle",
+        "Purple Cafe and Wine Bar",
+        "Canlis Restaurant",
+        "Spinasse",
+        "Rocco's",
+        "Duke's Seafood South Lake Union",
+        "Il Terrazzo Carmine",
+        "Bacco Cafe",
+        "13 Coins Restaurant",
+        "The Pike Pub and Brewery",
+        "Chinook's",
+        "Can Can Culinary Cabaret",
+        "Salty's On Alki Beach",
+        "Place Pigalle Restaurant and Bar",
+        "Matt's in the Market",
+        "Vons 1000 Spirits",
+        "The Pink Door",
+        "Noi Thai Cuisine",
+        "El Gaucho Seattle",
+        "The Walrus and the Carpenter",
+        "The Crab Pot Seafood Restaurant",
+        "Six Seven Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from El Paso to Seattle",
+      "transportation": "Taxi, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle",
+      "accommodation": "Private mother-in-law studio apartment.",
+      "breakfast": "Metropolitan Grill",
+      "attractions": [
+        "Washington State Ferries"
+      ],
+      "lunch": "Wild Ginger",
+      "dinner": "All Water Seafood & Oyster Bar",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Metropolitan Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "2nd Ave & Marion St",
+          "dist_m": 39.95
+        },
+        {
+          "name": "Washington State Ferries",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Denny Way & 2nd Ave N",
+          "dist_m": 14.59
+        },
+        {
+          "name": "Wild Ginger",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "3rd Ave & Pike St",
+          "dist_m": 13.86
+        },
+        {
+          "name": "All Water Seafood & Oyster Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "1st Ave & Spring St",
+          "dist_m": 19.43
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "-",
+      "accommodation": "Private mother-in-law studio apartment.",
+      "breakfast": "Lola",
+      "attractions": [
+        "Sky View Observatory"
+      ],
+      "lunch": "Dough Zone Dumpling House - Seattle International District",
+      "dinner": "The Butcher's Table",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Lola",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Virginia St & 4th Ave",
+          "dist_m": 26.1
+        },
+        {
+          "name": "Sky View Observatory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "4th Ave & Cherry St",
+          "dist_m": 20.75
+        },
+        {
+          "name": "Dough Zone Dumpling House - Seattle International District",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5th Ave S & S Weller St",
+          "dist_m": 26.54
+        },
+        {
+          "name": "The Butcher's Table",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westlake & 9th-Denny",
+          "dist_m": 32.31
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Seattle to El Paso",
+      "transportation": "Flight Number: F0245421, from Seattle to El Paso, Departure Time: 13:21, Arrival Time: 17:22",
+      "accommodation": "-",
+      "breakfast": "Toulouse Petit Kitchen & Lounge",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private mother-in-law studio apartment.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "28th Ave W & W Dravus St",
+          "dist_m": 12.67
+        },
+        {
+          "name": "Toulouse Petit Kitchen & Lounge",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Mercer St & Queen Anne Ave N",
+          "dist_m": 32.36
+        }
+      ]
+    }
+  ]
+}

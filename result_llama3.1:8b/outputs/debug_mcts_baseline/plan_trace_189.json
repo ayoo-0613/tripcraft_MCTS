@@ -1,0 +1,648 @@
+{
+  "idx": 189,
+  "reward": 14.021689229249011,
+  "budget_used": 3588.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88",
+      "candidates": [
+        "Flight Number: F0327993, from Detroit to Charleston, Departure Time: 10:13, Arrival Time: 11:59",
+        "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Stylish Loft Historic Downtown Charleston Condo",
+      "candidates": [
+        "Charleston's Most Charming Historic Inn",
+        "Lodge Alley Inn Steps to Charleston Harbor -Studio",
+        "Entire House One Block from King Street",
+        "Dianna Browns Place | Historic District",
+        "Charleston Gem with parking! Close to King St!",
+        "Stylish Loft Historic Downtown Charleston Condo",
+        "86 Church Street kitchen house",
+        "Studio on the Alley in The Jacobson Building",
+        "Historic B&B Veranda King Suite Walk to King",
+        "Nest Meets West"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Frannie & The Fox",
+      "candidates": [
+        "Frannie & The Fox",
+        "Virginia's on King",
+        "Stella's",
+        "Eli's Table",
+        "The Ordinary",
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Black Fedora Comedy Mystery Theatre",
+      "candidates": [
+        "The Black Fedora Comedy Mystery Theatre"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Virginia's on King",
+      "candidates": [
+        "Virginia's on King",
+        "Stella's",
+        "Eli's Table",
+        "The Ordinary",
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Stella's",
+      "candidates": [
+        "Stella's",
+        "Eli's Table",
+        "The Ordinary",
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charleston's Most Charming Historic Inn",
+      "candidates": [
+        "Charleston's Most Charming Historic Inn",
+        "Lodge Alley Inn Steps to Charleston Harbor -Studio",
+        "Entire House One Block from King Street",
+        "Dianna Browns Place | Historic District",
+        "Charleston Gem with parking! Close to King St!",
+        "Stylish Loft Historic Downtown Charleston Condo",
+        "86 Church Street kitchen house",
+        "Studio on the Alley in The Jacobson Building",
+        "Historic B&B Veranda King Suite Walk to King",
+        "Nest Meets West"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Eli's Table",
+      "candidates": [
+        "Eli's Table",
+        "The Ordinary",
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Ordinary",
+      "candidates": [
+        "The Ordinary",
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "167 Raw Oyster Bar",
+      "candidates": [
+        "167 Raw Oyster Bar",
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Charleston to Detroit",
+      "candidates": [
+        "Transfer, from Charleston to Detroit"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Peninsula Grill",
+      "candidates": [
+        "Peninsula Grill",
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "FIG",
+      "candidates": [
+        "FIG",
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Charleston Grill",
+      "candidates": [
+        "Charleston Grill",
+        "Revival",
+        "Swamp Fox Restaurant",
+        "Hyman's Seafood",
+        "82 Queen",
+        "The Rooftop at the Vendue",
+        "Burwell's Stone Fire Grill",
+        "The Palmetto Cafe",
+        "Amen Street Fish & Raw Bar",
+        "Poogan's Porch",
+        "Magnolias",
+        "Church and Union Charleston",
+        "Fleet Landing Restaurant",
+        "Husk Restaurant",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "Slightly North of Broad",
+        "High Cotton Charleston",
+        "Coast Bar & Grill",
+        "Oak Steakhouse",
+        "Charleston Crab House-Market Street",
+        "Toast! All Day",
+        "Halls Chophouse Charleston",
+        "Lewis Barbecue Charleston",
+        "Hank's Seafood Restaurant",
+        "Gingerline",
+        "Chubby Fish",
+        "Circa 1886 Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Detroit to Charleston",
+      "transportation": "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88",
+      "accommodation": "Stylish Loft Historic Downtown Charleston Condo",
+      "breakfast": "Frannie & The Fox",
+      "attractions": [
+        "The Black Fedora Comedy Mystery Theatre"
+      ],
+      "lunch": "Virginia's on King",
+      "dinner": "Stella's",
+      "poi_blocks": [
+        {
+          "name": "Stylish Loft Historic Downtown Charleston Condo",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East Bay St / Vendue Range",
+          "dist_m": 94.2
+        },
+        {
+          "name": "Stylish Loft Historic Downtown Charleston Condo",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "East Bay St / Vendue Range",
+          "dist_m": 94.2
+        },
+        {
+          "name": "Frannie & The Fox",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Market St / Meeting St",
+          "dist_m": 124.64
+        },
+        {
+          "name": "The Black Fedora Comedy Mystery Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Market St / Meeting St",
+          "dist_m": 164.21
+        },
+        {
+          "name": "Virginia's on King",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "King St / Vanderhorst St",
+          "dist_m": 13.91
+        },
+        {
+          "name": "Stella's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Warren St / St Philip St",
+          "dist_m": 16.55
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Charleston to Charleston",
+      "transportation": "-",
+      "accommodation": "Charleston's Most Charming Historic Inn",
+      "breakfast": "Eli's Table",
+      "attractions": [],
+      "lunch": "The Ordinary",
+      "dinner": "167 Raw Oyster Bar",
+      "poi_blocks": [
+        {
+          "name": "Charleston's Most Charming Historic Inn",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Meeting St / Broad St",
+          "dist_m": 34.44
+        },
+        {
+          "name": "Charleston's Most Charming Historic Inn",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Meeting St / Broad St",
+          "dist_m": 34.44
+        },
+        {
+          "name": "Eli's Table",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Meeting St / Queen St",
+          "dist_m": 19.72
+        },
+        {
+          "name": "The Ordinary",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "King St / Cannon St",
+          "dist_m": 22.53
+        },
+        {
+          "name": "167 Raw Oyster Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "King St / Clifford St",
+          "dist_m": 22.69
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Charleston to Detroit",
+      "transportation": "Transfer, from Charleston to Detroit",
+      "accommodation": "-",
+      "breakfast": "Peninsula Grill",
+      "attractions": [],
+      "lunch": "FIG",
+      "dinner": "Charleston Grill",
+      "poi_blocks": [
+        {
+          "name": "Charleston's Most Charming Historic Inn",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Meeting St / Broad St",
+          "dist_m": 34.44
+        },
+        {
+          "name": "Peninsula Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Market St / Meeting St",
+          "dist_m": 23.88
+        },
+        {
+          "name": "FIG",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Meeting St / Hasell St",
+          "dist_m": 35.3
+        },
+        {
+          "name": "Charleston Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "King St / Market St",
+          "dist_m": 36.1
+        }
+      ]
+    }
+  ]
+}

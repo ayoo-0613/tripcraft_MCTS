@@ -1,0 +1,65 @@
+{
+  "idx": 197,
+  "JSON": {
+    "org": "Washington",
+    "dest": "Hartford",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": "Nature & Parks"
+    },
+    "budget": 1550.0,
+    "query": "Plan a 3-day trip for 2 people from Washington to Hartford from November 10th to November 12th, 2024, with a budget of $1,550. Accommodations should be an entire home and must allow pets. Include visits to Nature & Parks attractions.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Washington to Hartford",
+      "transportation": "Taxi, from Washington to Hartford, Duration: 426.48833333333334 mins, Distance: 540.9555 km, Estimated Cost: $540.96",
+      "breakfast": "Black-Eyed Sally's Southern Kitchen, Hartford",
+      "attraction": "Bushnell Park, Hartford",
+      "lunch": "Agave Grill, Hartford",
+      "dinner": "Max Downtown, Hartford",
+      "accommodation": "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, Hartford",
+      "event": "-",
+      "point_of_interest_list": "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, stay from 08:00 to 09:00, nearest transit: Hartford, 876.05m away; Black-Eyed Sally's Southern Kitchen, visit from 09:25 to 10:16, nearest transit: Hartford, 224.35m away; Bushnell Park, visit from 11:30 to 16:35, nearest transit: Hartford, 407.05m away; Agave Grill, visit from 13:57 to 14:56, nearest transit: Hartford, 315.85m away; Max Downtown, visit from 19:51 to 21:00, nearest transit: Hartford, 465.48m away; Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, stay from 22:15 to 08:00, nearest transit: Hartford, 876.05m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Hartford to Hartford",
+      "transportation": "Transfer, from Hartford to Hartford",
+      "breakfast": "Trumbull Kitchen, Hartford",
+      "attraction": "Elizabeth Park, Hartford",
+      "lunch": "Feng Chophouse, Hartford",
+      "dinner": "Salute, Hartford",
+      "accommodation": "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, Hartford",
+      "event": "-",
+      "point_of_interest_list": "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, stay from 08:00 to 09:00, nearest transit: Hartford, 876.05m away; Trumbull Kitchen, visit from 09:25 to 10:16, nearest transit: Hartford, 569.08m away; Elizabeth Park, visit from 11:30 to 16:35, nearest transit: Hartford, 3194.21m away; Feng Chophouse, visit from 13:57 to 14:56, nearest transit: Hartford, 591.36m away; Salute, visit from 19:51 to 21:00, nearest transit: Hartford, 599.22m away; Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, stay from 22:15 to 08:00, nearest transit: Hartford, 876.05m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Hartford to Washington",
+      "transportation": "Transfer, from Hartford to Washington",
+      "breakfast": "Vaughan's Public House, Hartford",
+      "attraction": "West Hartford Reservoir, Hartford",
+      "lunch": "Sorella Restaurant, Hartford",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Comfortable 1-BR Condo|BushnellPark|Washer/Dryer, stay from 08:00 to 09:00, nearest transit: Hartford, 876.05m away; Vaughan's Public House, visit from 09:25 to 10:16, nearest transit: Hartford, 623.45m away; West Hartford Reservoir, visit from 11:30 to 16:35, nearest transit: Hartford, 8536.03m away; Sorella Restaurant, visit from 13:57 to 14:56, nearest transit: Hartford, 715.73m away."
+    }
+  ]
+}

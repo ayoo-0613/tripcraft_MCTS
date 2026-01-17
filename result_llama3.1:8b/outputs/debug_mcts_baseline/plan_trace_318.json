@@ -1,0 +1,638 @@
+{
+  "idx": 318,
+  "reward": 14.809453105624144,
+  "budget_used": 892.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
+      "candidates": [
+        "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50",
+        "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+      "candidates": [
+        "Entire Basement Bdrm w/kitchen & Private Bathroom",
+        "Near Airport Free Parking Private Clean Bedrm #1",
+        "Cozy Retreat not shared main floor 2nd picture",
+        "Waterfront Coach House Loft",
+        "Spacious Room/Downtown/Vegan Friendly",
+        "Cozy space in one of Toronto's best neighbourhoods",
+        "Comfy & Clean Room - Little Italy :)",
+        "3rd floor-Amsterdam Room",
+        "Cozy, clean studio near Beach, Danforth & Downtown",
+        "Japanese Inspired Single Room"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The WORKS Craft Burgers & Beer",
+      "candidates": [
+        "The WORKS Craft Burgers & Beer",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Cafe Andreou",
+        "Sunset Grill",
+        "Kingswood Restaurant",
+        "Sammy's Rec Room",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Speekezzies Cafe & Wine Bar",
+        "Beijing Restaurant",
+        "Zaza's Pizzzeria",
+        "St. Louis Bar & Grill",
+        "Sociable Kitchen & Tavern",
+        "Gran Sasso Restaurant",
+        "Duke on Park",
+        "Angel's Diner",
+        "Luciani's Pizza",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Al Dente Pizza Pasta Grill",
+        "The Olde School Restaurant",
+        "Nine North Viet-Thai Cuisine",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Shanghai Restaurant",
+        "The Golden Teapot",
+        "Yong Great Wall Buffet",
+        "Blessings Eatery",
+        "Sai Thai Kitchen",
+        "China King Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "CN Tower",
+      "candidates": [
+        "CN Tower",
+        "Rogers Centre",
+        "Skylon Tower",
+        "Distillery Historic District",
+        "Niagara Falls Canada",
+        "Casa Loma",
+        "Parliament Hill and Buildings"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cafe Andreou",
+      "candidates": [
+        "Cafe Andreou",
+        "Sunset Grill",
+        "Kingswood Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zaza's Pizzzeria",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Luciani's Pizza",
+        "Al Dente Pizza Pasta Grill",
+        "Nine North Viet-Thai Cuisine",
+        "Hudson Public Kitchen + Bar",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "On The Lam Restaurant",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Sammy's Rec Room",
+        "Shanghai Restaurant",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Beijing Restaurant",
+        "St. Louis Bar & Grill",
+        "The Golden Teapot",
+        "Sociable Kitchen & Tavern",
+        "Yong Great Wall Buffet",
+        "Duke on Park",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Blessings Eatery",
+        "Sai Thai Kitchen",
+        "China King Restaurant",
+        "The Olde School Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Rogers Centre",
+      "candidates": [
+        "Rogers Centre",
+        "Skylon Tower",
+        "Distillery Historic District",
+        "Niagara Falls Canada",
+        "Casa Loma",
+        "Parliament Hill and Buildings"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sunset Grill",
+      "candidates": [
+        "Sunset Grill",
+        "Kingswood Restaurant",
+        "Angel's Diner",
+        "Nine North Viet-Thai Cuisine",
+        "Hudson Public Kitchen + Bar",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "On The Lam Restaurant",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Sammy's Rec Room",
+        "Shanghai Restaurant",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Speekezzies Cafe & Wine Bar",
+        "Beijing Restaurant",
+        "Zaza's Pizzzeria",
+        "St. Louis Bar & Grill",
+        "The Golden Teapot",
+        "Sociable Kitchen & Tavern",
+        "Yong Great Wall Buffet",
+        "Gran Sasso Restaurant",
+        "Duke on Park",
+        "Luciani's Pizza",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Blessings Eatery",
+        "Al Dente Pizza Pasta Grill",
+        "Sai Thai Kitchen",
+        "China King Restaurant",
+        "The Olde School Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+      "candidates": [
+        "Entire Basement Bdrm w/kitchen & Private Bathroom",
+        "Near Airport Free Parking Private Clean Bedrm #1",
+        "Cozy Retreat not shared main floor 2nd picture",
+        "Waterfront Coach House Loft",
+        "Spacious Room/Downtown/Vegan Friendly",
+        "Cozy space in one of Toronto's best neighbourhoods",
+        "Comfy & Clean Room - Little Italy :)",
+        "3rd floor-Amsterdam Room",
+        "Cozy, clean studio near Beach, Danforth & Downtown",
+        "Japanese Inspired Single Room"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hudson Public Kitchen + Bar",
+      "candidates": [
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Kingswood Restaurant",
+        "Sammy's Rec Room",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Speekezzies Cafe & Wine Bar",
+        "Beijing Restaurant",
+        "Zaza's Pizzzeria",
+        "St. Louis Bar & Grill",
+        "Sociable Kitchen & Tavern",
+        "Gran Sasso Restaurant",
+        "Duke on Park",
+        "Angel's Diner",
+        "Luciani's Pizza",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Al Dente Pizza Pasta Grill",
+        "The Olde School Restaurant",
+        "Nine North Viet-Thai Cuisine",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Shanghai Restaurant",
+        "The Golden Teapot",
+        "Yong Great Wall Buffet",
+        "Blessings Eatery",
+        "Sai Thai Kitchen",
+        "China King Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Skylon Tower",
+      "candidates": [
+        "Skylon Tower",
+        "Distillery Historic District",
+        "Niagara Falls Canada",
+        "Casa Loma",
+        "Parliament Hill and Buildings"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Kingswood Restaurant",
+      "candidates": [
+        "Kingswood Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zaza's Pizzzeria",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Luciani's Pizza",
+        "Al Dente Pizza Pasta Grill",
+        "Nine North Viet-Thai Cuisine",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "On The Lam Restaurant",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Sammy's Rec Room",
+        "Shanghai Restaurant",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Beijing Restaurant",
+        "St. Louis Bar & Grill",
+        "The Golden Teapot",
+        "Sociable Kitchen & Tavern",
+        "Yong Great Wall Buffet",
+        "Duke on Park",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Blessings Eatery",
+        "Sai Thai Kitchen",
+        "China King Restaurant",
+        "The Olde School Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Distillery Historic District",
+      "candidates": [
+        "Distillery Historic District",
+        "Niagara Falls Canada",
+        "Casa Loma",
+        "Parliament Hill and Buildings"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Speekezzies Cafe & Wine Bar",
+      "candidates": [
+        "Speekezzies Cafe & Wine Bar",
+        "Zaza's Pizzzeria",
+        "Gran Sasso Restaurant",
+        "Luciani's Pizza",
+        "Al Dente Pizza Pasta Grill",
+        "Nine North Viet-Thai Cuisine",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "On The Lam Restaurant",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Sammy's Rec Room",
+        "Shanghai Restaurant",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Beijing Restaurant",
+        "St. Louis Bar & Grill",
+        "The Golden Teapot",
+        "Sociable Kitchen & Tavern",
+        "Yong Great Wall Buffet",
+        "Duke on Park",
+        "Angel's Diner",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Blessings Eatery",
+        "Sai Thai Kitchen",
+        "China King Restaurant",
+        "The Olde School Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+      "candidates": [
+        "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+        "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Nine North Viet-Thai Cuisine",
+      "candidates": [
+        "Nine North Viet-Thai Cuisine",
+        "Joy Sushi",
+        "Taal Fine Indian Cuisine",
+        "On The Lam Restaurant",
+        "Jumbo Dragon Chinese Restaurant",
+        "Healthy Rabbit",
+        "The Everest Grill",
+        "Sammy's Rec Room",
+        "Shanghai Restaurant",
+        "Crazy Canuck Smokehouse",
+        "The Keg Steakhouse + Bar - Brantford",
+        "Beijing Restaurant",
+        "Zaza's Pizzzeria",
+        "St. Louis Bar & Grill",
+        "The Golden Teapot",
+        "Sociable Kitchen & Tavern",
+        "Yong Great Wall Buffet",
+        "Gran Sasso Restaurant",
+        "Duke on Park",
+        "Angel's Diner",
+        "Luciani's Pizza",
+        "Kel's Family Restaurant",
+        "Homestead Cafe and Museum",
+        "Zander's Fire Grill and Brew Lounge",
+        "Blessings Eatery",
+        "Al Dente Pizza Pasta Grill",
+        "Sai Thai Kitchen",
+        "China King Restaurant",
+        "The Olde School Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Niagara Falls Canada",
+      "candidates": [
+        "Niagara Falls Canada",
+        "Casa Loma",
+        "Parliament Hill and Buildings"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Ontario",
+      "transportation": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
+      "accommodation": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+      "breakfast": "The WORKS Craft Burgers & Beer",
+      "attractions": [
+        "CN Tower",
+        "Rogers Centre"
+      ],
+      "lunch": "Cafe Andreou",
+      "dinner": "Sunset Grill",
+      "poi_blocks": [
+        {
+          "name": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Danforth GO",
+          "dist_m": 364.93
+        },
+        {
+          "name": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Danforth GO",
+          "dist_m": 364.93
+        },
+        {
+          "name": "The WORKS Craft Burgers & Beer",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 99.04
+        },
+        {
+          "name": "CN Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Union Station",
+          "dist_m": 598.48
+        },
+        {
+          "name": "Cafe Andreou",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 384.54
+        },
+        {
+          "name": "Rogers Centre",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Union Station",
+          "dist_m": 880.15
+        },
+        {
+          "name": "Sunset Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 513.23
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Ontario to Ontario",
+      "transportation": "-",
+      "accommodation": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+      "breakfast": "Hudson Public Kitchen + Bar",
+      "attractions": [
+        "Skylon Tower",
+        "Distillery Historic District"
+      ],
+      "lunch": "Kingswood Restaurant",
+      "dinner": "Speekezzies Cafe & Wine Bar",
+      "poi_blocks": [
+        {
+          "name": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Danforth GO",
+          "dist_m": 364.93
+        },
+        {
+          "name": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Danforth GO",
+          "dist_m": 364.93
+        },
+        {
+          "name": "Hudson Public Kitchen + Bar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 122.59
+        },
+        {
+          "name": "Skylon Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Stanley Ave. @ Hwy. 420 Park & Ride",
+          "dist_m": 1398.97
+        },
+        {
+          "name": "Kingswood Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 833.84
+        },
+        {
+          "name": "Distillery Historic District",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Union Station Bus Terminal",
+          "dist_m": 1563.15
+        },
+        {
+          "name": "Speekezzies Cafe & Wine Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Wayne Gretzky Pwky. @ Henry St.",
+          "dist_m": 2182.5
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Ontario to Las Vegas",
+      "transportation": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+      "accommodation": "-",
+      "breakfast": "Nine North Viet-Thai Cuisine",
+      "attractions": [
+        "Niagara Falls Canada"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Entire Basement Bdrm w/kitchen & Private Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Danforth GO",
+          "dist_m": 364.93
+        },
+        {
+          "name": "Nine North Viet-Thai Cuisine",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 94.02
+        },
+        {
+          "name": "Niagara Falls Canada",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:58",
+          "nearest_transit": "Stanley Ave. @ Hwy. 420 Park & Ride",
+          "dist_m": 2096.18
+        }
+      ]
+    }
+  ]
+}

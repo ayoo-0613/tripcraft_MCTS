@@ -1,0 +1,599 @@
+{
+  "idx": 104,
+  "reward": 11.946192915511126,
+  "budget_used": 5646.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Seattle to Nashville, Not feasible to drive from Seattle to Nashville",
+      "candidates": [
+        "Flight Number: F0251749, from Seattle to Nashville, Departure Time: 17:31, Arrival Time: 23:38",
+        "Taxi, from Seattle to Nashville, Not feasible to drive from Seattle to Nashville"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "candidates": [
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "Broadway Honky Tonk| Pool | Courtviews | Firepit",
+        "Loft Retreat in Nashville's Germantown/Downtown",
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ole Red",
+      "candidates": [
+        "Ole Red",
+        "Pelato",
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tennessee State Museum",
+      "candidates": [
+        "Tennessee State Museum",
+        "The Johnny Cash Museum",
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Country Music Hall of Fame and Museum",
+        "Cooter’s Museum and Store Nashville",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Musicians Hall of Fame and Museum",
+        "Downtown Nashville",
+        "Lane Motor Museum",
+        "Bridgestone Arena",
+        "Belle Meade Historic Site & Winery",
+        "RCA Studio B",
+        "Grand Ole Opry",
+        "Nashville Parthenon",
+        "Centennial Park",
+        "Gaylord Opryland Garden Conservatory",
+        "Cheekwood",
+        "Andrew Jackson's Hermitage",
+        "Radnor Lake State Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pelato",
+      "candidates": [
+        "Pelato",
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Gannons Nashville",
+      "candidates": [
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "candidates": [
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "Broadway Honky Tonk| Pool | Courtviews | Firepit",
+        "Loft Retreat in Nashville's Germantown/Downtown",
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Puckett's 5th & Church",
+      "candidates": [
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Johnny Cash Museum",
+      "candidates": [
+        "The Johnny Cash Museum",
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Country Music Hall of Fame and Museum",
+        "Cooter’s Museum and Store Nashville",
+        "Ole Smoky Distillery & Yee-Haw Brewery",
+        "Musicians Hall of Fame and Museum",
+        "Downtown Nashville",
+        "Lane Motor Museum",
+        "Bridgestone Arena",
+        "Belle Meade Historic Site & Winery",
+        "RCA Studio B",
+        "Grand Ole Opry",
+        "Nashville Parthenon",
+        "Centennial Park",
+        "Gaylord Opryland Garden Conservatory",
+        "Cheekwood",
+        "Andrew Jackson's Hermitage",
+        "Radnor Lake State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Deacon’s New South",
+      "candidates": [
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Caney Fork River Valley Grille",
+      "candidates": [
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0252947, from Nashville to Seattle, Departure Time: 07:36, Arrival Time: 10:52",
+      "candidates": [
+        "Flight Number: F0252947, from Nashville to Seattle, Departure Time: 07:36, Arrival Time: 10:52",
+        "Taxi, from Nashville to Seattle, Not feasible to drive from Nashville to Seattle"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Seattle to Nashville",
+      "transportation": "Taxi, from Seattle to Nashville, Not feasible to drive from Seattle to Nashville",
+      "accommodation": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "breakfast": "Ole Red",
+      "attractions": [
+        "Tennessee State Museum"
+      ],
+      "lunch": "Pelato",
+      "dinner": "Gannons Nashville",
+      "poi_blocks": [
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Ole Red",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "BROADWAY AVE & 3RD AVE WB",
+          "dist_m": 17.3
+        },
+        {
+          "name": "Tennessee State Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "8TH AVE N & JEFFERSON ST SB",
+          "dist_m": 40.17
+        },
+        {
+          "name": "Pelato",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "3RD AVE N & MONROE ST SB",
+          "dist_m": 31.56
+        },
+        {
+          "name": "Gannons Nashville",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 35.96
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+      "breakfast": "Puckett's 5th & Church",
+      "attractions": [
+        "The Johnny Cash Museum"
+      ],
+      "lunch": "Deacon’s New South",
+      "dinner": "Caney Fork River Valley Grille",
+      "poi_blocks": [
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Puckett's 5th & Church",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "5TH AVE N & CHURCH ST NB",
+          "dist_m": 39.47
+        },
+        {
+          "name": "The Johnny Cash Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "BROADWAY AVE & 3RD AVE WB",
+          "dist_m": 76.93
+        },
+        {
+          "name": "Deacon’s New South",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 40.02
+        },
+        {
+          "name": "Caney Fork River Valley Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MCGAVOCK PIKE & MUSIC VALLEY DR WB",
+          "dist_m": 44.6
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Nashville to Seattle",
+      "transportation": "Flight Number: F0252947, from Nashville to Seattle, Departure Time: 07:36, Arrival Time: 10:52",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "06:06",
+          "end": "07:06",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        },
+        {
+          "name": "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "WEDGEWOOD AVE & HILLSIDE AVE WB",
+          "dist_m": 48.78
+        }
+      ]
+    }
+  ]
+}

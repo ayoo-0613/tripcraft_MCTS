@@ -1,0 +1,65 @@
+{
+  "idx": 239,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Long Beach",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "event": null,
+      "attraction": "Nature & Parks",
+      "transportation": null
+    },
+    "budget": 3600.0,
+    "query": "Plan a 3-day trip for 2 people from Chicago to Long Beach from November 25th to November 27th, 2024, with a budget of $3,600. Include visits to attractions related to Nature & Parks.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Long Beach",
+      "transportation": "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach",
+      "breakfast": "Long Beach Cafe, Long Beach",
+      "attraction": "Long Beach, Long Beach",
+      "lunch": "Lido Kosher Deli, Long Beach",
+      "dinner": "Long Beach Dairy Maid, Long Beach",
+      "accommodation": "Very private space. Private Entry, Long Beach",
+      "event": "-",
+      "point_of_interest_list": "Very private space. Private Entry, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3973420.23m away; Long Beach Cafe, visit from 09:25 to 10:16, nearest transit: Nevada Ave, 3924384.10m away; Long Beach, visit from 11:30 to 16:35, nearest transit: Nevada Ave, 4055419.43m away; Lido Kosher Deli, visit from 13:57 to 14:56, nearest transit: E Park Ave & Roosevelt Blvd, 91.78m away; Long Beach Dairy Maid, visit from 19:51 to 21:00, nearest transit: Mineola Ave & Lido Blvd, 334035.46m away; Very private space. Private Entry, stay from 22:15 to 08:00, nearest transit: Nevada Ave, 3973420.23m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Long Beach to Long Beach",
+      "transportation": "Transfer, from Long Beach to Long Beach",
+      "breakfast": "El Saltillo Long Beach, Long Beach",
+      "attraction": "-",
+      "lunch": "Long Beach Market & Deli, Long Beach",
+      "dinner": "Open Sesame, Long Beach",
+      "accommodation": "Very private space. Private Entry, Long Beach",
+      "event": "-",
+      "point_of_interest_list": "Very private space. Private Entry, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3973420.23m away; El Saltillo Long Beach, visit from 09:25 to 10:16, nearest transit: Nevada Ave, 1799233.86m away; Long Beach Market & Deli, visit from 13:57 to 14:56, nearest transit: Nevada Ave, 1800763.64m away; Open Sesame, visit from 19:51 to 21:00, nearest transit: Nevada Ave, 3975088.33m away; Very private space. Private Entry, stay from 22:15 to 08:00, nearest transit: Nevada Ave, 3973420.23m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Long Beach to Chicago",
+      "transportation": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "breakfast": "Nick's on 2nd, Long Beach",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Very private space. Private Entry, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3973420.23m away; Nick's on 2nd, visit from 09:25 to 10:16, nearest transit: Nevada Ave, 3975223.53m away."
+    }
+  ]
+}

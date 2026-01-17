@@ -1,0 +1,59 @@
+{
+  "idx": 207,
+  "stages": [
+    {
+      "city": "Atlanta",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 9
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Kansas City",
+      "to": "Atlanta",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0011654, from Kansas City to Atlanta, Departure Time: 18:18, Arrival Time: 21:05"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Kansas City",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Kansas City to Atlanta, Duration: 888.6366666666667 mins, Distance: 1286.5799 km, Estimated Cost: $64.33"
+    },
+    {
+      "mode": "taxi",
+      "from": "Kansas City",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Kansas City to Atlanta, Duration: 888.6366666666667 mins, Distance: 1286.5799 km, Estimated Cost: $1286.58"
+    },
+    {
+      "mode": "flight",
+      "from": "Atlanta",
+      "to": "Kansas City",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0016941, from Atlanta to Kansas City, Departure Time: 20:52, Arrival Time: 21:49"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Atlanta",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Self-driving, from Atlanta to Kansas City, Duration: 893.7883333333334 mins, Distance: 1289.864 km, Estimated Cost: $64.49"
+    },
+    {
+      "mode": "taxi",
+      "from": "Atlanta",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Taxi, from Atlanta to Kansas City, Duration: 893.7883333333334 mins, Distance: 1289.864 km, Estimated Cost: $1289.86"
+    }
+  ]
+}

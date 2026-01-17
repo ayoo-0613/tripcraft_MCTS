@@ -1,0 +1,68 @@
+{
+  "idx": 178,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Houston",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": "Seafood",
+      "room type": null,
+      "event": null,
+      "attraction": [
+        "Museums",
+        "Nature & Parks"
+      ],
+      "transportation": null
+    },
+    "budget": 12600.0,
+    "query": "Design a 3-day travel itinerary for 7 people traveling from Boston to Houston from November 1st to November 3rd, 2024. The budget is $12,600. The plan should include dining at seafood restaurants and visits to museums and nature & parks.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Houston",
+      "transportation": "Taxi, from Boston to Houston, Not feasible to drive from Boston to Houston",
+      "breakfast": "Brennan's of Houston, Houston",
+      "attraction": "National Museum of Funeral History, Houston",
+      "lunch": "Phoenicia Specialty Foods, Houston",
+      "dinner": "Niko Niko's Greek, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Brennan's of Houston, visit from 09:25 to 10:16, nearest transit: Elgin St @ Smith St, 102.40m away; National Museum of Funeral History, visit from 11:30 to 15:20, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Phoenicia Specialty Foods, visit from 13:57 to 14:56, nearest transit: Lamar St @ Austin St, 9.87m away; Niko Niko's Greek, visit from 19:51 to 21:00, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Goode Company Seafood, Houston",
+      "attraction": "Museum of Fine Arts, Houston",
+      "lunch": "Houston's, Houston",
+      "dinner": "Hugo's, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Goode Company Seafood, visit from 09:25 to 10:16, nearest transit: Westpark Dr @ Wakeforest St, 141.76m away; Museum of Fine Arts, Houston, visit from 11:30 to 15:20, nearest transit: Bissonnet St @ Montrose Blvd, 72.67m away; Houston's, visit from 13:57 to 14:56, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Hugo's, visit from 19:51 to 21:00, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Houston to Boston",
+      "transportation": "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07",
+      "breakfast": "Uchi Houston, Houston",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Uchi Houston, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away."
+    }
+  ]
+}

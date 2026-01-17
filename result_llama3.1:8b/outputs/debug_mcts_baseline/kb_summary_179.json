@@ -1,0 +1,59 @@
+{
+  "idx": 179,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 35
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Boston",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0275234, from Boston to Houston, Departure Time: 13:48, Arrival Time: 18:45"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Boston",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Boston to Houston, Not feasible to drive from Boston to Houston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Boston",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Boston to Houston, Not feasible to drive from Boston to Houston"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Boston",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from Houston to Boston, Not feasible to drive from Houston to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from Houston to Boston, Not feasible to drive from Houston to Boston"
+    }
+  ]
+}

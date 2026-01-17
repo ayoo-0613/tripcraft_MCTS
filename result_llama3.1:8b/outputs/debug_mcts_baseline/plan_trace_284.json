@@ -1,0 +1,689 @@
+{
+  "idx": 284,
+  "reward": 15.022107444743936,
+  "budget_used": 716.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento",
+      "candidates": [
+        "Flight Number: F0024177, from Ontario to Sacramento, Departure Time: 15:48, Arrival Time: 17:05",
+        "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Best value in Midtown! (A)",
+        "Large Comfy Cottage- Close to Downtown",
+        "Modern Boho Efficiency Studio in Midtown",
+        "Room with private bathroom",
+        "Sac City Loft",
+        "The Cottage on Hendricks",
+        "Cozy Private Bedroom with Pool & Spa",
+        "1 or 2 Bedrooms next to downtown Sacramento/River"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Yue Huang Restaurant",
+      "candidates": [
+        "Yue Huang Restaurant",
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "William Land Park",
+      "candidates": [
+        "William Land Park",
+        "Tower Bridge",
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Localis",
+      "candidates": [
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Grange Restaurant & Bar",
+      "candidates": [
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Best value in Midtown! (A)",
+        "Large Comfy Cottage- Close to Downtown",
+        "Modern Boho Efficiency Studio in Midtown",
+        "Room with private bathroom",
+        "Sac City Loft",
+        "The Cottage on Hendricks",
+        "Cozy Private Bedroom with Pool & Spa",
+        "1 or 2 Bedrooms next to downtown Sacramento/River"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bangkok @12 Thai Restaurant",
+      "candidates": [
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tower Bridge",
+      "candidates": [
+        "Tower Bridge",
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mulvaney's Building & Loan",
+      "candidates": [
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Frank Fat's Restaurant",
+      "candidates": [
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0054885, from Sacramento to Ontario, Departure Time: 19:44, Arrival Time: 20:48",
+      "candidates": [
+        "Flight Number: F0054885, from Sacramento to Ontario, Departure Time: 19:44, Arrival Time: 20:48",
+        "Taxi, from Sacramento to Ontario, Not feasible to drive from Sacramento to Ontario"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bacon & Butter",
+      "candidates": [
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cathedral of the Blessed Sacrament",
+      "candidates": [
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Tower Cafe",
+      "candidates": [
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Ontario to Sacramento",
+      "transportation": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Yue Huang Restaurant",
+      "attractions": [
+        "William Land Park"
+      ],
+      "lunch": "Localis",
+      "dinner": "Grange Restaurant & Bar",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Yue Huang Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "TRUXEL RD & GATEWAY PARK BLVD (NB)",
+          "dist_m": 34.28
+        },
+        {
+          "name": "William Land Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "SUTTERVILLE RD & MEAD AVE (WB)",
+          "dist_m": 11.46
+        },
+        {
+          "name": "Localis",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "21ST ST & R ST (NB)",
+          "dist_m": 35.88
+        },
+        {
+          "name": "Grange Restaurant & Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "J ST & 10TH ST (EB)",
+          "dist_m": 36.29
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Bangkok @12 Thai Restaurant",
+      "attractions": [
+        "Tower Bridge"
+      ],
+      "lunch": "Mulvaney's Building & Loan",
+      "dinner": "Frank Fat's Restaurant",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Bangkok @12 Thai Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "12th & I Station (SB)",
+          "dist_m": 37.03
+        },
+        {
+          "name": "Tower Bridge",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "L ST & 4TH ST (WB)",
+          "dist_m": 26.39
+        },
+        {
+          "name": "Mulvaney's Building & Loan",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "19TH ST & L ST (SB)",
+          "dist_m": 37.17
+        },
+        {
+          "name": "Frank Fat's Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "L ST & 9TH ST (WB)",
+          "dist_m": 44.3
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Sacramento to Ontario",
+      "transportation": "Flight Number: F0054885, from Sacramento to Ontario, Departure Time: 19:44, Arrival Time: 20:48",
+      "accommodation": "-",
+      "breakfast": "Bacon & Butter",
+      "attractions": [
+        "Cathedral of the Blessed Sacrament"
+      ],
+      "lunch": "Tower Cafe",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Bacon & Butter",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "59TH ST & BROADWAY (NB)",
+          "dist_m": 47.79
+        },
+        {
+          "name": "Cathedral of the Blessed Sacrament",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Cathedral Square Station (EB)",
+          "dist_m": 40.41
+        },
+        {
+          "name": "Tower Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "LAND PARK DR & BROADWAY (SB)",
+          "dist_m": 54.53
+        }
+      ]
+    }
+  ]
+}

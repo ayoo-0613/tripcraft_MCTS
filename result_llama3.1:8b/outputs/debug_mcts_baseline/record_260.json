@@ -1,0 +1,70 @@
+{
+  "idx": 260,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "San Diego",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Mexican",
+        "Chinese",
+        "Mediterranean",
+        "Latin"
+      ],
+      "room type": "entire home",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2400.0,
+    "query": "Plan a 3-day trip for 2 people traveling from St. Louis to San Diego from November 25th to November 27th, 2024, with a budget of $2,400. Accommodations should be an entire home, and transportation should not involve self-driving. Include dining options featuring Mexican, Chinese, Mediterranean, or Latin cuisines.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to San Diego",
+      "transportation": "Flight Number: F0099295, from St. Louis to San Diego, Departure Time: 09:49, Arrival Time: 11:33",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Din Tai Fung, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Central & Serene Secret Garden Guesthouse, stay from 12:03 to 13:03, nearest transit: Adams Av & Biona Dr, 102.11m away; Casa Guadalajara, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Din Tai Fung, visit from 19:51 to 21:00, nearest transit: La Jolla Village Dr & Genesee Av, 68.36m away; Central & Serene Secret Garden Guesthouse, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Alforon, San Diego",
+      "attraction": "Point Loma, San Diego",
+      "lunch": "La Puerta, San Diego",
+      "dinner": "Buon Appetito, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Alforon, visit from 09:25 to 10:16, nearest transit: El Cajon Bl & 59th St, 121.18m away; Point Loma, visit from 11:30 to 14:50, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; La Puerta, visit from 13:57 to 14:56, nearest transit: 4th Av & G St, 127.08m away; Buon Appetito, visit from 19:51 to 21:00, nearest transit: India St & Cedar St, 11.40m away; Central & Serene Secret Garden Guesthouse, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Diego to St. Louis",
+      "transportation": "Taxi, from San Diego to St. Louis, Not feasible to drive from San Diego to St. Louis",
+      "breakfast": "Cowboy Star, San Diego",
+      "attraction": "Old Town San Diego, San Diego",
+      "lunch": "Mister A'S, San Diego",
+      "dinner": "Ironside Fish & Oyster, San Diego",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Cowboy Star, visit from 09:25 to 10:16, nearest transit: 10th Av & Market St, 50.81m away; Old Town San Diego, visit from 11:30 to 14:50, nearest transit: Juan St & Mason St, 127.04m away; Mister A'S, visit from 13:57 to 14:56, nearest transit: 5th Av & Laurel St, 52.04m away; Ironside Fish & Oyster, visit from 19:51 to 21:00, nearest transit: India St & Cedar St, 57.08m away."
+    }
+  ]
+}

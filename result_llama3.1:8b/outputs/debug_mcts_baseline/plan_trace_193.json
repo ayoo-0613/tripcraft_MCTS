@@ -1,0 +1,635 @@
+{
+  "idx": 193,
+  "reward": 13.43550186593843,
+  "budget_used": 1643.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15",
+      "candidates": [
+        "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58",
+        "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mellow Mushroom Chattanooga",
+      "candidates": [
+        "Mayan Kitchen",
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Whiskey Experimental Distillery",
+      "candidates": [
+        "Chattanooga Whiskey Experimental Distillery",
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mayan Kitchen",
+      "candidates": [
+        "Mayan Kitchen",
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Maple Street Biscuit Company - City Center",
+      "candidates": [
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "New Town House in Historic District of Chattanooga",
+      "candidates": [
+        "New Town House in Historic District of Chattanooga",
+        "Halloween Available! * King Beds * Arcade Games",
+        "Sparkling Clean! Walkable + Comfy King Bed!",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+        "-Downtown 6 miles -Mtn Views",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes",
+        "Mountain's Edge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Uncle Larry's Restaurant",
+      "candidates": [
+        "Uncle Larry's Restaurant",
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Moon Pie General Store",
+      "candidates": [
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Community Pie",
+      "candidates": [
+        "Community Pie",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "HiFi Clyde's Chattanooga",
+      "candidates": [
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Chattanooga to Washington",
+      "candidates": [
+        "Transfer, from Chattanooga to Washington"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Public House",
+      "candidates": [
+        "St. John's Restaurant",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Ghost Tours",
+      "candidates": [
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Washington to Chattanooga",
+      "transportation": "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15",
+      "accommodation": "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+      "breakfast": "Mellow Mushroom Chattanooga",
+      "attractions": [
+        "Chattanooga Whiskey Experimental Distillery"
+      ],
+      "lunch": "Mayan Kitchen",
+      "dinner": "Maple Street Biscuit Company - City Center",
+      "poi_blocks": [
+        {
+          "name": "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Boynton & 953 Boynton-0",
+          "dist_m": 3119.08
+        },
+        {
+          "name": "Cozy Valley Suite: Downtown, Rock City, Ruby Falls",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Boynton & 953 Boynton-0",
+          "dist_m": 3119.08
+        },
+        {
+          "name": "Mellow Mushroom Chattanooga",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHUTTLE PARK NORTH - INTERNAL",
+          "dist_m": 25.51
+        },
+        {
+          "name": "Chattanooga Whiskey Experimental Distillery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "MARKET + CHOO CHOO",
+          "dist_m": 29.39
+        },
+        {
+          "name": "Mayan Kitchen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "BROAD + 5TH",
+          "dist_m": 15.62
+        },
+        {
+          "name": "Maple Street Biscuit Company - City Center",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "BROAD + 4TH",
+          "dist_m": 19.08
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "-",
+      "accommodation": "New Town House in Historic District of Chattanooga",
+      "breakfast": "Uncle Larry's Restaurant",
+      "attractions": [
+        "Moon Pie General Store"
+      ],
+      "lunch": "Community Pie",
+      "dinner": "HiFi Clyde's Chattanooga",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Uncle Larry's Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "M.L.KING BLVD + PEEPLES",
+          "dist_m": 20.49
+        },
+        {
+          "name": "Moon Pie General Store",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:35",
+          "nearest_transit": "Broad & Jack's Alley",
+          "dist_m": 46.95
+        },
+        {
+          "name": "Community Pie",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MARKET + M.L.KING",
+          "dist_m": 20.76
+        },
+        {
+          "name": "HiFi Clyde's Chattanooga",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MAIN + WILLIAMS",
+          "dist_m": 21.15
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Chattanooga to Washington",
+      "transportation": "Transfer, from Chattanooga to Washington",
+      "accommodation": "-",
+      "breakfast": "Public House",
+      "attractions": [
+        "Chattanooga Ghost Tours"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "New Town House in Historic District of Chattanooga",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S MARKET + 17TH",
+          "dist_m": 37.73
+        },
+        {
+          "name": "Public House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "HOUSTON + MARKET",
+          "dist_m": 28.53
+        },
+        {
+          "name": "Chattanooga Ghost Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "MARKET + 5TH",
+          "dist_m": 59.2
+        }
+      ]
+    }
+  ]
+}

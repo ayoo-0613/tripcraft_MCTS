@@ -1,0 +1,65 @@
+{
+  "idx": 196,
+  "JSON": {
+    "org": "Denver",
+    "dest": "Kansas City",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 3,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "event": null,
+      "attraction": "Concerts & Shows",
+      "transportation": null
+    },
+    "budget": 3300.0,
+    "query": "Plan a 3-day trip for 3 people from Denver to Kansas City from November 25th to November 27th, 2024, with a budget of $3,300. Accommodations should include a private room and allow pets. Include activities related to concerts and shows.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Denver to Kansas City",
+      "transportation": "Taxi, from Denver to Kansas City, Duration: 619.7666666666667 mins, Distance: 969.824 km, Estimated Cost: $969.82",
+      "breakfast": "Eddie V's Prime Seafood, Kansas City",
+      "attraction": "Starlight Theatre, Kansas City",
+      "lunch": "Cascone's Italian Restaurant, Kansas City",
+      "dinner": "Bristol Seafood + Steak + Social, Kansas City",
+      "accommodation": "Westport Art House-Garden View Bedroom, Kansas City",
+      "event": "-",
+      "point_of_interest_list": "Westport Art House-Garden View Bedroom, stay from 08:00 to 09:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away; Eddie V's Prime Seafood, visit from 09:25 to 10:16, nearest transit: ON 47TH ST AT JEFFERSON ST WESTBOUND FARSIDE, 16.50m away; Starlight Theatre, visit from 11:30 to 14:50, nearest transit: KC ZOO MAIN ENTRANCE, 284.28m away; Cascone's Italian Restaurant, visit from 13:57 to 14:56, nearest transit: ON N OAK AT INDIANOLA NORTHBOUND, 34.84m away; Bristol Seafood + Steak + Social, visit from 19:51 to 21:00, nearest transit: POWER & LIGHT ON MAIN AT 14TH ST NB, 41.80m away; Westport Art House-Garden View Bedroom, stay from 22:15 to 08:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Kansas City to Kansas City",
+      "transportation": "Transfer, from Kansas City to Kansas City",
+      "breakfast": "eggtc., Kansas City",
+      "attraction": "-",
+      "lunch": "Fern Bar, Kansas City",
+      "dinner": "Fogo de Chao Brazilian Steakhouse, Kansas City",
+      "accommodation": "Westport Art House-Garden View Bedroom, Kansas City",
+      "event": "-",
+      "point_of_interest_list": "Westport Art House-Garden View Bedroom, stay from 08:00 to 09:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away; eggtc., visit from 09:25 to 10:16, nearest transit: ON 51ST AT MAIN WESTBOUND, 45.65m away; Fern Bar, visit from 13:57 to 14:56, nearest transit: ON 13TH ST BETWEEN WYANDOTTE AND CENTRAL WB, 45.99m away; Fogo de Chao Brazilian Steakhouse, visit from 19:51 to 21:00, nearest transit: ON 47TH AT CENTRAL EASTBOUND FARSIDE, 52.77m away; Westport Art House-Garden View Bedroom, stay from 22:15 to 08:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Kansas City to Denver",
+      "transportation": "Flight Number: F0024831, from Kansas City to Denver, Departure Time: 00:28, Arrival Time: 01:02",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Westport Art House-Garden View Bedroom, stay from 00:00 to 00:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away; Westport Art House-Garden View Bedroom, stay from 08:00 to 09:00, nearest transit: ON BROADWAY AT 37TH SOUTHBOUND, 334.52m away."
+    }
+  ]
+}

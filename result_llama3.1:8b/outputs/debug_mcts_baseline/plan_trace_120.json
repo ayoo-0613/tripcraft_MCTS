@@ -1,0 +1,670 @@
+{
+  "idx": 120,
+  "reward": 14.99903232938856,
+  "budget_used": 1486.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Spokane to Boise, Duration: 468.525 mins, Distance: 678.2546 km, Estimated Cost: $678.25",
+      "candidates": [
+        "Flight Number: F0514579, from Spokane to Boise, Departure Time: 18:37, Arrival Time: 20:41",
+        "Taxi, from Spokane to Boise, Duration: 468.525 mins, Distance: 678.2546 km, Estimated Cost: $678.25"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Quiet North End Hideaway",
+      "candidates": [
+        "9th St. Retreat | Modern DT condo w/ free parking",
+        "Quiet North End Hideaway",
+        "North End Artsy Bungalow",
+        "Downtown Mid-Century Modern Condo with Retro Vibes",
+        "Brand new! North End - Hyde Park Guest House",
+        "MCM House of Trees Guest Room",
+        "Studio Heart of Downtown Boise near BSU Walkable!",
+        "North End Retreat- NEW -",
+        "Entire home in Boise, Idaho",
+        "Depot Bench Cottage"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Capitol Cellars Restaurant",
+      "candidates": [
+        "Capitol Cellars Restaurant",
+        "Flying M Coffee House",
+        "Guido's Original New York Style Pizza Downtown",
+        "Ruth's Chris Steak House",
+        "Thai Cuisine",
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bogus Basin Mountain Recreation Area",
+      "candidates": [
+        "Bogus Basin Mountain Recreation Area",
+        "Julia Davis Park",
+        "North End",
+        "Freak Alley Gallery",
+        "Idaho Anne Frank Human Rights Memorial",
+        "Kathryn Albertson Park",
+        "Ann Morrison Park",
+        "Idaho State Capitol Building",
+        "Barber Park",
+        "Hyde Park",
+        "Ridge to River Trail System",
+        "Zoo Boise",
+        "Boise River Greenbelt",
+        "Camel's Back Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Flying M Coffee House",
+      "candidates": [
+        "Flying M Coffee House",
+        "Guido's Original New York Style Pizza Downtown",
+        "Ruth's Chris Steak House",
+        "Thai Cuisine",
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Guido's Original New York Style Pizza Downtown",
+      "candidates": [
+        "Guido's Original New York Style Pizza Downtown",
+        "Ruth's Chris Steak House",
+        "Thai Cuisine",
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "9th St. Retreat | Modern DT condo w/ free parking",
+      "candidates": [
+        "9th St. Retreat | Modern DT condo w/ free parking",
+        "Quiet North End Hideaway",
+        "North End Artsy Bungalow",
+        "Downtown Mid-Century Modern Condo with Retro Vibes",
+        "Brand new! North End - Hyde Park Guest House",
+        "MCM House of Trees Guest Room",
+        "Studio Heart of Downtown Boise near BSU Walkable!",
+        "North End Retreat- NEW -",
+        "Entire home in Boise, Idaho",
+        "Depot Bench Cottage"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ruth's Chris Steak House",
+      "candidates": [
+        "Ruth's Chris Steak House",
+        "Thai Cuisine",
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Julia Davis Park",
+      "candidates": [
+        "Julia Davis Park",
+        "North End",
+        "Freak Alley Gallery",
+        "Idaho Anne Frank Human Rights Memorial",
+        "Kathryn Albertson Park",
+        "Ann Morrison Park",
+        "Idaho State Capitol Building",
+        "Barber Park",
+        "Hyde Park",
+        "Ridge to River Trail System",
+        "Zoo Boise",
+        "Boise River Greenbelt",
+        "Camel's Back Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Thai Cuisine",
+      "candidates": [
+        "Thai Cuisine",
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Chiang Mai House Thai",
+      "candidates": [
+        "Chiang Mai House Thai",
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Boise to Spokane",
+      "candidates": [
+        "Transfer, from Boise to Spokane"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Taj Mahal",
+      "candidates": [
+        "Taj Mahal",
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "North End",
+      "candidates": [
+        "North End",
+        "Freak Alley Gallery",
+        "Idaho Anne Frank Human Rights Memorial",
+        "Idaho State Capitol Building",
+        "Hyde Park",
+        "Kathryn Albertson Park",
+        "Ann Morrison Park",
+        "Barber Park",
+        "Ridge to River Trail System",
+        "Zoo Boise",
+        "Boise River Greenbelt",
+        "Camel's Back Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Fork",
+      "candidates": [
+        "Fork",
+        "Chandlers Prime Steaks & Fine Seafood",
+        "Madhuban Indian Cuisine",
+        "Alavita",
+        "Goldy's Breakfast Bistro",
+        "Bombay Grill",
+        "Tony's Pizzeria Teatro",
+        "10 Barrel Brewing Co.",
+        "Yen Ching Chinese Restaurant",
+        "Reef",
+        "Deli George",
+        "Bar Gernika",
+        "Bittercreek Alehouse",
+        "Janjou Patisserie",
+        "Moon's Kitchen Cafe",
+        "Mai Thai Restaurant",
+        "Sushi Joy",
+        "The Basque Market",
+        "Red Feather Lounge",
+        "Bardenay Restaurant & Distillery",
+        "Wild Root Cafe",
+        "Saint Lawrence Gridiron",
+        "Boise Fry Company",
+        "Sandbar Patio Bar & Grill",
+        "Westside Drive In",
+        "The Wylder",
+        "Barbacoa Grill",
+        "Goodwood Barbecue Company"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Spokane to Boise",
+      "transportation": "Taxi, from Spokane to Boise, Duration: 468.525 mins, Distance: 678.2546 km, Estimated Cost: $678.25",
+      "accommodation": "Quiet North End Hideaway",
+      "breakfast": "Capitol Cellars Restaurant",
+      "attractions": [
+        "Bogus Basin Mountain Recreation Area"
+      ],
+      "lunch": "Flying M Coffee House",
+      "dinner": "Guido's Original New York Style Pizza Downtown",
+      "poi_blocks": [
+        {
+          "name": "Quiet North End Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N 8th St & W Hays St NEM",
+          "dist_m": 83.9
+        },
+        {
+          "name": "Quiet North End Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N 8th St & W Hays St NEM",
+          "dist_m": 83.9
+        },
+        {
+          "name": "Capitol Cellars Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W Main St & S 5th St SWC",
+          "dist_m": 28.03
+        },
+        {
+          "name": "Bogus Basin Mountain Recreation Area",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "W Parkhill Dr & N Bogus Basin Rd SEC",
+          "dist_m": 18.6
+        },
+        {
+          "name": "Flying M Coffee House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "W Idaho St & N 5th St NEC",
+          "dist_m": 33.92
+        },
+        {
+          "name": "Guido's Original New York Style Pizza Downtown",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W Idaho St & N 5th St NEC",
+          "dist_m": 44.09
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Boise to Boise",
+      "transportation": "-",
+      "accommodation": "9th St. Retreat | Modern DT condo w/ free parking",
+      "breakfast": "Ruth's Chris Steak House",
+      "attractions": [
+        "Julia Davis Park"
+      ],
+      "lunch": "Thai Cuisine",
+      "dinner": "Chiang Mai House Thai",
+      "poi_blocks": [
+        {
+          "name": "9th St. Retreat | Modern DT condo w/ free parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W Fort St & N 9th St NEC",
+          "dist_m": 60.33
+        },
+        {
+          "name": "9th St. Retreat | Modern DT condo w/ free parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W Fort St & N 9th St NEC",
+          "dist_m": 60.33
+        },
+        {
+          "name": "Ruth's Chris Steak House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Main Street Station - Upper Deck",
+          "dist_m": 72.68
+        },
+        {
+          "name": "Julia Davis Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "S Capitol Blvd & W River St NEC",
+          "dist_m": 46.12
+        },
+        {
+          "name": "Thai Cuisine",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "W Overland Rd & S Brooklawn Dr SWC",
+          "dist_m": 76.52
+        },
+        {
+          "name": "Chiang Mai House Thai",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "N Orchard St & W Emerald St NWC",
+          "dist_m": 78.46
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Boise to Spokane",
+      "transportation": "Transfer, from Boise to Spokane",
+      "accommodation": "-",
+      "breakfast": "Taj Mahal",
+      "attractions": [
+        "North End"
+      ],
+      "lunch": "Fork",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "9th St. Retreat | Modern DT condo w/ free parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W Fort St & N 9th St NEC",
+          "dist_m": 60.33
+        },
+        {
+          "name": "Taj Mahal",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Main Street Station - Upper Deck",
+          "dist_m": 88.24
+        },
+        {
+          "name": "North End",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "N 8th St & W Franklin St SEC",
+          "dist_m": 65.34
+        },
+        {
+          "name": "Fork",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Main Street Station - Upper Deck",
+          "dist_m": 95.08
+        }
+      ]
+    }
+  ]
+}

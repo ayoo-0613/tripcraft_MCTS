@@ -1,0 +1,686 @@
+{
+  "idx": 99,
+  "reward": 13.772087544864947,
+  "budget_used": 871.54,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Memphis to Las Vegas, Not feasible to drive from Memphis to Las Vegas",
+      "candidates": [
+        "Flight Number: F1346473, from Memphis to Las Vegas, Departure Time: 16:12, Arrival Time: 17:36",
+        "Taxi, from Memphis to Las Vegas, Not feasible to drive from Memphis to Las Vegas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room Next to Strip",
+      "candidates": [
+        "Private Room Next to Strip",
+        "Studio 100% Private-Just 10 min. to Strip",
+        "Cozy Casita+Private Patio+grill",
+        "C/private full bed tv free wif",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Our lovely master bedroom",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Super cozy brand new furnished private room! 2"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Triple George Grill",
+      "candidates": [
+        "Triple George Grill",
+        "Top of the World",
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Mob Museum",
+      "candidates": [
+        "The Mob Museum",
+        "Las Vegas North Premium Outlets",
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller",
+        "The LINQ Promenade",
+        "The Las Vegas Strip",
+        "Eiffel Tower Viewing Deck",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Titanic: The Artifact Exhibition",
+        "Pinball Hall Of Fame",
+        "Red Rock Canyon National Conservation Area",
+        "Hoover Dam Bypass"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Top of the World",
+      "candidates": [
+        "Top of the World",
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Garden Court",
+      "candidates": [
+        "Garden Court",
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room Next to Strip",
+      "candidates": [
+        "Private Room Next to Strip",
+        "Studio 100% Private-Just 10 min. to Strip",
+        "Cozy Casita+Private Patio+grill",
+        "C/private full bed tv free wif",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Our lovely master bedroom",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Super cozy brand new furnished private room! 2"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Vic & Anthony's Steakhouse",
+      "candidates": [
+        "Vic & Anthony's Steakhouse",
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Las Vegas North Premium Outlets",
+      "candidates": [
+        "Las Vegas North Premium Outlets",
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller",
+        "The LINQ Promenade",
+        "The Las Vegas Strip",
+        "Eiffel Tower Viewing Deck",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Titanic: The Artifact Exhibition",
+        "Pinball Hall Of Fame",
+        "Red Rock Canyon National Conservation Area",
+        "Hoover Dam Bypass"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Ameribrunch Cafe",
+      "candidates": [
+        "Ameribrunch Cafe",
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Golden Steer Steakhouse Las Vegas",
+      "candidates": [
+        "Golden Steer Steakhouse Las Vegas",
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0376611, from Las Vegas to Memphis, Departure Time: 16:07, Arrival Time: 21:45",
+      "candidates": [
+        "Flight Number: F0376611, from Las Vegas to Memphis, Departure Time: 16:07, Arrival Time: 21:45",
+        "Taxi, from Las Vegas to Memphis, Not feasible to drive from Las Vegas to Memphis"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "THE Steak House",
+      "candidates": [
+        "THE Steak House",
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Stratosphere Tower",
+      "candidates": [
+        "Stratosphere Tower",
+        "Fremont Street Experience",
+        "Zak Bagans' The Haunted Museum",
+        "The Neon Museum",
+        "Wynn Las Vegas Casino",
+        "Fashion Show Las Vegas",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "High Roller",
+        "The LINQ Promenade",
+        "The Las Vegas Strip",
+        "Eiffel Tower Viewing Deck",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Titanic: The Artifact Exhibition",
+        "Pinball Hall Of Fame",
+        "Red Rock Canyon National Conservation Area",
+        "Hoover Dam Bypass"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Peppermill Restaurant & Fireside Lounge",
+      "candidates": [
+        "The Peppermill Restaurant & Fireside Lounge",
+        "Sw Steakhouse",
+        "Grand Lux Cafe",
+        "Mercato Della Pescheria Las Vegas",
+        "Firefly Tapas Kitchen & Bar",
+        "Primal Steakhouse",
+        "Hash House a Go Go",
+        "Carmine's",
+        "Water Grill Las Vegas",
+        "Gordon Ramsay Pub & Grill",
+        "Gordon Ramsay Hell's Kitchen",
+        "Eiffel Tower Restaurant",
+        "Mon Ami Gabi",
+        "PRIME Steakhouse",
+        "Eggscellent",
+        "The Mayfair Supper Club",
+        "Gordon Ramsay Burger",
+        "Eggslut",
+        "Ping Pang Pong",
+        "Blossom",
+        "Lemongrass",
+        "Din Tai Fung",
+        "Kabuto",
+        "Skyfall Lounge",
+        "Nora's Italian Cuisine",
+        "John Mull's Meats & Road Kill Grill",
+        "Mr. Mamas",
+        "Cafe Berlin"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Memphis to Las Vegas",
+      "transportation": "Taxi, from Memphis to Las Vegas, Not feasible to drive from Memphis to Las Vegas",
+      "accommodation": "Private Room Next to Strip",
+      "breakfast": "Triple George Grill",
+      "attractions": [
+        "The Mob Museum"
+      ],
+      "lunch": "Top of the World",
+      "dinner": "Garden Court",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Triple George Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Mob Museum",
+          "dist_m": 87.09
+        },
+        {
+          "name": "The Mob Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Mob Museum",
+          "dist_m": 48.14
+        },
+        {
+          "name": "Top of the World",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "The Strat",
+          "dist_m": 140.6
+        },
+        {
+          "name": "Garden Court",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Circa",
+          "dist_m": 185.8
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Las Vegas to Las Vegas",
+      "transportation": "-",
+      "accommodation": "Private Room Next to Strip",
+      "breakfast": "Vic & Anthony's Steakhouse",
+      "attractions": [
+        "Las Vegas North Premium Outlets"
+      ],
+      "lunch": "Ameribrunch Cafe",
+      "dinner": "Golden Steer Steakhouse Las Vegas",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Vic & Anthony's Steakhouse",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Fremont Street Experience",
+          "dist_m": 213.11
+        },
+        {
+          "name": "Las Vegas North Premium Outlets",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Las Vegas North Premium Outlets",
+          "dist_m": 74.04
+        },
+        {
+          "name": "Ameribrunch Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Fremont East Entertainment District",
+          "dist_m": 393.75
+        },
+        {
+          "name": "Golden Steer Steakhouse Las Vegas",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 555.77
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Las Vegas to Memphis",
+      "transportation": "Flight Number: F0376611, from Las Vegas to Memphis, Departure Time: 16:07, Arrival Time: 21:45",
+      "accommodation": "-",
+      "breakfast": "THE Steak House",
+      "attractions": [
+        "Stratosphere Tower"
+      ],
+      "lunch": "The Peppermill Restaurant & Fireside Lounge",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "THE Steak House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "The Strat",
+          "dist_m": 1363.88
+        },
+        {
+          "name": "Stratosphere Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "The Strat",
+          "dist_m": 146.81
+        },
+        {
+          "name": "The Peppermill Restaurant & Fireside Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "The Strat",
+          "dist_m": 1656.61
+        }
+      ]
+    }
+  ]
+}

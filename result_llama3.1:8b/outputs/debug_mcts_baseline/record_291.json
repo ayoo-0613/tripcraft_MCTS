@@ -1,0 +1,73 @@
+{
+  "idx": 291,
+  "JSON": {
+    "org": "Miami",
+    "dest": "Nashville",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-17",
+      "2024-11-18",
+      "2024-11-19"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": [
+        "Seafood",
+        "Thai",
+        "American",
+        "Italian"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": [
+        "Food & Drink",
+        "Concerts & Shows"
+      ]
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 2 people from Miami to Nashville from November 17th to November 19th, 2024, with a budget of $1,800. The trip should include dining options featuring Seafood, Thai, American, and Italian cuisines, and visits to attractions such as Food & Drink and Concerts & Shows. Avoid accommodations that allow parties.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Miami to Nashville",
+      "transportation": "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Ole Red, Nashville",
+      "dinner": "Pelato, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; 12 South Original - Restored craftsman from 1905!, stay from 11:41 to 12:41, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Ole Red, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Pelato, visit from 19:51 to 21:00, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; 12 South Original - Restored craftsman from 1905!, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Gannons Nashville, Nashville",
+      "attraction": "Ryman Auditorium, Nashville",
+      "lunch": "Puckett's 5th & Church, Nashville",
+      "dinner": "Smiling Elephant, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Gannons Nashville, visit from 09:25 to 10:16, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; Ryman Auditorium, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; Puckett's 5th & Church, visit from 13:57 to 14:56, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; Smiling Elephant, visit from 19:51 to 21:00, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; 12 South Original - Restored craftsman from 1905!, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Nashville to Miami",
+      "transportation": "Transfer, from Nashville to Miami",
+      "breakfast": "Deacon’s New South, Nashville",
+      "attraction": "Ole Smoky Distillery & Yee-Haw Brewery, Nashville",
+      "lunch": "Caney Fork River Valley Grille, Nashville",
+      "dinner": "Miranda Lambert's Casa Rosa, Nashville",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Deacon’s New South, visit from 09:25 to 10:16, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Ole Smoky Distillery & Yee-Haw Brewery, visit from 11:30 to 14:50, nearest transit: KOREAN VETS BLVD & 6TH AVE WB, 122.92m away; Caney Fork River Valley Grille, visit from 13:57 to 14:56, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; Miranda Lambert's Casa Rosa, visit from 19:51 to 21:00, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away."
+    }
+  ]
+}

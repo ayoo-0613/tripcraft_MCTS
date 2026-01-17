@@ -1,0 +1,462 @@
+{
+  "idx": 332,
+  "reward": 10.035109710654936,
+  "budget_used": 2527.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47",
+      "candidates": [
+        "Flight Number: F0108700, from Cleveland to Houston, Departure Time: 12:54, Arrival Time: 15:04",
+        "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "J-Modern Room nearDowntown\\Airport",
+      "candidates": [
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "Private guest suite in the greater Heights",
+        "Secluded Room with En-suite Bathroom Midtown",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Private entrance from the patio to a cozy bedroom",
+        "J-Modern Room nearDowntown\\Airport",
+        "??Perfectly located walkable to Wash- Ave. Parks??",
+        "Secluded Suite in Southwest Houston",
+        "Heights Craftsman Bungalow in the Trees",
+        "The Rustic Traveler | 83 Walkability Score"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Phoenicia Specialty Foods",
+      "candidates": [
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Rodeo Houston or Houston Livestock Show and Rodeo",
+      "candidates": [
+        "Rodeo Houston or Houston Livestock Show and Rodeo",
+        "National Museum of Funeral History",
+        "Museum of Fine Arts, Houston",
+        "Downtown Aquarium",
+        "Bayou Bend Collection and Gardens",
+        "Children's Museum Houston",
+        "Buffalo Bayou Park",
+        "Cockrell Butterfly Center",
+        "Minute Maid Park",
+        "The Galleria",
+        "Gerald D. Hines Waterwall Park",
+        "Holocaust Museum Houston",
+        "The Houston Museum of Natural Science",
+        "Discovery Green",
+        "NRG Stadium",
+        "Houston Museum District",
+        "The Menil Collection",
+        "Hermann Park",
+        "Houston Zoo",
+        "Space Center Houston"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Niko Niko's Greek",
+      "candidates": [
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Houston's",
+      "candidates": [
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "candidates": [
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "Private guest suite in the greater Heights",
+        "Secluded Room with En-suite Bathroom Midtown",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Private entrance from the patio to a cozy bedroom",
+        "J-Modern Room nearDowntown\\Airport",
+        "??Perfectly located walkable to Wash- Ave. Parks??",
+        "Secluded Suite in Southwest Houston",
+        "Heights Craftsman Bungalow in the Trees",
+        "The Rustic Traveler | 83 Walkability Score"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "National Museum of Funeral History",
+      "candidates": [
+        "National Museum of Funeral History",
+        "Museum of Fine Arts, Houston",
+        "Downtown Aquarium",
+        "Bayou Bend Collection and Gardens",
+        "Children's Museum Houston",
+        "Buffalo Bayou Park",
+        "Cockrell Butterfly Center",
+        "Minute Maid Park",
+        "The Galleria",
+        "Gerald D. Hines Waterwall Park",
+        "Holocaust Museum Houston",
+        "The Houston Museum of Natural Science",
+        "Discovery Green",
+        "NRG Stadium",
+        "Houston Museum District",
+        "The Menil Collection",
+        "Hermann Park",
+        "Houston Zoo",
+        "Space Center Houston"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland",
+      "candidates": [
+        "Flight Number: F0107429, from Houston to Cleveland, Departure Time: 07:38, Arrival Time: 11:20",
+        "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Cleveland to Houston",
+      "transportation": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47",
+      "accommodation": "J-Modern Room nearDowntown\\Airport",
+      "breakfast": "Phoenicia Specialty Foods",
+      "attractions": [
+        "Rodeo Houston or Houston Livestock Show and Rodeo"
+      ],
+      "lunch": "Niko Niko's Greek",
+      "dinner": "Houston's",
+      "poi_blocks": [
+        {
+          "name": "J-Modern Room nearDowntown\\Airport",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Dewalt St @ De Priest Dr",
+          "dist_m": 138.79
+        },
+        {
+          "name": "J-Modern Room nearDowntown\\Airport",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Dewalt St @ De Priest Dr",
+          "dist_m": 138.79
+        },
+        {
+          "name": "Phoenicia Specialty Foods",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Lamar St @ Austin St",
+          "dist_m": 9.87
+        },
+        {
+          "name": "Rodeo Houston or Houston Livestock Show and Rodeo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Kirby Dr @ McNee Rd",
+          "dist_m": 46.85
+        },
+        {
+          "name": "Niko Niko's Greek",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Montrose Blvd @ Missouri St",
+          "dist_m": 22.62
+        },
+        {
+          "name": "Houston's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Kirby Dr @ Westpark Dr",
+          "dist_m": 23.24
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "breakfast": "Hugo's",
+      "attractions": [
+        "National Museum of Funeral History"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        },
+        {
+          "name": "National Museum of Funeral History",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Ella Blvd @ Barren Springs Dr",
+          "dist_m": 62.08
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Cleveland",
+      "transportation": "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        }
+      ]
+    }
+  ]
+}

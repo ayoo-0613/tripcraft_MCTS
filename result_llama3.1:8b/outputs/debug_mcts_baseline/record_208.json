@@ -1,0 +1,71 @@
+{
+  "idx": 208,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": [
+        "French",
+        "Mediterranean",
+        "Italian"
+      ],
+      "room type": "entire home",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": [
+        "Food & Drink"
+      ]
+    },
+    "budget": 9450.0,
+    "query": "Plan a 3-day trip for 7 people from St. Louis to Seattle from November 21st to November 23rd, 2024, with a budget of $9,450. Accommodations should be an entire home, and no self-driving transportation is allowed. Include dining options featuring French, Mediterranean, and Italian cuisines, as well as attractions related to food and drink.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to Seattle",
+      "transportation": "Taxi, from St. Louis to Seattle, Not feasible to drive from St. Louis to Seattle",
+      "breakfast": "Lola, Seattle",
+      "attraction": "Pike Place Market, Seattle",
+      "lunch": "Barolo Ristorante, Seattle",
+      "dinner": "Tilikum Place Cafe, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Pike Place Market, visit from 11:30 to 14:20, nearest transit: 2nd Ave & Stewart St, 182.89m away; Barolo Ristorante, visit from 13:57 to 14:56, nearest transit: Westlake And 7th, 37.77m away; Tilikum Place Cafe, visit from 19:51 to 21:00, nearest transit: Denny Way & 5th Ave N, 65.89m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Assaggio Ristorante, Seattle",
+      "attraction": "-",
+      "lunch": "Place Pigalle Restaurant and Bar, Seattle",
+      "dinner": "Wild Ginger, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Assaggio Ristorante, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 50.20m away; Place Pigalle Restaurant and Bar, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Pike St, 154.30m away; Wild Ginger, visit from 19:51 to 21:00, nearest transit: 3rd Ave & Pike St, 13.86m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to St. Louis",
+      "transportation": "Flight Number: F0254417, from Seattle to St. Louis, Departure Time: 18:02, Arrival Time: 00:07",
+      "breakfast": "All Water Seafood & Oyster Bar, Seattle",
+      "attraction": "-",
+      "lunch": "Dough Zone Dumpling House - Seattle International District, Seattle",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; All Water Seafood & Oyster Bar, visit from 09:25 to 10:16, nearest transit: 1st Ave & Spring St, 19.43m away; Dough Zone Dumpling House - Seattle International District, visit from 13:57 to 14:56, nearest transit: 5th Ave S & S Weller St, 26.54m away."
+    }
+  ]
+}

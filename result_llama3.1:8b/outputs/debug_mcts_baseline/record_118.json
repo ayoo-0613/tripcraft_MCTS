@@ -1,0 +1,68 @@
+{
+  "idx": 118,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Portland",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-22",
+      "2024-11-23",
+      "2024-11-24"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Chinese",
+        "American"
+      ],
+      "room type": null,
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 4350.0,
+    "query": "Plan a 3-day trip for 2 people from Boston to Portland from November 22nd to November 24th, 2024, with a budget of $4,350. The trip should include dining options featuring Chinese and American cuisines.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Portland",
+      "transportation": "Flight Number: F0253472, from Boston to Portland, Departure Time: 20:03, Arrival Time: 23:02",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Tiny House, Big Charm, Portland",
+      "event": "-",
+      "point_of_interest_list": "Tiny House, Big Charm, stay from 08:00 to 09:00, nearest transit: 207 GANNETT DR, 4078059.84m away; Tiny House, Big Charm, stay from 22:15 to 08:00, nearest transit: 207 GANNETT DR, 4078059.84m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Portland to Portland",
+      "transportation": "Transfer, from Portland to Portland",
+      "breakfast": "ParkStone Wood Kitchen + Taps, Portland",
+      "attraction": "Portland Museum of Art, Portland; Maine Foodie Tours, Portland",
+      "lunch": "HK Cafe, Portland",
+      "dinner": "Sayler's Old Country Kitchen, Portland",
+      "accommodation": "Tiny House, Big Charm, Portland",
+      "event": "-",
+      "point_of_interest_list": "Tiny House, Big Charm, stay from 08:00 to 09:00, nearest transit: 207 GANNETT DR, 4078059.84m away; ParkStone Wood Kitchen + Taps, visit from 09:25 to 10:16, nearest transit: 207 GANNETT DR, 4075672.10m away; Portland Museum of Art, visit from 11:30 to 13:57, nearest transit: HIGH ST + SPRING ST, 49.56m away; HK Cafe, visit from 13:57 to 14:56, nearest transit: 207 GANNETT DR, 4079630.74m away; Maine Foodie Tours, visit from 16:30 to 18:42, nearest transit: TEMPLE ST + FORE ST, 104.33m away; Sayler's Old Country Kitchen, visit from 19:51 to 21:00, nearest transit: 207 GANNETT DR, 4077006.53m away; Tiny House, Big Charm, stay from 22:15 to 08:00, nearest transit: 207 GANNETT DR, 4078059.84m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Portland to Boston",
+      "transportation": "Flight Number: F0254738, from Portland to Boston, Departure Time: 10:04, Arrival Time: 18:26",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Tiny House, Big Charm, stay from 08:00 to 09:00, nearest transit: 207 GANNETT DR, 4078059.84m away."
+    }
+  ]
+}

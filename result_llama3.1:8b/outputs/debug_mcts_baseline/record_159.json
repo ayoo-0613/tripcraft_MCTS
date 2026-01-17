@@ -1,0 +1,65 @@
+{
+  "idx": 159,
+  "JSON": {
+    "org": "Denver",
+    "dest": "San Diego",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-26",
+      "2024-11-27",
+      "2024-11-28"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 1 person from Denver to San Diego from November 26th to November 28th, 2024, with a budget of $1,800. The trip should adhere to house rules that do not allow parties.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Denver to San Diego",
+      "transportation": "Flight Number: F0100513, from Denver to San Diego, Departure Time: 21:48, Arrival Time: 23:07",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Central & Serene Secret Garden Guesthouse, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Point Loma, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Point Loma, visit from 11:30 to 14:50, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; Casa Guadalajara, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Diego to Denver",
+      "transportation": "Flight Number: F0029386, from San Diego to Denver, Departure Time: 09:45, Arrival Time: 12:42",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    }
+  ]
+}

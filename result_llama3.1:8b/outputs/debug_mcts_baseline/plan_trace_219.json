@@ -1,0 +1,646 @@
+{
+  "idx": 219,
+  "reward": 13.960861502384738,
+  "budget_used": 5105.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0090538, from San Diego to Nashville, Departure Time: 07:01, Arrival Time: 12:27",
+      "candidates": [
+        "Flight Number: F0090538, from San Diego to Nashville, Departure Time: 07:01, Arrival Time: 12:27",
+        "Taxi, from San Diego to Nashville, Not feasible to drive from San Diego to Nashville"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "12 South Original - Restored craftsman from 1905!",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Lofts At 30th-Nashville Charm -In West End"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Ole Red",
+      "candidates": [
+        "Ole Red",
+        "Pelato",
+        "Puckett's 5th & Church",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Central Bar + Kitchen",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse",
+        "Gannons Nashville",
+        "Deacon’s New South",
+        "Miranda Lambert's Casa Rosa",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "Skull's Rainbow Room",
+        "417 Union",
+        "Aquarium Restaurant",
+        "Jeff Ruby's Steakhouse, Nashville"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Pelato",
+      "candidates": [
+        "Pelato",
+        "Luogo",
+        "Gannons Nashville",
+        "Puckett's 5th & Church",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "12 South Original - Restored craftsman from 1905!",
+      "candidates": [
+        "12 South Original - Restored craftsman from 1905!",
+        "Roomy Bungalow. Close to Downtown. 600+ Reviews.",
+        "Cute Cottage Apartment Downtown",
+        "Historic Dream In East Nashville",
+        "Rustic & Modern Loft by Broadway",
+        "King Room at Downtown Convention Center",
+        "Dave's Place",
+        "Fancy Stay Walk to Broadway Park Free Let’s Roll!",
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Lofts At 30th-Nashville Charm -In West End"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Puckett's 5th & Church",
+      "candidates": [
+        "Puckett's 5th & Church",
+        "Caney Fork River Valley Grille",
+        "The Stillery",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Luogo",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Central Bar + Kitchen",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse",
+        "Gannons Nashville",
+        "Deacon’s New South",
+        "Miranda Lambert's Casa Rosa",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "Skull's Rainbow Room",
+        "417 Union",
+        "Aquarium Restaurant",
+        "Jeff Ruby's Steakhouse, Nashville"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ryman Auditorium",
+      "candidates": [
+        "Ryman Auditorium",
+        "Belmont Mansion",
+        "Downtown Nashville",
+        "Bridgestone Arena",
+        "Belle Meade Historic Site & Winery",
+        "Nashville Parthenon",
+        "Cheekwood",
+        "Andrew Jackson's Hermitage"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Luogo",
+      "candidates": [
+        "Luogo",
+        "Gannons Nashville",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Gannons Nashville",
+      "candidates": [
+        "Gannons Nashville",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Nashville to San Diego, Not feasible to drive from Nashville to San Diego",
+      "candidates": [
+        "Flight Number: F0094926, from Nashville to San Diego, Departure Time: 05:33, Arrival Time: 07:52",
+        "Taxi, from Nashville to San Diego, Not feasible to drive from Nashville to San Diego"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Deacon’s New South",
+      "candidates": [
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Belmont Mansion",
+      "candidates": [
+        "Belmont Mansion",
+        "Downtown Nashville",
+        "Bridgestone Arena",
+        "Belle Meade Historic Site & Winery",
+        "Nashville Parthenon",
+        "Cheekwood",
+        "Andrew Jackson's Hermitage"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Caney Fork River Valley Grille",
+      "candidates": [
+        "Caney Fork River Valley Grille",
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Miranda Lambert's Casa Rosa",
+      "candidates": [
+        "Miranda Lambert's Casa Rosa",
+        "The Stillery",
+        "Smiling Elephant",
+        "Harriet's Rooftop",
+        "1 Kitchen",
+        "Bourbon Street Blues and Boogie Bar",
+        "Henley",
+        "Skull's Rainbow Room",
+        "The Standard",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Hand Cut Chophouse",
+        "Kayne Prime",
+        "Paula Deen's Family Kitchen",
+        "The Farm House",
+        "Tootsie's Orchid Lounge",
+        "Adele's Nashville",
+        "Honky Tonk – The Twelve Thirty Club",
+        "The Mockingbird",
+        "The Bridge",
+        "417 Union",
+        "The Southern Steak & Oyster",
+        "The Chef And I",
+        "Aquarium Restaurant",
+        "Central Bar + Kitchen",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "The Catbird Seat",
+        "The Bluebird Cafe",
+        "Old Hickory Steakhouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from San Diego to Nashville",
+      "transportation": "Flight Number: F0090538, from San Diego to Nashville, Departure Time: 07:01, Arrival Time: 12:27",
+      "accommodation": "12 South Original - Restored craftsman from 1905!",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Ole Red",
+      "dinner": "Pelato",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "12:57",
+          "end": "13:57",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Ole Red",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "BROADWAY AVE & 3RD AVE WB",
+          "dist_m": 17.3
+        },
+        {
+          "name": "Pelato",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "3RD AVE N & MONROE ST SB",
+          "dist_m": 31.56
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "12 South Original - Restored craftsman from 1905!",
+      "breakfast": "Puckett's 5th & Church",
+      "attractions": [
+        "Ryman Auditorium"
+      ],
+      "lunch": "Luogo",
+      "dinner": "Gannons Nashville",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Puckett's 5th & Church",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "5TH AVE N & CHURCH ST NB",
+          "dist_m": 39.47
+        },
+        {
+          "name": "Ryman Auditorium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 76.95
+        },
+        {
+          "name": "Luogo",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "12TH AVE & LAUREL ST NB",
+          "dist_m": 86.33
+        },
+        {
+          "name": "Gannons Nashville",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 35.96
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Nashville to San Diego",
+      "transportation": "Taxi, from Nashville to San Diego, Not feasible to drive from Nashville to San Diego",
+      "accommodation": "-",
+      "breakfast": "Deacon’s New South",
+      "attractions": [
+        "Belmont Mansion"
+      ],
+      "lunch": "Caney Fork River Valley Grille",
+      "dinner": "Miranda Lambert's Casa Rosa",
+      "poi_blocks": [
+        {
+          "name": "12 South Original - Restored craftsman from 1905!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12TH AVE S & SWEETBRIAR AVE NB",
+          "dist_m": 31.55
+        },
+        {
+          "name": "Deacon’s New South",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "4TH AVE N & CHURCH ST SB",
+          "dist_m": 40.02
+        },
+        {
+          "name": "Belmont Mansion",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "WEDGEWOOD AVE & 16TH AVE EB",
+          "dist_m": 92.02
+        },
+        {
+          "name": "Caney Fork River Valley Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MCGAVOCK PIKE & MUSIC VALLEY DR WB",
+          "dist_m": 44.6
+        },
+        {
+          "name": "Miranda Lambert's Casa Rosa",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "BROADWAY AVE & 3RD AVE WB",
+          "dist_m": 55.84
+        }
+      ]
+    }
+  ]
+}

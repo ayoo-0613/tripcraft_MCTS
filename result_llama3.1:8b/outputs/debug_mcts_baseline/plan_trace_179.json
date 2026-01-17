@@ -1,0 +1,567 @@
+{
+  "idx": 179,
+  "reward": 12.95243210765176,
+  "budget_used": 7529.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Boston to Houston, Not feasible to drive from Boston to Houston",
+      "candidates": [
+        "Flight Number: F0275234, from Boston to Houston, Departure Time: 13:48, Arrival Time: 18:45",
+        "Taxi, from Boston to Houston, Not feasible to drive from Boston to Houston"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "candidates": [
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "Private guest suite in the greater Heights",
+        "Secluded Room with En-suite Bathroom Midtown",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Private entrance from the patio to a cozy bedroom",
+        "J-Modern Room nearDowntown\\Airport",
+        "??Perfectly located walkable to Wash- Ave. Parks??",
+        "Heights Craftsman Bungalow in the Trees",
+        "#4 Northwest Victory Single BR",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Phoenicia Specialty Foods",
+      "candidates": [
+        "Phoenicia Specialty Foods",
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Downtown Aquarium",
+      "candidates": [
+        "Downtown Aquarium",
+        "Bayou Bend Collection and Gardens",
+        "Buffalo Bayou Park",
+        "Cockrell Butterfly Center",
+        "Gerald D. Hines Waterwall Park",
+        "Discovery Green",
+        "Hermann Park",
+        "Houston Zoo"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Niko Niko's Greek",
+      "candidates": [
+        "Niko Niko's Greek",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Houston's",
+      "candidates": [
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "candidates": [
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "Private guest suite in the greater Heights",
+        "Secluded Room with En-suite Bathroom Midtown",
+        "Alexander Guesthouse in the Historic Houston Heights",
+        "Private entrance from the patio to a cozy bedroom",
+        "J-Modern Room nearDowntown\\Airport",
+        "??Perfectly located walkable to Wash- Ave. Parks??",
+        "Heights Craftsman Bungalow in the Trees",
+        "#4 Northwest Victory Single BR",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bayou Bend Collection and Gardens",
+      "candidates": [
+        "Bayou Bend Collection and Gardens",
+        "Buffalo Bayou Park",
+        "Cockrell Butterfly Center",
+        "Gerald D. Hines Waterwall Park",
+        "Discovery Green",
+        "Hermann Park",
+        "Houston Zoo"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Uchi Houston",
+      "candidates": [
+        "Uchi Houston",
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Goode Company BBQ",
+      "candidates": [
+        "Goode Company BBQ",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07",
+      "candidates": [
+        "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07",
+        "Taxi, from Houston to Boston, Not feasible to drive from Houston to Boston"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fogo de Chao Brazilian Steakhouse",
+      "candidates": [
+        "Fogo de Chao Brazilian Steakhouse",
+        "Pappas Bros. Steakhouse",
+        "Brennan's of Houston",
+        "The Breakfast Klub",
+        "Goode Company Seafood",
+        "The Original Ninfa's",
+        "Kenny & Ziggy's New York Deli",
+        "Brenner's on the Bayou",
+        "Taste of Texas",
+        "Pappadeaux Seafood Kitchen",
+        "Eddie V's Prime Seafood",
+        "Market on Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Merrill & Houston's Steak Joint",
+        "Houston's Trail's End",
+        "Houston White Co",
+        "Houston Restaurant",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boston to Houston",
+      "transportation": "Taxi, from Boston to Houston, Not feasible to drive from Boston to Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "breakfast": "Phoenicia Specialty Foods",
+      "attractions": [
+        "Downtown Aquarium"
+      ],
+      "lunch": "Niko Niko's Greek",
+      "dinner": "Houston's",
+      "poi_blocks": [
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "Phoenicia Specialty Foods",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Lamar St @ Austin St",
+          "dist_m": 9.87
+        },
+        {
+          "name": "Downtown Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "Preston St @ Bagby St",
+          "dist_m": 75.65
+        },
+        {
+          "name": "Niko Niko's Greek",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Montrose Blvd @ Missouri St",
+          "dist_m": 22.62
+        },
+        {
+          "name": "Houston's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Kirby Dr @ Westpark Dr",
+          "dist_m": 23.24
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+      "breakfast": "Hugo's",
+      "attractions": [
+        "Bayou Bend Collection and Gardens"
+      ],
+      "lunch": "Uchi Houston",
+      "dinner": "Goode Company BBQ",
+      "poi_blocks": [
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        },
+        {
+          "name": "Bayou Bend Collection and Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "Memorial Dr @ Knox St",
+          "dist_m": 87.75
+        },
+        {
+          "name": "Uchi Houston",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Westheimer Rd @ Montrose Blvd",
+          "dist_m": 31.07
+        },
+        {
+          "name": "Goode Company BBQ",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Kirby Dr @ South Blvd",
+          "dist_m": 42.93
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Boston",
+      "transportation": "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07",
+      "accommodation": "-",
+      "breakfast": "Fogo de Chao Brazilian Steakhouse",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "#1 Upper Kirby/Med Center/Montrose /Galleria",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Richmond Ave @ Greenbriar Dr",
+          "dist_m": 52.69
+        },
+        {
+          "name": "Fogo de Chao Brazilian Steakhouse",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Westheimer Rd @ Old Farm Rd",
+          "dist_m": 57.72
+        }
+      ]
+    }
+  ]
+}

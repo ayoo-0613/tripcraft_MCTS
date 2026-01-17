@@ -1,0 +1,632 @@
+{
+  "idx": 107,
+  "reward": 12.97355319294809,
+  "budget_used": 1479.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+      "candidates": [
+        "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+        "Taxi, from Milwaukee to Atlanta, Duration: 903.0699999999999 mins, Distance: 1243.1483999999998 km, Estimated Cost: $1243.15"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Historic Lounge - Private BR in the Heart of ATL#2"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ray's in the City",
+      "candidates": [
+        "Ray's in the City",
+        "La Tavola Trattoria",
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Grant Park Guest House | Charming Tiny House",
+      "candidates": [
+        "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet",
+        "Grant Park Guest House | Charming Tiny House",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking",
+        "Heart of city free parking walk to Marta train(T)",
+        "First-Class Flats | * From 1 to 10 Guests *",
+        "Chic, Clean, City Loft Getaway",
+        "Downtown Beach Room **FREE PARKING** Private Room",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Historic Lounge - Private BR in the Heart of ATL#2"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "La Tavola Trattoria",
+      "candidates": [
+        "La Tavola Trattoria",
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fox Theatre",
+      "candidates": [
+        "Fox Theatre",
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Fernbank Museum",
+        "Zoo Atlanta",
+        "Mercedes Benz Stadium",
+        "Atlanta Botanical Garden",
+        "Lenox Square",
+        "World of Coca-Cola",
+        "Piedmont Park",
+        "Atlanta History Center",
+        "Swan House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cafe Agora",
+      "candidates": [
+        "Cafe Agora",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Murphy's Restaurant",
+      "candidates": [
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Atlanta to Milwaukee",
+      "candidates": [
+        "Transfer, from Atlanta to Milwaukee"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "By George restaurant and bar",
+      "candidates": [
+        "By George restaurant and bar",
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "College Football Hall of Fame",
+      "candidates": [
+        "College Football Hall of Fame",
+        "National Center for Civil and Human Rights",
+        "High Museum of Art",
+        "Martin Luther King Jr. National Historic Site",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "Georgia Aquarium",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Fernbank Museum",
+        "Zoo Atlanta",
+        "Mercedes Benz Stadium",
+        "Atlanta Botanical Garden",
+        "Lenox Square",
+        "World of Coca-Cola",
+        "Piedmont Park",
+        "Atlanta History Center",
+        "Swan House"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Max's Coal Oven Pizzeria",
+      "candidates": [
+        "Max's Coal Oven Pizzeria",
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Sun Dial Restaurant, Bar & View",
+      "candidates": [
+        "The Sun Dial Restaurant, Bar & View",
+        "Buttermilk Kitchen",
+        "Atlanta Breakfast Club",
+        "Bone's Restaurant",
+        "Home Grown",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "Ted's Montana Grill",
+        "Marcel",
+        "White Oak Kitchen & Cocktails",
+        "Pasta Da Pulcinella",
+        "Steamhouse Lounge",
+        "The Capital Grille",
+        "Copeland's of New Orleans Atlanta",
+        "La Grotta Ristorante Italiano",
+        "The Americano Atlanta",
+        "Fogo de Chao Brazilian Steakhouse",
+        "No Mas! Cantina",
+        "South City Kitchen Midtown",
+        "Bangkok Station",
+        "The Optimist",
+        "Trader Vic's",
+        "Fox Bros. Bar-B-Q",
+        "Aria",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Canoe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Milwaukee to Atlanta",
+      "transportation": "Flight Number: F0079316, from Milwaukee to Atlanta, Departure Time: 12:37, Arrival Time: 15:27",
+      "accommodation": "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Ray's in the City",
+      "poi_blocks": [
+        {
+          "name": "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+          "kind": "stay",
+          "start": "15:57",
+          "end": "16:57",
+          "nearest_transit": "MORELAND AVE NE @ HARDEE ST NE",
+          "dist_m": 215.25
+        },
+        {
+          "name": "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MORELAND AVE NE @ HARDEE ST NE",
+          "dist_m": 215.25
+        },
+        {
+          "name": "Ray's in the City",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE ST @ JOHN PORTMAN BLVD (P'TREE CTR STATION)",
+          "dist_m": 15.57
+        },
+        {
+          "name": "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MORELAND AVE NE @ HARDEE ST NE",
+          "dist_m": 215.25
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Grant Park Guest House | Charming Tiny House",
+      "breakfast": "La Tavola Trattoria",
+      "attractions": [
+        "Fox Theatre"
+      ],
+      "lunch": "Cafe Agora",
+      "dinner": "Murphy's Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "La Tavola Trattoria",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "VIRGINIA AVE NE @ TODD RD NE",
+          "dist_m": 27.36
+        },
+        {
+          "name": "Fox Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "PEACHTREE ST NE @ PONCE DE LEON AVE",
+          "dist_m": 41.68
+        },
+        {
+          "name": "Cafe Agora",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEACHTREE ST @ PEACHTREE PL",
+          "dist_m": 29.31
+        },
+        {
+          "name": "Murphy's Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "VIRGINIA AVE NE @ TODD RD NE",
+          "dist_m": 29.86
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Milwaukee",
+      "transportation": "Transfer, from Atlanta to Milwaukee",
+      "accommodation": "-",
+      "breakfast": "By George restaurant and bar",
+      "attractions": [
+        "College Football Hall of Fame"
+      ],
+      "lunch": "Max's Coal Oven Pizzeria",
+      "dinner": "The Sun Dial Restaurant, Bar & View",
+      "poi_blocks": [
+        {
+          "name": "Grant Park Guest House | Charming Tiny House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MEMORIAL DR @ CHEROKEE AVE",
+          "dist_m": 93.61
+        },
+        {
+          "name": "By George restaurant and bar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "PEACHTREE ST NE @ JOHN WESLEY DOBBS AVE NE",
+          "dist_m": 32.71
+        },
+        {
+          "name": "College Football Hall of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "MARIETTA ST NW @ PARK AVE WEST",
+          "dist_m": 70.48
+        },
+        {
+          "name": "Max's Coal Oven Pizzeria",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MARIETTA ST @ BAKER ST NW",
+          "dist_m": 33.64
+        },
+        {
+          "name": "The Sun Dial Restaurant, Bar & View",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE ST @ ANDREW YOUNG INTL BLVD",
+          "dist_m": 36.71
+        }
+      ]
+    }
+  ]
+}

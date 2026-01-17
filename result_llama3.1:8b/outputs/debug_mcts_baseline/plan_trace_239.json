@@ -1,0 +1,580 @@
+{
+  "idx": 239,
+  "reward": -3961.0984646619113,
+  "budget_used": 1796.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach",
+      "candidates": [
+        "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11",
+        "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Very private space. Private Entry",
+      "candidates": [
+        "Tranquil Getaway *Cal King Tempur-Pedic Bed*",
+        "Very private space. Private Entry",
+        "Come kayak with us in Naples/ Belmont Shore!",
+        "Centerpointe Cozy Suite",
+        "Belmont Shore: Casita Granada",
+        "Park Ave By The Shore",
+        "Cozy Treetop Hideaway: Guests Love Our Location!",
+        "Two Palms Casita-Reserved parking & mins to beach",
+        "Newly remodeled |Spacious 2bedroom |Walk to beach",
+        "Cute One BR in Rose Park South w/1 Parking Space"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Long Beach Cafe",
+      "candidates": [
+        "Lido Kosher Deli",
+        "Long Beach Dairy Maid",
+        "El Saltillo Long Beach",
+        "Long Beach Market & Deli",
+        "Long Beach Cafe",
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Long Beach",
+      "candidates": [
+        "Long Beach"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Lido Kosher Deli",
+      "candidates": [
+        "Lido Kosher Deli",
+        "Long Beach Dairy Maid",
+        "El Saltillo Long Beach",
+        "Long Beach Market & Deli",
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Long Beach Dairy Maid",
+      "candidates": [
+        "Long Beach Dairy Maid",
+        "El Saltillo Long Beach",
+        "Long Beach Market & Deli",
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Very private space. Private Entry",
+      "candidates": [
+        "Tranquil Getaway *Cal King Tempur-Pedic Bed*",
+        "Very private space. Private Entry",
+        "Come kayak with us in Naples/ Belmont Shore!",
+        "Centerpointe Cozy Suite",
+        "Belmont Shore: Casita Granada",
+        "Park Ave By The Shore",
+        "Cozy Treetop Hideaway: Guests Love Our Location!",
+        "Two Palms Casita-Reserved parking & mins to beach",
+        "Newly remodeled |Spacious 2bedroom |Walk to beach",
+        "Cute One BR in Rose Park South w/1 Parking Space"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "El Saltillo Long Beach",
+      "candidates": [
+        "El Saltillo Long Beach",
+        "Long Beach Market & Deli",
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Long Beach Market & Deli",
+      "candidates": [
+        "Long Beach Market & Deli",
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Open Sesame",
+      "candidates": [
+        "Open Sesame",
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "candidates": [
+        "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+        "Taxi, from Long Beach to Chicago, Not feasible to drive from Long Beach to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Nick's on 2nd",
+      "candidates": [
+        "Nick's on 2nd",
+        "Jongewaard's Bake n Broil",
+        "La Parolaccia Osteria - Long Beach",
+        "The Breakfast Bar",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "George's Greek Cafe",
+        "Pier 76 Fish Grill",
+        "L'Opera Ristorante",
+        "Yard House",
+        "Parkers' Lighthouse",
+        "Gladstone's Long Beach",
+        "Bubba Gump Shrimp Co.",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Long Beach Tavern",
+        "The Lost Roo",
+        "Pickled Fish Restaurant",
+        "Long Beach",
+        "Long Beach",
+        "Long Beach Club Lanzarote",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Plage Long Beach",
+        "Sunset Beach Bar & Restaurant",
+        "LONG BEACH IMM",
+        "Long Beach Seafood Restaurant",
+        "LONG BEACH UDMC",
+        "Beach Byron Bay",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Long Beach Hotel"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Long Beach",
+      "transportation": "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach",
+      "accommodation": "Very private space. Private Entry",
+      "breakfast": "Long Beach Cafe",
+      "attractions": [
+        "Long Beach"
+      ],
+      "lunch": "Lido Kosher Deli",
+      "dinner": "Long Beach Dairy Maid",
+      "poi_blocks": [
+        {
+          "name": "Very private space. Private Entry",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3973420.23
+        },
+        {
+          "name": "Very private space. Private Entry",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3973420.23
+        },
+        {
+          "name": "Long Beach Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3924384.1
+        },
+        {
+          "name": "Long Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 4055419.43
+        },
+        {
+          "name": "Lido Kosher Deli",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "E Park Ave & Roosevelt Blvd",
+          "dist_m": 91.78
+        },
+        {
+          "name": "Long Beach Dairy Maid",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mineola Ave & Lido Blvd",
+          "dist_m": 334035.46
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Long Beach to Long Beach",
+      "transportation": "-",
+      "accommodation": "Very private space. Private Entry",
+      "breakfast": "El Saltillo Long Beach",
+      "attractions": [],
+      "lunch": "Long Beach Market & Deli",
+      "dinner": "Open Sesame",
+      "poi_blocks": [
+        {
+          "name": "Very private space. Private Entry",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3973420.23
+        },
+        {
+          "name": "Very private space. Private Entry",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3973420.23
+        },
+        {
+          "name": "El Saltillo Long Beach",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 1799233.86
+        },
+        {
+          "name": "Long Beach Market & Deli",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 1800763.64
+        },
+        {
+          "name": "Open Sesame",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975088.33
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Long Beach to Chicago",
+      "transportation": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "accommodation": "-",
+      "breakfast": "Nick's on 2nd",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Very private space. Private Entry",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3973420.23
+        },
+        {
+          "name": "Nick's on 2nd",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975223.53
+        }
+      ]
+    }
+  ]
+}

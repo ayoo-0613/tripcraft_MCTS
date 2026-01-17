@@ -1,0 +1,65 @@
+{
+  "idx": 180,
+  "JSON": {
+    "org": "Indianapolis",
+    "dest": "Detroit",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": "entire home",
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 3600.0,
+    "query": "Plan a 3-day trip for 4 people from Indianapolis to Detroit from November 18th to November 20th, 2024, with a budget of $3,600. Accommodations should include an entire home, and smoking should be allowed as per the house rules.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Indianapolis to Detroit",
+      "transportation": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08",
+      "breakfast": "Prime + Proper, Detroit",
+      "attraction": "The Guardian Building, Detroit",
+      "lunch": "Townhouse, Detroit",
+      "dinner": "Texas de Brazil - Detroit, Detroit",
+      "accommodation": "Historic Carriage House Apartment in Brush Park, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; Prime + Proper, visit from 09:25 to 10:16, nearest transit: Campus Martius - Northbound, 144.21m away; The Guardian Building, visit from 11:30 to 15:20, nearest transit: Congress St, 46.14m away; Townhouse, visit from 13:57 to 14:56, nearest transit: Congress St, 45.65m away; Texas de Brazil - Detroit, visit from 19:51 to 21:00, nearest transit: Campus Martius - Southbound, 47.58m away; Historic Carriage House Apartment in Brush Park, stay from 22:15 to 08:00, nearest transit: Sproat St - Southbound, 58.40m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Detroit to Detroit",
+      "transportation": "Transfer, from Detroit to Detroit",
+      "breakfast": "Besa, Detroit",
+      "attraction": "Detroit Downtown, Detroit",
+      "lunch": "Chartreuse Kitchen & Cocktails, Detroit",
+      "dinner": "The Whitney, Detroit",
+      "accommodation": "Historic Carriage House Apartment in Brush Park, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; Besa, visit from 09:25 to 10:16, nearest transit: Congress St, 71.32m away; Detroit Downtown, visit from 11:30 to 14:50, nearest transit: Congress St, 56.59m away; Chartreuse Kitchen & Cocktails, visit from 13:57 to 14:56, nearest transit: Ferry St - Northbound, 81.76m away; The Whitney, visit from 19:51 to 21:00, nearest transit: Canfield St - Southbound, 81.76m away; Historic Carriage House Apartment in Brush Park, stay from 22:15 to 08:00, nearest transit: Sproat St - Southbound, 58.40m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Detroit to Indianapolis",
+      "transportation": "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
+      "breakfast": "Parc, Detroit",
+      "attraction": "Campus Martius Park, Detroit",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Historic Carriage House Apartment in Brush Park, stay from 08:00 to 09:00, nearest transit: Sproat St - Southbound, 58.40m away; Parc, visit from 09:25 to 10:16, nearest transit: Campus Martius - Southbound, 82.17m away; Campus Martius Park, visit from 11:30 to 14:50, nearest transit: Campus Martius - Southbound, 69.69m away."
+    }
+  ]
+}

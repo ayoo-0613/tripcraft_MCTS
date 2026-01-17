@@ -1,0 +1,59 @@
+{
+  "idx": 111,
+  "stages": [
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "San Francisco",
+      "date": "2024-11-13",
+      "raw": "Flight Number: F0176182, from Charlotte to San Francisco, Departure Time: 17:11, Arrival Time: 19:56"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to San Francisco, Not feasible to drive from Charlotte to San Francisco"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Charlotte to San Francisco, Not feasible to drive from Charlotte to San Francisco"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Charlotte",
+      "date": "2024-11-15",
+      "raw": "Flight Number: F0170272, from San Francisco to Charlotte, Departure Time: 05:42, Arrival Time: 13:04"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Charlotte, Not feasible to drive from San Francisco to Charlotte"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Charlotte, Not feasible to drive from San Francisco to Charlotte"
+    }
+  ]
+}

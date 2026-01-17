@@ -1,0 +1,603 @@
+{
+  "idx": 287,
+  "reward": 2.2963440252971665,
+  "budget_used": 1309.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0932639, from Manchester to Tampa, Departure Time: 14:33, Arrival Time: 18:18",
+      "candidates": [
+        "Flight Number: F0932639, from Manchester to Tampa, Departure Time: 14:33, Arrival Time: 18:18",
+        "Taxi, from Manchester to Tampa, Not feasible to drive from Manchester to Tampa"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Suite",
+      "candidates": [
+        "Cozy Suite",
+        "Bungalow Bliss on Highland",
+        "Newly Renovated Private Eco Cottage",
+        "The Treehouse: King Bed, Full Kitchen, New AC",
+        "Charming Tampa Retreat: 2BD/2BA Centrally Located",
+        "Downtown Tampa Pool House! Walk to Armature Works!",
+        "Cozy, nicely situated studio!",
+        "Charming guest suite in West Tampa",
+        "2 Blocks from Bucs Stadium",
+        "Hyde Park/ Convention Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bernini Restaurant",
+      "candidates": [
+        "Yummy House China Bistro",
+        "Bernini Restaurant",
+        "La Terrazza Restaurant",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Green Lemon",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Besito Mexican",
+        "Curry Leaves Indian Cuisine",
+        "Vino E Pasta",
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Suite",
+      "candidates": [
+        "Cozy Suite",
+        "Bungalow Bliss on Highland",
+        "Newly Renovated Private Eco Cottage",
+        "The Treehouse: King Bed, Full Kitchen, New AC",
+        "Charming Tampa Retreat: 2BD/2BA Centrally Located",
+        "Downtown Tampa Pool House! Walk to Armature Works!",
+        "Cozy, nicely situated studio!",
+        "Charming guest suite in West Tampa",
+        "2 Blocks from Bucs Stadium",
+        "Hyde Park/ Convention Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Yummy House China Bistro",
+      "candidates": [
+        "Yummy House China Bistro",
+        "La Terrazza Restaurant",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Green Lemon",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Besito Mexican",
+        "Curry Leaves Indian Cuisine",
+        "Vino E Pasta",
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "ZooTampa At Lowry Park",
+      "candidates": [
+        "ZooTampa At Lowry Park",
+        "Tampa Theatre",
+        "Bayshore Boulevard",
+        "Horse Power for Kids & Animal Sanctuary"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Terrazza Restaurant",
+      "candidates": [
+        "La Terrazza Restaurant",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Green Lemon",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Besito Mexican",
+        "Curry Leaves Indian Cuisine",
+        "Vino E Pasta",
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Green Lemon",
+      "candidates": [
+        "Green Lemon",
+        "Besito Mexican",
+        "Curry Leaves Indian Cuisine",
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Vino E Pasta",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Tampa to Manchester, Not feasible to drive from Tampa to Manchester",
+      "candidates": [
+        "Flight Number: F0932652, from Tampa to Manchester, Departure Time: 10:41, Arrival Time: 13:29",
+        "Taxi, from Tampa to Manchester, Not feasible to drive from Tampa to Manchester"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Curry Leaves Indian Cuisine",
+      "candidates": [
+        "Curry Leaves Indian Cuisine",
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Besito Mexican",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Vino E Pasta",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tampa Theatre",
+      "candidates": [
+        "Tampa Theatre",
+        "Bayshore Boulevard",
+        "Horse Power for Kids & Animal Sanctuary"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Columbia Restaurant",
+      "candidates": [
+        "Columbia Restaurant",
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Besito Mexican",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Vino E Pasta",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Samurai Blue Sushi & Sake Bar",
+      "candidates": [
+        "Samurai Blue Sushi & Sake Bar",
+        "Al's Finger Licking Good Bar-B-Que",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "Oak & Ola Restaurant",
+        "Ulele",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Oxford Exchange",
+        "Jackson's Bistro Bar & Sushi",
+        "On Swann",
+        "The Capital Grille",
+        "Eddie V's Prime Seafood",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Daily Eats",
+        "Ocean Prime",
+        "Haven",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Bella's Italian Cafe",
+        "Olivia",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Besito Mexican",
+        "Oystercatchers",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Rusty Pelican Tampa",
+        "Vino E Pasta",
+        "Salt Shack On The Bay"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Manchester to Tampa",
+      "transportation": "Flight Number: F0932639, from Manchester to Tampa, Departure Time: 14:33, Arrival Time: 18:18",
+      "accommodation": "Cozy Suite",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Bernini Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "18:48",
+          "end": "19:48",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        },
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        },
+        {
+          "name": "Bernini Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 9397.67
+        },
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Tampa to Tampa",
+      "transportation": "-",
+      "accommodation": "Cozy Suite",
+      "breakfast": "Yummy House China Bistro",
+      "attractions": [
+        "ZooTampa At Lowry Park"
+      ],
+      "lunch": "La Terrazza Restaurant",
+      "dinner": "Green Lemon",
+      "poi_blocks": [
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        },
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        },
+        {
+          "name": "Yummy House China Bistro",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 5274.93
+        },
+        {
+          "name": "ZooTampa At Lowry Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 5842.47
+        },
+        {
+          "name": "La Terrazza Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 9415.25
+        },
+        {
+          "name": "Green Lemon",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 13524.68
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Tampa to Manchester",
+      "transportation": "Taxi, from Tampa to Manchester, Not feasible to drive from Tampa to Manchester",
+      "accommodation": "-",
+      "breakfast": "Curry Leaves Indian Cuisine",
+      "attractions": [
+        "Tampa Theatre"
+      ],
+      "lunch": "Columbia Restaurant",
+      "dinner": "Samurai Blue Sushi & Sake Bar",
+      "poi_blocks": [
+        {
+          "name": "Cozy Suite",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "U Mall to MSC",
+          "dist_m": 3243.17
+        },
+        {
+          "name": "Curry Leaves Indian Cuisine",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 15004.9
+        },
+        {
+          "name": "Tampa Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 10975.0
+        },
+        {
+          "name": "Columbia Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 9370.5
+        },
+        {
+          "name": "Samurai Blue Sushi & Sake Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 9381.71
+        }
+      ]
+    }
+  ]
+}

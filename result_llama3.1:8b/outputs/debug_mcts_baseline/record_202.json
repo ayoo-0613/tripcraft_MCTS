@@ -1,0 +1,65 @@
+{
+  "idx": 202,
+  "JSON": {
+    "org": "San Francisco",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3450.0,
+    "query": "Plan a 3-day trip for 2 people from San Francisco to New York from November 8th to November 10th, 2024, with a budget of $3,450. Accommodations should include a private room, and transportation should not involve self-driving. Pets must be allowed.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from San Francisco to New York",
+      "transportation": "Taxi, from San Francisco to New York, Not feasible to drive from San Francisco to New York",
+      "breakfast": "Nobu Fifty Seven, New York",
+      "attraction": "SUMMIT One Vanderbilt, New York",
+      "lunch": "Blue Smoke Battery Park City, New York",
+      "dinner": "Lillie's Victorian Establishment, New York",
+      "accommodation": "East Village, Private room with access to garden, New York",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Nobu Fifty Seven, visit from 09:25 to 10:16, nearest transit: W 57 ST/AVENUE OF THE AMERICAS, 57.03m away; SUMMIT One Vanderbilt, visit from 11:30 to 15:20, nearest transit: E 42 ST/MADISON AV, 28.59m away; Blue Smoke Battery Park City, visit from 13:57 to 14:56, nearest transit: VESEY ST/NORTH END AV, 10.23m away; Lillie's Victorian Establishment, visit from 19:51 to 21:00, nearest transit: 8 AV/W 49 ST, 40.41m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Sylvia's Restaurant, New York",
+      "attraction": "New York Public Library, New York",
+      "lunch": "Westway Diner, New York",
+      "dinner": "Times Square Diner, New York",
+      "accommodation": "East Village, Private room with access to garden, New York",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Sylvia's Restaurant, visit from 09:25 to 10:16, nearest transit: MALCOLM X BLVD/W 127 ST, 40.45m away; New York Public Library, visit from 11:30 to 15:20, nearest transit: 5 AV/W 42 ST, 34.90m away; Westway Diner, visit from 13:57 to 14:56, nearest transit: 9 AV/W 44 ST, 44.32m away; Times Square Diner, visit from 19:51 to 21:00, nearest transit: W 49 ST/8 AV, 51.46m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to San Francisco",
+      "transportation": "Flight Number: F0165709, from New York to San Francisco, Departure Time: 06:34, Arrival Time: 10:06",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "East Village, Private room with access to garden, stay from 05:04 to 06:04, nearest transit: 1 AV/E 1 ST, 79.09m away; East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+    }
+  ]
+}

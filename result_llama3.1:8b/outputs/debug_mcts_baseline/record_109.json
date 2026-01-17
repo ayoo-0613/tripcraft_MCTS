@@ -1,0 +1,71 @@
+{
+  "idx": 109,
+  "JSON": {
+    "org": "Detroit",
+    "dest": "Louisville",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Chinese",
+        "Mexican",
+        "American"
+      ],
+      "room type": "entire home",
+      "transportation": null,
+      "event": [
+        "Music"
+      ],
+      "attraction": null
+    },
+    "budget": 1200.0,
+    "query": "Plan a 3-day trip for 2 people from Detroit to Louisville from November 1st to November 3rd, 2024, with a budget of $1,200. Accommodations should include an entire home. The itinerary should feature dining options with Chinese, Mexican, or American cuisine and include music-related events.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Detroit to Louisville",
+      "transportation": "Taxi, from Detroit to Louisville, Duration: 407.22666666666663 mins, Distance: 575.7547 km, Estimated Cost: $575.75",
+      "breakfast": "Brown Hotel Lobby Bar & Grill, Louisville",
+      "attraction": "Louisville Zoo, Louisville",
+      "lunch": "Noche Mexican BBQ, Louisville",
+      "dinner": "The Joy Luck, Louisville",
+      "accommodation": "Charming Home In The Highlands, Louisville",
+      "event": "Jelly Roll: Beautifully Broken Tour, Louisville",
+      "point_of_interest_list": "Charming Home In The Highlands, stay from 08:00 to 09:00, nearest transit: Baxter @ Morton, 80.31m away; Brown Hotel Lobby Bar & Grill, visit from 09:25 to 10:16, nearest transit: Broadway @ 4th, 23.43m away; Louisville Zoo, visit from 11:30 to 16:00, nearest transit: Louisville Zoo, 42.80m away; Noche Mexican BBQ, visit from 13:57 to 14:56, nearest transit: Bardstown @ Esperanza Alley, 34.93m away; The Joy Luck, visit from 19:51 to 21:00, nearest transit: Bardstown @ Longest, 70.75m away; Charming Home In The Highlands, stay from 22:15 to 08:00, nearest transit: Baxter @ Morton, 80.31m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Louisville to Louisville",
+      "transportation": "Transfer, from Louisville to Louisville",
+      "breakfast": "Proof on Main, Louisville",
+      "attraction": "Cave Hill Cemetery, Louisville",
+      "lunch": "The Original Impellizzeri's Pizza, Louisville",
+      "dinner": "-",
+      "accommodation": "Experience the Unique Re-Nu Shipping Container #5, Louisville",
+      "event": "-",
+      "point_of_interest_list": "Experience the Unique Re-Nu Shipping Container #5, stay from 08:00 to 09:00, nearest transit: Chestnut @ Liberty, 51.45m away; Proof on Main, visit from 09:25 to 10:16, nearest transit: Main @ 7th, 14.05m away; Cave Hill Cemetery, visit from 11:30 to 15:20, nearest transit: E Broadway @ Baxter, 66.85m away; The Original Impellizzeri's Pizza, visit from 13:57 to 14:56, nearest transit: Bardstown @ Edgeland, 21.93m away; Experience the Unique Re-Nu Shipping Container #5, stay from 22:15 to 08:00, nearest transit: Chestnut @ Liberty, 51.45m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Louisville to Detroit",
+      "transportation": "Transfer, from Louisville to Detroit",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Experience the Unique Re-Nu Shipping Container #5, stay from 08:00 to 09:00, nearest transit: Chestnut @ Liberty, 51.45m away."
+    }
+  ]
+}

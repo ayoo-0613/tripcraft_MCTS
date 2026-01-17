@@ -1,0 +1,654 @@
+{
+  "idx": 110,
+  "reward": 13.983487164287192,
+  "budget_used": 683.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Denver to Savannah, Not feasible to drive from Denver to Savannah",
+      "candidates": [
+        "Flight Number: F0500662, from Denver to Savannah, Departure Time: 09:36, Arrival Time: 14:38",
+        "Taxi, from Denver to Savannah, Not feasible to drive from Denver to Savannah"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Room w/Office by Free DOT shuttle! By Forsyth",
+      "candidates": [
+        "Room w/Office by Free DOT shuttle! By Forsyth",
+        "King bedroom private bathroom",
+        "King Bed, Very Walkable Location! By FREE Shuttle",
+        "Starlander Ltd.: The Coffee Suite, w/ private bath",
+        "Luxe Townhome in Historic Downtown Savannah",
+        "Perfect location! Home on Forsyth!",
+        "Cozy Room Near Starland District",
+        "Timeless, Reimagined Cottage | Midnight Garden Inn",
+        "Suite Liberty, Elegant | Refined | By Chippewa",
+        "Historic District Perch with Cathedral Views!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Collins Quarter",
+      "candidates": [
+        "The Collins Quarter",
+        "The Grey",
+        "Mrs. Wilkes Dining Room",
+        "Goose Feathers Cafe & Bakery",
+        "1540 Room",
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "American Prohibition Museum",
+      "candidates": [
+        "American Prohibition Museum",
+        "City Market",
+        "Cathedral of St. John the Baptist",
+        "Savannah Historic District",
+        "Webb Military Museum",
+        "SCADstory",
+        "Congregation Mickve Israel",
+        "Chippewa Square",
+        "Forsyth Park",
+        "The Old Sorrel Weed House Museum & Tours",
+        "Historic Savannah Theatre",
+        "The Olde Pink House",
+        "Owens-Thomas House & Slave Quarters",
+        "First African Baptist Church",
+        "Historic River Street",
+        "Bonaventure Cemetery",
+        "Wormsloe Historic Site",
+        "Old Fort Jackson",
+        "Pin Point Heritage Museum",
+        "Skidaway Island State Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Grey",
+      "candidates": [
+        "The Grey",
+        "Mrs. Wilkes Dining Room",
+        "Goose Feathers Cafe & Bakery",
+        "1540 Room",
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mrs. Wilkes Dining Room",
+      "candidates": [
+        "Mrs. Wilkes Dining Room",
+        "Goose Feathers Cafe & Bakery",
+        "1540 Room",
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Room w/Office by Free DOT shuttle! By Forsyth",
+      "candidates": [
+        "Room w/Office by Free DOT shuttle! By Forsyth",
+        "King bedroom private bathroom",
+        "King Bed, Very Walkable Location! By FREE Shuttle",
+        "Starlander Ltd.: The Coffee Suite, w/ private bath",
+        "Luxe Townhome in Historic Downtown Savannah",
+        "Perfect location! Home on Forsyth!",
+        "Cozy Room Near Starland District",
+        "Timeless, Reimagined Cottage | Midnight Garden Inn",
+        "Suite Liberty, Elegant | Refined | By Chippewa",
+        "Historic District Perch with Cathedral Views!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Goose Feathers Cafe & Bakery",
+      "candidates": [
+        "Goose Feathers Cafe & Bakery",
+        "1540 Room",
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "City Market",
+      "candidates": [
+        "City Market",
+        "Cathedral of St. John the Baptist",
+        "Savannah Historic District",
+        "Webb Military Museum",
+        "SCADstory",
+        "Congregation Mickve Israel",
+        "Chippewa Square",
+        "Forsyth Park",
+        "The Old Sorrel Weed House Museum & Tours",
+        "Historic Savannah Theatre",
+        "The Olde Pink House",
+        "Owens-Thomas House & Slave Quarters",
+        "First African Baptist Church",
+        "Historic River Street",
+        "Bonaventure Cemetery",
+        "Wormsloe Historic Site",
+        "Old Fort Jackson",
+        "Pin Point Heritage Museum",
+        "Skidaway Island State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "1540 Room",
+      "candidates": [
+        "1540 Room",
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Common Restaurant",
+      "candidates": [
+        "Common Restaurant",
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0456839, from Savannah to Denver, Departure Time: 15:51, Arrival Time: 17:51",
+      "candidates": [
+        "Flight Number: F0456839, from Savannah to Denver, Departure Time: 15:51, Arrival Time: 17:51",
+        "Taxi, from Savannah to Denver, Not feasible to drive from Savannah to Denver"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bella Napoli Italian Bistro",
+      "candidates": [
+        "Bella Napoli Italian Bistro",
+        "Madame Butterfly",
+        "Wright Square Bistro",
+        "Jazz'd Tapas Bar",
+        "Chive Sea Bar & Lounge",
+        "Toast! All Day",
+        "The Public Kitchen & Bar",
+        "Garibaldi's Cafe",
+        "Alligator Soul",
+        "Noble Fare",
+        "Belford's Savannah",
+        "Little Duck Diner",
+        "Vinnie Van Go-Go's",
+        "Cotton & Rye",
+        "Olde Pink House Restaurant",
+        "Planters Tavern",
+        "17 Hundred 90 Restaurant",
+        "B. Matthew's Eatery",
+        "Vic's On the River",
+        "Rocks on the Roof",
+        "Crystal Beer Parlor",
+        "Wiley's Championship BBQ",
+        "River House",
+        "Boar's Head Grill & Tavern",
+        "The Pirates' House",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Huey's On The River",
+        "Stone & Webster Chophouse",
+        "Driftaway Cafe"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cathedral of St. John the Baptist",
+      "candidates": [
+        "Cathedral of St. John the Baptist",
+        "Savannah Historic District",
+        "Webb Military Museum",
+        "SCADstory",
+        "Congregation Mickve Israel",
+        "Chippewa Square",
+        "Forsyth Park",
+        "The Old Sorrel Weed House Museum & Tours",
+        "Historic Savannah Theatre",
+        "The Olde Pink House",
+        "Owens-Thomas House & Slave Quarters",
+        "First African Baptist Church",
+        "Historic River Street",
+        "Bonaventure Cemetery",
+        "Wormsloe Historic Site",
+        "Old Fort Jackson",
+        "Pin Point Heritage Museum",
+        "Skidaway Island State Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Denver to Savannah",
+      "transportation": "Taxi, from Denver to Savannah, Not feasible to drive from Denver to Savannah",
+      "accommodation": "Room w/Office by Free DOT shuttle! By Forsyth",
+      "breakfast": "The Collins Quarter",
+      "attractions": [
+        "American Prohibition Museum"
+      ],
+      "lunch": "The Grey",
+      "dinner": "Mrs. Wilkes Dining Room",
+      "poi_blocks": [
+        {
+          "name": "Room w/Office by Free DOT shuttle! By Forsyth",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "HENRY & HABERSHAM WB",
+          "dist_m": 18.71
+        },
+        {
+          "name": "Room w/Office by Free DOT shuttle! By Forsyth",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "HENRY & HABERSHAM WB",
+          "dist_m": 18.71
+        },
+        {
+          "name": "The Collins Quarter",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "OGLETHORPE & BULL WB",
+          "dist_m": 18.61
+        },
+        {
+          "name": "American Prohibition Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "CONGRESS & JEFFERSON",
+          "dist_m": 26.96
+        },
+        {
+          "name": "The Grey",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "COURT HOUSE",
+          "dist_m": 32.45
+        },
+        {
+          "name": "Mrs. Wilkes Dining Room",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "WHITAKER & JONES SB",
+          "dist_m": 37.05
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Savannah to Savannah",
+      "transportation": "-",
+      "accommodation": "Room w/Office by Free DOT shuttle! By Forsyth",
+      "breakfast": "Goose Feathers Cafe & Bakery",
+      "attractions": [
+        "City Market"
+      ],
+      "lunch": "1540 Room",
+      "dinner": "Common Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Room w/Office by Free DOT shuttle! By Forsyth",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "HENRY & HABERSHAM WB",
+          "dist_m": 18.71
+        },
+        {
+          "name": "Room w/Office by Free DOT shuttle! By Forsyth",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "HENRY & HABERSHAM WB",
+          "dist_m": 18.71
+        },
+        {
+          "name": "Goose Feathers Cafe & Bakery",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "CONGRESS & JEFFERSON",
+          "dist_m": 51.14
+        },
+        {
+          "name": "City Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:35",
+          "nearest_transit": "CONGRESS & JEFFERSON",
+          "dist_m": 51.55
+        },
+        {
+          "name": "1540 Room",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "DRAYTON & LIBERTY",
+          "dist_m": 61.97
+        },
+        {
+          "name": "Common Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "DRAYTON & BROUGHTON",
+          "dist_m": 62.61
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Savannah to Denver",
+      "transportation": "Flight Number: F0456839, from Savannah to Denver, Departure Time: 15:51, Arrival Time: 17:51",
+      "accommodation": "-",
+      "breakfast": "Bella Napoli Italian Bistro",
+      "attractions": [
+        "Cathedral of St. John the Baptist"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Room w/Office by Free DOT shuttle! By Forsyth",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "HENRY & HABERSHAM WB",
+          "dist_m": 18.71
+        },
+        {
+          "name": "Bella Napoli Italian Bistro",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "DRAYTON & BROUGHTON",
+          "dist_m": 69.34
+        },
+        {
+          "name": "Cathedral of St. John the Baptist",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "ABERCORN & MACON NB",
+          "dist_m": 73.72
+        }
+      ]
+    }
+  ]
+}

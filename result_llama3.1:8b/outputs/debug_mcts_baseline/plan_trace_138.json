@@ -1,0 +1,653 @@
+{
+  "idx": 138,
+  "reward": 14.021681623441397,
+  "budget_used": 2497.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Colorado Springs, Duration: 1134.3316666666665 mins, Distance: 1729.9226 km, Estimated Cost: $1729.92",
+      "candidates": [
+        "Flight Number: F0011833, from Chicago to Colorado Springs, Departure Time: 08:52, Arrival Time: 10:24",
+        "Taxi, from Chicago to Colorado Springs, Duration: 1134.3316666666665 mins, Distance: 1729.9226 km, Estimated Cost: $1729.92"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Marigold Cafe & Bakery",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Penrose Heritage Museum",
+      "candidates": [
+        "Penrose Heritage Museum",
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "National Museum of World War II Aviation",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Paravicini's Italian Bistro",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Uchenna",
+      "candidates": [
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "candidates": [
+        "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+        "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC",
+        "The Bird’s Nest – Tiny Home – Big Location!",
+        "Two-Bed Two-Bath house, walk to Garden of the Gods",
+        "The Master Suite at the Fisher House",
+        "✴Modern Victorian✴ ✔Dwntwn ✔Firepit ✔Waffle maker",
+        "Cozy Solar Cottage on the West Side",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Olympic House! Hot Tub, BBQ, WiFi, Near Downtown",
+        "Cozy Cottage by ManitouSpringsPikesPk/GardenofGods"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Carlos Bistro",
+      "candidates": [
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Colorado City Historic District",
+      "candidates": [
+        "Old Colorado City Historic District",
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "National Museum of World War II Aviation",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pizzeria Rustica",
+      "candidates": [
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mountain Shadows Restaurant",
+      "candidates": [
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Colorado Springs to Chicago",
+      "candidates": [
+        "Transfer, from Colorado Springs to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "La Bella Vita",
+      "candidates": [
+        "Summit at The Broadmoor",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cosmo's Magic Theater",
+      "candidates": [
+        "Cosmo's Magic Theater",
+        "Michael Garman Museum & Gallery",
+        "Colorado Springs Pioneers Museum",
+        "Olympic Training Center",
+        "Palmer Park",
+        "U.S. Olympic & Paralympic Museum",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "National Museum of World War II Aviation",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Colorado Springs",
+      "transportation": "Taxi, from Chicago to Colorado Springs, Duration: 1134.3316666666665 mins, Distance: 1729.9226 km, Estimated Cost: $1729.92",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "Marigold Cafe & Bakery",
+      "attractions": [
+        "Penrose Heritage Museum"
+      ],
+      "lunch": "Paravicini's Italian Bistro",
+      "dinner": "Uchenna",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Marigold Cafe & Bakery",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "4710 Centennial",
+          "dist_m": 86.84
+        },
+        {
+          "name": "Penrose Heritage Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Broadmoor Hotel",
+          "dist_m": 45.08
+        },
+        {
+          "name": "Paravicini's Italian Bistro",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Colorado/28th",
+          "dist_m": 25.37
+        },
+        {
+          "name": "Uchenna",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 42.42
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+      "breakfast": "Carlos Bistro",
+      "attractions": [
+        "Old Colorado City Historic District"
+      ],
+      "lunch": "Pizzeria Rustica",
+      "dinner": "Mountain Shadows Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "Carlos Bistro",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "21st/Broadway",
+          "dist_m": 62.57
+        },
+        {
+          "name": "Old Colorado City Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Cascade/Colorado",
+          "dist_m": 63.31
+        },
+        {
+          "name": "Pizzeria Rustica",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 64.93
+        },
+        {
+          "name": "Mountain Shadows Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Colorado/23rd",
+          "dist_m": 76.1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Chicago",
+      "transportation": "Transfer, from Colorado Springs to Chicago",
+      "accommodation": "-",
+      "breakfast": "La Bella Vita",
+      "attractions": [
+        "Cosmo's Magic Theater"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Pikes Charm! Apartment King Workspace w BBQ & Fire",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Pikes Peak/Meade",
+          "dist_m": 28.37
+        },
+        {
+          "name": "La Bella Vita",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "GoG/Northpark",
+          "dist_m": 95.6
+        },
+        {
+          "name": "Cosmo's Magic Theater",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "GoG/Forge",
+          "dist_m": 76.62
+        }
+      ]
+    }
+  ]
+}

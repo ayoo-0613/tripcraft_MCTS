@@ -1,0 +1,586 @@
+{
+  "idx": 247,
+  "reward": 13.930246843577786,
+  "budget_used": 3591.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
+      "candidates": [
+        "Flight Number: F0152368, from Madison to New York, Departure Time: 06:00, Arrival Time: 09:10",
+        "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Studio with Shared Bath",
+      "candidates": [
+        "Private Studio with Shared Bath",
+        "Sonder at One Platt | Queen Studio",
+        "Serenity at the Heart of NYC l No Cleaning fee",
+        "Lamartine Chelsea 1B",
+        "NYC Bliss | Sightseeing. Fitness Center",
+        "East Village, Private room with access to garden",
+        "Church view bedroom in Harlem brownstone",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "Standard Queen Room in Small Hotel",
+        "Big Apple Experience | Central Park. Gym"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Carmine's",
+      "candidates": [
+        "Carmine's",
+        "Papillon Bistro & Bar",
+        "Azalea Ristorante",
+        "FIG & OLIVE",
+        "Piccola Cucina Osteria",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "La Grande Boucherie",
+        "Rao's Restaurant",
+        "Blue Smoke Battery Park City",
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Harry's",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Sarge’s Delicatessen & Diner",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "New York Public Library",
+      "candidates": [
+        "New York Public Library",
+        "American Museum of Natural History",
+        "The Metropolitan Museum of Art",
+        "The National 9/11 Memorial & Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Papillon Bistro & Bar",
+      "candidates": [
+        "Papillon Bistro & Bar",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Azalea Ristorante",
+        "Harry's",
+        "Piccola Cucina Osteria",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Trattoria Trecolori",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "Rao's Restaurant",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "American Museum of Natural History",
+      "candidates": [
+        "American Museum of Natural History",
+        "The Metropolitan Museum of Art",
+        "The National 9/11 Memorial & Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Blue Smoke Battery Park City",
+      "candidates": [
+        "Blue Smoke Battery Park City",
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Azalea Ristorante",
+        "FIG & OLIVE",
+        "Harry's",
+        "Piccola Cucina Osteria",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Trattoria Trecolori",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "La Grande Boucherie",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "Rao's Restaurant",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Studio with Shared Bath",
+      "candidates": [
+        "Private Studio with Shared Bath",
+        "Sonder at One Platt | Queen Studio",
+        "Serenity at the Heart of NYC l No Cleaning fee",
+        "Lamartine Chelsea 1B",
+        "NYC Bliss | Sightseeing. Fitness Center",
+        "East Village, Private room with access to garden",
+        "Church view bedroom in Harlem brownstone",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "Standard Queen Room in Small Hotel",
+        "Big Apple Experience | Central Park. Gym"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Azalea Ristorante",
+      "candidates": [
+        "Azalea Ristorante",
+        "FIG & OLIVE",
+        "Piccola Cucina Osteria",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "La Grande Boucherie",
+        "Rao's Restaurant",
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Harry's",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Sarge’s Delicatessen & Diner",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Metropolitan Museum of Art",
+      "candidates": [
+        "The Metropolitan Museum of Art",
+        "The National 9/11 Memorial & Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "FIG & OLIVE",
+      "candidates": [
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Harry's",
+        "Piccola Cucina Osteria",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Trattoria Trecolori",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "Rao's Restaurant",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The National 9/11 Memorial & Museum",
+      "candidates": [
+        "The National 9/11 Memorial & Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lillie's Victorian Establishment",
+      "candidates": [
+        "Lillie's Victorian Establishment",
+        "Sylvia's Restaurant",
+        "Westway Diner",
+        "Times Square Diner",
+        "RH Rooftop Restaurant New York",
+        "Nobu Fifty Seven",
+        "Bstro 38",
+        "Burger & Lobster",
+        "Gaonnuri",
+        "Harry's",
+        "Piccola Cucina Osteria",
+        "Rainbow Room",
+        "Del Frisco's Double Eagle Steakhouse",
+        "Trattoria Trecolori",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "La Grande Boucherie",
+        "Mari Vanna",
+        "BOOM",
+        "R Lounge",
+        "Gallaghers Steakhouse",
+        "Lobster Place",
+        "Del Frisco's Grille",
+        "Broadway Lounge",
+        "Bryant Park Grill",
+        "Peak Restaurant & Bar",
+        "Rao's Restaurant",
+        "The Skylark - Rooftop Bar",
+        "Manhatta",
+        "Central Park Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "candidates": [
+        "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+        "Taxi, from New York to Madison, Duration: 1065.7733333333333 mins, Distance: 1519.9384 km, Estimated Cost: $1519.94"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Madison to New York",
+      "transportation": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
+      "accommodation": "Private Studio with Shared Bath",
+      "breakfast": "Carmine's",
+      "attractions": [
+        "New York Public Library",
+        "American Museum of Natural History"
+      ],
+      "lunch": "Papillon Bistro & Bar",
+      "dinner": "Blue Smoke Battery Park City",
+      "poi_blocks": [
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        },
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        },
+        {
+          "name": "Carmine's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "7 AV/W 44 ST",
+          "dist_m": 61.95
+        },
+        {
+          "name": "New York Public Library",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "5 AV/W 42 ST",
+          "dist_m": 34.9
+        },
+        {
+          "name": "Papillon Bistro & Bar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MADISON AV/E 53 ST",
+          "dist_m": 82.27
+        },
+        {
+          "name": "American Museum of Natural History",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "CENTRAL PARK WEST/W 79 ST",
+          "dist_m": 124.14
+        },
+        {
+          "name": "Blue Smoke Battery Park City",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "VESEY ST/NORTH END AV",
+          "dist_m": 10.23
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from New York to New York",
+      "transportation": "-",
+      "accommodation": "Private Studio with Shared Bath",
+      "breakfast": "Azalea Ristorante",
+      "attractions": [
+        "The Metropolitan Museum of Art",
+        "The National 9/11 Memorial & Museum"
+      ],
+      "lunch": "FIG & OLIVE",
+      "dinner": "Lillie's Victorian Establishment",
+      "poi_blocks": [
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        },
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        },
+        {
+          "name": "Azalea Ristorante",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 50 ST/8 AV",
+          "dist_m": 83.22
+        },
+        {
+          "name": "The Metropolitan Museum of Art",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "5 AV/E 80 ST",
+          "dist_m": 182.01
+        },
+        {
+          "name": "FIG & OLIVE",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5 AV/W 52 ST",
+          "dist_m": 84.16
+        },
+        {
+          "name": "The National 9/11 Memorial & Museum",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "CHURCH ST/LIBERTY ST",
+          "dist_m": 234.55
+        },
+        {
+          "name": "Lillie's Victorian Establishment",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "8 AV/W 49 ST",
+          "dist_m": 40.41
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from New York to Madison",
+      "transportation": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "06:35",
+          "end": "07:35",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        },
+        {
+          "name": "Private Studio with Shared Bath",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "3 AV/E 14 ST",
+          "dist_m": 30.6
+        }
+      ]
+    }
+  ]
+}

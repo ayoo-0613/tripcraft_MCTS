@@ -1,0 +1,517 @@
+{
+  "idx": 256,
+  "reward": 12.784379,
+  "budget_used": 1900.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
+      "candidates": [
+        "Flight Number: F0092582, from Las Vegas to Colorado Springs, Departure Time: 16:03, Arrival Time: 18:30",
+        "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Master Suite at the Fisher House",
+      "candidates": [
+        "The Master Suite at the Fisher House",
+        "Cozy Colo Springs Home near transportation routes",
+        "Casa De Mariposas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Summit at The Broadmoor",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Summit at The Broadmoor",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Colorado City Historic District",
+      "candidates": [
+        "Old Colorado City Historic District",
+        "Palmer Park",
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Paravicini's Italian Bistro",
+      "candidates": [
+        "Paravicini's Italian Bistro",
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Palmer Park",
+      "candidates": [
+        "Palmer Park",
+        "Red Rock Canyon",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "Rock Ledge Ranch Historic Site",
+        "Glen Eyrie Castle",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Uchenna",
+      "candidates": [
+        "Uchenna",
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Master Suite at the Fisher House",
+      "candidates": [
+        "The Master Suite at the Fisher House",
+        "Cozy Colo Springs Home near transportation routes",
+        "Casa De Mariposas"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Carlos Bistro",
+      "candidates": [
+        "Carlos Bistro",
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Red Rock Canyon",
+      "candidates": [
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Glen Eyrie Castle",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "United States Air Force Academy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mountain Shadows Restaurant",
+      "candidates": [
+        "Pizzeria Rustica",
+        "Mountain Shadows Restaurant",
+        "Marigold Cafe & Bakery",
+        "La Bella Vita",
+        "The Great British Food Company",
+        "Front Range Barbeque",
+        "TAPAteria",
+        "Urban Egg A Daytime Eatery",
+        "The Rabbit Hole",
+        "The Famous Steak House",
+        "Yellow Mountain Tea House",
+        "Caspian Cafe Mediterranean",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "The Melting Pot",
+        "Saltgrass Steak House",
+        "Prime 25",
+        "Garden of the God's Market & Cafe",
+        "Denver Biscuit Company",
+        "MacKenzie's Chop House",
+        "Edelweiss German Restaurant",
+        "Cowboy Star",
+        "Restaurant 1858",
+        "Shuga's Restaurant",
+        "The Warehouse Restaurant & Gallery",
+        "Uwe's German Restaurant",
+        "Margarita At Pine Creek",
+        "The Airplane Restaurant",
+        "NaRai Thai Restaurant",
+        "Colorado Mountain Brewery",
+        "Sushi Ato",
+        "The Steakhouse At Flying Horse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Rock Ledge Ranch Historic Site",
+      "candidates": [
+        "Rock Ledge Ranch Historic Site",
+        "Glen Eyrie Castle",
+        "United States Air Force Academy",
+        "North Cheyenne Canon Park and Starsmore Discovery Center",
+        "Garden of the Gods",
+        "Cheyenne Mountain Zoo",
+        "Seven Falls",
+        "Cheyenne Mountain State Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Colorado Springs to Las Vegas",
+      "candidates": [
+        "Transfer, from Colorado Springs to Las Vegas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Colorado Springs",
+      "transportation": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
+      "accommodation": "The Master Suite at the Fisher House",
+      "breakfast": "Summit at The Broadmoor",
+      "attractions": [
+        "Old Colorado City Historic District",
+        "Palmer Park"
+      ],
+      "lunch": "Paravicini's Italian Bistro",
+      "dinner": "Uchenna",
+      "poi_blocks": [
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "Summit at The Broadmoor",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Broadmoor Hotel",
+          "dist_m": 68.55
+        },
+        {
+          "name": "Old Colorado City Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:27",
+          "nearest_transit": "Cascade/Colorado",
+          "dist_m": 63.31
+        },
+        {
+          "name": "Paravicini's Italian Bistro",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Colorado/28th",
+          "dist_m": 25.37
+        },
+        {
+          "name": "Palmer Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "20:12",
+          "nearest_transit": "Academy/Maizeland",
+          "dist_m": 308.09
+        },
+        {
+          "name": "Uchenna",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Colorado/25th",
+          "dist_m": 42.42
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "The Master Suite at the Fisher House",
+      "breakfast": "Carlos Bistro",
+      "attractions": [
+        "Red Rock Canyon",
+        "Rock Ledge Ranch Historic Site"
+      ],
+      "lunch": "Mountain Shadows Restaurant",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        },
+        {
+          "name": "Carlos Bistro",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "21st/Broadway",
+          "dist_m": 62.57
+        },
+        {
+          "name": "Red Rock Canyon",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "Colorado/34th",
+          "dist_m": 421.43
+        },
+        {
+          "name": "Mountain Shadows Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Colorado/23rd",
+          "dist_m": 76.1
+        },
+        {
+          "name": "Rock Ledge Ranch Historic Site",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "902 Fontmore",
+          "dist_m": 972.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Las Vegas",
+      "transportation": "Transfer, from Colorado Springs to Las Vegas",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Master Suite at the Fisher House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Uintah/24th",
+          "dist_m": 223.24
+        }
+      ]
+    }
+  ]
+}
