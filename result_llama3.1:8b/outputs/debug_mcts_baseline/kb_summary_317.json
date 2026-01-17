@@ -1,0 +1,121 @@
+{
+  "idx": 317,
+  "stages": [
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 13
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 22
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Nashville",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0066159, from Houston to Nashville, Departure Time: 22:34, Arrival Time: 00:18"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Houston to Nashville, Duration: 857.39 mins, Distance: 1252.7872 km, Estimated Cost: $62.64"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Houston to Nashville, Duration: 857.39 mins, Distance: 1252.7872 km, Estimated Cost: $1252.79"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $10.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": "2024-11-13",
+      "raw": "Flight Number: F0045518, from Memphis to Houston, Departure Time: 06:12, Arrival Time: 07:48"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $45.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $912.37"
+    }
+  ]
+}

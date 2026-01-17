@@ -1,0 +1,586 @@
+{
+  "idx": 343,
+  "reward": 17.945704096525095,
+  "budget_used": 1764.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29",
+      "candidates": [
+        "Flight Number: F0070629, from Denver to Wichita, Departure Time: 13:46, Arrival Time: 15:52",
+        "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Comfortable large bedroom in residential home,",
+      "candidates": [
+        "Renovated luxury 2bedroom guest house",
+        "Comfortable large bedroom in residential home,",
+        "The Boho Oasis",
+        "Modern 3BR Home 10 minutes from Downtown",
+        "Downtown Retreat",
+        "Boho Bliss in College Hill by Indigo Moon Homes",
+        "Charming Bungalow near Downtown",
+        "Cozy Spacious Wizard of Oz themed Tiny House",
+        "Jan's Art Nest: Cozy Riverside Suite!",
+        "Traveler’s Retreat Kessler Cir"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Little Saigon",
+      "candidates": [
+        "Little Saigon",
+        "Old Mill Tasty Shop",
+        "Ziggys Pizza East",
+        "Prost",
+        "Redrock Canyon Grill",
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Pizza Hut Museum",
+      "candidates": [
+        "Pizza Hut Museum",
+        "Wichita Toy Train Museum",
+        "Wichita Art Museum",
+        "Exploration Place",
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Sedgwick County Zoo",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Old Mill Tasty Shop",
+      "candidates": [
+        "Old Mill Tasty Shop",
+        "Ziggys Pizza East",
+        "Prost",
+        "Redrock Canyon Grill",
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Sedgwick County Zoo",
+      "candidates": [
+        "Sedgwick County Zoo",
+        "Wichita Toy Train Museum",
+        "Wichita Art Museum",
+        "Exploration Place",
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ziggys Pizza East",
+      "candidates": [
+        "Ziggys Pizza East",
+        "Prost",
+        "Redrock Canyon Grill",
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Renovated luxury 2bedroom guest house",
+      "candidates": [
+        "Renovated luxury 2bedroom guest house",
+        "Comfortable large bedroom in residential home,",
+        "The Boho Oasis",
+        "Modern 3BR Home 10 minutes from Downtown",
+        "Downtown Retreat",
+        "Boho Bliss in College Hill by Indigo Moon Homes",
+        "Charming Bungalow near Downtown",
+        "Cozy Spacious Wizard of Oz themed Tiny House",
+        "Jan's Art Nest: Cozy Riverside Suite!",
+        "Traveler’s Retreat Kessler Cir"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Prost",
+      "candidates": [
+        "Prost",
+        "Redrock Canyon Grill",
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Wichita Toy Train Museum",
+      "candidates": [
+        "Wichita Toy Train Museum",
+        "Wichita Art Museum",
+        "Exploration Place",
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Redrock Canyon Grill",
+      "candidates": [
+        "Redrock Canyon Grill",
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Wichita Art Museum",
+      "candidates": [
+        "Wichita Art Museum",
+        "Exploration Place",
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Sweet Spot",
+      "candidates": [
+        "The Sweet Spot",
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Wichita to Denver",
+      "candidates": [
+        "Transfer, from Wichita to Denver"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beacon Restaurant",
+      "candidates": [
+        "Beacon Restaurant",
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Exploration Place",
+      "candidates": [
+        "Exploration Place",
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Larkspur Bistro & Bar",
+      "candidates": [
+        "Larkspur Bistro & Bar",
+        "Homegrown",
+        "George's French Bistro",
+        "Oak & Pie",
+        "Doo-Dah Diner",
+        "Siena Tuscan Steakhouse",
+        "Wasabi Japanese Restaurant",
+        "Bella Vita",
+        "Bite Me BBQ",
+        "River City Brewery",
+        "Oh Yeah! Chinese Bistro",
+        "Mediterranean Grill",
+        "Firebirds Wood Fired Grill"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Mid-America All-Indian Center",
+      "candidates": [
+        "Mid-America All-Indian Center",
+        "Museum of World Treasures",
+        "Wichita Sedgwick County Historical Museum",
+        "Old Cowtown Museum",
+        "Frank Lloyd Wright's Allen House",
+        "Kansas Aviation Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Denver to Wichita",
+      "transportation": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29",
+      "accommodation": "Comfortable large bedroom in residential home,",
+      "breakfast": "Little Saigon",
+      "attractions": [
+        "Pizza Hut Museum",
+        "Sedgwick County Zoo"
+      ],
+      "lunch": "Old Mill Tasty Shop",
+      "dinner": "Ziggys Pizza East",
+      "poi_blocks": [
+        {
+          "name": "Comfortable large bedroom in residential home,",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Armour and Morris OB",
+          "dist_m": 114.98
+        },
+        {
+          "name": "Comfortable large bedroom in residential home,",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Armour and Morris OB",
+          "dist_m": 114.98
+        },
+        {
+          "name": "Little Saigon",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Broadway and 9th St IB",
+          "dist_m": 34.07
+        },
+        {
+          "name": "Pizza Hut Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "WSU Welcome Center",
+          "dist_m": 41.48
+        },
+        {
+          "name": "Old Mill Tasty Shop",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Douglas and St. Francis OB",
+          "dist_m": 39.59
+        },
+        {
+          "name": "Sedgwick County Zoo",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "19:37",
+          "nearest_transit": "Zoo Boulevard & Windmill Road SB",
+          "dist_m": 157.26
+        },
+        {
+          "name": "Ziggys Pizza East",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Douglas and Clifton IB",
+          "dist_m": 44.97
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Wichita to Wichita",
+      "transportation": "-",
+      "accommodation": "Renovated luxury 2bedroom guest house",
+      "breakfast": "Prost",
+      "attractions": [
+        "Wichita Toy Train Museum",
+        "Wichita Art Museum"
+      ],
+      "lunch": "Redrock Canyon Grill",
+      "dinner": "The Sweet Spot",
+      "poi_blocks": [
+        {
+          "name": "Renovated luxury 2bedroom guest house",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Central and Broadview IB",
+          "dist_m": 102.02
+        },
+        {
+          "name": "Renovated luxury 2bedroom guest house",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Central and Broadview IB",
+          "dist_m": 102.02
+        },
+        {
+          "name": "Prost",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Central and Volutsia OB",
+          "dist_m": 49.11
+        },
+        {
+          "name": "Wichita Toy Train Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Douglas and Ohio IB",
+          "dist_m": 73.42
+        },
+        {
+          "name": "Redrock Canyon Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Rock and Bradley Fair NB",
+          "dist_m": 57.14
+        },
+        {
+          "name": "Wichita Art Museum",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Wichita Art Museum",
+          "dist_m": 76.98
+        },
+        {
+          "name": "The Sweet Spot",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "8279 W Central OB",
+          "dist_m": 64.66
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Wichita to Denver",
+      "transportation": "Transfer, from Wichita to Denver",
+      "accommodation": "-",
+      "breakfast": "Beacon Restaurant",
+      "attractions": [
+        "Exploration Place",
+        "Mid-America All-Indian Center"
+      ],
+      "lunch": "Larkspur Bistro & Bar",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Renovated luxury 2bedroom guest house",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Central and Broadview IB",
+          "dist_m": 102.02
+        },
+        {
+          "name": "Beacon Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Washington and Douglas IB",
+          "dist_m": 66.33
+        },
+        {
+          "name": "Exploration Place",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Exploration Place",
+          "dist_m": 91.96
+        },
+        {
+          "name": "Larkspur Bistro & Bar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Douglas and Rock Island OB",
+          "dist_m": 70.73
+        },
+        {
+          "name": "Mid-America All-Indian Center",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Mid American Indian Center",
+          "dist_m": 104.49
+        }
+      ]
+    }
+  ]
+}

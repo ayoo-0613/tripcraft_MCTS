@@ -1,0 +1,121 @@
+{
+  "idx": 245,
+  "stages": [
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 16
+      }
+    },
+    {
+      "city": "Greensboro",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 11
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Sarasota",
+      "to": "Wilmington",
+      "date": "2024-11-02",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sarasota",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Self-driving, from Sarasota to Wilmington, Duration: 767.9533333333333 mins, Distance: 1088.1512 km, Estimated Cost: $54.41"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sarasota",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Taxi, from Sarasota to Wilmington, Duration: 767.9533333333333 mins, Distance: 1088.1512 km, Estimated Cost: $1088.15"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Greensboro",
+      "date": "2024-11-04",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $16.79"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $335.80"
+    },
+    {
+      "mode": "flight",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0236790, from Greensboro to Charlotte, Departure Time: 12:19, Arrival Time: 13:11"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
+    },
+    {
+      "mode": "taxi",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0186610, from Charlotte to Sarasota, Departure Time: 09:07, Arrival Time: 11:05"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Sarasota, Duration: 711.625 mins, Distance: 1015.2705 km, Estimated Cost: $50.76"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Sarasota, Duration: 711.625 mins, Distance: 1015.2705 km, Estimated Cost: $1015.27"
+    }
+  ]
+}

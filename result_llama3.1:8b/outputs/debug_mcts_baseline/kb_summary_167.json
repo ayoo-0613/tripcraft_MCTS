@@ -1,0 +1,121 @@
+{
+  "idx": 167,
+  "stages": [
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Corpus Christi",
+      "counts": {
+        "attractions": 17,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Tucson",
+      "to": "San Antonio",
+      "date": "2024-11-02",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tucson",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Tucson to San Antonio, Duration: 865.2966666666667 mins, Distance: 1399.0485 km, Estimated Cost: $69.95"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tucson",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Tucson to San Antonio, Duration: 865.2966666666667 mins, Distance: 1399.0485 km, Estimated Cost: $1399.05"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0037957, from San Antonio to Houston, Departure Time: 07:06, Arrival Time: 08:16"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0062610, from Houston to Corpus Christi, Departure Time: 13:46, Arrival Time: 14:39"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": null,
+      "raw": "Self-driving, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $16.89"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": null,
+      "raw": "Taxi, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $337.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Corpus Christi",
+      "to": "Tucson",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Corpus Christi",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Self-driving, from Corpus Christi to Tucson, Duration: 1014.16 mins, Distance: 1631.9098999999999 km, Estimated Cost: $81.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Corpus Christi",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Taxi, from Corpus Christi to Tucson, Duration: 1014.16 mins, Distance: 1631.9098999999999 km, Estimated Cost: $1631.91"
+    }
+  ]
+}

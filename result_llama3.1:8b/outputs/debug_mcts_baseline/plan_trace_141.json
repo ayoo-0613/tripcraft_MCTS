@@ -1,0 +1,1274 @@
+{
+  "idx": 141,
+  "reward": -49.585193422759566,
+  "budget_used": 3532.25,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76",
+      "candidates": [
+        "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Comfort on Willow",
+      "candidates": [
+        "Comfort on Willow",
+        "Baker's Corner",
+        "Updated Clear Lake Home Near Downtown",
+        "Family-Friendly Home 1 Block from Downtown",
+        "Lake Time Loft",
+        "Charming 3 bedroom lake home - on site parking",
+        "The Clausen House-Historic home close to the lake!",
+        "Hidden haven Hideway",
+        "Papa's Place By The Lake - CL",
+        "The Wren House: Close to Lake, No Cleaning Fee"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pancheros Mexican Grill - Mason City",
+      "candidates": [
+        "Pancheros Mexican Grill - Mason City",
+        "RibCrib BBQ",
+        "The Quarry",
+        "Prime N Wine",
+        "Boulder Tap House - Mason City",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli",
+        "Plaza Mexico Mason City",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Two Cities Pizza Company",
+        "Mason's Restaurant",
+        "China Buffet",
+        "Wok and Roll",
+        "Thai Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Stockman House Museum",
+      "candidates": [
+        "Stockman House Museum",
+        "Trinity Lutheran Church",
+        "Music Man Square",
+        "Historic Park Inn Hotel",
+        "Meredith Willson Boyhood Home"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "RibCrib BBQ",
+      "candidates": [
+        "RibCrib BBQ",
+        "The Quarry",
+        "Prime N Wine",
+        "Boulder Tap House - Mason City",
+        "Birdsall's",
+        "Lorado's",
+        "State Street Deli",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Two Cities Pizza Company",
+        "Mason's Restaurant",
+        "China Buffet",
+        "Wok and Roll",
+        "Thai Bistro",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "Plaza Mexico Mason City"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Two Cities Pizza Company",
+      "candidates": [
+        "Two Cities Pizza Company",
+        "The Quarry",
+        "China Buffet",
+        "Prime N Wine",
+        "Wok and Roll",
+        "Boulder Tap House - Mason City",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli",
+        "Plaza Mexico Mason City",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Mason's Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Comfort on Willow",
+      "candidates": [
+        "Comfort on Willow",
+        "Baker's Corner",
+        "Updated Clear Lake Home Near Downtown",
+        "Family-Friendly Home 1 Block from Downtown",
+        "Lake Time Loft",
+        "Charming 3 bedroom lake home - on site parking",
+        "The Clausen House-Historic home close to the lake!",
+        "Hidden haven Hideway",
+        "Papa's Place By The Lake - CL",
+        "The Wren House: Close to Lake, No Cleaning Fee"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Quarry",
+      "candidates": [
+        "The Quarry",
+        "Prime N Wine",
+        "Boulder Tap House - Mason City",
+        "Birdsall's",
+        "Lorado's",
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "State Street Deli",
+        "Plaza Mexico Mason City",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Mason's Restaurant",
+        "China Buffet",
+        "Wok and Roll",
+        "Thai Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Trinity Lutheran Church",
+      "candidates": [
+        "Trinity Lutheran Church",
+        "Music Man Square",
+        "Historic Park Inn Hotel",
+        "Meredith Willson Boyhood Home"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Las Palmas Mexican Grill & Bar",
+      "candidates": [
+        "Las Palmas Mexican Grill & Bar",
+        "Taco Tico",
+        "Plaza Mexico Mason City",
+        "China Buffet",
+        "Prime N Wine",
+        "Wok and Roll",
+        "Boulder Tap House - Mason City",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "State Street Deli",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Mason's Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "China Buffet",
+      "candidates": [
+        "China Buffet",
+        "Prime N Wine",
+        "Wok and Roll",
+        "Boulder Tap House - Mason City",
+        "Thai Bistro",
+        "Birdsall's",
+        "Lorado's",
+        "Taco Tico",
+        "State Street Deli",
+        "Plaza Mexico Mason City",
+        "Northwestern Steakhouse",
+        "Mason Jar",
+        "Mason's Root Beer Drive-In",
+        "City Limits",
+        "Mason's Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00",
+      "candidates": [
+        "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy NewBo Historical Herda House",
+      "candidates": [
+        "Cozy NewBo Historical Herda House",
+        "Burnett Cottage @NewBo District (OG)",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Heart House in NewBo",
+        "The Favorite Room at The Deer House-Room 1",
+        "Charming Convenience",
+        "Contemporary Tiny House with a low tech hot tub.",
+        "The Uptown B - Private, Modern, Comfortable Stay"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Parlor City Pub & Eatery",
+      "candidates": [
+        "Parlor City Pub & Eatery",
+        "The Breakfast House",
+        "El Bajio",
+        "Irish Democrat",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Grant Wood Window in Veteran's Memorial Auditorium",
+      "candidates": [
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Grant Wood Studio",
+        "Czech Village / New Bohemia District",
+        "Veterans Memorial Stadium",
+        "Brucemore",
+        "Mount Trashmore",
+        "Ushers Ferry Historic Village"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Breakfast House",
+      "candidates": [
+        "The Breakfast House",
+        "El Bajio",
+        "Irish Democrat",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "El Bajio",
+      "candidates": [
+        "El Bajio",
+        "Irish Democrat",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy NewBo Historical Herda House",
+      "candidates": [
+        "Cozy NewBo Historical Herda House",
+        "Burnett Cottage @NewBo District (OG)",
+        "Historic Ausadie Building Studio 2C",
+        "Rest by Northwest #2 - 2 bedrooms, 2 beds, 1 bath",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Heart House in NewBo",
+        "The Favorite Room at The Deer House-Room 1",
+        "Charming Convenience",
+        "Contemporary Tiny House with a low tech hot tub.",
+        "The Uptown B - Private, Modern, Comfortable Stay"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Irish Democrat",
+      "candidates": [
+        "Irish Democrat",
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Grant Wood Studio",
+      "candidates": [
+        "Grant Wood Studio",
+        "Czech Village / New Bohemia District",
+        "Veterans Memorial Stadium",
+        "Brucemore",
+        "Mount Trashmore",
+        "Ushers Ferry Historic Village"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Lucky's on 16th",
+      "candidates": [
+        "Lucky's on 16th",
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cancun Mexican Grill and Bar",
+      "candidates": [
+        "Cancun Mexican Grill and Bar",
+        "Los Compadres",
+        "The Pedaler's Fork",
+        "Need Pizzeria",
+        "Pickle Palace",
+        "Bari Italian",
+        "Black Sheep Social Club",
+        "The Edison Pub and Eatery",
+        "Zeppelins",
+        "Local Pour & Street Food",
+        "Tomaso's Pizza",
+        "Cobble Hill Restaurant",
+        "The Map Room",
+        "Emil's Hideaway",
+        "Scott's Family Restaurant"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78",
+      "candidates": [
+        "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The Porch at Evergreen Hill",
+        "Cozy self-contained apartment with loft.",
+        "Gowrie Guest House",
+        "Peaceful Rest Apartment",
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Taco Tico",
+      "candidates": [
+        "Taco Tico",
+        "Larita's Cakes 'N More",
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Community Orchard",
+      "candidates": [
+        "Community Orchard"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Larita's Cakes 'N More",
+      "candidates": [
+        "Larita's Cakes 'N More",
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sneakers Eatry and Pub",
+      "candidates": [
+        "Sneakers Eatry and Pub",
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly-renovated Cozy Home in Convenient Location",
+      "candidates": [
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Central duplex",
+        "Private suite bedroom with queen bed and full bath",
+        "Clean and cozy family home",
+        "12 Private twin room at cottage 5",
+        "The Porch at Evergreen Hill",
+        "Cozy self-contained apartment with loft.",
+        "Gowrie Guest House",
+        "Peaceful Rest Apartment",
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Village Inn",
+      "candidates": [
+        "Village Inn",
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sports Page",
+      "candidates": [
+        "Sports Page",
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tea Thyme & Thyme to Shop",
+      "candidates": [
+        "Tea Thyme & Thyme to Shop",
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89",
+      "candidates": [
+        "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Olde Boston's Restaurant & Pub",
+      "candidates": [
+        "Olde Boston's Restaurant & Pub",
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Dariette",
+      "candidates": [
+        "Dariette",
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tom Thumb Drive Inn",
+      "candidates": [
+        "Tom Thumb Drive Inn",
+        "Community Tap and Pizza",
+        "Rides Bar and Grill",
+        "Subway",
+        "Central Perk and Dessert",
+        "Domino's Pizza",
+        "Culver's",
+        "McDonald's",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Tropical Smoothie Cafe",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from St. Louis to Mason City",
+      "transportation": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76",
+      "accommodation": "Comfort on Willow",
+      "breakfast": "Pancheros Mexican Grill - Mason City",
+      "attractions": [
+        "Stockman House Museum"
+      ],
+      "lunch": "RibCrib BBQ",
+      "dinner": "Two Cities Pizza Company",
+      "poi_blocks": [
+        {
+          "name": "Comfort on Willow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 121.08
+        },
+        {
+          "name": "Comfort on Willow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 121.08
+        },
+        {
+          "name": "Pancheros Mexican Grill - Mason City",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Frontage Rd. SW and Briarstone Dr. (Perkins)",
+          "dist_m": 77.65
+        },
+        {
+          "name": "Stockman House Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 57.07
+        },
+        {
+          "name": "RibCrib BBQ",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Frontage Rd. NW (McGregor Furniture)",
+          "dist_m": 106.13
+        },
+        {
+          "name": "Two Cities Pizza Company",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "North Iowa Area Community College",
+          "dist_m": 850315.78
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "-",
+      "accommodation": "Comfort on Willow",
+      "breakfast": "The Quarry",
+      "attractions": [
+        "Trinity Lutheran Church"
+      ],
+      "lunch": "Las Palmas Mexican Grill & Bar",
+      "dinner": "China Buffet",
+      "poi_blocks": [
+        {
+          "name": "Comfort on Willow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 121.08
+        },
+        {
+          "name": "Comfort on Willow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 121.08
+        },
+        {
+          "name": "The Quarry",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Central Park",
+          "dist_m": 118.96
+        },
+        {
+          "name": "Trinity Lutheran Church",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "3rd St. NE and N Pennsylvania Ave.",
+          "dist_m": 69.58
+        },
+        {
+          "name": "Las Palmas Mexican Grill & Bar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Salvation Army Activity Center",
+          "dist_m": 159.31
+        },
+        {
+          "name": "China Buffet",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "S Taft Ave. and Frontage Rd. SW",
+          "dist_m": 126.74
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Mason City to Cedar Rapids",
+      "transportation": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00",
+      "accommodation": "Cozy NewBo Historical Herda House",
+      "breakfast": "Parlor City Pub & Eatery",
+      "attractions": [
+        "Grant Wood Window in Veteran's Memorial Auditorium"
+      ],
+      "lunch": "The Breakfast House",
+      "dinner": "El Bajio",
+      "poi_blocks": [
+        {
+          "name": "Comfort on Willow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "E State St. and 1st St. NE",
+          "dist_m": 121.08
+        },
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Parlor City Pub & Eatery",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 29.32
+        },
+        {
+          "name": "Grant Wood Window in Veteran's Memorial Auditorium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "2nd Ave at Vets Mem",
+          "dist_m": 56.08
+        },
+        {
+          "name": "The Breakfast House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "812 6th St (Jim's Foods)",
+          "dist_m": 38.5
+        },
+        {
+          "name": "El Bajio",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "6th St & Gateway Pl",
+          "dist_m": 42.01
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "Cozy NewBo Historical Herda House",
+      "breakfast": "Irish Democrat",
+      "attractions": [
+        "Grant Wood Studio"
+      ],
+      "lunch": "Lucky's on 16th",
+      "dinner": "Cancun Mexican Grill and Bar",
+      "poi_blocks": [
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Irish Democrat",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "1st Ave & 32nd St",
+          "dist_m": 46.22
+        },
+        {
+          "name": "Grant Wood Studio",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "2nd Ave & 8th St",
+          "dist_m": 66.36
+        },
+        {
+          "name": "Lucky's on 16th",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "C St & 16th Ave",
+          "dist_m": 50.35
+        },
+        {
+          "name": "Cancun Mexican Grill and Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "33rd Ave & South Ridge Dr",
+          "dist_m": 62.98
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Cedar Rapids to Fort Dodge",
+      "transportation": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Taco Tico",
+      "attractions": [
+        "Community Orchard"
+      ],
+      "lunch": "Larita's Cakes 'N More",
+      "dinner": "Sneakers Eatry and Pub",
+      "poi_blocks": [
+        {
+          "name": "Cozy NewBo Historical Herda House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "12th Ave & 3rd St",
+          "dist_m": 30.37
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Taco Tico",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Crossroads Mall Entrance/Younkers",
+          "dist_m": 56.77
+        },
+        {
+          "name": "Community Orchard",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Village Green",
+          "dist_m": 3093.21
+        },
+        {
+          "name": "Larita's Cakes 'N More",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "2nd Ave N and N 19th St",
+          "dist_m": 57.76
+        },
+        {
+          "name": "Sneakers Eatry and Pub",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Central Ave and S 13th St",
+          "dist_m": 60.64
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location",
+      "breakfast": "Village Inn",
+      "attractions": [],
+      "lunch": "Sports Page",
+      "dinner": "Tea Thyme & Thyme to Shop",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Village Inn",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "N 15th Ave and 20th Ave N",
+          "dist_m": 67.45
+        },
+        {
+          "name": "Sports Page",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Evergreen Estates",
+          "dist_m": 68.77
+        },
+        {
+          "name": "Tea Thyme & Thyme to Shop",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "6th Ave S and S 21st St",
+          "dist_m": 84.15
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Fort Dodge to St. Louis",
+      "transportation": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89",
+      "accommodation": "-",
+      "breakfast": "Olde Boston's Restaurant & Pub",
+      "attractions": [],
+      "lunch": "Dariette",
+      "dinner": "Tom Thumb Drive Inn",
+      "poi_blocks": [
+        {
+          "name": "Newly-renovated Cozy Home in Convenient Location",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "St Edmond Catholic School",
+          "dist_m": 38.96
+        },
+        {
+          "name": "Olde Boston's Restaurant & Pub",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Trolley Center",
+          "dist_m": 85.16
+        },
+        {
+          "name": "Dariette",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 88.99
+        },
+        {
+          "name": "Tom Thumb Drive Inn",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 90.84
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "idx": 31,
+  "stages": [
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 4
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 5
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Atlanta",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0083692, from Atlanta to Memphis, Departure Time: 19:50, Arrival Time: 20:04"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Atlanta",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Atlanta to Memphis, Duration: 421.4566666666667 mins, Distance: 612.9464 km, Estimated Cost: $30.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Atlanta",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Atlanta to Memphis, Duration: 421.4566666666667 mins, Distance: 612.9464 km, Estimated Cost: $612.95"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": "2024-11-14",
+      "raw": "Flight Number: F0047081, from Nashville to Atlanta, Departure Time: 07:00, Arrival Time: 08:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Atlanta, Duration: 277.6816666666667 mins, Distance: 396.1468 km, Estimated Cost: $19.81"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Nashville to Atlanta, Duration: 277.6816666666667 mins, Distance: 396.1468 km, Estimated Cost: $396.15"
+    }
+  ]
+}

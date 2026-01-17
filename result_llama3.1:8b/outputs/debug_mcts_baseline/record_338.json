@@ -1,0 +1,70 @@
+{
+  "idx": 338,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Tampa",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Steakhouse",
+        "Seafood",
+        "Sushi",
+        "Seafood"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1950.0,
+    "query": "Plan a 3-day trip for 1 person from Boston to Tampa from November 11th to November 13th, 2024, with a budget of $1,950. Include dining options at steakhouses, seafood restaurants, and sushi places.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Tampa",
+      "transportation": "Taxi, from Boston to Tampa, Not feasible to drive from Boston to Tampa",
+      "breakfast": "Samurai Blue Sushi & Sake Bar, Tampa",
+      "attraction": "Adventure Island, Tampa",
+      "lunch": "Happy Fish Peruvian Fusion Restaurant, Tampa",
+      "dinner": "The Capital Grille, Tampa",
+      "accommodation": "Cozy Suite, Tampa",
+      "event": "-",
+      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; Samurai Blue Sushi & Sake Bar, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 9381.71m away; Adventure Island, visit from 11:30 to 17:20, nearest transit: Adventure Island Employee Entrance, 210.63m away; Happy Fish Peruvian Fusion Restaurant, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 9903.98m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: Busch Gardens Employee Entrance, 13143.34m away; Cozy Suite, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 3243.17m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Tampa to Tampa",
+      "transportation": "Transfer, from Tampa to Tampa",
+      "breakfast": "The Pearl Tampa, Tampa",
+      "attraction": "Museum of Science and Industry, Tampa",
+      "lunch": "Jackson's Bistro Bar & Sushi, Tampa",
+      "dinner": "Eddie V's Prime Seafood, Tampa",
+      "accommodation": "Cozy Suite, Tampa",
+      "event": "-",
+      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; The Pearl Tampa, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 11463.33m away; Museum of Science and Industry, visit from 11:30 to 15:20, nearest transit: Museum of Science and Industry, 371.04m away; Jackson's Bistro Bar & Sushi, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 12053.62m away; Eddie V's Prime Seafood, visit from 19:51 to 21:00, nearest transit: Busch Gardens Employee Entrance, 13309.81m away; Cozy Suite, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 3243.17m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Tampa to Boston",
+      "transportation": "Flight Number: F0278933, from Tampa to Boston, Departure Time: 15:53, Arrival Time: 18:50",
+      "breakfast": "Yummy House China Bistro, Tampa",
+      "attraction": "Busch Gardens, Tampa",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; Yummy House China Bistro, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 5274.93m away; Busch Gardens, visit from 11:30 to 17:20, nearest transit: Busch Gardens Employee Entrance, 618.28m away."
+    }
+  ]
+}

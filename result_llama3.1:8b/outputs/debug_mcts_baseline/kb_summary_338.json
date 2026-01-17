@@ -1,0 +1,59 @@
+{
+  "idx": 338,
+  "stages": [
+    {
+      "city": "Tampa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Boston",
+      "to": "Tampa",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0278829, from Boston to Tampa, Departure Time: 21:20, Arrival Time: 00:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Boston",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Self-driving, from Boston to Tampa, Not feasible to drive from Boston to Tampa"
+    },
+    {
+      "mode": "taxi",
+      "from": "Boston",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Taxi, from Boston to Tampa, Not feasible to drive from Boston to Tampa"
+    },
+    {
+      "mode": "flight",
+      "from": "Tampa",
+      "to": "Boston",
+      "date": "2024-11-13",
+      "raw": "Flight Number: F0278933, from Tampa to Boston, Departure Time: 15:53, Arrival Time: 18:50"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tampa",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from Tampa to Boston, Not feasible to drive from Tampa to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tampa",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from Tampa to Boston, Not feasible to drive from Tampa to Boston"
+    }
+  ]
+}

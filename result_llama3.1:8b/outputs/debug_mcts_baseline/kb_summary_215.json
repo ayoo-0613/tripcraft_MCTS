@@ -1,0 +1,121 @@
+{
+  "idx": 215,
+  "stages": [
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 6
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0153294, from Detroit to Cedar Rapids, Departure Time: 15:49, Arrival Time: 16:25"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $41.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $9.45"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $53.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99"
+    }
+  ]
+}
