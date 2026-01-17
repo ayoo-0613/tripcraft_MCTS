@@ -33,6 +33,18 @@ def _to_minutes(hhmm: str) -> int:
         return 0
 
 
+def _parse_hhmm(hhmm: str) -> Optional[int]:
+    try:
+        h, m = hhmm.split(":")
+        h_i = int(h)
+        m_i = int(m)
+    except Exception:
+        return None
+    if 0 <= h_i <= 23 and 0 <= m_i <= 59:
+        return h_i * 60 + m_i
+    return None
+
+
 def _minutes_to_hhmm(minutes: int) -> str:
     minutes = max(0, min(int(minutes), 23 * 60 + 59))
     h = minutes // 60
@@ -206,6 +218,80 @@ def _apply_temporal_guidance(
         if not window:
             continue
         block.start, block.end = window
+
+    if client is None:
+        return
+
+    attractions = [a for a in (getattr(draft, "attractions", []) or []) if a and a != "-"]
+    attraction_set = set(attractions)
+    meal_map = {
+        "breakfast": getattr(draft, "breakfast", "-"),
+        "lunch": getattr(draft, "lunch", "-"),
+        "dinner": getattr(draft, "dinner", "-"),
+    }
+    items: List[Dict[str, Any]] = []
+    for block in draft.poi_blocks:
+        item: Dict[str, Any] = {
+            "name": block.name,
+            "kind": block.kind,
+            "default_start": block.start,
+            "default_end": block.end,
+        }
+        if block.kind == "stay":
+            item["category"] = "stay"
+        else:
+            category = "other"
+            for meal, meal_name in meal_map.items():
+                if meal_name and meal_name != "-" and block.name == meal_name:
+                    category = "meal"
+                    item["meal"] = meal
+                    break
+            if category == "other" and block.name in attraction_set:
+                category = "attraction"
+                mu_d_type = _get_mu_d_type(block.name, city)
+                if mu_d_type is None:
+                    mu_d_type = _find_visit_duration(kb, day, block.name)
+                if mu_d_type is not None:
+                    item["visit_duration"] = mu_d_type
+            item["category"] = category
+        items.append(item)
+
+    state_summary = {
+        "day": day,
+        "city": city,
+        "persona": row.persona or "",
+        "num_attractions": len(attractions),
+        "attractions": attractions,
+    }
+
+    try:
+        suggestions = client.get_temporal_schedule(state_summary, items)
+    except Exception:
+        return
+    if not suggestions:
+        return
+
+    by_name: Dict[str, Dict[str, str]] = {}
+    for item in suggestions:
+        name = str(item.get("name") or "")
+        start = str(item.get("start") or "")
+        end = str(item.get("end") or "")
+        if not name or not start or not end:
+            continue
+        by_name[name] = {"start": start, "end": end}
+
+    for block in draft.poi_blocks:
+        if block.kind != "visit":
+            continue
+        payload = by_name.get(block.name)
+        if not payload:
+            continue
+        start_min = _parse_hhmm(payload["start"])
+        end_min = _parse_hhmm(payload["end"])
+        if start_min is None or end_min is None or end_min <= start_min:
+            continue
+        block.start = _minutes_to_hhmm(start_min)
+        block.end = _minutes_to_hhmm(end_min)
 
 
 def _select_events(row: TripCraftRow, kb: UnifiedKB) -> Dict[int, str]:

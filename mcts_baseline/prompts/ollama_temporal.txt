@@ -3,32 +3,50 @@ Return JSON only: {"items":[{"name":"...","start":"HH:MM","end":"HH:MM"}]} with 
 Do not include any other text.
 
 The evaluator finds each meal/attraction by name inside point_of_interest_list and uses the "from/to" times.
-Use the same logic as qualitative_metrics.py:
+Use the same logic as qualitative_metrics.py.
 
-MEALS:
-Score uses a 2D normal distribution on (midpoint_hour, duration_hour). To maximize, set:
+IMPORTANT:
+- Do not change item names.
+- Do not add or remove items.
+- For stay blocks or items without enough info, keep default_start/default_end.
+
+ITEM FIELDS (from items_json):
+- name: POI name (string, must be returned exactly)
+- kind: "visit" or "stay"
+- category: "meal", "attraction", "other", or "stay"
+- meal: "breakfast" | "lunch" | "dinner" (only for meals)
+- visit_duration: hours (only for attractions)
+- default_start/default_end: current suggested times
+
+MEALS (breakfast/lunch/dinner):
+Score uses a 2D normal distribution on (midpoint_hour, duration_hour).
+To maximize, set:
   midpoint = mean_time
   duration = mean_duration
-Then: start = midpoint - duration/2, end = midpoint + duration/2.
-Parameters:
+Then:
+  start = midpoint - duration/2
+  end   = midpoint + duration/2
+Parameters (hours):
   breakfast: mean_time=9.84, mean_duration=50.71/60
-  lunch: mean_time=14.44, mean_duration=59.19/60
-  dinner: mean_time=20.42, mean_duration=69.27/60
+  lunch:     mean_time=14.44, mean_duration=59.19/60
+  dinner:    mean_time=20.42, mean_duration=69.27/60
 
 ATTRACTIONS:
-Score uses only duration. Let visit_duration be mu_d_type (hours) from input.
+Score = exp(-((duration - mu_d)^2)/(2*sigma_d^2)) * Poisson(num_attractions; lambda).
+num_attractions is fixed by the plan, so only optimize duration.
+Let visit_duration be mu_d_type (hours) from input.
 If persona contains "Adventure Seeker":
   mu_d = mu_d_type - k * (num_attractions - mu_d_min)
 Else:
   mu_d = mu_d_type + k * (mu_d_max - num_attractions)
 Constants: k=16.61/60, mu_d_max=4, mu_d_min=0.
 Choose duration = mu_d (clamp to [0.5, 4.5]) to maximize score.
-Time of day does not affect attraction score; if default times are provided, keep start close to default_start.
+Time of day does not affect attraction score; keep start close to default_start to preserve ordering.
 
-Constraints:
+Time constraints:
 - Times must be valid 24h HH:MM.
 - Keep times within 06:00 to 22:30 when possible.
-- If you cannot improve, return the default_start/default_end.
+- If you cannot improve (missing fields), return default_start/default_end.
 
 STATE (JSON):
 {state_json}
