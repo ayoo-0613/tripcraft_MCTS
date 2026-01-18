@@ -2,7 +2,8 @@
 # 自动运行并评价 3/5/7 gitday 结果
 set -e
 
-MODEL="llama3.1:8b"
+MODEL="deepseek-r1:14b"
+BASE_URL="http://127.0.0.1:11434"
 GEN_DIR="result_llama3.1:8b/outputs"
 EVAL_SCRIPT="evaluation/llm_persona_score.py"
 

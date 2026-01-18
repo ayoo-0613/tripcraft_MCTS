@@ -23,17 +23,17 @@ POI list (by day, names only):
 
 Rules:
 1) Use only POI NAMES. Ignore times, durations, prices, distances, transit details, and any other fields.
-2) If a POI name is unfamiliar or ambiguous, treat it as "unknown" and do NOT guess details.
-3) If the Persona is vague, infer only what is explicitly stated. Do NOT add unstated preferences.
-4) Count evidence from POI names. Use common, widely known cues in names only (e.g., "Museum", "Beach", "Outlet", "Fine Dining", "National Park").
+2) If a POI name is unfamiliar or ambiguous, treat it as "unknown" and do not guess details.
+3) If the Persona is vague, infer only what is explicitly stated. Do not add unstated preferences.
+4) Count evidence from POI names. Use common, widely known cues in names only, for example "Museum", "Beach", "Outlet", "Fine Dining", "National Park".
 5) Be consistent and conservative. Prefer lower scores when evidence is weak or mixed.
 
 Evaluation procedure (do this internally, output JSON only):
 A) Extract Persona signals into these four components:
-   - Traveler Type (e.g., solo, couple, family, business, backpacker, luxury, adventure)
-   - Purpose of Travel (e.g., culture, nature, relaxation, food, entertainment, sports, shopping)
-   - Spending Preference (budget, mid-range, luxury)
-   - Location Preference (urban, suburban, nature, coast, mountains, theme park, etc.)
+   - Traveler Type
+   - Purpose of Travel
+   - Spending Preference
+   - Location Preference
 
 B) For each POI name, assign at most TWO tags that are strongly implied by the name.
    If not strongly implied, tag as "unknown".
@@ -41,41 +41,45 @@ B) For each POI name, assign at most TWO tags that are strongly implied by the n
 C) Score each component in [0.0, 1.0] using this guidance:
    - 1.0: strong alignment, most POIs provide direct evidence for the persona signal
    - 0.7: good alignment, clear evidence but with some neutral or unknown POIs
-   - 0.5: mixed, comparable evidence for and against, or mostly neutral/unknown
+   - 0.5: mixed, comparable evidence for and against, or mostly neutral or unknown
    - 0.3: weak alignment, little supporting evidence, many unknown POIs
    - 0.0: clear mismatch, POIs mostly contradict the persona signal
 
 D) Compute overall score as the average of the four component scores, then apply penalties:
    - Penalty -0.05 to -0.20 when there are strong contradictions
-     Example: Persona says budget-focused but POIs clearly indicate luxury/fine dining.
-   - Penalty -0.05 when unknown POIs dominate (over half of POIs are unknown).
+   - Penalty -0.05 when unknown POIs dominate, over half of POIs are unknown.
    Clamp final score to [0.0, 1.0].
 
 Output format:
-Return JSON only. No extra text, no markdown.
+Return JSON only. No extra text. No markdown.
 
 Schema:
-{
+{{
   "score": 0.0,
-  "components": {
+  "components": {{
     "Traveler Type": 0.0,
     "Purpose of Travel": 0.0,
     "Spending Preference": 0.0,
     "Location Preference": 0.0
-  },
-  "evidence": {
+  }},
+  "evidence": {{
     "Traveler Type": ["POI_A", "POI_B"],
     "Purpose of Travel": ["POI_C"],
     "Spending Preference": ["POI_D"],
     "Location Preference": ["POI_E"]
-  },
+  }},
   "unknown_pois": ["POI_X", "POI_Y"],
   "contradictions": [
-    {"component": "Spending Preference", "reason": "persona implies budget but POIs suggest luxury", "pois": ["POI_D"]}
+    {{
+      "component": "Spending Preference",
+      "reason": "persona implies budget but POIs suggest luxury",
+      "pois": ["POI_D"]
+    }}
   ],
   "notes": "one or two sentences, concise"
-}
+}}
 """
+
 
 
 
@@ -190,7 +194,7 @@ def main() -> int:
         default=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
         help="Ollama base URL.",
     )
-    parser.add_argument("--timeout_sec", type=float, default=120.0, help="Request timeout in seconds.")
+    parser.add_argument("--timeout_sec", type=float, default=999.0, help="Request timeout in seconds.")
     parser.add_argument("--temperature", type=float, default=0.0, help="LLM temperature.")
     parser.add_argument("--print_per_plan", action="store_true", help="Print per-plan scores.")
     args = parser.parse_args()
