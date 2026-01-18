@@ -4,7 +4,7 @@ import json
 import os
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 
 import requests
 
@@ -148,7 +148,7 @@ def _format_plan_poi_list(plan: Dict[str, Any]) -> str:
     return "\n".join(chunks)
 
 
-def _load_prompt(path: str | None) -> str:
+def _load_prompt(path: Optional[str]) -> str:
     if not path:
         return DEFAULT_PROMPT
     return Path(path).read_text(encoding="utf-8")
