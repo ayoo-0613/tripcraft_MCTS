@@ -1,94 +1,117 @@
 {
   "idx": 49,
   "JSON": {
-    "org": "Denver",
-    "dest": "Iowa",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Tampa",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-07",
       "2024-11-08",
       "2024-11-09",
       "2024-11-10",
       "2024-11-11",
-      "2024-11-12"
+      "2024-11-12",
+      "2024-11-13"
     ],
-    "people_number": 4,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "visitors",
+      "house rule": null,
       "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": [
-        "Museums",
-        "Fun & Games"
-      ]
+      "attraction": null
     },
-    "budget": 7100.0,
-    "query": "Design a 5-day travel itinerary for 4 people departing from Denver to visit 2 cities in Iowa from November 8th to November 12th, 2024. The budget is $7,100. The plan should include visits to museums and fun & games attractions, and accommodations must comply with house rules allowing visitors.",
-    "level": "hard"
+    "budget": 6600.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Tampa to explore 3 cities in Tennessee from November 7th to November 13th, 2024, with a budget of $6,600.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Cedar Rapids",
-      "transportation": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46",
-      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
-      "attraction": "The History Center, Cedar Rapids",
-      "lunch": "The Breakfast House, Cedar Rapids",
-      "dinner": "El Bajio, Cedar Rapids",
-      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "current_city": "from Tampa to Memphis",
+      "transportation": "Taxi, from Tampa to Memphis, Duration: 895.8066666666667 mins, Distance: 1240.1459 km, Estimated Cost: $1240.15",
+      "breakfast": "Payne's Bar-B-Que, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Central BBQ, Memphis",
+      "dinner": "Blues City Cafe, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy NewBo Historical Herda House, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Parlor City Pub & Eatery, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; The History Center, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; The Breakfast House, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Central BBQ, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 21.42m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Cedar Rapids to Cedar Rapids",
-      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
-      "breakfast": "Irish Democrat, Cedar Rapids",
-      "attraction": "Cedar Rapids Museum of Art, Cedar Rapids",
-      "lunch": "Lucky's on 16th, Cedar Rapids",
-      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
-      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Corky's Ribs & BBQ, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy NewBo Historical Herda House, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Cedar Rapids Museum of Art, visit from 11:30 to 15:20, nearest transit: 3rd Ave & RR tracks, 50.82m away; Lucky's on 16th, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Majestic Grille, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Beale Street, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: POPLAR@PELHAM DR, 43.73m away; Cozy Corner, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Cedar Rapids to Fort Dodge",
-      "transportation": "Transfer, from Cedar Rapids to Fort Dodge",
-      "breakfast": "Taco Tico, Fort Dodge",
-      "attraction": "Studio Fusion, Fort Dodge",
-      "lunch": "Larita's Cakes 'N More, Fort Dodge",
-      "dinner": "Sneakers Eatry and Pub, Fort Dodge",
-      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
       "event": "-",
-      "point_of_interest_list": "Cozy NewBo Historical Herda House, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Taco Tico, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Larita's Cakes 'N More, visit from 13:57 to 14:56, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Sneakers Eatry and Pub, visit from 19:51 to 21:00, nearest transit: Central Ave and S 13th St, 60.64m away; Newly-renovated Cozy Home in Convenient Location, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Ole Red, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
     },
     {
       "days": 4,
-      "current_city": "from Fort Dodge to Fort Dodge",
-      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
-      "breakfast": "Village Inn, Fort Dodge",
-      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
-      "lunch": "Sports Page, Fort Dodge",
-      "dinner": "Tea Thyme & Thyme to Shop, Fort Dodge",
-      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
       "event": "-",
-      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; The Fort Museum & Frontier Village, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Sports Page, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Tea Thyme & Thyme to Shop, visit from 19:51 to 21:00, nearest transit: 6th Ave S and S 21st St, 84.15m away; Newly-renovated Cozy Home in Convenient Location, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
     },
     {
       "days": 5,
-      "current_city": "from Fort Dodge to Denver",
-      "transportation": "Flight Number: F3406692, from Fort Dodge to Denver, Departure Time: 18:17, Arrival Time: 18:58",
-      "breakfast": "Olde Boston's Restaurant & Pub, Fort Dodge",
-      "attraction": "Blanden Art Museum, Fort Dodge",
-      "lunch": "Dariette, Fort Dodge",
-      "dinner": "-",
+      "current_city": "from Nashville to Chattanooga",
+      "transportation": "Transfer, from Nashville to Chattanooga",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "dinner": "Uncle Larry's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Uncle Larry's Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Community Pie, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
+      "dinner": "St. John's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Community Pie, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; HiFi Clyde's Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; St. John's Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Market & King1, 25.22m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Chattanooga to Tampa",
+      "transportation": "Transfer, from Chattanooga to Tampa",
+      "breakfast": "Mellow Mushroom Chattanooga, Chattanooga",
+      "attraction": "Chattanooga Ghost Tours, Chattanooga",
+      "lunch": "Bridgeman's Chophouse, Chattanooga",
+      "dinner": "Public House, Chattanooga",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Olde Boston's Restaurant & Pub, visit from 09:25 to 10:16, nearest transit: Trolley Center, 85.16m away; Blanden Art Museum, visit from 11:30 to 14:35, nearest transit: 3rd Ave S and S 9th St, 75.70m away; Dariette, visit from 13:57 to 14:56, nearest transit: N 11th St and Central Ave, 88.99m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Mellow Mushroom Chattanooga, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; Chattanooga Ghost Tours, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: MARKET + 5TH, 59.20m away; Bridgeman's Chophouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROAD + READ HOUSE, 27.65m away; Public House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: HOUSTON + MARKET, 28.53m away."
     }
   ]
 }

@@ -2,89 +2,120 @@
   "idx": 1,
   "stages": [
     {
-      "city": "Rochester",
+      "city": "Nashville",
       "counts": {
-        "attractions": 18,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 73,
-        "events": 16
+        "poi2transit": 75,
+        "events": 6
       }
     },
     {
-      "city": "Watertown",
+      "city": "Memphis",
       "counts": {
-        "attractions": 19,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 15
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 4
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Memphis",
-      "to": "Rochester",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "Cleveland",
+      "to": "Nashville",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0061944, from Cleveland to Nashville, Departure Time: 06:28, Arrival Time: 06:50"
     },
     {
       "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Cleveland",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $79.02"
+      "raw": "Self-driving, from Cleveland to Nashville, Duration: 583.6666666666666 mins, Distance: 838.057 km, Estimated Cost: $41.90"
     },
     {
       "mode": "taxi",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Cleveland",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $1580.30"
+      "raw": "Taxi, from Cleveland to Nashville, Duration: 583.6666666666666 mins, Distance: 838.057 km, Estimated Cost: $838.06"
     },
     {
       "mode": "flight",
-      "from": "Rochester",
-      "to": "Watertown",
-      "date": "2024-11-05",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
     },
     {
       "mode": "taxi",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
     },
     {
       "mode": "flight",
-      "from": "Watertown",
-      "to": "Memphis",
-      "date": "2024-11-07",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $90.30"
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
     },
     {
       "mode": "taxi",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $1805.92"
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Cleveland, Duration: 679.58 mins, Distance: 943.5034 km, Estimated Cost: $47.18"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Cleveland, Duration: 679.58 mins, Distance: 943.5034 km, Estimated Cost: $943.50"
     }
   ]
 }

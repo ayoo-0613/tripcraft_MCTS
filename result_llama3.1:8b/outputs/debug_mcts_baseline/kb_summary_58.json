@@ -2,89 +2,120 @@
   "idx": 58,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Santa Rosa",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
         "poi2transit": 75,
-        "events": 17
+        "events": 25
       }
     },
     {
-      "city": "Durango",
+      "city": "San Luis Obispo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 73,
+        "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Tucson",
+      "to": "Santa Rosa",
       "date": "2024-11-01",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Tucson",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Self-driving, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $69.20"
+      "raw": "Self-driving, from Tucson to Santa Rosa, Duration: 995.4316666666667 mins, Distance: 1466.1733000000002 km, Estimated Cost: $73.31"
     },
     {
       "mode": "taxi",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Tucson",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      "raw": "Taxi, from Tucson to Santa Rosa, Duration: 995.4316666666667 mins, Distance: 1466.1733000000002 km, Estimated Cost: $1466.17"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
       "date": "2024-11-03",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $25.31"
+      "raw": "Self-driving, from Santa Rosa to San Luis Obispo, Duration: 361.8016666666666 mins, Distance: 471.2237 km, Estimated Cost: $23.56"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      "raw": "Taxi, from Santa Rosa to San Luis Obispo, Duration: 361.8016666666666 mins, Distance: 471.2237 km, Estimated Cost: $471.22"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $70.35"
+      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $1407.09"
+      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Tucson, Duration: 762.06 mins, Distance: 1129.7628 km, Estimated Cost: $56.49"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Taxi, from Fresno to Tucson, Duration: 762.06 mins, Distance: 1129.7628 km, Estimated Cost: $1129.76"
     }
   ]
 }

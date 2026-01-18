@@ -2,58 +2,120 @@
   "idx": 325,
   "stages": [
     {
-      "city": "Houston",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 5
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 25
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 23
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Houston",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0095237, from Charleston to Houston, Departure Time: 15:25, Arrival Time: 16:56"
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Houston",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Charleston to Houston, Duration: 1209.63 mins, Distance: 1714.4841999999999 km, Estimated Cost: $85.72"
+      "raw": "Self-driving, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $22.57"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Houston",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Charleston to Houston, Duration: 1209.63 mins, Distance: 1714.4841999999999 km, Estimated Cost: $1714.48"
+      "raw": "Taxi, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $451.37"
     },
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Charleston",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0022957, from Houston to Charleston, Departure Time: 11:21, Arrival Time: 14:26"
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Charleston",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $85.66"
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Charleston",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $1713.14"
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $45.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $911.66"
     }
   ]
 }

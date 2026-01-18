@@ -1,91 +1,124 @@
 {
   "idx": 59,
   "JSON": {
-    "org": "Helena",
-    "dest": "Colorado",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Oklahoma City",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 6,
+    "people_number": 4,
     "local_constraint": {
-      "house rule": "smoking",
-      "cuisine": null,
+      "house rule": null,
+      "cuisine": [
+        "Steakhouse",
+        "British",
+        "Grill",
+        "Scottish"
+      ],
       "room type": null,
-      "event": null,
-      "attraction": null,
+      "event": [
+        "Arts & Theatre"
+      ],
+      "attraction": "Museums",
       "transportation": null
     },
-    "budget": 13050.0,
-    "query": "Plan a 5-day trip for 6 people traveling from Helena to explore 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $13,050. Accommodations should allow smoking.",
-    "level": "medium"
+    "budget": 50400.0,
+    "query": "Design a 7-day travel itinerary for 4 people starting from Oklahoma City and visiting 3 cities in Texas between November 2nd and November 8th, 2024. The budget is $50,400. Include visits to museums and arts & theatre events. Dining options should feature cuisines such as steakhouse, British, grill, and Scottish.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Helena to Colorado Springs",
-      "transportation": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08",
-      "breakfast": "Paravicini's Italian Bistro, Colorado Springs",
-      "attraction": "Penrose Heritage Museum, Colorado Springs",
-      "lunch": "Uchenna, Colorado Springs",
-      "dinner": "Carlos Bistro, Colorado Springs",
-      "accommodation": "The Bird’s Nest – Tiny Home – Big Location!, Colorado Springs",
-      "event": "-",
-      "point_of_interest_list": "The Bird’s Nest – Tiny Home – Big Location!, stay from 08:00 to 09:00, nearest transit: Colorado/21st, 161.27m away; Paravicini's Italian Bistro, visit from 09:25 to 10:16, nearest transit: Colorado/28th, 25.37m away; Penrose Heritage Museum, visit from 11:30 to 15:20, nearest transit: Broadmoor Hotel, 45.08m away; Uchenna, visit from 13:57 to 14:56, nearest transit: Colorado/25th, 42.42m away; Carlos Bistro, visit from 19:51 to 21:00, nearest transit: 21st/Broadway, 62.57m away; The Bird’s Nest – Tiny Home – Big Location!, stay from 22:15 to 08:00, nearest transit: Colorado/21st, 161.27m away."
+      "current_city": "from Oklahoma City to Houston",
+      "transportation": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81",
+      "breakfast": "Pappas Bros. Steakhouse, Houston",
+      "attraction": "National Museum of Funeral History, Houston",
+      "lunch": "Houstons Bar and Grill, Houston",
+      "dinner": "Phoenicia Specialty Foods, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "Liza Treyger, Houston",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Pappas Bros. Steakhouse, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Augusta Dr, 60.97m away; National Museum of Funeral History, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Houstons Bar and Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Conroe Park & Ride, 7360300.27m away; Phoenicia Specialty Foods, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Lamar St @ Austin St, 9.87m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 2,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Pizzeria Rustica, Colorado Springs",
-      "attraction": "Old Colorado City Historic District, Colorado Springs",
-      "lunch": "Summit at The Broadmoor, Colorado Springs",
-      "dinner": "Mountain Shadows Restaurant, Colorado Springs",
-      "accommodation": "The Bird’s Nest – Tiny Home – Big Location!, Colorado Springs",
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Brenner's on the Bayou, Houston",
+      "attraction": "Museum of Fine Arts, Houston",
+      "lunch": "Niko Niko's Greek, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "The Bird’s Nest – Tiny Home – Big Location!, stay from 08:00 to 09:00, nearest transit: Colorado/21st, 161.27m away; Pizzeria Rustica, visit from 09:25 to 10:16, nearest transit: Colorado/25th, 64.93m away; Old Colorado City Historic District, visit from 11:30 to 14:50, nearest transit: Cascade/Colorado, 63.31m away; Summit at The Broadmoor, visit from 13:57 to 14:56, nearest transit: Broadmoor Hotel, 68.55m away; Mountain Shadows Restaurant, visit from 19:51 to 21:00, nearest transit: Colorado/23rd, 76.10m away; The Bird’s Nest – Tiny Home – Big Location!, stay from 22:15 to 08:00, nearest transit: Colorado/21st, 161.27m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Brenner's on the Bayou, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Memorial Dr @ Knox St, 214.20m away; Museum of Fine Arts, Houston, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Bissonnet St @ Montrose Blvd, 72.67m away; Niko Niko's Greek, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Houston's, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 3,
-      "current_city": "from Colorado Springs to Durango",
-      "transportation": "Transfer, from Colorado Springs to Durango",
-      "breakfast": "Diamond Belle Saloon, Durango",
-      "attraction": "Roll Ebike & Paddle Board, Durango",
-      "lunch": "Chimayo Stone Fired Kitchen, Durango",
-      "dinner": "Michel's Corner Crepes, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from Houston to San Antonio",
+      "transportation": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Biga on the Banks, San Antonio",
+      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
       "event": "-",
-      "point_of_interest_list": "The Bird’s Nest – Tiny Home – Big Location!, stay from 08:00 to 09:00, nearest transit: Colorado/21st, 161.27m away; Diamond Belle Saloon, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 25.56m away; Roll Ebike & Paddle Board, visit from 11:30 to 15:50, nearest transit: Buckley Park, 34.63m away; Chimayo Stone Fired Kitchen, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 28.28m away; Michel's Corner Crepes, visit from 19:51 to 21:00, nearest transit: College Dr. & Main Ave., 31.39m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Biga on the Banks, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: ST MARYS BET. MARKET & VILLITA, 27.33m away; Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
     },
     {
       "days": 4,
-      "current_city": "from Durango to Durango",
-      "transportation": "Transfer, from Durango to Durango",
-      "breakfast": "Eolus Bar & Dining, Durango",
-      "attraction": "Historic Downtown Durango, Durango",
-      "lunch": "Derailed Pour House, Durango",
-      "dinner": "Fired Up Pizzeria, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from San Antonio to San Antonio",
+      "transportation": "Transfer, from San Antonio to San Antonio",
+      "breakfast": "Domingo Restaurant, San Antonio",
+      "attraction": "The Alamo, San Antonio",
+      "lunch": "Bliss, San Antonio",
+      "dinner": "La Fonda on Main, San Antonio",
+      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Eolus Bar & Dining, visit from 09:25 to 10:16, nearest transit: Main Ave. & 9th St., 33.46m away; Historic Downtown Durango, visit from 11:30 to 15:20, nearest transit: Main Ave. & 9th St., 40.87m away; Derailed Pour House, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 38.31m away; Fired Up Pizzeria, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 47.57m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; Domingo Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: ST. MARY'S & COMMERCE, 28.70m away; The Alamo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: THIRD & AVENUE E, 126.00m away; Bliss, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: S. PRESA OPPOSITE SADIE, 41.72m away; La Fonda on Main, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: WOODLAWN & MAIN, 42.96m away; Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
     },
     {
       "days": 5,
-      "current_city": "from Durango to Helena",
-      "transportation": "Transfer, from Durango to Helena",
-      "breakfast": "Durango Doughworks, Durango",
-      "attraction": "Four Leaves Winery, Durango",
-      "lunch": "Bread, Durango",
-      "dinner": "Mahogany Grille, Durango",
+      "current_city": "from San Antonio to Amarillo",
+      "transportation": "Transfer, from San Antonio to Amarillo",
+      "breakfast": "Crush, Amarillo",
+      "attraction": "I am Rt 66 Visitor Center, Amarillo",
+      "lunch": "Six Car Pub & Brewery, Amarillo",
+      "dinner": "Ohms Cafe & Catering, Amarillo",
+      "accommodation": "Downtown Luxury High-Rise Suite, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; Crush, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SE 7th Ave & S Polk St (Crush), 29.57m away; I am Rt 66 Visitor Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:35, nearest transit: SW 6th Ave & S Bonham St, 38.30m away; Six Car Pub & Brewery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 7th Ave & S Polk St (Crush), 40.07m away; Ohms Cafe & Catering, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SW 7th Ave & S Tyler St, 66.22m away; Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "Transfer, from Amarillo to Amarillo",
+      "breakfast": "Golden Light Cafe & Cantina, Amarillo",
+      "attraction": "Bill's Backyard Classics, Amarillo",
+      "lunch": "Eddie's Napoli's Italian Restaurant, Amarillo",
+      "dinner": "Coyote Bluff Cafe, Amarillo",
+      "accommodation": "Downtown Luxury High-Rise Suite, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away; Golden Light Cafe & Cantina, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SW 6th Ave & S Alabama St, 67.68m away; Bill's Backyard Classics, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: 5241 S Washington St (Advo Companies), 114.94m away; Eddie's Napoli's Italian Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 7th Ave & S Polk St (Crush), 75.32m away; Coyote Bluff Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: S Grand St & SE 25th Ave, 75.41m away; Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Amarillo to Oklahoma City",
+      "transportation": "Transfer, from Amarillo to Oklahoma City",
+      "breakfast": "Dyer's Bar-B-Que, Amarillo",
+      "attraction": "American Quarter Horse Hall of Fame & Museum, Amarillo",
+      "lunch": "Toscana Italian Steakhouse, Amarillo",
+      "dinner": "Youngblood's Cafe, Amarillo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Durango Doughworks, visit from 09:25 to 10:16, nearest transit: Main Ave. & 27th St., 48.37m away; Four Leaves Winery, visit from 11:30 to 15:00, nearest transit: College Dr. & Main Ave., 80.37m away; Bread, visit from 13:57 to 14:56, nearest transit: Ptarmigan Center, 50.35m away; Mahogany Grille, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 51.51m away."
+      "point_of_interest_list": "Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away; Dyer's Bar-B-Que, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: S Georgia St & SW 16th Ave (Wellington Square), 75.59m away; American Quarter Horse Hall of Fame & Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:35, nearest transit: 2508 E Interstate 40 (Camelot Motel), 129.00m away; Toscana Italian Steakhouse, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 6th Ave & S Polk St (Across from Amarillo National Bank), 84.41m away; Youngblood's Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SW 15th Ave & S Monroe St (Parking Lot across from Church), 86.78m away."
     }
   ]
 }

@@ -2,89 +2,120 @@
   "idx": 82,
   "stages": [
     {
-      "city": "Santa Barbara",
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 5
+      }
+    },
+    {
+      "city": "Cedar Rapids",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
-      }
-    },
-    {
-      "city": "Los Angeles",
-      "counts": {
-        "attractions": 19,
-        "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 74,
+        "events": 13
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Santa Barbara",
-      "date": "2024-11-08",
+      "from": "Valparaiso",
+      "to": "Fort Dodge",
+      "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Santa Barbara",
+      "from": "Valparaiso",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Santa Barbara, Duration: 1238.2833333333333 mins, Distance: 1857.5446000000002 km, Estimated Cost: $92.88"
+      "raw": "Self-driving, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $35.00"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Santa Barbara",
+      "from": "Valparaiso",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Santa Barbara, Duration: 1238.2833333333333 mins, Distance: 1857.5446000000002 km, Estimated Cost: $1857.54"
+      "raw": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02"
     },
     {
       "mode": "flight",
-      "from": "Santa Barbara",
-      "to": "Los Angeles",
-      "date": "2024-11-10",
-      "raw": "Flight Number: F0455201, from Santa Barbara to Los Angeles, Departure Time: 05:50, Arrival Time: 06:35"
+      "from": "Fort Dodge",
+      "to": "Mason City",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0483932, from Fort Dodge to Mason City, Departure Time: 09:56, Arrival Time: 10:33"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Barbara",
-      "to": "Los Angeles",
+      "from": "Fort Dodge",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Santa Barbara to Los Angeles, Duration: 115.69666666666667 mins, Distance: 153.6216 km, Estimated Cost: $7.68"
+      "raw": "Self-driving, from Fort Dodge to Mason City, Duration: 112.92666666666668 mins, Distance: 155.0488 km, Estimated Cost: $7.75"
     },
     {
       "mode": "taxi",
-      "from": "Santa Barbara",
-      "to": "Los Angeles",
+      "from": "Fort Dodge",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Santa Barbara to Los Angeles, Duration: 115.69666666666667 mins, Distance: 153.6216 km, Estimated Cost: $153.62"
+      "raw": "Taxi, from Fort Dodge to Mason City, Duration: 112.92666666666668 mins, Distance: 155.0488 km, Estimated Cost: $155.05"
     },
     {
       "mode": "flight",
-      "from": "Los Angeles",
-      "to": "Colorado Springs",
-      "date": "2024-11-12",
-      "raw": "Flight Number: F0500213, from Los Angeles to Colorado Springs, Departure Time: 18:50, Arrival Time: 21:48"
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Los Angeles",
-      "to": "Colorado Springs",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $87.05"
+      "raw": "Self-driving, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $11.15"
     },
     {
       "mode": "taxi",
-      "from": "Los Angeles",
-      "to": "Colorado Springs",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06"
+      "raw": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Valparaiso",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Valparaiso, Duration: 327.02666666666664 mins, Distance: 451.17440000000005 km, Estimated Cost: $22.56"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Valparaiso, Duration: 327.02666666666664 mins, Distance: 451.17440000000005 km, Estimated Cost: $451.17"
     }
   ]
 }

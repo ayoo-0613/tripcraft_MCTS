@@ -1,65 +1,117 @@
 {
   "idx": 145,
   "JSON": {
-    "org": "Shreveport",
-    "dest": "Los Angeles",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-25",
-      "2024-11-26",
-      "2024-11-27"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 6,
+    "people_number": 7,
     "local_constraint": {
-      "house rule": "visitors",
+      "house rule": null,
       "cuisine": null,
-      "room type": "private room",
-      "event": null,
+      "room type": null,
+      "event": "Arts & Theatre",
       "attraction": null,
       "transportation": null
     },
-    "budget": 14250.0,
-    "query": "Plan a 3-day trip for 6 people from Shreveport to Los Angeles from November 25th to November 27th, 2024, with a budget of $14,250. Accommodations should include a private room, and the house rules should allow visitors.",
+    "budget": 35400.0,
+    "query": "Plan a 7-day trip for 7 people traveling from Dallas to explore 3 cities in Tennessee between November 1st and November 7th, 2024. The budget is $35,400. Include events related to Arts & Theatre in the itinerary.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Shreveport to Los Angeles",
-      "transportation": "Taxi, from Shreveport to Los Angeles, Not feasible to drive from Shreveport to Los Angeles",
-      "breakfast": "Katsuya, Los Angeles",
-      "attraction": "Hollywood Walk of Fame, Los Angeles; The Broad, Los Angeles",
-      "lunch": "Au Lac Dtla, Los Angeles",
-      "dinner": "The Palm - L.A. Downtown, Los Angeles",
-      "accommodation": "Cozy Private Room In LA., Los Angeles",
-      "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Katsuya, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Hollywood Walk of Fame, visit from 11:30 to 13:57, nearest transit: Hollywood & Vine St., 17.12m away; Au Lac Dtla, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Broad, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; The Palm - L.A. Downtown, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
-    },
-    {
-      "days": 2,
-      "current_city": "from Los Angeles to Los Angeles",
-      "transportation": "Transfer, from Los Angeles to Los Angeles",
-      "breakfast": "Leo & Lily, Los Angeles",
-      "attraction": "Petersen Automotive Museum, Los Angeles; Walt Disney Concert Hall, Los Angeles",
-      "lunch": "71Above Restaurant and Skylounge, Los Angeles",
-      "dinner": "Patina Restaurant, Los Angeles",
-      "accommodation": "Cozy Private Room In LA., Los Angeles",
-      "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Leo & Lily, visit from 09:25 to 10:16, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Petersen Automotive Museum, visit from 11:30 to 13:57, nearest transit: Wilshire Blvd & Fairfax (Westbound), 78.51m away; 71Above Restaurant and Skylounge, visit from 13:57 to 14:56, nearest transit: Flower St & 4th St, 55.68m away; Walt Disney Concert Hall, visit from 16:30 to 18:42, nearest transit: Hope St & 1st St (Northbound), 80.77m away; Patina Restaurant, visit from 19:51 to 21:00, nearest transit: Grand Ave & 2nd St, 62.65m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
-    },
-    {
-      "days": 3,
-      "current_city": "from Los Angeles to Shreveport",
-      "transportation": "Flight Number: F2561207, from Los Angeles to Shreveport, Departure Time: 06:29, Arrival Time: 11:47",
+      "current_city": "from Dallas to Bristol",
+      "transportation": "Flight Number: F0469289, from Dallas to Bristol, Departure Time: 13:56, Arrival Time: 16:56",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
+      "dinner": "Blackbird Bakery, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "JESSIMAE PELUSO, Bristol",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 17:26 to 18:26, nearest transit: Downtown Transfer Center, 120.73m away; Blackbird Bakery, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Cumberland St & Waters Alley, 84.53m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Bristol Seafood Grill, Bristol",
+      "attraction": "Bristol Motor Speedway, Bristol",
+      "lunch": "Bristol Seafood Restaurant, Bristol",
+      "dinner": "Bristol Seafood + Steak + Social, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Bristol Seafood Grill, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Hard Rock Hotel Main Entrance, 761097.80m away; Bristol Motor Speedway, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: Hard Rock Hotel Main Entrance, 9711.82m away; Bristol Seafood Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Hard Rock Hotel Main Entrance, 789410.12m away; Bristol Seafood + Steak + Social, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Hard Rock Hotel Main Entrance, 1121819.15m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Bristol to Memphis",
+      "transportation": "Transfer, from Bristol to Memphis",
+      "breakfast": "Payne's Bar-B-Que, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Central BBQ, Memphis",
+      "dinner": "Blues City Cafe, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Central BBQ, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 21.42m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Corky's Ribs & BBQ, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Majestic Grille, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Beale Street, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: POPLAR@PELHAM DR, 43.73m away; Cozy Corner, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Ole Red, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0065109, from Nashville to Dallas, Departure Time: 19:12, Arrival Time: 21:03",
+      "breakfast": "Miranda Lambert's Casa Rosa, Nashville",
+      "attraction": "Ryman Auditorium, Nashville",
+      "lunch": "The Stillery, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 04:59 to 05:59, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Miranda Lambert's Casa Rosa, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; Ryman Auditorium, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; The Stillery, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away."
     }
   ]
 }

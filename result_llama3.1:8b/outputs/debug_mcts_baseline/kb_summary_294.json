@@ -2,12 +2,32 @@
   "idx": 294,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 18
+      }
+    },
+    {
+      "city": "Amarillo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Boise",
-      "to": "San Francisco",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0460749, from Boise to San Francisco, Departure Time: 16:30, Arrival Time: 17:09"
+      "from": "Cleveland",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0109061, from Cleveland to Houston, Departure Time: 12:58, Arrival Time: 14:59"
     },
     {
       "mode": "self-driving",
-      "from": "Boise",
-      "to": "San Francisco",
+      "from": "Cleveland",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Boise to San Francisco, Duration: 712.0466666666667 mins, Distance: 1029.3790999999999 km, Estimated Cost: $51.47"
+      "raw": "Self-driving, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $104.32"
     },
     {
       "mode": "taxi",
-      "from": "Boise",
-      "to": "San Francisco",
+      "from": "Cleveland",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Boise to San Francisco, Duration: 712.0466666666667 mins, Distance: 1029.3790999999999 km, Estimated Cost: $1029.38"
+      "raw": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Boise",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0451666, from San Francisco to Boise, Departure Time: 08:35, Arrival Time: 11:18"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Boise",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Boise, Duration: 712.2783333333333 mins, Distance: 1028.8601999999998 km, Estimated Cost: $51.44"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
-      "to": "Boise",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from San Francisco to Boise, Duration: 712.2783333333333 mins, Distance: 1028.8601999999998 km, Estimated Cost: $1028.86"
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Beaumont",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Beaumont, Duration: 714.0183333333333 mins, Distance: 1023.0063 km, Estimated Cost: $51.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Beaumont, Duration: 714.0183333333333 mins, Distance: 1023.0063 km, Estimated Cost: $1023.01"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "Cleveland",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to Cleveland, Duration: 1410.2933333333335 mins, Distance: 2045.0748999999998 km, Estimated Cost: $102.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Beaumont to Cleveland, Duration: 1410.2933333333335 mins, Distance: 2045.0748999999998 km, Estimated Cost: $2045.07"
     }
   ]
 }

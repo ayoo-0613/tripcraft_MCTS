@@ -2,58 +2,120 @@
   "idx": 299,
   "stages": [
     {
-      "city": "Albuquerque",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 1
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 5
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 25
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 23
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Albuquerque",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0059776, from Chicago to Albuquerque, Departure Time: 12:45, Arrival Time: 14:47"
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Albuquerque",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Chicago to Albuquerque, Duration: 1421.5666666666666 mins, Distance: 2152.9278 km, Estimated Cost: $107.65"
+      "raw": "Self-driving, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $22.57"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Albuquerque",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Chicago to Albuquerque, Duration: 1421.5666666666666 mins, Distance: 2152.9278 km, Estimated Cost: $2152.93"
+      "raw": "Taxi, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $451.37"
     },
     {
       "mode": "flight",
-      "from": "Albuquerque",
-      "to": "Chicago",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0064855, from Albuquerque to Chicago, Departure Time: 16:09, Arrival Time: 19:38"
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Albuquerque",
-      "to": "Chicago",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Albuquerque to Chicago, Duration: 1419.8666666666666 mins, Distance: 2146.3378 km, Estimated Cost: $107.32"
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
     },
     {
       "mode": "taxi",
-      "from": "Albuquerque",
-      "to": "Chicago",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Albuquerque to Chicago, Duration: 1419.8666666666666 mins, Distance: 2146.3378 km, Estimated Cost: $2146.34"
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $45.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $911.66"
     }
   ]
 }

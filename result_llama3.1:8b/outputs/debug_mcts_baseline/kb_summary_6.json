@@ -2,9 +2,9 @@
   "idx": 6,
   "stages": [
     {
-      "city": "Santa Rosa",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -12,79 +12,110 @@
       }
     },
     {
-      "city": "Fresno",
+      "city": "San Francisco",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 18,
-        "poi2transit": 74,
-        "events": 12
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Boise",
-      "to": "Santa Rosa",
-      "date": "2024-11-21",
-      "raw": "-"
+      "from": "Atlanta",
+      "to": "Los Angeles",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0202772, from Atlanta to Los Angeles, Departure Time: 19:20, Arrival Time: 21:14"
     },
     {
       "mode": "self-driving",
-      "from": "Boise",
-      "to": "Santa Rosa",
+      "from": "Atlanta",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Boise to Santa Rosa, Duration: 723.91 mins, Distance: 1041.2886 km, Estimated Cost: $52.06"
+      "raw": "Self-driving, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles"
     },
     {
       "mode": "taxi",
-      "from": "Boise",
-      "to": "Santa Rosa",
+      "from": "Atlanta",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Boise to Santa Rosa, Duration: 723.91 mins, Distance: 1041.2886 km, Estimated Cost: $1041.29"
+      "raw": "Taxi, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles"
     },
     {
       "mode": "flight",
-      "from": "Santa Rosa",
-      "to": "Fresno",
-      "date": "2024-11-23",
-      "raw": "-"
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Rosa",
-      "to": "Fresno",
+      "from": "Los Angeles",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $18.74"
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
     },
     {
       "mode": "taxi",
-      "from": "Santa Rosa",
-      "to": "Fresno",
+      "from": "Los Angeles",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $374.84"
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
     },
     {
       "mode": "flight",
-      "from": "Fresno",
-      "to": "Boise",
-      "date": "2024-11-25",
-      "raw": "-"
+      "from": "San Francisco",
+      "to": "Sacramento",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58"
     },
     {
       "mode": "self-driving",
-      "from": "Fresno",
-      "to": "Boise",
+      "from": "San Francisco",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Fresno to Boise, Duration: 799.3533333333332 mins, Distance: 1158.2156 km, Estimated Cost: $57.91"
+      "raw": "Self-driving, from San Francisco to Sacramento, Duration: 108.31 mins, Distance: 140.708 km, Estimated Cost: $7.04"
     },
     {
       "mode": "taxi",
-      "from": "Fresno",
-      "to": "Boise",
+      "from": "San Francisco",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Fresno to Boise, Duration: 799.3533333333332 mins, Distance: 1158.2156 km, Estimated Cost: $1158.22"
+      "raw": "Taxi, from San Francisco to Sacramento, Duration: 108.31 mins, Distance: 140.708 km, Estimated Cost: $140.71"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Atlanta",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
     }
   ]
 }

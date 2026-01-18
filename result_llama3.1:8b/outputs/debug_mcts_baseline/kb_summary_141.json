@@ -2,58 +2,120 @@
   "idx": 141,
   "stages": [
     {
-      "city": "Huntsville",
+      "city": "Mason City",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 24
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Indianapolis",
-      "to": "Huntsville",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Indianapolis",
-      "to": "Huntsville",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Indianapolis to Huntsville, Duration: 451.75 mins, Distance: 639.0136 km, Estimated Cost: $31.95"
+      "raw": "Self-driving, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $33.89"
     },
     {
       "mode": "taxi",
-      "from": "Indianapolis",
-      "to": "Huntsville",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Indianapolis to Huntsville, Duration: 451.75 mins, Distance: 639.0136 km, Estimated Cost: $639.01"
+      "raw": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76"
     },
     {
       "mode": "flight",
-      "from": "Huntsville",
-      "to": "Indianapolis",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Huntsville",
-      "to": "Indianapolis",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Huntsville to Indianapolis, Duration: 451.37833333333333 mins, Distance: 638.8732 km, Estimated Cost: $31.94"
+      "raw": "Self-driving, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $11.15"
     },
     {
       "mode": "taxi",
-      "from": "Huntsville",
-      "to": "Indianapolis",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Huntsville to Indianapolis, Duration: 451.37833333333333 mins, Distance: 638.8732 km, Estimated Cost: $638.87"
+      "raw": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $35.24"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89"
     }
   ]
 }

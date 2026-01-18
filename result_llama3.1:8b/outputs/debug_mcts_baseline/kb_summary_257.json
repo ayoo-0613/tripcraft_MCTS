@@ -2,58 +2,120 @@
   "idx": 257,
   "stages": [
     {
-      "city": "Chattanooga",
+      "city": "San Diego",
       "counts": {
-        "attractions": 14,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 69,
-        "events": 12
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Chattanooga",
+      "from": "Baltimore",
+      "to": "San Diego",
       "date": "2024-11-02",
-      "raw": "Flight Number: F0457609, from Chicago to Chattanooga, Departure Time: 13:59, Arrival Time: 16:38"
+      "raw": "Flight Number: F0005821, from Baltimore to San Diego, Departure Time: 21:01, Arrival Time: 23:30"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Chattanooga",
+      "from": "Baltimore",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $45.98"
+      "raw": "Self-driving, from Baltimore to San Diego, Not feasible to drive from Baltimore to San Diego"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Chattanooga",
+      "from": "Baltimore",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $919.64"
+      "raw": "Taxi, from Baltimore to San Diego, Not feasible to drive from Baltimore to San Diego"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Chicago",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": "2024-11-04",
-      "raw": "Flight Number: F0456984, from Chattanooga to Chicago, Departure Time: 06:34, Arrival Time: 07:34"
+      "raw": "Flight Number: F0455666, from San Diego to Los Angeles, Departure Time: 06:18, Arrival Time: 07:25"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Chicago",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Chicago, Duration: 667.94 mins, Distance: 918.8884 km, Estimated Cost: $45.94"
+      "raw": "Self-driving, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $9.68"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Chicago",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Chicago, Duration: 667.94 mins, Distance: 918.8884 km, Estimated Cost: $918.89"
+      "raw": "Taxi, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $193.57"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0063067, from Los Angeles to San Francisco, Departure Time: 17:54, Arrival Time: 18:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0539461, from San Francisco to Baltimore, Departure Time: 23:00, Arrival Time: 07:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Baltimore, Not feasible to drive from San Francisco to Baltimore"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Baltimore, Not feasible to drive from San Francisco to Baltimore"
     }
   ]
 }

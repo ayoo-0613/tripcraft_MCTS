@@ -2,89 +2,120 @@
   "idx": 40,
   "stages": [
     {
-      "city": "Rochester",
+      "city": "San Francisco",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 73,
-        "events": 16
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "Watertown",
+      "city": "Fresno",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
         "poi2transit": 74,
-        "events": 15
+        "events": 2
+      }
+    },
+    {
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Memphis",
-      "to": "Rochester",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "Portland",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0240738, from Portland to San Francisco, Departure Time: 08:45, Arrival Time: 10:25"
     },
     {
       "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Portland",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $79.02"
+      "raw": "Self-driving, from Portland to San Francisco, Duration: 733.7900000000001 mins, Distance: 1020.2180999999999 km, Estimated Cost: $51.01"
     },
     {
       "mode": "taxi",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Portland",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $1580.30"
+      "raw": "Taxi, from Portland to San Francisco, Duration: 733.7900000000001 mins, Distance: 1020.2180999999999 km, Estimated Cost: $1020.22"
     },
     {
       "mode": "flight",
-      "from": "Rochester",
-      "to": "Watertown",
-      "date": "2024-11-05",
-      "raw": "-"
+      "from": "San Francisco",
+      "to": "Fresno",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0455633, from San Francisco to Fresno, Departure Time: 15:55, Arrival Time: 16:56"
     },
     {
       "mode": "self-driving",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "San Francisco",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
+      "raw": "Self-driving, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $14.99"
     },
     {
       "mode": "taxi",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "San Francisco",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+      "raw": "Taxi, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $299.86"
     },
     {
       "mode": "flight",
-      "from": "Watertown",
-      "to": "Memphis",
-      "date": "2024-11-07",
+      "from": "Fresno",
+      "to": "Sacramento",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "Fresno",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $90.30"
+      "raw": "Self-driving, from Fresno to Sacramento, Duration: 198.64666666666665 mins, Distance: 272.8536 km, Estimated Cost: $13.64"
     },
     {
       "mode": "taxi",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "Fresno",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $1805.92"
+      "raw": "Taxi, from Fresno to Sacramento, Duration: 198.64666666666665 mins, Distance: 272.8536 km, Estimated Cost: $272.85"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0086885, from Sacramento to Portland, Departure Time: 16:40, Arrival Time: 18:00"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Portland, Duration: 667.9300000000001 mins, Distance: 932.3056 km, Estimated Cost: $46.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Portland, Duration: 667.9300000000001 mins, Distance: 932.3056 km, Estimated Cost: $932.31"
     }
   ]
 }

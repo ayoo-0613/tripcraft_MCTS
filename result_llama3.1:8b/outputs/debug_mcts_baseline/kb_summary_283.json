@@ -2,11 +2,31 @@
   "idx": 283,
   "stages": [
     {
-      "city": "Indianapolis",
+      "city": "Greensboro",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Charlotte",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Indianapolis",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0161855, from Detroit to Indianapolis, Departure Time: 15:59, Arrival Time: 17:02"
+      "from": "Valparaiso",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "Valparaiso",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $22.39"
+      "raw": "Self-driving, from Valparaiso to Greensboro, Duration: 798.6066666666667 mins, Distance: 1108.9996 km, Estimated Cost: $55.45"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "Valparaiso",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70"
+      "raw": "Taxi, from Valparaiso to Greensboro, Duration: 798.6066666666667 mins, Distance: 1108.9996 km, Estimated Cost: $1109.00"
     },
     {
       "mode": "flight",
-      "from": "Indianapolis",
-      "to": "Detroit",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0156896, from Indianapolis to Detroit, Departure Time: 18:40, Arrival Time: 19:45"
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $22.40"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $15.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Valparaiso",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0184233, from Charlotte to Valparaiso, Departure Time: 13:10, Arrival Time: 14:01"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Valparaiso, Duration: 836.4466666666667 mins, Distance: 1151.8786 km, Estimated Cost: $57.59"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Valparaiso, Duration: 836.4466666666667 mins, Distance: 1151.8786 km, Estimated Cost: $1151.88"
     }
   ]
 }

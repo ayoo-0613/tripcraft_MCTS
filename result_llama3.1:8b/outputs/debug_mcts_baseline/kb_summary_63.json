@@ -2,89 +2,120 @@
   "idx": 63,
   "stages": [
     {
-      "city": "Sacramento",
+      "city": "Memphis",
       "counts": {
-        "attractions": 20,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 1
       }
     },
     {
-      "city": "Santa Rosa",
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 4
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "Sacramento",
-      "date": "2024-11-24",
+      "from": "Albany",
+      "to": "Memphis",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tucson",
-      "to": "Sacramento",
+      "from": "Albany",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Tucson to Sacramento, Duration: 938.9416666666667 mins, Distance: 1395.5384 km, Estimated Cost: $69.78"
+      "raw": "Self-driving, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $96.44"
     },
     {
       "mode": "taxi",
-      "from": "Tucson",
-      "to": "Sacramento",
+      "from": "Albany",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Tucson to Sacramento, Duration: 938.9416666666667 mins, Distance: 1395.5384 km, Estimated Cost: $1395.54"
+      "raw": "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83"
     },
     {
       "mode": "flight",
-      "from": "Sacramento",
-      "to": "Santa Rosa",
-      "date": "2024-11-26",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sacramento",
-      "to": "Santa Rosa",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $7.60"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Sacramento",
-      "to": "Santa Rosa",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $151.94"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
     },
     {
       "mode": "flight",
-      "from": "Santa Rosa",
-      "to": "Tucson",
-      "date": "2024-11-28",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Rosa",
-      "to": "Tucson",
+      "from": "Nashville",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Santa Rosa to Tucson, Duration: 995.8616666666666 mins, Distance: 1466.2021000000002 km, Estimated Cost: $73.31"
+      "raw": "Self-driving, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $10.57"
     },
     {
       "mode": "taxi",
-      "from": "Santa Rosa",
-      "to": "Tucson",
+      "from": "Nashville",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Santa Rosa to Tucson, Duration: 995.8616666666666 mins, Distance: 1466.2021000000002 km, Estimated Cost: $1466.20"
+      "raw": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Albany, Duration: 1060.5766666666666 mins, Distance: 1508.2908 km, Estimated Cost: $75.41"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Albany, Duration: 1060.5766666666666 mins, Distance: 1508.2908 km, Estimated Cost: $1508.29"
     }
   ]
 }

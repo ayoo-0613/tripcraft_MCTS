@@ -2,58 +2,120 @@
   "idx": 97,
   "stages": [
     {
-      "city": "Martha's Vineyard",
+      "city": "San Antonio",
       "counts": {
-        "attractions": 12,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 67,
+        "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Martha's Vineyard",
-      "date": "2024-11-22",
+      "from": "Burbank",
+      "to": "San Antonio",
+      "date": "2024-11-02",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Martha's Vineyard",
+      "from": "Burbank",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Martha's Vineyard, Duration: 1122.7316666666666 mins, Distance: 1420.8183999999999 km, Estimated Cost: $71.04"
+      "raw": "Self-driving, from Burbank to San Antonio, Duration: 1393.095 mins, Distance: 2192.8455 km, Estimated Cost: $109.64"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Martha's Vineyard",
+      "from": "Burbank",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Charlotte to Martha's Vineyard, Duration: 1122.7316666666666 mins, Distance: 1420.8183999999999 km, Estimated Cost: $1420.82"
+      "raw": "Taxi, from Burbank to San Antonio, Duration: 1393.095 mins, Distance: 2192.8455 km, Estimated Cost: $2192.85"
     },
     {
       "mode": "flight",
-      "from": "Martha's Vineyard",
-      "to": "Charlotte",
-      "date": "2024-11-24",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0037957, from San Antonio to Houston, Departure Time: 07:06, Arrival Time: 08:16"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0467289, from Houston to Amarillo, Departure Time: 10:08, Arrival Time: 12:08"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Burbank",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Martha's Vineyard",
-      "to": "Charlotte",
+      "from": "Amarillo",
+      "to": "Burbank",
       "date": null,
-      "raw": "Self-driving, from Martha's Vineyard to Charlotte, Duration: 1122.375 mins, Distance: 1427.2972 km, Estimated Cost: $71.36"
+      "raw": "Self-driving, from Amarillo to Burbank, Duration: 1111.6766666666667 mins, Distance: 1730.193 km, Estimated Cost: $86.51"
     },
     {
       "mode": "taxi",
-      "from": "Martha's Vineyard",
-      "to": "Charlotte",
+      "from": "Amarillo",
+      "to": "Burbank",
       "date": null,
-      "raw": "Taxi, from Martha's Vineyard to Charlotte, Duration: 1122.375 mins, Distance: 1427.2972 km, Estimated Cost: $1427.30"
+      "raw": "Taxi, from Amarillo to Burbank, Duration: 1111.6766666666667 mins, Distance: 1730.193 km, Estimated Cost: $1730.19"
     }
   ]
 }

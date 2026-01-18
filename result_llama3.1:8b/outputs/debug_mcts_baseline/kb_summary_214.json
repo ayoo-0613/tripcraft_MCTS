@@ -2,58 +2,120 @@
   "idx": 214,
   "stages": [
     {
-      "city": "Houston",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 6
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Cleveland",
-      "to": "Houston",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0108700, from Cleveland to Houston, Departure Time: 12:54, Arrival Time: 15:04"
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0153294, from Detroit to Cedar Rapids, Departure Time: 15:49, Arrival Time: 16:25"
     },
     {
       "mode": "self-driving",
-      "from": "Cleveland",
-      "to": "Houston",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $104.32"
+      "raw": "Self-driving, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $41.25"
     },
     {
       "mode": "taxi",
-      "from": "Cleveland",
-      "to": "Houston",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47"
+      "raw": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09"
     },
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Cleveland",
-      "date": "2024-11-28",
-      "raw": "Flight Number: F0107429, from Houston to Cleveland, Departure Time: 07:38, Arrival Time: 11:20"
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-07",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Cleveland",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Cleveland",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $9.45"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $53.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99"
     }
   ]
 }

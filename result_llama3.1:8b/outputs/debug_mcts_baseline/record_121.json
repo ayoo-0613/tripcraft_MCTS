@@ -1,65 +1,117 @@
 {
   "idx": 121,
   "JSON": {
-    "org": "Ontario",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Houston",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
       "2024-11-11",
       "2024-11-12",
       "2024-11-13"
     ],
-    "people_number": 6,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": "private room",
       "event": null,
       "attraction": null,
-      "transportation": null
+      "transportation": "no flight"
     },
-    "budget": 15750.0,
-    "query": "Plan a 3-day trip for 6 people from Ontario to New York from November 11th to November 13th, 2024, with a budget of $15,750. Accommodations should include a private room.",
+    "budget": 10350.0,
+    "query": "Plan a 7-day trip for 2 people traveling from Houston to explore 3 cities in Tennessee between November 7th and November 13th, 2024. The budget is $10,350, and accommodations should include a private room. Transportation should exclude flights.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Ontario to New York",
-      "transportation": "Flight Number: F0278767, from Ontario to New York, Departure Time: 01:01, Arrival Time: 08:45",
-      "breakfast": "Blue Smoke Battery Park City, New York",
-      "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
-      "lunch": "Lillie's Victorian Establishment, New York",
-      "dinner": "Sylvia's Restaurant, New York",
-      "accommodation": "Church view bedroom in Harlem brownstone, New York",
+      "current_city": "from Houston to Nashville",
+      "transportation": "Taxi, from Houston to Nashville, Duration: 857.39 mins, Distance: 1252.7872 km, Estimated Cost: $1252.79",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "Dave's Place, Nashville",
       "event": "-",
-      "point_of_interest_list": "Church view bedroom in Harlem brownstone, stay from 08:00 to 09:00, nearest transit: FREDERICK DOUGLASS BLVD/W 138 ST, 79.67m away; Church view bedroom in Harlem brownstone, stay from 09:15 to 10:15, nearest transit: FREDERICK DOUGLASS BLVD/W 138 ST, 79.67m away; Blue Smoke Battery Park City, visit from 09:25 to 10:16, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:57, nearest transit: E 42 ST/MADISON AV, 28.59m away; Lillie's Victorian Establishment, visit from 13:57 to 14:56, nearest transit: 8 AV/W 49 ST, 40.41m away; New York Public Library, visit from 16:30 to 18:57, nearest transit: 5 AV/W 42 ST, 34.90m away; Sylvia's Restaurant, visit from 19:51 to 21:00, nearest transit: MALCOLM X BLVD/W 127 ST, 40.45m away; Church view bedroom in Harlem brownstone, stay from 22:15 to 08:00, nearest transit: FREDERICK DOUGLASS BLVD/W 138 ST, 79.67m away."
+      "point_of_interest_list": "Dave's Place, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; Ole Red, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; Dave's Place, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "Westway Diner, New York",
-      "attraction": "Staten Island Ferry, New York; Manhattan Skyline, New York",
-      "lunch": "Times Square Diner, New York",
-      "dinner": "RH Rooftop Restaurant New York, New York",
-      "accommodation": "Lamartine Chelsea 1B, New York",
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "Dave's Place, Nashville",
       "event": "-",
-      "point_of_interest_list": "Lamartine Chelsea 1B, stay from 08:00 to 09:00, nearest transit: 8 AV/W 31 ST, 59.30m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; Staten Island Ferry, visit from 11:30 to 12:27, nearest transit: SOUTH ST/WHITEHALL ST, 62.29m away; Times Square Diner, visit from 13:57 to 14:56, nearest transit: W 49 ST/8 AV, 51.46m away; Manhattan Skyline, visit from 16:30 to 18:57, nearest transit: EAST BROADWAY/FORSYTH ST, 67.74m away; RH Rooftop Restaurant New York, visit from 19:51 to 21:00, nearest transit: 9 AV/W 13 ST, 56.34m away; Lamartine Chelsea 1B, stay from 22:15 to 08:00, nearest transit: 8 AV/W 31 ST, 59.30m away."
+      "point_of_interest_list": "Dave's Place, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; Dave's Place, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Ontario",
-      "transportation": "Flight Number: F0282875, from New York to Ontario, Departure Time: 18:47, Arrival Time: 22:10",
-      "breakfast": "Nobu Fifty Seven, New York",
-      "attraction": "Grand Central Terminal, New York; Rockefeller Center, New York",
-      "lunch": "Carmine's, New York",
-      "dinner": "-",
+      "current_city": "from Nashville to Chattanooga",
+      "transportation": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "dinner": "Uncle Larry's Restaurant, Chattanooga",
+      "accommodation": "Wren’s nest on the ridge, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Dave's Place, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Uncle Larry's Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; Wren’s nest on the ridge, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Community Pie, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
+      "dinner": "St. John's Restaurant, Chattanooga",
+      "accommodation": "Wren’s nest on the ridge, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Wren’s nest on the ridge, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away; Community Pie, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; HiFi Clyde's Chattanooga, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; St. John's Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Market & King1, 25.22m away; Wren’s nest on the ridge, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Memphis",
+      "transportation": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26",
+      "breakfast": "Payne's Bar-B-Que, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Central BBQ, Memphis",
+      "dinner": "Blues City Cafe, Memphis",
+      "accommodation": "Modern Midtown Pad (Queen real bed), Memphis",
+      "event": "-",
+      "point_of_interest_list": "Wren’s nest on the ridge, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Central BBQ, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 21.42m away; Modern Midtown Pad (Queen real bed), traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: CLEVELAND@LARKIN, 87.75m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Corky's Ribs & BBQ, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Modern Midtown Pad (Queen real bed), Memphis",
+      "event": "-",
+      "point_of_interest_list": "Modern Midtown Pad (Queen real bed), traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: CLEVELAND@LARKIN, 87.75m away; Majestic Grille, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Beale Street, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: POPLAR@PELHAM DR, 43.73m away; Cozy Corner, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Modern Midtown Pad (Queen real bed), traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: CLEVELAND@LARKIN, 87.75m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Memphis to Houston",
+      "transportation": "Taxi, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $912.37",
+      "breakfast": "The Soul Fish Cafe Inc, Memphis",
+      "attraction": "Stax Museum of American Soul Music, Memphis",
+      "lunch": "B.B. King's Blues Club, Memphis",
+      "dinner": "Itta Bena, Memphis",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Lamartine Chelsea 1B, stay from 08:00 to 09:00, nearest transit: 8 AV/W 31 ST, 59.30m away; Nobu Fifty Seven, visit from 09:25 to 10:16, nearest transit: W 57 ST/AVENUE OF THE AMERICAS, 57.03m away; Grand Central Terminal, visit from 11:30 to 13:57, nearest transit: E 42 ST / PARK AV, 75.20m away; Carmine's, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 61.95m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away."
+      "point_of_interest_list": "Modern Midtown Pad (Queen real bed), traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: CLEVELAND@LARKIN, 87.75m away; The Soul Fish Cafe Inc, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: COOPER@NELSON AVE, 47.14m away; Stax Museum of American Soul Music, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: MCLEMORE@COLLEGE, 36.06m away; B.B. King's Blues Club, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SECOND@BEALE, 48.27m away; Itta Bena, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 52.19m away."
     }
   ]
 }

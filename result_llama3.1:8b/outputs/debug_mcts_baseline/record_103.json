@@ -1,65 +1,117 @@
 {
   "idx": 103,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Anchorage",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Atlanta",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-21",
-      "2024-11-22",
-      "2024-11-23"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "visitors",
+      "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "entire home",
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 6600.0,
-    "query": "Plan a 3-day trip for 3 people from Las Vegas to Anchorage from November 21st to November 23rd, 2024, with a budget of $6,600. Accommodations should allow visitors as per the house rules.",
+    "budget": 9750.0,
+    "query": "Design a 7-day travel itinerary for 1 person departing from Atlanta to visit 3 cities in California from November 2nd to November 8th, 2024. The budget is $9,750, and accommodations should consist of an entire home.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Anchorage",
-      "transportation": "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage",
-      "breakfast": "Spenard Roadhouse, Anchorage",
-      "attraction": "Anchorage Museum, Anchorage",
-      "lunch": "Gwennies Old Alaska Restaurant, Anchorage",
-      "dinner": "Humpy's Great Alaskan Alehouse, Anchorage",
-      "accommodation": "Relax! You're at the Cabin, Anchorage",
+      "current_city": "from Atlanta to Los Angeles",
+      "transportation": "Taxi, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles; The Broad, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Relax! You're at the Cabin, stay from 08:00 to 09:00, nearest transit: SPENARD & BARBARA WNW, 66.94m away; Spenard Roadhouse, visit from 09:25 to 10:16, nearest transit: NORTHERN LIGHTS & COPE WNW, 30.92m away; Anchorage Museum, visit from 11:30 to 15:20, nearest transit: 6TH AVENUE & C STREET ESE, 48.52m away; Gwennies Old Alaska Restaurant, visit from 13:57 to 14:56, nearest transit: SPENARD & BARBARA WNW, 33.20m away; Humpy's Great Alaskan Alehouse, visit from 19:51 to 21:00, nearest transit: CITY HALL, 43.82m away; Relax! You're at the Cabin, stay from 22:15 to 08:00, nearest transit: SPENARD & BARBARA WNW, 66.94m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Katsuya, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Hollywood Walk of Fame, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:57, nearest transit: Hollywood & Vine St., 17.12m away; Au Lac Dtla, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Broad, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; The Palm - L.A. Downtown, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Anchorage to Anchorage",
-      "transportation": "Transfer, from Anchorage to Anchorage",
-      "breakfast": "Ray's Place, Anchorage",
-      "attraction": "Alaska Cruise Transportation - ACT, Anchorage",
-      "lunch": "Kaladi Brothers Coffee, Anchorage",
-      "dinner": "Kincaid Grill and Wine Bar, Anchorage",
-      "accommodation": "Relax! You're at the Cabin, Anchorage",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Leo & Lily, Los Angeles",
+      "attraction": "Petersen Automotive Museum, Los Angeles; Walt Disney Concert Hall, Los Angeles",
+      "lunch": "71Above Restaurant and Skylounge, Los Angeles",
+      "dinner": "Patina Restaurant, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Relax! You're at the Cabin, stay from 08:00 to 09:00, nearest transit: SPENARD & BARBARA WNW, 66.94m away; Ray's Place, visit from 09:25 to 10:16, nearest transit: SPENARD & FIREWEED NNW, 62.81m away; Alaska Cruise Transportation - ACT, visit from 11:30 to 15:20, nearest transit: CITY HALL, 85.74m away; Kaladi Brothers Coffee, visit from 13:57 to 14:56, nearest transit: I STREET & 13TH AVENUE NNE, 67.68m away; Kincaid Grill and Wine Bar, visit from 19:51 to 21:00, nearest transit: JEWEL LAKE & RASPBERRY NNE, 76.87m away; Relax! You're at the Cabin, stay from 22:15 to 08:00, nearest transit: SPENARD & BARBARA WNW, 66.94m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Leo & Lily, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Petersen Automotive Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:57, nearest transit: Wilshire Blvd & Fairfax (Westbound), 78.51m away; 71Above Restaurant and Skylounge, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Flower St & 4th St, 55.68m away; Walt Disney Concert Hall, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:42, nearest transit: Hope St & 1st St (Northbound), 80.77m away; Patina Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Grand Ave & 2nd St, 62.65m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 3,
-      "current_city": "from Anchorage to Las Vegas",
-      "transportation": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
-      "breakfast": "Crow's Nest, Anchorage",
-      "attraction": "Anchorage City Trolley Tours, Anchorage",
-      "lunch": "Pho Lena, Anchorage",
-      "dinner": "Jens' Restaurant, Anchorage",
+      "current_city": "from Los Angeles to San Francisco",
+      "transportation": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco; Oracle Park, San Francisco",
+      "lunch": "Hog Island Oyster Co., San Francisco",
+      "dinner": "Morton's The Steakhouse, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 03:47 to 04:47, nearest transit: Sunset & Bronson Ave., 51.96m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; John's Grill, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Oracle Park, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: 4th @ Library (Caltrain), 474.04m away; Morton's The Steakhouse, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Scala's Bistro, San Francisco",
+      "attraction": "Exploratorium, San Francisco; Cable Car Museum, San Francisco",
+      "lunch": "Sears Fine Foods, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Exploratorium, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 1042.01m away; Sears Fine Foods, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Cable Car Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Powell @ 22 4th, 1145.41m away; Waterbar, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Francisco to Sacramento",
+      "transportation": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Yue Huang Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Yue Huang Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: TRUXEL RD & GATEWAY PARK BLVD (NB), 34.28m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Localis, Sacramento",
+      "attraction": "William Land Park, Sacramento; Tower Bridge, Sacramento",
+      "lunch": "Grange Restaurant & Bar, Sacramento",
+      "dinner": "Bangkok @12 Thai Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "event": "-",
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Localis, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 21ST ST & R ST (NB), 35.88m away; William Land Park, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:12, nearest transit: SUTTERVILLE RD & MEAD AVE (WB), 11.46m away; Grange Restaurant & Bar, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: J ST & 10TH ST (EB), 36.29m away; Tower Bridge, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: L ST & 4TH ST (WB), 26.39m away; Bangkok @12 Thai Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 12th & I Station (SB), 37.03m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Sacramento to Atlanta",
+      "transportation": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Relax! You're at the Cabin, stay from 08:00 to 09:00, nearest transit: SPENARD & BARBARA WNW, 66.94m away; Crow's Nest, visit from 09:25 to 10:16, nearest transit: 5TH AVENUE & H STREET WNW, 77.31m away; Anchorage City Trolley Tours, visit from 11:30 to 14:35, nearest transit: 5TH AVENUE & F STREET WNW, 89.17m away; Pho Lena, visit from 13:57 to 14:56, nearest transit: SPENARD & 33RD AVENUE NNW, 83.42m away; Jens' Restaurant, visit from 19:51 to 21:00, nearest transit: ARCTIC & 34TH AVENUE SSW, 85.08m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 05:26 to 06:26, nearest transit: Q ST & 5TH ST (EB), 9.45m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     }
   ]
 }

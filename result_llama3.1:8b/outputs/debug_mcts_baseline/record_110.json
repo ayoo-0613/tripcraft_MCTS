@@ -1,65 +1,117 @@
 {
   "idx": 110,
   "JSON": {
-    "org": "Denver",
-    "dest": "Savannah",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-18",
-      "2024-11-19",
-      "2024-11-20"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "parties",
       "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 2100.0,
-    "query": "Plan a 3-day trip for 1 person from Denver to Savannah from November 18th to November 20th, 2024, with a budget of $2,100.",
-    "level": "easy"
+    "budget": 5100.0,
+    "query": "Plan a 7-day trip for 1 person starting from Lynchburg and visiting 3 cities in North Carolina between November 1st and November 7th, 2024. The budget is $5,100. Ensure that accommodations follow house rules prohibiting parties.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Savannah",
-      "transportation": "Taxi, from Denver to Savannah, Not feasible to drive from Denver to Savannah",
-      "breakfast": "The Collins Quarter, Savannah",
-      "attraction": "American Prohibition Museum, Savannah",
-      "lunch": "The Grey, Savannah",
-      "dinner": "Mrs. Wilkes Dining Room, Savannah",
-      "accommodation": "Room w/Office by Free DOT shuttle! By Forsyth, Savannah",
+      "current_city": "from Lynchburg to Wilmington",
+      "transportation": "Taxi, from Lynchburg to Wilmington, Duration: 337.2 mins, Distance: 448.7858 km, Estimated Cost: $448.79",
+      "breakfast": "Circa 1922, Wilmington",
+      "attraction": "Wilmington Railroad Museum, Wilmington",
+      "lunch": "Savorez, Wilmington",
+      "dinner": "PinPoint Restaurant, Wilmington",
+      "accommodation": "Beautiful one bedroom steps to downtown riverwalk, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Room w/Office by Free DOT shuttle! By Forsyth, stay from 08:00 to 09:00, nearest transit: HENRY & HABERSHAM WB, 18.71m away; The Collins Quarter, visit from 09:25 to 10:16, nearest transit: OGLETHORPE & BULL WB, 18.61m away; American Prohibition Museum, visit from 11:30 to 15:20, nearest transit: CONGRESS & JEFFERSON, 26.96m away; The Grey, visit from 13:57 to 14:56, nearest transit: COURT HOUSE, 32.45m away; Mrs. Wilkes Dining Room, visit from 19:51 to 21:00, nearest transit: WHITAKER & JONES SB, 37.05m away; Room w/Office by Free DOT shuttle! By Forsyth, stay from 22:15 to 08:00, nearest transit: HENRY & HABERSHAM WB, 18.71m away."
+      "point_of_interest_list": "Beautiful one bedroom steps to downtown riverwalk, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 3rd St NB at Nun St, 40.85m away; Circa 1922, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Front St SB at Market St, 33.43m away; Wilmington Railroad Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Nutt St SB at Wilmington Railroad Museum, 46.05m away; Savorez, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 4th St SB at Chestnut St, 39.22m away; PinPoint Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Front St NB at Market St, 42.83m away; Beautiful one bedroom steps to downtown riverwalk, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 3rd St NB at Nun St, 40.85m away."
     },
     {
       "days": 2,
-      "current_city": "from Savannah to Savannah",
-      "transportation": "Transfer, from Savannah to Savannah",
-      "breakfast": "Goose Feathers Cafe & Bakery, Savannah",
-      "attraction": "City Market, Savannah",
-      "lunch": "1540 Room, Savannah",
-      "dinner": "Common Restaurant, Savannah",
-      "accommodation": "Room w/Office by Free DOT shuttle! By Forsyth, Savannah",
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "The Dixie Grill, Wilmington",
+      "attraction": "Historic District, Wilmington",
+      "lunch": "Front Street Brewery, Wilmington",
+      "dinner": "Kilwins Ice Cream -  Chocolate - Fudge, Wilmington",
+      "accommodation": "Beautiful one bedroom steps to downtown riverwalk, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Room w/Office by Free DOT shuttle! By Forsyth, stay from 08:00 to 09:00, nearest transit: HENRY & HABERSHAM WB, 18.71m away; Goose Feathers Cafe & Bakery, visit from 09:25 to 10:16, nearest transit: CONGRESS & JEFFERSON, 51.14m away; City Market, visit from 11:30 to 14:35, nearest transit: CONGRESS & JEFFERSON, 51.55m away; 1540 Room, visit from 13:57 to 14:56, nearest transit: DRAYTON & LIBERTY, 61.97m away; Common Restaurant, visit from 19:51 to 21:00, nearest transit: DRAYTON & BROUGHTON, 62.61m away; Room w/Office by Free DOT shuttle! By Forsyth, stay from 22:15 to 08:00, nearest transit: HENRY & HABERSHAM WB, 18.71m away."
+      "point_of_interest_list": "Beautiful one bedroom steps to downtown riverwalk, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 3rd St NB at Nun St, 40.85m away; The Dixie Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Front St NB at Market St, 42.84m away; Historic District, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Front St SB at Market St, 47.80m away; Front Street Brewery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Front St SB at Market St, 43.35m away; Kilwins Ice Cream -  Chocolate - Fudge, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Ice Cream - Chocolate - Fudge Front St SB at Market St, 48.84m away; Beautiful one bedroom steps to downtown riverwalk, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 3rd St NB at Nun St, 40.85m away."
     },
     {
       "days": 3,
-      "current_city": "from Savannah to Denver",
-      "transportation": "Flight Number: F0456839, from Savannah to Denver, Departure Time: 15:51, Arrival Time: 17:51",
-      "breakfast": "Bella Napoli Italian Bistro, Savannah",
-      "attraction": "Cathedral of St. John the Baptist, Savannah",
-      "lunch": "-",
+      "current_city": "from Wilmington to Greensboro",
+      "transportation": "Transfer, from Wilmington to Greensboro",
+      "breakfast": "B. Christopher's, Greensboro",
+      "attraction": "International Civil Rights Center & Museum, Greensboro",
+      "lunch": "The Sage Mule, Greensboro",
+      "dinner": "Dames Chicken & Waffles, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
+      "event": "-",
+      "point_of_interest_list": "Beautiful one bedroom steps to downtown riverwalk, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 3rd St NB at Nun St, 40.85m away; B. Christopher's, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Elm/Friendly (Northbound), 22.34m away; International Civil Rights Center & Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: International Civil Rights Museum, 3.98m away; The Sage Mule, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Battleground/Wharton St, 22.50m away; Dames Chicken & Waffles, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Gorrell/MLK, 24.89m away; Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Hops Burger Bar, Greensboro",
+      "attraction": "Ambleside Gallery, Greensboro",
+      "lunch": "1618 West Seafood Grill, Greensboro",
+      "dinner": "Mimi's Cafe, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Hops Burger Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Spring Garden/Howard (IB), 34.51m away; Ambleside Gallery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: Elm/Lewis, 35.43m away; 1618 West Seafood Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: West Friendly/Radiance Dr (OB), 39.88m away; Mimi's Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: West Friendly/Mimi's Restaurant, 40.77m away; Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0216117, from Greensboro to Charlotte, Departure Time: 06:55, Arrival Time: 08:26",
+      "breakfast": "Midwood Smokehouse, Charlotte",
+      "attraction": "Levine Museum of the New South, Charlotte",
+      "lunch": "Cabo Fish Taco Baja Seagrill, Charlotte",
+      "dinner": "Mert's Heart and Soul, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 05:25 to 06:25, nearest transit: Glendale/Allen Middle School, 40.68m away; Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Midwood Smokehouse, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Central Ave & Clement Ave, 40.68m away; Levine Museum of the New South, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Tryon St & 2nd St, 38.18m away; Cabo Fish Taco Baja Seagrill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Davidson & 35th, 57.25m away; Mert's Heart and Soul, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: College St & 6th St, 64.34m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "The Fig Tree Restaurant, Charlotte",
+      "attraction": "Discovery Place Science, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Rooster's Wood-Fired Kitchen - Uptown, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; The Fig Tree Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 7th St & Armory Dr, 103.61m away; Discovery Place Science, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Church St & 6th St, 53.42m away; The Capital Grille, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; Rooster's Wood-Fired Kitchen - Uptown, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Trade St & College St, 139.39m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Flight Number: F0234002, from Charlotte to Lynchburg, Departure Time: 20:28, Arrival Time: 21:21",
+      "breakfast": "Pinky's Westside Grill, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "Mac's Speed Shop, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Room w/Office by Free DOT shuttle! By Forsyth, stay from 08:00 to 09:00, nearest transit: HENRY & HABERSHAM WB, 18.71m away; Bella Napoli Italian Bistro, visit from 09:25 to 10:16, nearest transit: DRAYTON & BROUGHTON, 69.34m away; Cathedral of St. John the Baptist, visit from 11:30 to 15:20, nearest transit: ABERCORN & MACON NB, 73.72m away."
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Pinky's Westside Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Morehead St & Grandin Rd, 166.98m away; Spectrum Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; Mac's Speed Shop, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: New Bern Station, 544.51m away."
     }
   ]
 }

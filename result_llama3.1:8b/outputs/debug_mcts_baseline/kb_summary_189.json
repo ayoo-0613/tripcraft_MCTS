@@ -2,11 +2,31 @@
   "idx": 189,
   "stages": [
     {
-      "city": "Charleston",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
+        "poi2transit": 75,
+        "events": 30
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Charleston",
-      "date": "2024-11-16",
-      "raw": "Flight Number: F0327993, from Detroit to Charleston, Departure Time: 10:13, Arrival Time: 11:59"
+      "from": "Oklahoma City",
+      "to": "Greensboro",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Charleston",
+      "from": "Oklahoma City",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $68.39"
+      "raw": "Self-driving, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $92.45"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Charleston",
+      "from": "Oklahoma City",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88"
+      "raw": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96"
     },
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Detroit",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0331807, from Charleston to Detroit, Departure Time: 05:45, Arrival Time: 07:43"
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Detroit",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Charleston to Detroit, Duration: 973.1650000000001 mins, Distance: 1366.5701000000001 km, Estimated Cost: $68.33"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Detroit",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Charleston to Detroit, Duration: 973.1650000000001 mins, Distance: 1366.5701000000001 km, Estimated Cost: $1366.57"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $15.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Oklahoma City",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Oklahoma City, Duration: 1194.2333333333333 mins, Distance: 1762.3656 km, Estimated Cost: $88.12"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Oklahoma City, Duration: 1194.2333333333333 mins, Distance: 1762.3656 km, Estimated Cost: $1762.37"
     }
   ]
 }

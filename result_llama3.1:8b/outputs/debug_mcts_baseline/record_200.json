@@ -1,65 +1,117 @@
 {
   "idx": 200,
   "JSON": {
-    "org": "Des Moines",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Detroit",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-10",
-      "2024-11-11",
-      "2024-11-12"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 7,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "pets",
+      "house rule": null,
       "cuisine": null,
-      "room type": "private room",
-      "transportation": "no self-driving",
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": "Shopping"
     },
-    "budget": 8550.0,
-    "query": "Plan a 3-day trip for 7 people traveling from Des Moines to New York from November 10th to November 12th, 2024. The budget is $8,550. Accommodations should include a private room and allow pets. Transportation should not involve self-driving.",
-    "level": "hard"
+    "budget": 10800.0,
+    "query": "Design a 7-day travel itinerary for 1 person departing from Detroit to visit 3 cities in California from November 1st to November 7th, 2024. The budget is $10,800. The plan should include shopping as a key attraction.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Des Moines to New York",
-      "transportation": "Taxi, from Des Moines to New York, Duration: 1241.2866666666666 mins, Distance: 1792.9765 km, Estimated Cost: $1792.98",
-      "breakfast": "Blue Smoke Battery Park City, New York",
-      "attraction": "SUMMIT One Vanderbilt, New York",
-      "lunch": "Lillie's Victorian Establishment, New York",
-      "dinner": "Sylvia's Restaurant, New York",
-      "accommodation": "Standard Queen Room in Small Hotel, New York",
+      "current_city": "from Detroit to Los Angeles",
+      "transportation": "Taxi, from Detroit to Los Angeles, Not feasible to drive from Detroit to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "The Grove, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Standard Queen Room in Small Hotel, stay from 08:00 to 09:00, nearest transit: MADISON AV/E 129 ST, 97.09m away; Blue Smoke Battery Park City, visit from 09:25 to 10:16, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, visit from 11:30 to 15:20, nearest transit: E 42 ST/MADISON AV, 28.59m away; Lillie's Victorian Establishment, visit from 13:57 to 14:56, nearest transit: 8 AV/W 49 ST, 40.41m away; Sylvia's Restaurant, visit from 19:51 to 21:00, nearest transit: MALCOLM X BLVD/W 127 ST, 40.45m away; Standard Queen Room in Small Hotel, stay from 22:15 to 08:00, nearest transit: MADISON AV/E 129 ST, 97.09m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Katsuya, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; The Grove, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 13:50, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; Au Lac Dtla, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Palm - L.A. Downtown, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "Westway Diner, New York",
-      "attraction": "New York Public Library, New York",
-      "lunch": "Times Square Diner, New York",
-      "dinner": "RH Rooftop Restaurant New York, New York",
-      "accommodation": "East Village, Private room with access to garden, New York",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Leo & Lily, Los Angeles",
+      "attraction": "Citadel Outlets, Los Angeles",
+      "lunch": "71Above Restaurant and Skylounge, Los Angeles",
+      "dinner": "Patina Restaurant, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; New York Public Library, visit from 11:30 to 15:20, nearest transit: 5 AV/W 42 ST, 34.90m away; Times Square Diner, visit from 13:57 to 14:56, nearest transit: W 49 ST/8 AV, 51.46m away; RH Rooftop Restaurant New York, visit from 19:51 to 21:00, nearest transit: 9 AV/W 13 ST, 56.34m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Leo & Lily, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Citadel Outlets, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 13:50, nearest transit: Herbert Ave & Whittier Blvd (4354), 3385.72m away; 71Above Restaurant and Skylounge, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Flower St & 4th St, 55.68m away; Patina Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Grand Ave & 2nd St, 62.65m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Des Moines",
-      "transportation": "Transfer, from New York to Des Moines",
-      "breakfast": "Nobu Fifty Seven, New York",
-      "attraction": "Staten Island Ferry, New York",
-      "lunch": "Carmine's, New York",
-      "dinner": "Bstro 38, New York",
+      "current_city": "from Los Angeles to San Francisco",
+      "transportation": "Flight Number: F0033146, from Los Angeles to San Francisco, Departure Time: 05:49, Arrival Time: 06:56",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco",
+      "lunch": "Hog Island Oyster Co., San Francisco",
+      "dinner": "Morton's The Steakhouse, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 04:19 to 05:19, nearest transit: Sunset & Bronson Ave., 51.96m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; John's Grill, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Morton's The Steakhouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Scala's Bistro, San Francisco",
+      "attraction": "Exploratorium, San Francisco",
+      "lunch": "Sears Fine Foods, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Exploratorium, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 1042.01m away; Sears Fine Foods, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Waterbar, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Francisco to San Diego",
+      "transportation": "Flight Number: F0060811, from San Francisco to San Diego, Departure Time: 21:52, Arrival Time: 23:09",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Point Loma, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Point Loma, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; Casa Guadalajara, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Diego to Detroit",
+      "transportation": "Flight Number: F0319508, from San Diego to Detroit, Departure Time: 22:17, Arrival Time: 05:41",
+      "breakfast": "Mister A'S, San Diego",
+      "attraction": "Old Town San Diego, San Diego",
+      "lunch": "Ironside Fish & Oyster, San Diego",
+      "dinner": "Din Tai Fung, San Diego",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Nobu Fifty Seven, visit from 09:25 to 10:16, nearest transit: W 57 ST/AVENUE OF THE AMERICAS, 57.03m away; Staten Island Ferry, visit from 11:30 to 13:50, nearest transit: SOUTH ST/WHITEHALL ST, 62.29m away; Carmine's, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 61.95m away; Bstro 38, visit from 19:51 to 21:00, nearest transit: 6 AV/W 38 ST, 72.55m away."
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Mister A'S, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 5th Av & Laurel St, 52.04m away; Old Town San Diego, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Juan St & Mason St, 127.04m away; Ironside Fish & Oyster, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: India St & Cedar St, 57.08m away; Din Tai Fung, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: La Jolla Village Dr & Genesee Av, 68.36m away."
     }
   ]
 }

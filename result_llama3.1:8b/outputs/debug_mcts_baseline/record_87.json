@@ -1,91 +1,117 @@
 {
   "idx": 87,
   "JSON": {
-    "org": "Greensboro",
-    "dest": "Florida",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Detroit",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-02",
-      "2024-11-03",
       "2024-11-04",
       "2024-11-05",
-      "2024-11-06"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": "no flight"
+      "attraction": null
     },
-    "budget": 4350.0,
-    "query": "Plan a 5-day trip for 2 people traveling from Greensboro to explore 2 cities in Florida between November 2nd and November 6th, 2024. The budget is $4,350, and the trip should avoid flights as a mode of transportation.",
-    "level": "medium"
+    "budget": 7950.0,
+    "query": "Plan a 7-day trip for 1 person from Detroit to explore 3 cities in Iowa between November 4th and November 10th, 2024, with a budget of $7,950.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Greensboro to Key West",
-      "transportation": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81",
-      "breakfast": "Seven Fish, Key West",
-      "attraction": "Mel Fisher Maritime Heritage Museum, Key West",
-      "lunch": "Prime Steakhouse, Key West",
-      "dinner": "Santiago's Bodega, Key West",
-      "accommodation": "The Key West Sailboat, Key West",
+      "current_city": "from Detroit to Cedar Rapids",
+      "transportation": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09",
+      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
+      "attraction": "Bever Park, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "El Bajio, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "The Key West Sailboat, stay from 08:00 to 09:00, nearest transit: Caroline & Grinnell, 130.30m away; Seven Fish, visit from 09:25 to 10:16, nearest transit: Truman & Grinnell, 19.45m away; Mel Fisher Maritime Heritage Museum, visit from 11:30 to 15:20, nearest transit: Whitehead & Greene St., 27.37m away; Prime Steakhouse, visit from 13:57 to 14:56, nearest transit: Caroline & Grinnell, 4.21m away; Santiago's Bodega, visit from 19:51 to 21:00, nearest transit: Emma & Petronia, 27.03m away; The Key West Sailboat, stay from 22:15 to 08:00, nearest transit: Caroline & Grinnell, 130.30m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Parlor City Pub & Eatery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; Bever Park, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 16:00, nearest transit: Memorial Dr & Bever Ave, 31.27m away; The Breakfast House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Key West to Key West",
-      "transportation": "Transfer, from Key West to Key West",
-      "breakfast": "Onlywood Grill, Key West",
-      "attraction": "Key West Lighthouse and Keeper's Quarters Museum, Key West",
-      "lunch": "Key West Cuban Coffee Shop, Key West",
-      "dinner": "La Trattoria Oceanside, Key West",
-      "accommodation": "Bella Vita: 1B/1B Condo for 2 Just Steps off Duval, Key West",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "The History Center, Cedar Rapids",
+      "lunch": "Lucky's on 16th, Cedar Rapids",
+      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Bella Vita: 1B/1B Condo for 2 Just Steps off Duval, stay from 08:00 to 09:00, nearest transit: Amelia & Whitehead, 41.81m away; Onlywood Grill, visit from 09:25 to 10:16, nearest transit: Caroline & William, 28.22m away; Key West Lighthouse and Keeper's Quarters Museum, visit from 11:30 to 15:20, nearest transit: Whitehead & Truman, 55.84m away; Key West Cuban Coffee Shop, visit from 13:57 to 14:56, nearest transit: Truman & Simonton, 47.45m away; La Trattoria Oceanside, visit from 19:51 to 21:00, nearest transit: S Roosevelt - Hyatt, 66.99m away; Bella Vita: 1B/1B Condo for 2 Just Steps off Duval, stay from 22:15 to 08:00, nearest transit: Amelia & Whitehead, 41.81m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; The History Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; Lucky's on 16th, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Key West to Gainesville",
-      "transportation": "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18",
-      "breakfast": "Mark's Prime Steakhouse, Gainesville",
-      "attraction": "Depot Park, Gainesville",
-      "lunch": "Bonefish Grill, Gainesville",
-      "dinner": "Blue Gill, Gainesville",
-      "accommodation": "The room #1 near UF campus is a cozy place to stay, Gainesville",
+      "current_city": "from Cedar Rapids to Mason City",
+      "transportation": "Transfer, from Cedar Rapids to Mason City",
+      "breakfast": "Pancheros Mexican Grill - Mason City, Mason City",
+      "attraction": "Fat Hill Brewing, Mason City",
+      "lunch": "RibCrib BBQ, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
       "event": "-",
-      "point_of_interest_list": "Bella Vita: 1B/1B Condo for 2 Just Steps off Duval, stay from 08:00 to 09:00, nearest transit: Amelia & Whitehead, 41.81m away; Mark's Prime Steakhouse, visit from 09:25 to 10:16, nearest transit: Hippodrome Theatre, 16.15m away; Depot Park, visit from 11:30 to 16:50, nearest transit: Rosa Parks RTS Downtown Station, 34.55m away; Bonefish Grill, visit from 13:57 to 14:56, nearest transit: Bonefish Grill Seafood Restaurant @ Butler Plaza, 17.00m away; Blue Gill, visit from 19:51 to 21:00, nearest transit: Southbound SW 13th ST @ SW 13th AVE, 19.68m away; The room #1 near UF campus is a cozy place to stay, stay from 22:15 to 08:00, nearest transit: University Commons Apartments, 71.27m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Pancheros Mexican Grill - Mason City, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Frontage Rd. SW and Briarstone Dr. (Perkins), 77.65m away; Fat Hill Brewing, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: Central Park, 46.90m away; RibCrib BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 106.13m away; The Quarry, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
     },
     {
       "days": 4,
-      "current_city": "from Gainesville to Gainesville",
-      "transportation": "Transfer, from Gainesville to Gainesville",
-      "breakfast": "Dragonfly Sushi & Sake Co Incorporated, Gainesville",
-      "attraction": "Samuel P. Harn Museum of Art, Gainesville",
-      "lunch": "Metro Diner, Gainesville",
-      "dinner": "V Pizza & Sidecar - Gainesville, Gainesville",
-      "accommodation": "The room #1 near UF campus is a cozy place to stay, Gainesville",
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "China Buffet, Mason City",
+      "attraction": "Target Store Mason-City, Mason City",
+      "lunch": "Prime N Wine, Mason City",
+      "dinner": "Wok and Roll, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
       "event": "-",
-      "point_of_interest_list": "The room #1 near UF campus is a cozy place to stay, stay from 08:00 to 09:00, nearest transit: University Commons Apartments, 71.27m away; Dragonfly Sushi & Sake Co Incorporated, visit from 09:25 to 10:16, nearest transit: Hippodrome Theatre, 22.20m away; Samuel P. Harn Museum of Art, visit from 11:30 to 15:20, nearest transit: Harn Museum, 56.17m away; Metro Diner, visit from 13:57 to 14:56, nearest transit: 34th Street Plaza, 38.33m away; V Pizza & Sidecar - Gainesville, visit from 19:51 to 21:00, nearest transit: Hampton Inn Hotel, 39.24m away; The room #1 near UF campus is a cozy place to stay, stay from 22:15 to 08:00, nearest transit: University Commons Apartments, 71.27m away."
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; China Buffet, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; Target Store Mason-City, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:50, nearest transit: Target Super Center, 54.68m away; Prime N Wine, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 128.03m away; Wok and Roll, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: S Delaware Ave. and 2nd St. SW, 132.04m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
     },
     {
       "days": 5,
-      "current_city": "from Gainesville to Greensboro",
-      "transportation": "Transfer, from Gainesville to Greensboro",
-      "breakfast": "Northwest Grille, Gainesville",
-      "attraction": "Stephen C. O'Connell Center, Gainesville",
-      "lunch": "Mojo Hogtown Bar-B-Que, Gainesville",
-      "dinner": "-",
+      "current_city": "from Mason City to Fort Dodge",
+      "transportation": "Flight Number: F0484091, from Mason City to Fort Dodge, Departure Time: 16:00, Arrival Time: 16:35",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Taco Tico, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; Taco Tico, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Larita's Cakes 'N More, Fort Dodge",
+      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Sneakers Eatry and Pub, Fort Dodge",
+      "dinner": "Village Inn, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 2nd Ave N and N 19th St, 57.76m away; The Fort Museum & Frontier Village, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Central Ave and S 13th St, 60.64m away; Village Inn, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Fort Dodge to Detroit",
+      "transportation": "Transfer, from Fort Dodge to Detroit",
+      "breakfast": "Sports Page, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Tea Thyme & Thyme to Shop, Fort Dodge",
+      "dinner": "Olde Boston's Restaurant & Pub, Fort Dodge",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The room #1 near UF campus is a cozy place to stay, stay from 08:00 to 09:00, nearest transit: University Commons Apartments, 71.27m away; Northwest Grille, visit from 09:25 to 10:16, nearest transit: NW Grille Seafood, 41.68m away; Stephen C. O'Connell Center, visit from 11:30 to 15:20, nearest transit: O'Connell Center @ Stadium Road, 116.24m away; Mojo Hogtown Bar-B-Que, visit from 13:57 to 14:56, nearest transit: Hampton Inn Hotel, 58.97m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Sports Page, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Evergreen Estates, 68.77m away; Studio Fusion, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Tea Thyme & Thyme to Shop, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 6th Ave S and S 21st St, 84.15m away; Olde Boston's Restaurant & Pub, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Trolley Center, 85.16m away."
     }
   ]
 }

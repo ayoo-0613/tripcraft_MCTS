@@ -2,19 +2,29 @@
   "idx": 47,
   "stages": [
     {
-      "city": "Greensboro",
+      "city": "San Diego",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 18,
         "poi2transit": 75,
-        "events": 27
+        "events": 3
       }
     },
     {
-      "city": "Charlotte",
+      "city": "Sacramento",
       "counts": {
         "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Lynchburg",
-      "to": "Greensboro",
-      "date": "2024-11-02",
-      "raw": "-"
+      "from": "Boston",
+      "to": "San Diego",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0240430, from Boston to San Diego, Departure Time: 18:00, Arrival Time: 21:09"
     },
     {
       "mode": "self-driving",
-      "from": "Lynchburg",
-      "to": "Greensboro",
+      "from": "Boston",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
+      "raw": "Self-driving, from Boston to San Diego, Not feasible to drive from Boston to San Diego"
     },
     {
       "mode": "taxi",
-      "from": "Lynchburg",
-      "to": "Greensboro",
+      "from": "Boston",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
+      "raw": "Taxi, from Boston to San Diego, Not feasible to drive from Boston to San Diego"
     },
     {
       "mode": "flight",
-      "from": "Greensboro",
-      "to": "Charlotte",
-      "date": "2024-11-04",
-      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
+      "from": "San Diego",
+      "to": "Sacramento",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0034345, from San Diego to Sacramento, Departure Time: 12:53, Arrival Time: 14:16"
     },
     {
       "mode": "self-driving",
-      "from": "Greensboro",
-      "to": "Charlotte",
+      "from": "San Diego",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
+      "raw": "Self-driving, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $40.53"
     },
     {
       "mode": "taxi",
-      "from": "Greensboro",
-      "to": "Charlotte",
+      "from": "San Diego",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+      "raw": "Taxi, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $810.62"
     },
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Lynchburg",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+      "from": "Sacramento",
+      "to": "San Francisco",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0455772, from Sacramento to San Francisco, Departure Time: 10:09, Arrival Time: 10:52"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Lynchburg",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+      "raw": "Self-driving, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $7.00"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Lynchburg",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
+      "raw": "Taxi, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $140.03"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Boston",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0279196, from San Francisco to Boston, Departure Time: 14:54, Arrival Time: 23:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Boston, Not feasible to drive from San Francisco to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Boston, Not feasible to drive from San Francisco to Boston"
     }
   ]
 }

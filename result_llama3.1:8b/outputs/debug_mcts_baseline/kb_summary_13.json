@@ -2,89 +2,120 @@
   "idx": 13,
   "stages": [
     {
-      "city": "Bloomington",
+      "city": "Wilmington",
       "counts": {
-        "attractions": 16,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 71,
-        "events": 4
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 3
       }
     },
     {
-      "city": "Champaign",
+      "city": "Greensboro",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "Charlotte",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 10
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Tampa",
-      "to": "Bloomington",
+      "from": "Lynchburg",
+      "to": "Wilmington",
       "date": "2024-11-01",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Bloomington",
+      "from": "Lynchburg",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $88.47"
+      "raw": "Self-driving, from Lynchburg to Wilmington, Duration: 337.2 mins, Distance: 448.7858 km, Estimated Cost: $22.44"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Bloomington",
+      "from": "Lynchburg",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $1769.41"
+      "raw": "Taxi, from Lynchburg to Wilmington, Duration: 337.2 mins, Distance: 448.7858 km, Estimated Cost: $448.79"
     },
     {
       "mode": "flight",
-      "from": "Bloomington",
-      "to": "Champaign",
+      "from": "Wilmington",
+      "to": "Greensboro",
       "date": "2024-11-03",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Bloomington",
-      "to": "Champaign",
+      "from": "Wilmington",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $4.08"
+      "raw": "Self-driving, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $16.79"
     },
     {
       "mode": "taxi",
-      "from": "Bloomington",
-      "to": "Champaign",
+      "from": "Wilmington",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
+      "raw": "Taxi, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $335.80"
     },
     {
       "mode": "flight",
-      "from": "Champaign",
-      "to": "Tampa",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": "2024-11-05",
-      "raw": "-"
+      "raw": "Flight Number: F0216117, from Greensboro to Charlotte, Departure Time: 06:55, Arrival Time: 08:26"
     },
     {
       "mode": "self-driving",
-      "from": "Champaign",
-      "to": "Tampa",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Champaign to Tampa, Duration: 1179.0233333333333 mins, Distance: 1731.6657 km, Estimated Cost: $86.58"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Champaign",
-      "to": "Tampa",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Champaign to Tampa, Duration: 1179.0233333333333 mins, Distance: 1731.6657 km, Estimated Cost: $1731.67"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0234002, from Charlotte to Lynchburg, Departure Time: 20:28, Arrival Time: 21:21"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

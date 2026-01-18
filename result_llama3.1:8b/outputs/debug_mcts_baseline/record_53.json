@@ -1,91 +1,125 @@
 {
   "idx": 53,
   "JSON": {
-    "org": "Helena",
-    "dest": "Colorado",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
-      "2024-11-02",
-      "2024-11-03",
-      "2024-11-04",
-      "2024-11-05"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 6,
+    "people_number": 7,
     "local_constraint": {
-      "house rule": "pets",
-      "cuisine": "Cafe",
+      "house rule": "children under 10",
+      "cuisine": [
+        "American",
+        "French",
+        "Italian",
+        "Mexican"
+      ],
       "room type": null,
-      "event": null,
-      "attraction": null,
-      "transportation": null
+      "transportation": null,
+      "event": [
+        "Music",
+        "Sports"
+      ],
+      "attraction": null
     },
-    "budget": 12750.0,
-    "query": "Design a 5-day travel itinerary for 6 people starting from Helena and visiting 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $12,750. Accommodations should allow pets, and dining options should include cafes.",
+    "budget": 23100.0,
+    "query": "Design a 7-day travel itinerary for 7 people departing from Dallas to explore 3 cities in Tennessee from November 6th to November 12th, 2024. The budget is $23,100. The plan should consider house rules that accommodate children under 10, and include dining options with American, French, Italian, and Mexican cuisines. Additionally, incorporate music and sports events into the itinerary.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Helena to Colorado Springs",
-      "transportation": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08",
-      "breakfast": "Mountain Shadows Restaurant, Colorado Springs",
-      "attraction": "Penrose Heritage Museum, Colorado Springs",
-      "lunch": "Paravicini's Italian Bistro, Colorado Springs",
-      "dinner": "Uchenna, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
-      "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Mountain Shadows Restaurant, visit from 09:25 to 10:16, nearest transit: Colorado/23rd, 76.10m away; Penrose Heritage Museum, visit from 11:30 to 15:20, nearest transit: Broadmoor Hotel, 45.08m away; Paravicini's Italian Bistro, visit from 13:57 to 14:56, nearest transit: Colorado/28th, 25.37m away; Uchenna, visit from 19:51 to 21:00, nearest transit: Colorado/25th, 42.42m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "current_city": "from Dallas to Memphis",
+      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "breakfast": "The Soul Fish Cafe Inc, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Payne's Bar-B-Que, Memphis",
+      "dinner": "Central BBQ, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "St. Louis Blues v Utah Hockey Club, Memphis",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; The Soul Fish Cafe Inc, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: COOPER@NELSON AVE, 47.14m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Central BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Urban Egg A Daytime Eatery, Colorado Springs",
-      "attraction": "Old Colorado City Historic District, Colorado Springs",
-      "lunch": "Carlos Bistro, Colorado Springs",
-      "dinner": "Pizzeria Rustica, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Blues City Cafe, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Majestic Grille, Memphis",
+      "dinner": "Corky's Ribs & BBQ, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Urban Egg A Daytime Eatery, visit from 09:25 to 10:16, nearest transit: Cascade/Colorado, 107.38m away; Old Colorado City Historic District, visit from 11:30 to 14:50, nearest transit: Cascade/Colorado, 63.31m away; Carlos Bistro, visit from 13:57 to 14:56, nearest transit: 21st/Broadway, 62.57m away; Pizzeria Rustica, visit from 19:51 to 21:00, nearest transit: Colorado/25th, 64.93m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SECOND@BEALE, 21.42m away; Beale Street, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Majestic Grille, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: POPLAR@PELHAM DR, 43.73m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Colorado Springs to Durango",
-      "transportation": "Transfer, from Colorado Springs to Durango",
-      "breakfast": "Diamond Belle Saloon, Durango",
-      "attraction": "Roll Ebike & Paddle Board, Durango",
-      "lunch": "Chimayo Stone Fired Kitchen, Durango",
-      "dinner": "Michel's Corner Crepes, Durango",
-      "accommodation": "Sleek, Modern Studio in the heart of downtown., Durango",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "La Cabriole, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Diamond Belle Saloon, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 25.56m away; Roll Ebike & Paddle Board, visit from 11:30 to 15:50, nearest transit: Buckley Park, 34.63m away; Chimayo Stone Fired Kitchen, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 28.28m away; Michel's Corner Crepes, visit from 19:51 to 21:00, nearest transit: College Dr. & Main Ave., 31.39m away; Sleek, Modern Studio in the heart of downtown., stay from 22:15 to 08:00, nearest transit: Main Ave. & 11th St., 56.06m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Community Pie, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; La Cabriole, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: BOYNTON + M.L. KING, 2725.31m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 4,
-      "current_city": "from Durango to Durango",
-      "transportation": "Transfer, from Durango to Durango",
-      "breakfast": "Eolus Bar & Dining, Durango",
-      "attraction": "Historic Downtown Durango, Durango",
-      "lunch": "Derailed Pour House, Durango",
-      "dinner": "Fired Up Pizzeria, Durango",
-      "accommodation": "Sleek, Modern Studio in the heart of downtown., Durango",
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "Molcajete Mexican Restaurant, Chattanooga",
+      "dinner": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Sleek, Modern Studio in the heart of downtown., stay from 08:00 to 09:00, nearest transit: Main Ave. & 11th St., 56.06m away; Eolus Bar & Dining, visit from 09:25 to 10:16, nearest transit: Main Ave. & 9th St., 33.46m away; Historic Downtown Durango, visit from 11:30 to 15:20, nearest transit: Main Ave. & 9th St., 40.87m away; Derailed Pour House, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 38.31m away; Fired Up Pizzeria, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 47.57m away; Sleek, Modern Studio in the heart of downtown., stay from 22:15 to 08:00, nearest transit: Main Ave. & 11th St., 56.06m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Alleia, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; Molcajete Mexican Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: LEE HWY + PERIMETER, 282.66m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: BROAD + 4TH, 19.08m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 5,
-      "current_city": "from Durango to Helena",
-      "transportation": "Transfer, from Durango to Helena",
-      "breakfast": "Durango Doughworks, Durango",
-      "attraction": "Four Leaves Winery, Durango",
-      "lunch": "Bread, Durango",
-      "dinner": "Mahogany Grille, Durango",
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Ole Red, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0039984, from Nashville to Dallas, Departure Time: 19:57, Arrival Time: 21:45",
+      "breakfast": "Miranda Lambert's Casa Rosa, Nashville",
+      "attraction": "Ryman Auditorium, Nashville",
+      "lunch": "The Stillery, Nashville",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Sleek, Modern Studio in the heart of downtown., stay from 08:00 to 09:00, nearest transit: Main Ave. & 11th St., 56.06m away; Durango Doughworks, visit from 09:25 to 10:16, nearest transit: Main Ave. & 27th St., 48.37m away; Four Leaves Winery, visit from 11:30 to 15:00, nearest transit: College Dr. & Main Ave., 80.37m away; Bread, visit from 13:57 to 14:56, nearest transit: Ptarmigan Center, 50.35m away; Mahogany Grille, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 51.51m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Miranda Lambert's Casa Rosa, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; Ryman Auditorium, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; The Stillery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away."
     }
   ]
 }

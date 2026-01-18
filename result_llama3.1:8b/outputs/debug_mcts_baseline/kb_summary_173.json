@@ -2,58 +2,120 @@
   "idx": 173,
   "stages": [
     {
-      "city": "Anchorage",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 17,
+        "attractions": 7,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 72,
-        "events": 1
+        "poi2transit": 63,
+        "events": 7
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 2
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 23
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Anchorage",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F1527139, from Las Vegas to Anchorage, Departure Time: 19:34, Arrival Time: 23:45"
+      "from": "Chicago",
+      "to": "Fort Dodge",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0465696, from Chicago to Fort Dodge, Departure Time: 07:43, Arrival Time: 09:10"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Anchorage",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage"
+      "raw": "Self-driving, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $29.64"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Anchorage",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage"
+      "raw": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
     },
     {
       "mode": "flight",
-      "from": "Anchorage",
-      "to": "Las Vegas",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03"
+      "from": "Fort Dodge",
+      "to": "Mason City",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0499201, from Fort Dodge to Mason City, Departure Time: 09:55, Arrival Time: 10:26"
     },
     {
       "mode": "self-driving",
-      "from": "Anchorage",
-      "to": "Las Vegas",
+      "from": "Fort Dodge",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Anchorage to Las Vegas, Not feasible to drive from Anchorage to Las Vegas"
+      "raw": "Self-driving, from Fort Dodge to Mason City, Duration: 112.92666666666668 mins, Distance: 155.0488 km, Estimated Cost: $7.75"
     },
     {
       "mode": "taxi",
-      "from": "Anchorage",
-      "to": "Las Vegas",
+      "from": "Fort Dodge",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Anchorage to Las Vegas, Not feasible to drive from Anchorage to Las Vegas"
+      "raw": "Taxi, from Fort Dodge to Mason City, Duration: 112.92666666666668 mins, Distance: 155.0488 km, Estimated Cost: $155.05"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $16.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $332.01"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Chicago",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0485063, from Sioux City to Chicago, Departure Time: 07:42, Arrival Time: 09:00"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $38.56"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $771.24"
     }
   ]
 }

@@ -2,7 +2,17 @@
   "idx": 273,
   "stages": [
     {
-      "city": "Baltimore",
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
@@ -10,50 +20,102 @@
         "poi2transit": 75,
         "events": 0
       }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
+      }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Louisville",
-      "to": "Baltimore",
-      "date": "2024-11-27",
-      "raw": "Flight Number: F0025942, from Louisville to Baltimore, Departure Time: 18:57, Arrival Time: 20:17"
+      "from": "Oklahoma City",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35"
     },
     {
       "mode": "self-driving",
-      "from": "Louisville",
-      "to": "Baltimore",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Louisville to Baltimore, Duration: 674.3633333333333 mins, Distance: 978.7724000000001 km, Estimated Cost: $48.94"
+      "raw": "Self-driving, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $35.69"
     },
     {
       "mode": "taxi",
-      "from": "Louisville",
-      "to": "Baltimore",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Louisville to Baltimore, Duration: 674.3633333333333 mins, Distance: 978.7724000000001 km, Estimated Cost: $978.77"
+      "raw": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
     },
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Louisville",
-      "date": "2024-11-29",
-      "raw": "Flight Number: F0030669, from Baltimore to Louisville, Departure Time: 08:07, Arrival Time: 09:41"
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Louisville",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Louisville, Duration: 672.4366666666666 mins, Distance: 981.785 km, Estimated Cost: $49.09"
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Louisville",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Baltimore to Louisville, Duration: 672.4366666666666 mins, Distance: 981.785 km, Estimated Cost: $981.78"
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

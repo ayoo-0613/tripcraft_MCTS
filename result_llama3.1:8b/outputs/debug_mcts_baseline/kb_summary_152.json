@@ -2,58 +2,120 @@
   "idx": 152,
   "stages": [
     {
-      "city": "Sacramento",
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 1
+      }
+    },
+    {
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 4
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Washington",
-      "to": "Sacramento",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0548136, from Washington to Sacramento, Departure Time: 17:44, Arrival Time: 20:33"
+      "from": "Albany",
+      "to": "Memphis",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Washington",
-      "to": "Sacramento",
+      "from": "Albany",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Washington to Sacramento, Not feasible to drive from Washington to Sacramento"
+      "raw": "Self-driving, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $96.44"
     },
     {
       "mode": "taxi",
-      "from": "Washington",
-      "to": "Sacramento",
+      "from": "Albany",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Washington to Sacramento, Not feasible to drive from Washington to Sacramento"
+      "raw": "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83"
     },
     {
       "mode": "flight",
-      "from": "Sacramento",
-      "to": "Washington",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0536351, from Sacramento to Washington, Departure Time: 22:40, Arrival Time: 06:22"
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sacramento",
-      "to": "Washington",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Sacramento to Washington, Not feasible to drive from Sacramento to Washington"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Sacramento",
-      "to": "Washington",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Sacramento to Washington, Not feasible to drive from Sacramento to Washington"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $10.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Albany, Duration: 1060.5766666666666 mins, Distance: 1508.2908 km, Estimated Cost: $75.41"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Albany",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Albany, Duration: 1060.5766666666666 mins, Distance: 1508.2908 km, Estimated Cost: $1508.29"
     }
   ]
 }

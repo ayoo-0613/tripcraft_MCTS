@@ -1,91 +1,120 @@
 {
   "idx": 77,
   "JSON": {
-    "org": "Asheville",
-    "dest": "Texas",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Key West",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-02",
-      "2024-11-03",
-      "2024-11-04",
-      "2024-11-05",
-      "2024-11-06"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": "entire home",
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": [
+        "Shopping",
+        "Concerts & Shows"
+      ]
     },
-    "budget": 7650.0,
-    "query": "Plan a 5-day trip for 3 people traveling from Asheville to explore 2 cities in Texas between November 2nd and November 6th, 2024. The budget is $7,650, and accommodations should include an entire home.",
+    "budget": 6800.0,
+    "query": "Plan a 7-day trip for 1 person from Key West to explore 3 cities in Tennessee, from November 7th to November 13th, 2024. The budget is $6,800. Include activities such as shopping and attending concerts or shows.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Asheville to Beaumont",
-      "transportation": "Taxi, from Asheville to Beaumont, Duration: 1022.5166666666667 mins, Distance: 1455.8277 km, Estimated Cost: $1455.83",
-      "breakfast": "Beaumont's, Beaumont",
-      "attraction": "Gator Country, Beaumont",
-      "lunch": "Beaumont Hotel Cafe And Restaurant, Beaumont",
-      "dinner": "Maina's Donair, Beaumont",
-      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "current_city": "from Key West to Chattanooga",
+      "transportation": "Taxi, from Key West to Chattanooga, Duration: 1087.585 mins, Distance: 1509.5618 km, Estimated Cost: $1509.56",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "dinner": "Uncle Larry's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Beaumont's, visit from 09:25 to 10:16, nearest transit: Seneca Springs and Lynn Avenue, 125038.02m away; Gator Country, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2171070.69m away; Beaumont Hotel Cafe And Restaurant, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 1874483.80m away; Maina's Donair, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161082.60m away; Elegant Home with Backyard Paradise - Sleeps 8., stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Mayan Kitchen, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Moon Pie General Store, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:28, nearest transit: Broad & Jack's Alley, 46.95m away; Maple Street Biscuit Company - City Center, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Uncle Larry's Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 2,
-      "current_city": "from Beaumont to Beaumont",
-      "transportation": "Transfer, from Beaumont to Beaumont",
-      "breakfast": "Chartier, Beaumont",
-      "attraction": "John Jay French House Museum, Beaumont",
-      "lunch": "Saigon Delights, Beaumont",
-      "dinner": "Wild Wing Beaumont, Beaumont",
-      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Community Pie, Chattanooga",
+      "attraction": "-",
+      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
+      "dinner": "St. John's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Chartier, visit from 09:25 to 10:16, nearest transit: San Bernardino Transit Center, 2161104.33m away; John Jay French House Museum, visit from 11:30 to 15:20, nearest transit: Casino Morongo, 2177099.24m away; Saigon Delights, visit from 13:57 to 14:56, nearest transit: San Bernardino Transit Center, 2161845.42m away; Wild Wing Beaumont, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161925.08m away; Elegant Home with Backyard Paradise - Sleeps 8., stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Community Pie, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; HiFi Clyde's Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; St. John's Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Market & King1, 25.22m away; New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 3,
-      "current_city": "from Beaumont to San Antonio",
-      "transportation": "Transfer, from Beaumont to San Antonio",
-      "breakfast": "Biga on the Banks, San Antonio",
-      "attraction": "San Fernando De Bexar Cathedral, San Antonio",
-      "lunch": "Domingo Restaurant, San Antonio",
-      "dinner": "Bliss, San Antonio",
-      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Ryman Auditorium, Nashville; Grand Ole Opry, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
       "event": "-",
-      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Biga on the Banks, visit from 09:25 to 10:16, nearest transit: ST MARYS BET. MARKET & VILLITA, 27.33m away; San Fernando De Bexar Cathedral, visit from 11:30 to 15:20, nearest transit: DOLOROSA & S. MAIN, 54.92m away; Domingo Restaurant, visit from 13:57 to 14:56, nearest transit: ST. MARY'S & COMMERCE, 28.70m away; Bliss, visit from 19:51 to 21:00, nearest transit: S. PRESA OPPOSITE SADIE, 41.72m away; Southtown Retama | Riverwalk 6min | Walkscore 81, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Ole Red, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Ryman Auditorium, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:42, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; Pelato, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Grand Ole Opry, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 16:30 to 18:27, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 377.07m away; Gannons Nashville, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
     },
     {
       "days": 4,
-      "current_city": "from San Antonio to San Antonio",
-      "transportation": "Transfer, from San Antonio to San Antonio",
-      "breakfast": "La Fonda on Main, San Antonio",
-      "attraction": "San Antonio River Walk, San Antonio",
-      "lunch": "Iron Cactus Mexican Grill and Margarita Bar, San Antonio",
-      "dinner": "Battalion, San Antonio",
-      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "-",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
       "event": "-",
-      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; La Fonda on Main, visit from 09:25 to 10:16, nearest transit: WOODLAWN & MAIN, 42.96m away; San Antonio River Walk, visit from 11:30 to 15:20, nearest transit: COMMERCE & PRESA, 74.71m away; Iron Cactus Mexican Grill and Margarita Bar, visit from 13:57 to 14:56, nearest transit: ST. MARY'S & COMMERCE, 52.12m away; Battalion, visit from 19:51 to 21:00, nearest transit: S ALAMO OPPOSITE REFUGIO & LAVACA, 55.78m away; Southtown Retama | Riverwalk 6min | Walkscore 81, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; Deacon’s New South, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
     },
     {
       "days": 5,
-      "current_city": "from San Antonio to Asheville",
-      "transportation": "Transfer, from San Antonio to Asheville",
-      "breakfast": "Boudro's Texas Bistro, San Antonio",
-      "attraction": "Majestic & Empire Theatres, San Antonio",
-      "lunch": "Bubba Gump Shrimp Co., San Antonio",
-      "dinner": "Pinkerton's Barbecue, San Antonio",
+      "current_city": "from Nashville to Memphis",
+      "transportation": "Transfer, from Nashville to Memphis",
+      "breakfast": "Payne's Bar-B-Que, Memphis",
+      "attraction": "Bass Pro Shops at the Pyramid, Memphis",
+      "lunch": "Central BBQ, Memphis",
+      "dinner": "Blues City Cafe, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Payne's Bar-B-Que, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Bass Pro Shops at the Pyramid, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 12:43, nearest transit: BASS PRO SHOPS, 166.10m away; Central BBQ, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Blues City Cafe, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 21.42m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "-",
+      "lunch": "Corky's Ribs & BBQ, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Majestic Grille, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Corky's Ribs & BBQ, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: POPLAR@PELHAM DR, 43.73m away; Cozy Corner, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Memphis to Key West",
+      "transportation": "Transfer, from Memphis to Key West",
+      "breakfast": "The Soul Fish Cafe Inc, Memphis",
+      "attraction": "-",
+      "lunch": "B.B. King's Blues Club, Memphis",
+      "dinner": "Itta Bena, Memphis",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; Boudro's Texas Bistro, visit from 09:25 to 10:16, nearest transit: COMMERCE & PRESA, 59.28m away; Majestic & Empire Theatres, visit from 11:30 to 14:50, nearest transit: NAVARRO & HOUSTON, 92.95m away; Bubba Gump Shrimp Co., visit from 13:57 to 14:56, nearest transit: NAVARRO & CROCKETT, 59.61m away; Pinkerton's Barbecue, visit from 19:51 to 21:00, nearest transit: FLORES & HOUSTON, 60.01m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; The Soul Fish Cafe Inc, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: COOPER@NELSON AVE, 47.14m away; B.B. King's Blues Club, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SECOND@BEALE, 48.27m away; Itta Bena, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 52.19m away."
     }
   ]
 }

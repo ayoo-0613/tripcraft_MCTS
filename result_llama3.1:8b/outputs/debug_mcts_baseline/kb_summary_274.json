@@ -2,58 +2,120 @@
   "idx": 274,
   "stages": [
     {
-      "city": "Charlotte",
+      "city": "Houston",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Manchester",
-      "to": "Charlotte",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0437368, from Manchester to Charlotte, Departure Time: 07:03, Arrival Time: 09:58"
+      "from": "Oklahoma City",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35"
     },
     {
       "mode": "self-driving",
-      "from": "Manchester",
-      "to": "Charlotte",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Manchester to Charlotte, Not feasible to drive from Manchester to Charlotte"
+      "raw": "Self-driving, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $35.69"
     },
     {
       "mode": "taxi",
-      "from": "Manchester",
-      "to": "Charlotte",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Manchester to Charlotte, Not feasible to drive from Manchester to Charlotte"
+      "raw": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
     },
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Manchester",
-      "date": "2024-11-10",
-      "raw": "Flight Number: F0437456, from Charlotte to Manchester, Departure Time: 16:44, Arrival Time: 19:03"
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Manchester",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Manchester, Not feasible to drive from Charlotte to Manchester"
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Manchester",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Charlotte to Manchester, Not feasible to drive from Charlotte to Manchester"
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

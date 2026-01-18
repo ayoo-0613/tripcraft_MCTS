@@ -2,22 +2,32 @@
   "idx": 33,
   "stages": [
     {
-      "city": "Memphis",
+      "city": "San Francisco",
       "counts": {
-        "attractions": 15,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 70,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     },
     {
-      "city": "Chattanooga",
+      "city": "San Diego",
       "counts": {
-        "attractions": 14,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 69,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Memphis",
-      "date": "2024-11-10",
-      "raw": "-"
+      "from": "San Antonio",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0499607, from San Antonio to San Francisco, Departure Time: 07:19, Arrival Time: 09:15"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Memphis",
+      "from": "San Antonio",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Memphis, Duration: 1013.2483333333333 mins, Distance: 1472.705 km, Estimated Cost: $73.64"
+      "raw": "Self-driving, from San Antonio to San Francisco, Not feasible to drive from San Antonio to San Francisco"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Memphis",
+      "from": "San Antonio",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Baltimore to Memphis, Duration: 1013.2483333333333 mins, Distance: 1472.705 km, Estimated Cost: $1472.70"
+      "raw": "Taxi, from San Antonio to San Francisco, Not feasible to drive from San Antonio to San Francisco"
     },
     {
       "mode": "flight",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": "2024-11-12",
-      "raw": "-"
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0038043, from San Francisco to San Diego, Departure Time: 22:00, Arrival Time: 23:21"
     },
     {
       "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Chattanooga",
+      "from": "San Francisco",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
+      "raw": "Self-driving, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $40.31"
     },
     {
       "mode": "taxi",
-      "from": "Memphis",
-      "to": "Chattanooga",
+      "from": "San Francisco",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+      "raw": "Taxi, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $806.29"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Baltimore",
-      "date": "2024-11-14",
-      "raw": "-"
+      "from": "San Diego",
+      "to": "Los Angeles",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0496776, from San Diego to Los Angeles, Departure Time: 20:35, Arrival Time: 21:20"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Baltimore",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Baltimore, Duration: 710.385 mins, Distance: 1023.2961 km, Estimated Cost: $51.16"
+      "raw": "Self-driving, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $9.68"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Baltimore",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Baltimore, Duration: 710.385 mins, Distance: 1023.2961 km, Estimated Cost: $1023.30"
+      "raw": "Taxi, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $193.57"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0085391, from Los Angeles to San Antonio, Departure Time: 15:16, Arrival Time: 19:58"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Antonio, Duration: 1380.4666666666667 mins, Distance: 2178.5612 km, Estimated Cost: $108.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Antonio, Duration: 1380.4666666666667 mins, Distance: 2178.5612 km, Estimated Cost: $2178.56"
     }
   ]
 }

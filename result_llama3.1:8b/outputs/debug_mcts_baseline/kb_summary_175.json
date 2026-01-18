@@ -2,12 +2,32 @@
   "idx": 175,
   "stages": [
     {
-      "city": "Madison",
+      "city": "Nashville",
       "counts": {
-        "attractions": 11,
+        "attractions": 20,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 66,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Bristol",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Madison",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0234965, from Chicago to Madison, Departure Time: 10:26, Arrival Time: 11:30"
+      "from": "Atlanta",
+      "to": "Nashville",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0061317, from Atlanta to Nashville, Departure Time: 07:06, Arrival Time: 07:28"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Madison",
+      "from": "Atlanta",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Chicago to Madison, Duration: 181.94833333333332 mins, Distance: 243.6771 km, Estimated Cost: $12.18"
+      "raw": "Self-driving, from Atlanta to Nashville, Duration: 280.8833333333333 mins, Distance: 399.4139 km, Estimated Cost: $19.97"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Madison",
+      "from": "Atlanta",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Chicago to Madison, Duration: 181.94833333333332 mins, Distance: 243.6771 km, Estimated Cost: $243.68"
+      "raw": "Taxi, from Atlanta to Nashville, Duration: 280.8833333333333 mins, Distance: 399.4139 km, Estimated Cost: $399.41"
     },
     {
       "mode": "flight",
-      "from": "Madison",
-      "to": "Chicago",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0232511, from Madison to Chicago, Departure Time: 06:07, Arrival Time: 07:03"
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Madison",
-      "to": "Chicago",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Madison to Chicago, Duration: 171.81 mins, Distance: 237.14829999999998 km, Estimated Cost: $11.86"
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
     },
     {
       "mode": "taxi",
-      "from": "Madison",
-      "to": "Chicago",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Madison to Chicago, Duration: 171.81 mins, Distance: 237.14829999999998 km, Estimated Cost: $237.15"
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Bristol",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $40.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Taxi, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $805.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Atlanta",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0149643, from Bristol to Atlanta, Departure Time: 05:55, Arrival Time: 06:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bristol",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Bristol to Atlanta, Duration: 359.5466666666667 mins, Distance: 455.9858 km, Estimated Cost: $22.80"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bristol",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Bristol to Atlanta, Duration: 359.5466666666667 mins, Distance: 455.9858 km, Estimated Cost: $455.99"
     }
   ]
 }

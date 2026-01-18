@@ -1,68 +1,117 @@
 {
   "idx": 277,
   "JSON": {
-    "org": "Chicago",
-    "dest": "Lexington",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Nashville",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13",
+      "2024-11-14"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Indian",
-        "Italian"
-      ],
-      "room type": "entire home",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": "Shopping"
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 2 people from Chicago to Lexington from November 19th to November 21st, 2024, with a budget of $1,500. Accommodations should include an entire home, and dining options should feature Indian and Italian cuisines.",
+    "budget": 7950.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Nashville and visiting 3 cities in Iowa between November 8th and November 14th, 2024. The budget is $7,950. The plan should include shopping as a key attraction.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Lexington",
-      "transportation": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
-      "breakfast": "Pies & Pints, Lexington",
-      "attraction": "Lexington Visitors Center, Lexington",
-      "lunch": "Taj India Indian Restaurant, Lexington",
-      "dinner": "Distilled Restaurant & Bourbon Bar, Lexington",
-      "accommodation": "EmeraldShinobi Villa Plus, Lexington",
+      "current_city": "from Nashville to Cedar Rapids",
+      "transportation": "Taxi, from Nashville to Cedar Rapids, Duration: 671.4133333333334 mins, Distance: 950.9578 km, Estimated Cost: $950.96",
+      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
+      "attraction": "NewBo City Market, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "El Bajio, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "EmeraldShinobi Villa Plus, stay from 08:00 to 09:00, nearest transit: Sandersville @ 2977 Outbound, 86.91m away; Pies & Pints, visit from 09:25 to 10:16, nearest transit: North Broadway @ Main Inbound, 54.72m away; Lexington Visitors Center, visit from 11:30 to 13:20, nearest transit: West Main @ 269, 66.40m away; Taj India Indian Restaurant, visit from 13:57 to 14:56, nearest transit: Richmond @ Patchen, 98.84m away; Distilled Restaurant & Bourbon Bar, visit from 19:51 to 21:00, nearest transit: Jefferson @ Quin-Shearer Court, 27.14m away; EmeraldShinobi Villa Plus, stay from 22:15 to 08:00, nearest transit: Sandersville @ 2977 Outbound, 86.91m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Parlor City Pub & Eatery, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; NewBo City Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 12:43, nearest transit: 12th Ave & 3rd St, 65.27m away; The Breakfast House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Lexington to Lexington",
-      "transportation": "Transfer, from Lexington to Lexington",
-      "breakfast": "Bella Notte, Lexington",
-      "attraction": "Lexington Brewing & Distilling Co., Lexington",
-      "lunch": "Harry's American Bar & Grill, Lexington",
-      "dinner": "Malone's Hamburg, Lexington",
-      "accommodation": "Luxurious 1-bedroom with free parking on premise, Lexington",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "-",
+      "lunch": "Lucky's on 16th, Cedar Rapids",
+      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Luxurious 1-bedroom with free parking on premise, stay from 08:00 to 09:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away; Bella Notte, visit from 09:25 to 10:16, nearest transit: Nicholasville @ Mansion Apts, 73.14m away; Lexington Brewing & Distilling Co., visit from 11:30 to 15:05, nearest transit: Versailles @ Pine Inbound, 112.53m away; Harry's American Bar & Grill, visit from 13:57 to 14:56, nearest transit: Pleasant Ridge @ Malones, 27.84m away; Malone's Hamburg, visit from 19:51 to 21:00, nearest transit: Pleasant Ridge @ Malones, 34.39m away; Luxurious 1-bedroom with free parking on premise, stay from 22:15 to 08:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Lucky's on 16th, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Lexington to Chicago",
-      "transportation": "Transfer, from Lexington to Chicago",
-      "breakfast": "Zen Sushi & Sake, Lexington",
-      "attraction": "Thoroughbred Park, Lexington",
-      "lunch": "The Triangle Grille, Lexington",
-      "dinner": "-",
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "Transfer, from Cedar Rapids to Sioux City",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City; Palmer Candy, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Palmer's Olde Tyme Candy Shoppe, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 13:12, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; Miles Inn, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Palmer Candy, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 16:30 to 17:27, nearest transit: Floyd Blvd & 33rd St, 1226.11m away; Jitters, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "-",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; El Fredo Pizza, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to Mason City",
+      "transportation": "Transfer, from Sioux City to Mason City",
+      "breakfast": "Pancheros Mexican Grill - Mason City, Mason City",
+      "attraction": "Target Store Mason-City, Mason City; T.J.Maxx, Mason City",
+      "lunch": "RibCrib BBQ, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Pancheros Mexican Grill - Mason City, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Frontage Rd. SW and Briarstone Dr. (Perkins), 77.65m away; Target Store Mason-City, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 12:27, nearest transit: Target Super Center, 54.68m away; RibCrib BBQ, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 106.13m away; T.J.Maxx, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 16:30 to 17:27, nearest transit: Target Super Center, 147.38m away; The Quarry, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "China Buffet, Mason City",
+      "attraction": "Benish Studio - Art & Framing, Mason City",
+      "lunch": "Prime N Wine, Mason City",
+      "dinner": "Wok and Roll, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; China Buffet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; Benish Studio - Art & Framing, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 13:28, nearest transit: N Pennsylvania Ave. and 11th St. N, 268.06m away; Prime N Wine, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 128.03m away; Wok and Roll, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: S Delaware Ave. and 2nd St. SW, 132.04m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Mason City to Nashville",
+      "transportation": "Transfer, from Mason City to Nashville",
+      "breakfast": "Boulder Tap House - Mason City, Mason City",
+      "attraction": "-",
+      "lunch": "Thai Bistro, Mason City",
+      "dinner": "Birdsall's, Mason City",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Luxurious 1-bedroom with free parking on premise, stay from 08:00 to 09:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away; Zen Sushi & Sake, visit from 09:25 to 10:16, nearest transit: Beaumont Centre @ Beaumont Centre Circle, 44.94m away; Thoroughbred Park, visit from 11:30 to 16:50, nearest transit: Midland @ Short, 112.60m away; The Triangle Grille, visit from 13:57 to 14:56, nearest transit: North Broadway @ Main Inbound, 68.41m away."
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; Boulder Tap House - Mason City, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 138.63m away; Thai Bistro, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: S Delaware Ave. and 2nd St. SW, 142.71m away; Birdsall's, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Fareway, 155.13m away."
     }
   ]
 }

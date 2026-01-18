@@ -1,97 +1,117 @@
 {
   "idx": 62,
   "JSON": {
-    "org": "Chicago",
-    "dest": "Iowa",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-02",
-      "2024-11-03",
       "2024-11-04",
       "2024-11-05",
-      "2024-11-06"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
     "people_number": 2,
     "local_constraint": {
-      "house rule": "parties",
+      "house rule": null,
       "cuisine": null,
       "room type": "entire home",
-      "event": [
-        "Sports",
-        "Arts & Theatre"
-      ],
-      "attraction": [
-        "Museums",
-        "Fun & Games"
-      ],
+      "event": null,
+      "attraction": null,
       "transportation": null
     },
-    "budget": 4550.0,
-    "query": "Design a 5-day travel itinerary for 2 people departing from Chicago to visit 2 cities in Iowa from November 2nd to November 6th, 2024. The budget is $4,550. Accommodations should be an entire home and must adhere to house rules prohibiting parties. Include visits to museums and fun & games attractions, as well as events related to sports and arts & theatre.",
-    "level": "hard"
+    "budget": 10500.0,
+    "query": "Plan a 7-day trip for 2 people traveling from Dallas to explore 3 cities in Tennessee, from November 4th to November 10th, 2024. The budget is $10,500, and accommodations should include an entire home.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Cedar Rapids",
-      "transportation": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16",
-      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
-      "attraction": "The History Center, Cedar Rapids",
-      "lunch": "The Breakfast House, Cedar Rapids",
-      "dinner": "El Bajio, Cedar Rapids",
-      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
-      "event": "Dubuque Symphony Orchestra: Latin-American Inspiración, Cedar Rapids",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Parlor City Pub & Eatery, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; The History Center, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; The Breakfast House, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
-    },
-    {
-      "days": 2,
-      "current_city": "from Cedar Rapids to Cedar Rapids",
-      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
-      "breakfast": "Irish Democrat, Cedar Rapids",
-      "attraction": "Cedar Rapids Museum of Art, Cedar Rapids",
-      "lunch": "Lucky's on 16th, Cedar Rapids",
-      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
-      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
-      "event": "-",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Cedar Rapids Museum of Art, visit from 11:30 to 15:20, nearest transit: 3rd Ave & RR tracks, 50.82m away; Lucky's on 16th, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
-    },
-    {
-      "days": 3,
-      "current_city": "from Cedar Rapids to Sioux City",
-      "transportation": "Transfer, from Cedar Rapids to Sioux City",
-      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
-      "attraction": "Hard Rock Casino Sioux City, Sioux City",
-      "lunch": "Miles Inn, Sioux City",
-      "dinner": "Jitters, Sioux City",
-      "accommodation": "Bungalow, Sioux City",
-      "event": "-",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Da Kao Chinese & Vietnamese Cuisine, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Hard Rock Casino Sioux City, visit from 11:30 to 14:35, nearest transit: 3rd & Pearl St, 103.59m away; Miles Inn, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
-    },
-    {
-      "days": 4,
-      "current_city": "from Sioux City to Sioux City",
-      "transportation": "Transfer, from Sioux City to Sioux City",
-      "breakfast": "Diamond Thai Cuisine, Sioux City",
-      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City",
-      "lunch": "El Fredo Pizza, Sioux City",
-      "dinner": "Jerry's Pizza, Sioux City",
-      "accommodation": "Bungalow, Sioux City",
-      "event": "-",
-      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Diamond Thai Cuisine, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Palmer's Olde Tyme Candy Shoppe, visit from 11:30 to 14:35, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; El Fredo Pizza, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
-    },
-    {
-      "days": 5,
-      "current_city": "from Sioux City to Chicago",
-      "transportation": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12",
+      "current_city": "from Dallas to Bristol",
+      "transportation": "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
+      "dinner": "Blackbird Bakery, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 17:27 to 18:27, nearest transit: Downtown Transfer Center, 120.73m away; Blackbird Bakery, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Cumberland St & Waters Alley, 84.53m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Bristol Seafood Grill, Bristol",
+      "attraction": "Bristol Motor Speedway, Bristol; Clifton Suspension Bridge, Bristol",
+      "lunch": "Bristol Seafood Restaurant, Bristol",
+      "dinner": "Bristol Seafood + Steak + Social, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Bristol Seafood Grill, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Hard Rock Hotel Main Entrance, 761097.80m away; Bristol Motor Speedway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:57, nearest transit: Hard Rock Hotel Main Entrance, 9711.82m away; Bristol Seafood Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Hard Rock Hotel Main Entrance, 789410.12m away; Clifton Suspension Bridge, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: Home Depot, 6252045.82m away; Bristol Seafood + Steak + Social, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Hard Rock Hotel Main Entrance, 1121819.15m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Bristol to Chattanooga",
+      "transportation": "Transfer, from Bristol to Chattanooga",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga; Moon Pie General Store, Chattanooga",
+      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "dinner": "Uncle Larry's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Mayan Kitchen, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:27, nearest transit: MARKET + CHOO CHOO, 29.39m away; Maple Street Biscuit Company - City Center, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Moon Pie General Store, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 18:12, nearest transit: Broad & Jack's Alley, 46.95m away; Uncle Larry's Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Community Pie, Chattanooga",
+      "attraction": "Chattanooga Ghost Tours, Chattanooga; The Lookout Mountain Incline Railway, Chattanooga",
+      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
+      "dinner": "St. John's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Community Pie, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Chattanooga Ghost Tours, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:57, nearest transit: MARKET + 5TH, 59.20m away; HiFi Clyde's Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; The Lookout Mountain Incline Railway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: TENN AVE + INCLINE, 63.48m away; St. John's Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Market & King1, 25.22m away; New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville; The Johnny Cash Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Ole Red, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:57, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; The Johnny Cash Museum, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Gannons Nashville, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "Ryman Auditorium, Nashville; Belmont Mansion, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; Ryman Auditorium, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:42, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; Deacon’s New South, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Belmont Mansion, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 19:42, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; Caney Fork River Valley Grille, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41",
+      "breakfast": "Miranda Lambert's Casa Rosa, Nashville",
+      "attraction": "Country Music Hall of Fame and Museum, Nashville; Cooter’s Museum and Store Nashville, Nashville",
+      "lunch": "The Stillery, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Bungalow, stay from 06:11 to 07:11, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Miranda Lambert's Casa Rosa, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; Country Music Hall of Fame and Museum, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 13:57, nearest transit: CONVENTION CENTER STATION OUTBOUND, 106.41m away; The Stillery, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away; Cooter’s Museum and Store Nashville, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 109.02m away."
     }
   ]
 }

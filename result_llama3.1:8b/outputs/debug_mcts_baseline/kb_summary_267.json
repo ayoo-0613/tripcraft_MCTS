@@ -2,58 +2,120 @@
   "idx": 267,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "San Antonio",
       "counts": {
-        "attractions": 19,
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 1
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Bend",
-      "to": "Seattle",
+      "from": "Burbank",
+      "to": "San Antonio",
       "date": "2024-11-02",
-      "raw": "Flight Number: F0504315, from Bend to Seattle, Departure Time: 11:49, Arrival Time: 12:55"
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Bend",
-      "to": "Seattle",
+      "from": "Burbank",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Bend to Seattle, Duration: 428.97 mins, Distance: 526.4488 km, Estimated Cost: $26.32"
+      "raw": "Self-driving, from Burbank to San Antonio, Duration: 1393.095 mins, Distance: 2192.8455 km, Estimated Cost: $109.64"
     },
     {
       "mode": "taxi",
-      "from": "Bend",
-      "to": "Seattle",
+      "from": "Burbank",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Bend to Seattle, Duration: 428.97 mins, Distance: 526.4488 km, Estimated Cost: $526.45"
+      "raw": "Taxi, from Burbank to San Antonio, Duration: 1393.095 mins, Distance: 2192.8455 km, Estimated Cost: $2192.85"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Bend",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": "2024-11-04",
-      "raw": "Flight Number: F0482542, from Seattle to Bend, Departure Time: 09:13, Arrival Time: 10:20"
+      "raw": "Flight Number: F0037957, from San Antonio to Houston, Departure Time: 07:06, Arrival Time: 08:16"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Bend",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Seattle to Bend, Duration: 426.5566666666667 mins, Distance: 526.9143 km, Estimated Cost: $26.35"
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Bend",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Seattle to Bend, Duration: 426.5566666666667 mins, Distance: 526.9143 km, Estimated Cost: $526.91"
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0467289, from Houston to Amarillo, Departure Time: 10:08, Arrival Time: 12:08"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Burbank",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Burbank",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Burbank, Duration: 1111.6766666666667 mins, Distance: 1730.193 km, Estimated Cost: $86.51"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Burbank",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Burbank, Duration: 1111.6766666666667 mins, Distance: 1730.193 km, Estimated Cost: $1730.19"
     }
   ]
 }

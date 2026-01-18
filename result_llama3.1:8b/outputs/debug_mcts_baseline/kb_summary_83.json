@@ -2,21 +2,31 @@
   "idx": 83,
   "stages": [
     {
-      "city": "Santa Barbara",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 30
       }
     },
     {
-      "city": "San Luis Obispo",
+      "city": "Charlotte",
       "counts": {
-        "attractions": 18,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Everett",
-      "to": "Santa Barbara",
-      "date": "2024-11-04",
+      "from": "Hartford",
+      "to": "Greensboro",
+      "date": "2024-11-01",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Everett",
-      "to": "Santa Barbara",
+      "from": "Hartford",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $91.82"
+      "raw": "Self-driving, from Hartford to Greensboro, Duration: 783.4616666666666 mins, Distance: 1043.7665 km, Estimated Cost: $52.19"
     },
     {
       "mode": "taxi",
-      "from": "Everett",
-      "to": "Santa Barbara",
+      "from": "Hartford",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $1836.40"
+      "raw": "Taxi, from Hartford to Greensboro, Duration: 783.4616666666666 mins, Distance: 1043.7665 km, Estimated Cost: $1043.77"
     },
     {
       "mode": "flight",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
-      "date": "2024-11-06",
-      "raw": "-"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0115705, from Greensboro to Charlotte, Departure Time: 16:06, Arrival Time: 17:10"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Santa Barbara to San Luis Obispo, Duration: 169.08333333333334 mins, Distance: 195.3044 km, Estimated Cost: $9.77"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Santa Barbara to San Luis Obispo, Duration: 169.08333333333334 mins, Distance: 195.3044 km, Estimated Cost: $195.30"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Everett",
-      "date": "2024-11-08",
+      "from": "Charlotte",
+      "to": "Wilmington",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0197234, from Charlotte to Wilmington, Departure Time: 20:55, Arrival Time: 22:23"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Wilmington, Duration: 243.14333333333335 mins, Distance: 317.9067 km, Estimated Cost: $15.90"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Wilmington, Duration: 243.14333333333335 mins, Distance: 317.9067 km, Estimated Cost: $317.91"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Hartford",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Everett",
+      "from": "Wilmington",
+      "to": "Hartford",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Everett, Duration: 1242.23 mins, Distance: 1701.6733000000002 km, Estimated Cost: $85.08"
+      "raw": "Self-driving, from Wilmington to Hartford, Duration: 842.8516666666667 mins, Distance: 1135.475 km, Estimated Cost: $56.77"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Everett",
+      "from": "Wilmington",
+      "to": "Hartford",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Everett, Duration: 1242.23 mins, Distance: 1701.6733000000002 km, Estimated Cost: $1701.67"
+      "raw": "Taxi, from Wilmington to Hartford, Duration: 842.8516666666667 mins, Distance: 1135.475 km, Estimated Cost: $1135.47"
     }
   ]
 }

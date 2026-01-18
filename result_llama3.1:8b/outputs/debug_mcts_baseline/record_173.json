@@ -1,65 +1,120 @@
 {
   "idx": 173,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Anchorage",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Baltimore",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-21",
-      "2024-11-22",
-      "2024-11-23"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
-      "room type": "private room",
+      "cuisine": [
+        "American",
+        "Mexican"
+      ],
+      "room type": null,
+      "transportation": "no flight",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 6600.0,
-    "query": "Plan a 3-day trip for 3 people from Las Vegas to Anchorage from November 21st to November 23rd, 2024, with a budget of $6,600. Accommodations should include a private room.",
-    "level": "medium"
+    "budget": 10500.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Baltimore and visiting 3 cities in Iowa from November 2nd to November 8th, 2024. The budget is $10,500. The trip should avoid flights and include dining options featuring American and Mexican cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Anchorage",
-      "transportation": "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage",
-      "breakfast": "Spenard Roadhouse, Anchorage",
-      "attraction": "Anchorage Museum, Anchorage",
-      "lunch": "Gwennies Old Alaska Restaurant, Anchorage",
-      "dinner": "Humpy's Great Alaskan Alehouse, Anchorage",
-      "accommodation": "Private Room in Hostel with View/Parking/Gym 303, Anchorage",
+      "current_city": "from Baltimore to Fort Dodge",
+      "transportation": "Transfer, from Baltimore to Fort Dodge",
+      "breakfast": "Taco Tico, Fort Dodge",
+      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Sneakers Eatry and Pub, Fort Dodge",
+      "dinner": "Larita's Cakes 'N More, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Private Room in Hostel with View/Parking/Gym 303, stay from 08:00 to 09:00, nearest transit: C STREET & 32ND AVENUE SSW, 134.98m away; Spenard Roadhouse, visit from 09:25 to 10:16, nearest transit: NORTHERN LIGHTS & COPE WNW, 30.92m away; Anchorage Museum, visit from 11:30 to 15:20, nearest transit: 6TH AVENUE & C STREET ESE, 48.52m away; Gwennies Old Alaska Restaurant, visit from 13:57 to 14:56, nearest transit: SPENARD & BARBARA WNW, 33.20m away; Humpy's Great Alaskan Alehouse, visit from 19:51 to 21:00, nearest transit: CITY HALL, 43.82m away; Private Room in Hostel with View/Parking/Gym 303, stay from 22:15 to 08:00, nearest transit: C STREET & 32ND AVENUE SSW, 134.98m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Taco Tico, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; The Fort Museum & Frontier Village, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Central Ave and S 13th St, 60.64m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Anchorage to Anchorage",
-      "transportation": "Transfer, from Anchorage to Anchorage",
-      "breakfast": "Ray's Place, Anchorage",
-      "attraction": "Alaska Cruise Transportation - ACT, Anchorage",
-      "lunch": "Kaladi Brothers Coffee, Anchorage",
-      "dinner": "Kincaid Grill and Wine Bar, Anchorage",
-      "accommodation": "Private Room in Hostel with View/Parking/Gym 303, Anchorage",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Lomitas Mexican Restaurant, Fort Dodge",
+      "dinner": "Sports Page, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Private Room in Hostel with View/Parking/Gym 303, stay from 08:00 to 09:00, nearest transit: C STREET & 32ND AVENUE SSW, 134.98m away; Ray's Place, visit from 09:25 to 10:16, nearest transit: SPENARD & FIREWEED NNW, 62.81m away; Alaska Cruise Transportation - ACT, visit from 11:30 to 15:20, nearest transit: CITY HALL, 85.74m away; Kaladi Brothers Coffee, visit from 13:57 to 14:56, nearest transit: I STREET & 13TH AVENUE NNE, 67.68m away; Kincaid Grill and Wine Bar, visit from 19:51 to 21:00, nearest transit: JEWEL LAKE & RASPBERRY NNE, 76.87m away; Private Room in Hostel with View/Parking/Gym 303, stay from 22:15 to 08:00, nearest transit: C STREET & 32ND AVENUE SSW, 134.98m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Studio Fusion, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Lomitas Mexican Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 5th Ave S and S 21st St, 167.19m away; Sports Page, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Evergreen Estates, 68.77m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 3,
-      "current_city": "from Anchorage to Las Vegas",
-      "transportation": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
-      "breakfast": "Crow's Nest, Anchorage",
-      "attraction": "Anchorage City Trolley Tours, Anchorage",
-      "lunch": "Pho Lena, Anchorage",
-      "dinner": "Jens' Restaurant, Anchorage",
+      "current_city": "from Fort Dodge to Mason City",
+      "transportation": "Taxi, from Fort Dodge to Mason City, Duration: 112.92666666666668 mins, Distance: 155.0488 km, Estimated Cost: $155.05",
+      "breakfast": "Pancheros Mexican Grill - Mason City, Mason City",
+      "attraction": "Fat Hill Brewing, Mason City",
+      "lunch": "RibCrib BBQ, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Pancheros Mexican Grill - Mason City, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Frontage Rd. SW and Briarstone Dr. (Perkins), 77.65m away; Fat Hill Brewing, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: Central Park, 46.90m away; RibCrib BBQ, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 106.13m away; The Quarry, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "China Buffet, Mason City",
+      "attraction": "Target Store Mason-City, Mason City",
+      "lunch": "Prime N Wine, Mason City",
+      "dinner": "Wok and Roll, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; China Buffet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; Target Store Mason-City, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:50, nearest transit: Target Super Center, 54.68m away; Prime N Wine, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 128.03m away; Wok and Roll, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: S Delaware Ave. and 2nd St. SW, 132.04m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Mason City to Sioux City",
+      "transportation": "Taxi, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $332.01",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Palmer's Olde Tyme Candy Shoppe, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; Miles Inn, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "Sioux City Art Center, Sioux City",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Sioux City Art Center, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Nebraska St & 3rd St, 59.94m away; El Fredo Pizza, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Sioux City to Baltimore",
+      "transportation": "Transfer, from Sioux City to Baltimore",
+      "breakfast": "Trattoria Fresco, Sioux City",
+      "attraction": "Hard Rock Casino Sioux City, Sioux City",
+      "lunch": "Pete's Thai On 5th, Sioux City",
+      "dinner": "Main + Abbey, Sioux City",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private Room in Hostel with View/Parking/Gym 303, stay from 08:00 to 09:00, nearest transit: C STREET & 32ND AVENUE SSW, 134.98m away; Crow's Nest, visit from 09:25 to 10:16, nearest transit: 5TH AVENUE & H STREET WNW, 77.31m away; Anchorage City Trolley Tours, visit from 11:30 to 14:35, nearest transit: 5TH AVENUE & F STREET WNW, 89.17m away; Pho Lena, visit from 13:57 to 14:56, nearest transit: SPENARD & 33RD AVENUE NNW, 83.42m away; Jens' Restaurant, visit from 19:51 to 21:00, nearest transit: ARCTIC & 34TH AVENUE SSW, 85.08m away."
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Trattoria Fresco, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Pierce St & 4th St, 54.17m away; Hard Rock Casino Sioux City, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: 3rd & Pearl St, 103.59m away; Pete's Thai On 5th, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: MLK Transportation Center, 58.78m away; Main + Abbey, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 3rd & Pearl St, 71.46m away."
     }
   ]
 }

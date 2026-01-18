@@ -1,65 +1,119 @@
 {
   "idx": 275,
   "JSON": {
-    "org": "Chicago",
-    "dest": "Chattanooga",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Oklahoma City",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
       "2024-11-02",
       "2024-11-03",
-      "2024-11-04"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 4,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": "entire home",
-      "transportation": null,
-      "event": null,
-      "attraction": null
+      "room type": null,
+      "event": [
+        "Arts & Theatre"
+      ],
+      "attraction": "Zoos & Aquariums",
+      "transportation": "no flight"
     },
-    "budget": 1950.0,
-    "query": "Plan a 3-day trip for 4 people from Chicago to Chattanooga from November 2nd to November 4th, 2024, with a budget of $1,950. Accommodations should include an entire home.",
-    "level": "medium"
+    "budget": 50400.0,
+    "query": "Design a 7-day travel itinerary for 4 people starting from Oklahoma City and visiting 3 cities in Texas between November 2nd and November 8th, 2024. The budget is $50,400. The trip should avoid flights and include visits to zoos and aquariums, as well as arts and theatre events.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Chattanooga",
-      "transportation": "Taxi, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $919.64",
-      "breakfast": "Mayan Kitchen, Chattanooga",
-      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
-      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
-      "dinner": "Uncle Larry's Restaurant, Chattanooga",
-      "accommodation": "Cozy Stylish Studio, Chattanooga",
-      "event": "-",
-      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Mayan Kitchen, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Maple Street Biscuit Company - City Center, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Uncle Larry's Restaurant, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+      "current_city": "from Oklahoma City to Houston",
+      "transportation": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81",
+      "breakfast": "Phoenicia Specialty Foods, Houston",
+      "attraction": "Downtown Aquarium, Houston",
+      "lunch": "Niko Niko's Greek, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "event": "Liza Treyger, Houston",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Phoenicia Specialty Foods, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Lamar St @ Austin St, 9.87m away; Downtown Aquarium, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:50, nearest transit: Preston St @ Bagby St, 75.65m away; Niko Niko's Greek, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Houston's, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 2,
-      "current_city": "from Chattanooga to Chattanooga",
-      "transportation": "Transfer, from Chattanooga to Chattanooga",
-      "breakfast": "Community Pie, Chattanooga",
-      "attraction": "Moon Pie General Store, Chattanooga",
-      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
-      "dinner": "Mellow Mushroom Chattanooga, Chattanooga",
-      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Hugo's, Houston",
+      "attraction": "Houston Zoo, Houston",
+      "lunch": "Uchi Houston, Houston",
+      "dinner": "Goode Company BBQ, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "New Town House in Historic District of Chattanooga, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Community Pie, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Moon Pie General Store, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; HiFi Clyde's Chattanooga, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; Mellow Mushroom Chattanooga, visit from 19:51 to 21:00, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; New Town House in Historic District of Chattanooga, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Hugo's, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Houston Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 16:00, nearest transit: Cambridge St @ Ben Taub Loop, 473.45m away; Uchi Houston, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away; Goode Company BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ South Blvd, 42.93m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 3,
-      "current_city": "from Chattanooga to Chicago",
-      "transportation": "Transfer, from Chattanooga to Chicago",
-      "breakfast": "The Purple Daisy Picnic Cafe, Chattanooga",
-      "attraction": "Chattanooga Ghost Tours, Chattanooga",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Houston to San Antonio",
+      "transportation": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30",
+      "breakfast": "Biga on the Banks, San Antonio",
+      "attraction": "San Antonio Zoo, San Antonio",
+      "lunch": "Domingo Restaurant, San Antonio",
+      "dinner": "Bliss, San Antonio",
+      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Biga on the Banks, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: ST MARYS BET. MARKET & VILLITA, 27.33m away; San Antonio Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 16:00, nearest transit: HILDEBRAND & MCALLISTER FREEWAY, 362.31m away; Domingo Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: ST. MARY'S & COMMERCE, 28.70m away; Bliss, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: S. PRESA OPPOSITE SADIE, 41.72m away; Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Antonio to San Antonio",
+      "transportation": "Transfer, from San Antonio to San Antonio",
+      "breakfast": "La Fonda on Main, San Antonio",
+      "attraction": "Natural Bridge Wildlife Ranch, San Antonio",
+      "lunch": "Iron Cactus Mexican Grill and Margarita Bar, San Antonio",
+      "dinner": "Battalion, San Antonio",
+      "accommodation": "Southtown Retama | Riverwalk 6min | Walkscore 81, San Antonio",
+      "event": "-",
+      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; La Fonda on Main, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: WOODLAWN & MAIN, 42.96m away; Natural Bridge Wildlife Ranch, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 16:00, nearest transit: STONE OAK PARK & RIDE, 12409.88m away; Iron Cactus Mexican Grill and Margarita Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: ST. MARY'S & COMMERCE, 52.12m away; Battalion, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: S ALAMO OPPOSITE REFUGIO & LAVACA, 55.78m away; Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Antonio to Amarillo",
+      "transportation": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74",
+      "breakfast": "Crush, Amarillo",
+      "attraction": "Amarillo Zoo, Amarillo",
+      "lunch": "Six Car Pub & Brewery, Amarillo",
+      "dinner": "Ohms Cafe & Catering, Amarillo",
+      "accommodation": "Downtown Luxury High-Rise Suite, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Southtown Retama | Riverwalk 6min | Walkscore 81, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S. PRESA & CLAUDIA, 58.59m away; Crush, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SE 7th Ave & S Polk St (Crush), 29.57m away; Amarillo Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 16:00, nearest transit: NE 24th Ave & Dumas Dr, 456.05m away; Six Car Pub & Brewery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 7th Ave & S Polk St (Crush), 40.07m away; Ohms Cafe & Catering, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SW 7th Ave & S Tyler St, 66.22m away; Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "Transfer, from Amarillo to Amarillo",
+      "breakfast": "Golden Light Cafe & Cantina, Amarillo",
+      "attraction": "-",
+      "lunch": "Eddie's Napoli's Italian Restaurant, Amarillo",
+      "dinner": "Coyote Bluff Cafe, Amarillo",
+      "accommodation": "Downtown Luxury High-Rise Suite, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away; Golden Light Cafe & Cantina, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SW 6th Ave & S Alabama St, 67.68m away; Eddie's Napoli's Italian Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 7th Ave & S Polk St (Crush), 75.32m away; Coyote Bluff Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: S Grand St & SE 25th Ave, 75.41m away; Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Amarillo to Oklahoma City",
+      "transportation": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36",
+      "breakfast": "Dyer's Bar-B-Que, Amarillo",
+      "attraction": "-",
+      "lunch": "Toscana Italian Steakhouse, Amarillo",
+      "dinner": "Youngblood's Cafe, Amarillo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "New Town House in Historic District of Chattanooga, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; The Purple Daisy Picnic Cafe, visit from 09:25 to 10:16, nearest transit: St. Elmo & 40th1, 36.00m away; Chattanooga Ghost Tours, visit from 11:30 to 15:20, nearest transit: MARKET + 5TH, 59.20m away."
+      "point_of_interest_list": "Downtown Luxury High-Rise Suite, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: SW 6th Ave & S Tyler St, 49.12m away; Dyer's Bar-B-Que, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: S Georgia St & SW 16th Ave (Wellington Square), 75.59m away; Toscana Italian Steakhouse, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: SE 6th Ave & S Polk St (Across from Amarillo National Bank), 84.41m away; Youngblood's Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SW 15th Ave & S Monroe St (Parking Lot across from Church), 86.78m away."
     }
   ]
 }

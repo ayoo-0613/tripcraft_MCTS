@@ -2,58 +2,120 @@
   "idx": 146,
   "stages": [
     {
-      "city": "Atlanta",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 19,
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 29
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 19
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Oklahoma City",
-      "to": "Atlanta",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0045765, from Oklahoma City to Atlanta, Departure Time: 18:19, Arrival Time: 21:19"
+      "from": "Charlotte",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234481, from Charlotte to Chattanooga, Departure Time: 10:39, Arrival Time: 11:59"
     },
     {
       "mode": "self-driving",
-      "from": "Oklahoma City",
-      "to": "Atlanta",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Oklahoma City to Atlanta, Duration: 905.6433333333333 mins, Distance: 1363.4583 km, Estimated Cost: $68.17"
+      "raw": "Self-driving, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $25.43"
     },
     {
       "mode": "taxi",
-      "from": "Oklahoma City",
-      "to": "Atlanta",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Oklahoma City to Atlanta, Duration: 905.6433333333333 mins, Distance: 1363.4583 km, Estimated Cost: $1363.46"
+      "raw": "Taxi, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $508.61"
     },
     {
       "mode": "flight",
-      "from": "Atlanta",
-      "to": "Oklahoma City",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0069709, from Atlanta to Oklahoma City, Departure Time: 14:43, Arrival Time: 15:59"
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Atlanta",
-      "to": "Oklahoma City",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Atlanta to Oklahoma City, Duration: 906.8333333333334 mins, Distance: 1364.7578999999998 km, Estimated Cost: $68.24"
+      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
     },
     {
       "mode": "taxi",
-      "from": "Atlanta",
-      "to": "Oklahoma City",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Atlanta to Oklahoma City, Duration: 906.8333333333334 mins, Distance: 1364.7578999999998 km, Estimated Cost: $1364.76"
+      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0039981, from Nashville to Charlotte, Departure Time: 16:35, Arrival Time: 18:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $32.83"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $656.66"
     }
   ]
 }

@@ -2,11 +2,31 @@
   "idx": 159,
   "stages": [
     {
-      "city": "San Diego",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "San Diego",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0100513, from Denver to San Diego, Departure Time: 21:48, Arrival Time: 23:07"
+      "from": "Milwaukee",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "San Diego",
+      "from": "Milwaukee",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Denver to San Diego, Duration: 1134.5 mins, Distance: 1736.6606000000002 km, Estimated Cost: $86.83"
+      "raw": "Self-driving, from Milwaukee to Greensboro, Duration: 940.5666666666667 mins, Distance: 1301.4765 km, Estimated Cost: $65.07"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "San Diego",
+      "from": "Milwaukee",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Denver to San Diego, Duration: 1134.5 mins, Distance: 1736.6606000000002 km, Estimated Cost: $1736.66"
+      "raw": "Taxi, from Milwaukee to Greensboro, Duration: 940.5666666666667 mins, Distance: 1301.4765 km, Estimated Cost: $1301.48"
     },
     {
       "mode": "flight",
-      "from": "San Diego",
-      "to": "Denver",
-      "date": "2024-11-28",
-      "raw": "Flight Number: F0029386, from San Diego to Denver, Departure Time: 09:45, Arrival Time: 12:42"
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Diego",
-      "to": "Denver",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from San Diego to Denver, Duration: 1136.3100000000002 mins, Distance: 1735.4518 km, Estimated Cost: $86.77"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "San Diego",
-      "to": "Denver",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from San Diego to Denver, Duration: 1136.3100000000002 mins, Distance: 1735.4518 km, Estimated Cost: $1735.45"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $15.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0175714, from Charlotte to Milwaukee, Departure Time: 18:17, Arrival Time: 19:26"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Milwaukee, Duration: 979.6933333333333 mins, Distance: 1344.2727 km, Estimated Cost: $67.21"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Milwaukee, Duration: 979.6933333333333 mins, Distance: 1344.2727 km, Estimated Cost: $1344.27"
     }
   ]
 }

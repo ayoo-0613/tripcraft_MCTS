@@ -2,58 +2,120 @@
   "idx": 272,
   "stages": [
     {
-      "city": "Charleston",
+      "city": "Houston",
       "counts": {
-        "attractions": 18,
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Charleston",
-      "date": "2024-11-11",
-      "raw": "Flight Number: F0013798, from Baltimore to Charleston, Departure Time: 13:49, Arrival Time: 15:23"
+      "from": "Oklahoma City",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Charleston",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Charleston, Duration: 651.3533333333332 mins, Distance: 923.2168 km, Estimated Cost: $46.16"
+      "raw": "Self-driving, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $35.69"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Charleston",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Baltimore to Charleston, Duration: 651.3533333333332 mins, Distance: 923.2168 km, Estimated Cost: $923.22"
+      "raw": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
     },
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Baltimore",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0043929, from Charleston to Baltimore, Departure Time: 07:48, Arrival Time: 09:04"
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Baltimore",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Charleston to Baltimore, Duration: 651.7766666666666 mins, Distance: 921.0831 km, Estimated Cost: $46.05"
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Baltimore",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Charleston to Baltimore, Duration: 651.7766666666666 mins, Distance: 921.0831 km, Estimated Cost: $921.08"
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

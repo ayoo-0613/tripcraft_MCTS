@@ -2,9 +2,29 @@
   "idx": 321,
   "stages": [
     {
-      "city": "Los Angeles",
+      "city": "Santa Barbara",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Kansas City",
-      "to": "Los Angeles",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0101338, from Kansas City to Los Angeles, Departure Time: 13:55, Arrival Time: 15:20"
+      "from": "Everett",
+      "to": "Santa Barbara",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Kansas City",
-      "to": "Los Angeles",
+      "from": "Everett",
+      "to": "Santa Barbara",
       "date": null,
-      "raw": "Self-driving, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles"
+      "raw": "Self-driving, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $91.82"
     },
     {
       "mode": "taxi",
-      "from": "Kansas City",
-      "to": "Los Angeles",
+      "from": "Everett",
+      "to": "Santa Barbara",
       "date": null,
-      "raw": "Taxi, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles"
+      "raw": "Taxi, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $1836.40"
     },
     {
       "mode": "flight",
-      "from": "Los Angeles",
-      "to": "Kansas City",
-      "date": "2024-11-28",
-      "raw": "Flight Number: F0028235, from Los Angeles to Kansas City, Departure Time: 12:37, Arrival Time: 17:30"
+      "from": "Santa Barbara",
+      "to": "Sacramento",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F1567596, from Santa Barbara to Sacramento, Departure Time: 10:00, Arrival Time: 11:06"
     },
     {
       "mode": "self-driving",
-      "from": "Los Angeles",
-      "to": "Kansas City",
+      "from": "Santa Barbara",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Los Angeles to Kansas City, Not feasible to drive from Los Angeles to Kansas City"
+      "raw": "Self-driving, from Santa Barbara to Sacramento, Duration: 450.6316666666667 mins, Distance: 616.7994 km, Estimated Cost: $30.84"
     },
     {
       "mode": "taxi",
-      "from": "Los Angeles",
-      "to": "Kansas City",
+      "from": "Santa Barbara",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Los Angeles to Kansas City, Not feasible to drive from Los Angeles to Kansas City"
+      "raw": "Taxi, from Santa Barbara to Sacramento, Duration: 450.6316666666667 mins, Distance: 616.7994 km, Estimated Cost: $616.80"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Santa Rosa",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $7.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $151.94"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "Everett",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "Everett",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to Everett, Duration: 976.685 mins, Distance: 1308.5068 km, Estimated Cost: $65.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "Everett",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to Everett, Duration: 976.685 mins, Distance: 1308.5068 km, Estimated Cost: $1308.51"
     }
   ]
 }

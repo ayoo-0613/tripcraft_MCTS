@@ -1,65 +1,117 @@
 {
   "idx": 249,
   "JSON": {
-    "org": "Madison",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Washington",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-21",
-      "2024-11-22",
-      "2024-11-23"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "pets",
+      "house rule": null,
       "cuisine": null,
-      "room type": "private room",
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": "Nature & Parks"
     },
-    "budget": 4950.0,
-    "query": "Plan a 3-day trip for 3 people from Madison to New York from November 21st to November 23rd, 2024, with a budget of $4,950. Accommodations should include a private room and allow pets.",
-    "level": "hard"
+    "budget": 10650.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Washington to explore 3 cities in California between November 2nd and November 8th, 2024. The budget is $10,650. The itinerary should focus on visiting nature and parks.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Madison to New York",
-      "transportation": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
-      "breakfast": "Nobu Fifty Seven, New York",
-      "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
-      "lunch": "Blue Smoke Battery Park City, New York",
-      "dinner": "Lillie's Victorian Establishment, New York",
-      "accommodation": "East Village, Private room with access to garden, New York",
+      "current_city": "from Washington to Sacramento",
+      "transportation": "Taxi, from Washington to Sacramento, Not feasible to drive from Washington to Sacramento",
+      "breakfast": "Yue Huang Restaurant, Sacramento",
+      "attraction": "William Land Park, Sacramento",
+      "lunch": "Localis, Sacramento",
+      "dinner": "Grange Restaurant & Bar, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Nobu Fifty Seven, visit from 09:25 to 10:16, nearest transit: W 57 ST/AVENUE OF THE AMERICAS, 57.03m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:57, nearest transit: E 42 ST/MADISON AV, 28.59m away; Blue Smoke Battery Park City, visit from 13:57 to 14:56, nearest transit: VESEY ST/NORTH END AV, 10.23m away; New York Public Library, visit from 16:30 to 18:57, nearest transit: 5 AV/W 42 ST, 34.90m away; Lillie's Victorian Establishment, visit from 19:51 to 21:00, nearest transit: 8 AV/W 49 ST, 40.41m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Yue Huang Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: TRUXEL RD & GATEWAY PARK BLVD (NB), 34.28m away; William Land Park, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 16:35, nearest transit: SUTTERVILLE RD & MEAD AVE (WB), 11.46m away; Localis, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 21ST ST & R ST (NB), 35.88m away; Grange Restaurant & Bar, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: J ST & 10TH ST (EB), 36.29m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "Sylvia's Restaurant, New York",
-      "attraction": "Staten Island Ferry, New York; Manhattan Skyline, New York",
-      "lunch": "Westway Diner, New York",
-      "dinner": "Times Square Diner, New York",
-      "accommodation": "East Village, Private room with access to garden, New York",
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Bangkok @12 Thai Restaurant, Sacramento",
+      "attraction": "McKinley Park, Sacramento",
+      "lunch": "Mulvaney's Building & Loan, Sacramento",
+      "dinner": "Frank Fat's Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Sylvia's Restaurant, visit from 09:25 to 10:16, nearest transit: MALCOLM X BLVD/W 127 ST, 40.45m away; Staten Island Ferry, visit from 11:30 to 12:27, nearest transit: SOUTH ST/WHITEHALL ST, 62.29m away; Westway Diner, visit from 13:57 to 14:56, nearest transit: 9 AV/W 44 ST, 44.32m away; Manhattan Skyline, visit from 16:30 to 18:57, nearest transit: EAST BROADWAY/FORSYTH ST, 67.74m away; Times Square Diner, visit from 19:51 to 21:00, nearest transit: W 49 ST/8 AV, 51.46m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Bangkok @12 Thai Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 12th & I Station (SB), 37.03m away; McKinley Park, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 16:35, nearest transit: MCKINLEY BLVD & 34TH ST (EB), 48.79m away; Mulvaney's Building & Loan, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 19TH ST & L ST (SB), 37.17m away; Frank Fat's Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: L ST & 9TH ST (WB), 44.30m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Madison",
-      "transportation": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "current_city": "from Sacramento to Los Angeles",
+      "transportation": "Flight Number: F0038212, from Sacramento to Los Angeles, Departure Time: 20:13, Arrival Time: 21:29",
       "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "Venice Beach, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Katsuya, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Venice Beach, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 16:35, nearest transit: Pacific Ave & Washington Blvd (Arriving), 973.45m away; Au Lac Dtla, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Palm - L.A. Downtown, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Los Angeles to San Diego",
+      "transportation": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Old Town San Diego State Historic Park, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Old Town San Diego State Historic Park, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 16:50, nearest transit: Juan St & Mason St, 133.02m away; Casa Guadalajara, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Diego to Washington",
+      "transportation": "Flight Number: F0539312, from San Diego to Washington, Departure Time: 13:45, Arrival Time: 21:33",
+      "breakfast": "Mister A'S, San Diego",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 06:35 to 07:35, nearest transit: 1 AV/E 1 ST, 79.09m away; East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Mister A'S, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 5th Av & Laurel St, 52.04m away."
     }
   ]
 }

@@ -1,65 +1,117 @@
 {
   "idx": 305,
   "JSON": {
-    "org": "Miami",
-    "dest": "San Francisco",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Chattanooga",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
       "2024-11-02",
-      "2024-11-03"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "private room",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 3150.0,
-    "query": "Plan a 3-day trip for 1 person from Miami to San Francisco from November 1st to November 3rd, 2024, with a budget of $3,150.",
-    "level": "easy"
+    "budget": 17400.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Chattanooga to explore 3 cities in Texas between November 2nd and November 8th, 2024. The budget is $17,400, and accommodations should include a private room.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to San Francisco",
-      "transportation": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco",
-      "breakfast": "John's Grill, San Francisco",
-      "attraction": "Ferry Building Marketplace, San Francisco",
-      "lunch": "Hog Island Oyster Co., San Francisco",
-      "dinner": "Morton's The Steakhouse, San Francisco",
-      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "current_city": "from Chattanooga to Corpus Christi",
+      "transportation": "Taxi, from Chattanooga to Corpus Christi, Duration: 1137.2 mins, Distance: 1645.8438999999998 km, Estimated Cost: $1645.84",
+      "breakfast": "Blackbeard's On The Beach, Corpus Christi",
+      "attraction": "Selena Memorial-Mirador De La Flor, Corpus Christi",
+      "lunch": "Blue Clove, Corpus Christi",
+      "dinner": "Vietnam Restaurant, Corpus Christi",
+      "accommodation": "Private room - Khang, Corpus Christi",
       "event": "-",
-      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; John's Grill, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Morton's The Steakhouse, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+      "point_of_interest_list": "Private room - Khang, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 235-Airline @ St. Marks, 143.03m away; Blackbeard's On The Beach, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 1319-Surfside @ Elm, 24.45m away; Selena Memorial-Mirador De La Flor, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 7603-Peoples T-Head, 61.95m away; Blue Clove, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 1006-Everhart @ Shea, 24.81m away; Vietnam Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Starr @ Chaparral, 25.27m away; Private room - Khang, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 235-Airline @ St. Marks, 143.03m away."
     },
     {
       "days": 2,
-      "current_city": "from San Francisco to San Francisco",
-      "transportation": "Transfer, from San Francisco to San Francisco",
-      "breakfast": "Scala's Bistro, San Francisco",
-      "attraction": "Oracle Park, San Francisco",
-      "lunch": "Sears Fine Foods, San Francisco",
-      "dinner": "Waterbar, San Francisco",
-      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+      "breakfast": "Luciano's Italian Restaurant, Corpus Christi",
+      "attraction": "The Selena Museum, Corpus Christi",
+      "lunch": "Taqueria El Potro, Corpus Christi",
+      "dinner": "Andy's Kitchen, Corpus Christi",
+      "accommodation": "Private room - Khang, Corpus Christi",
       "event": "-",
-      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Oracle Park, visit from 11:30 to 15:20, nearest transit: 4th @ Library (Caltrain), 474.04m away; Sears Fine Foods, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Waterbar, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
+      "point_of_interest_list": "Private room - Khang, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 235-Airline @ St. Marks, 143.03m away; Luciano's Italian Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Alameda @ Clifford, 37.37m away; The Selena Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 1345-Leopard@Cambell, 113.92m away; Taqueria El Potro, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 687-Rodd Field@SkyHarbor, 48.16m away; Andy's Kitchen, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 1808-Staples @ Holly, 56.23m away; Private room - Khang, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 235-Airline @ St. Marks, 143.03m away."
     },
     {
       "days": 3,
-      "current_city": "from San Francisco to Miami",
-      "transportation": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Corpus Christi to Beaumont",
+      "transportation": "Transfer, from Corpus Christi to Beaumont",
+      "breakfast": "Beaumont's, Beaumont",
+      "attraction": "Gator Country, Beaumont",
+      "lunch": "Beaumont Hotel Cafe And Restaurant, Beaumont",
+      "dinner": "Maina's Donair, Beaumont",
+      "accommodation": "Habitación solo para Hombres., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "Private room - Khang, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 235-Airline @ St. Marks, 143.03m away; Beaumont's, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Seneca Springs and Lynn Avenue, 125038.02m away; Gator Country, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2171070.69m away; Beaumont Hotel Cafe And Restaurant, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 1874483.80m away; Maina's Donair, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161082.60m away; Habitación solo para Hombres., traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2173111.98m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "Transfer, from Beaumont to Beaumont",
+      "breakfast": "Chartier, Beaumont",
+      "attraction": "John Jay French House Museum, Beaumont",
+      "lunch": "Saigon Delights, Beaumont",
+      "dinner": "Wild Wing Beaumont, Beaumont",
+      "accommodation": "Habitación solo para Hombres., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "Habitación solo para Hombres., traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2173111.98m away; Chartier, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: San Bernardino Transit Center, 2161104.33m away; John Jay French House Museum, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Casino Morongo, 2177099.24m away; Saigon Delights, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: San Bernardino Transit Center, 2161845.42m away; Wild Wing Beaumont, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161925.08m away; Habitación solo para Hombres., traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2173111.98m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Beaumont to Houston",
+      "transportation": "Transfer, from Beaumont to Houston",
+      "breakfast": "Phoenicia Specialty Foods, Houston",
+      "attraction": "Rodeo Houston or Houston Livestock Show and Rodeo, Houston",
+      "lunch": "Niko Niko's Greek, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "Secluded Room with En-suite Bathroom Midtown, Houston",
+      "event": "-",
+      "point_of_interest_list": "Habitación solo para Hombres., traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2173111.98m away; Phoenicia Specialty Foods, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Lamar St @ Austin St, 9.87m away; Rodeo Houston or Houston Livestock Show and Rodeo, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Kirby Dr @ McNee Rd, 46.85m away; Niko Niko's Greek, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Houston's, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Secluded Room with En-suite Bathroom Midtown, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: W Gray St @ Bailey St, 81.25m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Hugo's, Houston",
+      "attraction": "National Museum of Funeral History, Houston",
+      "lunch": "Uchi Houston, Houston",
+      "dinner": "Goode Company BBQ, Houston",
+      "accommodation": "Secluded Room with En-suite Bathroom Midtown, Houston",
+      "event": "-",
+      "point_of_interest_list": "Secluded Room with En-suite Bathroom Midtown, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: W Gray St @ Bailey St, 81.25m away; Hugo's, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; National Museum of Funeral History, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Uchi Houston, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away; Goode Company BBQ, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ South Blvd, 42.93m away; Secluded Room with En-suite Bathroom Midtown, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: W Gray St @ Bailey St, 81.25m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Houston to Chattanooga",
+      "transportation": "Transfer, from Houston to Chattanooga",
+      "breakfast": "Fogo de Chao Brazilian Steakhouse, Houston",
+      "attraction": "Museum of Fine Arts, Houston",
+      "lunch": "Pappas Bros. Steakhouse, Houston",
+      "dinner": "Brennan's of Houston, Houston",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, stay from 06:31 to 07:31, nearest transit: Powell @ 22 4th, 48.88m away; Stylish Room in The Heart Of San Francisco, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away."
+      "point_of_interest_list": "Secluded Room with En-suite Bathroom Midtown, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: W Gray St @ Bailey St, 81.25m away; Fogo de Chao Brazilian Steakhouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Old Farm Rd, 57.72m away; Museum of Fine Arts, Houston, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Bissonnet St @ Montrose Blvd, 72.67m away; Pappas Bros. Steakhouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Augusta Dr, 60.97m away; Brennan's of Houston, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Elgin St @ Smith St, 102.40m away."
     }
   ]
 }

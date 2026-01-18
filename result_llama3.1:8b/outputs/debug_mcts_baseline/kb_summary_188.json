@@ -2,58 +2,120 @@
   "idx": 188,
   "stages": [
     {
-      "city": "Tucson",
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 30
+      }
+    },
+    {
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 19,
         "poi2transit": 75,
-        "events": 30
+        "events": 6
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Tucson",
-      "date": "2024-11-01",
-      "raw": "Flight Number: F0003236, from Houston to Tucson, Departure Time: 13:57, Arrival Time: 14:23"
+      "from": "Key West",
+      "to": "Chattanooga",
+      "date": "2024-11-07",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Tucson",
+      "from": "Key West",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $85.71"
+      "raw": "Self-driving, from Key West to Chattanooga, Duration: 1087.585 mins, Distance: 1509.5618 km, Estimated Cost: $75.48"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Tucson",
+      "from": "Key West",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $1714.16"
+      "raw": "Taxi, from Key West to Chattanooga, Duration: 1087.585 mins, Distance: 1509.5618 km, Estimated Cost: $1509.56"
     },
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "Houston",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0034936, from Tucson to Houston, Departure Time: 13:05, Arrival Time: 17:07"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tucson",
-      "to": "Houston",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Tucson to Houston, Duration: 1072.2366666666667 mins, Distance: 1709.0013999999999 km, Estimated Cost: $85.45"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Tucson",
-      "to": "Houston",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Tucson to Houston, Duration: 1072.2366666666667 mins, Distance: 1709.0013999999999 km, Estimated Cost: $1709.00"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": "2024-11-13",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Key West, Duration: 1356.1416666666667 mins, Distance: 1824.9449 km, Estimated Cost: $91.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": null,
+      "raw": "Taxi, from Memphis to Key West, Duration: 1356.1416666666667 mins, Distance: 1824.9449 km, Estimated Cost: $1824.94"
     }
   ]
 }

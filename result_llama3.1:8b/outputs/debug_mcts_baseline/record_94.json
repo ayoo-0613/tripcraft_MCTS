@@ -1,96 +1,119 @@
 {
   "idx": 94,
   "JSON": {
-    "org": "El Paso",
+    "org": "Detroit",
     "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
       "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "children under 10",
       "cuisine": [
-        "Italian",
-        "American",
-        "French",
-        "Chinese"
+        "European"
       ],
-      "room type": "private room",
+      "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": "Sights & Landmarks"
     },
-    "budget": 3000.0,
-    "query": "Design a 5-day travel itinerary for 1 person departing from El Paso to visit 2 cities in California between November 1st and November 5th, 2024. The budget is $3,000. Accommodations should include a private room, and dining options should feature Italian, American, French, and Chinese cuisines.",
+    "budget": 10800.0,
+    "query": "Design a 7-day travel itinerary for 1 person departing from Detroit to visit 3 cities in California from November 1st to November 7th, 2024. The budget is $10,800. The plan should include European cuisine options and visits to sights and landmarks. Accommodations and transportation preferences are not specified, but the house rule excludes children under 10.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from El Paso to Sacramento",
-      "transportation": "Taxi, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $1905.95",
-      "breakfast": "Yue Huang Restaurant, Sacramento",
-      "attraction": "William Land Park, Sacramento",
-      "lunch": "Localis, Sacramento",
-      "dinner": "Chicago Fire, Sacramento",
-      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "current_city": "from Detroit to Los Angeles",
+      "transportation": "Taxi, from Detroit to Los Angeles, Not feasible to drive from Detroit to Los Angeles",
+      "breakfast": "Republique, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles",
+      "lunch": "Katsuya, Los Angeles",
+      "dinner": "Au Lac Dtla, Los Angeles",
+      "accommodation": "Cozy Beverly Hills Studio Guest House, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Yue Huang Restaurant, visit from 09:25 to 10:16, nearest transit: TRUXEL RD & GATEWAY PARK BLVD (NB), 34.28m away; William Land Park, visit from 11:30 to 16:35, nearest transit: SUTTERVILLE RD & MEAD AVE (WB), 11.46m away; Localis, visit from 13:57 to 14:56, nearest transit: 21ST ST & R ST (NB), 35.88m away; Chicago Fire, visit from 19:51 to 21:00, nearest transit: J ST & 25TH ST (EB), 70.25m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+      "point_of_interest_list": "Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away; Republique, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: La Brea & 6th (Southbound), 86.53m away; Hollywood Walk of Fame, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Hollywood & Vine St., 17.12m away; Katsuya, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Hollywood & Vine St., 19.85m away; Au Lac Dtla, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 1st St & Hope St, 37.19m away; Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away."
     },
     {
       "days": 2,
-      "current_city": "from Sacramento to Sacramento",
-      "transportation": "Transfer, from Sacramento to Sacramento",
-      "breakfast": "Grange Restaurant & Bar, Sacramento",
-      "attraction": "Tower Bridge, Sacramento",
-      "lunch": "Frank Fat's Restaurant, Sacramento",
-      "dinner": "Paesano's Pizzeria, Sacramento",
-      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "The Palm - L.A. Downtown, Los Angeles",
+      "attraction": "Walt Disney Concert Hall, Los Angeles",
+      "lunch": "Leo & Lily, Los Angeles",
+      "dinner": "71Above Restaurant and Skylounge, Los Angeles",
+      "accommodation": "Cozy Beverly Hills Studio Guest House, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Grange Restaurant & Bar, visit from 09:25 to 10:16, nearest transit: J ST & 10TH ST (EB), 36.29m away; Tower Bridge, visit from 11:30 to 15:20, nearest transit: L ST & 4TH ST (WB), 26.39m away; Frank Fat's Restaurant, visit from 13:57 to 14:56, nearest transit: L ST & 9TH ST (WB), 44.30m away; Paesano's Pizzeria, visit from 19:51 to 21:00, nearest transit: 19TH ST & CAPITOL AVE (SB), 83.96m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+      "point_of_interest_list": "Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away; The Palm - L.A. Downtown, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 11th St & Flower St, 51.84m away; Walt Disney Concert Hall, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:05, nearest transit: Hope St & 1st St (Northbound), 80.77m away; Leo & Lily, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; 71Above Restaurant and Skylounge, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Flower St & 4th St, 55.68m away; Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away."
     },
     {
       "days": 3,
-      "current_city": "from Sacramento to Monterey",
-      "transportation": "Transfer, from Sacramento to Monterey",
-      "breakfast": "Bistro Moulin, Monterey",
-      "attraction": "MST Trolley, Monterey",
-      "lunch": "Sea Harvest Restaurant & Fish Market, Monterey",
-      "dinner": "Louie Linguini's, Monterey",
-      "accommodation": "Private Room w/Ensuite Bathroom at Monterey Hostel, Monterey",
+      "current_city": "from Los Angeles to San Francisco",
+      "transportation": "Flight Number: F0033146, from Los Angeles to San Francisco, Departure Time: 05:49, Arrival Time: 06:56",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco",
+      "lunch": "Hog Island Oyster Co., San Francisco",
+      "dinner": "Morton's The Steakhouse, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Bistro Moulin, visit from 09:25 to 10:16, nearest transit: Foam / Irving, 87.82m away; MST Trolley, visit from 11:30 to 13:50, nearest transit: Cannery Row / Prescott, 18.07m away; Sea Harvest Restaurant & Fish Market, visit from 13:57 to 14:56, nearest transit: Foam / Hoffman, 23.01m away; Louie Linguini's, visit from 19:51 to 21:00, nearest transit: Cannery Row / Prescott, 24.16m away; Private Room w/Ensuite Bathroom at Monterey Hostel, stay from 22:15 to 08:00, nearest transit: Lighthouse / Irving, 73.04m away."
+      "point_of_interest_list": "Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 04:19 to 05:19, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away; Cozy Beverly Hills Studio Guest House, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Olympic Blvd & Beverwil Dr. (Westbound), 127.65m away; John's Grill, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Morton's The Steakhouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 4,
-      "current_city": "from Monterey to Monterey",
-      "transportation": "Transfer, from Monterey to Monterey",
-      "breakfast": "Old Monterey Cafe, Monterey",
-      "attraction": "Cannery Row, Monterey",
-      "lunch": "Tidal Coffee, Monterey",
-      "dinner": "Cibo Ristorante Italiano, Monterey",
-      "accommodation": "Private Room w/Ensuite Bathroom at Monterey Hostel, Monterey",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Scala's Bistro, San Francisco",
+      "attraction": "Oracle Park, San Francisco",
+      "lunch": "Sears Fine Foods, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Private Room w/Ensuite Bathroom at Monterey Hostel, stay from 08:00 to 09:00, nearest transit: Lighthouse / Irving, 73.04m away; Old Monterey Cafe, visit from 09:25 to 10:16, nearest transit: Monterey Transit Plaza / Gate 3 Pearl, 45.93m away; Cannery Row, visit from 11:30 to 15:20, nearest transit: Cannery Row / Prescott, 30.02m away; Tidal Coffee, visit from 13:57 to 14:56, nearest transit: Cannery Row / Drake, 46.73m away; Cibo Ristorante Italiano, visit from 19:51 to 21:00, nearest transit: Del Monte / Conference Center, 46.74m away; Private Room w/Ensuite Bathroom at Monterey Hostel, stay from 22:15 to 08:00, nearest transit: Lighthouse / Irving, 73.04m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Oracle Park, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: 4th @ Library (Caltrain), 474.04m away; Sears Fine Foods, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Waterbar, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 5,
-      "current_city": "from Monterey to El Paso",
-      "transportation": "Transfer, from Monterey to El Paso",
-      "breakfast": "Schooners Monterey, Monterey",
-      "attraction": "Old Monterey Farmer's Market, Monterey",
-      "lunch": "Crown & Anchor, Monterey",
-      "dinner": "First Awakenings, Monterey",
+      "current_city": "from San Francisco to San Diego",
+      "transportation": "Flight Number: F0060811, from San Francisco to San Diego, Departure Time: 21:52, Arrival Time: 23:09",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Point Loma, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Point Loma, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; Casa Guadalajara, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Diego to Detroit",
+      "transportation": "Flight Number: F0319508, from San Diego to Detroit, Departure Time: 22:17, Arrival Time: 05:41",
+      "breakfast": "Mister A'S, San Diego",
+      "attraction": "Old Town San Diego, San Diego",
+      "lunch": "Ironside Fish & Oyster, San Diego",
+      "dinner": "Din Tai Fung, San Diego",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private Room w/Ensuite Bathroom at Monterey Hostel, stay from 08:00 to 09:00, nearest transit: Lighthouse / Irving, 73.04m away; Schooners Monterey, visit from 09:25 to 10:16, nearest transit: Cannery Row / Drake, 47.78m away; Old Monterey Farmer's Market, visit from 11:30 to 13:50, nearest transit: Del Monte / Conference Center, 32.34m away; Crown & Anchor, visit from 13:57 to 14:56, nearest transit: Franklin / Alvarado, 55.74m away; First Awakenings, visit from 19:51 to 21:00, nearest transit: David / Hawthorne, 56.63m away."
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Mister A'S, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 5th Av & Laurel St, 52.04m away; Old Town San Diego, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Juan St & Mason St, 127.04m away; Ironside Fish & Oyster, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: India St & Cedar St, 57.08m away; Din Tai Fung, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: La Jolla Village Dr & Genesee Av, 68.36m away."
     }
   ]
 }

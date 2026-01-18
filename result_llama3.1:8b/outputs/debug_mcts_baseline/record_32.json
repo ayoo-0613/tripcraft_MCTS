@@ -1,94 +1,120 @@
 {
   "idx": 32,
   "JSON": {
-    "org": "Valparaiso",
-    "dest": "Iowa",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "San Antonio",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-09",
-      "2024-11-10",
-      "2024-11-11",
-      "2024-11-12",
-      "2024-11-13"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 5,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "smoking",
       "cuisine": [
-        "Italian",
-        "American"
+        "American",
+        "Japanese"
       ],
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 15000.0,
-    "query": "Plan a 5-day trip for 5 people traveling from Valparaiso to explore 2 cities in Iowa between November 9th and November 13th, 2024. The budget is $15,000. Include dining options with Italian and American cuisines.",
-    "level": "medium"
+    "budget": 7950.0,
+    "query": "Design a 7-day travel itinerary for 1 person departing from San Antonio to visit 3 cities in California from November 2nd to November 8th, 2024. The budget is $7,950. Accommodations should allow smoking, and dining options should include American and Japanese cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Valparaiso to Fort Dodge",
-      "transportation": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
-      "breakfast": "Sneakers Eatry and Pub, Fort Dodge",
-      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
-      "lunch": "Taco Tico, Fort Dodge",
-      "dinner": "Larita's Cakes 'N More, Fort Dodge",
-      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "current_city": "from San Antonio to San Francisco",
+      "transportation": "Taxi, from San Antonio to San Francisco, Not feasible to drive from San Antonio to San Francisco",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco; Oracle Park, San Francisco",
+      "lunch": "Akiko's Sushi Bar and Restaurant, San Francisco",
+      "dinner": "Hog Island Oyster Co., San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Sneakers Eatry and Pub, visit from 09:25 to 10:16, nearest transit: Central Ave and S 13th St, 60.64m away; The Fort Museum & Frontier Village, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Taco Tico, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; Larita's Cakes 'N More, visit from 19:51 to 21:00, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Newly-renovated Cozy Home in Convenient Location, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; John's Grill, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Akiko's Sushi Bar and Restaurant, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 527.70m away; Oracle Park, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: 4th @ Library (Caltrain), 474.04m away; Hog Island Oyster Co., traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 2,
-      "current_city": "from Fort Dodge to Fort Dodge",
-      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
-      "breakfast": "Village Inn, Fort Dodge",
-      "attraction": "Studio Fusion, Fort Dodge",
-      "lunch": "Sports Page, Fort Dodge",
-      "dinner": "Tea Thyme & Thyme to Shop, Fort Dodge",
-      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Sears Fine Foods, San Francisco",
+      "attraction": "Exploratorium, San Francisco; Cable Car Museum, San Francisco",
+      "lunch": "Morton's The Steakhouse, San Francisco",
+      "dinner": "Scala's Bistro, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Sports Page, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Tea Thyme & Thyme to Shop, visit from 19:51 to 21:00, nearest transit: 6th Ave S and S 21st St, 84.15m away; Newly-renovated Cozy Home in Convenient Location, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Sears Fine Foods, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 459.18m away; Exploratorium, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 1042.01m away; Morton's The Steakhouse, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 441.77m away; Cable Car Museum, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Powell @ 22 4th, 1145.41m away; Scala's Bistro, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 451.00m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 3,
-      "current_city": "from Fort Dodge to Cedar Rapids",
-      "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
-      "breakfast": "Bari Italian, Cedar Rapids",
-      "attraction": "Bever Park, Cedar Rapids",
-      "lunch": "Parlor City Pub & Eatery, Cedar Rapids",
-      "dinner": "The Breakfast House, Cedar Rapids",
-      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "current_city": "from San Francisco to San Diego",
+      "transportation": "Flight Number: F0038043, from San Francisco to San Diego, Departure Time: 22:00, Arrival Time: 23:21",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
       "event": "-",
-      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Bari Italian, visit from 09:25 to 10:16, nearest transit: 1st St at McGrath Ampitheatre, 71.85m away; Bever Park, visit from 11:30 to 16:00, nearest transit: Memorial Dr & Bever Ave, 31.27m away; Parlor City Pub & Eatery, visit from 13:57 to 14:56, nearest transit: 12th Ave & 3rd St, 29.32m away; The Breakfast House, visit from 19:51 to 21:00, nearest transit: 812 6th St (Jim's Foods), 38.50m away; Cozy NewBo Historical Herda House, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Central & Serene Secret Garden Guesthouse, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
     },
     {
       "days": 4,
-      "current_city": "from Cedar Rapids to Cedar Rapids",
-      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
-      "breakfast": "Biaggi's Ristorante Italiano, Cedar Rapids",
-      "attraction": "The History Center, Cedar Rapids",
-      "lunch": "El Bajio, Cedar Rapids",
-      "dinner": "Irish Democrat, Cedar Rapids",
-      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Point Loma, San Diego; Old Town San Diego, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
       "event": "-",
-      "point_of_interest_list": "Cozy NewBo Historical Herda House, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Biaggi's Ristorante Italiano, visit from 09:25 to 10:16, nearest transit: 5100 Northland Ave (Super Skate), 162.28m away; The History Center, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; El Bajio, visit from 13:57 to 14:56, nearest transit: 6th St & Gateway Pl, 42.01m away; Irish Democrat, visit from 19:51 to 21:00, nearest transit: 1st Ave & 32nd St, 46.22m away; Cozy NewBo Historical Herda House, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Point Loma, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:27, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; Casa Guadalajara, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Old Town San Diego, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 18:27, nearest transit: Juan St & Mason St, 127.04m away; Cowboy Star, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
     },
     {
       "days": 5,
-      "current_city": "from Cedar Rapids to Valparaiso",
-      "transportation": "Transfer, from Cedar Rapids to Valparaiso",
-      "breakfast": "Lucky's on 16th, Cedar Rapids",
-      "attraction": "Cedar Rapids Public Library, Cedar Rapids",
-      "lunch": "Cancun Mexican Grill and Bar, Cedar Rapids",
-      "dinner": "Los Compadres, Cedar Rapids",
+      "current_city": "from San Diego to Los Angeles",
+      "transportation": "Flight Number: F0496776, from San Diego to Los Angeles, Departure Time: 20:35, Arrival Time: 21:20",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles; The Broad, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Katsuya, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Hollywood Walk of Fame, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:57, nearest transit: Hollywood & Vine St., 17.12m away; Au Lac Dtla, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Broad, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; The Palm - L.A. Downtown, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Los Angeles to San Antonio",
+      "transportation": "Flight Number: F0085391, from Los Angeles to San Antonio, Departure Time: 15:16, Arrival Time: 19:58",
+      "breakfast": "Leo & Lily, Los Angeles",
+      "attraction": "Petersen Automotive Museum, Los Angeles",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy NewBo Historical Herda House, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Lucky's on 16th, visit from 09:25 to 10:16, nearest transit: C St & 16th Ave, 50.35m away; Cedar Rapids Public Library, visit from 11:30 to 13:20, nearest transit: 4th Ave & 5th St, 49.12m away; Cancun Mexican Grill and Bar, visit from 13:57 to 14:56, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Los Compadres, visit from 19:51 to 21:00, nearest transit: 29th Ave & 6th St, 66.80m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Leo & Lily, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Petersen Automotive Museum, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:13, nearest transit: Wilshire Blvd & Fairfax (Westbound), 78.51m away."
     }
   ]
 }

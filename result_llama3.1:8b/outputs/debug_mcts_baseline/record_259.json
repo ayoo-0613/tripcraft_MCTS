@@ -1,65 +1,117 @@
 {
   "idx": 259,
   "JSON": {
-    "org": "El Paso",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Bend",
+    "dest": "Washington",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
       "2024-11-07",
-      "2024-11-08",
-      "2024-11-09"
+      "2024-11-08"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "parties",
       "cuisine": null,
-      "room type": "entire home",
+      "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 2100.0,
-    "query": "Plan a 3-day trip for 1 person from El Paso to Seattle from November 7th to November 9th, 2024, with a budget of $2,100. Accommodations should include an entire home.",
+    "budget": 4650.0,
+    "query": "Plan a 7-day trip for 1 person starting from Bend and visiting 3 cities in Washington from November 2nd to November 8th, 2024. The budget is $4,650. Ensure the accommodations follow house rules that do not allow parties.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from El Paso to Seattle",
-      "transportation": "Taxi, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle",
-      "breakfast": "Metropolitan Grill, Seattle",
-      "attraction": "Washington State Ferries, Seattle",
-      "lunch": "Wild Ginger, Seattle",
-      "dinner": "All Water Seafood & Oyster Bar, Seattle",
-      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "current_city": "from Bend to Everett",
+      "transportation": "Taxi, from Bend to Everett, Duration: 466.075 mins, Distance: 572.572 km, Estimated Cost: $572.57",
+      "breakfast": "Chianti Italian Restaurant, Everett",
+      "attraction": "Imagine Children's Museum, Everett; Narbeck Wetland Sanctuary Park, Everett",
+      "lunch": "Mazatlan Restaurant, Everett",
+      "dinner": "Brooklyn Brothers Pizzeria, Everett",
+      "accommodation": "Large Room with Private Bathroom, Everett",
       "event": "-",
-      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Metropolitan Grill, visit from 09:25 to 10:16, nearest transit: 2nd Ave & Marion St, 39.95m away; Washington State Ferries, visit from 11:30 to 13:50, nearest transit: Denny Way & 2nd Ave N, 14.59m away; Wild Ginger, visit from 13:57 to 14:56, nearest transit: 3rd Ave & Pike St, 13.86m away; All Water Seafood & Oyster Bar, visit from 19:51 to 21:00, nearest transit: 1st Ave & Spring St, 19.43m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+      "point_of_interest_list": "Large Room with Private Bathroom, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Chianti Italian Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: HEWITT AVE & WETMORE - EB, 12.79m away; Imagine Children's Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: WALL ST & HOYT AVE - WB, 29.48m away; Mazatlan Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: RUCKER AVE & PACIFIC AVE - NB, 33.15m away; Narbeck Wetland Sanctuary Park, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 20:27, nearest transit: SEAWAY BLVD & 24TH AVE W - WB, 32.09m away; Brooklyn Brothers Pizzeria, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: HEWITT AVE & LOMBARD AVE - WB, 33.88m away; Large Room with Private Bathroom, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "Lola, Seattle",
-      "attraction": "Sky View Observatory, Seattle",
-      "lunch": "Dough Zone Dumpling House - Seattle International District, Seattle",
-      "dinner": "The Butcher's Table, Seattle",
-      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "current_city": "from Everett to Everett",
+      "transportation": "Transfer, from Everett to Everett",
+      "breakfast": "Curries In Everett, Everett",
+      "attraction": "At Large Brewing, Everett; Village Theatre - Everett, Everett",
+      "lunch": "Tampico Mexican Restaurant, Everett",
+      "dinner": "Ray's Drive In, Everett",
+      "accommodation": "Large Room with Private Bathroom, Everett",
       "event": "-",
-      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Sky View Observatory, visit from 11:30 to 15:20, nearest transit: 4th Ave & Cherry St, 20.75m away; Dough Zone Dumpling House - Seattle International District, visit from 13:57 to 14:56, nearest transit: 5th Ave S & S Weller St, 26.54m away; The Butcher's Table, visit from 19:51 to 21:00, nearest transit: Westlake & 9th-Denny, 32.31m away; Private mother-in-law studio apartment., stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+      "point_of_interest_list": "Large Room with Private Bathroom, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Curries In Everett, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: EVERGREEN WAY & 73RD - SB, 34.50m away; At Large Brewing, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:27, nearest transit: W MARINE VIEW DR & CALIFORNIA ST - NB, 38.11m away; Tampico Mexican Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: BROADWAY & 23RD ST - SB, 37.15m away; Village Theatre - Everett, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:27, nearest transit: WETMORE AVE & EVERETT AVE - SB, 38.14m away; Ray's Drive In, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: BROADWAY & 14TH ST - SB, 43.08m away; Large Room with Private Bathroom, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to El Paso",
-      "transportation": "Flight Number: F0245421, from Seattle to El Paso, Departure Time: 13:21, Arrival Time: 17:22",
-      "breakfast": "Toulouse Petit Kitchen & Lounge, Seattle",
+      "current_city": "from Everett to Seattle",
+      "transportation": "Transfer, from Everett to Seattle",
+      "breakfast": "Wild Ginger, Seattle",
+      "attraction": "Washington State Ferries, Seattle; Sky View Observatory, Seattle",
+      "lunch": "All Water Seafood & Oyster Bar, Seattle",
+      "dinner": "Lola, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Large Room with Private Bathroom, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: BROADWAY & 79TH ST SE - NB, 85.18m away; Wild Ginger, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 3rd Ave & Pike St, 13.86m away; Washington State Ferries, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 12:27, nearest transit: Denny Way & 2nd Ave N, 14.59m away; All Water Seafood & Oyster Bar, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 1st Ave & Spring St, 19.43m away; Sky View Observatory, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: 4th Ave & Cherry St, 20.75m away; Lola, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Virginia St & 4th Ave, 26.10m away; Private mother-in-law studio apartment., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Dough Zone Dumpling House - Seattle International District, Seattle",
+      "attraction": "Seattle Public Library, Seattle; Museum of Pop Culture, Seattle",
+      "lunch": "The Butcher's Table, Seattle",
+      "dinner": "Toulouse Petit Kitchen & Lounge, Seattle",
+      "accommodation": "Private mother-in-law studio apartment., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Dough Zone Dumpling House - Seattle International District, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 5th Ave S & S Weller St, 26.54m away; Seattle Public Library, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 12:57, nearest transit: 5th Ave & Spring St, 34.42m away; The Butcher's Table, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Westlake & 9th-Denny, 32.31m away; Museum of Pop Culture, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: 5th Ave N & Broad St, 53.97m away; Toulouse Petit Kitchen & Lounge, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away; Private mother-in-law studio apartment., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Seattle to Yakima",
+      "transportation": "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41",
+      "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
+      "accommodation": "Cozy Studio Guest House, Yakima",
+      "event": "-",
+      "point_of_interest_list": "Private mother-in-law studio apartment., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Cozy Studio Guest House, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: TIETON DR / 18TH AVE, 97.50m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Yakima to Yakima",
+      "transportation": "Transfer, from Yakima to Yakima",
+      "breakfast": "Ozeki Restaurant, Yakima",
+      "attraction": "Yakima Valley Visitors Center, Yakima; Kana Winery, Yakima",
+      "lunch": "Zesta Cucina, Yakima",
+      "dinner": "Crafted, Yakima",
+      "accommodation": "Cozy Studio Guest House, Yakima",
+      "event": "-",
+      "point_of_interest_list": "Cozy Studio Guest House, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: TIETON DR / 18TH AVE, 97.50m away; Ozeki Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 16TH AVE / SUMMITVIEW, 10.99m away; Yakima Valley Visitors Center, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 11:57, nearest transit: GATEWAY CENTER, 29.65m away; Zesta Cucina, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: GLENWOOD SQUARE, 11.77m away; Kana Winery, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:27, nearest transit: YAKIMA AVE / 2ND ST, 33.27m away; Crafted, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 1ST ST / A ST, 34.10m away; Cozy Studio Guest House, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: TIETON DR / 18TH AVE, 97.50m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Yakima to Bend",
+      "transportation": "Transfer, from Yakima to Bend",
+      "breakfast": "Famous Burger & Teriyaki Sandwich, Yakima",
+      "attraction": "Yakima Valley Museum, Yakima; The Nob Hill Casino, Yakima",
+      "lunch": "Waffles Caffe, Yakima",
+      "dinner": "Taj Palace, Yakima",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private mother-in-law studio apartment., stay from 08:00 to 09:00, nearest transit: 28th Ave W & W Dravus St, 12.67m away; Toulouse Petit Kitchen & Lounge, visit from 09:25 to 10:16, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away."
+      "point_of_interest_list": "Cozy Studio Guest House, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: TIETON DR / 18TH AVE, 97.50m away; Famous Burger & Teriyaki Sandwich, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: LINCOLN / 4TH AVE, 43.44m away; Yakima Valley Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: TIETON / 22TH, 41.46m away; Waffles Caffe, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 1ST ST & TAMARACK AVE, 45.18m away; The Nob Hill Casino, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 16:30 to 17:57, nearest transit: NOB HILL LANES, 51.35m away; Taj Palace, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: NOB HILL / 28TH, 46.38m away."
     }
   ]
 }

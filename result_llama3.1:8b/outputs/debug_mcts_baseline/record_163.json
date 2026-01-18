@@ -1,65 +1,122 @@
 {
   "idx": 163,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Kansas City",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 1,
+    "people_number": 7,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": "private room",
+      "house rule": "children under 10",
+      "cuisine": [
+        "American",
+        "French",
+        "Italian",
+        "Mexican"
+      ],
+      "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 1 person from Detroit to Kansas City from November 19th to November 21st, 2024, with a budget of $1,500. Accommodations should include a private room.",
-    "level": "medium"
+    "budget": 23100.0,
+    "query": "Design a 7-day travel itinerary for 7 people departing from Dallas to explore 3 cities in Tennessee from November 6th to November 12th, 2024. The budget is $23,100. Accommodations and activities should adhere to house rules allowing children under 10. Include dining options featuring American, French, Italian, and Mexican cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Kansas City",
-      "transportation": "Flight Number: F0339387, from Detroit to Kansas City, Departure Time: 08:18, Arrival Time: 09:10",
-      "breakfast": "-",
-      "attraction": "Boulevard Brewing Company, Kansas City",
-      "lunch": "Eddie V's Prime Seafood, Kansas City",
-      "dinner": "Cascone's Italian Restaurant, Kansas City",
-      "accommodation": "Room 15 at Waypoint Manor, Kansas City",
+      "current_city": "from Dallas to Memphis",
+      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "breakfast": "The Soul Fish Cafe Inc, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Payne's Bar-B-Que, Memphis",
+      "dinner": "Central BBQ, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
       "event": "-",
-      "point_of_interest_list": "Room 15 at Waypoint Manor, stay from 08:00 to 09:00, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away; Room 15 at Waypoint Manor, stay from 09:40 to 10:40, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away; Boulevard Brewing Company, visit from 11:30 to 14:50, nearest transit: ON SOUTHWEST BLVD AT 25TH NORTHBOUND, 39.21m away; Eddie V's Prime Seafood, visit from 13:57 to 14:56, nearest transit: ON 47TH ST AT JEFFERSON ST WESTBOUND FARSIDE, 16.50m away; Cascone's Italian Restaurant, visit from 19:51 to 21:00, nearest transit: ON N OAK AT INDIANOLA NORTHBOUND, 34.84m away; Room 15 at Waypoint Manor, stay from 22:15 to 08:00, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; The Soul Fish Cafe Inc, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: COOPER@NELSON AVE, 47.14m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Central BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Kansas City to Kansas City",
-      "transportation": "Transfer, from Kansas City to Kansas City",
-      "breakfast": "Bristol Seafood + Steak + Social, Kansas City",
-      "attraction": "Negro Leagues Baseball Museum, Kansas City",
-      "lunch": "eggtc., Kansas City",
-      "dinner": "Fern Bar, Kansas City",
-      "accommodation": "Room 15 at Waypoint Manor, Kansas City",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Blues City Cafe, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Majestic Grille, Memphis",
+      "dinner": "Corky's Ribs & BBQ, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
       "event": "-",
-      "point_of_interest_list": "Room 15 at Waypoint Manor, stay from 08:00 to 09:00, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away; Bristol Seafood + Steak + Social, visit from 09:25 to 10:16, nearest transit: POWER & LIGHT ON MAIN AT 14TH ST NB, 41.80m away; Negro Leagues Baseball Museum, visit from 11:30 to 15:20, nearest transit: ON 18TH AT HIGHLAND EASTBOUND, 44.19m away; eggtc., visit from 13:57 to 14:56, nearest transit: ON 51ST AT MAIN WESTBOUND, 45.65m away; Fern Bar, visit from 19:51 to 21:00, nearest transit: ON 13TH ST BETWEEN WYANDOTTE AND CENTRAL WB, 45.99m away; Room 15 at Waypoint Manor, stay from 22:15 to 08:00, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away."
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SECOND@BEALE, 21.42m away; Beale Street, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Majestic Grille, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: POPLAR@PELHAM DR, 43.73m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Kansas City to Detroit",
-      "transportation": "Flight Number: F0339392, from Kansas City to Detroit, Departure Time: 10:22, Arrival Time: 13:04",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "La Cabriole, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Community Pie, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; La Cabriole, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: BOYNTON + M.L. KING, 2725.31m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "Molcajete Mexican Restaurant, Chattanooga",
+      "dinner": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Alleia, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; Molcajete Mexican Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: LEE HWY + PERIMETER, 282.66m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: BROAD + 4TH, 19.08m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Ole Red, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0039984, from Nashville to Dallas, Departure Time: 19:57, Arrival Time: 21:45",
+      "breakfast": "Miranda Lambert's Casa Rosa, Nashville",
+      "attraction": "Ryman Auditorium, Nashville",
+      "lunch": "The Stillery, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Room 15 at Waypoint Manor, stay from 08:00 to 09:00, nearest transit: ON 12TH AT AGNES WESTBOUND, 215.04m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Miranda Lambert's Casa Rosa, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; Ryman Auditorium, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; The Stillery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away."
     }
   ]
 }

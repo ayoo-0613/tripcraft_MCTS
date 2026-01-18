@@ -1,65 +1,120 @@
 {
   "idx": 191,
   "JSON": {
-    "org": "San Diego",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Oklahoma City",
+    "dest": "North Carolina",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-23",
-      "2024-11-24",
-      "2024-11-25"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "smoking",
-      "cuisine": "American",
+      "house rule": null,
+      "cuisine": null,
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": [
+        "Classes & Workshops",
+        "Museums"
+      ]
     },
-    "budget": 2850.0,
-    "query": "Plan a 3-day trip for 2 people from San Diego to Seattle from November 23rd to November 25th, 2024, with a budget of $2,850. Accommodations should allow smoking, and dining options should include American cuisine.",
-    "level": "hard"
+    "budget": 7050.0,
+    "query": "Plan a 7-day trip for 1 person starting from Oklahoma City and visiting 3 cities in North Carolina between November 1st and November 7th, 2024. The budget is $7,050. Include visits to attractions such as classes, workshops, and museums.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from San Diego to Seattle",
-      "transportation": "Taxi, from San Diego to Seattle, Duration: 1427.1833333333334 mins, Distance: 2018.8546999999999 km, Estimated Cost: $2018.85",
-      "breakfast": "All Water Seafood & Oyster Bar, Seattle",
-      "attraction": "Washington State Ferries, Seattle",
-      "lunch": "Wild Ginger, Seattle",
-      "dinner": "Lola, Seattle",
-      "accommodation": "Private Room in Townhome near Capitol Hill, Seattle",
+      "current_city": "from Oklahoma City to Greensboro",
+      "transportation": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
+      "breakfast": "B. Christopher's, Greensboro",
+      "attraction": "International Civil Rights Center & Museum, Greensboro; Greensboro Children's Museum, Greensboro",
+      "lunch": "The Sage Mule, Greensboro",
+      "dinner": "Dames Chicken & Waffles, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; All Water Seafood & Oyster Bar, visit from 09:25 to 10:16, nearest transit: 1st Ave & Spring St, 19.43m away; Washington State Ferries, visit from 11:30 to 13:50, nearest transit: Denny Way & 2nd Ave N, 14.59m away; Wild Ginger, visit from 13:57 to 14:56, nearest transit: 3rd Ave & Pike St, 13.86m away; Lola, visit from 19:51 to 21:00, nearest transit: Virginia St & 4th Ave, 26.10m away; Private Room in Townhome near Capitol Hill, stay from 22:15 to 08:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away."
+      "point_of_interest_list": "Peaceful Place, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; B. Christopher's, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Elm/Friendly (Northbound), 22.34m away; International Civil Rights Center & Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: International Civil Rights Museum, 3.98m away; The Sage Mule, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Battleground/Wharton St, 22.50m away; Greensboro Children's Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:17, nearest transit: Lindsay/Church, 95.37m away; Dames Chicken & Waffles, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Gorrell/MLK, 24.89m away; Peaceful Place, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "The Butcher's Table, Seattle",
-      "attraction": "Sky View Observatory, Seattle",
-      "lunch": "Dough Zone Dumpling House - Seattle International District, Seattle",
-      "dinner": "Toulouse Petit Kitchen & Lounge, Seattle",
-      "accommodation": "Stylish Daylight Basement Apartment, Seattle",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Hops Burger Bar, Greensboro",
+      "attraction": "Ambleside Gallery, Greensboro; Greensboro History Museum, Greensboro",
+      "lunch": "1618 West Seafood Grill, Greensboro",
+      "dinner": "Mimi's Cafe, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Stylish Daylight Basement Apartment, stay from 08:00 to 09:00, nearest transit: Roosevelt Way NE & NE 75th St, 23.58m away; The Butcher's Table, visit from 09:25 to 10:16, nearest transit: Westlake & 9th-Denny, 32.31m away; Sky View Observatory, visit from 11:30 to 15:20, nearest transit: 4th Ave & Cherry St, 20.75m away; Dough Zone Dumpling House - Seattle International District, visit from 13:57 to 14:56, nearest transit: 5th Ave S & S Weller St, 26.54m away; Toulouse Petit Kitchen & Lounge, visit from 19:51 to 21:00, nearest transit: Mercer St & Queen Anne Ave N, 32.36m away; Stylish Daylight Basement Apartment, stay from 22:15 to 08:00, nearest transit: Roosevelt Way NE & NE 75th St, 23.58m away."
+      "point_of_interest_list": "Peaceful Place, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Hops Burger Bar, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Spring Garden/Howard (IB), 34.51m away; Ambleside Gallery, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:12, nearest transit: Elm/Lewis, 35.43m away; 1618 West Seafood Grill, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: West Friendly/Radiance Dr (OB), 39.88m away; Greensboro History Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: Church/Lindsay, 131.50m away; Mimi's Cafe, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: West Friendly/Mimi's Restaurant, 40.77m away; Peaceful Place, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to San Diego",
-      "transportation": "Transfer, from Seattle to San Diego",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "Transfer, from Greensboro to Wilmington",
+      "breakfast": "Circa 1922, Wilmington",
+      "attraction": "Wilmington Railroad Museum, Wilmington; Museum of the Bizarre, Wilmington",
+      "lunch": "Savorez, Wilmington",
+      "dinner": "PinPoint Restaurant, Wilmington",
+      "accommodation": "Chic Loft | Downtown | Front & Market, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Circa 1922, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Front St SB at Market St, 33.43m away; Wilmington Railroad Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: Nutt St SB at Wilmington Railroad Museum, 46.05m away; Savorez, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 4th St SB at Chestnut St, 39.22m away; Museum of the Bizarre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: Front St SB at Orange St, 54.02m away; PinPoint Restaurant, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Front St NB at Market St, 42.83m away; Chic Loft | Downtown | Front & Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Front St NB at Market St, 30.98m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "The Dixie Grill, Wilmington",
+      "attraction": "Cape Fear Museum, Wilmington; Burgwin-Wright House and Gardens, Wilmington",
+      "lunch": "Front Street Brewery, Wilmington",
+      "dinner": "Kilwins Ice Cream -  Chocolate - Fudge, Wilmington",
+      "accommodation": "Chic Loft | Downtown | Front & Market, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Chic Loft | Downtown | Front & Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Front St NB at Market St, 30.98m away; The Dixie Grill, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Front St NB at Market St, 42.84m away; Cape Fear Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: Market St WB at 9th St (Cape Fear Museum), 65.31m away; Front Street Brewery, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Front St SB at Market St, 43.35m away; Burgwin-Wright House and Gardens, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: 3rd St SB at Dock St, 75.52m away; Kilwins Ice Cream -  Chocolate - Fudge, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Ice Cream - Chocolate - Fudge Front St SB at Market St, 48.84m away; Chic Loft | Downtown | Front & Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Front St NB at Market St, 30.98m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "breakfast": "Midwood Smokehouse, Charlotte",
+      "attraction": "Levine Museum of the New South, Charlotte; Discovery Place Science, Charlotte",
+      "lunch": "Cabo Fish Taco Baja Seagrill, Charlotte",
+      "dinner": "Mert's Heart and Soul, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Chic Loft | Downtown | Front & Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 05:08 to 06:08, nearest transit: Front St NB at Market St, 30.98m away; Chic Loft | Downtown | Front & Market, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Front St NB at Market St, 30.98m away; Midwood Smokehouse, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Central Ave & Clement Ave, 40.68m away; Levine Museum of the New South, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: Tryon St & 2nd St, 38.18m away; Cabo Fish Taco Baja Seagrill, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Davidson & 35th, 57.25m away; Discovery Place Science, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: Church St & 6th St, 53.42m away; Mert's Heart and Soul, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: College St & 6th St, 64.34m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "The Fig Tree Restaurant, Charlotte",
+      "attraction": "NASCAR Hall of Fame, Charlotte; Mint Museum Uptown, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Rooster's Wood-Fired Kitchen - Uptown, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; The Fig Tree Restaurant, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 7th St & Armory Dr, 103.61m away; NASCAR Hall of Fame, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: Caldwell St & 3rd St, 96.74m away; The Capital Grille, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; Mint Museum Uptown, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: Tryon St & Stonewall St, 100.42m away; Rooster's Wood-Fired Kitchen - Uptown, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Trade St & College St, 139.39m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Charlotte to Oklahoma City",
+      "transportation": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "breakfast": "Pinky's Westside Grill, Charlotte",
+      "attraction": "Sullenberger Aviation Museum, Charlotte; Hendrick Motorsports Complex, Charlotte",
+      "lunch": "Mac's Speed Shop, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Stylish Daylight Basement Apartment, stay from 08:00 to 09:00, nearest transit: Roosevelt Way NE & NE 75th St, 23.58m away."
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Pinky's Westside Grill, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Morehead St & Grandin Rd, 166.98m away; Sullenberger Aviation Museum, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 13:57, nearest transit: Charlotte Douglas Airport, 956.40m away; Mac's Speed Shop, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: New Bern Station, 544.51m away; Hendrick Motorsports Complex, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 18:57, nearest transit: Concord Mills Mall, 2546.56m away."
     }
   ]
 }

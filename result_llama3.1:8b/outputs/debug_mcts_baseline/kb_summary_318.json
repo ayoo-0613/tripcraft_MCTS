@@ -2,12 +2,32 @@
   "idx": 318,
   "stages": [
     {
-      "city": "Ontario",
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 14
+      }
+    },
+    {
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
+        "events": 2
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Ontario",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50"
+      "from": "Mission",
+      "to": "Chattanooga",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Mission",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Self-driving, from Mission to Chattanooga, Duration: 1305.8983333333333 mins, Distance: 1883.6641000000002 km, Estimated Cost: $94.18"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Mission",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Taxi, from Mission to Chattanooga, Duration: 1305.8983333333333 mins, Distance: 1883.6641000000002 km, Estimated Cost: $1883.66"
     },
     {
       "mode": "flight",
-      "from": "Ontario",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": "2024-11-14",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Mission, Duration: 1024.8366666666666 mins, Distance: 1481.7513000000001 km, Estimated Cost: $74.09"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": null,
+      "raw": "Taxi, from Memphis to Mission, Duration: 1024.8366666666666 mins, Distance: 1481.7513000000001 km, Estimated Cost: $1481.75"
     }
   ]
 }

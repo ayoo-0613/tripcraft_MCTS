@@ -2,89 +2,120 @@
   "idx": 15,
   "stages": [
     {
-      "city": "Memphis",
+      "city": "San Antonio",
       "counts": {
-        "attractions": 15,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 70,
-        "events": 12
+        "poi2transit": 75,
+        "events": 17
       }
     },
     {
-      "city": "Chattanooga",
+      "city": "Houston",
       "counts": {
-        "attractions": 14,
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 4
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 69,
-        "events": 22
+        "poi2transit": 75,
+        "events": 12
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "Las Vegas",
+      "to": "San Antonio",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0003487, from Las Vegas to San Antonio, Departure Time: 15:11, Arrival Time: 19:31"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Las Vegas",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $102.52"
+    },
+    {
+      "mode": "taxi",
+      "from": "Las Vegas",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $2050.35"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0034380, from San Antonio to Houston, Departure Time: 20:43, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0465913, from Houston to Amarillo, Departure Time: 10:11, Arrival Time: 12:03"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Las Vegas",
       "date": "2024-11-07",
-      "raw": "-"
+      "raw": "Flight Number: F0064873, from Amarillo to Las Vegas, Departure Time: 10:48, Arrival Time: 10:47"
     },
     {
       "mode": "self-driving",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "Amarillo",
+      "to": "Las Vegas",
       "date": null,
-      "raw": "Self-driving, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $36.24"
+      "raw": "Self-driving, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $69.05"
     },
     {
       "mode": "taxi",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "Amarillo",
+      "to": "Las Vegas",
       "date": null,
-      "raw": "Taxi, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $724.79"
-    },
-    {
-      "mode": "flight",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": "2024-11-09",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": null,
-      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
-    },
-    {
-      "mode": "taxi",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": null,
-      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
-    },
-    {
-      "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": "2024-11-11",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": null,
-      "raw": "Self-driving, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $44.97"
-    },
-    {
-      "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": null,
-      "raw": "Taxi, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $899.39"
+      "raw": "Taxi, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $1381.07"
     }
   ]
 }

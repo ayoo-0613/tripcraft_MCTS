@@ -1,65 +1,117 @@
 {
   "idx": 131,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Charleston",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Valparaiso",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-16",
-      "2024-11-17",
-      "2024-11-18"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "smoking",
       "cuisine": null,
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 3600.0,
-    "query": "Plan a 3-day trip for 2 people from Detroit to Charleston from November 16th to November 18th, 2024, with a budget of $3,600.",
-    "level": "easy"
+    "budget": 6150.0,
+    "query": "Plan a 7-day trip for 1 person starting from Valparaiso and visiting 3 cities in Tennessee from November 1st to November 7th, 2024. The budget is $6,150. Accommodations should allow smoking.",
+    "level": "medium"
   },
   "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Charleston",
-      "transportation": "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88",
-      "breakfast": "Virginia's on King, Charleston",
-      "attraction": "The Charleston Museum, Charleston",
-      "lunch": "Stella's, Charleston",
-      "dinner": "Eli's Table, Charleston",
-      "accommodation": "Stylish Loft Historic Downtown Charleston Condo, Charleston",
+      "current_city": "from Valparaiso to Chattanooga",
+      "transportation": "Taxi, from Valparaiso to Chattanooga, Duration: 633.575 mins, Distance: 869.2596 km, Estimated Cost: $869.26",
+      "breakfast": "Mayan Kitchen, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "dinner": "Uncle Larry's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Stylish Loft Historic Downtown Charleston Condo, stay from 08:00 to 09:00, nearest transit: East Bay St / Vendue Range, 94.20m away; Virginia's on King, visit from 09:25 to 10:16, nearest transit: King St / Vanderhorst St, 13.91m away; The Charleston Museum, visit from 11:30 to 15:20, nearest transit: Charleston Museum / Visitors Center, 4.15m away; Stella's, visit from 13:57 to 14:56, nearest transit: Warren St / St Philip St, 16.55m away; Eli's Table, visit from 19:51 to 21:00, nearest transit: Meeting St / Queen St, 19.72m away; Stylish Loft Historic Downtown Charleston Condo, stay from 22:15 to 08:00, nearest transit: East Bay St / Vendue Range, 94.20m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROAD + 5TH, 15.62m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: BROAD + 4TH, 19.08m away; Uncle Larry's Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + PEEPLES, 20.49m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 2,
-      "current_city": "from Charleston to Charleston",
-      "transportation": "Transfer, from Charleston to Charleston",
-      "breakfast": "The Ordinary, Charleston",
-      "attraction": "Charleston Waterfront Park, Charleston",
-      "lunch": "167 Raw Oyster Bar, Charleston",
-      "dinner": "Peninsula Grill, Charleston",
-      "accommodation": "Charleston's Most Charming Historic Inn, Charleston",
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Community Pie, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "HiFi Clyde's Chattanooga, Chattanooga",
+      "dinner": "St. John's Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Charleston's Most Charming Historic Inn, stay from 08:00 to 09:00, nearest transit: Meeting St / Broad St, 34.44m away; The Ordinary, visit from 09:25 to 10:16, nearest transit: King St / Cannon St, 22.53m away; Charleston Waterfront Park, visit from 11:30 to 16:05, nearest transit: Vendue Range / Concord St, 19.17m away; 167 Raw Oyster Bar, visit from 13:57 to 14:56, nearest transit: King St / Clifford St, 22.69m away; Peninsula Grill, visit from 19:51 to 21:00, nearest transit: Market St / Meeting St, 23.88m away; Charleston's Most Charming Historic Inn, stay from 22:15 to 08:00, nearest transit: Meeting St / Broad St, 34.44m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Community Pie, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; HiFi Clyde's Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: MAIN + WILLIAMS, 21.15m away; St. John's Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Market & King1, 25.22m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 3,
-      "current_city": "from Charleston to Detroit",
-      "transportation": "Transfer, from Charleston to Detroit",
-      "breakfast": "FIG, Charleston",
-      "attraction": "Charleston City Market, Charleston",
-      "lunch": "Charleston Grill, Charleston",
-      "dinner": "Swamp Fox Restaurant, Charleston",
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "Roomy Bungalow. Close to Downtown. 600+ Reviews., Nashville",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Ole Red, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; Roomy Bungalow. Close to Downtown. 600+ Reviews., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: WEDGEWOOD AVE & HILLSIDE AVE WB, 48.78m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "Roomy Bungalow. Close to Downtown. 600+ Reviews., Nashville",
+      "event": "-",
+      "point_of_interest_list": "Roomy Bungalow. Close to Downtown. 600+ Reviews., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: WEDGEWOOD AVE & HILLSIDE AVE WB, 48.78m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; Roomy Bungalow. Close to Downtown. 600+ Reviews., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: WEDGEWOOD AVE & HILLSIDE AVE WB, 48.78m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Nashville to Bristol",
+      "transportation": "Transfer, from Nashville to Bristol",
+      "breakfast": "Blackbird Bakery, Bristol",
+      "attraction": "Bristol Motor Speedway, Bristol",
+      "lunch": "Bristol Seafood Grill, Bristol",
+      "dinner": "Bristol Seafood Restaurant, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Roomy Bungalow. Close to Downtown. 600+ Reviews., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: WEDGEWOOD AVE & HILLSIDE AVE WB, 48.78m away; Blackbird Bakery, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Cumberland St & Waters Alley, 84.53m away; Bristol Motor Speedway, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Hard Rock Hotel Main Entrance, 9711.82m away; Bristol Seafood Grill, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Hard Rock Hotel Main Entrance, 761097.80m away; Bristol Seafood Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Hard Rock Hotel Main Entrance, 789410.12m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Bristol Seafood + Steak + Social, Bristol",
+      "attraction": "Clifton Suspension Bridge, Bristol",
+      "lunch": "Little Bristol Beach Bar, Bristol",
+      "dinner": "The Bristol Trader, Bristol",
+      "accommodation": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Bristol Seafood + Steak + Social, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Hard Rock Hotel Main Entrance, 1121819.15m away; Clifton Suspension Bridge, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Home Depot, 6252045.82m away; Little Bristol Beach Bar, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Wellmont Medical Associates/Ballad Health Family Medicine, 3425056.53m away; The Bristol Trader, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Home Depot, 6085998.59m away; Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 120.73m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Bristol to Valparaiso",
+      "transportation": "Transfer, from Bristol to Valparaiso",
+      "breakfast": "Nutmeg, Bristol",
+      "attraction": "Bristol City Docks, Bristol",
+      "lunch": "Fishers Restaurant - Bristol, Bristol",
+      "dinner": "Bosco Pizzeria, Bristol",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Charleston's Most Charming Historic Inn, stay from 08:00 to 09:00, nearest transit: Meeting St / Broad St, 34.44m away; FIG, visit from 09:25 to 10:16, nearest transit: Meeting St / Hasell St, 35.30m away; Charleston City Market, visit from 11:30 to 14:35, nearest transit: Market St / Meeting St, 50.09m away; Charleston Grill, visit from 13:57 to 14:56, nearest transit: King St / Market St, 36.10m away; Swamp Fox Restaurant, visit from 19:51 to 21:00, nearest transit: Calhoun St / King St, 45.46m away."
+      "point_of_interest_list": "Downtown Bristol Loft! TN/VA 2Br/2Ba on State St.!, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 120.73m away; Nutmeg, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Home Depot, 6252543.04m away; Bristol City Docks, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Home Depot, 6253131.32m away; Fishers Restaurant - Bristol, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Home Depot, 6252544.49m away; Bosco Pizzeria, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Home Depot, 6252673.65m away."
     }
   ]
 }

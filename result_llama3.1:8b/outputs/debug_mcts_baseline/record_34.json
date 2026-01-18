@@ -1,91 +1,117 @@
 {
   "idx": 34,
   "JSON": {
-    "org": "Santa Fe",
-    "dest": "Colorado",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Boston",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": "parties",
+      "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": "no flight",
+      "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 2400.0,
-    "query": "Plan a 5-day trip for 1 person traveling from Santa Fe to explore 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $2,400. The trip should avoid flights and adhere to house rules that do not allow parties.",
-    "level": "medium"
+    "budget": 11250.0,
+    "query": "Plan a 7-day trip for 1 person starting from Boston and visiting 3 cities in California between November 2nd and November 8th, 2024. The budget is $11,250.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Santa Fe to Durango",
-      "transportation": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14",
-      "breakfast": "Mahogany Grille, Durango",
-      "attraction": "Roll Ebike & Paddle Board, Durango",
-      "lunch": "Diamond Belle Saloon, Durango",
-      "dinner": "Chimayo Stone Fired Kitchen, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from Boston to San Francisco",
+      "transportation": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco",
+      "lunch": "Hog Island Oyster Co., San Francisco",
+      "dinner": "Morton's The Steakhouse, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Mahogany Grille, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 51.51m away; Roll Ebike & Paddle Board, visit from 11:30 to 15:50, nearest transit: Buckley Park, 34.63m away; Diamond Belle Saloon, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 25.56m away; Chimayo Stone Fired Kitchen, visit from 19:51 to 21:00, nearest transit: Main Ave. & 9th St., 28.28m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; John's Grill, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Morton's The Steakhouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 2,
-      "current_city": "from Durango to Durango",
-      "transportation": "Transfer, from Durango to Durango",
-      "breakfast": "Michel's Corner Crepes, Durango",
-      "attraction": "Historic Downtown Durango, Durango",
-      "lunch": "Eolus Bar & Dining, Durango",
-      "dinner": "Derailed Pour House, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Scala's Bistro, San Francisco",
+      "attraction": "Oracle Park, San Francisco",
+      "lunch": "Sears Fine Foods, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Michel's Corner Crepes, visit from 09:25 to 10:16, nearest transit: College Dr. & Main Ave., 31.39m away; Historic Downtown Durango, visit from 11:30 to 15:20, nearest transit: Main Ave. & 9th St., 40.87m away; Eolus Bar & Dining, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 33.46m away; Derailed Pour House, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 38.31m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Oracle Park, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: 4th @ Library (Caltrain), 474.04m away; Sears Fine Foods, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Waterbar, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 3,
-      "current_city": "from Durango to Colorado Springs",
-      "transportation": "Taxi, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $506.09",
-      "breakfast": "Paravicini's Italian Bistro, Colorado Springs",
-      "attraction": "Penrose Heritage Museum, Colorado Springs",
-      "lunch": "Uchenna, Colorado Springs",
-      "dinner": "Carlos Bistro, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
+      "current_city": "from San Francisco to Los Angeles",
+      "transportation": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Paravicini's Italian Bistro, visit from 09:25 to 10:16, nearest transit: Colorado/28th, 25.37m away; Penrose Heritage Museum, visit from 11:30 to 15:20, nearest transit: Broadmoor Hotel, 45.08m away; Uchenna, visit from 13:57 to 14:56, nearest transit: Colorado/25th, 42.42m away; Carlos Bistro, visit from 19:51 to 21:00, nearest transit: 21st/Broadway, 62.57m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 4,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Pizzeria Rustica, Colorado Springs",
-      "attraction": "Old Colorado City Historic District, Colorado Springs",
-      "lunch": "Summit at The Broadmoor, Colorado Springs",
-      "dinner": "Mountain Shadows Restaurant, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Pizzeria Rustica, visit from 09:25 to 10:16, nearest transit: Colorado/25th, 64.93m away; Old Colorado City Historic District, visit from 11:30 to 14:50, nearest transit: Cascade/Colorado, 63.31m away; Summit at The Broadmoor, visit from 13:57 to 14:56, nearest transit: Broadmoor Hotel, 68.55m away; Mountain Shadows Restaurant, visit from 19:51 to 21:00, nearest transit: Colorado/23rd, 76.10m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Katsuya, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Hollywood Walk of Fame, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Hollywood & Vine St., 17.12m away; Au Lac Dtla, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Palm - L.A. Downtown, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 5,
-      "current_city": "from Colorado Springs to Santa Fe",
-      "transportation": "Transfer, from Colorado Springs to Santa Fe",
-      "breakfast": "Marigold Cafe & Bakery, Colorado Springs",
-      "attraction": "Cosmo's Magic Theater, Colorado Springs",
-      "lunch": "La Bella Vita, Colorado Springs",
-      "dinner": "The Great British Food Company, Colorado Springs",
+      "current_city": "from Los Angeles to San Diego",
+      "transportation": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Buon Appetito, San Diego",
+      "attraction": "Point Loma, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Buon Appetito, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 11.40m away; Point Loma, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Cabrillo Memorial Hwy & McClelland Rd, 112.08m away; Casa Guadalajara, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Diego to Boston",
+      "transportation": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21",
+      "breakfast": "Mister A'S, San Diego",
+      "attraction": "Old Town San Diego, San Diego",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Marigold Cafe & Bakery, visit from 09:25 to 10:16, nearest transit: 4710 Centennial, 86.84m away; Cosmo's Magic Theater, visit from 11:30 to 14:50, nearest transit: GoG/Forge, 76.62m away; La Bella Vita, visit from 13:57 to 14:56, nearest transit: GoG/Northpark, 95.60m away; The Great British Food Company, visit from 19:51 to 21:00, nearest transit: 5901 Corporate, 99.95m away."
+      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Mister A'S, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 5th Av & Laurel St, 52.04m away; Old Town San Diego, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Juan St & Mason St, 127.04m away."
     }
   ]
 }

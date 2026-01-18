@@ -2,58 +2,120 @@
   "idx": 208,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Nashville",
       "counts": {
-        "attractions": 19,
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 69,
+        "events": 4
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "St. Louis",
-      "to": "Seattle",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0253112, from St. Louis to Seattle, Departure Time: 06:56, Arrival Time: 09:22"
+      "from": "Cleveland",
+      "to": "Nashville",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0061944, from Cleveland to Nashville, Departure Time: 06:28, Arrival Time: 06:50"
     },
     {
       "mode": "self-driving",
-      "from": "St. Louis",
-      "to": "Seattle",
+      "from": "Cleveland",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from St. Louis to Seattle, Not feasible to drive from St. Louis to Seattle"
+      "raw": "Self-driving, from Cleveland to Nashville, Duration: 583.6666666666666 mins, Distance: 838.057 km, Estimated Cost: $41.90"
     },
     {
       "mode": "taxi",
-      "from": "St. Louis",
-      "to": "Seattle",
+      "from": "Cleveland",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from St. Louis to Seattle, Not feasible to drive from St. Louis to Seattle"
+      "raw": "Taxi, from Cleveland to Nashville, Duration: 583.6666666666666 mins, Distance: 838.057 km, Estimated Cost: $838.06"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "St. Louis",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0254417, from Seattle to St. Louis, Departure Time: 18:02, Arrival Time: 00:07"
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "St. Louis",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Seattle to St. Louis, Not feasible to drive from Seattle to St. Louis"
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "St. Louis",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Seattle to St. Louis, Not feasible to drive from Seattle to St. Louis"
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Cleveland, Duration: 679.58 mins, Distance: 943.5034 km, Estimated Cost: $47.18"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Cleveland, Duration: 679.58 mins, Distance: 943.5034 km, Estimated Cost: $943.50"
     }
   ]
 }

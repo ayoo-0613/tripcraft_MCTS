@@ -1,65 +1,119 @@
 {
   "idx": 132,
   "JSON": {
-    "org": "Washington",
-    "dest": "Greensboro",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Colorado Springs",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "French"
+      ],
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 1650.0,
-    "query": "Plan a 3-day trip for 2 people from Washington to Greensboro from November 19th to November 21st, 2024, with a budget of $1,650.",
-    "level": "easy"
+    "budget": 7650.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Colorado Springs and visiting 3 cities in California between November 1st and November 7th, 2024. The budget is $7,650. Include French cuisine options in the plan.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Washington to Greensboro",
-      "transportation": "Taxi, from Washington to Greensboro, Duration: 357.2 mins, Distance: 497.61690000000004 km, Estimated Cost: $497.62",
-      "breakfast": "B. Christopher's, Greensboro",
-      "attraction": "International Civil Rights Center & Museum, Greensboro",
-      "lunch": "The Sage Mule, Greensboro",
-      "dinner": "Dames Chicken & Waffles, Greensboro",
-      "accommodation": "Peaceful Place, Greensboro",
+      "current_city": "from Colorado Springs to Los Angeles",
+      "transportation": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "breakfast": "Patina Restaurant, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles",
+      "lunch": "Katsuya, Los Angeles",
+      "dinner": "Au Lac Dtla, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; B. Christopher's, visit from 09:25 to 10:16, nearest transit: Elm/Friendly (Northbound), 22.34m away; International Civil Rights Center & Museum, visit from 11:30 to 15:20, nearest transit: International Civil Rights Museum, 3.98m away; The Sage Mule, visit from 13:57 to 14:56, nearest transit: Battleground/Wharton St, 22.50m away; Dames Chicken & Waffles, visit from 19:51 to 21:00, nearest transit: Gorrell/MLK, 24.89m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Patina Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Grand Ave & 2nd St, 62.65m away; Hollywood Walk of Fame, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Hollywood & Vine St., 17.12m away; Katsuya, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Hollywood & Vine St., 19.85m away; Au Lac Dtla, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: 1st St & Hope St, 37.19m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Greensboro to Greensboro",
-      "transportation": "Transfer, from Greensboro to Greensboro",
-      "breakfast": "Hops Burger Bar, Greensboro",
-      "attraction": "Ambleside Gallery, Greensboro",
-      "lunch": "1618 West Seafood Grill, Greensboro",
-      "dinner": "Mimi's Cafe, Greensboro",
-      "accommodation": "Peaceful Place, Greensboro",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Perch, Los Angeles",
+      "attraction": "The Broad, Los Angeles",
+      "lunch": "The Palm - L.A. Downtown, Los Angeles",
+      "dinner": "Leo & Lily, Los Angeles",
+      "accommodation": "Kasa Sunset | Deluxe King Studio in Hollywood, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Hops Burger Bar, visit from 09:25 to 10:16, nearest transit: Spring Garden/Howard (IB), 34.51m away; Ambleside Gallery, visit from 11:30 to 14:35, nearest transit: Elm/Lewis, 35.43m away; 1618 West Seafood Grill, visit from 13:57 to 14:56, nearest transit: West Friendly/Radiance Dr (OB), 39.88m away; Mimi's Cafe, visit from 19:51 to 21:00, nearest transit: West Friendly/Mimi's Restaurant, 40.77m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Perch, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Hill St & 5th St (Northbound), 65.01m away; The Broad, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away; The Palm - L.A. Downtown, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 11th St & Flower St, 51.84m away; Leo & Lily, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Sunset & Bronson Ave., 51.96m away."
     },
     {
       "days": 3,
-      "current_city": "from Greensboro to Washington",
-      "transportation": "Flight Number: F0127783, from Greensboro to Washington, Departure Time: 10:38, Arrival Time: 11:50",
+      "current_city": "from Los Angeles to Redding",
+      "transportation": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
-      "dinner": "-",
+      "dinner": "Jeff's California Cattle Company Restaurant, Redding",
+      "accommodation": "Charming modern studio space, bethel friendly, Redding",
+      "event": "-",
+      "point_of_interest_list": "Kasa Sunset | Deluxe King Studio in Hollywood, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Sunset & Bronson Ave., 51.96m away; Jeff's California Cattle Company Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Cypress Ave at Rosemary Ave, 13.15m away; Charming modern studio space, bethel friendly, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Eureka Way at Pioneer Dr, 99.64m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Redding to Redding",
+      "transportation": "Transfer, from Redding to Redding",
+      "breakfast": "Peter Chu's Skyroom, Redding",
+      "attraction": "The Healing Corner California, Redding",
+      "lunch": "Cicada Cantina, Redding",
+      "dinner": "Thai Hut, Redding",
+      "accommodation": "Charming modern studio space, bethel friendly, Redding",
+      "event": "-",
+      "point_of_interest_list": "Charming modern studio space, bethel friendly, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Eureka Way at Pioneer Dr, 99.64m away; Peter Chu's Skyroom, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Redding Regional Airport, 24.57m away; The Healing Corner California, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:20, nearest transit: Court St at Sonoma St, 38.95m away; Cicada Cantina, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Hilltop Dr at Presidio St, 30.32m away; Thai Hut, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Hartnell Ave at Arcade Way, 39.41m away; Charming modern studio space, bethel friendly, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Eureka Way at Pioneer Dr, 99.64m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Redding to San Luis Obispo",
+      "transportation": "Transfer, from Redding to San Luis Obispo",
+      "breakfast": "Apple Farm Restaurant, San Luis Obispo",
+      "attraction": "Farmers Market, San Luis Obispo",
+      "lunch": "Sidecar, San Luis Obispo",
+      "dinner": "1865 Craft House and Kitchen, San Luis Obispo",
+      "accommodation": "The Downtown House SLO with Private Parking, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Charming modern studio space, bethel friendly, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Eureka Way at Pioneer Dr, 99.64m away; Apple Farm Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Monterey @ Peach Tree Inn, 45.99m away; Farmers Market, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Sidecar, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 54.77m away; 1865 Craft House and Kitchen, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Monterey & Grand, 55.98m away; The Downtown House SLO with Private Parking, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Santa Rosa & Higuera, 175.68m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Lure Fish House, San Luis Obispo",
+      "attraction": "Bubblegum Alley, San Luis Obispo",
+      "lunch": "Koberl At Blue, San Luis Obispo",
+      "dinner": "La Locanda, San Luis Obispo",
+      "accommodation": "The Downtown House SLO with Private Parking, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "The Downtown House SLO with Private Parking, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Santa Rosa & Higuera, 175.68m away; Lure Fish House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 83.37m away; Bubblegum Alley, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 15:20, nearest transit: Marsh & Broad, 136.91m away; Koberl At Blue, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Government Center, 100.82m away; La Locanda, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 114.39m away; The Downtown House SLO with Private Parking, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Santa Rosa & Higuera, 175.68m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Luis Obispo to Colorado Springs",
+      "transportation": "Transfer, from San Luis Obispo to Colorado Springs",
+      "breakfast": "Buona Tavola, San Luis Obispo",
+      "attraction": "Performing Arts Center San Luis Obispo, San Luis Obispo",
+      "lunch": "F.McLintocks Saloon, San Luis Obispo",
+      "dinner": "Novo Restaurant & Lounge, San Luis Obispo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+      "point_of_interest_list": "The Downtown House SLO with Private Parking, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Santa Rosa & Higuera, 175.68m away; Buona Tavola, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 120.94m away; Performing Arts Center San Luis Obispo, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 14:50, nearest transit: Cal Poly Performing Arts Center, 149.78m away; F.McLintocks Saloon, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 131.97m away; Novo Restaurant & Lounge, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 140.28m away."
     }
   ]
 }

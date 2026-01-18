@@ -2,21 +2,31 @@
   "idx": 34,
   "stages": [
     {
-      "city": "Durango",
+      "city": "San Francisco",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 73,
-        "events": 1
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "Colorado Springs",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Santa Fe",
-      "to": "Durango",
-      "date": "2024-11-01",
-      "raw": "-"
+      "from": "Boston",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0241123, from Boston to San Francisco, Departure Time: 18:58, Arrival Time: 22:33"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Fe",
-      "to": "Durango",
+      "from": "Boston",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $19.51"
+      "raw": "Self-driving, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco"
     },
     {
       "mode": "taxi",
-      "from": "Santa Fe",
-      "to": "Durango",
+      "from": "Boston",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14"
+      "raw": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Colorado Springs",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Colorado Springs",
+      "from": "San Francisco",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $25.30"
+      "raw": "Self-driving, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $30.66"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Colorado Springs",
+      "from": "San Francisco",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $506.09"
+      "raw": "Taxi, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $613.27"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Santa Fe",
-      "date": "2024-11-05",
-      "raw": "-"
+      "from": "Los Angeles",
+      "to": "San Diego",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Santa Fe",
+      "from": "Los Angeles",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $26.10"
+      "raw": "Self-driving, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $9.66"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Santa Fe",
+      "from": "Los Angeles",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $522.04"
+      "raw": "Taxi, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $193.22"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Boston",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Boston",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Boston, Not feasible to drive from San Diego to Boston"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Boston",
+      "date": null,
+      "raw": "Taxi, from San Diego to Boston, Not feasible to drive from San Diego to Boston"
     }
   ]
 }

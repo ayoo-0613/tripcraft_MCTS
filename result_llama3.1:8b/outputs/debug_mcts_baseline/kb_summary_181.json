@@ -2,7 +2,27 @@
   "idx": 181,
   "stages": [
     {
-      "city": "Charlotte",
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Santa Rosa",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Valparaiso",
-      "to": "Charlotte",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0184260, from Valparaiso to Charlotte, Departure Time: 18:31, Arrival Time: 20:51"
+      "from": "Reno",
+      "to": "Monterey",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Valparaiso",
-      "to": "Charlotte",
+      "from": "Reno",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from Valparaiso to Charlotte, Duration: 839.0333333333333 mins, Distance: 1153.1453000000001 km, Estimated Cost: $57.66"
+      "raw": "Self-driving, from Reno to Monterey, Duration: 443.65166666666664 mins, Distance: 567.2126999999999 km, Estimated Cost: $28.36"
     },
     {
       "mode": "taxi",
-      "from": "Valparaiso",
-      "to": "Charlotte",
+      "from": "Reno",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from Valparaiso to Charlotte, Duration: 839.0333333333333 mins, Distance: 1153.1453000000001 km, Estimated Cost: $1153.15"
+      "raw": "Taxi, from Reno to Monterey, Duration: 443.65166666666664 mins, Distance: 567.2126999999999 km, Estimated Cost: $567.21"
     },
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Valparaiso",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0184232, from Charlotte to Valparaiso, Departure Time: 13:11, Arrival Time: 13:51"
+      "from": "Monterey",
+      "to": "San Diego",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0451062, from Monterey to San Diego, Departure Time: 10:54, Arrival Time: 12:15"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Valparaiso",
+      "from": "Monterey",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Valparaiso, Duration: 836.4466666666667 mins, Distance: 1151.8786 km, Estimated Cost: $57.59"
+      "raw": "Self-driving, from Monterey to San Diego, Duration: 500.13 mins, Distance: 644.8295 km, Estimated Cost: $32.24"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Valparaiso",
+      "from": "Monterey",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Charlotte to Valparaiso, Duration: 836.4466666666667 mins, Distance: 1151.8786 km, Estimated Cost: $1151.88"
+      "raw": "Taxi, from Monterey to San Diego, Duration: 500.13 mins, Distance: 644.8295 km, Estimated Cost: $644.83"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0452398, from San Diego to Santa Rosa, Departure Time: 17:11, Arrival Time: 18:54"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Santa Rosa, Duration: 618.3266666666666 mins, Distance: 881.251 km, Estimated Cost: $44.06"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Taxi, from San Diego to Santa Rosa, Duration: 618.3266666666666 mins, Distance: 881.251 km, Estimated Cost: $881.25"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to Reno, Duration: 271.56166666666667 mins, Distance: 363.23359999999997 km, Estimated Cost: $18.16"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to Reno, Duration: 271.56166666666667 mins, Distance: 363.23359999999997 km, Estimated Cost: $363.23"
     }
   ]
 }

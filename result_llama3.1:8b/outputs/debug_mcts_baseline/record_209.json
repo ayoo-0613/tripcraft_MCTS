@@ -1,73 +1,124 @@
 {
   "idx": 209,
   "JSON": {
-    "org": "Everett",
-    "dest": "San Diego",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Charlotte",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-27",
-      "2024-11-28",
-      "2024-11-29"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 2,
+    "people_number": 6,
     "local_constraint": {
-      "house rule": "smoking",
+      "house rule": "pets",
       "cuisine": [
-        "Chinese",
         "Mexican",
-        "Italian",
-        "Bar"
+        "American",
+        "Italian"
       ],
-      "room type": "not shared room",
+      "room type": null,
       "transportation": null,
-      "event": null,
-      "attraction": [
-        "Outdoor Activities",
-        "Museums"
-      ]
+      "event": [
+        "Sports",
+        "Arts & Theatre"
+      ],
+      "attraction": null
     },
-    "budget": 1950.0,
-    "query": "Plan a 3-day trip for 2 people from Everett to San Diego from November 27th to November 29th, 2024, with a budget of $1,950. Accommodations should be in a non-shared room and allow smoking. Include dining options featuring Chinese, Mexican, Italian cuisines, and bars. The itinerary should also feature outdoor activities and visits to museums.",
+    "budget": 14850.0,
+    "query": "Design a comprehensive 7-day travel itinerary for 6 people traveling from Charlotte to explore 3 cities in Tennessee from November 6th to November 12th, 2024. The budget is $14,850. Accommodations should allow pets. Include dining options featuring Mexican, American, and Italian cuisines. The plan should also incorporate attending sports and arts & theatre events.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Everett to San Diego",
-      "transportation": "Flight Number: F0515548, from Everett to San Diego, Departure Time: 10:02, Arrival Time: 12:48",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "Buon Appetito, San Diego",
-      "dinner": "Casa Guadalajara, San Diego",
-      "accommodation": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, San Diego",
-      "event": "-",
-      "point_of_interest_list": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 08:00 to 09:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away; Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 13:18 to 14:18, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away; Buon Appetito, visit from 13:57 to 14:56, nearest transit: India St & Cedar St, 11.40m away; Casa Guadalajara, visit from 19:51 to 21:00, nearest transit: Taylor St & Juan St, 50.62m away; Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 22:15 to 08:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away."
+      "current_city": "from Charlotte to Chattanooga",
+      "transportation": "Taxi, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $508.61",
+      "breakfast": "HiFi Clyde's Chattanooga, Chattanooga",
+      "attraction": "Chattanooga Whiskey Experimental Distillery, Chattanooga",
+      "lunch": "Mayan Kitchen, Chattanooga",
+      "dinner": "Community Pie, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
+      "event": "How to Defend Yourself, Chattanooga",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; HiFi Clyde's Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: MAIN + WILLIAMS, 21.15m away; Chattanooga Whiskey Experimental Distillery, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:50, nearest transit: MARKET + CHOO CHOO, 29.39m away; Mayan Kitchen, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROAD + 5TH, 15.62m away; Community Pie, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: MARKET + M.L.KING, 20.76m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 2,
-      "current_city": "from San Diego to San Diego",
-      "transportation": "Transfer, from San Diego to San Diego",
-      "breakfast": "Din Tai Fung, San Diego",
-      "attraction": "Birch Aquarium at Scripps, San Diego",
-      "lunch": "Pacific Beach AleHouse, San Diego",
-      "dinner": "Bencotto Italian Kitchen, San Diego",
-      "accommodation": "Central & Serene Secret Garden Guesthouse, San Diego",
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Maple Street Biscuit Company - City Center, Chattanooga",
+      "attraction": "Moon Pie General Store, Chattanooga",
+      "lunch": "Alleia, Chattanooga",
+      "dinner": "Molcajete Mexican Restaurant, Chattanooga",
+      "accommodation": "New Town House in Historic District of Chattanooga, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Din Tai Fung, visit from 09:25 to 10:16, nearest transit: La Jolla Village Dr & Genesee Av, 68.36m away; Birch Aquarium at Scripps, visit from 11:30 to 15:40, nearest transit: La Jolla Shores Dr & Scripps Institute, 135.62m away; Pacific Beach AleHouse, visit from 13:57 to 14:56, nearest transit: Mission Bl & Thomas Av, 87.26m away; Bencotto Italian Kitchen, visit from 19:51 to 21:00, nearest transit: Kettner Bl & Grape St, 101.75m away; Central & Serene Secret Garden Guesthouse, stay from 22:15 to 08:00, nearest transit: Adams Av & Biona Dr, 102.11m away."
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Maple Street Biscuit Company - City Center, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROAD + 4TH, 19.08m away; Moon Pie General Store, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: Broad & Jack's Alley, 46.95m away; Alleia, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Main & Market Outbound, 49.84m away; Molcajete Mexican Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: LEE HWY + PERIMETER, 282.66m away; New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S MARKET + 17TH, 37.73m away."
     },
     {
       "days": 3,
-      "current_city": "from San Diego to Everett",
-      "transportation": "Taxi, from San Diego to Everett, Not feasible to drive from San Diego to Everett",
-      "breakfast": "Cowboy Star, San Diego",
-      "attraction": "Mission Beach, San Diego",
-      "lunch": "Mister A'S, San Diego",
-      "dinner": "Ironside Fish & Oyster, San Diego",
+      "current_city": "from Chattanooga to Memphis",
+      "transportation": "Transfer, from Chattanooga to Memphis",
+      "breakfast": "Payne's Bar-B-Que, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Central BBQ, Memphis",
+      "dinner": "Blues City Cafe, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "New Town House in Historic District of Chattanooga, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S MARKET + 17TH, 37.73m away; Payne's Bar-B-Que, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: LAMAR AVE@SEATTLE, 20.86m away; Memphis Zoo, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Central BBQ, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away; Blues City Cafe, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: SECOND@BEALE, 21.42m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Beale Street, Memphis",
+      "lunch": "Corky's Ribs & BBQ, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Majestic Grille, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Beale Street, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Corky's Ribs & BBQ, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: POPLAR@PELHAM DR, 43.73m away; Cozy Corner, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Ole Red, Nashville",
+      "attraction": "Tennessee State Museum, Nashville",
+      "lunch": "Pelato, Nashville",
+      "dinner": "Gannons Nashville, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Clean and Cozy Cottage in Heart of Memphis, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: BELLEVUE@CENTRAL, 37.37m away; Ole Red, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Tennessee State Museum, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 8TH AVE N & JEFFERSON ST SB, 40.17m away; Pelato, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Gannons Nashville, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Puckett's 5th & Church, Nashville",
+      "attraction": "The Johnny Cash Museum, Nashville",
+      "lunch": "Deacon’s New South, Nashville",
+      "dinner": "Caney Fork River Valley Grille, Nashville",
+      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "event": "-",
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Puckett's 5th & Church, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; The Johnny Cash Museum, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: BROADWAY AVE & 3RD AVE WB, 76.93m away; Deacon’s New South, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; Caney Fork River Valley Grille, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Charlotte",
+      "transportation": "Flight Number: F0039981, from Nashville to Charlotte, Departure Time: 16:35, Arrival Time: 18:52",
+      "breakfast": "Miranda Lambert's Casa Rosa, Nashville",
+      "attraction": "Ryman Auditorium, Nashville",
+      "lunch": "The Stillery, Nashville",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Central & Serene Secret Garden Guesthouse, stay from 08:00 to 09:00, nearest transit: Adams Av & Biona Dr, 102.11m away; Cowboy Star, visit from 09:25 to 10:16, nearest transit: 10th Av & Market St, 50.81m away; Mission Beach, visit from 11:30 to 16:35, nearest transit: W Mission Bay Dr & Mission Bl, 219.18m away; Mister A'S, visit from 13:57 to 14:56, nearest transit: 5th Av & Laurel St, 52.04m away; Ironside Fish & Oyster, visit from 19:51 to 21:00, nearest transit: India St & Cedar St, 57.08m away."
+      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Miranda Lambert's Casa Rosa, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; Ryman Auditorium, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; The Stillery, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away."
     }
   ]
 }

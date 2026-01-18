@@ -1,65 +1,117 @@
 {
   "idx": 325,
   "JSON": {
-    "org": "Charleston",
-    "dest": "Houston",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Valparaiso",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-18",
-      "2024-11-19",
-      "2024-11-20"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": null,
+      "transportation": "no flight",
       "event": null,
-      "attraction": null
+      "attraction": "Museums"
     },
-    "budget": 1650.0,
-    "query": "Plan a 3-day trip for 1 person from Charleston to Houston from November 18th to November 20th, 2024, with a budget of $1,650.",
-    "level": "easy"
+    "budget": 16700.0,
+    "query": "Design a 7-day travel itinerary for 2 people starting from Valparaiso and visiting 3 cities in Iowa between November 4th and November 10th, 2024. The budget is $16,700. The trip should avoid flights and include visits to museums as attractions.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Charleston to Houston",
-      "transportation": "Flight Number: F0095237, from Charleston to Houston, Departure Time: 15:25, Arrival Time: 16:56",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Phoenicia Specialty Foods, Houston",
-      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "current_city": "from Valparaiso to Cedar Rapids",
+      "transportation": "Taxi, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $451.37",
+      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
+      "attraction": "The History Center, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "El Bajio, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 17:26 to 18:26, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Phoenicia Specialty Foods, visit from 19:51 to 21:00, nearest transit: Lamar St @ Austin St, 9.87m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Parlor City Pub & Eatery, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; The History Center, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; The Breakfast House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Houston to Houston",
-      "transportation": "Transfer, from Houston to Houston",
-      "breakfast": "Niko Niko's Greek, Houston",
-      "attraction": "Rodeo Houston or Houston Livestock Show and Rodeo, Houston; National Museum of Funeral History, Houston",
-      "lunch": "Houston's, Houston",
-      "dinner": "Hugo's, Houston",
-      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "Cedar Rapids Museum of Art, Cedar Rapids",
+      "lunch": "Lucky's on 16th, Cedar Rapids",
+      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Niko Niko's Greek, visit from 09:25 to 10:16, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Rodeo Houston or Houston Livestock Show and Rodeo, visit from 11:30 to 13:57, nearest transit: Kirby Dr @ McNee Rd, 46.85m away; Houston's, visit from 13:57 to 14:56, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; National Museum of Funeral History, visit from 16:30 to 18:57, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Hugo's, visit from 19:51 to 21:00, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Cedar Rapids Museum of Art, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: 3rd Ave & RR tracks, 50.82m away; Lucky's on 16th, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Houston to Charleston",
-      "transportation": "Flight Number: F0022957, from Houston to Charleston, Departure Time: 11:21, Arrival Time: 14:26",
-      "breakfast": "Uchi Houston, Houston",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Cedar Rapids to Fort Dodge",
+      "transportation": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78",
+      "breakfast": "Taco Tico, Fort Dodge",
+      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Larita's Cakes 'N More, Fort Dodge",
+      "dinner": "Sneakers Eatry and Pub, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Taco Tico, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; The Fort Museum & Frontier Village, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Central Ave and S 13th St, 60.64m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Blanden Art Museum, Fort Dodge",
+      "lunch": "Sports Page, Fort Dodge",
+      "dinner": "Tea Thyme & Thyme to Shop, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Blanden Art Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: 3rd Ave S and S 9th St, 75.70m away; Sports Page, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Tea Thyme & Thyme to Shop, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 6th Ave S and S 21st St, 84.15m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Fort Dodge to Sioux City",
+      "transportation": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Palmer's Olde Tyme Candy Shoppe, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; Miles Inn, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "Sioux City Art Center, Sioux City",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Sioux City Art Center, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Nebraska St & 3rd St, 59.94m away; El Fredo Pizza, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Sioux City to Valparaiso",
+      "transportation": "Taxi, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $911.66",
+      "breakfast": "Trattoria Fresco, Sioux City",
+      "attraction": "Sioux City Public Museum, Sioux City",
+      "lunch": "Pete's Thai On 5th, Sioux City",
+      "dinner": "Main + Abbey, Sioux City",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Uchi Houston, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away."
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Trattoria Fresco, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Pierce St & 4th St, 54.17m away; Sioux City Public Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: MLK Transportation Center, 136.60m away; Pete's Thai On 5th, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: MLK Transportation Center, 58.78m away; Main + Abbey, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 3rd & Pearl St, 71.46m away."
     }
   ]
 }

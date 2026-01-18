@@ -2,12 +2,32 @@
   "idx": 319,
   "stages": [
     {
-      "city": "Las Vegas",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 19,
+        "attractions": 14,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 14
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
+        "events": 2
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Hartford",
-      "to": "Las Vegas",
-      "date": "2024-11-04",
-      "raw": "Flight Number: F0270992, from Hartford to Las Vegas, Departure Time: 19:00, Arrival Time: 21:44"
+      "from": "Mission",
+      "to": "Chattanooga",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Hartford",
-      "to": "Las Vegas",
+      "from": "Mission",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Hartford to Las Vegas, Not feasible to drive from Hartford to Las Vegas"
+      "raw": "Self-driving, from Mission to Chattanooga, Duration: 1305.8983333333333 mins, Distance: 1883.6641000000002 km, Estimated Cost: $94.18"
     },
     {
       "mode": "taxi",
-      "from": "Hartford",
-      "to": "Las Vegas",
+      "from": "Mission",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Hartford to Las Vegas, Not feasible to drive from Hartford to Las Vegas"
+      "raw": "Taxi, from Mission to Chattanooga, Duration: 1305.8983333333333 mins, Distance: 1883.6641000000002 km, Estimated Cost: $1883.66"
     },
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Hartford",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0269716, from Las Vegas to Hartford, Departure Time: 23:49, Arrival Time: 07:22"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Hartford",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Hartford, Not feasible to drive from Las Vegas to Hartford"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Hartford",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Hartford, Not feasible to drive from Las Vegas to Hartford"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": "2024-11-14",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Mission, Duration: 1024.8366666666666 mins, Distance: 1481.7513000000001 km, Estimated Cost: $74.09"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Mission",
+      "date": null,
+      "raw": "Taxi, from Memphis to Mission, Duration: 1024.8366666666666 mins, Distance: 1481.7513000000001 km, Estimated Cost: $1481.75"
     }
   ]
 }

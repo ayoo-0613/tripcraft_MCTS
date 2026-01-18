@@ -2,58 +2,120 @@
   "idx": 122,
   "stages": [
     {
-      "city": "Hartford",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 17,
+        "attractions": 7,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 73,
+        "poi2transit": 63,
+        "events": 13
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
         "events": 0
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Hartford",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0530437, from Houston to Hartford, Departure Time: 18:42, Arrival Time: 22:55"
+      "from": "Chicago",
+      "to": "Fort Dodge",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0497830, from Chicago to Fort Dodge, Departure Time: 07:42, Arrival Time: 09:05"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Hartford",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Houston to Hartford, Not feasible to drive from Houston to Hartford"
+      "raw": "Self-driving, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $29.64"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Hartford",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Houston to Hartford, Not feasible to drive from Houston to Hartford"
+      "raw": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
     },
     {
       "mode": "flight",
-      "from": "Hartford",
-      "to": "Houston",
-      "date": "2024-11-28",
-      "raw": "Flight Number: F0521297, from Hartford to Houston, Departure Time: 09:30, Arrival Time: 12:11"
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-13",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Hartford",
-      "to": "Houston",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Hartford to Houston, Not feasible to drive from Hartford to Houston"
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
     },
     {
       "mode": "taxi",
-      "from": "Hartford",
-      "to": "Houston",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Hartford to Houston, Not feasible to drive from Hartford to Houston"
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": "2024-11-15",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $16.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $332.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $28.42"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $568.32"
     }
   ]
 }

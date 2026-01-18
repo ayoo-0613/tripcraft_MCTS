@@ -1,65 +1,120 @@
 {
   "idx": 139,
   "JSON": {
-    "org": "Denver",
-    "dest": "Hartford",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Detroit",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-03",
-      "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": null,
-      "transportation": null,
+      "house rule": "pets",
+      "cuisine": "American",
+      "room type": "entire home",
+      "transportation": "no flight",
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Museum",
+        "Sights & Landmarks"
+      ]
     },
-    "budget": 2900.0,
-    "query": "Plan a 3-day trip for 2 people from Denver to Hartford from November 3rd to November 5th, 2024, with a budget of $2,900.",
-    "level": "easy"
+    "budget": 7950.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Detroit and visiting 3 cities in Iowa between November 5th and November 11th, 2024. The budget is $7,950. Accommodations should be in an entire home that allows pets. The trip should include American cuisine options and visits to museums and sights & landmarks. Transportation should exclude flights.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Hartford",
-      "transportation": "Taxi, from Denver to Hartford, Not feasible to drive from Denver to Hartford",
-      "breakfast": "Black-Eyed Sally's Southern Kitchen, Hartford",
-      "attraction": "Bushnell Park, Hartford",
-      "lunch": "Agave Grill, Hartford",
-      "dinner": "Max Downtown, Hartford",
-      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, Hartford",
+      "current_city": "from Detroit to Cedar Rapids",
+      "transportation": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09",
+      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
+      "attraction": "Grant Wood Window in Veteran's Memorial Auditorium, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "El Bajio, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away; Black-Eyed Sally's Southern Kitchen, visit from 09:25 to 10:16, nearest transit: Hartford, 224.35m away; Bushnell Park, visit from 11:30 to 16:35, nearest transit: Hartford, 407.05m away; Agave Grill, visit from 13:57 to 14:56, nearest transit: Hartford, 315.85m away; Max Downtown, visit from 19:51 to 21:00, nearest transit: Hartford, 465.48m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 22:15 to 08:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Parlor City Pub & Eatery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; Grant Wood Window in Veteran's Memorial Auditorium, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: 2nd Ave at Vets Mem, 56.08m away; The Breakfast House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 2,
-      "current_city": "from Hartford to Hartford",
-      "transportation": "Transfer, from Hartford to Hartford",
-      "breakfast": "Trumbull Kitchen, Hartford",
-      "attraction": "TheaterWorks, Hartford",
-      "lunch": "Feng Chophouse, Hartford",
-      "dinner": "Salute, Hartford",
-      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, Hartford",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "Grant Wood Studio, Cedar Rapids",
+      "lunch": "Lucky's on 16th, Cedar Rapids",
+      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away; Trumbull Kitchen, visit from 09:25 to 10:16, nearest transit: Hartford, 569.08m away; TheaterWorks, visit from 11:30 to 14:50, nearest transit: Hartford, 426.41m away; Feng Chophouse, visit from 13:57 to 14:56, nearest transit: Hartford, 591.36m away; Salute, visit from 19:51 to 21:00, nearest transit: Hartford, 599.22m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 22:15 to 08:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Grant Wood Studio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 66.36m away; Lucky's on 16th, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Hartford to Denver",
-      "transportation": "Flight Number: F0552426, from Hartford to Denver, Departure Time: 07:33, Arrival Time: 09:59",
-      "breakfast": "-",
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Trinity Heights, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Trinity Heights, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Miles Inn, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "Sergeant Floyd Monument, Sioux City",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Sergeant Floyd Monument, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: 3rd St & Lewis Blvd, 292.28m away; El Fredo Pizza, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to Fort Dodge",
+      "transportation": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03",
+      "breakfast": "Taco Tico, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Larita's Cakes 'N More, Fort Dodge",
+      "dinner": "Sneakers Eatry and Pub, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Taco Tico, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; Community Orchard, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Central Ave and S 13th St, 60.64m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
       "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "lunch": "Sports Page, Fort Dodge",
+      "dinner": "Tea Thyme & Thyme to Shop, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Sports Page, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Tea Thyme & Thyme to Shop, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: 6th Ave S and S 21st St, 84.15m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Fort Dodge to Detroit",
+      "transportation": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99",
+      "breakfast": "Olde Boston's Restaurant & Pub, Fort Dodge",
+      "attraction": "-",
+      "lunch": "Dariette, Fort Dodge",
+      "dinner": "Tom Thumb Drive Inn, Fort Dodge",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 06:03 to 07:03, nearest transit: Hartford, 822.77m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Olde Boston's Restaurant & Pub, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Trolley Center, 85.16m away; Dariette, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: N 11th St and Central Ave, 88.99m away; Tom Thumb Drive Inn, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: A St and Ave O W, 90.84m away."
     }
   ]
 }

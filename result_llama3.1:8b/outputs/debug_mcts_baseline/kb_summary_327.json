@@ -2,58 +2,120 @@
   "idx": 327,
   "stages": [
     {
-      "city": "Nashville",
+      "city": "Mason City",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 3
+        "poi2transit": 74,
+        "events": 11
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 1
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Sioux Falls",
-      "to": "Nashville",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0374728, from Sioux Falls to Nashville, Departure Time: 20:07, Arrival Time: 22:03"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Sioux Falls",
-      "to": "Nashville",
-      "date": null,
-      "raw": "Self-driving, from Sioux Falls to Nashville, Duration: 1003.3666666666667 mins, Distance: 1481.1742 km, Estimated Cost: $74.06"
-    },
-    {
-      "mode": "taxi",
-      "from": "Sioux Falls",
-      "to": "Nashville",
-      "date": null,
-      "raw": "Taxi, from Sioux Falls to Nashville, Duration: 1003.3666666666667 mins, Distance: 1481.1742 km, Estimated Cost: $1481.17"
-    },
-    {
-      "mode": "flight",
-      "from": "Nashville",
-      "to": "Sioux Falls",
-      "date": "2024-11-27",
+      "from": "Valparaiso",
+      "to": "Mason City",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Nashville",
-      "to": "Sioux Falls",
+      "from": "Valparaiso",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Nashville to Sioux Falls, Duration: 1007.0416666666666 mins, Distance: 1481.2943 km, Estimated Cost: $74.06"
+      "raw": "Self-driving, from Valparaiso to Mason City, Duration: 487.33 mins, Distance: 673.1555999999999 km, Estimated Cost: $33.66"
     },
     {
       "mode": "taxi",
-      "from": "Nashville",
-      "to": "Sioux Falls",
+      "from": "Valparaiso",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Nashville to Sioux Falls, Duration: 1007.0416666666666 mins, Distance: 1481.2943 km, Estimated Cost: $1481.29"
+      "raw": "Taxi, from Valparaiso to Mason City, Duration: 487.33 mins, Distance: 673.1555999999999 km, Estimated Cost: $673.16"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $11.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": "2024-11-14",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $45.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $911.66"
     }
   ]
 }

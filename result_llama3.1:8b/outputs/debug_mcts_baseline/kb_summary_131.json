@@ -2,12 +2,32 @@
   "idx": 131,
   "stages": [
     {
-      "city": "Charleston",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 18,
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 21
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
+        "events": 1
+      }
+    },
+    {
+      "city": "Bristol",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Charleston",
-      "date": "2024-11-16",
-      "raw": "Flight Number: F0327993, from Detroit to Charleston, Departure Time: 10:13, Arrival Time: 11:59"
+      "from": "Valparaiso",
+      "to": "Chattanooga",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Charleston",
+      "from": "Valparaiso",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $68.39"
+      "raw": "Self-driving, from Valparaiso to Chattanooga, Duration: 633.575 mins, Distance: 869.2596 km, Estimated Cost: $43.46"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Charleston",
+      "from": "Valparaiso",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Detroit to Charleston, Duration: 971.7833333333333 mins, Distance: 1367.8788 km, Estimated Cost: $1367.88"
+      "raw": "Taxi, from Valparaiso to Chattanooga, Duration: 633.575 mins, Distance: 869.2596 km, Estimated Cost: $869.26"
     },
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Detroit",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0331807, from Charleston to Detroit, Departure Time: 05:45, Arrival Time: 07:43"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Detroit",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Charleston to Detroit, Duration: 973.1650000000001 mins, Distance: 1366.5701000000001 km, Estimated Cost: $68.33"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Detroit",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Charleston to Detroit, Duration: 973.1650000000001 mins, Distance: 1366.5701000000001 km, Estimated Cost: $1366.57"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Bristol",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Bristol, Duration: 319.115 mins, Distance: 467.80559999999997 km, Estimated Cost: $23.39"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Taxi, from Nashville to Bristol, Duration: 319.115 mins, Distance: 467.80559999999997 km, Estimated Cost: $467.81"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Bristol to Valparaiso, Duration: 654.4283333333333 mins, Distance: 914.0614 km, Estimated Cost: $45.70"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Bristol to Valparaiso, Duration: 654.4283333333333 mins, Distance: 914.0614 km, Estimated Cost: $914.06"
     }
   ]
 }

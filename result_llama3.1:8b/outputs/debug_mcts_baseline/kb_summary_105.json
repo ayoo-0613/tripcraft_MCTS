@@ -2,58 +2,120 @@
   "idx": 105,
   "stages": [
     {
-      "city": "Baltimore",
+      "city": "Everett",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 18,
         "poi2transit": 75,
-        "events": 3
+        "events": 1
+      }
+    },
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Yakima",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 74,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Portland",
-      "to": "Baltimore",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0060549, from Portland to Baltimore, Departure Time: 05:42, Arrival Time: 07:07"
+      "from": "Sacramento",
+      "to": "Everett",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Portland",
-      "to": "Baltimore",
+      "from": "Sacramento",
+      "to": "Everett",
       "date": null,
-      "raw": "Self-driving, from Portland to Baltimore, Not feasible to drive from Portland to Baltimore"
+      "raw": "Self-driving, from Sacramento to Everett, Duration: 905.6966666666667 mins, Distance: 1256.0838999999999 km, Estimated Cost: $62.80"
     },
     {
       "mode": "taxi",
-      "from": "Portland",
-      "to": "Baltimore",
+      "from": "Sacramento",
+      "to": "Everett",
       "date": null,
-      "raw": "Taxi, from Portland to Baltimore, Not feasible to drive from Portland to Baltimore"
+      "raw": "Taxi, from Sacramento to Everett, Duration: 905.6966666666667 mins, Distance: 1256.0838999999999 km, Estimated Cost: $1256.08"
     },
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Portland",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0065449, from Baltimore to Portland, Departure Time: 22:08, Arrival Time: 23:46"
+      "from": "Everett",
+      "to": "Seattle",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Portland",
+      "from": "Everett",
+      "to": "Seattle",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Portland, Not feasible to drive from Baltimore to Portland"
+      "raw": "Self-driving, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $2.34"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Portland",
+      "from": "Everett",
+      "to": "Seattle",
       "date": null,
-      "raw": "Taxi, from Baltimore to Portland, Not feasible to drive from Baltimore to Portland"
+      "raw": "Taxi, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $46.81"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "Yakima",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "Yakima",
+      "date": null,
+      "raw": "Self-driving, from Seattle to Yakima, Duration: 163.36833333333334 mins, Distance: 229.5105 km, Estimated Cost: $11.48"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "Yakima",
+      "date": null,
+      "raw": "Taxi, from Seattle to Yakima, Duration: 163.36833333333334 mins, Distance: 229.5105 km, Estimated Cost: $229.51"
+    },
+    {
+      "mode": "flight",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Self-driving, from Yakima to Sacramento, Duration: 781.63 mins, Distance: 1052.5548999999999 km, Estimated Cost: $52.63"
+    },
+    {
+      "mode": "taxi",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Taxi, from Yakima to Sacramento, Duration: 781.63 mins, Distance: 1052.5548999999999 km, Estimated Cost: $1052.55"
     }
   ]
 }

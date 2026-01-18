@@ -1,65 +1,117 @@
 {
   "idx": 119,
   "JSON": {
-    "org": "Bend",
-    "dest": "Las Vegas",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Denver",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-04",
       "2024-11-05",
-      "2024-11-06"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
-    "people_number": 6,
+    "people_number": 4,
     "local_constraint": {
-      "house rule": "parties",
+      "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "entire home",
       "event": null,
       "attraction": null,
       "transportation": null
     },
-    "budget": 6900.0,
-    "query": "Plan a 3-day trip for 6 people from Bend to Las Vegas from November 4th to November 6th, 2024, with a budget of $6,900. The trip should adhere to house rules that do not allow parties.",
+    "budget": 25200.0,
+    "query": "Plan a 7-day trip for 4 people traveling from Denver to explore 3 cities in Iowa between November 5th and November 11th, 2024. The budget is $25,200, and accommodations should include an entire home.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Bend to Las Vegas",
-      "transportation": "Taxi, from Bend to Las Vegas, Duration: 929.025 mins, Distance: 1318.6475 km, Estimated Cost: $1318.65",
-      "breakfast": "Triple George Grill, Las Vegas",
-      "attraction": "The Mob Museum, Las Vegas",
-      "lunch": "Top of the World, Las Vegas",
-      "dinner": "Garden Court, Las Vegas",
-      "accommodation": "Cozy Casita+Private Patio+grill, Las Vegas",
+      "current_city": "from Denver to Fort Dodge",
+      "transportation": "Taxi, from Denver to Fort Dodge, Duration: 762.6733333333334 mins, Distance: 1124.1338 km, Estimated Cost: $1124.13",
+      "breakfast": "Taco Tico, Fort Dodge",
+      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Larita's Cakes 'N More, Fort Dodge",
+      "dinner": "Sneakers Eatry and Pub, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; Triple George Grill, visit from 09:25 to 10:16, nearest transit: Mob Museum, 87.09m away; The Mob Museum, visit from 11:30 to 15:20, nearest transit: Mob Museum, 48.14m away; Top of the World, visit from 13:57 to 14:56, nearest transit: The Strat, 140.60m away; Garden Court, visit from 19:51 to 21:00, nearest transit: Circa, 185.80m away; Cozy Casita+Private Patio+grill, stay from 22:15 to 08:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Taco Tico, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; The Fort Museum & Frontier Village, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Central Ave and S 13th St, 60.64m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Las Vegas to Las Vegas",
-      "transportation": "Transfer, from Las Vegas to Las Vegas",
-      "breakfast": "Vic & Anthony's Steakhouse, Las Vegas",
-      "attraction": "Las Vegas North Premium Outlets, Las Vegas",
-      "lunch": "Ameribrunch Cafe, Las Vegas",
-      "dinner": "Golden Steer Steakhouse Las Vegas, Las Vegas",
-      "accommodation": "Cozy Casita+Private Patio+grill, Las Vegas",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Sports Page, Fort Dodge",
+      "dinner": "Tea Thyme & Thyme to Shop, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; Vic & Anthony's Steakhouse, visit from 09:25 to 10:16, nearest transit: Fremont Street Experience, 213.11m away; Las Vegas North Premium Outlets, visit from 11:30 to 13:50, nearest transit: Las Vegas North Premium Outlets, 74.04m away; Ameribrunch Cafe, visit from 13:57 to 14:56, nearest transit: Fremont East Entertainment District, 393.75m away; Golden Steer Steakhouse Las Vegas, visit from 19:51 to 21:00, nearest transit: The Strat, 555.77m away; Cozy Casita+Private Patio+grill, stay from 22:15 to 08:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Studio Fusion, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Sports Page, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Tea Thyme & Thyme to Shop, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 6th Ave S and S 21st St, 84.15m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 3,
-      "current_city": "from Las Vegas to Bend",
-      "transportation": "Flight Number: F2108508, from Las Vegas to Bend, Departure Time: 14:05, Arrival Time: 16:28",
-      "breakfast": "THE Steak House, Las Vegas",
-      "attraction": "Stratosphere Tower, Las Vegas",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
+      "breakfast": "Parlor City Pub & Eatery, Cedar Rapids",
+      "attraction": "Bever Park, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "El Bajio, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Parlor City Pub & Eatery, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 12th Ave & 3rd St, 29.32m away; Bever Park, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:00, nearest transit: Memorial Dr & Bever Ave, 31.27m away; The Breakfast House, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; El Bajio, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 6th St & Gateway Pl, 42.01m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "The History Center, Cedar Rapids",
+      "lunch": "Lucky's on 16th, Cedar Rapids",
+      "dinner": "Cancun Mexican Grill and Bar, Cedar Rapids",
+      "accommodation": "Cozy NewBo Historical Herda House, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Irish Democrat, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; The History Center, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 41.04m away; Lucky's on 16th, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: C St & 16th Ave, 50.35m away; Cancun Mexican Grill and Bar, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 33rd Ave & South Ridge Dr, 62.98m away; Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 12th Ave & 3rd St, 30.37m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "Transfer, from Cedar Rapids to Sioux City",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Cozy NewBo Historical Herda House, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 12th Ave & 3rd St, 30.37m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Palmer's Olde Tyme Candy Shoppe, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; Miles Inn, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "Sioux City Art Center, Sioux City",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Sioux City Art Center, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Nebraska St & 3rd St, 59.94m away; El Fredo Pizza, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Sioux City to Denver",
+      "transportation": "Flight Number: F0462857, from Sioux City to Denver, Departure Time: 12:46, Arrival Time: 13:29",
+      "breakfast": "Trattoria Fresco, Sioux City",
+      "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy Casita+Private Patio+grill, stay from 08:00 to 09:00, nearest transit: Las Vegas North Premium Outlets, 4197.80m away; THE Steak House, visit from 09:25 to 10:16, nearest transit: The Strat, 1363.88m away; Stratosphere Tower, visit from 11:30 to 15:20, nearest transit: The Strat, 146.81m away."
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Trattoria Fresco, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Pierce St & 4th St, 54.17m away."
     }
   ]
 }

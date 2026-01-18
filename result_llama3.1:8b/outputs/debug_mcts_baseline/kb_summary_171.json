@@ -2,12 +2,32 @@
   "idx": 171,
   "stages": [
     {
-      "city": "Anchorage",
+      "city": "San Diego",
       "counts": {
-        "attractions": 17,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 72,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 3
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Anchorage",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0245209, from Seattle to Anchorage, Departure Time: 22:39, Arrival Time: 01:32"
+      "from": "Baltimore",
+      "to": "San Diego",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0002412, from Baltimore to San Diego, Departure Time: 21:34, Arrival Time: 23:59"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Anchorage",
+      "from": "Baltimore",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Seattle to Anchorage, Not feasible to drive from Seattle to Anchorage"
+      "raw": "Self-driving, from Baltimore to San Diego, Not feasible to drive from Baltimore to San Diego"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Anchorage",
+      "from": "Baltimore",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Seattle to Anchorage, Not feasible to drive from Seattle to Anchorage"
+      "raw": "Taxi, from Baltimore to San Diego, Not feasible to drive from Baltimore to San Diego"
     },
     {
       "mode": "flight",
-      "from": "Anchorage",
-      "to": "Seattle",
-      "date": "2024-11-11",
-      "raw": "Flight Number: F0246465, from Anchorage to Seattle, Departure Time: 05:55, Arrival Time: 10:24"
+      "from": "San Diego",
+      "to": "Los Angeles",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0478396, from San Diego to Los Angeles, Departure Time: 06:13, Arrival Time: 07:16"
     },
     {
       "mode": "self-driving",
-      "from": "Anchorage",
-      "to": "Seattle",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Anchorage to Seattle, Not feasible to drive from Anchorage to Seattle"
+      "raw": "Self-driving, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $9.68"
     },
     {
       "mode": "taxi",
-      "from": "Anchorage",
-      "to": "Seattle",
+      "from": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Anchorage to Seattle, Not feasible to drive from Anchorage to Seattle"
+      "raw": "Taxi, from San Diego to Los Angeles, Duration: 142.59166666666667 mins, Distance: 193.57070000000002 km, Estimated Cost: $193.57"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0059505, from Los Angeles to San Francisco, Departure Time: 05:14, Arrival Time: 06:31"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0541161, from San Francisco to Baltimore, Departure Time: 23:13, Arrival Time: 07:21"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Baltimore, Not feasible to drive from San Francisco to Baltimore"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Baltimore, Not feasible to drive from San Francisco to Baltimore"
     }
   ]
 }

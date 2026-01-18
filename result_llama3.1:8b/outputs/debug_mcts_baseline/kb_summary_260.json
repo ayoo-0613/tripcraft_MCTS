@@ -2,58 +2,120 @@
   "idx": 260,
   "stages": [
     {
-      "city": "San Diego",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 18,
+        "attractions": 14,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 29
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "St. Louis",
-      "to": "San Diego",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0099295, from St. Louis to San Diego, Departure Time: 09:49, Arrival Time: 11:33"
+      "from": "Charlotte",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234481, from Charlotte to Chattanooga, Departure Time: 10:39, Arrival Time: 11:59"
     },
     {
       "mode": "self-driving",
-      "from": "St. Louis",
-      "to": "San Diego",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from St. Louis to San Diego, Not feasible to drive from St. Louis to San Diego"
+      "raw": "Self-driving, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $25.43"
     },
     {
       "mode": "taxi",
-      "from": "St. Louis",
-      "to": "San Diego",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from St. Louis to San Diego, Not feasible to drive from St. Louis to San Diego"
+      "raw": "Taxi, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $508.61"
     },
     {
       "mode": "flight",
-      "from": "San Diego",
-      "to": "St. Louis",
-      "date": "2024-11-27",
-      "raw": "Flight Number: F0025891, from San Diego to St. Louis, Departure Time: 12:31, Arrival Time: 17:51"
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Diego",
-      "to": "St. Louis",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from San Diego to St. Louis, Not feasible to drive from San Diego to St. Louis"
+      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
     },
     {
       "mode": "taxi",
-      "from": "San Diego",
-      "to": "St. Louis",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from San Diego to St. Louis, Not feasible to drive from San Diego to St. Louis"
+      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0039981, from Nashville to Charlotte, Departure Time: 16:35, Arrival Time: 18:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $32.83"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $656.66"
     }
   ]
 }

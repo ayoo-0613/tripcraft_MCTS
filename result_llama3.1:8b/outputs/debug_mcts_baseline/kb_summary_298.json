@@ -2,58 +2,120 @@
   "idx": 298,
   "stages": [
     {
-      "city": "Wichita",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 19,
         "poi2transit": 74,
-        "events": 4
+        "events": 5
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 25
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 23
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Wichita",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0070629, from Denver to Wichita, Departure Time: 13:46, Arrival Time: 15:52"
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "Wichita",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $41.71"
+      "raw": "Self-driving, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $22.57"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "Wichita",
+      "from": "Valparaiso",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29"
+      "raw": "Taxi, from Valparaiso to Cedar Rapids, Duration: 326.915 mins, Distance: 451.36629999999997 km, Estimated Cost: $451.37"
     },
     {
       "mode": "flight",
-      "from": "Wichita",
-      "to": "Denver",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0092485, from Wichita to Denver, Departure Time: 12:33, Arrival Time: 12:57"
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Wichita",
-      "to": "Denver",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Wichita to Denver, Duration: 533.3983333333333 mins, Distance: 834.7207 km, Estimated Cost: $41.74"
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
     },
     {
       "mode": "taxi",
-      "from": "Wichita",
-      "to": "Denver",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Wichita to Denver, Duration: 533.3983333333333 mins, Distance: 834.7207 km, Estimated Cost: $834.72"
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $45.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Valparaiso, Duration: 636.25 mins, Distance: 911.6577 km, Estimated Cost: $911.66"
     }
   ]
 }

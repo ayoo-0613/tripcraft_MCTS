@@ -1,94 +1,117 @@
 {
   "idx": 8,
   "JSON": {
-    "org": "Los Angeles",
-    "dest": "Colorado",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Atlanta",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 7,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Mexican",
-        "American"
-      ],
-      "room type": null,
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 17550.0,
-    "query": "Plan a 5-day trip for 7 people traveling from Los Angeles to explore 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $17,550. Include dining options with Mexican and American cuisines.",
+    "budget": 9750.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Atlanta to explore 3 cities in California between November 2nd and November 8th, 2024. The budget is $9,750, and accommodations should include a private room.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Los Angeles to Colorado Springs",
-      "transportation": "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06",
-      "breakfast": "Summit at The Broadmoor, Colorado Springs",
-      "attraction": "Penrose Heritage Museum, Colorado Springs",
-      "lunch": "Margarita At Pine Creek, Colorado Springs",
-      "dinner": "Paravicini's Italian Bistro, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
+      "current_city": "from Atlanta to Los Angeles",
+      "transportation": "Taxi, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles",
+      "breakfast": "Katsuya, Los Angeles",
+      "attraction": "Hollywood Walk of Fame, Los Angeles; The Broad, Los Angeles",
+      "lunch": "Au Lac Dtla, Los Angeles",
+      "dinner": "The Palm - L.A. Downtown, Los Angeles",
+      "accommodation": "Cozy Private Room In LA., Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Summit at The Broadmoor, visit from 09:25 to 10:16, nearest transit: Broadmoor Hotel, 68.55m away; Penrose Heritage Museum, visit from 11:30 to 15:20, nearest transit: Broadmoor Hotel, 45.08m away; Margarita At Pine Creek, visit from 13:57 to 14:56, nearest transit: Corporate/Mark Dabling, 604.17m away; Paravicini's Italian Bistro, visit from 19:51 to 21:00, nearest transit: Colorado/28th, 25.37m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "point_of_interest_list": "Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Katsuya, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Hollywood & Vine St., 19.85m away; Hollywood Walk of Fame, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:57, nearest transit: Hollywood & Vine St., 17.12m away; Au Lac Dtla, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 1st St & Hope St, 37.19m away; The Broad, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; The Palm - L.A. Downtown, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 11th St & Flower St, 51.84m away; Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
     },
     {
       "days": 2,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Mountain Shadows Restaurant, Colorado Springs",
-      "attraction": "Old Colorado City Historic District, Colorado Springs",
-      "lunch": "Uchenna, Colorado Springs",
-      "dinner": "Carlos Bistro, Colorado Springs",
-      "accommodation": "Pikes Charm! Apartment King Workspace w BBQ & Fire, Colorado Springs",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Leo & Lily, Los Angeles",
+      "attraction": "Petersen Automotive Museum, Los Angeles; Walt Disney Concert Hall, Los Angeles",
+      "lunch": "71Above Restaurant and Skylounge, Los Angeles",
+      "dinner": "Patina Restaurant, Los Angeles",
+      "accommodation": "Cozy Private Room In LA., Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Mountain Shadows Restaurant, visit from 09:25 to 10:16, nearest transit: Colorado/23rd, 76.10m away; Old Colorado City Historic District, visit from 11:30 to 14:50, nearest transit: Cascade/Colorado, 63.31m away; Uchenna, visit from 13:57 to 14:56, nearest transit: Colorado/25th, 42.42m away; Carlos Bistro, visit from 19:51 to 21:00, nearest transit: 21st/Broadway, 62.57m away; Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 22:15 to 08:00, nearest transit: Pikes Peak/Meade, 28.37m away."
+      "point_of_interest_list": "Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Leo & Lily, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Ventura Blvd & Shoup Ave (Eastbound), 52.03m away; Petersen Automotive Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:57, nearest transit: Wilshire Blvd & Fairfax (Westbound), 78.51m away; 71Above Restaurant and Skylounge, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Flower St & 4th St, 55.68m away; Walt Disney Concert Hall, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:42, nearest transit: Hope St & 1st St (Northbound), 80.77m away; Patina Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Grand Ave & 2nd St, 62.65m away; Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
     },
     {
       "days": 3,
-      "current_city": "from Colorado Springs to Durango",
-      "transportation": "Transfer, from Colorado Springs to Durango",
-      "breakfast": "Diamond Belle Saloon, Durango",
-      "attraction": "Roll Ebike & Paddle Board, Durango",
-      "lunch": "Chimayo Stone Fired Kitchen, Durango",
-      "dinner": "Michel's Corner Crepes, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from Los Angeles to San Francisco",
+      "transportation": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35",
+      "breakfast": "John's Grill, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco; Oracle Park, San Francisco",
+      "lunch": "Hog Island Oyster Co., San Francisco",
+      "dinner": "Morton's The Steakhouse, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Pikes Charm! Apartment King Workspace w BBQ & Fire, stay from 08:00 to 09:00, nearest transit: Pikes Peak/Meade, 28.37m away; Diamond Belle Saloon, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 25.56m away; Roll Ebike & Paddle Board, visit from 11:30 to 15:50, nearest transit: Buckley Park, 34.63m away; Chimayo Stone Fired Kitchen, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 28.28m away; Michel's Corner Crepes, visit from 19:51 to 21:00, nearest transit: College Dr. & Main Ave., 31.39m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 03:47 to 04:47, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Cozy Private Room In LA., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; John's Grill, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 128.62m away; Ferry Building Marketplace, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Hog Island Oyster Co., traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 358.44m away; Oracle Park, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: 4th @ Library (Caltrain), 474.04m away; Morton's The Steakhouse, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 441.77m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 4,
-      "current_city": "from Durango to Durango",
-      "transportation": "Transfer, from Durango to Durango",
-      "breakfast": "Eolus Bar & Dining, Durango",
-      "attraction": "Historic Downtown Durango, Durango",
-      "lunch": "Derailed Pour House, Durango",
-      "dinner": "Fired Up Pizzeria, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Scala's Bistro, San Francisco",
+      "attraction": "Exploratorium, San Francisco; Cable Car Museum, San Francisco",
+      "lunch": "Sears Fine Foods, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Stylish Room in The Heart Of San Francisco, San Francisco",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Eolus Bar & Dining, visit from 09:25 to 10:16, nearest transit: Main Ave. & 9th St., 33.46m away; Historic Downtown Durango, visit from 11:30 to 15:20, nearest transit: Main Ave. & 9th St., 40.87m away; Derailed Pour House, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 38.31m away; Fired Up Pizzeria, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 47.57m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Scala's Bistro, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 451.00m away; Exploratorium, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 13:12, nearest transit: Mission @ Spear (Embarcadero), 1042.01m away; Sears Fine Foods, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 459.18m away; Cable Car Museum, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: Powell @ 22 4th, 1145.41m away; Waterbar, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Powell @ 22 4th, 48.88m away."
     },
     {
       "days": 5,
-      "current_city": "from Durango to Los Angeles",
-      "transportation": "Transfer, from Durango to Los Angeles",
-      "breakfast": "Durango Doughworks, Durango",
-      "attraction": "Four Leaves Winery, Durango",
-      "lunch": "Bread, Durango",
-      "dinner": "Mahogany Grille, Durango",
+      "current_city": "from San Francisco to Sacramento",
+      "transportation": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Yue Huang Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "event": "-",
+      "point_of_interest_list": "Stylish Room in The Heart Of San Francisco, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Powell @ 22 4th, 48.88m away; Yue Huang Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: TRUXEL RD & GATEWAY PARK BLVD (NB), 34.28m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Localis, Sacramento",
+      "attraction": "William Land Park, Sacramento; Tower Bridge, Sacramento",
+      "lunch": "Grange Restaurant & Bar, Sacramento",
+      "dinner": "Bangkok @12 Thai Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
+      "event": "-",
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Localis, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: 21ST ST & R ST (NB), 35.88m away; William Land Park, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:12, nearest transit: SUTTERVILLE RD & MEAD AVE (WB), 11.46m away; Grange Restaurant & Bar, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: J ST & 10TH ST (EB), 36.29m away; Tower Bridge, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: L ST & 4TH ST (WB), 26.39m away; Bangkok @12 Thai Restaurant, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 12th & I Station (SB), 37.03m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Sacramento to Atlanta",
+      "transportation": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Durango Doughworks, visit from 09:25 to 10:16, nearest transit: Main Ave. & 27th St., 48.37m away; Four Leaves Winery, visit from 11:30 to 15:00, nearest transit: College Dr. & Main Ave., 80.37m away; Bread, visit from 13:57 to 14:56, nearest transit: Ptarmigan Center, 50.35m away; Mahogany Grille, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 51.51m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 05:26 to 06:26, nearest transit: Q ST & 5TH ST (EB), 9.45m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, traveler: Adventure Seeker | purpose: Relaxation | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     }
   ]
 }

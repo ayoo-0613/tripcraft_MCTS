@@ -2,58 +2,120 @@
   "idx": 134,
   "stages": [
     {
-      "city": "Chattanooga",
+      "city": "San Antonio",
       "counts": {
-        "attractions": 14,
+        "attractions": 20,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 69,
-        "events": 15
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 17
+      }
+    },
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
+        "events": 1
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Washington",
-      "to": "Chattanooga",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58"
+      "from": "Tallahassee",
+      "to": "San Antonio",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Washington",
-      "to": "Chattanooga",
+      "from": "Tallahassee",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $48.11"
+      "raw": "Self-driving, from Tallahassee to San Antonio, Duration: 990.3216666666667 mins, Distance: 1455.3731 km, Estimated Cost: $72.77"
     },
     {
       "mode": "taxi",
-      "from": "Washington",
-      "to": "Chattanooga",
+      "from": "Tallahassee",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15"
+      "raw": "Taxi, from Tallahassee to San Antonio, Duration: 990.3216666666667 mins, Distance: 1455.3731 km, Estimated Cost: $1455.37"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Washington",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0440749, from Chattanooga to Washington, Departure Time: 06:56, Arrival Time: 08:27"
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Washington",
+      "from": "San Antonio",
+      "to": "Beaumont",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Washington, Duration: 663.0733333333334 mins, Distance: 961.8596 km, Estimated Cost: $48.09"
+      "raw": "Self-driving, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $22.54"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Washington",
+      "from": "San Antonio",
+      "to": "Beaumont",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Washington, Duration: 663.0733333333334 mins, Distance: 961.8596 km, Estimated Cost: $961.86"
+      "raw": "Taxi, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $450.71"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to Houston, Duration: 101.545 mins, Distance: 139.4445 km, Estimated Cost: $6.97"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Beaumont to Houston, Duration: 101.545 mins, Distance: 139.4445 km, Estimated Cost: $139.44"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": null,
+      "raw": "Self-driving, from Houston to Tallahassee, Duration: 784.41 mins, Distance: 1142.634 km, Estimated Cost: $57.13"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": null,
+      "raw": "Taxi, from Houston to Tallahassee, Duration: 784.41 mins, Distance: 1142.634 km, Estimated Cost: $1142.63"
     }
   ]
 }

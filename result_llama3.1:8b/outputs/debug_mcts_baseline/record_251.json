@@ -1,69 +1,117 @@
 {
   "idx": 251,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Fort Wayne",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Victoria",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Italian"
-      ],
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": [
-        "Sights & Landmarks"
-      ]
+      "attraction": "Zoos & Aquariums"
     },
-    "budget": 2100.0,
-    "query": "Design a 3-day travel itinerary for 1 person traveling from Las Vegas to Fort Wayne from November 17th to November 19th, 2024. The budget is $2,100. Include Italian cuisine options and visits to sights and landmarks.",
-    "level": "hard"
+    "budget": 16050.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Victoria and visiting 3 cities in Texas between November 2nd and November 8th, 2024. The budget is $16,050. Include visits to zoos and aquariums as attractions.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Fort Wayne",
-      "transportation": "Taxi, from Las Vegas to Fort Wayne, Not feasible to drive from Las Vegas to Fort Wayne",
-      "breakfast": "Casa Ristorante, Fort Wayne",
-      "attraction": "Historic Fort Wayne, Fort Wayne; Parkview Field, Fort Wayne",
-      "lunch": "Cosmos House Of Pancakes, Fort Wayne",
-      "dinner": "Paula's On Main, Fort Wayne",
-      "accommodation": "*The Cambridge Place*, Fort Wayne",
+      "current_city": "from Victoria to Houston",
+      "transportation": "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71",
+      "breakfast": "Phoenicia Specialty Foods, Houston",
+      "attraction": "Downtown Aquarium, Houston",
+      "lunch": "Niko Niko's Greek, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "*The Cambridge Place*, stay from 08:00 to 09:00, nearest transit: Cambridge Blvd. at Trinity Blvd. (NB), 44.24m away; Casa Ristorante, visit from 09:25 to 10:16, nearest transit: CASA Ristorante, 34.94m away; Historic Fort Wayne, visit from 11:30 to 13:57, nearest transit: Spy Run Ave. at Baltes Ave. (NB), 92.88m away; Cosmos House Of Pancakes, visit from 13:57 to 14:56, nearest transit: Canterbury Marketplace, 18.19m away; Parkview Field, visit from 16:30 to 18:57, nearest transit: Ewing St. at Jefferson Blvd. (NB), 136.65m away; Paula's On Main, visit from 19:51 to 21:00, nearest transit: Eastbound on W. Main St. at Greenwood Ave., 18.78m away; *The Cambridge Place*, stay from 22:15 to 08:00, nearest transit: Cambridge Blvd. at Trinity Blvd. (NB), 44.24m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Phoenicia Specialty Foods, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Lamar St @ Austin St, 9.87m away; Downtown Aquarium, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:50, nearest transit: Preston St @ Bagby St, 75.65m away; Niko Niko's Greek, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; Houston's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 2,
-      "current_city": "from Fort Wayne to Fort Wayne",
-      "transportation": "Transfer, from Fort Wayne to Fort Wayne",
-      "breakfast": "Ziano's Italian eatery, Fort Wayne",
-      "attraction": "-",
-      "lunch": "The Hoppy Gnome, Fort Wayne",
-      "dinner": "Conner's Kitchen & Bar- Fort Wayne, Fort Wayne",
-      "accommodation": "*The Cambridge Place*, Fort Wayne",
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Hugo's, Houston",
+      "attraction": "Houston Zoo, Houston",
+      "lunch": "Uchi Houston, Houston",
+      "dinner": "Goode Company BBQ, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "*The Cambridge Place*, stay from 08:00 to 09:00, nearest transit: Cambridge Blvd. at Trinity Blvd. (NB), 44.24m away; Ziano's Italian eatery, visit from 09:25 to 10:16, nearest transit: McDonalds, 234.52m away; The Hoppy Gnome, visit from 13:57 to 14:56, nearest transit: Southbound on Calhoun St. at Berry St., 22.61m away; Conner's Kitchen & Bar- Fort Wayne, visit from 19:51 to 21:00, nearest transit: Northbound on Harrison @ Jefferson, 27.56m away; *The Cambridge Place*, stay from 22:15 to 08:00, nearest transit: Cambridge Blvd. at Trinity Blvd. (NB), 44.24m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Hugo's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Houston Zoo, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:00, nearest transit: Cambridge St @ Ben Taub Loop, 473.45m away; Uchi Houston, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away; Goode Company BBQ, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ South Blvd, 42.93m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 3,
-      "current_city": "from Fort Wayne to Las Vegas",
-      "transportation": "Flight Number: F2109900, from Fort Wayne to Las Vegas, Departure Time: 15:35, Arrival Time: 16:30",
-      "breakfast": "Oyster Bar, Fort Wayne",
+      "current_city": "from Houston to Corpus Christi",
+      "transportation": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
+      "accommodation": "b/walk to beach/fishing dock/Ground floor/King bed, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 2601-15209 Leeward, 21.45m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+      "breakfast": "Blackbeard's On The Beach, Corpus Christi",
+      "attraction": "Texas State Aquarium, Corpus Christi",
+      "lunch": "Blue Clove, Corpus Christi",
+      "dinner": "Vietnam Restaurant, Corpus Christi",
+      "accommodation": "b/walk to beach/fishing dock/Ground floor/King bed, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 2601-15209 Leeward, 21.45m away; Blackbeard's On The Beach, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: 1319-Surfside @ Elm, 24.45m away; Texas State Aquarium, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:50, nearest transit: Texas State Aquarium, 192.08m away; Blue Clove, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 1006-Everhart @ Shea, 24.81m away; Vietnam Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Starr @ Chaparral, 25.27m away; b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 2601-15209 Leeward, 21.45m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Corpus Christi to Beaumont",
+      "transportation": "Transfer, from Corpus Christi to Beaumont",
+      "breakfast": "Beaumont's, Beaumont",
+      "attraction": "Gator Country, Beaumont",
+      "lunch": "Beaumont Hotel Cafe And Restaurant, Beaumont",
+      "dinner": "Maina's Donair, Beaumont",
+      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 2601-15209 Leeward, 21.45m away; Beaumont's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Seneca Springs and Lynn Avenue, 125038.02m away; Gator Country, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2171070.69m away; Beaumont Hotel Cafe And Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 1874483.80m away; Maina's Donair, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161082.60m away; Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "Transfer, from Beaumont to Beaumont",
+      "breakfast": "Chartier, Beaumont",
+      "attraction": "John Jay French House Museum, Beaumont",
+      "lunch": "Saigon Delights, Beaumont",
+      "dinner": "Wild Wing Beaumont, Beaumont",
+      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Chartier, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: San Bernardino Transit Center, 2161104.33m away; John Jay French House Museum, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Casino Morongo, 2177099.24m away; Saigon Delights, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: San Bernardino Transit Center, 2161845.42m away; Wild Wing Beaumont, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161925.08m away; Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Beaumont to Victoria",
+      "transportation": "Transfer, from Beaumont to Victoria",
+      "breakfast": "Rao's Bakery and Coffee Cafe, Beaumont",
+      "attraction": "Beaumont Botanical Gardens, Beaumont",
+      "lunch": "Jason's Deli, Beaumont",
+      "dinner": "Tia Juanita's, Beaumont",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "*The Cambridge Place*, stay from 08:00 to 09:00, nearest transit: Cambridge Blvd. at Trinity Blvd. (NB), 44.24m away; Oyster Bar, visit from 09:25 to 10:16, nearest transit: S. Calhoun St. north of Masterson St. (NB), 28.67m away."
+      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Rao's Bakery and Coffee Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Casino Morongo, 2175384.21m away; Beaumont Botanical Gardens, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2179950.04m away; Jason's Deli, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 2175442.94m away; Tia Juanita's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Casino Morongo, 2176916.68m away."
     }
   ]
 }

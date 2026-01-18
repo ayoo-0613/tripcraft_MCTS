@@ -1,16 +1,16 @@
 {
   "idx": 190,
-  "reward": 11.034735096498718,
-  "budget_used": 1479.0,
+  "reward": 40.64150950625313,
+  "budget_used": 4052.0,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Taxi, from Washington to Greensboro, Duration: 357.2 mins, Distance: 497.61690000000004 km, Estimated Cost: $497.62",
+      "chosen": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
       "candidates": [
-        "Flight Number: F0127757, from Washington to Greensboro, Departure Time: 10:15, Arrival Time: 11:37",
-        "Taxi, from Washington to Greensboro, Duration: 357.2 mins, Distance: 497.61690000000004 km, Estimated Cost: $497.62"
+        "-",
+        "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96"
       ]
     },
     {
@@ -35,58 +35,6 @@
       "day": 1,
       "slot": "breakfast",
       "action_type": "set_breakfast",
-      "chosen": "B. Christopher's",
-      "candidates": [
-        "B. Christopher's",
-        "The Sage Mule",
-        "Dames Chicken & Waffles",
-        "Hops Burger Bar",
-        "1618 West Seafood Grill",
-        "Mimi's Cafe",
-        "Stamey's Barbecue",
-        "Sarah's Kabob Shop",
-        "Mac's Speed Shop",
-        "Lucky 32 Southern Kitchen",
-        "Mythos Grill",
-        "Scrambled Southern Diner",
-        "Dear Dad's",
-        "Blue Denim",
-        "913 Whiskey Bar & Southern Kitchen",
-        "Crafted The Art of the Taco",
-        "MJ's Steak and Seafood",
-        "Darryl's Wood Fired Grill",
-        "Chez Genese",
-        "Fleming's Prime Steakhouse & Wine Bar",
-        "Osteria Italian Restaurant",
-        "Tripps Restaurant",
-        "Salvino Cucina Italiana Restaurant",
-        "Vito's Italian Restaurant",
-        "At Elm St Grill",
-        "Captain Bill's Seafood & Steak",
-        "Village Tavern",
-        "Undercurrent Restaurant",
-        "Golden Wok",
-        "Green Valley Grill",
-        "Pho Hien Voung",
-        "Sticks and Stones",
-        "Print Works Bistro",
-        "Phoenix Asian Cuisine",
-        "Carolina's Diner"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "Carolina Theatre",
-      "candidates": [
-        "Carolina Theatre"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "lunch",
-      "action_type": "set_lunch",
       "chosen": "The Sage Mule",
       "candidates": [
         "The Sage Mule",
@@ -95,6 +43,63 @@
         "1618 West Seafood Grill",
         "Mimi's Cafe",
         "Stamey's Barbecue",
+        "Mac's Speed Shop",
+        "Lucky 32 Southern Kitchen",
+        "Scrambled Southern Diner",
+        "Dear Dad's",
+        "Blue Denim",
+        "MJ's Steak and Seafood",
+        "Darryl's Wood Fired Grill",
+        "Chez Genese",
+        "At Elm St Grill",
+        "Captain Bill's Seafood & Steak",
+        "Village Tavern",
+        "Undercurrent Restaurant",
+        "Green Valley Grill",
+        "Sticks and Stones",
+        "Carolina's Diner",
+        "B. Christopher's",
+        "Sarah's Kabob Shop",
+        "Mythos Grill",
+        "913 Whiskey Bar & Southern Kitchen",
+        "Crafted The Art of the Taco",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Osteria Italian Restaurant",
+        "Tripps Restaurant",
+        "Salvino Cucina Italiana Restaurant",
+        "Vito's Italian Restaurant",
+        "Golden Wok",
+        "Pho Hien Voung",
+        "Print Works Bistro",
+        "Phoenix Asian Cuisine"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Greensboro History Museum",
+      "candidates": [
+        "Greensboro History Museum",
+        "First National Bank Field",
+        "Blandwood",
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Chez Genese",
+      "candidates": [
+        "Chez Genese",
+        "B. Christopher's",
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Mimi's Cafe",
+        "Stamey's Barbecue",
         "Sarah's Kabob Shop",
         "Mac's Speed Shop",
         "Lucky 32 Southern Kitchen",
@@ -106,7 +111,6 @@
         "Crafted The Art of the Taco",
         "MJ's Steak and Seafood",
         "Darryl's Wood Fired Grill",
-        "Chez Genese",
         "Fleming's Prime Steakhouse & Wine Bar",
         "Osteria Italian Restaurant",
         "Tripps Restaurant",
@@ -128,18 +132,22 @@
     {
       "day": 1,
       "slot": "attraction2",
-      "action_type": "skip_attraction2",
-      "chosen": "-",
+      "action_type": "add_attraction2",
+      "chosen": "First National Bank Field",
       "candidates": [
-        "-"
+        "First National Bank Field",
+        "Blandwood",
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
       ]
     },
     {
       "day": 1,
       "slot": "dinner",
       "action_type": "set_dinner",
-      "chosen": "Dames Chicken & Waffles",
+      "chosen": "B. Christopher's",
       "candidates": [
+        "B. Christopher's",
         "Dames Chicken & Waffles",
         "Hops Burger Bar",
         "1618 West Seafood Grill",
@@ -156,7 +164,6 @@
         "Crafted The Art of the Taco",
         "MJ's Steak and Seafood",
         "Darryl's Wood Fired Grill",
-        "Chez Genese",
         "Fleming's Prime Steakhouse & Wine Bar",
         "Osteria Italian Restaurant",
         "Tripps Restaurant",
@@ -204,6 +211,57 @@
       "day": 2,
       "slot": "breakfast",
       "action_type": "set_breakfast",
+      "chosen": "Dames Chicken & Waffles",
+      "candidates": [
+        "Dames Chicken & Waffles",
+        "Hops Burger Bar",
+        "1618 West Seafood Grill",
+        "Mimi's Cafe",
+        "Stamey's Barbecue",
+        "Mac's Speed Shop",
+        "Lucky 32 Southern Kitchen",
+        "Scrambled Southern Diner",
+        "Dear Dad's",
+        "Blue Denim",
+        "MJ's Steak and Seafood",
+        "Darryl's Wood Fired Grill",
+        "At Elm St Grill",
+        "Captain Bill's Seafood & Steak",
+        "Village Tavern",
+        "Undercurrent Restaurant",
+        "Green Valley Grill",
+        "Sticks and Stones",
+        "Carolina's Diner",
+        "Sarah's Kabob Shop",
+        "Mythos Grill",
+        "913 Whiskey Bar & Southern Kitchen",
+        "Crafted The Art of the Taco",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Osteria Italian Restaurant",
+        "Tripps Restaurant",
+        "Salvino Cucina Italiana Restaurant",
+        "Vito's Italian Restaurant",
+        "Golden Wok",
+        "Pho Hien Voung",
+        "Print Works Bistro",
+        "Phoenix Asian Cuisine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Blandwood",
+      "candidates": [
+        "Blandwood",
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
       "chosen": "Hops Burger Bar",
       "candidates": [
         "Hops Burger Bar",
@@ -221,55 +279,6 @@
         "Crafted The Art of the Taco",
         "MJ's Steak and Seafood",
         "Darryl's Wood Fired Grill",
-        "Chez Genese",
-        "Fleming's Prime Steakhouse & Wine Bar",
-        "Osteria Italian Restaurant",
-        "Tripps Restaurant",
-        "Salvino Cucina Italiana Restaurant",
-        "Vito's Italian Restaurant",
-        "At Elm St Grill",
-        "Captain Bill's Seafood & Steak",
-        "Village Tavern",
-        "Undercurrent Restaurant",
-        "Golden Wok",
-        "Green Valley Grill",
-        "Pho Hien Voung",
-        "Sticks and Stones",
-        "Print Works Bistro",
-        "Phoenix Asian Cuisine",
-        "Carolina's Diner"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction1",
-      "action_type": "skip_attraction1",
-      "chosen": "-",
-      "candidates": [
-        "-"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "1618 West Seafood Grill",
-      "candidates": [
-        "1618 West Seafood Grill",
-        "Mimi's Cafe",
-        "Stamey's Barbecue",
-        "Sarah's Kabob Shop",
-        "Mac's Speed Shop",
-        "Lucky 32 Southern Kitchen",
-        "Mythos Grill",
-        "Scrambled Southern Diner",
-        "Dear Dad's",
-        "Blue Denim",
-        "913 Whiskey Bar & Southern Kitchen",
-        "Crafted The Art of the Taco",
-        "MJ's Steak and Seafood",
-        "Darryl's Wood Fired Grill",
-        "Chez Genese",
         "Fleming's Prime Steakhouse & Wine Bar",
         "Osteria Italian Restaurant",
         "Tripps Restaurant",
@@ -291,18 +300,20 @@
     {
       "day": 2,
       "slot": "attraction2",
-      "action_type": "skip_attraction2",
-      "chosen": "-",
+      "action_type": "add_attraction2",
+      "chosen": "Greensboro Coliseum Complex",
       "candidates": [
-        "-"
+        "Greensboro Coliseum Complex",
+        "Guilford Courthouse National Military Park"
       ]
     },
     {
       "day": 2,
       "slot": "dinner",
       "action_type": "set_dinner",
-      "chosen": "Mimi's Cafe",
+      "chosen": "1618 West Seafood Grill",
       "candidates": [
+        "1618 West Seafood Grill",
         "Mimi's Cafe",
         "Stamey's Barbecue",
         "Sarah's Kabob Shop",
@@ -316,7 +327,6 @@
         "Crafted The Art of the Taco",
         "MJ's Steak and Seafood",
         "Darryl's Wood Fired Grill",
-        "Chez Genese",
         "Fleming's Prime Steakhouse & Wine Bar",
         "Osteria Italian Restaurant",
         "Tripps Restaurant",
@@ -346,23 +356,761 @@
       "day": 3,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Flight Number: F0127783, from Greensboro to Washington, Departure Time: 10:38, Arrival Time: 11:50",
+      "chosen": "-",
       "candidates": [
-        "Flight Number: F0127783, from Greensboro to Washington, Departure Time: 10:38, Arrival Time: 11:50",
-        "Taxi, from Greensboro to Washington, Duration: 357.15833333333336 mins, Distance: 496.6706 km, Estimated Cost: $496.67"
+        "-",
+        "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Pop’s Villa - 8th Floor - Waterfront",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Charming Historic Downtown Cottage",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Dockside at The Cove"
       ]
     },
     {
       "day": 3,
       "slot": "breakfast",
-      "action_type": "skip_breakfast",
-      "chosen": "-",
+      "action_type": "set_breakfast",
+      "chosen": "Circa 1922",
       "candidates": [
-        "-"
+        "Circa 1922",
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
       ]
     },
     {
       "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Historic District",
+      "candidates": [
+        "Historic District",
+        "Downtown Wilmington",
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Savorez",
+      "candidates": [
+        "Savorez",
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Downtown Wilmington",
+      "candidates": [
+        "Downtown Wilmington",
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "PinPoint Restaurant",
+      "candidates": [
+        "PinPoint Restaurant",
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Chic Loft | Downtown | Front & Market",
+      "candidates": [
+        "Chic Loft | Downtown | Front & Market",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Historic 1 bed heart of downtown with balcony",
+        "Pop’s Villa - 8th Floor - Waterfront",
+        "Downtown | Balcony | River views | Free parking",
+        "The Retro Room- Private Suite with bathroom",
+        "Charming Historic Downtown Cottage",
+        "Guest home for the weekend",
+        "Celebration @ The Cove",
+        "Dockside at The Cove"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Dixie Grill",
+      "candidates": [
+        "The Dixie Grill",
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Burgwin-Wright House and Gardens",
+      "candidates": [
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Front Street Brewery",
+      "candidates": [
+        "Front Street Brewery",
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Riverwalk",
+      "candidates": [
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Henrietta III",
+        "Airlie Gardens",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Kilwins Ice Cream -  Chocolate - Fudge",
+      "candidates": [
+        "Kilwins Ice Cream -  Chocolate - Fudge",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Caprice Bistro",
+        "Copper Penny",
+        "Fork N Cork",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "The George on the Riverwalk",
+        "Elijah's Restaurant",
+        "Indochine Wilmington",
+        "The Basics",
+        "Genki Sushi",
+        "Flaming Amy's Burrito Barn",
+        "The Peppered Cupcake",
+        "Pilot House",
+        "Szechuan 132",
+        "Manna",
+        "Ruth's Chris Steak House",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Cape Fear Seafood Company",
+        "Roko Italian Cuisine",
+        "Catch",
+        "Winnie's Tavern",
+        "Fish Bites Seafood",
+        "Iron Hill Brewery & Restaurant",
+        "Banks' Seafood Kitchen",
+        "La Fia",
+        "General Denver Pub",
+        "The Anchor",
+        "The Wilmington"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "candidates": [
+        "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+        "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in apt uptown",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Midwood Smokehouse",
+      "candidates": [
+        "Midwood Smokehouse",
+        "Cabo Fish Taco Baja Seagrill",
+        "Mert's Heart and Soul",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Spectrum Center",
+      "candidates": [
+        "Spectrum Center",
+        "Fourth Ward",
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cabo Fish Taco Baja Seagrill",
+      "candidates": [
+        "Cabo Fish Taco Baja Seagrill",
+        "Mert's Heart and Soul",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Fourth Ward",
+      "candidates": [
+        "Fourth Ward",
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mert's Heart and Soul",
+      "candidates": [
+        "Mert's Heart and Soul",
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "candidates": [
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in apt uptown",
+        "Chic Industrial Loft in the Heart of NoDa",
+        "Quiet, Comfy and Stress Free Studio",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "❀ Sparkling Clean, NODA-Chic at Lightrail Station",
+        "The best things in life come in small packages!",
+        "Private room in Charlotte, just outside of Uptown!"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Fig Tree Restaurant",
+      "candidates": [
+        "The Fig Tree Restaurant",
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Truist Field",
+      "candidates": [
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Bank Of America Stadium",
+      "candidates": [
+        "The Bank Of America Stadium"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Rooster's Wood-Fired Kitchen - Uptown",
+      "candidates": [
+        "Rooster's Wood-Fired Kitchen - Uptown",
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "candidates": [
+        "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+        "Taxi, from Charlotte to Oklahoma City, Duration: 1194.2333333333333 mins, Distance: 1762.3656 km, Estimated Cost: $1762.37"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pinky's Westside Grill",
+      "candidates": [
+        "Pinky's Westside Grill",
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
+      ]
+    },
+    {
+      "day": 7,
       "slot": "attraction1",
       "action_type": "skip_attraction1",
       "chosen": "-",
@@ -371,16 +1119,43 @@
       ]
     },
     {
-      "day": 3,
+      "day": 7,
       "slot": "lunch",
-      "action_type": "skip_lunch",
-      "chosen": "-",
+      "action_type": "set_lunch",
+      "chosen": "Mac's Speed Shop",
       "candidates": [
-        "-"
+        "Mac's Speed Shop",
+        "The Charlotte Hotel & Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's Restaurant",
+        "Charlotte's",
+        "Charlotte's",
+        "Charlotte's Web",
+        "Charlotte's Tea Room",
+        "Charlotte's Eats and Sweets",
+        "Charlotte Bakery",
+        "The Terrace at The Charlotte Inn",
+        "Charlotte's Coffee House",
+        "Charlotte's Legendary Lobster Pound",
+        "Charlotte Lane",
+        "Charlotte Plummer's Seafare Restaurant",
+        "Charlotte's Tavern",
+        "Charlotte Quay Restaurant",
+        "Charlotte's Teahouse",
+        "Charlottes Chocolates",
+        "Charlottes of Filey",
+        "Queen Charlotte",
+        "Gaucho Charlotte Street",
+        "ROKA Charlotte Street",
+        "Princess Charlotte",
+        "Le Potager de Charlotte",
+        "Charlotte & Fritz",
+        "Bistro Charlotte",
+        "Charlotte’s Kitchen"
       ]
     },
     {
-      "day": 3,
+      "day": 7,
       "slot": "attraction2",
       "action_type": "skip_attraction2",
       "chosen": "-",
@@ -389,7 +1164,7 @@
       ]
     },
     {
-      "day": 3,
+      "day": 7,
       "slot": "dinner",
       "action_type": "skip_dinner",
       "chosen": "-",
@@ -398,7 +1173,7 @@
       ]
     },
     {
-      "day": 3,
+      "day": 7,
       "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
@@ -408,15 +1183,16 @@
   "days": [
     {
       "day": 1,
-      "current_city": "from Washington to Greensboro",
-      "transportation": "Taxi, from Washington to Greensboro, Duration: 357.2 mins, Distance: 497.61690000000004 km, Estimated Cost: $497.62",
+      "current_city": "from Oklahoma City to Greensboro",
+      "transportation": "Taxi, from Oklahoma City to Greensboro, Duration: 1238.1399999999999 mins, Distance: 1848.9622 km, Estimated Cost: $1848.96",
       "accommodation": "Peaceful Place",
-      "breakfast": "B. Christopher's",
+      "breakfast": "The Sage Mule",
       "attractions": [
-        "Carolina Theatre"
+        "Greensboro History Museum",
+        "First National Bank Field"
       ],
-      "lunch": "The Sage Mule",
-      "dinner": "Dames Chicken & Waffles",
+      "lunch": "Chez Genese",
+      "dinner": "B. Christopher's",
       "poi_blocks": [
         {
           "name": "Peaceful Place",
@@ -435,36 +1211,44 @@
           "dist_m": 40.68
         },
         {
-          "name": "B. Christopher's",
+          "name": "The Sage Mule",
           "kind": "visit",
           "start": "09:25",
           "end": "10:16",
-          "nearest_transit": "Elm/Friendly (Northbound)",
-          "dist_m": 22.34
-        },
-        {
-          "name": "Carolina Theatre",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "14:50",
-          "nearest_transit": "Washington/Eugene",
-          "dist_m": 118.33
-        },
-        {
-          "name": "The Sage Mule",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
           "nearest_transit": "Battleground/Wharton St",
           "dist_m": 22.5
         },
         {
-          "name": "Dames Chicken & Waffles",
+          "name": "Greensboro History Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Church/Lindsay",
+          "dist_m": 131.5
+        },
+        {
+          "name": "Chez Genese",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Elm/Lewis",
+          "dist_m": 86.23
+        },
+        {
+          "name": "First National Bank Field",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "201 North Eugene St/Sandhill Center",
+          "dist_m": 137.66
+        },
+        {
+          "name": "B. Christopher's",
           "kind": "visit",
           "start": "19:51",
           "end": "21:00",
-          "nearest_transit": "Gorrell/MLK",
-          "dist_m": 24.89
+          "nearest_transit": "Elm/Friendly (Northbound)",
+          "dist_m": 22.34
         }
       ]
     },
@@ -473,10 +1257,13 @@
       "current_city": "from Greensboro to Greensboro",
       "transportation": "-",
       "accommodation": "Peaceful Place",
-      "breakfast": "Hops Burger Bar",
-      "attractions": [],
-      "lunch": "1618 West Seafood Grill",
-      "dinner": "Mimi's Cafe",
+      "breakfast": "Dames Chicken & Waffles",
+      "attractions": [
+        "Blandwood",
+        "Greensboro Coliseum Complex"
+      ],
+      "lunch": "Hops Burger Bar",
+      "dinner": "1618 West Seafood Grill",
       "poi_blocks": [
         {
           "name": "Peaceful Place",
@@ -495,40 +1282,59 @@
           "dist_m": 40.68
         },
         {
-          "name": "Hops Burger Bar",
+          "name": "Dames Chicken & Waffles",
           "kind": "visit",
           "start": "09:25",
           "end": "10:16",
+          "nearest_transit": "Gorrell/MLK",
+          "dist_m": 24.89
+        },
+        {
+          "name": "Blandwood",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Spring Garden/Blandwood (OB)",
+          "dist_m": 208.65
+        },
+        {
+          "name": "Hops Burger Bar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
           "nearest_transit": "Spring Garden/Howard (IB)",
           "dist_m": 34.51
         },
         {
-          "name": "1618 West Seafood Grill",
+          "name": "Greensboro Coliseum Complex",
           "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "West Friendly/Radiance Dr (OB)",
-          "dist_m": 39.88
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Gate City Blvd/Chapman (OB)",
+          "dist_m": 246.81
         },
         {
-          "name": "Mimi's Cafe",
+          "name": "1618 West Seafood Grill",
           "kind": "visit",
           "start": "19:51",
           "end": "21:00",
-          "nearest_transit": "West Friendly/Mimi's Restaurant",
-          "dist_m": 40.77
+          "nearest_transit": "West Friendly/Radiance Dr (OB)",
+          "dist_m": 39.88
         }
       ]
     },
     {
       "day": 3,
-      "current_city": "from Greensboro to Washington",
-      "transportation": "Flight Number: F0127783, from Greensboro to Washington, Departure Time: 10:38, Arrival Time: 11:50",
-      "accommodation": "-",
-      "breakfast": "-",
-      "attractions": [],
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "Circa 1922",
+      "attractions": [
+        "Historic District",
+        "Downtown Wilmington"
+      ],
+      "lunch": "Savorez",
+      "dinner": "PinPoint Restaurant",
       "poi_blocks": [
         {
           "name": "Peaceful Place",
@@ -537,6 +1343,311 @@
           "end": "09:00",
           "nearest_transit": "Glendale/Allen Middle School",
           "dist_m": 40.68
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Circa 1922",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 33.43
+        },
+        {
+          "name": "Historic District",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:27",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 47.8
+        },
+        {
+          "name": "Savorez",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "4th St SB at Chestnut St",
+          "dist_m": 39.22
+        },
+        {
+          "name": "Downtown Wilmington",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Front St SB at Chestnut St",
+          "dist_m": 66.26
+        },
+        {
+          "name": "PinPoint Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 42.83
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market",
+      "breakfast": "The Dixie Grill",
+      "attractions": [
+        "Burgwin-Wright House and Gardens",
+        "Riverwalk"
+      ],
+      "lunch": "Front Street Brewery",
+      "dinner": "Kilwins Ice Cream -  Chocolate - Fudge",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "The Dixie Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 42.84
+        },
+        {
+          "name": "Burgwin-Wright House and Gardens",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "3rd St SB at Dock St",
+          "dist_m": 75.52
+        },
+        {
+          "name": "Front Street Brewery",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 43.35
+        },
+        {
+          "name": "Riverwalk",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 105.98
+        },
+        {
+          "name": "Kilwins Ice Cream -  Chocolate - Fudge",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Ice Cream - Chocolate - Fudge Front St SB at Market St",
+          "dist_m": 48.84
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0119028, from Wilmington to Charlotte, Departure Time: 06:38, Arrival Time: 08:14",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "Midwood Smokehouse",
+      "attractions": [
+        "Spectrum Center",
+        "Fourth Ward"
+      ],
+      "lunch": "Cabo Fish Taco Baja Seagrill",
+      "dinner": "Mert's Heart and Soul",
+      "poi_blocks": [
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "05:08",
+          "end": "06:08",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Midwood Smokehouse",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Central Ave & Clement Ave",
+          "dist_m": 40.68
+        },
+        {
+          "name": "Spectrum Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "CTC/Arena CityLYNX",
+          "dist_m": 95.01
+        },
+        {
+          "name": "Cabo Fish Taco Baja Seagrill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Davidson & 35th",
+          "dist_m": 57.25
+        },
+        {
+          "name": "Fourth Ward",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Church St & 6th St",
+          "dist_m": 129.82
+        },
+        {
+          "name": "Mert's Heart and Soul",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "College St & 6th St",
+          "dist_m": 64.34
+        },
+        {
+          "name": "Chic Loft | Downtown | Front & Market",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Front St NB at Market St",
+          "dist_m": 30.98
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "-",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+      "breakfast": "The Fig Tree Restaurant",
+      "attractions": [
+        "Truist Field",
+        "The Bank Of America Stadium"
+      ],
+      "lunch": "The Capital Grille",
+      "dinner": "Rooster's Wood-Fired Kitchen - Uptown",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "The Fig Tree Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "7th St & Armory Dr",
+          "dist_m": 103.61
+        },
+        {
+          "name": "Truist Field",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "4th St & Graham St",
+          "dist_m": 146.25
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Tryon St & 6th St",
+          "dist_m": 103.97
+        },
+        {
+          "name": "The Bank Of America Stadium",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Stonewall St & Mint St",
+          "dist_m": 270.52
+        },
+        {
+          "name": "Rooster's Wood-Fired Kitchen - Uptown",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Trade St & College St",
+          "dist_m": 139.39
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Charlotte to Oklahoma City",
+      "transportation": "Flight Number: F0190441, from Charlotte to Oklahoma City, Departure Time: 18:30, Arrival Time: 20:20",
+      "accommodation": "-",
+      "breakfast": "Pinky's Westside Grill",
+      "attractions": [],
+      "lunch": "Mac's Speed Shop",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Graham St & 10th St",
+          "dist_m": 28.34
+        },
+        {
+          "name": "Pinky's Westside Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Morehead St & Grandin Rd",
+          "dist_m": 166.98
+        },
+        {
+          "name": "Mac's Speed Shop",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "New Bern Station",
+          "dist_m": 544.51
         }
       ]
     }

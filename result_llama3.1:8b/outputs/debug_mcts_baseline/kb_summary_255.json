@@ -2,9 +2,29 @@
   "idx": 255,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "Wilmington",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 16
+      }
+    },
+    {
+      "city": "Greensboro",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 11
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -15,45 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "San Francisco",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0075165, from Denver to San Francisco, Departure Time: 20:24, Arrival Time: 21:50"
+      "from": "Sarasota",
+      "to": "Wilmington",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "San Francisco",
+      "from": "Sarasota",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Denver to San Francisco, Duration: 1299.995 mins, Distance: 2018.7035 km, Estimated Cost: $100.94"
+      "raw": "Self-driving, from Sarasota to Wilmington, Duration: 767.9533333333333 mins, Distance: 1088.1512 km, Estimated Cost: $54.41"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "San Francisco",
+      "from": "Sarasota",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Denver to San Francisco, Duration: 1299.995 mins, Distance: 2018.7035 km, Estimated Cost: $2018.70"
+      "raw": "Taxi, from Sarasota to Wilmington, Duration: 767.9533333333333 mins, Distance: 1088.1512 km, Estimated Cost: $1088.15"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Denver",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0098906, from San Francisco to Denver, Departure Time: 06:06, Arrival Time: 09:26"
+      "from": "Wilmington",
+      "to": "Greensboro",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Denver",
+      "from": "Wilmington",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Denver, Duration: 1298.9733333333331 mins, Distance: 2017.3485 km, Estimated Cost: $100.87"
+      "raw": "Self-driving, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $16.79"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
-      "to": "Denver",
+      "from": "Wilmington",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from San Francisco to Denver, Duration: 1298.9733333333331 mins, Distance: 2017.3485 km, Estimated Cost: $2017.35"
+      "raw": "Taxi, from Wilmington to Greensboro, Duration: 239.15333333333334 mins, Distance: 335.799 km, Estimated Cost: $335.80"
+    },
+    {
+      "mode": "flight",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0236790, from Greensboro to Charlotte, Departure Time: 12:19, Arrival Time: 13:11"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
+    },
+    {
+      "mode": "taxi",
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0186610, from Charlotte to Sarasota, Departure Time: 09:07, Arrival Time: 11:05"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Sarasota, Duration: 711.625 mins, Distance: 1015.2705 km, Estimated Cost: $50.76"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Sarasota",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Sarasota, Duration: 711.625 mins, Distance: 1015.2705 km, Estimated Cost: $1015.27"
     }
   ]
 }

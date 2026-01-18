@@ -2,7 +2,27 @@
   "idx": 297,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Redding",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 73,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Luis Obispo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
@@ -16,44 +36,86 @@
     {
       "mode": "flight",
       "from": "Missoula",
-      "to": "San Francisco",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F1169882, from Missoula to San Francisco, Departure Time: 16:11, Arrival Time: 17:33"
+      "to": "Sacramento",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
       "from": "Missoula",
-      "to": "San Francisco",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $79.07"
+      "raw": "Self-driving, from Missoula to Sacramento, Duration: 1006.5883333333334 mins, Distance: 1442.7088 km, Estimated Cost: $72.14"
     },
     {
       "mode": "taxi",
       "from": "Missoula",
-      "to": "San Francisco",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43"
+      "raw": "Taxi, from Missoula to Sacramento, Duration: 1006.5883333333334 mins, Distance: 1442.7088 km, Estimated Cost: $1442.71"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Missoula",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19"
+      "from": "Sacramento",
+      "to": "Redding",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Missoula",
+      "from": "Sacramento",
+      "to": "Redding",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Missoula, Duration: 1112.4816666666666 mins, Distance: 1581.5231999999999 km, Estimated Cost: $79.08"
+      "raw": "Self-driving, from Sacramento to Redding, Duration: 176.35833333333332 mins, Distance: 259.7763 km, Estimated Cost: $12.99"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
+      "from": "Sacramento",
+      "to": "Redding",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Redding, Duration: 176.35833333333332 mins, Distance: 259.7763 km, Estimated Cost: $259.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Redding",
+      "to": "San Luis Obispo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Redding",
+      "to": "San Luis Obispo",
+      "date": null,
+      "raw": "Self-driving, from Redding to San Luis Obispo, Duration: 513.515 mins, Distance: 705.7975 km, Estimated Cost: $35.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Redding",
+      "to": "San Luis Obispo",
+      "date": null,
+      "raw": "Taxi, from Redding to San Luis Obispo, Duration: 513.515 mins, Distance: 705.7975 km, Estimated Cost: $705.80"
+    },
+    {
+      "mode": "flight",
+      "from": "San Luis Obispo",
+      "to": "Missoula",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Luis Obispo",
       "to": "Missoula",
       "date": null,
-      "raw": "Taxi, from San Francisco to Missoula, Duration: 1112.4816666666666 mins, Distance: 1581.5231999999999 km, Estimated Cost: $1581.52"
+      "raw": "Self-driving, from San Luis Obispo to Missoula, Duration: 1353.8633333333335 mins, Distance: 1896.4061000000002 km, Estimated Cost: $94.82"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Luis Obispo",
+      "to": "Missoula",
+      "date": null,
+      "raw": "Taxi, from San Luis Obispo to Missoula, Duration: 1353.8633333333335 mins, Distance: 1896.4061000000002 km, Estimated Cost: $1896.41"
     }
   ]
 }

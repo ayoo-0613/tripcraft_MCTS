@@ -1,69 +1,117 @@
 {
   "idx": 225,
   "JSON": {
-    "org": "New York",
-    "dest": "Houston",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Hartford",
+    "dest": "North Carolina",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-25",
-      "2024-11-26",
-      "2024-11-27"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": "no self-driving",
+      "transportation": null,
       "event": null,
-      "attraction": [
-        "Sights & Landmarks",
-        "Nature & Parks",
-        "Museums"
-      ]
+      "attraction": "Museums"
     },
-    "budget": 1950.0,
-    "query": "Plan a 3-day trip for 1 person from New York to Houston from November 25th to November 27th, 2024, with a budget of $1,950. The trip should include visits to sights and landmarks, nature and parks, and museums. Transportation should not involve self-driving.",
-    "level": "hard"
+    "budget": 6150.0,
+    "query": "Design a 7-day travel itinerary for 1 person departing from Hartford to visit 3 cities in North Carolina from November 1st to November 7th, 2024. The budget is $6,150. The plan should include visits to museums as attractions.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from New York to Houston",
-      "transportation": "Taxi, from New York to Houston, Not feasible to drive from New York to Houston",
-      "breakfast": "Phoenicia Specialty Foods, Houston",
-      "attraction": "Rodeo Houston or Houston Livestock Show and Rodeo, Houston; National Museum of Funeral History, Houston",
-      "lunch": "Niko Niko's Greek, Houston",
-      "dinner": "Houston's, Houston",
-      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "current_city": "from Hartford to Greensboro",
+      "transportation": "Taxi, from Hartford to Greensboro, Duration: 783.4616666666666 mins, Distance: 1043.7665 km, Estimated Cost: $1043.77",
+      "breakfast": "B. Christopher's, Greensboro",
+      "attraction": "International Civil Rights Center & Museum, Greensboro",
+      "lunch": "The Sage Mule, Greensboro",
+      "dinner": "Dames Chicken & Waffles, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Phoenicia Specialty Foods, visit from 09:25 to 10:16, nearest transit: Lamar St @ Austin St, 9.87m away; Rodeo Houston or Houston Livestock Show and Rodeo, visit from 11:30 to 13:57, nearest transit: Kirby Dr @ McNee Rd, 46.85m away; Niko Niko's Greek, visit from 13:57 to 14:56, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; National Museum of Funeral History, visit from 16:30 to 18:57, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Houston's, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+      "point_of_interest_list": "Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; B. Christopher's, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Elm/Friendly (Northbound), 22.34m away; International Civil Rights Center & Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: International Civil Rights Museum, 3.98m away; The Sage Mule, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Battleground/Wharton St, 22.50m away; Dames Chicken & Waffles, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Gorrell/MLK, 24.89m away; Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 2,
-      "current_city": "from Houston to Houston",
-      "transportation": "Transfer, from Houston to Houston",
-      "breakfast": "Hugo's, Houston",
-      "attraction": "Museum of Fine Arts, Houston; Downtown Aquarium, Houston",
-      "lunch": "Uchi Houston, Houston",
-      "dinner": "Goode Company BBQ, Houston",
-      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Hops Burger Bar, Greensboro",
+      "attraction": "Ambleside Gallery, Greensboro",
+      "lunch": "1618 West Seafood Grill, Greensboro",
+      "dinner": "Mimi's Cafe, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Hugo's, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Museum of Fine Arts, Houston, visit from 11:30 to 13:57, nearest transit: Bissonnet St @ Montrose Blvd, 72.67m away; Uchi Houston, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away; Downtown Aquarium, visit from 16:30 to 19:27, nearest transit: Preston St @ Bagby St, 75.65m away; Goode Company BBQ, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ South Blvd, 42.93m away; #1 Upper Kirby/Med Center/Montrose /Galleria, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
+      "point_of_interest_list": "Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Hops Burger Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Spring Garden/Howard (IB), 34.51m away; Ambleside Gallery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 14:35, nearest transit: Elm/Lewis, 35.43m away; 1618 West Seafood Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: West Friendly/Radiance Dr (OB), 39.88m away; Mimi's Cafe, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: West Friendly/Mimi's Restaurant, 40.77m away; Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 3,
-      "current_city": "from Houston to New York",
-      "transportation": "Flight Number: F0104341, from Houston to New York, Departure Time: 11:05, Arrival Time: 15:35",
-      "breakfast": "Fogo de Chao Brazilian Steakhouse, Houston",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0115705, from Greensboro to Charlotte, Departure Time: 16:06, Arrival Time: 17:10",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Midwood Smokehouse, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Midwood Smokehouse, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Central Ave & Clement Ave, 40.68m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Cabo Fish Taco Baja Seagrill, Charlotte",
+      "attraction": "Levine Museum of the New South, Charlotte",
+      "lunch": "Mert's Heart and Soul, Charlotte",
+      "dinner": "The Fig Tree Restaurant, Charlotte",
+      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Cabo Fish Taco Baja Seagrill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Davidson & 35th, 57.25m away; Levine Museum of the New South, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Tryon St & 2nd St, 38.18m away; Mert's Heart and Soul, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: College St & 6th St, 64.34m away; The Fig Tree Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: 7th St & Armory Dr, 103.61m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Wilmington",
+      "transportation": "Flight Number: F0197234, from Charlotte to Wilmington, Departure Time: 20:55, Arrival Time: 22:23",
+      "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
+      "accommodation": "Chic Loft | Downtown | Front & Market, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Chic Loft | Downtown | Front & Market, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Front St NB at Market St, 30.98m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "Circa 1922, Wilmington",
+      "attraction": "Wilmington Railroad Museum, Wilmington",
+      "lunch": "Savorez, Wilmington",
+      "dinner": "PinPoint Restaurant, Wilmington",
+      "accommodation": "Chic Loft | Downtown | Front & Market, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Chic Loft | Downtown | Front & Market, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Front St NB at Market St, 30.98m away; Circa 1922, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Front St SB at Market St, 33.43m away; Wilmington Railroad Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Nutt St SB at Wilmington Railroad Museum, 46.05m away; Savorez, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: 4th St SB at Chestnut St, 39.22m away; PinPoint Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Front St NB at Market St, 42.83m away; Chic Loft | Downtown | Front & Market, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Front St NB at Market St, 30.98m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Wilmington to Hartford",
+      "transportation": "Transfer, from Wilmington to Hartford",
+      "breakfast": "The Dixie Grill, Wilmington",
+      "attraction": "Museum of the Bizarre, Wilmington",
+      "lunch": "Front Street Brewery, Wilmington",
+      "dinner": "Kilwins Ice Cream -  Chocolate - Fudge, Wilmington",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Fogo de Chao Brazilian Steakhouse, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Old Farm Rd, 57.72m away."
+      "point_of_interest_list": "Chic Loft | Downtown | Front & Market, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Front St NB at Market St, 30.98m away; The Dixie Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: Front St NB at Market St, 42.84m away; Museum of the Bizarre, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 11:30 to 15:20, nearest transit: Front St SB at Orange St, 54.02m away; Front Street Brewery, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 13:57 to 14:56, nearest transit: Front St SB at Market St, 43.35m away; Kilwins Ice Cream -  Chocolate - Fudge, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Forests/Wildlife, visit from 19:51 to 21:00, nearest transit: Ice Cream - Chocolate - Fudge Front St SB at Market St, 48.84m away."
     }
   ]
 }

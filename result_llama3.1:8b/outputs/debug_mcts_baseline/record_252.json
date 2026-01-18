@@ -1,68 +1,120 @@
 {
   "idx": 252,
   "JSON": {
-    "org": "Miami",
-    "dest": "Nashville",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Victoria",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "American",
+        "Italian"
+      ],
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": [
-        "Food & Drink",
-        "Concerts & Shows"
-      ]
+      "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Miami to Nashville from November 17th to November 19th, 2024, with a budget of $1,800. Include activities related to food and drink, as well as concerts and shows.",
+    "budget": 16050.0,
+    "query": "Plan a 7-day trip for 1 person starting from Victoria and visiting 3 cities in Texas between November 2nd and November 8th, 2024. The budget is $16,050. Include dining options with American and Italian cuisines.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to Nashville",
-      "transportation": "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "Ole Red, Nashville",
-      "dinner": "Pelato, Nashville",
-      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "current_city": "from Victoria to Houston",
+      "transportation": "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71",
+      "breakfast": "Houston's, Houston",
+      "attraction": "Rodeo Houston or Houston Livestock Show and Rodeo, Houston",
+      "lunch": "Phoenicia Specialty Foods, Houston",
+      "dinner": "Niko Niko's Greek, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; 12 South Original - Restored craftsman from 1905!, stay from 11:41 to 12:41, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Ole Red, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Pelato, visit from 19:51 to 21:00, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; 12 South Original - Restored craftsman from 1905!, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Houston's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Rodeo Houston or Houston Livestock Show and Rodeo, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Kirby Dr @ McNee Rd, 46.85m away; Phoenicia Specialty Foods, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Lamar St @ Austin St, 9.87m away; Niko Niko's Greek, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Montrose Blvd @ Missouri St, 22.62m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 2,
-      "current_city": "from Nashville to Nashville",
-      "transportation": "Transfer, from Nashville to Nashville",
-      "breakfast": "Gannons Nashville, Nashville",
-      "attraction": "Ryman Auditorium, Nashville",
-      "lunch": "Puckett's 5th & Church, Nashville",
-      "dinner": "Deacon’s New South, Nashville",
-      "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Goode Company BBQ, Houston",
+      "attraction": "National Museum of Funeral History, Houston",
+      "lunch": "Hugo's, Houston",
+      "dinner": "Uchi Houston, Houston",
+      "accommodation": "#1 Upper Kirby/Med Center/Montrose /Galleria, Houston",
       "event": "-",
-      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Gannons Nashville, visit from 09:25 to 10:16, nearest transit: 4TH AVE N & CHURCH ST SB, 35.96m away; Ryman Auditorium, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; Puckett's 5th & Church, visit from 13:57 to 14:56, nearest transit: 5TH AVE N & CHURCH ST NB, 39.47m away; Deacon’s New South, visit from 19:51 to 21:00, nearest transit: 4TH AVE N & CHURCH ST SB, 40.02m away; 12 South Original - Restored craftsman from 1905!, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; Goode Company BBQ, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Kirby Dr @ South Blvd, 42.93m away; National Museum of Funeral History, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Ella Blvd @ Barren Springs Dr, 62.08m away; Hugo's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Uchi Houston, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Westheimer Rd @ Montrose Blvd, 31.07m away; #1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away."
     },
     {
       "days": 3,
-      "current_city": "from Nashville to Miami",
-      "transportation": "Transfer, from Nashville to Miami",
-      "breakfast": "Caney Fork River Valley Grille, Nashville",
-      "attraction": "Ole Smoky Distillery & Yee-Haw Brewery, Nashville",
-      "lunch": "Miranda Lambert's Casa Rosa, Nashville",
-      "dinner": "The Stillery, Nashville",
+      "current_city": "from Houston to Corpus Christi",
+      "transportation": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "b/walk to beach/fishing dock/Ground floor/King bed, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "#1 Upper Kirby/Med Center/Montrose /Galleria, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Richmond Ave @ Greenbriar Dr, 52.69m away; b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 2601-15209 Leeward, 21.45m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+      "breakfast": "Luciano's Italian Restaurant, Corpus Christi",
+      "attraction": "Selena Memorial-Mirador De La Flor, Corpus Christi",
+      "lunch": "Blackbeard's On The Beach, Corpus Christi",
+      "dinner": "Blue Clove, Corpus Christi",
+      "accommodation": "b/walk to beach/fishing dock/Ground floor/King bed, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 2601-15209 Leeward, 21.45m away; Luciano's Italian Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Alameda @ Clifford, 37.37m away; Selena Memorial-Mirador De La Flor, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: 7603-Peoples T-Head, 61.95m away; Blackbeard's On The Beach, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 1319-Surfside @ Elm, 24.45m away; Blue Clove, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 1006-Everhart @ Shea, 24.81m away; b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 2601-15209 Leeward, 21.45m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Corpus Christi to Beaumont",
+      "transportation": "Transfer, from Corpus Christi to Beaumont",
+      "breakfast": "Beaumont's, Beaumont",
+      "attraction": "Gator Country, Beaumont",
+      "lunch": "Beaumont Hotel Cafe And Restaurant, Beaumont",
+      "dinner": "Maina's Donair, Beaumont",
+      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "b/walk to beach/fishing dock/Ground floor/King bed, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 2601-15209 Leeward, 21.45m away; Beaumont's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Seneca Springs and Lynn Avenue, 125038.02m away; Gator Country, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2171070.69m away; Beaumont Hotel Cafe And Restaurant, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 1874483.80m away; Maina's Donair, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161082.60m away; Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "Transfer, from Beaumont to Beaumont",
+      "breakfast": "Chartier, Beaumont",
+      "attraction": "John Jay French House Museum, Beaumont",
+      "lunch": "Saigon Delights, Beaumont",
+      "dinner": "Wild Wing Beaumont, Beaumont",
+      "accommodation": "Elegant Home with Backyard Paradise - Sleeps 8., Beaumont",
+      "event": "-",
+      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Chartier, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: San Bernardino Transit Center, 2161104.33m away; John Jay French House Museum, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Casino Morongo, 2177099.24m away; Saigon Delights, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: San Bernardino Transit Center, 2161845.42m away; Wild Wing Beaumont, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: San Bernardino Transit Center, 2161925.08m away; Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Casino Morongo, 2171549.29m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Beaumont to Victoria",
+      "transportation": "Transfer, from Beaumont to Victoria",
+      "breakfast": "Rao's Bakery and Coffee Cafe, Beaumont",
+      "attraction": "Beaumont Botanical Gardens, Beaumont",
+      "lunch": "Jason's Deli, Beaumont",
+      "dinner": "Tia Juanita's, Beaumont",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; Caney Fork River Valley Grille, visit from 09:25 to 10:16, nearest transit: MCGAVOCK PIKE & MUSIC VALLEY DR WB, 44.60m away; Ole Smoky Distillery & Yee-Haw Brewery, visit from 11:30 to 14:50, nearest transit: KOREAN VETS BLVD & 6TH AVE WB, 122.92m away; Miranda Lambert's Casa Rosa, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 3RD AVE WB, 55.84m away; The Stillery, visit from 19:51 to 21:00, nearest transit: BROADWAY AVE & 2ND AVE N WB, 59.97m away."
+      "point_of_interest_list": "Elegant Home with Backyard Paradise - Sleeps 8., traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Casino Morongo, 2171549.29m away; Rao's Bakery and Coffee Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Casino Morongo, 2175384.21m away; Beaumont Botanical Gardens, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 11:30 to 16:50, nearest transit: Casino Morongo, 2179950.04m away; Jason's Deli, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Casino Morongo, 2175442.94m away; Tia Juanita's, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Casino Morongo, 2176916.68m away."
     }
   ]
 }

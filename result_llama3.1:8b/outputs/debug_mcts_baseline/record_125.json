@@ -1,65 +1,120 @@
 {
   "idx": 125,
   "JSON": {
-    "org": "Houston",
-    "dest": "Washington",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Chicago",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-06",
-      "2024-11-07",
-      "2024-11-08"
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13",
+      "2024-11-14",
+      "2024-11-15",
+      "2024-11-16",
+      "2024-11-17"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": null,
+      "house rule": "visitors",
+      "cuisine": [
+        "American",
+        "Mexican"
+      ],
+      "room type": "entire home",
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 3300.0,
-    "query": "Plan a 3-day trip for 2 people from Houston to Washington from November 6th to November 8th, 2024, with a budget of $3,300.",
-    "level": "easy"
+    "budget": 7500.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Chicago and visiting 3 cities in Iowa between November 11th and November 17th, 2024. The budget is $7,500. Accommodations should be an entire home, and dining options should include American and Mexican cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Washington",
-      "transportation": "Taxi, from Houston to Washington, Not feasible to drive from Houston to Washington",
-      "breakfast": "Zaytinya by Jose Andres, Washington",
-      "attraction": "National Portrait Gallery, Washington; The National Archives Museum, Washington",
-      "lunch": "The Pembroke, Washington",
-      "dinner": "Georgia Brown's, Washington",
-      "accommodation": "A Cozy room, Washington",
+      "current_city": "from Chicago to Fort Dodge",
+      "transportation": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "breakfast": "Taco Tico, Fort Dodge",
+      "attraction": "The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Sneakers Eatry and Pub, Fort Dodge",
+      "dinner": "Larita's Cakes 'N More, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; Zaytinya by Jose Andres, visit from 09:25 to 10:16, nearest transit: GALLERY PLACE CHINATOWN, 35.74m away; National Portrait Gallery, visit from 11:30 to 13:57, nearest transit: GALLERY PLACE CHINATOWN, 56.84m away; The Pembroke, visit from 13:57 to 14:56, nearest transit: DUPONT CIRCLE, 59.31m away; The National Archives Museum, visit from 16:30 to 18:57, nearest transit: ARCHIVES-NAVY MEM'L-PENN QUARTER, GREEN/YELLOW LINE CENTER PLATFORM, 121.14m away; Georgia Brown's, visit from 19:51 to 21:00, nearest transit: MCPHERSON SQ, 62.32m away; A Cozy room, stay from 22:15 to 08:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Taco Tico, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Crossroads Mall Entrance/Younkers, 56.77m away; The Fort Museum & Frontier Village, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Sneakers Eatry and Pub, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Central Ave and S 13th St, 60.64m away; Larita's Cakes 'N More, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 2nd Ave N and N 19th St, 57.76m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Washington to Washington",
-      "transportation": "Transfer, from Washington to Washington",
-      "breakfast": "Sichuan Pavilion, Washington",
-      "attraction": "Ford's Theatre, Washington; International Spy Museum, Washington",
-      "lunch": "Succotash Prime, Washington",
-      "dinner": "Fiola, Washington",
-      "accommodation": "A Cozy room, Washington",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Lomitas Mexican Restaurant, Fort Dodge",
+      "dinner": "Sports Page, Fort Dodge",
+      "accommodation": "Newly-renovated Cozy Home in Convenient Location, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; Sichuan Pavilion, visit from 09:25 to 10:16, nearest transit: FARRAGUT WEST METRORAIL STATION - NW CORNER 18TH & I STS., NW, 91.54m away; Ford's Theatre, visit from 11:30 to 13:42, nearest transit: ENTRANCE B - 11TH AND G STS., 172.16m away; Succotash Prime, visit from 13:57 to 14:56, nearest transit: Entrance B - 9St & G St, GALLERY PLACE METRORAIL STATION, 103.86m away; International Spy Museum, visit from 16:30 to 18:57, nearest transit: Entrance C - 9 St, L'Enfant Plaza, 178.97m away; Fiola, visit from 19:51 to 21:00, nearest transit: ARCHIVES, 107.10m away; A Cozy room, stay from 22:15 to 08:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Village Inn, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Studio Fusion, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Lomitas Mexican Restaurant, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: 5th Ave S and S 21st St, 167.19m away; Sports Page, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Evergreen Estates, 68.77m away; Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: St Edmond Catholic School, 38.96m away."
     },
     {
       "days": 3,
-      "current_city": "from Washington to Houston",
-      "transportation": "Flight Number: F0084522, from Washington to Houston, Departure Time: 07:04, Arrival Time: 09:31",
-      "breakfast": "-",
+      "current_city": "from Fort Dodge to Sioux City",
+      "transportation": "Transfer, from Fort Dodge to Sioux City",
+      "breakfast": "Da Kao Chinese & Vietnamese Cuisine, Sioux City",
+      "attraction": "Palmer's Olde Tyme Candy Shoppe, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Jitters, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Newly-renovated Cozy Home in Convenient Location, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: St Edmond Catholic School, 38.96m away; Da Kao Chinese & Vietnamese Cuisine, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: W 7th St & Omaha St, 6.11m away; Palmer's Olde Tyme Candy Shoppe, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:35, nearest transit: West 4th St & Wesley Pkwy, 42.99m away; Miles Inn, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Jitters, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Diamond Thai Cuisine, Sioux City",
+      "attraction": "Sioux City Art Center, Sioux City",
+      "lunch": "El Fredo Pizza, Sioux City",
+      "dinner": "Jerry's Pizza, Sioux City",
+      "accommodation": "Leeds Home w/Screened-in Patio, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Diamond Thai Cuisine, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: W 7th St & Sioux St, 46.99m away; Sioux City Art Center, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:20, nearest transit: Nebraska St & 3rd St, 59.94m away; El Fredo Pizza, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: W 19th St & Center St, 47.56m away; Jerry's Pizza, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: W 25th St & Geneva St, 53.92m away; Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Central & 44th St, 86.83m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to Mason City",
+      "transportation": "Transfer, from Sioux City to Mason City",
+      "breakfast": "Pancheros Mexican Grill - Mason City, Mason City",
+      "attraction": "Fat Hill Brewing, Mason City",
+      "lunch": "RibCrib BBQ, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Leeds Home w/Screened-in Patio, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Central & 44th St, 86.83m away; Pancheros Mexican Grill - Mason City, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: Frontage Rd. SW and Briarstone Dr. (Perkins), 77.65m away; Fat Hill Brewing, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:50, nearest transit: Central Park, 46.90m away; RibCrib BBQ, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 106.13m away; The Quarry, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "China Buffet, Mason City",
+      "attraction": "Target Store Mason-City, Mason City",
+      "lunch": "Prime N Wine, Mason City",
+      "dinner": "Wok and Roll, Mason City",
+      "accommodation": "Wonderfully Welcoming Cozy 1 bdrm Apt., Mason City",
+      "event": "-",
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; China Buffet, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; Target Store Mason-City, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 11:30 to 13:50, nearest transit: Target Super Center, 54.68m away; Prime N Wine, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 13:57 to 14:56, nearest transit: Frontage Rd. NW (McGregor Furniture), 128.03m away; Wok and Roll, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 19:51 to 21:00, nearest transit: S Delaware Ave. and 2nd St. SW, 132.04m away; Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Mason City to Chicago",
+      "transportation": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17",
+      "breakfast": "Boulder Tap House - Mason City, Mason City",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 05:34 to 06:34, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "Wonderfully Welcoming Cozy 1 bdrm Apt., traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: N Connecticut Ave. and 2nd St. NE, 96.71m away; Boulder Tap House - Mason City, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: S Taft Ave. and Frontage Rd. SW, 138.63m away."
     }
   ]
 }

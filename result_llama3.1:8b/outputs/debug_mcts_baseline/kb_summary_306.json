@@ -2,58 +2,120 @@
   "idx": 306,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Albuquerque",
-      "to": "San Francisco",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0540675, from Albuquerque to San Francisco, Departure Time: 15:42, Arrival Time: 17:10"
+      "from": "Oklahoma City",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35"
     },
     {
       "mode": "self-driving",
-      "from": "Albuquerque",
-      "to": "San Francisco",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Albuquerque to San Francisco, Duration: 1157.3366666666666 mins, Distance: 1745.7484 km, Estimated Cost: $87.29"
+      "raw": "Self-driving, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $35.69"
     },
     {
       "mode": "taxi",
-      "from": "Albuquerque",
-      "to": "San Francisco",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Albuquerque to San Francisco, Duration: 1157.3366666666666 mins, Distance: 1745.7484 km, Estimated Cost: $1745.75"
+      "raw": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Albuquerque",
-      "date": "2024-11-10",
-      "raw": "Flight Number: F0537103, from San Francisco to Albuquerque, Departure Time: 11:13, Arrival Time: 14:30"
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Albuquerque",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Albuquerque, Duration: 1156.0066666666667 mins, Distance: 1747.5004 km, Estimated Cost: $87.38"
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
-      "to": "Albuquerque",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from San Francisco to Albuquerque, Duration: 1156.0066666666667 mins, Distance: 1747.5004 km, Estimated Cost: $1747.50"
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

@@ -2,58 +2,120 @@
   "idx": 198,
   "stages": [
     {
-      "city": "New York",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 22
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 10
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 1
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Dallas",
-      "to": "New York",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0009344, from Dallas to New York, Departure Time: 17:35, Arrival Time: 21:44"
+      "from": "Nashville",
+      "to": "Cedar Rapids",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0376745, from Nashville to Cedar Rapids, Departure Time: 18:43, Arrival Time: 20:13"
     },
     {
       "mode": "self-driving",
-      "from": "Dallas",
-      "to": "New York",
+      "from": "Nashville",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Dallas to New York, Not feasible to drive from Dallas to New York"
+      "raw": "Self-driving, from Nashville to Cedar Rapids, Duration: 671.4133333333334 mins, Distance: 950.9578 km, Estimated Cost: $47.55"
     },
     {
       "mode": "taxi",
-      "from": "Dallas",
-      "to": "New York",
+      "from": "Nashville",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Dallas to New York, Not feasible to drive from Dallas to New York"
+      "raw": "Taxi, from Nashville to Cedar Rapids, Duration: 671.4133333333334 mins, Distance: 950.9578 km, Estimated Cost: $950.96"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Dallas",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0059549, from New York to Dallas, Departure Time: 11:28, Arrival Time: 14:15"
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Dallas",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from New York to Dallas, Not feasible to drive from New York to Dallas"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Dallas",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from New York to Dallas, Not feasible to drive from New York to Dallas"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $16.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $332.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Nashville",
+      "date": "2024-11-14",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Nashville, Duration: 830.075 mins, Distance: 1173.1008 km, Estimated Cost: $58.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Mason City to Nashville, Duration: 830.075 mins, Distance: 1173.1008 km, Estimated Cost: $1173.10"
     }
   ]
 }
