@@ -1,0 +1,1151 @@
+{
+  "idx": 308,
+  "reward": 25.903424218941833,
+  "budget_used": 3579.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "candidates": [
+        "Flight Number: F0035794, from Dallas to Memphis, Departure Time: 15:34, Arrival Time: 16:44",
+        "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Clean and Cozy Cottage in Heart of Memphis",
+      "candidates": [
+        "Clean and Cozy Cottage in Heart of Memphis",
+        "Private Safe Hideaway in Prime Midtown Location",
+        "Modern Midtown Pad (Queen real bed)",
+        "Historic Cooper Young Midtown Shotgun House",
+        "Midtown - Private Entrance & Garden",
+        "Adorable 1-bedroom guesthouse in Midtown",
+        "Cottage bungalow in midtown (Cooper and Young)",
+        "Affordable Comfy Home Away From Home",
+        "The Cottage in Central Gardens",
+        "Cozy 1 Bedroom Guest House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Soul Fish Cafe Inc",
+      "candidates": [
+        "Payne's Bar-B-Que",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "The Soul Fish Cafe Inc",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill",
+        "The Brass Door Irish Pub"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Memphis Zoo",
+      "candidates": [
+        "Memphis Zoo",
+        "Beale Street",
+        "Stax Museum of American Soul Music",
+        "The Peabody Ducks",
+        "Backbeat Tours",
+        "AutoZone Park",
+        "Sun Studio",
+        "National Civil Rights Museum - Lorraine Motel",
+        "Memphis Rock 'n' Soul Museum",
+        "Bass Pro Shops at the Pyramid",
+        "Graceland",
+        "Memphis Escape Rooms",
+        "Memphis Riverboats",
+        "Main Street Trolley",
+        "Mud Island River Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Payne's Bar-B-Que",
+      "candidates": [
+        "Payne's Bar-B-Que",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "The Brass Door Irish Pub",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Beale Street",
+      "candidates": [
+        "Beale Street",
+        "Stax Museum of American Soul Music",
+        "The Peabody Ducks",
+        "Backbeat Tours",
+        "AutoZone Park",
+        "Sun Studio",
+        "National Civil Rights Museum - Lorraine Motel",
+        "Memphis Rock 'n' Soul Museum",
+        "Bass Pro Shops at the Pyramid",
+        "Graceland",
+        "Memphis Escape Rooms",
+        "Memphis Riverboats",
+        "Main Street Trolley",
+        "Mud Island River Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Central BBQ",
+      "candidates": [
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "The Brass Door Irish Pub",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Clean and Cozy Cottage in Heart of Memphis",
+      "candidates": [
+        "Clean and Cozy Cottage in Heart of Memphis",
+        "Private Safe Hideaway in Prime Midtown Location",
+        "Modern Midtown Pad (Queen real bed)",
+        "Historic Cooper Young Midtown Shotgun House",
+        "Midtown - Private Entrance & Garden",
+        "Adorable 1-bedroom guesthouse in Midtown",
+        "Cottage bungalow in midtown (Cooper and Young)",
+        "Affordable Comfy Home Away From Home",
+        "The Cottage in Central Gardens",
+        "Cozy 1 Bedroom Guest House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Blues City Cafe",
+      "candidates": [
+        "Blues City Cafe",
+        "Majestic Grille",
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill",
+        "The Brass Door Irish Pub"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Stax Museum of American Soul Music",
+      "candidates": [
+        "Stax Museum of American Soul Music",
+        "The Peabody Ducks",
+        "Backbeat Tours",
+        "AutoZone Park",
+        "Sun Studio",
+        "National Civil Rights Museum - Lorraine Motel",
+        "Memphis Rock 'n' Soul Museum",
+        "Bass Pro Shops at the Pyramid",
+        "Graceland",
+        "Memphis Escape Rooms",
+        "Memphis Riverboats",
+        "Main Street Trolley",
+        "Mud Island River Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Majestic Grille",
+      "candidates": [
+        "Majestic Grille",
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "The Brass Door Irish Pub",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Peabody Ducks",
+      "candidates": [
+        "The Peabody Ducks",
+        "Backbeat Tours",
+        "AutoZone Park",
+        "Sun Studio",
+        "National Civil Rights Museum - Lorraine Motel",
+        "Memphis Rock 'n' Soul Museum",
+        "Bass Pro Shops at the Pyramid",
+        "Graceland",
+        "Memphis Escape Rooms",
+        "Memphis Riverboats",
+        "Main Street Trolley",
+        "Mud Island River Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Corky's Ribs & BBQ",
+      "candidates": [
+        "Corky's Ribs & BBQ",
+        "Cozy Corner",
+        "B.B. King's Blues Club",
+        "Itta Bena",
+        "The BBQ Shop",
+        "Rum Boogie Cafe",
+        "Arcade Restaurant",
+        "The Brass Door Irish Pub",
+        "Silky O'sullivan's",
+        "Interstate Barbecue",
+        "Huey's Downtown",
+        "Pig On Beale",
+        "Charles Vergos' Rendezvous",
+        "Flight Restaurant and Wine Bar",
+        "Kooky Canuck",
+        "Mcewen's Memphis",
+        "Flying Fish",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Brother Juniper's",
+        "Leonard's Pit Barbecue",
+        "Gibson's Donuts",
+        "One & Only BBQ - Kirby Pkwy",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Barbecue",
+        "Memphis Fire Barbeque Company",
+        "Memphis Blues Barbeque House",
+        "Memphis BBQ Grill"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Halloween Available! * King Beds * Arcade Games",
+      "candidates": [
+        "Halloween Available! * King Beds * Arcade Games",
+        "Wren’s nest on the ridge",
+        "Glenn Falls Tiny Cabin",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "-Downtown 6 miles -Mtn Views",
+        "Cozy Stylish Studio",
+        "Chattanooga - The Isbill House",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Community Pie",
+      "candidates": [
+        "Community Pie",
+        "Alleia",
+        "Tony's Pasta Shop & Trattoria",
+        "Mayan Kitchen",
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Whiskey Experimental Distillery",
+      "candidates": [
+        "Chattanooga Whiskey Experimental Distillery",
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mayan Kitchen",
+      "candidates": [
+        "Mayan Kitchen",
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Moon Pie General Store",
+      "candidates": [
+        "Moon Pie General Store",
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Maple Street Biscuit Company - City Center",
+      "candidates": [
+        "Maple Street Biscuit Company - City Center",
+        "Uncle Larry's Restaurant",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Alleia",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Halloween Available! * King Beds * Arcade Games",
+      "candidates": [
+        "Halloween Available! * King Beds * Arcade Games",
+        "Wren’s nest on the ridge",
+        "Glenn Falls Tiny Cabin",
+        "Apollonie Cabin Private Spa at Lookout Mountain",
+        "-Downtown 6 miles -Mtn Views",
+        "Cozy Stylish Studio",
+        "Chattanooga - The Isbill House",
+        "Tadpole Cabin at Creek Road Farm",
+        "The Lookout Mountain Birdhouse",
+        "Live Oak Treehouse at Treetop Escapes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Alleia",
+      "candidates": [
+        "Alleia",
+        "Tony's Pasta Shop & Trattoria",
+        "Uncle Larry's Restaurant",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chattanooga Ghost Tours",
+      "candidates": [
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Uncle Larry's Restaurant",
+      "candidates": [
+        "Uncle Larry's Restaurant",
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Lookout Mountain Incline Railway",
+      "candidates": [
+        "The Lookout Mountain Incline Railway",
+        "Tennessee Aquarium",
+        "Chattanooga Zoo",
+        "Coolidge Park",
+        "Tennessee Riverwalk",
+        "Escape Experience - Chattanooga Escape Room Games",
+        "Chattanooga Ducks",
+        "Southern Belle Riverboat Cruise",
+        "Walnut Street Bridge",
+        "Tennessee Valley Railroad Museum",
+        "Lookout Mountain"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "HiFi Clyde's Chattanooga",
+      "candidates": [
+        "HiFi Clyde's Chattanooga",
+        "St. John's Restaurant",
+        "Mellow Mushroom Chattanooga",
+        "Bridgeman's Chophouse",
+        "Public House",
+        "The Feed co. Table & Tavern",
+        "The Purple Daisy Picnic Cafe",
+        "Primo",
+        "Bluegrass Grill",
+        "Champy's",
+        "Rodizio Grill Brazilian Steakhouse Chattanooga Downtown",
+        "Easy Bistro & Bar",
+        "Frothy Monkey",
+        "Puckett's Chattanooga",
+        "Tupelo Honey Southern Kitchen & Bar",
+        "Stir",
+        "Tony's Pasta Shop & Trattoria",
+        "Urban Stack",
+        "Firebirds Wood Fired Grill",
+        "Hennen's",
+        "1885 Grill",
+        "J. Alexander's Restaurant",
+        "Zaya 1943 Korean Steakhouse",
+        "Whitebird",
+        "Boathouse Rotisserie & Raw Bar",
+        "Molcajete Mexican Restaurant",
+        "Ruth's Chris Steak House",
+        "Scottie's On The River",
+        "Hickory Pit Bar-B-Que",
+        "La Cabriole"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10",
+      "candidates": [
+        "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10",
+        "Taxi, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $1274.84"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Memphis",
+      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis",
+      "breakfast": "The Soul Fish Cafe Inc",
+      "attractions": [
+        "Memphis Zoo",
+        "Beale Street"
+      ],
+      "lunch": "Payne's Bar-B-Que",
+      "dinner": "Central BBQ",
+      "poi_blocks": [
+        {
+          "name": "Clean and Cozy Cottage in Heart of Memphis",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BELLEVUE@CENTRAL",
+          "dist_m": 37.37
+        },
+        {
+          "name": "Clean and Cozy Cottage in Heart of Memphis",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BELLEVUE@CENTRAL",
+          "dist_m": 37.37
+        },
+        {
+          "name": "The Soul Fish Cafe Inc",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "COOPER@NELSON AVE",
+          "dist_m": 47.14
+        },
+        {
+          "name": "Memphis Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:37",
+          "nearest_transit": "N PARKWAY@WEST DR",
+          "dist_m": 8.68
+        },
+        {
+          "name": "Payne's Bar-B-Que",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "LAMAR AVE@SEATTLE",
+          "dist_m": 20.86
+        },
+        {
+          "name": "Beale Street",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "BEALE-MAIN/TRO SB",
+          "dist_m": 14.88
+        },
+        {
+          "name": "Central BBQ",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SUMMER AVE@SANDRIDGE",
+          "dist_m": 20.99
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "-",
+      "accommodation": "Clean and Cozy Cottage in Heart of Memphis",
+      "breakfast": "Blues City Cafe",
+      "attractions": [
+        "Stax Museum of American Soul Music",
+        "The Peabody Ducks"
+      ],
+      "lunch": "Majestic Grille",
+      "dinner": "Corky's Ribs & BBQ",
+      "poi_blocks": [
+        {
+          "name": "Clean and Cozy Cottage in Heart of Memphis",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BELLEVUE@CENTRAL",
+          "dist_m": 37.37
+        },
+        {
+          "name": "Clean and Cozy Cottage in Heart of Memphis",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BELLEVUE@CENTRAL",
+          "dist_m": 37.37
+        },
+        {
+          "name": "Blues City Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SECOND@BEALE",
+          "dist_m": 21.42
+        },
+        {
+          "name": "Stax Museum of American Soul Music",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "MCLEMORE@COLLEGE",
+          "dist_m": 36.06
+        },
+        {
+          "name": "Majestic Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEABODY-MAIN/TRO NB",
+          "dist_m": 40.0
+        },
+        {
+          "name": "The Peabody Ducks",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "UNION AVE @ S 3RD ST",
+          "dist_m": 50.0
+        },
+        {
+          "name": "Corky's Ribs & BBQ",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "POPLAR@PELHAM DR",
+          "dist_m": 43.73
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "-",
+      "accommodation": "Halloween Available! * King Beds * Arcade Games",
+      "breakfast": "Community Pie",
+      "attractions": [
+        "Chattanooga Whiskey Experimental Distillery",
+        "Moon Pie General Store"
+      ],
+      "lunch": "Mayan Kitchen",
+      "dinner": "Maple Street Biscuit Company - City Center",
+      "poi_blocks": [
+        {
+          "name": "Clean and Cozy Cottage in Heart of Memphis",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BELLEVUE@CENTRAL",
+          "dist_m": 37.37
+        },
+        {
+          "name": "Halloween Available! * King Beds * Arcade Games",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Broad & Wendy's1",
+          "dist_m": 84.3
+        },
+        {
+          "name": "Community Pie",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MARKET + M.L.KING",
+          "dist_m": 20.76
+        },
+        {
+          "name": "Chattanooga Whiskey Experimental Distillery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:27",
+          "nearest_transit": "MARKET + CHOO CHOO",
+          "dist_m": 29.39
+        },
+        {
+          "name": "Mayan Kitchen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "BROAD + 5TH",
+          "dist_m": 15.62
+        },
+        {
+          "name": "Moon Pie General Store",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:12",
+          "nearest_transit": "Broad & Jack's Alley",
+          "dist_m": 46.95
+        },
+        {
+          "name": "Maple Street Biscuit Company - City Center",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "BROAD + 4TH",
+          "dist_m": 19.08
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "-",
+      "accommodation": "Halloween Available! * King Beds * Arcade Games",
+      "breakfast": "Alleia",
+      "attractions": [
+        "Chattanooga Ghost Tours",
+        "The Lookout Mountain Incline Railway"
+      ],
+      "lunch": "Uncle Larry's Restaurant",
+      "dinner": "HiFi Clyde's Chattanooga",
+      "poi_blocks": [
+        {
+          "name": "Halloween Available! * King Beds * Arcade Games",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Broad & Wendy's1",
+          "dist_m": 84.3
+        },
+        {
+          "name": "Halloween Available! * King Beds * Arcade Games",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Broad & Wendy's1",
+          "dist_m": 84.3
+        },
+        {
+          "name": "Alleia",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Main & Market Outbound",
+          "dist_m": 49.84
+        },
+        {
+          "name": "Chattanooga Ghost Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "MARKET + 5TH",
+          "dist_m": 59.2
+        },
+        {
+          "name": "Uncle Larry's Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "M.L.KING BLVD + PEEPLES",
+          "dist_m": 20.49
+        },
+        {
+          "name": "The Lookout Mountain Incline Railway",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "TENN AVE + INCLINE",
+          "dist_m": 63.48
+        },
+        {
+          "name": "HiFi Clyde's Chattanooga",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MAIN + WILLIAMS",
+          "dist_m": 21.15
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Chattanooga to Dallas",
+      "transportation": "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Halloween Available! * King Beds * Arcade Games",
+          "kind": "stay",
+          "start": "04:26",
+          "end": "05:26",
+          "nearest_transit": "Broad & Wendy's1",
+          "dist_m": 84.3
+        },
+        {
+          "name": "Halloween Available! * King Beds * Arcade Games",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Broad & Wendy's1",
+          "dist_m": 84.3
+        }
+      ]
+    }
+  ]
+}

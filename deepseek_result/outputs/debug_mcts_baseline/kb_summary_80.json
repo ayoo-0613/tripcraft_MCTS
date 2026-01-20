@@ -1,0 +1,90 @@
+{
+  "idx": 80,
+  "stages": [
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Everett",
+      "to": "Los Angeles",
+      "date": "2024-11-23",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Everett",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from Everett to Los Angeles, Duration: 1325.8066666666666 mins, Distance: 1872.0326 km, Estimated Cost: $93.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Everett",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from Everett to Los Angeles, Duration: 1325.8066666666666 mins, Distance: 1872.0326 km, Estimated Cost: $1872.03"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-25",
+      "raw": "Flight Number: F0097612, from Los Angeles to San Francisco, Departure Time: 05:19, Arrival Time: 06:33"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Everett",
+      "date": "2024-11-27",
+      "raw": "Flight Number: F1181980, from San Francisco to Everett, Departure Time: 16:21, Arrival Time: 18:22"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Everett",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Everett, Duration: 973.4883333333333 mins, Distance: 1344.9596999999999 km, Estimated Cost: $67.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Everett",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Everett, Duration: 973.4883333333333 mins, Distance: 1344.9596999999999 km, Estimated Cost: $1344.96"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "idx": 13,
+  "stages": [
+    {
+      "city": "Bloomington",
+      "counts": {
+        "attractions": 16,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 71,
+        "events": 4
+      }
+    },
+    {
+      "city": "Champaign",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 10
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Tampa",
+      "to": "Bloomington",
+      "date": "2024-11-01",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tampa",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Self-driving, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $88.47"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tampa",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Taxi, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $1769.41"
+    },
+    {
+      "mode": "flight",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Self-driving, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $4.08"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
+    },
+    {
+      "mode": "flight",
+      "from": "Champaign",
+      "to": "Tampa",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Champaign",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Self-driving, from Champaign to Tampa, Duration: 1179.0233333333333 mins, Distance: 1731.6657 km, Estimated Cost: $86.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Champaign",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Taxi, from Champaign to Tampa, Duration: 1179.0233333333333 mins, Distance: 1731.6657 km, Estimated Cost: $1731.67"
+    }
+  ]
+}

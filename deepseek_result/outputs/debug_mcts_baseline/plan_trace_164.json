@@ -1,0 +1,856 @@
+{
+  "idx": 164,
+  "reward": 20.751955000000002,
+  "budget_used": 2326.6,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $1509.99",
+      "candidates": [
+        "Taxi, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $1509.99"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+      "candidates": [
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "charming, colorful, close to beach"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Buon Appetito",
+      "candidates": [
+        "Buon Appetito",
+        "Cowboy Star",
+        "Mister A'S",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "World Famous",
+        "Born & Raised",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Trailer Park After Dark",
+        "Union Kitchen and Tap Gaslamp",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Juniper and Ivy",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "Vessel Restaurant + Bar",
+        "Casa Guadalajara",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "Oceana Coastal Kitchen",
+        "Alforon",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Ruth's Chris Steak House",
+        "Cafe Coyote",
+        "Meze Greek Fusion",
+        "The Fishery",
+        "El Agave Restaurant & Tequileria",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Point Loma",
+      "candidates": [
+        "Point Loma",
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum",
+        "SeaWorld",
+        "San Diego Zoo",
+        "Balboa Park",
+        "Seaport Village",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Mt. Soledad National Veterans Memorial",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "Mister A'S",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "World Famous",
+        "Born & Raised",
+        "Trailer Park After Dark",
+        "Union Kitchen and Tap Gaslamp",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Juniper and Ivy",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "Vessel Restaurant + Bar",
+        "Casa Guadalajara",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen",
+        "Alforon",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Ruth's Chris Steak House",
+        "Cafe Coyote",
+        "Meze Greek Fusion",
+        "The Fishery",
+        "El Agave Restaurant & Tequileria",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Old Town San Diego",
+      "candidates": [
+        "Old Town San Diego",
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum",
+        "SeaWorld",
+        "San Diego Zoo",
+        "Balboa Park",
+        "Seaport Village",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Mt. Soledad National Veterans Memorial",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Casa Guadalajara",
+      "candidates": [
+        "Casa Guadalajara",
+        "Mister A'S",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Oceana Coastal Kitchen",
+        "World Famous",
+        "Alforon",
+        "Born & Raised",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Union Kitchen and Tap Gaslamp",
+        "Cafe Coyote",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "The Fishery",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "El Agave Restaurant & Tequileria",
+        "Vessel Restaurant + Bar",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Big Bay Views, San Diego Bay",
+      "candidates": [
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "No contact with host, separate, and close to town!",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "charming, colorful, close to beach"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Mister A'S",
+      "candidates": [
+        "Mister A'S",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "World Famous",
+        "Born & Raised",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Trailer Park After Dark",
+        "Union Kitchen and Tap Gaslamp",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Juniper and Ivy",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "Vessel Restaurant + Bar",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "Oceana Coastal Kitchen",
+        "Alforon",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Ruth's Chris Steak House",
+        "Cafe Coyote",
+        "Meze Greek Fusion",
+        "The Fishery",
+        "El Agave Restaurant & Tequileria",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Town San Diego State Historic Park",
+      "candidates": [
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum",
+        "SeaWorld",
+        "San Diego Zoo",
+        "Balboa Park",
+        "Seaport Village",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Mt. Soledad National Veterans Memorial",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bencotto Italian Kitchen",
+      "candidates": [
+        "Bencotto Italian Kitchen",
+        "Barbusa",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "Oceana Coastal Kitchen",
+        "World Famous",
+        "Alforon",
+        "Born & Raised",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Union Kitchen and Tap Gaslamp",
+        "Cafe Coyote",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "The Fishery",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "El Agave Restaurant & Tequileria",
+        "Vessel Restaurant + Bar",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Birch Aquarium at Scripps",
+      "candidates": [
+        "Birch Aquarium at Scripps",
+        "Little Italy",
+        "Petco Park",
+        "Mission Beach",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "USS Midway Museum",
+        "SeaWorld",
+        "San Diego Zoo",
+        "Balboa Park",
+        "Seaport Village",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Mt. Soledad National Veterans Memorial",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ironside Fish & Oyster",
+      "candidates": [
+        "Ironside Fish & Oyster",
+        "Din Tai Fung",
+        "The Butcher Shop",
+        "Pacific Beach AleHouse",
+        "Lou & Mickey's",
+        "Morning Glory",
+        "Barbusa",
+        "Oceana Coastal Kitchen",
+        "World Famous",
+        "Alforon",
+        "Born & Raised",
+        "La Puerta",
+        "Dockside 1953",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "Civico 1845",
+        "Filippi's Pizza Grotto Little Italy",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Union Kitchen and Tap Gaslamp",
+        "Cafe Coyote",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "The Fishery",
+        "Covewood Restaurant",
+        "The Fish Market - San Diego",
+        "El Agave Restaurant & Tequileria",
+        "Vessel Restaurant + Bar",
+        "Addison Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from San Diego to Monterey",
+      "candidates": [
+        "Transfer, from San Diego to Monterey"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room w/Ensuite Bathroom at Monterey Hostel",
+      "candidates": [
+        "Private Room w/Ensuite Bathroom at Monterey Hostel",
+        "Basic King",
+        "The Finch, Historic Landmark House",
+        "Carmel-by-the-Sea Rustic Retreat",
+        "Quiet neighborhood near Monterey and the ocean",
+        "Modern Beach House",
+        "Pebble Beach Forest room & private garden",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sea Harvest Restaurant & Fish Market",
+      "candidates": [
+        "Sea Harvest Restaurant & Fish Market",
+        "Louie Linguini's",
+        "Old Monterey Cafe",
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "MST Trolley",
+      "candidates": [
+        "MST Trolley",
+        "Cannery Row",
+        "Old Monterey Farmer's Market",
+        "Doc Rickett's Pacific Biological Laboratories",
+        "Monterey Museum of Art",
+        "Monterey Bay",
+        "Monterey Bay Aquarium",
+        "Perry House",
+        "Monterey County Youth Museum",
+        "California Sea Otter Game Refuge",
+        "San Carlos Cathedral",
+        "Pierce Ranch Vineyards Tasting Room",
+        "Del Monte Beach",
+        "Monterey Peninsula Recreational Trail",
+        "Colton Hall Museum",
+        "Dennis the Menace Park",
+        "Coast Guard Pier",
+        "Jacks Peak County Park",
+        "17-Mile Drive"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Louie Linguini's",
+      "candidates": [
+        "Louie Linguini's",
+        "Old Monterey Cafe",
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Cannery Row",
+      "candidates": [
+        "Cannery Row",
+        "Old Monterey Farmer's Market",
+        "Doc Rickett's Pacific Biological Laboratories",
+        "Monterey Museum of Art",
+        "Monterey Bay",
+        "Monterey Bay Aquarium",
+        "Perry House",
+        "Monterey County Youth Museum",
+        "California Sea Otter Game Refuge",
+        "San Carlos Cathedral",
+        "Pierce Ranch Vineyards Tasting Room",
+        "Del Monte Beach",
+        "Monterey Peninsula Recreational Trail",
+        "Colton Hall Museum",
+        "Dennis the Menace Park",
+        "Coast Guard Pier",
+        "Jacks Peak County Park",
+        "17-Mile Drive"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Monterey to Bend",
+      "candidates": [
+        "Transfer, from Monterey to Bend"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Bend to San Diego",
+      "transportation": "Taxi, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $1509.99",
+      "accommodation": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+      "breakfast": "Buon Appetito",
+      "attractions": [
+        "Point Loma",
+        "Old Town San Diego"
+      ],
+      "lunch": "Cowboy Star",
+      "dinner": "Casa Guadalajara",
+      "poi_blocks": [
+        {
+          "name": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Clairemont Mesa Bl & Limerick Av",
+          "dist_m": 270.85
+        },
+        {
+          "name": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Clairemont Mesa Bl & Limerick Av",
+          "dist_m": 270.85
+        },
+        {
+          "name": "Buon Appetito",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 11.4
+        },
+        {
+          "name": "Point Loma",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:27",
+          "nearest_transit": "Cabrillo Memorial Hwy & McClelland Rd",
+          "dist_m": 112.08
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "10th Av & Market St",
+          "dist_m": 50.81
+        },
+        {
+          "name": "Old Town San Diego",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 127.04
+        },
+        {
+          "name": "Casa Guadalajara",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Taylor St & Juan St",
+          "dist_m": 50.62
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Big Bay Views, San Diego Bay",
+      "breakfast": "Mister A'S",
+      "attractions": [
+        "Old Town San Diego State Historic Park",
+        "Birch Aquarium at Scripps"
+      ],
+      "lunch": "Bencotto Italian Kitchen",
+      "dinner": "Ironside Fish & Oyster",
+      "poi_blocks": [
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Mister A'S",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "5th Av & Laurel St",
+          "dist_m": 52.04
+        },
+        {
+          "name": "Old Town San Diego State Historic Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "Juan St & Mason St",
+          "dist_m": 133.02
+        },
+        {
+          "name": "Bencotto Italian Kitchen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 101.75
+        },
+        {
+          "name": "Birch Aquarium at Scripps",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "19:17",
+          "nearest_transit": "La Jolla Shores Dr & Scripps Institute",
+          "dist_m": 135.62
+        },
+        {
+          "name": "Ironside Fish & Oyster",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 57.08
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to Monterey",
+      "transportation": "Transfer, from San Diego to Monterey",
+      "accommodation": "Private Room w/Ensuite Bathroom at Monterey Hostel",
+      "breakfast": "Sea Harvest Restaurant & Fish Market",
+      "attractions": [
+        "MST Trolley",
+        "Cannery Row"
+      ],
+      "lunch": "Louie Linguini's",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Big Bay Views, San Diego Bay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Rosecrans St & Talbot St",
+          "dist_m": 129.96
+        },
+        {
+          "name": "Private Room w/Ensuite Bathroom at Monterey Hostel",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Lighthouse / Irving",
+          "dist_m": 73.04
+        },
+        {
+          "name": "Sea Harvest Restaurant & Fish Market",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Foam / Hoffman",
+          "dist_m": 23.01
+        },
+        {
+          "name": "MST Trolley",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 18.07
+        },
+        {
+          "name": "Louie Linguini's",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 24.16
+        },
+        {
+          "name": "Cannery Row",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 30.02
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "-",
+      "accommodation": "Bird Room with Shared Bathroom",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bird Room with Shared Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
+        },
+        {
+          "name": "Bird Room with Shared Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Monterey to Bend",
+      "transportation": "Transfer, from Monterey to Bend",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bird Room with Shared Bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
+        }
+      ]
+    }
+  ]
+}

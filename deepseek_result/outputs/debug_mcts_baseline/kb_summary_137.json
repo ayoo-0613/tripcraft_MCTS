@@ -1,0 +1,90 @@
+{
+  "idx": 137,
+  "stages": [
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 1
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Charleston",
+      "to": "San Antonio",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charleston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Charleston to San Antonio, Duration: 1415.1133333333335 mins, Distance: 2025.7825 km, Estimated Cost: $101.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charleston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Charleston to San Antonio, Duration: 1415.1133333333335 mins, Distance: 2025.7825 km, Estimated Cost: $2025.78"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0060728, from San Antonio to Houston, Departure Time: 06:45, Arrival Time: 07:33"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0066166, from Houston to Charleston, Departure Time: 10:58, Arrival Time: 14:13"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Self-driving, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $85.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Taxi, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $1713.14"
+    }
+  ]
+}

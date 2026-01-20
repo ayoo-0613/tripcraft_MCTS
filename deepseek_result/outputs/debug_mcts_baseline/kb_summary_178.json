@@ -1,0 +1,90 @@
+{
+  "idx": 178,
+  "stages": [
+    {
+      "city": "New York",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Newburgh",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 17,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Ontario",
+      "to": "New York",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0261275, from Ontario to New York, Departure Time: 01:28, Arrival Time: 09:38"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Ontario",
+      "to": "New York",
+      "date": null,
+      "raw": "Self-driving, from Ontario to New York, Duration: 396.88 mins, Distance: 510.32079999999996 km, Estimated Cost: $25.52"
+    },
+    {
+      "mode": "taxi",
+      "from": "Ontario",
+      "to": "New York",
+      "date": null,
+      "raw": "Taxi, from Ontario to New York, Duration: 396.88 mins, Distance: 510.32079999999996 km, Estimated Cost: $510.32"
+    },
+    {
+      "mode": "flight",
+      "from": "New York",
+      "to": "Newburgh",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "New York",
+      "to": "Newburgh",
+      "date": null,
+      "raw": "Self-driving, from New York to Newburgh, Duration: 93.08833333333334 mins, Distance: 110.7581 km, Estimated Cost: $5.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "New York",
+      "to": "Newburgh",
+      "date": null,
+      "raw": "Taxi, from New York to Newburgh, Duration: 93.08833333333334 mins, Distance: 110.7581 km, Estimated Cost: $110.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Self-driving, from Newburgh to Ontario, Duration: 350.06166666666667 mins, Distance: 436.3958 km, Estimated Cost: $21.82"
+    },
+    {
+      "mode": "taxi",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Taxi, from Newburgh to Ontario, Duration: 350.06166666666667 mins, Distance: 436.3958 km, Estimated Cost: $436.40"
+    }
+  ]
+}

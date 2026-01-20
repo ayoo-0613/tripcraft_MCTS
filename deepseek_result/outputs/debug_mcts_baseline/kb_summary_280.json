@@ -1,0 +1,90 @@
+{
+  "idx": 280,
+  "stages": [
+    {
+      "city": "Rochester",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 73,
+        "events": 16
+      }
+    },
+    {
+      "city": "Newburgh",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 17,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Cleveland",
+      "to": "Rochester",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cleveland",
+      "to": "Rochester",
+      "date": null,
+      "raw": "Self-driving, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $20.80"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cleveland",
+      "to": "Rochester",
+      "date": null,
+      "raw": "Taxi, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $415.95"
+    },
+    {
+      "mode": "flight",
+      "from": "Rochester",
+      "to": "Newburgh",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Rochester",
+      "to": "Newburgh",
+      "date": null,
+      "raw": "Self-driving, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $21.90"
+    },
+    {
+      "mode": "taxi",
+      "from": "Rochester",
+      "to": "Newburgh",
+      "date": null,
+      "raw": "Taxi, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $437.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $37.85"
+    },
+    {
+      "mode": "taxi",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $757.09"
+    }
+  ]
+}

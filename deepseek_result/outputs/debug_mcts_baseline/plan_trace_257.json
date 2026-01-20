@@ -1,0 +1,1140 @@
+{
+  "idx": 257,
+  "reward": -1297.32886894495,
+  "budget_used": 3064.625,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88",
+      "candidates": [
+        "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Guest home in Churchville",
+      "candidates": [
+        "Guest home in Churchville",
+        "Private ,furnished ,modern Roch suburb apt !",
+        "Guest suite near RIT/UofR/Airport",
+        "Perfect \"Home away from Home\" Near RIT and U of R",
+        "Seahorse House, Charlotte Beach, Rochester, NY",
+        "Arts & Crafts In-law Suite",
+        "Seaglass Cottage",
+        "Renovated Cornhill Apt w/FreeParking,Kitchen,W/D",
+        "City View Loft 2BR",
+        "Modern Downtown Apartment - 1BR"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pasquale's Neighborhood Pizzeria",
+      "candidates": [
+        "Pasquale's Neighborhood Pizzeria",
+        "Sorellina's By Victoria's",
+        "Terza Ristorante",
+        "Nupa Mediterranean Cuisine",
+        "Hunan Garden",
+        "Ichi Tokyo",
+        "Restaurant Fiorella",
+        "Savoia Pastry Shoppe",
+        "Mamma Mia",
+        "Don Vincenzo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Rochester's Barbecue & Grill",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Rochester Trolley & Tour Company",
+      "candidates": [
+        "Rochester Trolley & Tour Company",
+        "Paint Creek Trail",
+        "Genesee Riverway Trail",
+        "City of Rochester Society Guided Walks"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Nupa Mediterranean Cuisine",
+      "candidates": [
+        "Nupa Mediterranean Cuisine",
+        "Hunan Garden",
+        "Ichi Tokyo",
+        "Mamma Mia",
+        "Don Vincenzo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Sorellina's By Victoria's",
+        "Terza Ristorante",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Restaurant Fiorella",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Savoia Pastry Shoppe",
+        "Rochester's Barbecue & Grill",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Hunan Garden",
+      "candidates": [
+        "Hunan Garden",
+        "Ichi Tokyo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Sorellina's By Victoria's",
+        "Terza Ristorante",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Restaurant Fiorella",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Savoia Pastry Shoppe",
+        "Rochester's Barbecue & Grill",
+        "Mamma Mia",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "Don Vincenzo",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Guest home in Churchville",
+      "candidates": [
+        "Guest home in Churchville",
+        "Private ,furnished ,modern Roch suburb apt !",
+        "Guest suite near RIT/UofR/Airport",
+        "Perfect \"Home away from Home\" Near RIT and U of R",
+        "Seahorse House, Charlotte Beach, Rochester, NY",
+        "Arts & Crafts In-law Suite",
+        "Seaglass Cottage",
+        "Renovated Cornhill Apt w/FreeParking,Kitchen,W/D",
+        "City View Loft 2BR",
+        "Modern Downtown Apartment - 1BR"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sorellina's By Victoria's",
+      "candidates": [
+        "Sorellina's By Victoria's",
+        "Terza Ristorante",
+        "Ichi Tokyo",
+        "Restaurant Fiorella",
+        "Savoia Pastry Shoppe",
+        "Mamma Mia",
+        "Don Vincenzo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Rochester's Barbecue & Grill",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Paint Creek Trail",
+      "candidates": [
+        "Paint Creek Trail",
+        "Genesee Riverway Trail",
+        "City of Rochester Society Guided Walks"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Ichi Tokyo",
+      "candidates": [
+        "Ichi Tokyo",
+        "Mamma Mia",
+        "Don Vincenzo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Terza Ristorante",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Restaurant Fiorella",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Savoia Pastry Shoppe",
+        "Rochester's Barbecue & Grill",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mamma Mia",
+      "candidates": [
+        "Mamma Mia",
+        "Don Vincenzo",
+        "Canadian Honker Restaurant & Lounge",
+        "Chester's Kitchen and Bar",
+        "Chocolaterie Stam",
+        "Terza Ristorante",
+        "Twigs Tavern & Grille",
+        "Rochester Deli",
+        "Lipuma's Coney Island",
+        "Rochester Mills Beer",
+        "Rochester Inn & Hardwood Grll",
+        "Abbott's Frozen Custard INC",
+        "Nick Tahou Hots",
+        "Genesee Brew House",
+        "Dinosaur Bar-B-Que",
+        "Restaurant Fiorella",
+        "Rooney's Restaurant",
+        "Good Luck",
+        "Park Avenue Pub & Restaurant",
+        "Jines Restaurant",
+        "Swan Market",
+        "Savoia Pastry Shoppe",
+        "Rochester's Barbecue & Grill",
+        "Cafe Nucleus Rochester",
+        "The Quills",
+        "Jaggers Rochester",
+        "The Cheese Room Botanicals",
+        "Tiny Tim's Tea Rooms",
+        "The Eagle Tavern",
+        "Les Bouchons Rochester"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76",
+      "candidates": [
+        "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Northside Lodging",
+      "candidates": [
+        "Northside Lodging",
+        "Comfy Classic Cute Apartment",
+        "Clean, cozy and convenient.",
+        "Stylish&Modern Apartment Near Fort Drum Watertown",
+        "Apartment Watertown/No cleaning fee",
+        "Cozy Apartment with No cleaning fee",
+        "Cozy Cottage next to Thompson Park",
+        "Cozy Dark Academia-Inspired Aprt",
+        "Two bedrooms furnished Apt.",
+        "Fall Beauty, Leaf Peaking Rustic Lakefront Cottage"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Johnny D's Casual Dining",
+      "candidates": [
+        "Johnny D's Casual Dining",
+        "Red Robin",
+        "Bistro 108",
+        "Friede's Restaurant",
+        "Cam's Pizzeria",
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Adirondack River Outfitters",
+      "candidates": [
+        "Adirondack River Outfitters",
+        "New York State Zoo at Thompson Park",
+        "Charles River Greenway",
+        "Bramble Park Zoo"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Red Robin",
+      "candidates": [
+        "Red Robin",
+        "Bistro 108",
+        "Friede's Restaurant",
+        "Cam's Pizzeria",
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bistro 108",
+      "candidates": [
+        "Bistro 108",
+        "Friede's Restaurant",
+        "Cam's Pizzeria",
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Northside Lodging",
+      "candidates": [
+        "Northside Lodging",
+        "Comfy Classic Cute Apartment",
+        "Clean, cozy and convenient.",
+        "Stylish&Modern Apartment Near Fort Drum Watertown",
+        "Apartment Watertown/No cleaning fee",
+        "Cozy Apartment with No cleaning fee",
+        "Cozy Cottage next to Thompson Park",
+        "Cozy Dark Academia-Inspired Aprt",
+        "Two bedrooms furnished Apt.",
+        "Fall Beauty, Leaf Peaking Rustic Lakefront Cottage"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Friede's Restaurant",
+      "candidates": [
+        "Friede's Restaurant",
+        "Cam's Pizzeria",
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "New York State Zoo at Thompson Park",
+      "candidates": [
+        "New York State Zoo at Thompson Park",
+        "Charles River Greenway",
+        "Bramble Park Zoo"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cam's Pizzeria",
+      "candidates": [
+        "Cam's Pizzeria",
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "B-Hat's Curry House",
+      "candidates": [
+        "B-Hat's Curry House",
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $653.39",
+      "candidates": [
+        "Taxi, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $653.39"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Applebee's",
+      "candidates": [
+        "Applebee's",
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Charles River Greenway",
+      "candidates": [
+        "Charles River Greenway",
+        "Bramble Park Zoo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Lotus Restaurant",
+      "candidates": [
+        "Lotus Restaurant",
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Texas Roadhouse",
+      "candidates": [
+        "Texas Roadhouse",
+        "Olive Garden Italian Restaurant",
+        "Piezanos",
+        "Empire Square",
+        "Hacienda Mexican Restaurant",
+        "LongHorn Steakhouse",
+        "Spokes Craft Beer & Tapas",
+        "The Crystal Restaurant",
+        "Fairground Inn",
+        "Coleman's Corner",
+        "United China Restaurant",
+        "The Grille at Hilton Garden Inn",
+        "Tully's Good Times Watertown",
+        "Jean's Beans",
+        "Jreck Subs",
+        "1025 Ruyi Japanese Steak House",
+        "Garland City Beer Works",
+        "Maggie's",
+        "Wish Thai Kitchen",
+        "Art's Jug Restaurant",
+        "Shuler's Restaurant",
+        "Pete's Trattoria",
+        "Shorty's Place",
+        "Cracker Barrel",
+        "Ives Hill Country Club",
+        "Koreana",
+        "Longway's Diner"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Martha's Vineyard to Rochester",
+      "transportation": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88",
+      "accommodation": "Guest home in Churchville",
+      "breakfast": "Pasquale's Neighborhood Pizzeria",
+      "attractions": [
+        "Rochester Trolley & Tour Company"
+      ],
+      "lunch": "Nupa Mediterranean Cuisine",
+      "dinner": "Hunan Garden",
+      "poi_blocks": [
+        {
+          "name": "Guest home in Churchville",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 1123603.39
+        },
+        {
+          "name": "Guest home in Churchville",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 1123603.39
+        },
+        {
+          "name": "Pasquale's Neighborhood Pizzeria",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "2nd Ave. SW & 3rd St. SW (West side, South)",
+          "dist_m": 199.78
+        },
+        {
+          "name": "Rochester Trolley & Tour Company",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:35",
+          "nearest_transit": "2nd Ave. SW & 2nd St. SW (East side, North)",
+          "dist_m": 115.84
+        },
+        {
+          "name": "Nupa Mediterranean Cuisine",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "St. Mary's Hospital",
+          "dist_m": 802.65
+        },
+        {
+          "name": "Hunan Garden",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "St. Mary's Hospital",
+          "dist_m": 1030.16
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Rochester to Rochester",
+      "transportation": "-",
+      "accommodation": "Guest home in Churchville",
+      "breakfast": "Sorellina's By Victoria's",
+      "attractions": [
+        "Paint Creek Trail"
+      ],
+      "lunch": "Ichi Tokyo",
+      "dinner": "Mamma Mia",
+      "poi_blocks": [
+        {
+          "name": "Guest home in Churchville",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 1123603.39
+        },
+        {
+          "name": "Guest home in Churchville",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 1123603.39
+        },
+        {
+          "name": "Sorellina's By Victoria's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "2nd Ave. SW & 2nd St. SW (East side, North)",
+          "dist_m": 229.04
+        },
+        {
+          "name": "Paint Creek Trail",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 706106.52
+        },
+        {
+          "name": "Ichi Tokyo",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "2nd Ave. SW & 3rd St. SW (West side, South)",
+          "dist_m": 3043.58
+        },
+        {
+          "name": "Mamma Mia",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Wabasha County Rd. 30-Old Fairgrounds",
+          "dist_m": 6491767.3
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Rochester to Watertown",
+      "transportation": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76",
+      "accommodation": "Northside Lodging",
+      "breakfast": "Johnny D's Casual Dining",
+      "attractions": [
+        "Adirondack River Outfitters"
+      ],
+      "lunch": "Red Robin",
+      "dinner": "Bistro 108",
+      "poi_blocks": [
+        {
+          "name": "Guest home in Churchville",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Winona 61 & Hwy. 14",
+          "dist_m": 1123603.39
+        },
+        {
+          "name": "Northside Lodging",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Curtis Apts",
+          "dist_m": 476.97
+        },
+        {
+          "name": "Johnny D's Casual Dining",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Transfer Station",
+          "dist_m": 50.2
+        },
+        {
+          "name": "Adirondack River Outfitters",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "Transfer Station",
+          "dist_m": 246.79
+        },
+        {
+          "name": "Red Robin",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hannaford Foods",
+          "dist_m": 63.2
+        },
+        {
+          "name": "Bistro 108",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Transfer Station",
+          "dist_m": 69.37
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Watertown to Watertown",
+      "transportation": "-",
+      "accommodation": "Northside Lodging",
+      "breakfast": "Friede's Restaurant",
+      "attractions": [
+        "New York State Zoo at Thompson Park"
+      ],
+      "lunch": "Cam's Pizzeria",
+      "dinner": "B-Hat's Curry House",
+      "poi_blocks": [
+        {
+          "name": "Northside Lodging",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Curtis Apts",
+          "dist_m": 476.97
+        },
+        {
+          "name": "Northside Lodging",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Curtis Apts",
+          "dist_m": 476.97
+        },
+        {
+          "name": "Friede's Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Coffeen Massey",
+          "dist_m": 71.06
+        },
+        {
+          "name": "New York State Zoo at Thompson Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:00",
+          "nearest_transit": "Northland Plaza",
+          "dist_m": 962.27
+        },
+        {
+          "name": "Cam's Pizzeria",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Transfer Station",
+          "dist_m": 74.27
+        },
+        {
+          "name": "B-Hat's Curry House",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Stateway Plaza",
+          "dist_m": 108.14
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Watertown to Martha's Vineyard",
+      "transportation": "Taxi, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $653.39",
+      "accommodation": "-",
+      "breakfast": "Applebee's",
+      "attractions": [
+        "Charles River Greenway"
+      ],
+      "lunch": "Lotus Restaurant",
+      "dinner": "Texas Roadhouse",
+      "poi_blocks": [
+        {
+          "name": "Northside Lodging",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Curtis Apts",
+          "dist_m": 476.97
+        },
+        {
+          "name": "Applebee's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Price Chopper",
+          "dist_m": 116.75
+        },
+        {
+          "name": "Charles River Greenway",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Northland Plaza",
+          "dist_m": 418957.03
+        },
+        {
+          "name": "Lotus Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Price Chopper",
+          "dist_m": 127.25
+        },
+        {
+          "name": "Texas Roadhouse",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Walmart Outer - Arsenal Street Parking",
+          "dist_m": 144.0
+        }
+      ]
+    }
+  ]
+}

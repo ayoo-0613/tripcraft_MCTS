@@ -1,0 +1,1064 @@
+{
+  "idx": 223,
+  "reward": 21.785353468926555,
+  "budget_used": 5434.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1111105, from Missoula to Los Angeles, Departure Time: 15:08, Arrival Time: 17:04",
+      "candidates": [
+        "Flight Number: F1111105, from Missoula to Los Angeles, Departure Time: 15:08, Arrival Time: 17:04",
+        "Taxi, from Missoula to Los Angeles, Duration: 1218.995 mins, Distance: 1948.0665 km, Estimated Cost: $1948.07"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Beverly Hills Studio Guest House",
+      "candidates": [
+        "Cozy Beverly Hills Studio Guest House",
+        "Cozy Private Room In LA.",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "Room in Happy Hollywood Home",
+        "5 star guest suite in L.A.'s best location",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "Guest house with private parking",
+        "Cozy and Bright Private Room"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "71Above Restaurant and Skylounge",
+      "candidates": [
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "71Above Restaurant and Skylounge",
+        "Patina Restaurant",
+        "Perch",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill",
+        "Bavel",
+        "Musso & Frank Grill",
+        "Olive & Thyme",
+        "25 Degrees",
+        "The Boiling Crab",
+        "Providence",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Bubba Gump Shrimp Co.",
+        "Cafe Gratitude Venice",
+        "The Lobster",
+        "Katsuya",
+        "Au Lac Dtla",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Spire 73",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "L'Antica Pizzeria Da Michele",
+        "Brent's Deli Northridge",
+        "Ayara Thai Cuisine",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "n/naka",
+        "Bestia",
+        "Belles Beach House",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Beverly Hills Studio Guest House",
+      "candidates": [
+        "Cozy Beverly Hills Studio Guest House",
+        "Cozy Private Room In LA.",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Hollywood Hideaway",
+        "Room in Happy Hollywood Home",
+        "5 star guest suite in L.A.'s best location",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "Guest house with private parking",
+        "Cozy and Bright Private Room"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Palm - L.A. Downtown",
+      "candidates": [
+        "The Palm - L.A. Downtown",
+        "Leo & Lily",
+        "Patina Restaurant",
+        "Perch",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Water Grill",
+        "Bavel",
+        "Musso & Frank Grill",
+        "Olive & Thyme",
+        "25 Degrees",
+        "The Boiling Crab",
+        "Providence",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Bubba Gump Shrimp Co.",
+        "Cafe Gratitude Venice",
+        "The Lobster",
+        "Katsuya",
+        "Au Lac Dtla",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Spire 73",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "L'Antica Pizzeria Da Michele",
+        "Brent's Deli Northridge",
+        "Ayara Thai Cuisine",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "n/naka",
+        "Bestia",
+        "Belles Beach House",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hollywood Walk of Fame",
+      "candidates": [
+        "Hollywood Walk of Fame",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Grove",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum",
+        "California Science Center",
+        "Venice Canals Walkway",
+        "Battleship USS Iowa Museum",
+        "Dodger Stadium",
+        "Venice Beach",
+        "Griffith Park",
+        "Hollywood Sign",
+        "The Getty Center",
+        "Universal Studios Hollywood",
+        "Citadel Outlets"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Patina Restaurant",
+      "candidates": [
+        "Patina Restaurant",
+        "Perch",
+        "Republique",
+        "Water Grill",
+        "Bavel",
+        "The Boiling Crab",
+        "Providence",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Bubba Gump Shrimp Co.",
+        "The Lobster",
+        "Katsuya",
+        "Au Lac Dtla",
+        "Leo & Lily",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Langer's Delicatessen Restaurant",
+        "Spire 73",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "L'Antica Pizzeria Da Michele",
+        "Brent's Deli Northridge",
+        "Ayara Thai Cuisine",
+        "Musso & Frank Grill",
+        "Olive & Thyme",
+        "25 Degrees",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "n/naka",
+        "Bestia",
+        "Belles Beach House",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "Cafe Gratitude Venice"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Broad",
+      "candidates": [
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Grove",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum",
+        "California Science Center",
+        "Venice Canals Walkway",
+        "Battleship USS Iowa Museum",
+        "Dodger Stadium",
+        "Venice Beach",
+        "Griffith Park",
+        "Hollywood Sign",
+        "The Getty Center",
+        "Universal Studios Hollywood",
+        "Citadel Outlets"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "Bavel",
+        "The Boiling Crab",
+        "Providence",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Bubba Gump Shrimp Co.",
+        "The Lobster",
+        "Katsuya",
+        "Au Lac Dtla",
+        "Leo & Lily",
+        "Perch",
+        "Raffaello Ristorante",
+        "Yang Chow",
+        "Republique",
+        "Langer's Delicatessen Restaurant",
+        "Spire 73",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "L'Antica Pizzeria Da Michele",
+        "Brent's Deli Northridge",
+        "Ayara Thai Cuisine",
+        "Musso & Frank Grill",
+        "Olive & Thyme",
+        "25 Degrees",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "n/naka",
+        "Bestia",
+        "Belles Beach House",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "Cafe Gratitude Venice"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50",
+      "candidates": [
+        "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50",
+        "Taxi, from Los Angeles to San Luis Obispo, Duration: 279.97666666666663 mins, Distance: 348.2305 km, Estimated Cost: $348.23"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "Harris House",
+        "SLO Casita, a short walk to everything!"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Downtown House SLO with Private Parking",
+      "candidates": [
+        "The Downtown House SLO with Private Parking",
+        "The Corner Nook",
+        "Two Palms Cottage at Beebee St.",
+        "Eclectic apartment in the heart of downtown SLO.",
+        "In Historic Downtown SLO + Garage w EV Charging",
+        "Downtown Historic District Sunset Studio",
+        "Mid-Century Design Close to Downtown & Cal Poly",
+        "Unique Spacious Room with Balcony",
+        "Harris House",
+        "SLO Casita, a short walk to everything!"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "La Locanda",
+      "candidates": [
+        "La Locanda",
+        "Cafe Roma",
+        "Apple Farm Restaurant",
+        "Sidecar",
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Farmers Market",
+      "candidates": [
+        "Farmers Market",
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak",
+        "Reservoir Canyon Trail",
+        "Avila Valley Barn",
+        "Highway 1 Road Trip",
+        "Tolosa",
+        "Kelsey See Canyon Vineyards",
+        "Edna Valley Vineyard",
+        "Chamisal Vineyards",
+        "Wolff Vineyards"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Apple Farm Restaurant",
+      "candidates": [
+        "Apple Farm Restaurant",
+        "Sidecar",
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Cafe Roma",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Bubblegum Alley",
+      "candidates": [
+        "Bubblegum Alley",
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak",
+        "Reservoir Canyon Trail",
+        "Avila Valley Barn",
+        "Highway 1 Road Trip",
+        "Tolosa",
+        "Kelsey See Canyon Vineyards",
+        "Edna Valley Vineyard",
+        "Chamisal Vineyards",
+        "Wolff Vineyards"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sidecar",
+      "candidates": [
+        "Sidecar",
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Cafe Roma",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Luis Obispo to Missoula, Duration: 1353.8633333333335 mins, Distance: 1896.4061000000002 km, Estimated Cost: $1896.41"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "1865 Craft House and Kitchen",
+      "candidates": [
+        "1865 Craft House and Kitchen",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Cafe Roma",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Performing Arts Center San Luis Obispo",
+      "candidates": [
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak",
+        "Reservoir Canyon Trail",
+        "Avila Valley Barn",
+        "Highway 1 Road Trip",
+        "Tolosa",
+        "Kelsey See Canyon Vineyards",
+        "Edna Valley Vineyard",
+        "Chamisal Vineyards",
+        "Wolff Vineyards"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Lure Fish House",
+      "candidates": [
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Cafe Roma",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "California Polytechnic University",
+      "candidates": [
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "Mission San Luis Obispo de Tolosa",
+        "Sunset Drive-In Theatre",
+        "El Chorro Regional Park",
+        "San Luis Obispo botanical garden",
+        "Bishop Peak",
+        "Reservoir Canyon Trail",
+        "Avila Valley Barn",
+        "Highway 1 Road Trip",
+        "Tolosa",
+        "Kelsey See Canyon Vineyards",
+        "Edna Valley Vineyard",
+        "Chamisal Vineyards",
+        "Wolff Vineyards"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Koberl At Blue",
+      "candidates": [
+        "Koberl At Blue",
+        "Buona Tavola",
+        "F.McLintocks Saloon",
+        "Novo Restaurant & Lounge",
+        "Flour House",
+        "Woodstock's Pizza SLO",
+        "Taco King",
+        "Ox + Anchor",
+        "Thai Palace",
+        "Eureka!",
+        "Louisa's Place Restaurant",
+        "La Esquina Taqueria",
+        "Giuseppe’s Cucina Rustica",
+        "Bear & The Wren",
+        "Luna Red",
+        "Mistura Restaurant",
+        "Goshi",
+        "Granada Bistro",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Cafe Roma",
+        "My Thai Restaurant",
+        "Del Monte Cafe",
+        "Taste Craft Eatery",
+        "Spirit of San Luis Restaurant",
+        "Gardens of Avila"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Missoula to Los Angeles",
+      "transportation": "Flight Number: F1111105, from Missoula to Los Angeles, Departure Time: 15:08, Arrival Time: 17:04",
+      "accommodation": "Cozy Beverly Hills Studio Guest House",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "71Above Restaurant and Skylounge",
+      "poi_blocks": [
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "17:34",
+          "end": "18:34",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        },
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        },
+        {
+          "name": "71Above Restaurant and Skylounge",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Flower St & 4th St",
+          "dist_m": 55.68
+        },
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Cozy Beverly Hills Studio Guest House",
+      "breakfast": "The Palm - L.A. Downtown",
+      "attractions": [
+        "Hollywood Walk of Fame",
+        "The Broad"
+      ],
+      "lunch": "Patina Restaurant",
+      "dinner": "Water Grill",
+      "poi_blocks": [
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        },
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        },
+        {
+          "name": "The Palm - L.A. Downtown",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "11th St & Flower St",
+          "dist_m": 51.84
+        },
+        {
+          "name": "Hollywood Walk of Fame",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Hollywood & Vine St.",
+          "dist_m": 17.12
+        },
+        {
+          "name": "Patina Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 62.65
+        },
+        {
+          "name": "The Broad",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 30.42
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to San Luis Obispo",
+      "transportation": "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Beverly Hills Studio Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Olympic Blvd & Beverwil Dr. (Westbound)",
+          "dist_m": 127.65
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "The Downtown House SLO with Private Parking",
+      "breakfast": "La Locanda",
+      "attractions": [
+        "Farmers Market",
+        "Bubblegum Alley"
+      ],
+      "lunch": "Apple Farm Restaurant",
+      "dinner": "Sidecar",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "La Locanda",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 114.39
+        },
+        {
+          "name": "Farmers Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 112.91
+        },
+        {
+          "name": "Apple Farm Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Monterey @ Peach Tree Inn",
+          "dist_m": 45.99
+        },
+        {
+          "name": "Bubblegum Alley",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 136.91
+        },
+        {
+          "name": "Sidecar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 54.77
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Luis Obispo to Missoula",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "1865 Craft House and Kitchen",
+      "attractions": [
+        "Performing Arts Center San Luis Obispo",
+        "California Polytechnic University"
+      ],
+      "lunch": "Lure Fish House",
+      "dinner": "Koberl At Blue",
+      "poi_blocks": [
+        {
+          "name": "The Downtown House SLO with Private Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 175.68
+        },
+        {
+          "name": "1865 Craft House and Kitchen",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Monterey & Grand",
+          "dist_m": 55.98
+        },
+        {
+          "name": "Performing Arts Center San Luis Obispo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:27",
+          "nearest_transit": "Cal Poly Performing Arts Center",
+          "dist_m": 149.78
+        },
+        {
+          "name": "Lure Fish House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 83.37
+        },
+        {
+          "name": "California Polytechnic University",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Grand & McCollum",
+          "dist_m": 209.14
+        },
+        {
+          "name": "Koberl At Blue",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Government Center",
+          "dist_m": 100.82
+        }
+      ]
+    }
+  ]
+}

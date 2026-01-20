@@ -1,0 +1,90 @@
+{
+  "idx": 281,
+  "stages": [
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Dallas",
+      "to": "Los Angeles",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0039324, from Dallas to Los Angeles, Departure Time: 10:07, Arrival Time: 11:11"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Dallas",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles"
+    },
+    {
+      "mode": "taxi",
+      "from": "Dallas",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "Santa Rosa",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0451627, from Los Angeles to Santa Rosa, Departure Time: 12:15, Arrival Time: 13:49"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to Santa Rosa, Duration: 480.65833333333336 mins, Distance: 688.4894 km, Estimated Cost: $34.42"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to Santa Rosa, Duration: 480.65833333333336 mins, Distance: 688.4894 km, Estimated Cost: $688.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "Dallas",
+      "date": "2024-11-09",
+      "raw": "Flight Number: F0400333, from Santa Rosa to Dallas, Departure Time: 14:00, Arrival Time: 19:23"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to Dallas, Not feasible to drive from Santa Rosa to Dallas"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to Dallas, Not feasible to drive from Santa Rosa to Dallas"
+    }
+  ]
+}

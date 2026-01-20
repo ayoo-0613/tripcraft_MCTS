@@ -1,0 +1,90 @@
+{
+  "idx": 129,
+  "stages": [
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Bend",
+      "to": "San Diego",
+      "date": "2024-11-18",
+      "raw": "Flight Number: F0449616, from Bend to San Diego, Departure Time: 14:15, Arrival Time: 16:31"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bend",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $75.50"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bend",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $1509.99"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Monterey",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0485454, from San Diego to Monterey, Departure Time: 10:37, Arrival Time: 11:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Monterey",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Monterey, Duration: 498.705 mins, Distance: 644.9803 km, Estimated Cost: $32.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Monterey",
+      "date": null,
+      "raw": "Taxi, from San Diego to Monterey, Duration: 498.705 mins, Distance: 644.9803 km, Estimated Cost: $644.98"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "Bend",
+      "date": "2024-11-22",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "Bend",
+      "date": null,
+      "raw": "Self-driving, from Monterey to Bend, Duration: 753.87 mins, Distance: 1005.8497 km, Estimated Cost: $50.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "Bend",
+      "date": null,
+      "raw": "Taxi, from Monterey to Bend, Duration: 753.87 mins, Distance: 1005.8497 km, Estimated Cost: $1005.85"
+    }
+  ]
+}

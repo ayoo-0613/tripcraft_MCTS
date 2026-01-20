@@ -1,0 +1,1074 @@
+{
+  "idx": 307,
+  "reward": 23.939813027750247,
+  "budget_used": 2841.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Seattle to Sacramento, Duration: 868.6933333333333 mins, Distance: 1210.1881 km, Estimated Cost: $1210.19",
+      "candidates": [
+        "Flight Number: F0054677, from Seattle to Sacramento, Departure Time: 12:30, Arrival Time: 14:00",
+        "Taxi, from Seattle to Sacramento, Duration: 868.6933333333333 mins, Distance: 1210.1881 km, Estimated Cost: $1210.19"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Room with private bathroom",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Room with private bathroom",
+        "Cozy Private Bedroom with Pool & Spa",
+        "1 or 2 Bedrooms next to downtown Sacramento/River",
+        "Private Guest Bed 'N Bath near Downtown",
+        "Private Bath & Private Balcony *420-Friendly*"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ella Dining Room & Bar",
+      "candidates": [
+        "Yue Huang Restaurant",
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "William Land Park",
+      "candidates": [
+        "William Land Park",
+        "McKinley Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "American River Parkway",
+        "California State Capitol Museum",
+        "Sacramento Zoo",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Yue Huang Restaurant",
+      "candidates": [
+        "Yue Huang Restaurant",
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Localis",
+      "candidates": [
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Room with private bathroom",
+        "Cozy Private Bedroom with Pool & Spa",
+        "1 or 2 Bedrooms next to downtown Sacramento/River",
+        "Private Guest Bed 'N Bath near Downtown",
+        "Private Bath & Private Balcony *420-Friendly*"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Grange Restaurant & Bar",
+      "candidates": [
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "McKinley Park",
+      "candidates": [
+        "McKinley Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "American River Parkway",
+        "California State Capitol Museum",
+        "Sacramento Zoo",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bangkok @12 Thai Restaurant",
+      "candidates": [
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mulvaney's Building & Loan",
+      "candidates": [
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Sacramento to Monterey, Duration: 291.5066666666667 mins, Distance: 355.9538 km, Estimated Cost: $355.95"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Basic King",
+      "candidates": [
+        "Basic King",
+        "The Finch, Historic Landmark House",
+        "Carmel-by-the-Sea Rustic Retreat",
+        "Quiet neighborhood near Monterey and the ocean",
+        "Modern Beach House",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sea Harvest Restaurant & Fish Market",
+      "candidates": [
+        "Sea Harvest Restaurant & Fish Market",
+        "Louie Linguini's",
+        "Old Monterey Cafe",
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Monterey Bay",
+      "candidates": [
+        "Monterey Bay",
+        "Monterey Bay Aquarium",
+        "California Sea Otter Game Refuge",
+        "Del Monte Beach",
+        "Monterey Peninsula Recreational Trail",
+        "Dennis the Menace Park",
+        "Jacks Peak County Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Louie Linguini's",
+      "candidates": [
+        "Louie Linguini's",
+        "Old Monterey Cafe",
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Old Monterey Cafe",
+      "candidates": [
+        "Old Monterey Cafe",
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Basic King",
+      "candidates": [
+        "Basic King",
+        "The Finch, Historic Landmark House",
+        "Carmel-by-the-Sea Rustic Retreat",
+        "Quiet neighborhood near Monterey and the ocean",
+        "Modern Beach House",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Tidal Coffee",
+      "candidates": [
+        "Tidal Coffee",
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Monterey Bay Aquarium",
+      "candidates": [
+        "Monterey Bay Aquarium",
+        "California Sea Otter Game Refuge",
+        "Del Monte Beach",
+        "Monterey Peninsula Recreational Trail",
+        "Dennis the Menace Park",
+        "Jacks Peak County Park"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cibo Ristorante Italiano",
+      "candidates": [
+        "Cibo Ristorante Italiano",
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Schooners Monterey",
+      "candidates": [
+        "Schooners Monterey",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Monterey to Seattle",
+      "candidates": [
+        "Transfer, from Monterey to Seattle"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Crown & Anchor",
+      "candidates": [
+        "Crown & Anchor",
+        "First Awakenings",
+        "Hula's Island Grill",
+        "Gianni's Pizza",
+        "Montrio",
+        "Fish Hopper",
+        "Rosine's Restaurant",
+        "Peter B's Brewpub",
+        "Bistro Moulin",
+        "C restaurant + bar",
+        "Crystal Fish",
+        "Bubba Gump Shrimp Co.",
+        "The Sardine Factory",
+        "Monterey's Fish House",
+        "Old Fisherman's  Grotto",
+        "Chart House",
+        "Cafe Fina",
+        "Abalonetti Bar and Grill",
+        "Domenico's On the Wharf",
+        "Tarpy's",
+        "Loulou's Griddle In The Middle",
+        "Sandbar & Grill",
+        "Compagno's Market & Deli",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Monterey Bay Fish Grotto",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Monterey Jack's Perth"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "California Sea Otter Game Refuge",
+      "candidates": [
+        "California Sea Otter Game Refuge",
+        "Del Monte Beach",
+        "Monterey Peninsula Recreational Trail",
+        "Dennis the Menace Park",
+        "Jacks Peak County Park"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Seattle to Sacramento",
+      "transportation": "Taxi, from Seattle to Sacramento, Duration: 868.6933333333333 mins, Distance: 1210.1881 km, Estimated Cost: $1210.19",
+      "accommodation": "Room with private bathroom",
+      "breakfast": "Ella Dining Room & Bar",
+      "attractions": [
+        "William Land Park"
+      ],
+      "lunch": "Yue Huang Restaurant",
+      "dinner": "Localis",
+      "poi_blocks": [
+        {
+          "name": "Room with private bathroom",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "STOCKTON BLVD & SAN FRANCISCO BLVD (NB)",
+          "dist_m": 172.34
+        },
+        {
+          "name": "Room with private bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "STOCKTON BLVD & SAN FRANCISCO BLVD (NB)",
+          "dist_m": 172.34
+        },
+        {
+          "name": "Ella Dining Room & Bar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Cathedral Square Station (EB)",
+          "dist_m": 56.91
+        },
+        {
+          "name": "William Land Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "SUTTERVILLE RD & MEAD AVE (WB)",
+          "dist_m": 11.46
+        },
+        {
+          "name": "Yue Huang Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "TRUXEL RD & GATEWAY PARK BLVD (NB)",
+          "dist_m": 34.28
+        },
+        {
+          "name": "Localis",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "21ST ST & R ST (NB)",
+          "dist_m": 35.88
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Grange Restaurant & Bar",
+      "attractions": [
+        "McKinley Park"
+      ],
+      "lunch": "Bangkok @12 Thai Restaurant",
+      "dinner": "Mulvaney's Building & Loan",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Grange Restaurant & Bar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "J ST & 10TH ST (EB)",
+          "dist_m": 36.29
+        },
+        {
+          "name": "McKinley Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "MCKINLEY BLVD & 34TH ST (EB)",
+          "dist_m": 48.79
+        },
+        {
+          "name": "Bangkok @12 Thai Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "12th & I Station (SB)",
+          "dist_m": 37.03
+        },
+        {
+          "name": "Mulvaney's Building & Loan",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "19TH ST & L ST (SB)",
+          "dist_m": 37.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Sacramento to Monterey",
+      "transportation": "-",
+      "accommodation": "Basic King",
+      "breakfast": "Sea Harvest Restaurant & Fish Market",
+      "attractions": [
+        "Monterey Bay"
+      ],
+      "lunch": "Louie Linguini's",
+      "dinner": "Old Monterey Cafe",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Basic King",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fremont / Ord Grove",
+          "dist_m": 90.06
+        },
+        {
+          "name": "Sea Harvest Restaurant & Fish Market",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Foam / Hoffman",
+          "dist_m": 23.01
+        },
+        {
+          "name": "Monterey Bay",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Cannery Row / Aquarium",
+          "dist_m": 76.67
+        },
+        {
+          "name": "Louie Linguini's",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 24.16
+        },
+        {
+          "name": "Old Monterey Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Monterey Transit Plaza / Gate 3 Pearl",
+          "dist_m": 45.93
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "-",
+      "accommodation": "Basic King",
+      "breakfast": "Tidal Coffee",
+      "attractions": [
+        "Monterey Bay Aquarium"
+      ],
+      "lunch": "Cibo Ristorante Italiano",
+      "dinner": "Schooners Monterey",
+      "poi_blocks": [
+        {
+          "name": "Basic King",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fremont / Ord Grove",
+          "dist_m": 90.06
+        },
+        {
+          "name": "Basic King",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fremont / Ord Grove",
+          "dist_m": 90.06
+        },
+        {
+          "name": "Tidal Coffee",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Cannery Row / Drake",
+          "dist_m": 46.73
+        },
+        {
+          "name": "Monterey Bay Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "Cannery Row / Aquarium",
+          "dist_m": 78.7
+        },
+        {
+          "name": "Cibo Ristorante Italiano",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Del Monte / Conference Center",
+          "dist_m": 46.74
+        },
+        {
+          "name": "Schooners Monterey",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Cannery Row / Drake",
+          "dist_m": 47.78
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Monterey to Seattle",
+      "transportation": "Transfer, from Monterey to Seattle",
+      "accommodation": "-",
+      "breakfast": "Crown & Anchor",
+      "attractions": [
+        "California Sea Otter Game Refuge"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Basic King",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fremont / Ord Grove",
+          "dist_m": 90.06
+        },
+        {
+          "name": "Crown & Anchor",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Franklin / Alvarado",
+          "dist_m": 55.74
+        },
+        {
+          "name": "California Sea Otter Game Refuge",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Lighthouse / Reeside",
+          "dist_m": 116.41
+        }
+      ]
+    }
+  ]
+}

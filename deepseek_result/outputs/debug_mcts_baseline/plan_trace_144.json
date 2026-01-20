@@ -1,0 +1,1151 @@
+{
+  "idx": 144,
+  "reward": 24.006061224663004,
+  "budget_used": 2098.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Fresno, Duration: 438.77833333333336 mins, Distance: 633.5294 km, Estimated Cost: $633.53",
+      "candidates": [
+        "Flight Number: F0053193, from Las Vegas to Fresno, Departure Time: 14:31, Arrival Time: 15:43",
+        "Taxi, from Las Vegas to Fresno, Duration: 438.77833333333336 mins, Distance: 633.5294 km, Estimated Cost: $633.53"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Old Fig Garden~Heritage Room/Private Bath.",
+      "candidates": [
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Warm Suite with Private Bath and Kitchenette",
+        "Mid-Century Modern Oasis W/Spa",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Fresno Apt | Yellow 1:1 | Next to Gazebo Gardens!",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "The Dream Room",
+        "Private Bedroom & Bath SE Fresno",
+        "Beautifully remodeled NE Fresno home 3bed/2Bath"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Phoenician Garden Mediterranean Bar & Grill",
+      "candidates": [
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "Dog House Grill",
+        "Sam's Italian Deli and Market",
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bad Axe Throwing Fresno",
+      "candidates": [
+        "Bad Axe Throwing Fresno",
+        "Old Fresno Water Tower",
+        "Roger Rocka's Dinner Theater",
+        "Chukchansi Park",
+        "First Armenian Presbyterian Church",
+        "Forestiere Underground Gardens",
+        "Fresno Art Museum",
+        "St. Johns Cathedral of Fresno",
+        "Meux Home Museum",
+        "Fresno Convention & Entertainment Center",
+        "Fresno City Hall",
+        "Oxotic Fresno Supercar Driving Experience",
+        "Fresno Chaffee Zoo",
+        "Fresno Discovery Center",
+        "Maya Cinemas Fresno 16",
+        "Island Waterpark",
+        "Shinzen Japanese Garden",
+        "Woodward Regional Park",
+        "Kearney Mansion Museum & Gallery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Dog House Grill",
+      "candidates": [
+        "Dog House Grill",
+        "Sam's Italian Deli and Market",
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sam's Italian Deli and Market",
+      "candidates": [
+        "Sam's Italian Deli and Market",
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Old Fig Garden~Heritage Room/Private Bath.",
+      "candidates": [
+        "Old Fig Garden~Heritage Room/Private Bath.",
+        "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+        "Warm Suite with Private Bath and Kitchenette",
+        "Mid-Century Modern Oasis W/Spa",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Fresno Apt | Yellow 1:1 | Next to Gazebo Gardens!",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "The Dream Room",
+        "Private Bedroom & Bath SE Fresno",
+        "Beautifully remodeled NE Fresno home 3bed/2Bath"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Cheesecake Factory",
+      "candidates": [
+        "The Cheesecake Factory",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Fresno Water Tower",
+      "candidates": [
+        "Old Fresno Water Tower",
+        "Roger Rocka's Dinner Theater",
+        "Chukchansi Park",
+        "First Armenian Presbyterian Church",
+        "Forestiere Underground Gardens",
+        "Fresno Art Museum",
+        "St. Johns Cathedral of Fresno",
+        "Meux Home Museum",
+        "Fresno Convention & Entertainment Center",
+        "Fresno City Hall",
+        "Oxotic Fresno Supercar Driving Experience",
+        "Fresno Chaffee Zoo",
+        "Fresno Discovery Center",
+        "Maya Cinemas Fresno 16",
+        "Island Waterpark",
+        "Shinzen Japanese Garden",
+        "Woodward Regional Park",
+        "Kearney Mansion Museum & Gallery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Fleming's Prime Steakhouse & Wine Bar",
+      "candidates": [
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Annex Kitchen",
+      "candidates": [
+        "The Annex Kitchen",
+        "Mediterranean Grill & Cafe",
+        "Five",
+        "Red Apple Cafe",
+        "The Lime Lite",
+        "Fig Garden Village",
+        "Sal's Mexican Restaurant - Fresno",
+        "Batter Up Pancakes",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Taqueria Don Pepe",
+        "Yosemite Ranch",
+        "Castillo's Mexican Food",
+        "Train Depot",
+        "Sakura Chaya Fresno",
+        "Tandoori Night",
+        "Fresno Breakfast House",
+        "Pismo's Coastal Grill",
+        "Elbow Room",
+        "La Boulangerie French Bakery & Cafe",
+        "Parma",
+        "Gem of Thailand",
+        "Max's Bistro & Bar",
+        "Westwoods BBQ and Spice Co.",
+        "Ampersand Ice Cream",
+        "Chef Paul's Cafe",
+        "Eureka! Fresno",
+        "Fresno",
+        "Los Fresnos Restaurant Bar",
+        "Los Fresnos Restaurante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Fresno to Sacramento, Duration: 198.64666666666665 mins, Distance: 272.8536 km, Estimated Cost: $272.85"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Large Comfy Cottage- Close to Downtown",
+        "Modern Boho Efficiency Studio in Midtown",
+        "Room with private bathroom",
+        "Sac City Loft",
+        "The Cottage on Hendricks",
+        "1 or 2 Bedrooms next to downtown Sacramento/River",
+        "Peaceful and Cozy Studio",
+        "Modern-Fully Loaded-EV Charger-Big Yard-10 Min DT"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Yue Huang Restaurant",
+      "candidates": [
+        "Yue Huang Restaurant",
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "William Land Park",
+      "candidates": [
+        "William Land Park",
+        "Tower Bridge",
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Localis",
+      "candidates": [
+        "Localis",
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Grange Restaurant & Bar",
+      "candidates": [
+        "Grange Restaurant & Bar",
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★",
+        "Home Away From Home",
+        "Large Comfy Cottage- Close to Downtown",
+        "Modern Boho Efficiency Studio in Midtown",
+        "Room with private bathroom",
+        "Sac City Loft",
+        "The Cottage on Hendricks",
+        "1 or 2 Bedrooms next to downtown Sacramento/River",
+        "Peaceful and Cozy Studio",
+        "Modern-Fully Loaded-EV Charger-Big Yard-10 Min DT"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bangkok @12 Thai Restaurant",
+      "candidates": [
+        "Bangkok @12 Thai Restaurant",
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tower Bridge",
+      "candidates": [
+        "Tower Bridge",
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mulvaney's Building & Loan",
+      "candidates": [
+        "Mulvaney's Building & Loan",
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Frank Fat's Restaurant",
+      "candidates": [
+        "Frank Fat's Restaurant",
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Sacramento to Las Vegas",
+      "candidates": [
+        "Transfer, from Sacramento to Las Vegas"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bacon & Butter",
+      "candidates": [
+        "Bacon & Butter",
+        "Tower Cafe",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Ella Dining Room & Bar",
+        "The Porch Restaurant and Bar",
+        "The Kitchen Restaurant",
+        "Chicago Fire",
+        "Echo and Rig",
+        "Revival",
+        "Paesano's Pizzeria",
+        "El Novillero Restaurant",
+        "Nopalitos",
+        "Paragary's",
+        "Firestone Public House",
+        "Zocalo",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Sauced BBQ & Spirits",
+        "Tres Hermanas Mexican Restaurant",
+        "Tipsy Putt",
+        "Dawson's Steakhouse",
+        "Scott's Seafood on The River",
+        "The Firehouse Restaurant",
+        "Il Fornaio",
+        "Aviators Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "Orphan",
+        "Moxie",
+        "Pilothouse Restaurant on the Delta King"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cathedral of the Blessed Sacrament",
+      "candidates": [
+        "Cathedral of the Blessed Sacrament",
+        "McKinley Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Sutter’s Fort State Historic Park",
+        "Capitol Park",
+        "Fairytale Town",
+        "California State Indian Museum",
+        "California State University, Sacramento",
+        "American River Parkway",
+        "Funderland Amusement Park",
+        "California State Capitol Museum",
+        "Old Sacramento",
+        "Crocker Art Museum",
+        "California Automobile Museum",
+        "Sacramento Zoo",
+        "California State Railroad Museum",
+        "Sacramento History Museum",
+        "American River Bicycle Trail"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Fresno",
+      "transportation": "Taxi, from Las Vegas to Fresno, Duration: 438.77833333333336 mins, Distance: 633.5294 km, Estimated Cost: $633.53",
+      "accommodation": "Old Fig Garden~Heritage Room/Private Bath.",
+      "breakfast": "Phoenician Garden Mediterranean Bar & Grill",
+      "attractions": [
+        "Bad Axe Throwing Fresno"
+      ],
+      "lunch": "Dog House Grill",
+      "dinner": "Sam's Italian Deli and Market",
+      "poi_blocks": [
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Phoenician Garden Mediterranean Bar & Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SE HERNDON - FIRST",
+          "dist_m": 9.59
+        },
+        {
+          "name": "Bad Axe Throwing Fresno",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "SW Palm - Shields",
+          "dist_m": 28.41
+        },
+        {
+          "name": "Dog House Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SW SHAW - CHESTNUT",
+          "dist_m": 40.76
+        },
+        {
+          "name": "Sam's Italian Deli and Market",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "NE FIRST - CLINTON",
+          "dist_m": 48.67
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "-",
+      "accommodation": "Old Fig Garden~Heritage Room/Private Bath.",
+      "breakfast": "The Cheesecake Factory",
+      "attractions": [
+        "Old Fresno Water Tower"
+      ],
+      "lunch": "Fleming's Prime Steakhouse & Wine Bar",
+      "dinner": "The Annex Kitchen",
+      "poi_blocks": [
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "The Cheesecake Factory",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SE SHAW - ANGUS",
+          "dist_m": 65.54
+        },
+        {
+          "name": "Old Fresno Water Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "NW FRESNO - O ST",
+          "dist_m": 32.38
+        },
+        {
+          "name": "Fleming's Prime Steakhouse & Wine Bar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SE SHAW - ANGUS",
+          "dist_m": 67.78
+        },
+        {
+          "name": "The Annex Kitchen",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SE SHAW - SEQUOIA",
+          "dist_m": 68.01
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fresno to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Yue Huang Restaurant",
+      "attractions": [
+        "William Land Park"
+      ],
+      "lunch": "Localis",
+      "dinner": "Grange Restaurant & Bar",
+      "poi_blocks": [
+        {
+          "name": "Old Fig Garden~Heritage Room/Private Bath.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SE SHAW - THRONE",
+          "dist_m": 37.59
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Yue Huang Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "TRUXEL RD & GATEWAY PARK BLVD (NB)",
+          "dist_m": 34.28
+        },
+        {
+          "name": "William Land Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "SUTTERVILLE RD & MEAD AVE (WB)",
+          "dist_m": 11.46
+        },
+        {
+          "name": "Localis",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "21ST ST & R ST (NB)",
+          "dist_m": 35.88
+        },
+        {
+          "name": "Grange Restaurant & Bar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "J ST & 10TH ST (EB)",
+          "dist_m": 36.29
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Bangkok @12 Thai Restaurant",
+      "attractions": [
+        "Tower Bridge"
+      ],
+      "lunch": "Mulvaney's Building & Loan",
+      "dinner": "Frank Fat's Restaurant",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Bangkok @12 Thai Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "12th & I Station (SB)",
+          "dist_m": 37.03
+        },
+        {
+          "name": "Tower Bridge",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "L ST & 4TH ST (WB)",
+          "dist_m": 26.39
+        },
+        {
+          "name": "Mulvaney's Building & Loan",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "19TH ST & L ST (SB)",
+          "dist_m": 37.17
+        },
+        {
+          "name": "Frank Fat's Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "L ST & 9TH ST (WB)",
+          "dist_m": 44.3
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Sacramento to Las Vegas",
+      "transportation": "Transfer, from Sacramento to Las Vegas",
+      "accommodation": "-",
+      "breakfast": "Bacon & Butter",
+      "attractions": [
+        "Cathedral of the Blessed Sacrament"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Bacon & Butter",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "59TH ST & BROADWAY (NB)",
+          "dist_m": 47.79
+        },
+        {
+          "name": "Cathedral of the Blessed Sacrament",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Cathedral Square Station (EB)",
+          "dist_m": 40.41
+        }
+      ]
+    }
+  ]
+}
