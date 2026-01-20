@@ -5,12 +5,13 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Export environment variables with paths
-export OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/Test_output/outputs}"  # Path to your output directory
+export OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/llm_output/outputs}"  # Path to your output directory
 export MODEL_NAME="${MODEL_NAME:-ollama}"                           # ollama / gpt-4o / qwen / phi4
 export OPENAI_API_KEY="${OPENAI_API_KEY:-}"                         # Required only for OpenAI models
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                            # Your Google API key
 export DAYS="${DAYS:-3 5 7}"                                        # 3/5/7
 export STRATEGIES="${STRATEGIES:-direct_og react direct_param}"     # direct_og / direct_param / react / reflexion
+export POSTPROCESS="${POSTPROCESS:-1}"                             # 1 to generate eval jsonl via Ollama
 
 # Ollama settings (used when MODEL_NAME=ollama or MODEL_NAME=ollama:<model>)
 export OLLAMA_MODEL="${OLLAMA_MODEL:-llama3.1:8b}"
@@ -33,15 +34,29 @@ run_one() {
   local strategy="$2"
   local set_type="${strategy}/${day}day"
   local csv_file="${CSV_DIR}/tripcraft_${day}day.csv"
+  local output_jsonl="${OUTPUT_DIR}/${strategy}/${day}.jsonl"
+  local eval_jsonl="${OUTPUT_DIR}/${strategy}/${day}_eval.jsonl"
 
-  echo "==> Running ${strategy} for ${day}day with ${MODEL_NAME} -> ${set_type}"
+  echo "==> Running ${strategy} for ${day}day with ${MODEL_NAME} -> ${output_jsonl}"
   python sole_planning_mltp.py \
       --day "${day}day" \
       --set_type "$set_type" \
       --output_dir "$OUTPUT_DIR" \
+      --output_jsonl "$output_jsonl" \
       --csv_file "$csv_file" \
       --model_name "$MODEL_NAME" \
       --strategy "$strategy"
+
+  if [[ "$POSTPROCESS" == "1" ]]; then
+    echo "==> Converting to eval format -> ${eval_jsonl}"
+    python ../postprocess/ollama_plan_converter.py \
+      --input_jsonl "$output_jsonl" \
+      --csv_file "$csv_file" \
+      --output_jsonl "$eval_jsonl" \
+      --ollama_model "$OLLAMA_MODEL" \
+      --ollama_base_url "$OLLAMA_BASE_URL" \
+      --ollama_timeout "$OLLAMA_TIMEOUT"
+  fi
 }
 
 for day in $DAYS; do

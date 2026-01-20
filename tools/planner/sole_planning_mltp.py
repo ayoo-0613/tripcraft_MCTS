@@ -9,6 +9,7 @@ import re
 import json
 import time
 import argparse
+from contextlib import nullcontext
 import pandas as pd
 from tqdm import tqdm
 # from langchain.callbacks import get_openai_callback
@@ -54,6 +55,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default="./")
     parser.add_argument("--strategy", type=str, default="direct_og")
     parser.add_argument("--csv_file", type=str, required=True, help="Path to the reference_info.csv file")
+    parser.add_argument("--output_jsonl", type=str, default="", help="Write results to a jsonl file instead of per-sample json")
     args = parser.parse_args()
 
     # Load data from CSV
@@ -88,8 +90,17 @@ if __name__ == "__main__":
         raise ValueError(f"Unknown strategy: {args.strategy}")
 
 
+    output_jsonl = args.output_jsonl.strip()
+    if output_jsonl:
+        output_jsonl_dir = os.path.dirname(output_jsonl)
+        if output_jsonl_dir:
+            os.makedirs(output_jsonl_dir, exist_ok=True)
+        jsonl_ctx = open(output_jsonl, "w", encoding="utf-8")
+    else:
+        jsonl_ctx = nullcontext()
+
     # Iterate over data and generate results
-    with get_openai_callback() as cb:
+    with jsonl_ctx as jsonl_f, get_openai_callback() as cb:
         for number, query_data in enumerate(tqdm(query_data_list, desc="Processing data")):
             if args.day == '3day':
                 reference_information = query_data['reference_information']
@@ -112,26 +123,34 @@ if __name__ == "__main__":
                     break
             print(planner_results)
 
-            # Ensure the directory exists
-            output_dir = os.path.join(args.output_dir, args.set_type)
-            os.makedirs(output_dir, exist_ok=True)
-
-            # Load previous results if available
-            result_file = os.path.join(output_dir, f'gpt4o_orig_generated_plan_{number+1}.json')
-            if os.path.exists(result_file):
-                with open(result_file, 'r') as f:
-                    result = json.load(f)
+            if jsonl_f:
+                record = {
+                    "index": number + 1,
+                    f"{args.model_name}_{args.strategy}_sole-planning_results": planner_results,
+                }
+                json.dump(record, jsonl_f, ensure_ascii=True)
+                jsonl_f.write("\n")
             else:
-                result = [{}]
+                # Ensure the directory exists
+                output_dir = os.path.join(args.output_dir, args.set_type)
+                os.makedirs(output_dir, exist_ok=True)
 
-            # Store the new results
-            # if args.strategy in ['react', 'reflexion']:
-            #     result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results_logs'] = scratchpad
-            
-            result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results'] = planner_results
+                # Load previous results if available
+                result_file = os.path.join(output_dir, f'gpt4o_orig_generated_plan_{number+1}.json')
+                if os.path.exists(result_file):
+                    with open(result_file, 'r') as f:
+                        result = json.load(f)
+                else:
+                    result = [{}]
 
-            # Write to JSON file
-            with open(result_file, 'w') as f:
-                json.dump(result, f, indent=4)
+                # Store the new results
+                # if args.strategy in ['react', 'reflexion']:
+                #     result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results_logs'] = scratchpad
+
+                result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results'] = planner_results
+
+                # Write to JSON file
+                with open(result_file, 'w') as f:
+                    json.dump(result, f, indent=4)
 
         print(cb)
