@@ -240,8 +240,13 @@ def is_valid_event(question, tested_data):
 def is_time_difference_valid(time1, time2, min_difference):
     from datetime import datetime, timedelta
     fmt = "%H:%M"
-    time1 = datetime.strptime(time1, fmt)
-    time2 = datetime.strptime(time2, fmt)
+    # 兼容 '24:00'，将其视为次日 '00:00'
+    def parse_time(t):
+        if str(t).strip() == '24:00':
+            return datetime.strptime('00:00', fmt) + timedelta(days=1)
+        return datetime.strptime(t, fmt)
+    time1 = parse_time(time1)
+    time2 = parse_time(time2)
     return abs((time2 - time1).total_seconds()) / 60 >= min_difference
 
 def is_valid_poi_sequence(question, tested_data):

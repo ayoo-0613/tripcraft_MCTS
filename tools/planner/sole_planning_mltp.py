@@ -19,7 +19,13 @@ import openai
 # Change the working directory if needed
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-from agents.prompts import planner_agent_prompt_direct_og, planner_agent_prompt_direct_param
+from agents.prompts import (
+    planner_agent_prompt_direct_og,
+    planner_agent_prompt_direct_param,
+    planner_agent_prompt_zs_cot_og,
+    planner_agent_prompt_zs_cot_param,
+    react_planner_agent_prompt,
+)
 
 
 def load_csv_data(filename):
@@ -59,11 +65,28 @@ if __name__ == "__main__":
     query_data_list = data.to_dict(orient='records')
 
     # Define planner based on strategy
-    if args.strategy == 'direct_og':
+    # Define planner based on strategy
+    if args.strategy == "direct_og":
         planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_direct_og)
+
+    elif args.strategy == "direct_param":
+        planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_direct_param)
+
+    elif args.strategy == "zs_cot_og":
+        planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_zs_cot_og)
+
+    elif args.strategy == "zs_cot_param":
+        planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_zs_cot_param)
+
+    elif args.strategy == "react":
+        planner = ReactPlanner(model_name=args.model_name, agent_prompt=react_planner_agent_prompt)
+
+    elif args.strategy == "reflexion":
+        planner = ReactReflectPlanner(model_name=args.model_name, agent_prompt=react_planner_agent_prompt)
+
     else:
-        if args.strategy == 'direct_param':
-            planner = Planner(model_name=args.model_name, agent_prompt=cot_planner_agent_prompt_param)
+        raise ValueError(f"Unknown strategy: {args.strategy}")
+
 
     # Iterate over data and generate results
     with get_openai_callback() as cb:
@@ -81,7 +104,7 @@ if __name__ == "__main__":
                 reference_information = json.dumps(reference_information_1 + reference_information_2 + reference_information_3)
             while True:
                 if args.strategy in ['react', 'reflexion']:
-                    planner_results, scratchpad = planner.run(reference_information, query_data['query'], query['persona'])
+                    planner_results, scratchpad = planner.run(reference_information, query_data['query'], query_data['persona'])
                 else:
                     planner_results = planner.run(reference_information, query_data['query'],query_data['persona'])
                     time.sleep(8)

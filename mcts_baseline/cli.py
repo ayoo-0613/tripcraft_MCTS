@@ -95,6 +95,14 @@ def main() -> None:
     parser.add_argument("--guidance_timeout", type=float, default=None)
     parser.add_argument("--guidance_value_weight", type=float, default=0.0)
     parser.add_argument("--guidance_prior_c", type=float, default=1.4)
+    parser.add_argument("--mcts_risk_penalty", action="store_true")
+    parser.add_argument("--mcts_risk_lambda", type=float, default=0.0)
+    parser.add_argument("--mcts_risk_horizon", type=int, default=2)
+    parser.add_argument("--mcts_risk_saturate_k", type=int, default=None)
+    parser.add_argument("--mcts_slack_modulation", action="store_true")
+    parser.add_argument("--mcts_slack_floor", type=float, default=0.0)
+    parser.add_argument("--mcts_feasibility_gate", action="store_true")
+    parser.add_argument("--mcts_feasibility_weight", type=float, default=1.0)
     parser.add_argument("--temporal_guidance", type=str, default="none", choices=["none", "ollama"])
     parser.add_argument("--temporal_prompt", type=str, default=None)
     parser.add_argument("--temporal_timeout", type=float, default=None)
@@ -215,6 +223,14 @@ def main() -> None:
                 guidance=guidance,
                 prior_c=args.guidance_prior_c,
                 value_weight=args.guidance_value_weight,
+                enable_risk_penalty=args.mcts_risk_penalty,
+                risk_lambda=args.mcts_risk_lambda,
+                risk_horizon=args.mcts_risk_horizon,
+                risk_saturate_k=args.mcts_risk_saturate_k,
+                enable_slack_modulation=args.mcts_slack_modulation,
+                slack_floor=args.mcts_slack_floor,
+                enable_feasibility_gate=args.mcts_feasibility_gate,
+                feasibility_weight=args.mcts_feasibility_weight,
             )
             rec = fill_template_with_state(template, row, kb, terminal_state, temporal_client=temporal_client)
 

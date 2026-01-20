@@ -54,13 +54,14 @@ class GoogleDistanceMatrix:
         info = {"origin": origin, "destination": destination,"cost": None, "duration": None, "distance": None}
         response = self.data[(self.data['origin'] == origin) & (self.data['destination'] == destination)]
         if len(response) > 0:
-                if response['duration_min'].values[0] is None or response['distance_km'].values[0] is None or response['duration_min'].values[0] is np.nan or response['distance_km'].values[0] is np.nan:
+                duration = response['duration_min'].values[0]
+                distance = response['distance_km'].values[0]
+                if pd.isna(duration) or pd.isna(distance):
                     return info
-                info["duration"] = response['duration_min'].values[0]
-                info["distance"] = response['distance_km'].values[0]
+                info["duration"] = duration
+                info["distance"] = distance
 
-                
-                if int(info["duration"])< 1440:
+                if duration < 1440:
                     if 'driving' in mode:
                         # info["cost"] = int(eval(info["distance"].replace("km","").replace(",","")) * 0.05)
                         info["cost"] = int(info["distance"]*0.05)

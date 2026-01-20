@@ -52,30 +52,7 @@ def _minutes_to_hhmm(minutes: int) -> str:
     return f"{h:02d}:{m:02d}"
 
 
-def _persona_tag_text(persona: str) -> str:
-    if not persona:
-        return ""
-    parts: List[str] = []
-    for label, key in (
-        ("traveler", "Traveler Type"),
-        ("purpose", "Purpose of Travel"),
-        ("spending", "Spending Preference"),
-        ("location", "Location Preference"),
-    ):
-        start_idx = persona.find(key + ":")
-        if start_idx == -1:
-            continue
-        start_idx += len(key) + 1
-        end_idx = persona.find(";", start_idx)
-        if end_idx == -1:
-            end_idx = len(persona)
-        value = persona[start_idx:end_idx].strip()
-        if value:
-            parts.append(f"{label}: {value}")
-    return " | ".join(parts)
-
-
-def build_poi_list_str(poi_blocks: List[POIBlock], tag_text: str = "") -> str:
+def build_poi_list_str(poi_blocks: List[POIBlock]) -> str:
     """
     Join as:
       "{name}, {kind} from {start} to {end}, nearest transit: {stop}, {dist}m away; ..."
@@ -84,10 +61,7 @@ def build_poi_list_str(poi_blocks: List[POIBlock], tag_text: str = "") -> str:
     blocks = sorted(poi_blocks, key=lambda b: _to_minutes(b.start))
     parts: List[str] = []
     for b in blocks:
-        if tag_text:
-            label = f"{b.name}, {tag_text}, {b.kind}"
-        else:
-            label = f"{b.name}, {b.kind}"
+        label = f"{b.name}, {b.kind}"
         parts.append(
             f"{label} from {b.start} to {b.end}, nearest transit: {b.nearest_transit}, {float(b.dist_m):.2f}m away"
         )
@@ -401,7 +375,6 @@ def fill_template_with_state(
     for d in range(1, row.days + 1):
         day = template["plan"][d - 1]
         draft = state.drafts[d - 1]
-        tag_text = _persona_tag_text(row.persona or "")
         _apply_temporal_guidance(day=d, row=row, kb=kb, draft=draft, client=temporal_client)
         city = _stage_city_for_day(kb, d)
         day["current_city"] = draft.current_city if draft.current_city != "-" else day["current_city"]
@@ -415,6 +388,6 @@ def fill_template_with_state(
             day["attraction"] = "; ".join(_with_city(a, city) for a in draft.attractions)
         else:
             day["attraction"] = "-"
-        day["point_of_interest_list"] = build_poi_list_str(draft.poi_blocks, tag_text=tag_text)
+        day["point_of_interest_list"] = build_poi_list_str(draft.poi_blocks)
 
     return template

@@ -2,7 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 from langchain.prompts import PromptTemplate
-from agents.prompts import planner_agent_prompt_direct_og, planner_agent_prompt_direct_param
+from agents.prompts import (
+    planner_agent_prompt_direct_og,
+    planner_agent_prompt_direct_param,
+    react_planner_agent_prompt,
+)
 # from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
 from langchain.llms.base import BaseLLM
@@ -18,17 +22,48 @@ import re
 import openai
 import time
 from enum import Enum
-from typing import List, Union, Literal
+from typing import List, Union, Literal, Optional
 # from langchain_google_genai import ChatGoogleGenerativeAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import argparse
 
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 # openai.api_key = OPENAI_API_KEY
 # GOOGLE_API_KEY = os.environ['GOOGLE_API_KEY']
 
+def _resolve_ollama_model(model_name: str) -> Optional[str]:
+    if model_name.startswith("ollama:"):
+        return model_name.split(":", 1)[1]
+    if model_name == "ollama":
+        return os.environ.get("OLLAMA_MODEL")
+    return None
+
+
+class OllamaChatClient:
+    def __init__(self, base_url: str, model: str, timeout_sec: float = 999.0):
+        self.base_url = base_url.rstrip("/")
+        self.model = model
+        self.timeout_sec = timeout_sec
+
+    def chat(self, prompt: str) -> str:
+        import requests
+
+        payload = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": prompt}],
+            "stream": False,
+        }
+        resp = requests.post(
+            f"{self.base_url}/api/chat",
+            json=payload,
+            timeout=self.timeout_sec,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        content = (data.get("message") or {}).get("content")
+        return str(content or "")
 
 def catch_openai_api_error():
     error = sys.exc_info()[0]
@@ -60,8 +95,13 @@ class Planner:
         self.agent_prompt = agent_prompt
         self.scratchpad: str = ''
         self.model_name = model_name
+        self.ollama_model = _resolve_ollama_model(model_name)
+        self.ollama_client = None
         self.enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
-        
+
+        if model_name.startswith("ollama") and not self.ollama_model:
+            raise ValueError("Ollama model name missing. Set OLLAMA_MODEL or use model_name=ollama:<model>.")
+
         if model_name in ['qwen','phi4']:
             model_path = {
                 'qwen': "Qwen/Qwen2.5-7B-Instruct",
@@ -75,6 +115,12 @@ class Planner:
                 device_map="auto",
                 offload_folder="offload",  # Enables CPU offloading
                 attn_implementation="flash_attention_2"  # Speeds up inference
+            )
+        elif self.ollama_model:
+            self.ollama_client = OllamaChatClient(
+                base_url=os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434"),
+                model=self.ollama_model,
+                timeout_sec=float(os.environ.get("OLLAMA_TIMEOUT", "999")),
             )
         else:
             self.llm = ChatOpenAI(model_name=model_name, temperature=0, max_tokens=4096, openai_api_key=OPENAI_API_KEY)
@@ -98,6 +144,8 @@ class Planner:
                 generated_text = generated_text[response_start + len(prompt):].strip()
             
             return generated_text
+        elif self.ollama_client:
+            return self.ollama_client.chat(prompt)
         else:
             if len(self.enc.encode(prompt)) > 12000:
                 return 'Max Token Length Exceeded.'
@@ -117,109 +165,137 @@ class Planner:
         return self.agent_prompt.format(text=text, query=query, persona=persona)
 
 
-# class ReactPlanner:
-#     """
-#     A question answering ReAct Agent.
-#     """
-#     def __init__(self,
-#                  agent_prompt: PromptTemplate = react_planner_agent_prompt,
-#                  model_name: str = 'gpt-3.5-turbo-1106',
-#                  ) -> None:
-        
-#         self.agent_prompt = agent_prompt
-#         self.react_llm = ChatOpenAI(model_name=model_name, temperature=0, max_tokens=1024, openai_api_key=OPENAI_API_KEY,model_kwargs={"stop": ["Action","Thought","Observation"]})
-#         self.env = ReactEnv()
-#         self.query = None
-#         self.max_steps = 30
-#         self.reset()
-#         self.finished = False
-#         self.answer = ''
-#         self.enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+class ReactPlanner:
+    """
+    A question answering ReAct Agent.
+    """
+    def __init__(self,
+                 agent_prompt: PromptTemplate = react_planner_agent_prompt,
+                 model_name: str = 'gpt-3.5-turbo-1106',
+                 ) -> None:
 
-#     def run(self, text, query, reset = True) -> None:
+        self.agent_prompt = agent_prompt
+        self.model_name = model_name
+        self.ollama_model = _resolve_ollama_model(model_name)
+        self.ollama_client = None
 
-#         self.query = query
-#         self.text = text
+        if model_name.startswith("ollama") and not self.ollama_model:
+            raise ValueError("Ollama model name missing. Set OLLAMA_MODEL or use model_name=ollama:<model>.")
 
-#         if reset:
-#             self.reset()
-        
+        if self.ollama_model:
+            self.ollama_client = OllamaChatClient(
+                base_url=os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434"),
+                model=self.ollama_model,
+                timeout_sec=float(os.environ.get("OLLAMA_TIMEOUT", "999")),
+            )
+            self.react_llm = None
+        else:
+            self.react_llm = ChatOpenAI(
+                model_name=model_name,
+                temperature=0,
+                max_tokens=1024,
+                openai_api_key=OPENAI_API_KEY,
+                model_kwargs={"stop": ["Action", "Thought", "Observation"]},
+            )
 
-#         while not (self.is_halted() or self.is_finished()):
-#             self.step()
-        
-#         return self.answer, self.scratchpad
+        self.env = ReactEnv()
+        self.query = None
+        self.persona = None
+        self.max_steps = 30
+        self.reset()
+        self.finished = False
+        self.answer = ''
+        self.enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
 
-    
-#     def step(self) -> None:
-#         # Think
-#         self.scratchpad += f'\nThought {self.curr_step}:'
-#         self.scratchpad += ' ' + self.prompt_agent()
-#         print(self.scratchpad.split('\n')[-1])
+    def run(self, text, query, persona, reset = True) -> None:
 
-#         # Act
-#         self.scratchpad += f'\nAction {self.curr_step}:'
-#         action = self.prompt_agent()
-#         self.scratchpad += ' ' + action
-#         print(self.scratchpad.split('\n')[-1])
+        self.query = query
+        self.text = text
+        self.persona = persona
 
-#         # Observe
-#         self.scratchpad += f'\nObservation {self.curr_step}: '
+        if reset:
+            self.reset()
 
-#         action_type, action_arg = parse_action(action)
+        while not (self.is_halted() or self.is_finished()):
+            self.step()
 
-#         if action_type == 'CostEnquiry':
-#             try:
-#                 input_arg = eval(action_arg)
-#                 if type(input_arg) != dict:
-#                     raise ValueError('The sub plan can not be parsed into json format, please check. Only one day plan is supported.')
-#                 observation = f'Cost: {self.env.run(input_arg)}'
-#             except SyntaxError:
-#                 observation = f'The sub plan can not be parsed into json format, please check.'
-#             except ValueError as e:
-#                 observation = str(e)
-        
-#         elif action_type == 'Finish':
-#             self.finished = True
-#             observation = f'The plan is finished.'
-#             self.answer = action_arg
-        
-#         else:
-#             observation = f'Action {action_type} is not supported.'
-        
-#         self.curr_step += 1
+        return self.answer, self.scratchpad
 
-#         self.scratchpad += observation
-#         print(self.scratchpad.split('\n')[-1])
+    def _call_llm(self, prompt: str) -> str:
+        if self.ollama_client:
+            return self.ollama_client.chat(prompt)
+        return self.react_llm([HumanMessage(content=prompt)]).content
 
-#     def prompt_agent(self) -> str:
-#         while True:
-#             try:
-#                 return format_step(self.react_llm([HumanMessage(content=self._build_agent_prompt())]).content)
-#             except:
-#                 catch_openai_api_error()
-#                 print(self._build_agent_prompt())
-#                 print(len(self.enc.encode(self._build_agent_prompt())))
-#                 time.sleep(5)
-    
-#     def _build_agent_prompt(self) -> str:
-#         return self.agent_prompt.format(
-#                             query = self.query,
-#                             text = self.text,
-#                             scratchpad = self.scratchpad)
-    
-#     def is_finished(self) -> bool:
-#         return self.finished
+    def step(self) -> None:
+        # Think
+        self.scratchpad += f'\nThought {self.curr_step}:'
+        self.scratchpad += ' ' + self.prompt_agent()
+        print(self.scratchpad.split('\n')[-1])
 
-#     def is_halted(self) -> bool:
-#         return ((self.curr_step > self.max_steps) or (
-#                     len(self.enc.encode(self._build_agent_prompt())) > 14000)) and not self.finished
+        # Act
+        self.scratchpad += f'\nAction {self.curr_step}:'
+        action = self.prompt_agent()
+        self.scratchpad += ' ' + action
+        print(self.scratchpad.split('\n')[-1])
 
-#     def reset(self) -> None:
-#         self.scratchpad = ''
-#         self.answer = ''
-#         self.curr_step = 1
-#         self.finished = False
+        # Observe
+        self.scratchpad += f'\nObservation {self.curr_step}: '
+
+        action_type, action_arg = parse_action(action)
+
+        if action_type == 'CostEnquiry':
+            try:
+                input_arg = eval(action_arg)
+                if type(input_arg) != dict:
+                    raise ValueError('The sub plan can not be parsed into json format, please check. Only one day plan is supported.')
+                observation = f'Cost: {self.env.run(input_arg)}'
+            except SyntaxError:
+                observation = f'The sub plan can not be parsed into json format, please check.'
+            except ValueError as e:
+                observation = str(e)
+
+        elif action_type == 'Finish':
+            self.finished = True
+            observation = f'The plan is finished.'
+            self.answer = action_arg
+
+        else:
+            observation = f'Action {action_type} is not supported.'
+
+        self.curr_step += 1
+
+        self.scratchpad += observation
+        print(self.scratchpad.split('\n')[-1])
+
+    def prompt_agent(self) -> str:
+        while True:
+            try:
+                return format_step(self._call_llm(self._build_agent_prompt()))
+            except:
+                catch_openai_api_error()
+                print(self._build_agent_prompt())
+                print(len(self.enc.encode(self._build_agent_prompt())))
+                time.sleep(5)
+
+    def _build_agent_prompt(self) -> str:
+        return self.agent_prompt.format(
+                            query = self.query,
+                            text = self.text,
+                            persona = self.persona,
+                            scratchpad = self.scratchpad)
+
+    def is_finished(self) -> bool:
+        return self.finished
+
+    def is_halted(self) -> bool:
+        return ((self.curr_step > self.max_steps) or (
+                    len(self.enc.encode(self._build_agent_prompt())) > 14000)) and not self.finished
+
+    def reset(self) -> None:
+        self.scratchpad = ''
+        self.answer = ''
+        self.curr_step = 1
+        self.finished = False
 
 
 # class ReactReflectPlanner:
@@ -374,12 +450,16 @@ class Planner:
 #         self.reflections_str = ''
 #         self.env.reset()
 
+class ReactReflectPlanner(ReactPlanner):
+    pass
+
+
 def format_step(step: str) -> str:
-    return step.strip('\n').strip().replace('\n', '')
+    return step.strip()
 
 def parse_action(string):
     pattern = r'^(\w+)\[(.+)\]$'
-    match = re.match(pattern, string)
+    match = re.match(pattern, string, flags=re.DOTALL)
 
     try:
         if match:
