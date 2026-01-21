@@ -12,6 +12,7 @@ export OPENAI_API_KEY="${OPENAI_API_KEY:-}"                         # Required o
 export DAYS="${DAYS:-3 5 7}"                                        # 3/5/7
 export STRATEGIES="${STRATEGIES:-direct_og react direct_param}"     # direct_og / direct_param / react / reflexion
 export POSTPROCESS="${POSTPROCESS:-1}"                             # 1 to generate eval jsonl via Ollama
+export SKIP_EXISTING="${SKIP_EXISTING:-1}"                         # 1 to skip generation if jsonl already exists
 
 # Ollama settings (used when MODEL_NAME=ollama or MODEL_NAME=ollama:<model>)
 export OLLAMA_MODEL="${OLLAMA_MODEL:-llama3.1:8b}"
@@ -37,25 +38,33 @@ run_one() {
   local output_jsonl="${OUTPUT_DIR}/${strategy}/${day}.jsonl"
   local eval_jsonl="${OUTPUT_DIR}/${strategy}/${day}_eval.jsonl"
 
-  echo "==> Running ${strategy} for ${day}day with ${MODEL_NAME} -> ${output_jsonl}"
-  python sole_planning_mltp.py \
-      --day "${day}day" \
-      --set_type "$set_type" \
-      --output_dir "$OUTPUT_DIR" \
-      --output_jsonl "$output_jsonl" \
-      --csv_file "$csv_file" \
-      --model_name "$MODEL_NAME" \
-      --strategy "$strategy"
+  if [[ "$SKIP_EXISTING" == "1" && -s "$output_jsonl" ]]; then
+    echo "==> Found existing ${output_jsonl}; skipping generation"
+  else
+    echo "==> Running ${strategy} for ${day}day with ${MODEL_NAME} -> ${output_jsonl}"
+    python sole_planning_mltp.py \
+        --day "${day}day" \
+        --set_type "$set_type" \
+        --output_dir "$OUTPUT_DIR" \
+        --output_jsonl "$output_jsonl" \
+        --csv_file "$csv_file" \
+        --model_name "$MODEL_NAME" \
+        --strategy "$strategy"
+  fi
 
   if [[ "$POSTPROCESS" == "1" ]]; then
     echo "==> Converting to eval format -> ${eval_jsonl}"
-    python ../postprocess/ollama_plan_converter.py \
-      --input_jsonl "$output_jsonl" \
-      --csv_file "$csv_file" \
-      --output_jsonl "$eval_jsonl" \
-      --ollama_model "$OLLAMA_MODEL" \
-      --ollama_base_url "$OLLAMA_BASE_URL" \
-      --ollama_timeout "$OLLAMA_TIMEOUT"
+    if [[ -s "$output_jsonl" ]]; then
+      python "${ROOT_DIR}/postprocess/ollama_plan_converter.py" \
+        --input_jsonl "$output_jsonl" \
+        --csv_file "$csv_file" \
+        --output_jsonl "$eval_jsonl" \
+        --ollama_model "$OLLAMA_MODEL" \
+        --ollama_base_url "$OLLAMA_BASE_URL" \
+        --ollama_timeout "$OLLAMA_TIMEOUT"
+    else
+      echo "==> Skip converting: missing ${output_jsonl}"
+    fi
   fi
 }
 
