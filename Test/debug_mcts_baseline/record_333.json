@@ -1,0 +1,65 @@
+{
+  "idx": 333,
+  "JSON": {
+    "org": "Dallas",
+    "dest": "Fort Wayne",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-20",
+      "2024-11-21",
+      "2024-11-22"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "not shared room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1500.0,
+    "query": "Plan a 3-day trip for 2 people from Dallas to Fort Wayne from November 20th to November 22nd, 2024, with a budget of $1,500. Accommodations should be in a non-shared room, and transportation should not involve self-driving. The trip should also adhere to house rules allowing pets.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Dallas to Fort Wayne",
+      "transportation": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Cosmos House Of Pancakes, Fort Wayne",
+      "accommodation": "Lakeside Park Bungalow, Fort Wayne",
+      "event": "-",
+      "point_of_interest_list": "Lakeside Park Bungalow, stay from 08:00 to 09:00, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away; Lakeside Park Bungalow, stay from 15:58 to 16:58, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away; Cosmos House Of Pancakes, visit from 19:51 to 21:00, nearest transit: Canterbury Marketplace, 18.19m away; Lakeside Park Bungalow, stay from 22:15 to 08:00, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Fort Wayne to Fort Wayne",
+      "transportation": "Transfer, from Fort Wayne to Fort Wayne",
+      "breakfast": "Copper Spoon, Fort Wayne",
+      "attraction": "Embassy Theatre, Fort Wayne",
+      "lunch": "Oyster Bar, Fort Wayne",
+      "dinner": "The Lucky Moose, Fort Wayne",
+      "accommodation": "Lakeside Park Bungalow, Fort Wayne",
+      "event": "-",
+      "point_of_interest_list": "Lakeside Park Bungalow, stay from 08:00 to 09:00, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away; Copper Spoon, visit from 09:25 to 10:16, nearest transit: Ewing St. at Jefferson Blvd. (NB), 131.99m away; Embassy Theatre, visit from 11:30 to 14:50, nearest transit: Northbound on Harrison @ Jefferson, 44.14m away; Oyster Bar, visit from 13:57 to 14:56, nearest transit: S. Calhoun St. north of Masterson St. (NB), 28.67m away; The Lucky Moose, visit from 19:51 to 21:00, nearest transit: Dupont Branch Library (Does not pull in), 128.23m away; Lakeside Park Bungalow, stay from 22:15 to 08:00, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Fort Wayne to Dallas",
+      "transportation": "Transfer, from Fort Wayne to Dallas",
+      "breakfast": "Tolon Restaurant, Fort Wayne",
+      "attraction": "Room to Escape, Fort Wayne",
+      "lunch": "Black Canyon Restaurant, Fort Wayne",
+      "dinner": "The Hoppy Gnome, Fort Wayne",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Lakeside Park Bungalow, stay from 08:00 to 09:00, nearest transit: East State Blvd. west of California Ave. (WB), 447.88m away; Tolon Restaurant, visit from 09:25 to 10:16, nearest transit: W. Main St. at Harrison St. (WB), 82.47m away; Room to Escape, visit from 11:30 to 13:50, nearest transit: Coldwater Rd. south of Ernst Dr. (SB), 342.38m away; Black Canyon Restaurant, visit from 13:57 to 14:56, nearest transit: Parkview YMCA, 1174.55m away; The Hoppy Gnome, visit from 19:51 to 21:00, nearest transit: Southbound on Calhoun St. at Berry St., 22.61m away."
+    }
+  ]
+}

@@ -1,0 +1,1379 @@
+{
+  "idx": 244,
+  "reward": -7474.172387831198,
+  "budget_used": 1466.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0457503, from Victoria to Houston, Departure Time: 19:08, Arrival Time: 19:53",
+      "candidates": [
+        "Flight Number: F0457503, from Victoria to Houston, Departure Time: 19:08, Arrival Time: 19:53",
+        "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Houston Restaurant",
+      "candidates": [
+        "Houston Restaurant",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Taste of Texas",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Niko Niko's Greek",
+        "Houston's Restaurant & Pub",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Brenner's on the Bayou",
+        "Houston's Trail's End",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Discovery Green",
+      "candidates": [
+        "Discovery Green",
+        "Houston Zoo",
+        "Hermann Park",
+        "Downtown Aquarium",
+        "Holocaust Museum Houston",
+        "Buffalo Bayou Park",
+        "The Menil Collection",
+        "Space Center Houston",
+        "The Galleria",
+        "Children's Museum Houston",
+        "Houston Museum District",
+        "NRG Stadium",
+        "Cockrell Butterfly Center",
+        "Minute Maid Park",
+        "National Museum of Funeral History",
+        "Bayou Bend Collection and Gardens",
+        "Gerald D. Hines Waterwall Park",
+        "The Houston Museum of Natural Science",
+        "Museum of Fine Arts, Houston",
+        "Rodeo Houston or Houston Livestock Show and Rodeo"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Houston's",
+      "candidates": [
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Taste of Texas",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Niko Niko's Greek",
+        "Houston's Restaurant & Pub",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Brenner's on the Bayou",
+        "Houston's Trail's End",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "Taste of Texas",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Niko Niko's Greek",
+        "Houston's Restaurant & Pub",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Brenner's on the Bayou",
+        "Houston's Trail's End",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "candidates": [
+        "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+        "Taxi, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $337.76"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Coastal Getaway",
+      "candidates": [
+        "Coastal Getaway",
+        "Turtle Beach Haus 126",
+        "Cozy Cottage at Waverly House",
+        "Waterfront +Stunning Sunsets +Fishing +Pool",
+        "Just Remodeled Condo I Named Shark",
+        "Cottage by the Bay",
+        "Stylish Studio Condo near Beach - Canal Front",
+        "McCracken Bird and Beach Guesthouse.",
+        "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+        "Turtle-Renovated Beachside Condo4Perfect Getaways",
+        "b/walk to beach/fishing dock/Ground floor/King bed",
+        "8/Fishing dock/Ground Floor/hot tub/Beach/king bed"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Coastal Getaway",
+      "candidates": [
+        "Coastal Getaway",
+        "Turtle Beach Haus 126",
+        "Cozy Cottage at Waverly House",
+        "Waterfront +Stunning Sunsets +Fishing +Pool",
+        "Just Remodeled Condo I Named Shark",
+        "Cottage by the Bay",
+        "Stylish Studio Condo near Beach - Canal Front",
+        "McCracken Bird and Beach Guesthouse.",
+        "N Padre Island-Mustang Island 1br 3bd Pet friendly",
+        "Turtle-Renovated Beachside Condo4Perfect Getaways",
+        "b/walk to beach/fishing dock/Ground floor/King bed",
+        "8/Fishing dock/Ground Floor/hot tub/Beach/king bed"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Vietnam Restaurant",
+      "candidates": [
+        "Vietnam Restaurant",
+        "Yardarm Restaurant",
+        "U & I Restaurant",
+        "Pier 99 Restaurant",
+        "Blue Clove",
+        "Saltwater Grill",
+        "Executive Surf Club",
+        "Black Diamond Oyster Bar",
+        "Ol' Steakhouse Co.",
+        "Tavern On the Bay",
+        "Kuzina Lebanese Grill",
+        "Authentic New York Pizza company",
+        "Railroad Seafood Station & Brewing Co.",
+        "Landry's Seafood House",
+        "Catfish Charlie's",
+        "Harrison's Landing",
+        "Ginger Cafe and Grill",
+        "DAO Authentic Asian Cuisine",
+        "Silverado SmokeHouse",
+        "Andy's Kitchen",
+        "Katz 21 Steak & Spirits",
+        "Luciano's Italian Restaurant",
+        "Doc's Seafood & Steak Restaurant",
+        "Island Time Sushi Bar & Seafood Grill",
+        "Bien Merite",
+        "Republic of Texas Bar & Grill",
+        "Water Street Oyster Bar and Sushi Bar",
+        "Taqueria El Potro",
+        "Guajillo's On The Island",
+        "Acapulco Restaurant",
+        "Padre Pizzeria & Gourment",
+        "Senor Jaime's Mexican Restaurant & Cantina",
+        "Hoegemeyer's Barbeque Barn",
+        "Blackbeard's On The Beach",
+        "Bellino Ristorante Italiano and Bottega"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cole Park",
+      "candidates": [
+        "Cole Park",
+        "North Beach",
+        "Bob Hall Pier",
+        "The Selena Museum",
+        "Texas State Aquarium",
+        "USS Lexington Museum",
+        "Texas Sealife Center",
+        "Whataburger Field",
+        "North Padre Island",
+        "Malaquite Beach",
+        "Corpus Christi Harbor Bridge",
+        "Michael J. Ellis Beach & Seawall",
+        "Padre Island National Seashore",
+        "Corpus Christi Museum of Science and History",
+        "South Texas Botanical Gardens & Nature Center",
+        "Corpus Christi Downtown Seawall",
+        "Selena Memorial-Mirador De La Flor"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Yardarm Restaurant",
+      "candidates": [
+        "Yardarm Restaurant",
+        "U & I Restaurant",
+        "Pier 99 Restaurant",
+        "Blue Clove",
+        "Saltwater Grill",
+        "Executive Surf Club",
+        "Black Diamond Oyster Bar",
+        "Ol' Steakhouse Co.",
+        "Tavern On the Bay",
+        "Kuzina Lebanese Grill",
+        "Authentic New York Pizza company",
+        "Railroad Seafood Station & Brewing Co.",
+        "Landry's Seafood House",
+        "Catfish Charlie's",
+        "Harrison's Landing",
+        "Ginger Cafe and Grill",
+        "DAO Authentic Asian Cuisine",
+        "Silverado SmokeHouse",
+        "Andy's Kitchen",
+        "Katz 21 Steak & Spirits",
+        "Luciano's Italian Restaurant",
+        "Doc's Seafood & Steak Restaurant",
+        "Island Time Sushi Bar & Seafood Grill",
+        "Bien Merite",
+        "Republic of Texas Bar & Grill",
+        "Water Street Oyster Bar and Sushi Bar",
+        "Taqueria El Potro",
+        "Guajillo's On The Island",
+        "Acapulco Restaurant",
+        "Padre Pizzeria & Gourment",
+        "Senor Jaime's Mexican Restaurant & Cantina",
+        "Hoegemeyer's Barbeque Barn",
+        "Blackbeard's On The Beach",
+        "Bellino Ristorante Italiano and Bottega"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "U & I Restaurant",
+      "candidates": [
+        "U & I Restaurant",
+        "Pier 99 Restaurant",
+        "Blue Clove",
+        "Saltwater Grill",
+        "Executive Surf Club",
+        "Black Diamond Oyster Bar",
+        "Ol' Steakhouse Co.",
+        "Tavern On the Bay",
+        "Kuzina Lebanese Grill",
+        "Authentic New York Pizza company",
+        "Railroad Seafood Station & Brewing Co.",
+        "Landry's Seafood House",
+        "Catfish Charlie's",
+        "Harrison's Landing",
+        "Ginger Cafe and Grill",
+        "DAO Authentic Asian Cuisine",
+        "Silverado SmokeHouse",
+        "Andy's Kitchen",
+        "Katz 21 Steak & Spirits",
+        "Luciano's Italian Restaurant",
+        "Doc's Seafood & Steak Restaurant",
+        "Island Time Sushi Bar & Seafood Grill",
+        "Bien Merite",
+        "Republic of Texas Bar & Grill",
+        "Water Street Oyster Bar and Sushi Bar",
+        "Taqueria El Potro",
+        "Guajillo's On The Island",
+        "Acapulco Restaurant",
+        "Padre Pizzeria & Gourment",
+        "Senor Jaime's Mexican Restaurant & Cantina",
+        "Hoegemeyer's Barbeque Barn",
+        "Blackbeard's On The Beach",
+        "Bellino Ristorante Italiano and Bottega"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Corpus Christi to Beaumont, Duration: 352.89666666666665 mins, Distance: 477.99859999999995 km, Estimated Cost: $478.00"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "candidates": [
+        "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+        "Pool Cottage in Historic Old Town Beaumont"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont",
+      "candidates": [
+        "Beaumont",
+        "Twin Peaks Beaumont",
+        "Chartier",
+        "Beaumont Kitchen",
+        "The Beaumont",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Chambers House",
+      "candidates": [
+        "The Chambers House",
+        "Texas Energy Museum",
+        "Gator Country",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Twin Peaks Beaumont",
+      "candidates": [
+        "Twin Peaks Beaumont",
+        "Chartier",
+        "Beaumont Kitchen",
+        "The Beaumont",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Chartier",
+      "candidates": [
+        "Chartier",
+        "Beaumont Kitchen",
+        "The Beaumont",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "candidates": [
+        "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+        "Pool Cottage in Historic Old Town Beaumont"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont Kitchen",
+      "candidates": [
+        "Beaumont Kitchen",
+        "The Beaumont",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Texas Energy Museum",
+      "candidates": [
+        "Texas Energy Museum",
+        "Gator Country",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Beaumont",
+      "candidates": [
+        "The Beaumont",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Beaumont House",
+      "candidates": [
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Beaumont to Victoria, Duration: 247.18166666666667 mins, Distance: 340.3243 km, Estimated Cost: $340.32"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont Restaurant",
+      "candidates": [
+        "Beaumont Restaurant",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gator Country",
+      "candidates": [
+        "Gator Country",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Fire Museum of Texas",
+        "Beaumont Children's Museum",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Beaumont Inn",
+      "candidates": [
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Beaumont Arms",
+      "candidates": [
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Frankie's Italian Grill",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Maina's Donair",
+        "Beaumont Bar and Grill",
+        "Beaumonts Cafe & Bar",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Cracker Barrel Old Country Store",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Victoria to Houston",
+      "transportation": "Flight Number: F0457503, from Victoria to Houston, Departure Time: 19:08, Arrival Time: 19:53",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "20:23",
+          "end": "21:23",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "Houston Restaurant",
+      "attractions": [
+        "Discovery Green"
+      ],
+      "lunch": "Houston's",
+      "dinner": "Hugo's",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Houston Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Conroe Park & Ride",
+          "dist_m": 2530051.98
+        },
+        {
+          "name": "Discovery Green",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Lamar St @ Austin St",
+          "dist_m": 231.52
+        },
+        {
+          "name": "Houston's",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Kirby Dr @ Westpark Dr",
+          "dist_m": 23.24
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Corpus Christi",
+      "transportation": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25",
+      "accommodation": "Coastal Getaway",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Coastal Getaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "357-Santa Fe @ Atlantic",
+          "dist_m": 88.13
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "-",
+      "accommodation": "Coastal Getaway",
+      "breakfast": "Vietnam Restaurant",
+      "attractions": [
+        "Cole Park"
+      ],
+      "lunch": "Yardarm Restaurant",
+      "dinner": "U & I Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Coastal Getaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "357-Santa Fe @ Atlantic",
+          "dist_m": 88.13
+        },
+        {
+          "name": "Coastal Getaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "357-Santa Fe @ Atlantic",
+          "dist_m": 88.13
+        },
+        {
+          "name": "Vietnam Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Starr @ Chaparral",
+          "dist_m": 25.27
+        },
+        {
+          "name": "Cole Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "408-Santa Fe @ Clifford",
+          "dist_m": 330.11
+        },
+        {
+          "name": "Yardarm Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "820-Robert @ Ocean Dr",
+          "dist_m": 87.63
+        },
+        {
+          "name": "U & I Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "1890-Water @ Born",
+          "dist_m": 88.55
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Corpus Christi to Beaumont",
+      "transportation": "-",
+      "accommodation": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "breakfast": "Beaumont",
+      "attractions": [
+        "The Chambers House"
+      ],
+      "lunch": "Twin Peaks Beaumont",
+      "dinner": "Chartier",
+      "poi_blocks": [
+        {
+          "name": "Coastal Getaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "357-Santa Fe @ Atlantic",
+          "dist_m": 88.13
+        },
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8425970.33
+        },
+        {
+          "name": "The Chambers House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2180100.52
+        },
+        {
+          "name": "Twin Peaks Beaumont",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2178537.05
+        },
+        {
+          "name": "Chartier",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "San Bernardino Transit Center",
+          "dist_m": 2161104.33
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "-",
+      "accommodation": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "breakfast": "Beaumont Kitchen",
+      "attractions": [
+        "Texas Energy Museum"
+      ],
+      "lunch": "The Beaumont",
+      "dinner": "Beaumont House",
+      "poi_blocks": [
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont Kitchen",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 3378494.45
+        },
+        {
+          "name": "Texas Energy Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2182300.13
+        },
+        {
+          "name": "The Beaumont",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "San Bernardino Transit Center",
+          "dist_m": 12048016.75
+        },
+        {
+          "name": "Beaumont House",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8258591.29
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Beaumont to Victoria",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "Beaumont Restaurant",
+      "attractions": [
+        "Gator Country"
+      ],
+      "lunch": "Beaumont Inn",
+      "dinner": "Beaumont Arms",
+      "poi_blocks": [
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8693981.9
+        },
+        {
+          "name": "Gator Country",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2171070.69
+        },
+        {
+          "name": "Beaumont Inn",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 3660394.21
+        },
+        {
+          "name": "Beaumont Arms",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8474928.87
+        }
+      ]
+    }
+  ]
+}

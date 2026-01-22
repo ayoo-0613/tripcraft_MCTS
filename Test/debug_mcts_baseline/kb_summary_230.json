@@ -1,0 +1,121 @@
+{
+  "idx": 230,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "Corpus Christi",
+      "counts": {
+        "attractions": 17,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 0
+      }
+    },
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Victoria",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0457503, from Victoria to Houston, Departure Time: 19:08, Arrival Time: 19:53"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Victoria",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $10.24"
+    },
+    {
+      "mode": "taxi",
+      "from": "Victoria",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Victoria to Houston, Duration: 155.42833333333334 mins, Distance: 204.70620000000002 km, Estimated Cost: $204.71"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0000035, from Houston to Corpus Christi, Departure Time: 18:25, Arrival Time: 19:25"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": null,
+      "raw": "Self-driving, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $16.89"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Corpus Christi",
+      "date": null,
+      "raw": "Taxi, from Houston to Corpus Christi, Duration: 246.82999999999998 mins, Distance: 337.7621 km, Estimated Cost: $337.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Corpus Christi",
+      "to": "Beaumont",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Corpus Christi",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Self-driving, from Corpus Christi to Beaumont, Duration: 352.89666666666665 mins, Distance: 477.99859999999995 km, Estimated Cost: $23.90"
+    },
+    {
+      "mode": "taxi",
+      "from": "Corpus Christi",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Taxi, from Corpus Christi to Beaumont, Duration: 352.89666666666665 mins, Distance: 477.99859999999995 km, Estimated Cost: $478.00"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "Victoria",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "Victoria",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to Victoria, Duration: 247.18166666666667 mins, Distance: 340.3243 km, Estimated Cost: $17.02"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "Victoria",
+      "date": null,
+      "raw": "Taxi, from Beaumont to Victoria, Duration: 247.18166666666667 mins, Distance: 340.3243 km, Estimated Cost: $340.32"
+    }
+  ]
+}

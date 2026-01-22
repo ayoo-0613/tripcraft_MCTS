@@ -1,0 +1,121 @@
+{
+  "idx": 186,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 9
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Houston, Duration: 1158.855 mins, Distance: 1703.3657 km, Estimated Cost: $85.17"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Houston, Duration: 1158.855 mins, Distance: 1703.3657 km, Estimated Cost: $1703.37"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Cedar Rapids",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Cedar Rapids, Duration: 972.2316666666667 mins, Distance: 1441.2298999999998 km, Estimated Cost: $72.06"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Cedar Rapids, Duration: 972.2316666666667 mins, Distance: 1441.2298999999998 km, Estimated Cost: $1441.23"
+    }
+  ]
+}

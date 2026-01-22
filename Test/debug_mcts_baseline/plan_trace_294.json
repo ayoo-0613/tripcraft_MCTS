@@ -1,0 +1,1465 @@
+{
+  "idx": 294,
+  "reward": -7473.12585607293,
+  "budget_used": 7639.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0109061, from Cleveland to Houston, Departure Time: 12:58, Arrival Time: 14:59",
+      "candidates": [
+        "Flight Number: F0109061, from Cleveland to Houston, Departure Time: 12:58, Arrival Time: 14:59",
+        "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Houston Restaurant",
+      "candidates": [
+        "Houston Restaurant",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Taste of Texas",
+        "Hugo's",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Merrill & Houston's Steak Joint",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Houston's",
+      "candidates": [
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Taste of Texas",
+        "Hugo's",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Merrill & Houston's Steak Joint",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Discovery Green",
+      "candidates": [
+        "Discovery Green",
+        "Hermann Park",
+        "Houston Zoo",
+        "Downtown Aquarium",
+        "Holocaust Museum Houston",
+        "Buffalo Bayou Park",
+        "The Menil Collection",
+        "NRG Stadium",
+        "Children's Museum Houston",
+        "Cockrell Butterfly Center",
+        "The Galleria",
+        "Space Center Houston",
+        "Minute Maid Park",
+        "Houston Museum District",
+        "National Museum of Funeral History",
+        "Bayou Bend Collection and Gardens",
+        "Gerald D. Hines Waterwall Park",
+        "The Houston Museum of Natural Science",
+        "Museum of Fine Arts, Houston",
+        "Rodeo Houston or Houston Livestock Show and Rodeo"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Taste of Texas",
+      "candidates": [
+        "Taste of Texas",
+        "Hugo's",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Merrill & Houston's Steak Joint",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "Market on Houston",
+        "Houston White Co",
+        "Goode Company Seafood",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Uchi Houston",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappadeaux Seafood Kitchen",
+        "Pappas Bros. Steakhouse",
+        "The Original Ninfa's",
+        "Merrill & Houston's Steak Joint",
+        "Phoenicia Specialty Foods",
+        "Eddie V's Prime Seafood",
+        "Houstons Bar and Grill",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+      "candidates": [
+        "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+        "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cadillac Ranch Casita",
+      "candidates": [
+        "Cadillac Ranch Casita",
+        "Side Street Private Guesthouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Metropolitan",
+      "candidates": [
+        "Metropolitan",
+        "Drunken Oyster",
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Cracker Barrel",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Jorge's Mexican Restaurant",
+        "Green Chile Willy's Grill",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Toscana Italian Steakhouse",
+        "Lone Star Bar & Grill",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "The Lost Cajun- Amarillo",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "575° Pizzeria - Hillside",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Eddie's Napoli's Italian Restaurant",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Hoffbrau Steak & Grill House",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Drunken Oyster",
+      "candidates": [
+        "Drunken Oyster",
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Cracker Barrel",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Jorge's Mexican Restaurant",
+        "Green Chile Willy's Grill",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Toscana Italian Steakhouse",
+        "Lone Star Bar & Grill",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "The Lost Cajun- Amarillo",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "575° Pizzeria - Hillside",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Eddie's Napoli's Italian Restaurant",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Hoffbrau Steak & Grill House",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cadillac Ranch Casita",
+      "candidates": [
+        "Cadillac Ranch Casita",
+        "Side Street Private Guesthouse"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Crush",
+      "candidates": [
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Cracker Barrel",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Jorge's Mexican Restaurant",
+        "Green Chile Willy's Grill",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Toscana Italian Steakhouse",
+        "Lone Star Bar & Grill",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "The Lost Cajun- Amarillo",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "575° Pizzeria - Hillside",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Eddie's Napoli's Italian Restaurant",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Hoffbrau Steak & Grill House",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cadillac Ranch",
+      "candidates": [
+        "Cadillac Ranch",
+        "Harrington House",
+        "Helium Monument",
+        "The RV Museum",
+        "Slug Bug Ranch",
+        "Amarillo Zoo",
+        "Bill's Backyard Classics",
+        "Wonderland Amusement Park",
+        "Don Harrington Discovery Center",
+        "Route 66 Historic District",
+        "I am Rt 66 Visitor Center",
+        "6th Street Massacre Haunted House",
+        "Amarillo Little Theatre, Inc.",
+        "Amarillo Botanical Gardens",
+        "Texas Air & Space Museum",
+        "Amarillo Museum of Art",
+        "Cowgirls and Cowboys in the West",
+        "American Quarter Horse Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pacific Rim",
+      "candidates": [
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Cracker Barrel",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Jorge's Mexican Restaurant",
+        "Green Chile Willy's Grill",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Toscana Italian Steakhouse",
+        "Lone Star Bar & Grill",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "The Lost Cajun- Amarillo",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "575° Pizzeria - Hillside",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Eddie's Napoli's Italian Restaurant",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Hoffbrau Steak & Grill House",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Plaza Restaurant",
+      "candidates": [
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Cracker Barrel",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Jorge's Mexican Restaurant",
+        "Green Chile Willy's Grill",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Toscana Italian Steakhouse",
+        "Lone Star Bar & Grill",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "The Lost Cajun- Amarillo",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "575° Pizzeria - Hillside",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Eddie's Napoli's Italian Restaurant",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Hoffbrau Steak & Grill House",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Amarillo to Beaumont, Duration: 714.0183333333333 mins, Distance: 1023.0063 km, Estimated Cost: $1023.01"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "candidates": [
+        "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+        "Pool Cottage in Historic Old Town Beaumont"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont",
+      "candidates": [
+        "Beaumont",
+        "Chartier",
+        "Twin Peaks Beaumont",
+        "Beaumont Kitchen",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Chambers House",
+      "candidates": [
+        "The Chambers House",
+        "Gator Country",
+        "Texas Energy Museum",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Beaumont Children's Museum",
+        "Fire Museum of Texas",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Chartier",
+      "candidates": [
+        "Chartier",
+        "Twin Peaks Beaumont",
+        "Beaumont Kitchen",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Twin Peaks Beaumont",
+      "candidates": [
+        "Twin Peaks Beaumont",
+        "Beaumont Kitchen",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "candidates": [
+        "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+        "Pool Cottage in Historic Old Town Beaumont"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Beaumont Kitchen",
+      "candidates": [
+        "Beaumont Kitchen",
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gator Country",
+      "candidates": [
+        "Gator Country",
+        "Texas Energy Museum",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Beaumont Children's Museum",
+        "Fire Museum of Texas",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Beaumont House",
+      "candidates": [
+        "Beaumont House",
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Beaumont Restaurant",
+      "candidates": [
+        "Beaumont Restaurant",
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Beaumont to Cleveland, Duration: 1410.2933333333335 mins, Distance: 2045.0748999999998 km, Estimated Cost: $2045.07"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Beaumont",
+      "candidates": [
+        "The Beaumont",
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Texas Energy Museum",
+      "candidates": [
+        "Texas Energy Museum",
+        "Y Ravine Cemetery",
+        "Beaumont Botanical Gardens",
+        "Beaumont Children's Museum",
+        "Fire Museum of Texas",
+        "John Jay French House Museum",
+        "McFaddin-Ward House Museum",
+        "Spindletop - Gladys City Boomtown Museum"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Beaumont Inn",
+      "candidates": [
+        "Beaumont Inn",
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Beaumont Arms",
+      "candidates": [
+        "Beaumont Arms",
+        "Beaumont Arms",
+        "Wild Wing Beaumont",
+        "Beaumont's",
+        "Saigon Delights",
+        "Floyds Seafood",
+        "Beaumont Fish Bar",
+        "Katharine & Company",
+        "Beaumont Hotel Cafe And Restaurant",
+        "J Wilson's",
+        "Beaumont Inn Dining Room",
+        "Pappadeaux Seafood Kitchen",
+        "Cheffins at the Beaumont Inn",
+        "Tia Juanita's",
+        "Beaumont’s Deli",
+        "Frankie's Italian Grill",
+        "Beaumonts Cafe & Bar",
+        "Beaumont Bar and Grill",
+        "Maina's Donair",
+        "Le P'tit Beaumont",
+        "Jason's Deli",
+        "The Beaumont Hexham, Restaurant",
+        "Rao's Bakery and Coffee Cafe",
+        "Rao's Bakery & Coffee Cafe",
+        "Cracker Barrel Old Country Store",
+        "Carrabba's Italian Grill",
+        "Cheddar's Scratch Kitchen"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Cleveland to Houston",
+      "transportation": "Flight Number: F0109061, from Cleveland to Houston, Departure Time: 12:58, Arrival Time: 14:59",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Houston Restaurant",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "15:29",
+          "end": "16:29",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Houston Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Conroe Park & Ride",
+          "dist_m": 2530051.98
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "Houston's",
+      "attractions": [
+        "Discovery Green"
+      ],
+      "lunch": "Taste of Texas",
+      "dinner": "Hugo's",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Houston's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Kirby Dr @ Westpark Dr",
+          "dist_m": 23.24
+        },
+        {
+          "name": "Discovery Green",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Lamar St @ Austin St",
+          "dist_m": 231.52
+        },
+        {
+          "name": "Taste of Texas",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Katy Freeway @ Town And Country Way",
+          "dist_m": 260.58
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Amarillo",
+      "transportation": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+      "accommodation": "Cadillac Ranch Casita",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Metropolitan",
+      "dinner": "Drunken Oyster",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Metropolitan",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SW 45th Ave & Wesley St (Colonies Church of Christ)",
+          "dist_m": 1638.39
+        },
+        {
+          "name": "Drunken Oyster",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SW 45th Ave & S Coulter St (Walmart)",
+          "dist_m": 107.92
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "-",
+      "accommodation": "Cadillac Ranch Casita",
+      "breakfast": "Crush",
+      "attractions": [
+        "Cadillac Ranch"
+      ],
+      "lunch": "Pacific Rim",
+      "dinner": "The Plaza Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Crush",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SE 7th Ave & S Polk St (Crush)",
+          "dist_m": 29.57
+        },
+        {
+          "name": "Cadillac Ranch",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 4475.02
+        },
+        {
+          "name": "Pacific Rim",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "S Georgia St & Civic Cir",
+          "dist_m": 570.08
+        },
+        {
+          "name": "The Plaza Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westgate Pkwy West of Best Buy",
+          "dist_m": 614.28
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Amarillo to Beaumont",
+      "transportation": "-",
+      "accommodation": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "breakfast": "Beaumont",
+      "attractions": [
+        "The Chambers House"
+      ],
+      "lunch": "Chartier",
+      "dinner": "Twin Peaks Beaumont",
+      "poi_blocks": [
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8425970.33
+        },
+        {
+          "name": "The Chambers House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2180100.52
+        },
+        {
+          "name": "Chartier",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "San Bernardino Transit Center",
+          "dist_m": 2161104.33
+        },
+        {
+          "name": "Twin Peaks Beaumont",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2178537.05
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from Beaumont to Beaumont",
+      "transportation": "-",
+      "accommodation": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+      "breakfast": "Beaumont Kitchen",
+      "attractions": [
+        "Gator Country"
+      ],
+      "lunch": "Beaumont House",
+      "dinner": "Beaumont Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "Beaumont Kitchen",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 3378494.45
+        },
+        {
+          "name": "Gator Country",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2171070.69
+        },
+        {
+          "name": "Beaumont House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8258591.29
+        },
+        {
+          "name": "Beaumont Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8693981.9
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from Beaumont to Cleveland",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "The Beaumont",
+      "attractions": [
+        "Texas Energy Museum"
+      ],
+      "lunch": "Beaumont Inn",
+      "dinner": "Beaumont Arms",
+      "poi_blocks": [
+        {
+          "name": "Beaumont Oasis: Pool, 3 King Beds & Relaxing Vibes",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2174745.53
+        },
+        {
+          "name": "The Beaumont",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "San Bernardino Transit Center",
+          "dist_m": 12048016.75
+        },
+        {
+          "name": "Texas Energy Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 2182300.13
+        },
+        {
+          "name": "Beaumont Inn",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 3660394.21
+        },
+        {
+          "name": "Beaumont Arms",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Casino Morongo",
+          "dist_m": 8474928.87
+        }
+      ]
+    }
+  ]
+}

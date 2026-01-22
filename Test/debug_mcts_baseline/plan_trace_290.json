@@ -1,0 +1,1502 @@
+{
+  "idx": 290,
+  "reward": -220.71102310957048,
+  "budget_used": 3064.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $1513.07",
+      "candidates": [
+        "-",
+        "Taxi, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $1513.07"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Breakfast Klub",
+      "candidates": [
+        "Houston Restaurant",
+        "Taste of Texas",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "The Breakfast Klub",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Holocaust Museum Houston",
+      "candidates": [
+        "Holocaust Museum Houston",
+        "The Menil Collection",
+        "Cockrell Butterfly Center",
+        "Children's Museum Houston",
+        "Houston Museum District",
+        "Space Center Houston",
+        "Bayou Bend Collection and Gardens",
+        "National Museum of Funeral History",
+        "The Houston Museum of Natural Science",
+        "Museum of Fine Arts, Houston"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Houston Restaurant",
+      "candidates": [
+        "Houston Restaurant",
+        "Taste of Texas",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Taste of Texas",
+      "candidates": [
+        "Taste of Texas",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Rustic Traveler | 83 Walkability Score",
+      "candidates": [
+        "The Rustic Traveler | 83 Walkability Score",
+        "#1 Upper Kirby/Med Center/Montrose /Galleria",
+        "A| CLEAN •2 Monitor Desk • 4KTV • PRIVATE Entrance"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Houston's",
+      "candidates": [
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Houston's",
+        "Hugo's",
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Menil Collection",
+      "candidates": [
+        "The Menil Collection",
+        "Cockrell Butterfly Center",
+        "Children's Museum Houston",
+        "Houston Museum District",
+        "Space Center Houston",
+        "Bayou Bend Collection and Gardens",
+        "National Museum of Funeral History",
+        "The Houston Museum of Natural Science",
+        "Museum of Fine Arts, Houston"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Hugo's",
+      "candidates": [
+        "Hugo's",
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Goode Company Seafood",
+      "candidates": [
+        "Goode Company Seafood",
+        "Houston White Co",
+        "Market on Houston",
+        "Goode Company BBQ",
+        "Pappadeaux Seafood Kitchen",
+        "Houston's Restaurant",
+        "Houston's Restaurant",
+        "Brennan's of Houston",
+        "Pappas Bros. Steakhouse",
+        "Uchi Houston",
+        "The Original Ninfa's",
+        "Eddie V's Prime Seafood",
+        "Merrill & Houston's Steak Joint",
+        "Houstons Bar and Grill",
+        "Phoenicia Specialty Foods",
+        "Houston's Restaurant & Pub",
+        "Niko Niko's Greek",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Houston's Trail's End",
+        "Brenner's on the Bayou",
+        "Kenny & Ziggy's New York Deli"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+      "candidates": [
+        "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+        "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cadillac Ranch Casita",
+      "candidates": [
+        "Cadillac Ranch Casita",
+        "Side Street Private Guesthouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Drunken Oyster",
+      "candidates": [
+        "Drunken Oyster",
+        "Metropolitan",
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Jorge's Mexican Restaurant",
+        "Cracker Barrel",
+        "Green Chile Willy's Grill",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Lone Star Bar & Grill",
+        "Toscana Italian Steakhouse",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "The Lost Cajun- Amarillo",
+        "575° Pizzeria - Hillside",
+        "Eddie's Napoli's Italian Restaurant",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Hoffbrau Steak & Grill House",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Metropolitan",
+      "candidates": [
+        "Metropolitan",
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Jorge's Mexican Restaurant",
+        "Cracker Barrel",
+        "Green Chile Willy's Grill",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Lone Star Bar & Grill",
+        "Toscana Italian Steakhouse",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "The Lost Cajun- Amarillo",
+        "575° Pizzeria - Hillside",
+        "Eddie's Napoli's Italian Restaurant",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Hoffbrau Steak & Grill House",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cadillac Ranch Casita",
+      "candidates": [
+        "Cadillac Ranch Casita",
+        "Side Street Private Guesthouse"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Crush",
+      "candidates": [
+        "Crush",
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Jorge's Mexican Restaurant",
+        "Cracker Barrel",
+        "Green Chile Willy's Grill",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Lone Star Bar & Grill",
+        "Toscana Italian Steakhouse",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "The Lost Cajun- Amarillo",
+        "575° Pizzeria - Hillside",
+        "Eddie's Napoli's Italian Restaurant",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Hoffbrau Steak & Grill House",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The RV Museum",
+      "candidates": [
+        "The RV Museum",
+        "Bill's Backyard Classics",
+        "Don Harrington Discovery Center",
+        "I am Rt 66 Visitor Center",
+        "Texas Air & Space Museum",
+        "Amarillo Museum of Art",
+        "American Quarter Horse Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pacific Rim",
+      "candidates": [
+        "Pacific Rim",
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Jorge's Mexican Restaurant",
+        "Cracker Barrel",
+        "Green Chile Willy's Grill",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Lone Star Bar & Grill",
+        "Toscana Italian Steakhouse",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "The Lost Cajun- Amarillo",
+        "575° Pizzeria - Hillside",
+        "Eddie's Napoli's Italian Restaurant",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Hoffbrau Steak & Grill House",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Plaza Restaurant",
+      "candidates": [
+        "The Plaza Restaurant",
+        "Texas Roadhouse",
+        "Coyote Bluff Cafe",
+        "Calico County Restaurant",
+        "El Manantial",
+        "Ohms Cafe & Catering",
+        "It's a Punjabi Affair",
+        "El Tejavan",
+        "Golden Light Cafe & Cantina",
+        "Saltgrass Steak House",
+        "Jorge's Mexican Restaurant",
+        "Cracker Barrel",
+        "Green Chile Willy's Grill",
+        "Big Texan Steak Ranch",
+        "Joe Taco",
+        "Lone Star Bar & Grill",
+        "Toscana Italian Steakhouse",
+        "Six Car Pub & Brewery",
+        "Youngblood's Cafe",
+        "Tyler's Barbeque",
+        "El Bracero Mexican Grill",
+        "Fire Slice Pizzeria",
+        "Abuelo's Mexican Restaurant",
+        "The Lost Cajun- Amarillo",
+        "575° Pizzeria - Hillside",
+        "Eddie's Napoli's Italian Restaurant",
+        "Dyer's Bar-B-Que",
+        "Ye Olde Pancake Station",
+        "Hoffbrau Steak & Grill House",
+        "Ichiban Noodle Bar & Asian Cuisine",
+        "Macaroni Joes"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Amarillo to San Antonio, Duration: 529.9216666666666 mins, Distance: 813.8554 km, Estimated Cost: $813.86"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Studio @ LA LUZ | Standuke (no window)",
+      "candidates": [
+        "Studio @ LA LUZ | Standuke (no window)",
+        "Cozy Private Room near UTSA & LaCantera",
+        "Six Flags/The Rim - Enchanting Modern Studio, King",
+        "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bliss",
+      "candidates": [
+        "Bliss",
+        "Yard House",
+        "Battalion",
+        "Sichuan House",
+        "Colonial Room Restaurant",
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Alamo",
+      "candidates": [
+        "The Alamo",
+        "McNay Art Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Yard House",
+      "candidates": [
+        "Yard House",
+        "Battalion",
+        "Sichuan House",
+        "Colonial Room Restaurant",
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Battalion",
+      "candidates": [
+        "Battalion",
+        "Sichuan House",
+        "Colonial Room Restaurant",
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Studio @ LA LUZ | Standuke (no window)",
+      "candidates": [
+        "Studio @ LA LUZ | Standuke (no window)",
+        "Cozy Private Room near UTSA & LaCantera",
+        "Six Flags/The Rim - Enchanting Modern Studio, King",
+        "Royal Bluebird EnSuite 9 Mins to Riverwalk & Alamo"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sichuan House",
+      "candidates": [
+        "Sichuan House",
+        "Colonial Room Restaurant",
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "McNay Art Museum",
+      "candidates": [
+        "McNay Art Museum"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Colonial Room Restaurant",
+      "candidates": [
+        "Colonial Room Restaurant",
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Domingo Restaurant",
+      "candidates": [
+        "Domingo Restaurant",
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Antonio to Champaign, Duration: 1174.88 mins, Distance: 1768.0925 km, Estimated Cost: $1768.09"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "La Margarita Restaurant",
+      "candidates": [
+        "La Margarita Restaurant",
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Biga on the Banks",
+      "candidates": [
+        "Biga on the Banks",
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "J Prime Steakhouse",
+      "candidates": [
+        "J Prime Steakhouse",
+        "Bubba Gump Shrimp Co.",
+        "Schilo's",
+        "2M Smokehouse & Catering",
+        "1Watson",
+        "Pinkerton's Barbecue",
+        "Saltgrass Steak House",
+        "The Guenther House",
+        "La Fonda on Main",
+        "Iron Cactus Mexican Grill and Margarita Bar",
+        "Nonna Osteria",
+        "Paesano's Riverwalk",
+        "Rosario's ComidaMex & Bar",
+        "El Bucanero",
+        "Big Lou's Pizza",
+        "Bohanan's Prime Steak and Seafood",
+        "Cappy's Restaurant",
+        "Magnolia Pancake Haus",
+        "Dough Pizzeria Napoletana",
+        "Brenner's on the River Walk",
+        "Mi Tierra Cafe y Panaderia",
+        "Pollos Asados Los Nortenos",
+        "Perry's Steakhouse & Grille- San Antonio",
+        "Santa Diabla - Cocina Mexicana",
+        "Boudro's Texas Bistro",
+        "Zocca Cuisine D'Italia",
+        "Chama Gaucha Brazilian Steakhouse - San Antonio"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Champaign to Houston",
+      "transportation": "Taxi, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $1513.07",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "The Breakfast Klub",
+      "attractions": [
+        "Holocaust Museum Houston"
+      ],
+      "lunch": "Houston Restaurant",
+      "dinner": "Taste of Texas",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Breakfast Klub",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Ensemble/Hcc Stn SB",
+          "dist_m": 127.57
+        },
+        {
+          "name": "Holocaust Museum Houston",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Binz St @ San Jacinto St",
+          "dist_m": 202.78
+        },
+        {
+          "name": "Houston Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Conroe Park & Ride",
+          "dist_m": 2530051.98
+        },
+        {
+          "name": "Taste of Texas",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Katy Freeway @ Town And Country Way",
+          "dist_m": 260.58
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "-",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score",
+      "breakfast": "Houston's",
+      "attractions": [
+        "The Menil Collection"
+      ],
+      "lunch": "Hugo's",
+      "dinner": "Goode Company Seafood",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Houston's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Kirby Dr @ Westpark Dr",
+          "dist_m": 23.24
+        },
+        {
+          "name": "The Menil Collection",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Richmond Ave @ Mandell St",
+          "dist_m": 323.27
+        },
+        {
+          "name": "Hugo's",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Westheimer Rd @ Mandell St",
+          "dist_m": 26.11
+        },
+        {
+          "name": "Goode Company Seafood",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westpark Dr @ Wakeforest St",
+          "dist_m": 141.76
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Houston to Amarillo",
+      "transportation": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+      "accommodation": "Cadillac Ranch Casita",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Drunken Oyster",
+      "dinner": "Metropolitan",
+      "poi_blocks": [
+        {
+          "name": "The Rustic Traveler | 83 Walkability Score",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 11th St @ Rutland St",
+          "dist_m": 178.69
+        },
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Drunken Oyster",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SW 45th Ave & S Coulter St (Walmart)",
+          "dist_m": 107.92
+        },
+        {
+          "name": "Metropolitan",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SW 45th Ave & Wesley St (Colonies Church of Christ)",
+          "dist_m": 1638.39
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "-",
+      "accommodation": "Cadillac Ranch Casita",
+      "breakfast": "Crush",
+      "attractions": [
+        "The RV Museum"
+      ],
+      "lunch": "Pacific Rim",
+      "dinner": "The Plaza Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Crush",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SE 7th Ave & S Polk St (Crush)",
+          "dist_m": 29.57
+        },
+        {
+          "name": "The RV Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Canyon Dr & S Western St (Ardvark Automotive)",
+          "dist_m": 10497.54
+        },
+        {
+          "name": "Pacific Rim",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "S Georgia St & Civic Cir",
+          "dist_m": 570.08
+        },
+        {
+          "name": "The Plaza Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Westgate Pkwy West of Best Buy",
+          "dist_m": 614.28
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Amarillo to San Antonio",
+      "transportation": "-",
+      "accommodation": "Studio @ LA LUZ | Standuke (no window)",
+      "breakfast": "Bliss",
+      "attractions": [
+        "The Alamo"
+      ],
+      "lunch": "Yard House",
+      "dinner": "Battalion",
+      "poi_blocks": [
+        {
+          "name": "Cadillac Ranch Casita",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "2810 S Soncy Rd (Applebee's)",
+          "dist_m": 3205.3
+        },
+        {
+          "name": "Studio @ LA LUZ | Standuke (no window)",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Alamo & 3rd Street",
+          "dist_m": 146.98
+        },
+        {
+          "name": "Bliss",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "S. PRESA OPPOSITE SADIE",
+          "dist_m": 41.72
+        },
+        {
+          "name": "The Alamo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "THIRD & AVENUE E",
+          "dist_m": 126.0
+        },
+        {
+          "name": "Yard House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MARKET/ FRONT OF CONVENTION CENTER",
+          "dist_m": 117.25
+        },
+        {
+          "name": "Battalion",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "S ALAMO OPPOSITE REFUGIO & LAVACA",
+          "dist_m": 55.78
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from San Antonio to San Antonio",
+      "transportation": "-",
+      "accommodation": "Studio @ LA LUZ | Standuke (no window)",
+      "breakfast": "Sichuan House",
+      "attractions": [
+        "McNay Art Museum"
+      ],
+      "lunch": "Colonial Room Restaurant",
+      "dinner": "Domingo Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Studio @ LA LUZ | Standuke (no window)",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Alamo & 3rd Street",
+          "dist_m": 146.98
+        },
+        {
+          "name": "Studio @ LA LUZ | Standuke (no window)",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Alamo & 3rd Street",
+          "dist_m": 146.98
+        },
+        {
+          "name": "Sichuan House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "WURZBACH OPP. ENT. DR. TO DILLARD'S",
+          "dist_m": 73.79
+        },
+        {
+          "name": "McNay Art Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "AUSTIN HWY. & N. NEW BRAUNFELS",
+          "dist_m": 263.73
+        },
+        {
+          "name": "Colonial Room Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MARKET & ALAMO - 150 FT. WEST",
+          "dist_m": 219.31
+        },
+        {
+          "name": "Domingo Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "ST. MARY'S & COMMERCE",
+          "dist_m": 28.7
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from San Antonio to Champaign",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "La Margarita Restaurant",
+      "attractions": [],
+      "lunch": "Biga on the Banks",
+      "dinner": "J Prime Steakhouse",
+      "poi_blocks": [
+        {
+          "name": "Studio @ LA LUZ | Standuke (no window)",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Alamo & 3rd Street",
+          "dist_m": 146.98
+        },
+        {
+          "name": "La Margarita Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Dolorosa Between San Saba & Santa Rosa",
+          "dist_m": 66.72
+        },
+        {
+          "name": "Biga on the Banks",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "ST MARYS BET. MARKET & VILLITA",
+          "dist_m": 27.33
+        },
+        {
+          "name": "J Prime Steakhouse",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "WESTBOUND LOOP 1604 ACCESS RD. 645 FT. WEST OF BLANCO",
+          "dist_m": 134.64
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "idx": 58,
+  "stages": [
+    {
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "San Luis Obispo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 2
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Tucson",
+      "to": "Santa Rosa",
+      "date": "2024-11-01",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tucson",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Self-driving, from Tucson to Santa Rosa, Duration: 995.4316666666667 mins, Distance: 1466.1733000000002 km, Estimated Cost: $73.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tucson",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Taxi, from Tucson to Santa Rosa, Duration: 995.4316666666667 mins, Distance: 1466.1733000000002 km, Estimated Cost: $1466.17"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to San Luis Obispo, Duration: 361.8016666666666 mins, Distance: 471.2237 km, Estimated Cost: $23.56"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "San Luis Obispo",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to San Luis Obispo, Duration: 361.8016666666666 mins, Distance: 471.2237 km, Estimated Cost: $471.22"
+    },
+    {
+      "mode": "flight",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": null,
+      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": null,
+      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Tucson, Duration: 762.06 mins, Distance: 1129.7628 km, Estimated Cost: $56.49"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Taxi, from Fresno to Tucson, Duration: 762.06 mins, Distance: 1129.7628 km, Estimated Cost: $1129.76"
+    }
+  ]
+}

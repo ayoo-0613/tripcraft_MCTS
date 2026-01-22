@@ -1,0 +1,1482 @@
+{
+  "idx": 67,
+  "reward": 22.56818324982158,
+  "budget_used": 3860.8,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Nashville to Los Angeles, Not feasible to drive from Nashville to Los Angeles",
+      "candidates": [
+        "Flight Number: F0002115, from Nashville to Los Angeles, Departure Time: 18:15, Arrival Time: 20:35",
+        "Taxi, from Nashville to Los Angeles, Not feasible to drive from Nashville to Los Angeles"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Oceanfront Sunset Serenity in Malibu",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "Perch",
+        "The Lobster",
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Petersen Automotive Museum",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "The Broad",
+        "Citadel Outlets",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Petersen Automotive Museum",
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "California Science Center",
+        "Battleship USS Iowa Museum",
+        "The Getty Center",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "The Lobster",
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Hollywood Sign",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "The Broad",
+        "Citadel Outlets",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "California Science Center",
+        "Battleship USS Iowa Museum",
+        "The Getty Center",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Lobster",
+      "candidates": [
+        "The Lobster",
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Oceanfront Sunset Serenity in Malibu",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Providence",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Grove",
+      "candidates": [
+        "The Grove",
+        "The Broad",
+        "Citadel Outlets",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "California Science Center",
+        "Battleship USS Iowa Museum",
+        "The Getty Center",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Broad",
+      "candidates": [
+        "The Broad",
+        "Citadel Outlets",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Universal Studios Hollywood",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "California Science Center",
+        "Battleship USS Iowa Museum",
+        "The Getty Center",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Spire 73",
+      "candidates": [
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "The Boiling Crab",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Ayara Thai Cuisine",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "The Butcher's Daughter",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Yamashiro Hollywood",
+        "El Compadre",
+        "Republique",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0453959, from Los Angeles to San Diego, Departure Time: 18:55, Arrival Time: 19:46",
+      "candidates": [
+        "Flight Number: F0453959, from Los Angeles to San Diego, Departure Time: 18:55, Arrival Time: 19:46",
+        "Taxi, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $193.22"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Coyote",
+      "candidates": [
+        "Cafe Coyote",
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Born & Raised",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Mister A'S",
+        "Barbusa",
+        "Civico 1845",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "The Fish Market - San Diego",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Lou & Mickey's",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Sunset Cliffs Natural Park",
+        "Old Town San Diego",
+        "Coronado Bridge",
+        "Point Loma",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Torrey Pines State Natural Reserve",
+        "Old Town San Diego State Historic Park"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "World Famous",
+      "candidates": [
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Born & Raised",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Mister A'S",
+        "Barbusa",
+        "Civico 1845",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "The Fish Market - San Diego",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Lou & Mickey's",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Little Italy",
+      "candidates": [
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Sunset Cliffs Natural Park",
+        "Old Town San Diego",
+        "Coronado Bridge",
+        "Point Loma",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Torrey Pines State Natural Reserve",
+        "Old Town San Diego State Historic Park"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Addison Restaurant",
+      "candidates": [
+        "Addison Restaurant",
+        "Morning Glory",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Born & Raised",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Mister A'S",
+        "Barbusa",
+        "Civico 1845",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "Mimmo's",
+        "The Fish Market - San Diego",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Lou & Mickey's",
+        "Trailer Park After Dark",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0060677, from San Diego to San Francisco, Departure Time: 10:20, Arrival Time: 11:55",
+      "candidates": [
+        "Flight Number: F0060677, from San Diego to San Francisco, Departure Time: 10:20, Arrival Time: 11:55",
+        "Taxi, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $806.21"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private cozy room 1",
+      "candidates": [
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Private room with private bathroom with tub",
+        "Stylish Room in The Heart Of San Francisco",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Modern Double Studio with Bay Window",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Eagle Cafe",
+      "candidates": [
+        "Eagle Cafe",
+        "Outerlands",
+        "Capital Restaurant",
+        "Hillstone",
+        "Quince",
+        "Waterbar",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "The Stinking Rose",
+        "Eight Am",
+        "Crab House at Pier 39",
+        "House of Prime Rib",
+        "Fog Harbor Fish House",
+        "Mersea Restaurant & Bar",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Morton's The Steakhouse",
+        "Honey Honey Cafe & Crepery",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Twin Peaks",
+      "candidates": [
+        "Twin Peaks",
+        "Cable Cars",
+        "Oracle Park",
+        "Pier 39",
+        "Cable Car Museum",
+        "Coit Tower",
+        "Lands End",
+        "Ferry Building Marketplace",
+        "Golden Gate Park",
+        "Japanese Tea Garden",
+        "Fisherman's Wharf",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
+        "Palace of Fine Arts Theatre",
+        "Exploratorium",
+        "California Academy of Sciences",
+        "Alcatraz Island",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Outerlands",
+      "candidates": [
+        "Outerlands",
+        "Capital Restaurant",
+        "Hillstone",
+        "Quince",
+        "Waterbar",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "The Stinking Rose",
+        "Eight Am",
+        "Crab House at Pier 39",
+        "House of Prime Rib",
+        "Fog Harbor Fish House",
+        "Mersea Restaurant & Bar",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Morton's The Steakhouse",
+        "Honey Honey Cafe & Crepery",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 6,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private cozy room 1",
+      "candidates": [
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Private room with private bathroom with tub",
+        "Stylish Room in The Heart Of San Francisco",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Modern Double Studio with Bay Window",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Capital Restaurant",
+      "candidates": [
+        "Capital Restaurant",
+        "Hillstone",
+        "Quince",
+        "Waterbar",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "The Stinking Rose",
+        "Eight Am",
+        "Crab House at Pier 39",
+        "House of Prime Rib",
+        "Fog Harbor Fish House",
+        "Mersea Restaurant & Bar",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Morton's The Steakhouse",
+        "Honey Honey Cafe & Crepery",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cable Cars",
+      "candidates": [
+        "Cable Cars",
+        "Oracle Park",
+        "Pier 39",
+        "Cable Car Museum",
+        "Coit Tower",
+        "Lands End",
+        "Ferry Building Marketplace",
+        "Golden Gate Park",
+        "Japanese Tea Garden",
+        "Fisherman's Wharf",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
+        "Palace of Fine Arts Theatre",
+        "Exploratorium",
+        "California Academy of Sciences",
+        "Alcatraz Island",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Hillstone",
+      "candidates": [
+        "Hillstone",
+        "Quince",
+        "Waterbar",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "The Stinking Rose",
+        "Eight Am",
+        "Crab House at Pier 39",
+        "House of Prime Rib",
+        "Fog Harbor Fish House",
+        "Mersea Restaurant & Bar",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Morton's The Steakhouse",
+        "Honey Honey Cafe & Crepery",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Oracle Park",
+      "candidates": [
+        "Oracle Park",
+        "Pier 39",
+        "Cable Car Museum",
+        "Coit Tower",
+        "Lands End",
+        "Ferry Building Marketplace",
+        "Golden Gate Park",
+        "Japanese Tea Garden",
+        "Fisherman's Wharf",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
+        "Palace of Fine Arts Theatre",
+        "Exploratorium",
+        "California Academy of Sciences",
+        "Alcatraz Island",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Quince",
+      "candidates": [
+        "Quince",
+        "Waterbar",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "The Stinking Rose",
+        "Eight Am",
+        "Crab House at Pier 39",
+        "House of Prime Rib",
+        "Fog Harbor Fish House",
+        "Mersea Restaurant & Bar",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Morton's The Steakhouse",
+        "Honey Honey Cafe & Crepery",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 6,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 7,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0541000, from San Francisco to Nashville, Departure Time: 10:35, Arrival Time: 16:45",
+      "candidates": [
+        "Flight Number: F0541000, from San Francisco to Nashville, Departure Time: 10:35, Arrival Time: 16:45",
+        "Taxi, from San Francisco to Nashville, Not feasible to drive from San Francisco to Nashville"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 7,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Nashville to Los Angeles",
+      "transportation": "Taxi, from Nashville to Los Angeles, Not feasible to drive from Nashville to Los Angeles",
+      "accommodation": "Oceanfront Sunset Serenity in Malibu",
+      "breakfast": "Water Grill",
+      "attractions": [
+        "Petersen Automotive Museum",
+        "Hollywood Sign"
+      ],
+      "lunch": "Perch",
+      "dinner": "The Lobster",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        },
+        {
+          "name": "Petersen Automotive Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Wilshire Blvd & Fairfax (Westbound)",
+          "dist_m": 78.51
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        },
+        {
+          "name": "Hollywood Sign",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Beachwood & Westshire",
+          "dist_m": 1574.74
+        },
+        {
+          "name": "The Lobster",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 4397.54
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Oceanfront Sunset Serenity in Malibu",
+      "breakfast": "Providence",
+      "attractions": [
+        "The Grove",
+        "The Broad"
+      ],
+      "lunch": "Bestia",
+      "dinner": "Spire 73",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        },
+        {
+          "name": "The Grove",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "3rd & Ogden (Eastbound)",
+          "dist_m": 143.67
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        },
+        {
+          "name": "The Broad",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 30.42
+        },
+        {
+          "name": "Spire 73",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Figueroa St & 7th St",
+          "dist_m": 109.52
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to San Diego",
+      "transportation": "Flight Number: F0453959, from Los Angeles to San Diego, Departure Time: 18:55, Arrival Time: 19:46",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Oceanfront Sunset Serenity in Malibu",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Park Granada & Parkway Calabasas (Eastbound)",
+          "dist_m": 12606.47
+        },
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "breakfast": "Cafe Coyote",
+      "attractions": [
+        "SeaWorld",
+        "Little Italy"
+      ],
+      "lunch": "World Famous",
+      "dinner": "Addison Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Cafe Coyote",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Juan St & Harney St",
+          "dist_m": 216.77
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:57",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "World Famous",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 120.85
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 155.04
+        },
+        {
+          "name": "Addison Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mira Mesa Bl & Genetic Center Dr",
+          "dist_m": 4339.61
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Diego to San Francisco",
+      "transportation": "Flight Number: F0060677, from San Diego to San Francisco, Departure Time: 10:20, Arrival Time: 11:55",
+      "accommodation": "Private cozy room 1",
+      "breakfast": "-",
+      "attractions": [
+        "Twin Peaks"
+      ],
+      "lunch": "Eagle Cafe",
+      "dinner": "Outerlands",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Private cozy room 1",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 7663.69
+        },
+        {
+          "name": "Eagle Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 2308.55
+        },
+        {
+          "name": "Twin Peaks",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:13",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 3888.9
+        },
+        {
+          "name": "Outerlands",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 8064.84
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Private cozy room 1",
+      "breakfast": "Capital Restaurant",
+      "attractions": [
+        "Cable Cars",
+        "Oracle Park"
+      ],
+      "lunch": "Hillstone",
+      "dinner": "Quince",
+      "poi_blocks": [
+        {
+          "name": "Private cozy room 1",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 7663.69
+        },
+        {
+          "name": "Private cozy room 1",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 7663.69
+        },
+        {
+          "name": "Capital Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 972.3
+        },
+        {
+          "name": "Cable Cars",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 1246.4
+        },
+        {
+          "name": "Hillstone",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 1784.87
+        },
+        {
+          "name": "Oracle Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "4th @ Library (Caltrain)",
+          "dist_m": 474.04
+        },
+        {
+          "name": "Quince",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 994.7
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "current_city": "from San Francisco to Nashville",
+      "transportation": "Flight Number: F0541000, from San Francisco to Nashville, Departure Time: 10:35, Arrival Time: 16:45",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private cozy room 1",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 7663.69
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "idx": 242,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Fort Wayne",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Wayne",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Fort Wayne to Houston, Duration: 1244.6183333333333 mins, Distance: 1810.5575 km, Estimated Cost: $90.53"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Wayne",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Fort Wayne to Houston, Duration: 1244.6183333333333 mins, Distance: 1810.5575 km, Estimated Cost: $1810.56"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $22.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $450.71"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "Fort Wayne",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "Fort Wayne",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to Fort Wayne, Duration: 1213.1033333333332 mins, Distance: 1766.9205 km, Estimated Cost: $88.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "Fort Wayne",
+      "date": null,
+      "raw": "Taxi, from Beaumont to Fort Wayne, Duration: 1213.1033333333332 mins, Distance: 1766.9205 km, Estimated Cost: $1766.92"
+    }
+  ]
+}

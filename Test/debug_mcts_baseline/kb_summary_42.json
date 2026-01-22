@@ -1,0 +1,121 @@
+{
+  "idx": 42,
+  "stages": [
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Detroit",
+      "to": "San Diego",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0318378, from Detroit to San Diego, Departure Time: 20:59, Arrival Time: 22:41"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Detroit",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from Detroit to San Diego, Not feasible to drive from Detroit to San Diego"
+    },
+    {
+      "mode": "taxi",
+      "from": "Detroit",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from Detroit to San Diego, Not feasible to drive from Detroit to San Diego"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "San Francisco",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0037906, from San Diego to San Francisco, Departure Time: 10:12, Arrival Time: 11:48"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $40.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $806.21"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0064363, from San Francisco to Los Angeles, Departure Time: 21:39, Arrival Time: 22:48"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $30.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $613.27"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0296278, from Los Angeles to Detroit, Departure Time: 14:30, Arrival Time: 22:10"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to Detroit, Not feasible to drive from Los Angeles to Detroit"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to Detroit, Not feasible to drive from Los Angeles to Detroit"
+    }
+  ]
+}
