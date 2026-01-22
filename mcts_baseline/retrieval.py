@@ -201,6 +201,9 @@ def topk_accommodations(stage: StageKB, local_constraint: Dict[str, Any], k: int
                 "_pricing": _sort_num(r.get("__pricing"), float("inf")),
             }
         )
+    pool_with_transit = [c for c in pool if c["_dist"] < 99999.0]
+    if pool_with_transit:
+        pool = pool_with_transit
     pool.sort(key=lambda c: (c["_dist"], -c["_rating"], c["_pricing"]))
     out: List[Dict[str, Any]] = []
     for cand in pool[:k]:
@@ -220,6 +223,16 @@ def topk_restaurants(stage: StageKB, meal: str, local_constraint: Dict[str, Any]
     df = stage.restaurants.copy()
     if df.empty or "name" not in df.columns:
         return []
+    cuisine_constraint = local_constraint.get("cuisine")
+    if cuisine_constraint:
+        if isinstance(cuisine_constraint, str):
+            required = {cuisine_constraint}
+        else:
+            required = {str(x) for x in cuisine_constraint}
+        if "cuisines" in df.columns:
+            filtered = df[df["cuisines"].apply(lambda x: any(s in required for s in _normalize_list(x)))]
+            if not filtered.empty:
+                df = filtered
 
     if "rating" in df.columns:
         df["__rating"] = pd.to_numeric(df["rating"], errors="coerce")
@@ -249,6 +262,9 @@ def topk_restaurants(stage: StageKB, meal: str, local_constraint: Dict[str, Any]
                 "_avg_cost": _sort_num(r.get("__avg_cost"), float("inf")),
             }
         )
+    pool_with_transit = [c for c in pool if c["_dist"] < 99999.0]
+    if pool_with_transit:
+        pool = pool_with_transit
     pool.sort(key=lambda c: (c["_dist"], -c["_rating"], c["_avg_cost"]))
     out: List[Dict[str, Any]] = []
     for cand in pool[:k]:
@@ -296,6 +312,9 @@ def topk_attractions(stage: StageKB, local_constraint: Dict[str, Any], k: int) -
                 "_score": _sort_num(r.get("__score"), 0.0),
             }
         )
+    pool_with_transit = [c for c in pool if c["_dist"] < 99999.0]
+    if pool_with_transit:
+        pool = pool_with_transit
     pool.sort(key=lambda c: (c["_dist"], -c["_score"]))
     out: List[Dict[str, Any]] = []
     for cand in pool[:k]:

@@ -346,6 +346,94 @@ def _split_pois(raw: str) -> List[str]:
         return []
     return [seg.strip() for seg in str(raw).split(";") if seg.strip()]
 
+def _time_to_minutes(value: str) -> Optional[int]:
+    if not value:
+        return None
+    text = str(value).strip()
+    if text == "24:00":
+        return 24 * 60
+    parts = text.split(":")
+    if len(parts) != 2:
+        return None
+    try:
+        hours = int(parts[0])
+        minutes = int(parts[1])
+    except ValueError:
+        return None
+    if hours < 0 or hours > 24 or minutes < 0 or minutes > 59:
+        return None
+    return hours * 60 + minutes
+
+
+def _minutes_to_time(value: int) -> str:
+    if value < 0:
+        value = value % (24 * 60)
+    if value >= 24 * 60:
+        value = value % (24 * 60)
+    hours = value // 60
+    minutes = value % 60
+    return f"{hours:02d}:{minutes:02d}"
+
+
+def _add_minutes(time_str: str, delta: int) -> Optional[str]:
+    minutes = _time_to_minutes(time_str)
+    if minutes is None:
+        return None
+    return _minutes_to_time(minutes + delta)
+
+
+def _time_max(a: str, b: str) -> str:
+    a_min = _time_to_minutes(a)
+    b_min = _time_to_minutes(b)
+    if a_min is None:
+        return b
+    if b_min is None:
+        return a
+    return a if a_min >= b_min else b
+
+
+def _time_min(a: str, b: str) -> str:
+    a_min = _time_to_minutes(a)
+    b_min = _time_to_minutes(b)
+    if a_min is None:
+        return b
+    if b_min is None:
+        return a
+    return a if a_min <= b_min else b
+
+
+def _extract_flight_times(raw: str) -> Tuple[Optional[str], Optional[str]]:
+    if not raw:
+        return None, None
+    text = str(raw)
+    dep_match = re.search(r"Departure Time:\s*([0-2]?\d:\d{2})", text)
+    arr_match = re.search(r"Arrival Time:\s*([0-2]?\d:\d{2})", text)
+    dep = dep_match.group(1) if dep_match else None
+    arr = arr_match.group(1) if arr_match else None
+    return dep, arr
+
+
+def _extract_segment_times(segment: str) -> Tuple[Optional[str], Optional[str]]:
+    if not segment:
+        return None, None
+    match = re.search(r"from\s+([0-2]?\d:\d{2})\s+to\s+([0-2]?\d:\d{2})", segment)
+    if not match:
+        return None, None
+    return match.group(1), match.group(2)
+
+
+def _adjust_segment_times(segment: str, start_override: Optional[str] = None, end_override: Optional[str] = None) -> str:
+    if not segment:
+        return segment
+    match = re.search(r"from\s+([0-2]?\d:\d{2})\s+to\s+([0-2]?\d:\d{2})", segment)
+    if not match:
+        return segment
+    start = start_override or match.group(1)
+    end = end_override or match.group(2)
+    def _replace(m: re.Match) -> str:
+        return f"from {start} to {end}"
+    return re.sub(r"from\s+[0-2]?\d:\d{2}\s+to\s+[0-2]?\d:\d{2}", _replace, segment, count=1)
+
 
 def _persona_to_meta(persona: Optional[str]) -> Optional[str]:
     if not persona:
@@ -382,6 +470,25 @@ def build_point_of_interest_list(
     transit_lookup: Callable[[str, str], Tuple[str, float]],
 ) -> str:
     segs: List[str] = []
+    transport = str(day_plan.get("transportation", "") or "")
+    dep_time, arr_time = _extract_flight_times(transport)
+
+    first_start_override = None
+    first_end_override = None
+    day_num = int(day_plan.get("days", 0) or 0)
+    if arr_time and day_num in (1, 3, 5):
+        base_start, base_end = TIME_SLOTS["stay_morning"]
+        arr_min = _time_to_minutes(arr_time)
+        if arr_min is not None and arr_min >= 23 * 60 + 30:
+            first_start_override = "00:00"
+            first_end_override = "00:30"
+        else:
+            shifted = _add_minutes(arr_time, 30)
+            if shifted:
+                first_start_override = _time_max(base_start, shifted)
+                min_end = _add_minutes(first_start_override, 30)
+                first_end_override = _time_max(base_end, min_end or base_end)
+
     prev_pair = _split_name_city(day_plan.get("_prev_accommodation_poi", "-"))
     acc_pair = _split_name_city(day_plan.get("_accommodation_poi", "-"))
     bf_pair = _split_name_city(day_plan.get("breakfast", "-"))
@@ -401,10 +508,16 @@ def build_point_of_interest_list(
 
     if prev_pair:
         prev_name, prev_city = prev_pair
-        segs.append(make_poi_segment(fmt_name(prev_name), prev_name, prev_city, "stay", "stay_morning", transit_lookup))
+        seg = make_poi_segment(fmt_name(prev_name), prev_name, prev_city, "stay", "stay_morning", transit_lookup)
+        if first_start_override:
+            seg = _adjust_segment_times(seg, start_override=first_start_override, end_override=first_end_override)
+        segs.append(seg)
     elif acc_pair:
         acc_name, acc_city = acc_pair
-        segs.append(make_poi_segment(fmt_name(acc_name), acc_name, acc_city, "stay", "stay_morning", transit_lookup))
+        seg = make_poi_segment(fmt_name(acc_name), acc_name, acc_city, "stay", "stay_morning", transit_lookup)
+        if first_start_override:
+            seg = _adjust_segment_times(seg, start_override=first_start_override, end_override=first_end_override)
+        segs.append(seg)
     if bf_pair:
         bf_name, bf_city = bf_pair
         segs.append(make_poi_segment(fmt_name(bf_name), bf_name, bf_city, "visit", "breakfast", transit_lookup))
@@ -423,6 +536,23 @@ def build_point_of_interest_list(
     if acc_pair and not is_last_day:
         acc_name, acc_city = acc_pair
         segs.append(make_poi_segment(fmt_name(acc_name), acc_name, acc_city, "stay", "stay_night", transit_lookup))
+
+    if is_last_day and dep_time and segs:
+        start_time, end_time = _extract_segment_times(segs[-1])
+        dep_minus = _add_minutes(dep_time, -30)
+        if end_time and dep_minus:
+            new_end = _time_min(end_time, dep_minus)
+            start_override = None
+            if start_time:
+                start_min = _time_to_minutes(start_time)
+                end_min = _time_to_minutes(new_end)
+                if start_min is not None and end_min is not None and end_min < start_min:
+                    start_override = new_end
+            segs[-1] = _adjust_segment_times(
+                segs[-1],
+                start_override=start_override,
+                end_override=new_end,
+            )
 
     return _finalize_poi_list(segs)
 
@@ -838,11 +968,15 @@ def _load_sandbox_cache() -> Dict[str, Any]:
         root = tripcraft_db_root()
         rest_df = pd.read_csv(root / "restaurants" / "cleaned_restaurant_details_2024.csv")[
             ["name", "City", "avg_cost"]
-        ].dropna()
-        attr_df = pd.read_csv(root / "attraction" / "cleaned_attractions_final.csv")[["name", "City"]].dropna()
+        ].dropna(subset=["name", "City"])
+        attr_df = pd.read_csv(root / "attraction" / "cleaned_attractions_final.csv")[
+            ["name", "City", "latitude", "longitude", "address", "visit_duration", "subcategories", "website"]
+        ].dropna(
+            subset=["name", "City", "latitude", "longitude", "address", "visit_duration", "subcategories", "website"]
+        )
         acc_df = pd.read_csv(root / "accommodation" / "cleaned_listings_final_v2.csv")[
-            ["name", "City", "pricing", "max_occupancy"]
-        ].dropna()
+            ["name", "City", "pricing", "max_occupancy", "roomType", "house_rules"]
+        ].dropna(subset=["name", "City"])
         poi_df = pd.read_csv(
             root / "public_transit_gtfs" / "all_poi_nearest_stops.csv"
         )[["PoI", "City", "nearest_stop_name", "nearest_stop_distance"]].dropna()
@@ -872,6 +1006,23 @@ def _load_sandbox_cache() -> Dict[str, Any]:
     attr_canon = build_canon_map(attr_df, "name")
     acc_canon = build_canon_map(acc_df, "name")
 
+    attr_categories: Dict[Tuple[str, str], List[str]] = {}
+    for _, row in attr_df.iterrows():
+        name = str(row["name"]).strip()
+        city = str(row["City"]).strip()
+        if not name or not city:
+            continue
+        key = (_normalize_poi_key(name), _normalize_city_key(city))
+        raw = row.get("subcategories")
+        cats: List[str] = []
+        if isinstance(raw, list):
+            cats = [str(x).strip() for x in raw if str(x).strip()]
+        else:
+            parsed = _parse_list_field(str(raw)) if raw is not None else []
+            cats = [str(x).strip() for x in parsed if str(x).strip()]
+        if cats:
+            attr_categories[key] = cats
+
     rest_cost: Dict[Tuple[str, str], float] = {}
     for _, row in rest_df.iterrows():
         name = str(row["name"]).strip()
@@ -885,6 +1036,7 @@ def _load_sandbox_cache() -> Dict[str, Any]:
             continue
 
     acc_cost: Dict[Tuple[str, str], Tuple[float, int]] = {}
+    acc_meta: Dict[Tuple[str, str], Dict[str, str]] = {}
     for _, row in acc_df.iterrows():
         name = str(row["name"]).strip()
         city = str(row["City"]).strip()
@@ -911,6 +1063,10 @@ def _load_sandbox_cache() -> Dict[str, Any]:
             max_occ = 1
         if price_val is not None:
             acc_cost[key] = (price_val, max_occ or 1)
+        room_type = str(row.get("roomType", "") or "").strip()
+        house_rules = str(row.get("house_rules", "") or "").strip()
+        if room_type or house_rules:
+            acc_meta[key] = {"room_type": room_type, "house_rules": house_rules}
 
     transit_map: Dict[Tuple[str, str], Tuple[str, float]] = {}
     for _, row in poi_df.iterrows():
@@ -968,6 +1124,8 @@ def _load_sandbox_cache() -> Dict[str, Any]:
         "flight_price": flight_price,
         "rest_cost": rest_cost,
         "acc_cost": acc_cost,
+        "attr_categories": attr_categories,
+        "acc_meta": acc_meta,
     }
     return _SANDBOX_CACHE
 
@@ -1135,6 +1293,8 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
     max_rest = 60
     max_attr = 40
     max_acc = 30
+    room_constraint = q.local_constraint.get("room type")
+    house_constraint = q.local_constraint.get("house rule")
 
     def _filter_rest(items: List[Restaurant]) -> List[Restaurant]:
         kept: List[Restaurant] = []
@@ -1170,32 +1330,137 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
     def _filter_att(items: List[Attraction]) -> List[Attraction]:
         kept: List[Attraction] = []
         seen: set = set()
+        placeholder = None
         for it in items:
             if it.name == "-":
+                placeholder = it
                 continue
             canon = _sandbox_canonical_name(cache, "attractions", it.name, it.city)
             if not canon:
                 continue
             if not _sandbox_has_transit(cache, canon, it.city):
                 continue
+            key = (_normalize_poi_key(canon), _normalize_city_key(it.city))
+            cats = cache.get("attr_categories", {}).get(key, it.categories)
             key = (canon, it.city)
             if key in seen:
                 continue
-            kept.append(Attraction(name=canon, city=it.city, categories=it.categories, cost=it.cost))
+            kept.append(Attraction(name=canon, city=it.city, categories=cats, cost=it.cost))
             seen.add(key)
             if len(kept) >= max_attr:
                 break
-        if not any(a.name == "-" for a in items):
-            kept.append(Attraction(name="-", city=cand.cities[0] if cand.cities else "-", categories=[], cost=0))
-        else:
-            kept.append(next(a for a in items if a.name == "-"))
+        if placeholder is None:
+            placeholder = Attraction(name="-", city=cand.cities[0] if cand.cities else "-", categories=[], cost=0)
+        kept.append(placeholder)
         return kept
+
+    def _ensure_city_attractions(items: List[Attraction]) -> List[Attraction]:
+        placeholder = next((a for a in items if a.name == "-"), None)
+        real_items = [a for a in items if a.name != "-"]
+        by_city = {c: [] for c in cand.cities}
+        for a in real_items:
+            by_city.setdefault(a.city, []).append(a)
+        seen = {(a.name, a.city) for a in real_items}
+
+        allowed_types = q.local_constraint.get("attraction")
+        if isinstance(allowed_types, str):
+            allowed_types = [allowed_types]
+        allowed_norm = [str(a).strip().lower() for a in (allowed_types or []) if str(a).strip()]
+
+        def _attr_type_ok(categories: Optional[List[str]]) -> bool:
+            if not allowed_norm:
+                return True
+            cats_norm = [str(c).strip().lower() for c in (categories or []) if str(c).strip()]
+            if not cats_norm:
+                return False
+            return bool(set(cats_norm).intersection(allowed_norm))
+
+        for city in cand.cities:
+            if by_city.get(city):
+                continue
+            city_key = _normalize_city_key(city)
+            name_map = cache.get("attractions", {}).get(city_key, {})
+            candidates = []
+            candidates_any = []
+            for name_key, canon in name_map.items():
+                if not _sandbox_has_transit(cache, canon, city):
+                    continue
+                key = (name_key, city_key)
+                cats = cache.get("attr_categories", {}).get(key, [])
+                candidates_any.append((canon, cats))
+                if _attr_type_ok(cats):
+                    candidates.append((canon, cats))
+            if not candidates:
+                candidates = candidates_any
+            candidates.sort(key=lambda x: x[0])
+            for canon, cats in candidates:
+                if (canon, city) in seen:
+                    continue
+                real_items.append(Attraction(name=canon, city=city, categories=cats, cost=0))
+                seen.add((canon, city))
+                break
+
+        if placeholder is None:
+            placeholder = Attraction(name="-", city=cand.cities[0] if cand.cities else "-", categories=[], cost=0)
+        real_items.append(placeholder)
+        return real_items
+
+    def _ensure_attraction_types(items: List[Attraction]) -> List[Attraction]:
+        allowed_types = q.local_constraint.get("attraction")
+        if isinstance(allowed_types, str):
+            allowed_types = [allowed_types]
+        allowed_norm = [str(a).strip().lower() for a in (allowed_types or []) if str(a).strip()]
+        if not allowed_norm:
+            return items
+
+        placeholder = next((a for a in items if a.name == "-"), None)
+        real_items = [a for a in items if a.name != "-"]
+        seen = {(a.name, a.city) for a in real_items}
+
+        present = set()
+        for a in real_items:
+            for cat in (a.categories or []):
+                key = str(cat).strip().lower()
+                if key:
+                    present.add(key)
+
+        missing = [t for t in allowed_norm if t not in present]
+        if not missing:
+            return items
+
+        for target in missing:
+            found = False
+            for city in cand.cities:
+                city_key = _normalize_city_key(city)
+                name_map = cache.get("attractions", {}).get(city_key, {})
+                for name_key, canon in name_map.items():
+                    if not _sandbox_has_transit(cache, canon, city):
+                        continue
+                    key = (name_key, city_key)
+                    cats = cache.get("attr_categories", {}).get(key, [])
+                    if not any(str(c).strip().lower() == target for c in cats):
+                        continue
+                    if (canon, city) in seen:
+                        continue
+                    real_items.append(Attraction(name=canon, city=city, categories=cats, cost=0))
+                    seen.add((canon, city))
+                    found = True
+                    break
+                if found:
+                    break
+
+        if placeholder is None:
+            placeholder = Attraction(name="-", city=cand.cities[0] if cand.cities else "-", categories=[], cost=0)
+        real_items.append(placeholder)
+        return real_items
 
     def _filter_acc(items: List[Accommodation]) -> List[Accommodation]:
         kept: List[Accommodation] = []
         seen: set = set()
+        placeholder = None
         for it in items:
             if it.name == "-":
+                placeholder = it
                 continue
             canon = _sandbox_canonical_name(cache, "accommodations", it.name, it.city)
             if not canon:
@@ -1208,6 +1473,12 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
                 price, max_occ = cache["acc_cost"][key]
                 denom = max(1, int(max_occ))
                 cost = int(float(price) * math.ceil(max(1, q.people_number) / denom))
+            meta = cache.get("acc_meta", {}).get(key)
+            if meta:
+                if not _accommodation_room_ok(meta.get("room_type", ""), room_constraint):
+                    continue
+                if not _accommodation_house_rule_ok(meta.get("house_rules", ""), house_constraint):
+                    continue
             key = (canon, it.city)
             if key in seen:
                 continue
@@ -1215,11 +1486,53 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
             seen.add(key)
             if len(kept) >= max_acc:
                 break
-        if not any(a.name == "-" for a in items):
-            kept.append(Accommodation(name="-", city=cand.cities[0] if cand.cities else "-", cost=0))
-        else:
-            kept.append(next(a for a in items if a.name == "-"))
+        if placeholder is None:
+            placeholder = Accommodation(name="-", city=cand.cities[0] if cand.cities else "-", cost=0)
+        kept.append(placeholder)
         return kept
+
+    def _ensure_city_accommodations(items: List[Accommodation]) -> List[Accommodation]:
+        placeholder = next((a for a in items if a.name == "-"), None)
+        real_items = [a for a in items if a.name != "-"]
+        by_city = {c: [] for c in cand.cities}
+        for a in real_items:
+            by_city.setdefault(a.city, []).append(a)
+        seen = {(a.name, a.city) for a in real_items}
+
+        for city in cand.cities:
+            if by_city.get(city):
+                continue
+            city_key = _normalize_city_key(city)
+            name_map = cache.get("accommodations", {}).get(city_key, {})
+            candidates = []
+            for name_key, canon in name_map.items():
+                if not _sandbox_has_transit(cache, canon, city):
+                    continue
+                key = (name_key, city_key)
+                meta = cache.get("acc_meta", {}).get(key)
+                if meta:
+                    if not _accommodation_room_ok(meta.get("room_type", ""), room_constraint):
+                        continue
+                    if not _accommodation_house_rule_ok(meta.get("house_rules", ""), house_constraint):
+                        continue
+                cost = 0
+                if key in cache.get("acc_cost", {}):
+                    price, max_occ = cache["acc_cost"][key]
+                    denom = max(1, int(max_occ))
+                    cost = int(float(price) * math.ceil(max(1, q.people_number) / denom))
+                candidates.append((cost, canon))
+            candidates.sort(key=lambda x: (x[0], x[1]))
+            for cost, canon in candidates:
+                if (canon, city) in seen:
+                    continue
+                real_items.append(Accommodation(name=canon, city=city, cost=cost))
+                seen.add((canon, city))
+                break
+
+        if placeholder is None:
+            placeholder = Accommodation(name="-", city=cand.cities[0] if cand.cities else "-", cost=0)
+        real_items.append(placeholder)
+        return real_items
 
     def _filter_transport(options: List[TransportOption]) -> List[TransportOption]:
         kept: List[TransportOption] = []
@@ -1277,6 +1590,13 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
         city = cand.cities[-1] if cand.cities else q.dest
         inbound = [TransportOption(mode="Transfer", frm=city, to=q.org, cost=0)]
 
+    accommodations = _filter_acc(cand.accommodations)
+    accommodations = _ensure_city_accommodations(accommodations)
+
+    attractions = _filter_att(cand.attractions)
+    attractions = _ensure_city_attractions(attractions)
+    attractions = _ensure_attraction_types(attractions)
+
     return Candidates(
         cities=cand.cities,
         outbound=outbound,
@@ -1284,8 +1604,8 @@ def filter_candidates_for_sandbox(q: QuerySpec, cand: Candidates) -> Candidates:
         breakfast=_filter_rest(cand.breakfast),
         lunch=_filter_rest(cand.lunch),
         dinner=_filter_rest(cand.dinner),
-        attractions=_filter_att(cand.attractions),
-        accommodations=_filter_acc(cand.accommodations),
+        attractions=attractions,
+        accommodations=accommodations,
     )
 
 
@@ -1336,6 +1656,20 @@ def build_candidates_from_reference_info(q: QuerySpec, reference_info: List[Dict
     house_constraint = q.local_constraint.get("house rule")
     attraction_constraint = q.local_constraint.get("attraction")
 
+    def _parse_accommodation_line(line: str) -> Optional[Tuple[str, str, str, str]]:
+        m = re.search(r"\s+(private_room|shared_room|entire_home)\s+", line)
+        if not m:
+            return None
+        room_type = m.group(1).strip()
+        name = line[:m.start()].strip()
+        rest = line[m.end():].strip()
+        parts = rest.split()
+        if not name:
+            return None
+        pricing = parts[0] if len(parts) > 0 else ""
+        house_rules = " ".join(parts[3:]).strip() if len(parts) > 3 else ""
+        return name, room_type, pricing, house_rules
+
     for item in reference_info:
         desc = str(item.get("Description", "") or "")
         content = item.get("Content", "")
@@ -1372,13 +1706,10 @@ def build_candidates_from_reference_info(q: QuerySpec, reference_info: List[Dict
             if city not in cities:
                 cities.append(city)
             for line in _iter_content_lines(content):
-                m = re.match(r"^(.*?)\s+(private_room|shared_room|entire_home)\s+(\S+)\s+(\S+)\s+(\S+)\s+(.*)$", line)
-                if not m:
+                parsed = _parse_accommodation_line(line)
+                if not parsed:
                     continue
-                name = m.group(1).strip()
-                room_type = m.group(2).strip()
-                pricing = m.group(3).strip()
-                house_rules = m.group(6).strip()
+                name, room_type, pricing, house_rules = parsed
                 if not _accommodation_room_ok(room_type, room_constraint):
                     continue
                 if not _accommodation_house_rule_ok(house_rules, house_constraint):

@@ -11,6 +11,7 @@ _BERT_TRIED = False
 
 _PERSONA_CACHE: Dict[str, Dict[str, Any]] = {}
 _POI_CACHE: Dict[str, Any] = {}
+_TEXT_CACHE: Dict[str, Any] = {}
 
 
 def _get_bert():
@@ -104,9 +105,35 @@ def get_poi_embedding(poi_name: str) -> Optional[Any]:
     return emb
 
 
+def get_text_embedding(text: str) -> Optional[Any]:
+    if not text:
+        return None
+    if text in _TEXT_CACHE:
+        return _TEXT_CACHE[text]
+    tokenizer, model = _get_bert()
+    if tokenizer is None or model is None:
+        return None
+    emb = _get_bert_embedding(text, tokenizer, model)
+    if emb is None:
+        return None
+    _TEXT_CACHE[text] = emb
+    return emb
+
+
 def average_persona_similarity(poi_emb: Any, persona_embeddings: Dict[str, Any]) -> float:
     total = 0.0
     for persona_emb in persona_embeddings.values():
         total += cosine_similarity([persona_emb], [poi_emb])[0][0]
     return total / float(len(persona_embeddings)) if persona_embeddings else 0.0
 
+
+def text_similarity(text_a: str, text_b: str) -> Optional[float]:
+    if not text_a or not text_b:
+        return None
+    emb_a = get_text_embedding(text_a)
+    if emb_a is None:
+        return None
+    emb_b = get_text_embedding(text_b)
+    if emb_b is None:
+        return None
+    return cosine_similarity([emb_a], [emb_b])[0][0]
