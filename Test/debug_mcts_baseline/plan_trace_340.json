@@ -1,0 +1,632 @@
+{
+  "idx": 340,
+  "reward": 16.405644094964927,
+  "budget_used": 797.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle",
+      "candidates": [
+        "Flight Number: F0244191, from Tucson to Seattle, Departure Time: 18:52, Arrival Time: 22:11",
+        "Taxi, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy room near UW",
+      "candidates": [
+        "Cozy room near UW",
+        "Private Room in Townhome near Capitol Hill",
+        "Cascade Room @ Judkins Park Inn - Next to Downtown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lola",
+      "candidates": [
+        "Lola",
+        "Metropolitan Grill",
+        "13 Coins Restaurant",
+        "The Capital Grille",
+        "Chan Seattle",
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Kerry Park",
+      "candidates": [
+        "Space Needle",
+        "Seattle Aquarium",
+        "Seattle Center",
+        "Discovery Park",
+        "Kerry Park",
+        "Seattle Great Wheel",
+        "Woodland Park Zoo",
+        "Pike Place Market",
+        "Sky View Observatory",
+        "T-Mobile Park",
+        "The Museum of Flight",
+        "Seattle Public Library",
+        "Washington State Ferries",
+        "Chihuly Garden and Glass",
+        "Washington Park Arboretum",
+        "Museum of Pop Culture",
+        "Kubota Garden",
+        "Hiram M. Chittenden Locks",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Metropolitan Grill",
+      "candidates": [
+        "Metropolitan Grill",
+        "13 Coins Restaurant",
+        "The Capital Grille",
+        "Chan Seattle",
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Space Needle",
+      "candidates": [
+        "Space Needle",
+        "Seattle Aquarium",
+        "Seattle Center",
+        "Discovery Park",
+        "Seattle Great Wheel",
+        "Woodland Park Zoo",
+        "Pike Place Market",
+        "Sky View Observatory",
+        "T-Mobile Park",
+        "The Museum of Flight",
+        "Seattle Public Library",
+        "Washington State Ferries",
+        "Chihuly Garden and Glass",
+        "Washington Park Arboretum",
+        "Museum of Pop Culture",
+        "Kubota Garden",
+        "Hiram M. Chittenden Locks",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "13 Coins Restaurant",
+      "candidates": [
+        "13 Coins Restaurant",
+        "The Capital Grille",
+        "Chan Seattle",
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy room near UW",
+      "candidates": [
+        "Cozy room near UW",
+        "Private Room in Townhome near Capitol Hill",
+        "Cascade Room @ Judkins Park Inn - Next to Downtown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Chan Seattle",
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Seattle Aquarium",
+      "candidates": [
+        "Seattle Aquarium",
+        "Seattle Center",
+        "Discovery Park",
+        "Seattle Great Wheel",
+        "Woodland Park Zoo",
+        "Pike Place Market",
+        "Sky View Observatory",
+        "T-Mobile Park",
+        "The Museum of Flight",
+        "Seattle Public Library",
+        "Washington State Ferries",
+        "Chihuly Garden and Glass",
+        "Washington Park Arboretum",
+        "Museum of Pop Culture",
+        "Kubota Garden",
+        "Hiram M. Chittenden Locks",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Chan Seattle",
+      "candidates": [
+        "Chan Seattle",
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Seattle Center",
+      "candidates": [
+        "Seattle Center",
+        "Discovery Park",
+        "Seattle Great Wheel",
+        "Woodland Park Zoo",
+        "Pike Place Market",
+        "Sky View Observatory",
+        "T-Mobile Park",
+        "The Museum of Flight",
+        "Seattle Public Library",
+        "Washington State Ferries",
+        "Chihuly Garden and Glass",
+        "Washington Park Arboretum",
+        "Museum of Pop Culture",
+        "Kubota Garden",
+        "Hiram M. Chittenden Locks",
+        "Klondike Gold Rush National Historical Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Wild Ginger",
+      "candidates": [
+        "Wild Ginger",
+        "Tulio",
+        "Spinasse",
+        "The Pink Door",
+        "Canlis Restaurant",
+        "Bacco Cafe",
+        "Six Seven Restaurant",
+        "Noi Thai Cuisine",
+        "Rocco's",
+        "Purple Cafe and Wine Bar",
+        "Tilikum Place Cafe",
+        "Chinook's",
+        "The Crab Pot Seafood Restaurant",
+        "Vons 1000 Spirits",
+        "Can Can Culinary Cabaret",
+        "All Water Seafood & Oyster Bar",
+        "Il Terrazzo Carmine",
+        "JaK's Grill",
+        "Place Pigalle Restaurant and Bar",
+        "Toulouse Petit Kitchen & Lounge",
+        "Salty's On Alki Beach",
+        "The Walrus and the Carpenter",
+        "The Pike Pub and Brewery",
+        "Duke's Seafood South Lake Union",
+        "El Gaucho Seattle",
+        "Matt's in the Market",
+        "The Butcher's Table",
+        "Dough Zone Dumpling House - Seattle International District",
+        "Barolo Ristorante",
+        "Assaggio Ristorante"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0245478, from Seattle to Tucson, Departure Time: 07:32, Arrival Time: 10:28",
+      "candidates": [
+        "Flight Number: F0245478, from Seattle to Tucson, Departure Time: 07:32, Arrival Time: 10:28",
+        "Taxi, from Seattle to Tucson, Not feasible to drive from Seattle to Tucson"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Tucson to Seattle",
+      "transportation": "Taxi, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle",
+      "accommodation": "Cozy room near UW",
+      "breakfast": "Lola",
+      "attractions": [
+        "Kerry Park",
+        "Space Needle"
+      ],
+      "lunch": "Metropolitan Grill",
+      "dinner": "13 Coins Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        },
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        },
+        {
+          "name": "Lola",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Virginia St & 4th Ave",
+          "dist_m": 26.1
+        },
+        {
+          "name": "Kerry Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "Queen Anne Ave N & W Highland Dr",
+          "dist_m": 240.72
+        },
+        {
+          "name": "Metropolitan Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "2nd Ave & Marion St",
+          "dist_m": 39.95
+        },
+        {
+          "name": "Space Needle",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Seattle Center",
+          "dist_m": 101.77
+        },
+        {
+          "name": "13 Coins Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "King Street Station",
+          "dist_m": 107.4
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "-",
+      "accommodation": "Cozy room near UW",
+      "breakfast": "The Capital Grille",
+      "attractions": [
+        "Seattle Aquarium",
+        "Seattle Center"
+      ],
+      "lunch": "Chan Seattle",
+      "dinner": "Wild Ginger",
+      "poi_blocks": [
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        },
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "4th Ave & University",
+          "dist_m": 41.04
+        },
+        {
+          "name": "Seattle Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:27",
+          "nearest_transit": "2nd Ave & Pike St",
+          "dist_m": 363.98
+        },
+        {
+          "name": "Chan Seattle",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Pine St & 9th Ave",
+          "dist_m": 68.08
+        },
+        {
+          "name": "Seattle Center",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "19:42",
+          "nearest_transit": "Seattle Center",
+          "dist_m": 84.22
+        },
+        {
+          "name": "Wild Ginger",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "3rd Ave & Pike St",
+          "dist_m": 13.86
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Seattle to Tucson",
+      "transportation": "Flight Number: F0245478, from Seattle to Tucson, Departure Time: 07:32, Arrival Time: 10:28",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "06:02",
+          "end": "07:02",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        },
+        {
+          "name": "Cozy room near UW",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "24th Ave E & Boyer Ave E",
+          "dist_m": 117.13
+        }
+      ]
+    }
+  ]
+}

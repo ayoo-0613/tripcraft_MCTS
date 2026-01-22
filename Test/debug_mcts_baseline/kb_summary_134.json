@@ -1,0 +1,121 @@
+{
+  "idx": 134,
+  "stages": [
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 17
+      }
+    },
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
+        "events": 1
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Tallahassee",
+      "to": "San Antonio",
+      "date": "2024-11-01",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Tallahassee",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Tallahassee to San Antonio, Duration: 990.3216666666667 mins, Distance: 1455.3731 km, Estimated Cost: $72.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Tallahassee",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Tallahassee to San Antonio, Duration: 990.3216666666667 mins, Distance: 1455.3731 km, Estimated Cost: $1455.37"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $22.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Beaumont, Duration: 307.07 mins, Distance: 450.70779999999996 km, Estimated Cost: $450.71"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to Houston, Duration: 101.545 mins, Distance: 139.4445 km, Estimated Cost: $6.97"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Beaumont to Houston, Duration: 101.545 mins, Distance: 139.4445 km, Estimated Cost: $139.44"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": null,
+      "raw": "Self-driving, from Houston to Tallahassee, Duration: 784.41 mins, Distance: 1142.634 km, Estimated Cost: $57.13"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Tallahassee",
+      "date": null,
+      "raw": "Taxi, from Houston to Tallahassee, Duration: 784.41 mins, Distance: 1142.634 km, Estimated Cost: $1142.63"
+    }
+  ]
+}

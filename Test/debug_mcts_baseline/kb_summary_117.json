@@ -1,0 +1,121 @@
+{
+  "idx": 117,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 18
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Champaign",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Champaign",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $75.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Champaign",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $1513.07"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "San Antonio",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to San Antonio, Duration: 529.9216666666666 mins, Distance: 813.8554 km, Estimated Cost: $40.69"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Amarillo to San Antonio, Duration: 529.9216666666666 mins, Distance: 813.8554 km, Estimated Cost: $813.86"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Champaign",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Champaign, Duration: 1174.88 mins, Distance: 1768.0925 km, Estimated Cost: $88.40"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Champaign, Duration: 1174.88 mins, Distance: 1768.0925 km, Estimated Cost: $1768.09"
+    }
+  ]
+}
