@@ -27,7 +27,7 @@ run_one() {
   local out="${OUTPUT_DIR}/mcts_baseline_${day}day.jsonl"
 
   echo "==> Generate ${day}-day: ${out}"
-  python -m mcts_baseline.cli \
+  python -m TripCraft.mcts_baseline.cli \
     --input_csv "$csv" \
     --output_jsonl "$out" \
     --rollouts "$ROLL_OUTS" \
