@@ -1,4 +1,5 @@
 #!/bin/bash
+export PYTHONPATH="$(cd \"$(dirname \"$0\")\" && pwd)"
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
