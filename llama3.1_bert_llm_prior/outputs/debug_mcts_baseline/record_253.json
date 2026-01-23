@@ -1,0 +1,65 @@
+{
+  "idx": 253,
+  "JSON": {
+    "org": "Miami",
+    "dest": "San Francisco",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "shared room",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3150.0,
+    "query": "Plan a 3-day trip for 1 person from Miami to San Francisco from November 1st to November 3rd, 2024, with a budget of $3,150. Accommodations should include a shared room.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Miami to San Francisco",
+      "transportation": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco",
+      "breakfast": "Eagle Cafe, San Francisco",
+      "attraction": "Cable Cars, San Francisco",
+      "lunch": "Outerlands, San Francisco",
+      "dinner": "Capital Restaurant, San Francisco",
+      "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Cable Cars, visit from 11:30 to 13:50, nearest transit: Powell @ 22 4th, 1246.40m away; Outerlands, visit from 13:57 to 14:56, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Single Bed in 4-Bed Female Capsule Room, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Waterbar, San Francisco",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Hillstone, San Francisco",
+      "dinner": "Pier Market Seafood Restaurant, San Francisco",
+      "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Waterbar, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Hillstone, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Pier Market Seafood Restaurant, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 2413.84m away; Single Bed in 4-Bed Female Capsule Room, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Francisco to Miami",
+      "transportation": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 06:31 to 07:31, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+    }
+  ]
+}

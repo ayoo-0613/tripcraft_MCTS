@@ -1,0 +1,65 @@
+{
+  "idx": 312,
+  "JSON": {
+    "org": "New York",
+    "dest": "Reno",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": "American",
+      "room type": "private room",
+      "event": null,
+      "attraction": "Nature & Parks",
+      "transportation": null
+    },
+    "budget": 4200.0,
+    "query": "Plan a 3-day trip for 2 people from New York to Reno from November 2nd to November 4th, 2024, with a budget of $4,200. Accommodations should include a private room. The itinerary should feature American cuisine and visits to Nature & Parks attractions.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from New York to Reno",
+      "transportation": "Taxi, from New York to Reno, Not feasible to drive from New York to Reno",
+      "breakfast": "Roxy, Reno",
+      "attraction": "Animal Ark, Reno",
+      "lunch": "Red Bloom, Reno",
+      "dinner": "Oceano, Reno",
+      "accommodation": "Deluxe King @ Grand Sierra Resort., Reno",
+      "event": "-",
+      "point_of_interest_list": "Deluxe King @ Grand Sierra Resort., stay from 08:00 to 09:00, nearest transit: Grand Sierra Resort at Sportsbook, 134.90m away; Roxy, visit from 09:25 to 10:16, nearest transit: North Virginia Street and 5th Street, 167.76m away; Animal Ark, visit from 11:30 to 16:50, nearest transit: Echo Avenue and Mt Bismark Street, 14382.98m away; Red Bloom, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Moana Lane, 122.44m away; Oceano, visit from 19:51 to 21:00, nearest transit: S Virginia Street and Peppermill Lane, 100.57m away; Deluxe King @ Grand Sierra Resort., stay from 22:15 to 08:00, nearest transit: Grand Sierra Resort at Sportsbook, 134.90m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Reno to Reno",
+      "transportation": "Transfer, from Reno to Reno",
+      "breakfast": "The Buffet, Reno",
+      "attraction": "Virginia Lake Park, Reno",
+      "lunch": "Two Chicks Reno, Reno",
+      "dinner": "Wild River Grille, Reno",
+      "accommodation": "Sealy Super Comfy Mattress 4.1 Stars, Reno",
+      "event": "-",
+      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; The Buffet, visit from 09:25 to 10:16, nearest transit: W 4th Street and N Arlington Avenue, 105.18m away; Virginia Lake Park, visit from 11:30 to 16:50, nearest transit: Lakeside Drive and Brinkby Avenue, 38.73m away; Two Chicks Reno, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Thoma Street, 50.95m away; Wild River Grille, visit from 19:51 to 21:00, nearest transit: S Center Street and State Street, 157.23m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 22:15 to 08:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Reno to New York",
+      "transportation": "Flight Number: F0270515, from Reno to New York, Departure Time: 00:00, Arrival Time: 07:47",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 00:00 to 00:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+    }
+  ]
+}

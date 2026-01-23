@@ -1,0 +1,595 @@
+{
+  "idx": 302,
+  "reward": 11.93301846840939,
+  "budget_used": 1684.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0150318, from Alexandria to Atlanta, Departure Time: 15:48, Arrival Time: 18:25",
+      "candidates": [
+        "Flight Number: F0150318, from Alexandria to Atlanta, Departure Time: 15:48, Arrival Time: 18:25"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Urban Oasis in Historic Inman Park",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Urban Oasis in Historic Inman Park",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "New Sky Views HighRise",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Chic, Clean, City Loft Getaway",
+        "Designer Den | Chic Luxury in a Hip Area"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Home Grown",
+      "candidates": [
+        "Home Grown",
+        "Canoe",
+        "Marcel",
+        "The Capital Grille",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hampton Guest House",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Urban Oasis in Historic Inman Park",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "New Sky Views HighRise",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Chic, Clean, City Loft Getaway",
+        "Designer Den | Chic Luxury in a Hip Area"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Canoe",
+      "candidates": [
+        "Canoe",
+        "Marcel",
+        "The Capital Grille",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Piedmont Park",
+      "candidates": [
+        "Piedmont Park",
+        "Georgia Aquarium",
+        "Swan House",
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Centennial Olympic Park",
+        "Center for Puppetry Arts",
+        "Jimmy Carter Presidential Library & Museum",
+        "High Museum of Art",
+        "Atlanta Botanical Garden",
+        "Lenox Square",
+        "State Farm Arena",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Marcel",
+      "candidates": [
+        "Marcel",
+        "The Capital Grille",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0151018, from Atlanta to Alexandria, Departure Time: 19:23, Arrival Time: 19:55",
+      "candidates": [
+        "Flight Number: F0151018, from Atlanta to Alexandria, Departure Time: 19:23, Arrival Time: 19:55"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Steamhouse Lounge",
+      "candidates": [
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Georgia Aquarium",
+      "candidates": [
+        "Georgia Aquarium",
+        "Swan House",
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Centennial Olympic Park",
+        "Center for Puppetry Arts",
+        "Jimmy Carter Presidential Library & Museum",
+        "High Museum of Art",
+        "Atlanta Botanical Garden",
+        "Lenox Square",
+        "State Farm Arena",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Atlanta Breakfast Club",
+      "candidates": [
+        "Atlanta Breakfast Club",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Aria",
+        "Bangkok Station",
+        "Trader Vic's",
+        "By George restaurant and bar",
+        "The Americano Atlanta",
+        "White Oak Kitchen & Cocktails",
+        "Ted's Montana Grill",
+        "The Optimist",
+        "Nikolai's Roof",
+        "Poor Calvin's",
+        "No Mas! Cantina",
+        "Aviva by Kameel",
+        "St. Cecilia",
+        "The Sun Dial Restaurant, Bar & View",
+        "Copeland's of New Orleans Atlanta",
+        "Bone's Restaurant",
+        "Fox Bros. Bar-B-Q",
+        "Buttermilk Kitchen",
+        "Murphy's Restaurant",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Stoney River Steakhouse and Grill",
+        "Ray's in the City",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Alexandria to Atlanta",
+      "transportation": "Flight Number: F0150318, from Alexandria to Atlanta, Departure Time: 15:48, Arrival Time: 18:25",
+      "accommodation": "Urban Oasis in Historic Inman Park",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Home Grown",
+      "poi_blocks": [
+        {
+          "name": "Urban Oasis in Historic Inman Park",
+          "kind": "stay",
+          "start": "18:55",
+          "end": "19:55",
+          "nearest_transit": "IRWIN ST NE @ RANDOLPH ST NE",
+          "dist_m": 653.83
+        },
+        {
+          "name": "Urban Oasis in Historic Inman Park",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "IRWIN ST NE @ RANDOLPH ST NE",
+          "dist_m": 653.83
+        },
+        {
+          "name": "Home Grown",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MEMORIAL DR SE @ GIBSON ST SE",
+          "dist_m": 49.17
+        },
+        {
+          "name": "Urban Oasis in Historic Inman Park",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "IRWIN ST NE @ RANDOLPH ST NE",
+          "dist_m": 653.83
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Hampton Guest House",
+      "breakfast": "Canoe",
+      "attractions": [
+        "Piedmont Park"
+      ],
+      "lunch": "Marcel",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Canoe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "NORTHSIDE PKWY @ RIVER GREEN DR",
+          "dist_m": 738.85
+        },
+        {
+          "name": "Piedmont Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "PIEDMONT AVE NE @ PRADO",
+          "dist_m": 407.1
+        },
+        {
+          "name": "Marcel",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "HOWELL MILL RD NW @ 14TH ST NW",
+          "dist_m": 77.33
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE RD @ E PACES FERRY RD NE",
+          "dist_m": 94.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Alexandria",
+      "transportation": "Flight Number: F0151018, from Atlanta to Alexandria, Departure Time: 19:23, Arrival Time: 19:55",
+      "accommodation": "-",
+      "breakfast": "Steamhouse Lounge",
+      "attractions": [
+        "Georgia Aquarium"
+      ],
+      "lunch": "Atlanta Breakfast Club",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Steamhouse Lounge",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W PEACHTREE ST @ 12TH ST",
+          "dist_m": 93.0
+        },
+        {
+          "name": "Georgia Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 131.37
+        },
+        {
+          "name": "Atlanta Breakfast Club",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 42.63
+        }
+      ]
+    }
+  ]
+}

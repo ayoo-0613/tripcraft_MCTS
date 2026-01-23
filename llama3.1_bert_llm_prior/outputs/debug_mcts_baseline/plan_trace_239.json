@@ -1,0 +1,467 @@
+{
+  "idx": 239,
+  "reward": -4372.893020774697,
+  "budget_used": 3108.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11",
+      "candidates": [
+        "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11",
+        "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Belmont Shore: Casita Granada",
+      "candidates": [
+        "Contemporary studio in central location.",
+        "Belmont Shore: Casita Granada",
+        "Modern Ocean Studio w Balcony/5 min to beach",
+        "Coastal cozy 2 bedroom apt, 1 block from beach",
+        "Walk to Beach + Retro Row, AC, Parking & Laundry",
+        "The Daisy Suite - 1920s Studio w/ Ocean View"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Belmont Shore: Casita Granada",
+      "candidates": [
+        "Contemporary studio in central location.",
+        "Belmont Shore: Casita Granada",
+        "Modern Ocean Studio w Balcony/5 min to beach",
+        "Coastal cozy 2 bedroom apt, 1 block from beach",
+        "Walk to Beach + Retro Row, AC, Parking & Laundry",
+        "The Daisy Suite - 1920s Studio w/ Ocean View"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Yard House",
+      "candidates": [
+        "Yard House",
+        "Long Beach",
+        "Long Beach",
+        "Open Sesame",
+        "Long Beach Cafe",
+        "The Breakfast Bar",
+        "Pier 76 Fish Grill",
+        "Long Beach Seafood Restaurant",
+        "Long Beach Tavern",
+        "Long Beach Hotel",
+        "Beach Byron Bay",
+        "The Lost Roo",
+        "LONG BEACH IMM",
+        "Long Beach Dairy Maid",
+        "Plage Long Beach",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Sunset Beach Bar & Restaurant",
+        "Bubba Gump Shrimp Co.",
+        "Pickled Fish Restaurant",
+        "Long Beach Club Lanzarote",
+        "Gladstone's Long Beach",
+        "Lido Kosher Deli",
+        "Nick's on 2nd",
+        "George's Greek Cafe",
+        "Parkers' Lighthouse",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "Long Beach Market & Deli",
+        "LONG BEACH UDMC",
+        "El Saltillo Long Beach",
+        "L'Opera Ristorante",
+        "La Parolaccia Osteria - Long Beach",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Jongewaard's Bake n Broil"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Long Beach",
+      "candidates": [
+        "Long Beach"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Long Beach",
+      "candidates": [
+        "Long Beach",
+        "Long Beach",
+        "Open Sesame",
+        "Long Beach Cafe",
+        "The Breakfast Bar",
+        "Pier 76 Fish Grill",
+        "Long Beach Seafood Restaurant",
+        "Long Beach Tavern",
+        "Long Beach Hotel",
+        "Beach Byron Bay",
+        "The Lost Roo",
+        "LONG BEACH IMM",
+        "Long Beach Dairy Maid",
+        "Plage Long Beach",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Sunset Beach Bar & Restaurant",
+        "Bubba Gump Shrimp Co.",
+        "Pickled Fish Restaurant",
+        "Long Beach Club Lanzarote",
+        "Gladstone's Long Beach",
+        "Lido Kosher Deli",
+        "Nick's on 2nd",
+        "George's Greek Cafe",
+        "Parkers' Lighthouse",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "Long Beach Market & Deli",
+        "LONG BEACH UDMC",
+        "El Saltillo Long Beach",
+        "L'Opera Ristorante",
+        "La Parolaccia Osteria - Long Beach",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Jongewaard's Bake n Broil"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Open Sesame",
+      "candidates": [
+        "Open Sesame",
+        "Long Beach Cafe",
+        "The Breakfast Bar",
+        "Pier 76 Fish Grill",
+        "Long Beach Seafood Restaurant",
+        "Long Beach Tavern",
+        "Long Beach Hotel",
+        "Beach Byron Bay",
+        "The Lost Roo",
+        "LONG BEACH IMM",
+        "Long Beach Dairy Maid",
+        "Plage Long Beach",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Sunset Beach Bar & Restaurant",
+        "Bubba Gump Shrimp Co.",
+        "Pickled Fish Restaurant",
+        "Long Beach Club Lanzarote",
+        "Gladstone's Long Beach",
+        "Lido Kosher Deli",
+        "Nick's on 2nd",
+        "George's Greek Cafe",
+        "Parkers' Lighthouse",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "Long Beach Market & Deli",
+        "LONG BEACH UDMC",
+        "El Saltillo Long Beach",
+        "L'Opera Ristorante",
+        "La Parolaccia Osteria - Long Beach",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Jongewaard's Bake n Broil"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "candidates": [
+        "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+        "Taxi, from Long Beach to Chicago, Not feasible to drive from Long Beach to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Long Beach Cafe",
+      "candidates": [
+        "Long Beach Cafe",
+        "The Breakfast Bar",
+        "Pier 76 Fish Grill",
+        "Long Beach Seafood Restaurant",
+        "Long Beach Tavern",
+        "Long Beach Hotel",
+        "Beach Byron Bay",
+        "The Lost Roo",
+        "LONG BEACH IMM",
+        "Long Beach Dairy Maid",
+        "Plage Long Beach",
+        "Tropical Temptation  - Adult Only Beach Club",
+        "Sunset Beach Bar & Restaurant",
+        "Bubba Gump Shrimp Co.",
+        "Pickled Fish Restaurant",
+        "Long Beach Club Lanzarote",
+        "Gladstone's Long Beach",
+        "Lido Kosher Deli",
+        "Nick's on 2nd",
+        "George's Greek Cafe",
+        "Parkers' Lighthouse",
+        "555 East American Steakhouse",
+        "King's Fish House Long Beach",
+        "Long Beach Market & Deli",
+        "LONG BEACH UDMC",
+        "El Saltillo Long Beach",
+        "L'Opera Ristorante",
+        "La Parolaccia Osteria - Long Beach",
+        "Dylan's Cottage Bakery & Delicatessen",
+        "Frankies At The Beach and Rye Rugby Club",
+        "Jongewaard's Bake n Broil"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Long Beach",
+      "transportation": "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11",
+      "accommodation": "Belmont Shore: Casita Granada",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "11:41",
+          "end": "12:41",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        },
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        },
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Long Beach to Long Beach",
+      "transportation": "-",
+      "accommodation": "Belmont Shore: Casita Granada",
+      "breakfast": "Yard House",
+      "attractions": [
+        "Long Beach"
+      ],
+      "lunch": "Long Beach",
+      "dinner": "Open Sesame",
+      "poi_blocks": [
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        },
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        },
+        {
+          "name": "Yard House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3979844.7
+        },
+        {
+          "name": "Long Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 4055419.43
+        },
+        {
+          "name": "Long Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 4055419.43
+        },
+        {
+          "name": "Open Sesame",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975088.33
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Long Beach to Chicago",
+      "transportation": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "accommodation": "-",
+      "breakfast": "Long Beach Cafe",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Belmont Shore: Casita Granada",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3975306.53
+        },
+        {
+          "name": "Long Beach Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada Ave",
+          "dist_m": 3924384.1
+        }
+      ]
+    }
+  ]
+}

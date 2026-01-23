@@ -1,0 +1,950 @@
+{
+  "idx": 87,
+  "reward": 23.12743262618477,
+  "budget_used": 4346.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81",
+      "candidates": [
+        "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Newly renovated + Free Full Breakfast - King Bed",
+      "candidates": [
+        "Yacht Your Ordinary Airbnb",
+        "Nuns Room, A single travelers delight!",
+        "Charming Houseboat in Key West",
+        "Poolside Truman Annex 2 Bed | Conch Life Condo",
+        "Stay on the Roxie!",
+        "Dockside 2BD Monte Carlo @ Perry Marina",
+        "Full houseboat with large observation deck",
+        "Newly renovated + Free Full Breakfast - Queen Room",
+        "Newly renovated + Free Full Breakfast - King Bed",
+        "At Mine | Key West Suite steps from Duval Street"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sunset Pier",
+      "candidates": [
+        "Sunset Pier",
+        "Blue Heaven",
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Mallory Square",
+      "candidates": [
+        "Mallory Square",
+        "Southernmost Point",
+        "The Overseas Highway",
+        "Duval Street",
+        "Truman Little White House",
+        "Higgs Beach",
+        "Key West Garden Club",
+        "US 1 Mile Marker 0",
+        "The Ernest Hemingway Home and Museum",
+        "Mel Fisher Maritime Heritage Museum",
+        "Smathers Beach",
+        "Florida Keys Eco-Discovery Center",
+        "Hemingway Rum -Papa's Pilar Distillery",
+        "Key West Butterfly and Nature Conservatory",
+        "U.S. Coast Guard Cutter Ingham Maritime Museum",
+        "Key West Lighthouse and Keeper's Quarters Museum",
+        "Fort Zachary Taylor Historic State Park",
+        "Key West Shipwreck Museum",
+        "Saint Mary Star of the Sea"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Blue Heaven",
+      "candidates": [
+        "Blue Heaven",
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Thirsty Mermaid",
+      "candidates": [
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Yacht Your Ordinary Airbnb",
+      "candidates": [
+        "Yacht Your Ordinary Airbnb",
+        "Nuns Room, A single travelers delight!",
+        "Charming Houseboat in Key West",
+        "Poolside Truman Annex 2 Bed | Conch Life Condo",
+        "Stay on the Roxie!",
+        "Dockside 2BD Monte Carlo @ Perry Marina",
+        "Full houseboat with large observation deck",
+        "Newly renovated + Free Full Breakfast - Queen Room",
+        "Newly renovated + Free Full Breakfast - King Bed",
+        "At Mine | Key West Suite steps from Duval Street"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Seven Fish",
+      "candidates": [
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Southernmost Point",
+      "candidates": [
+        "Southernmost Point",
+        "The Overseas Highway",
+        "Duval Street",
+        "Truman Little White House",
+        "Higgs Beach",
+        "Key West Garden Club",
+        "US 1 Mile Marker 0",
+        "The Ernest Hemingway Home and Museum",
+        "Mel Fisher Maritime Heritage Museum",
+        "Smathers Beach",
+        "Florida Keys Eco-Discovery Center",
+        "Hemingway Rum -Papa's Pilar Distillery",
+        "Key West Butterfly and Nature Conservatory",
+        "U.S. Coast Guard Cutter Ingham Maritime Museum",
+        "Key West Lighthouse and Keeper's Quarters Museum",
+        "Fort Zachary Taylor Historic State Park",
+        "Key West Shipwreck Museum",
+        "Saint Mary Star of the Sea"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Waterfront Brewery",
+      "candidates": [
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Onlywood Grill",
+      "candidates": [
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18",
+      "candidates": [
+        "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Botanical Suite. Newly Built, Upscale, Central",
+      "candidates": [
+        "The Botanical Suite. Newly Built, Upscale, Central",
+        "Private guest suite in a quiet modern farmhouse",
+        "Private In-Law Suite - 1 mile from UF Campus"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ocean Buffet",
+      "candidates": [
+        "Ocean Buffet",
+        "Northwest Grille",
+        "Metro Diner",
+        "The Top",
+        "Blue Gill",
+        "Bonefish Grill",
+        "Paramount Grill",
+        "Bangkok Square",
+        "Peach Valley Cafe",
+        "Prime & Pearl",
+        "Gators Den Sports Grill",
+        "Indian Cuisine",
+        "Amelia's",
+        "Wahoo Seafood Grill",
+        "Shula's",
+        "Bahama Breeze",
+        "Mildred's Big City Food",
+        "Satchel's Pizza",
+        "Embers Wood Grill",
+        "Pomodoro Cafe",
+        "Piesanos Stone Fired Pizza",
+        "Mi Apa Latin Cafe",
+        "Spark at Embers",
+        "The Flying Biscuit Cafe",
+        "Cedar River Seafood of Gainesville",
+        "Harry's Seafood Bar & Grille",
+        "43rd Street Deli & Breakfast House",
+        "Sohao Street Fare cafe",
+        "V Pizza & Sidecar - Gainesville",
+        "Mark's Prime Steakhouse",
+        "Mojo Hogtown Bar-B-Que",
+        "Dragonfly Sushi & Sake Co Incorporated",
+        "Mahzu Sushi & Grill",
+        "Miller's Ale House",
+        "Spurrier's Gridiron Grille"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Depot Park",
+      "candidates": [
+        "Depot Park",
+        "Swamp Head Brewery",
+        "Butterfly Rainforest",
+        "Thomas Center",
+        "Gainsville Raceway",
+        "Jungle Friends Primate Sanctuary",
+        "Ben Hill Griffin Stadium",
+        "Paynes Prairie",
+        "Sweetwater Wetlands Park",
+        "Santa Fe College Teaching Zoo",
+        "University of Florida",
+        "Florida Museum of Natural History",
+        "Carson Springs Wildlife Conservation Foundation",
+        "Stephen C. O'Connell Center",
+        "University of Florida Bat House",
+        "Samuel P. Harn Museum of Art",
+        "Kanapaha Botanical Gardens",
+        "Devil's Millhopper Geological State Park",
+        "Lubee Bat Conservancy"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Northwest Grille",
+      "candidates": [
+        "Northwest Grille",
+        "Metro Diner",
+        "The Top",
+        "Blue Gill",
+        "Bonefish Grill",
+        "Paramount Grill",
+        "Bangkok Square",
+        "Peach Valley Cafe",
+        "Prime & Pearl",
+        "Gators Den Sports Grill",
+        "Indian Cuisine",
+        "Amelia's",
+        "Wahoo Seafood Grill",
+        "Shula's",
+        "Bahama Breeze",
+        "Mildred's Big City Food",
+        "Satchel's Pizza",
+        "Embers Wood Grill",
+        "Pomodoro Cafe",
+        "Piesanos Stone Fired Pizza",
+        "Mi Apa Latin Cafe",
+        "Spark at Embers",
+        "The Flying Biscuit Cafe",
+        "Cedar River Seafood of Gainesville",
+        "Harry's Seafood Bar & Grille",
+        "43rd Street Deli & Breakfast House",
+        "Sohao Street Fare cafe",
+        "V Pizza & Sidecar - Gainesville",
+        "Mark's Prime Steakhouse",
+        "Mojo Hogtown Bar-B-Que",
+        "Dragonfly Sushi & Sake Co Incorporated",
+        "Mahzu Sushi & Grill",
+        "Miller's Ale House",
+        "Spurrier's Gridiron Grille"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Metro Diner",
+      "candidates": [
+        "Metro Diner",
+        "The Top",
+        "Blue Gill",
+        "Bonefish Grill",
+        "Paramount Grill",
+        "Bangkok Square",
+        "Peach Valley Cafe",
+        "Prime & Pearl",
+        "Gators Den Sports Grill",
+        "Indian Cuisine",
+        "Amelia's",
+        "Wahoo Seafood Grill",
+        "Shula's",
+        "Bahama Breeze",
+        "Mildred's Big City Food",
+        "Satchel's Pizza",
+        "Embers Wood Grill",
+        "Pomodoro Cafe",
+        "Piesanos Stone Fired Pizza",
+        "Mi Apa Latin Cafe",
+        "Spark at Embers",
+        "The Flying Biscuit Cafe",
+        "Cedar River Seafood of Gainesville",
+        "Harry's Seafood Bar & Grille",
+        "43rd Street Deli & Breakfast House",
+        "Sohao Street Fare cafe",
+        "V Pizza & Sidecar - Gainesville",
+        "Mark's Prime Steakhouse",
+        "Mojo Hogtown Bar-B-Que",
+        "Dragonfly Sushi & Sake Co Incorporated",
+        "Mahzu Sushi & Grill",
+        "Miller's Ale House",
+        "Spurrier's Gridiron Grille"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private guest suite in a quiet modern farmhouse",
+      "candidates": [
+        "The Botanical Suite. Newly Built, Upscale, Central",
+        "Private guest suite in a quiet modern farmhouse",
+        "Private In-Law Suite - 1 mile from UF Campus"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Top",
+      "candidates": [
+        "The Top",
+        "Blue Gill",
+        "Bonefish Grill",
+        "Paramount Grill",
+        "Bangkok Square",
+        "Peach Valley Cafe",
+        "Prime & Pearl",
+        "Gators Den Sports Grill",
+        "Indian Cuisine",
+        "Amelia's",
+        "Wahoo Seafood Grill",
+        "Shula's",
+        "Bahama Breeze",
+        "Mildred's Big City Food",
+        "Satchel's Pizza",
+        "Embers Wood Grill",
+        "Pomodoro Cafe",
+        "Piesanos Stone Fired Pizza",
+        "Mi Apa Latin Cafe",
+        "Spark at Embers",
+        "The Flying Biscuit Cafe",
+        "Cedar River Seafood of Gainesville",
+        "Harry's Seafood Bar & Grille",
+        "43rd Street Deli & Breakfast House",
+        "Sohao Street Fare cafe",
+        "V Pizza & Sidecar - Gainesville",
+        "Mark's Prime Steakhouse",
+        "Mojo Hogtown Bar-B-Que",
+        "Dragonfly Sushi & Sake Co Incorporated",
+        "Mahzu Sushi & Grill",
+        "Miller's Ale House",
+        "Spurrier's Gridiron Grille"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Swamp Head Brewery",
+      "candidates": [
+        "Swamp Head Brewery",
+        "Butterfly Rainforest",
+        "Thomas Center",
+        "Gainsville Raceway",
+        "Jungle Friends Primate Sanctuary",
+        "Ben Hill Griffin Stadium",
+        "Paynes Prairie",
+        "Sweetwater Wetlands Park",
+        "Santa Fe College Teaching Zoo",
+        "University of Florida",
+        "Florida Museum of Natural History",
+        "Carson Springs Wildlife Conservation Foundation",
+        "Stephen C. O'Connell Center",
+        "University of Florida Bat House",
+        "Samuel P. Harn Museum of Art",
+        "Kanapaha Botanical Gardens",
+        "Devil's Millhopper Geological State Park",
+        "Lubee Bat Conservancy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Gainesville to Greensboro",
+      "candidates": [
+        "Transfer, from Gainesville to Greensboro"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Greensboro to Key West",
+      "transportation": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81",
+      "accommodation": "Newly renovated + Free Full Breakfast - King Bed",
+      "breakfast": "Sunset Pier",
+      "attractions": [
+        "Mallory Square"
+      ],
+      "lunch": "Blue Heaven",
+      "dinner": "Thirsty Mermaid",
+      "poi_blocks": [
+        {
+          "name": "Newly renovated + Free Full Breakfast - King Bed",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "South Roosevelt & Fairfield Inn",
+          "dist_m": 217.5
+        },
+        {
+          "name": "Newly renovated + Free Full Breakfast - King Bed",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "South Roosevelt & Fairfield Inn",
+          "dist_m": 217.5
+        },
+        {
+          "name": "Sunset Pier",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Whitehead & Greene St.",
+          "dist_m": 318.33
+        },
+        {
+          "name": "Mallory Square",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "Whitehead & Greene St.",
+          "dist_m": 235.56
+        },
+        {
+          "name": "Blue Heaven",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Petronia & Whitehead",
+          "dist_m": 73.82
+        },
+        {
+          "name": "Thirsty Mermaid",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Simonton & Southard St.",
+          "dist_m": 200.66
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Key West to Key West",
+      "transportation": "-",
+      "accommodation": "Yacht Your Ordinary Airbnb",
+      "breakfast": "Seven Fish",
+      "attractions": [
+        "Southernmost Point"
+      ],
+      "lunch": "Waterfront Brewery",
+      "dinner": "Onlywood Grill",
+      "poi_blocks": [
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Seven Fish",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Truman & Grinnell",
+          "dist_m": 19.45
+        },
+        {
+          "name": "Southernmost Point",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Whitehead & United",
+          "dist_m": 162.79
+        },
+        {
+          "name": "Waterfront Brewery",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Caroline & William",
+          "dist_m": 119.49
+        },
+        {
+          "name": "Onlywood Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Caroline & William",
+          "dist_m": 28.22
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Key West to Gainesville",
+      "transportation": "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18",
+      "accommodation": "The Botanical Suite. Newly Built, Upscale, Central",
+      "breakfast": "Ocean Buffet",
+      "attractions": [
+        "Depot Park"
+      ],
+      "lunch": "Northwest Grille",
+      "dinner": "Metro Diner",
+      "poi_blocks": [
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "The Botanical Suite. Newly Built, Upscale, Central",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Santa Fe College Charles L. Blount Center",
+          "dist_m": 133.75
+        },
+        {
+          "name": "Ocean Buffet",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Oaks Mall",
+          "dist_m": 139.72
+        },
+        {
+          "name": "Depot Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Rosa Parks RTS Downtown Station",
+          "dist_m": 34.55
+        },
+        {
+          "name": "Northwest Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "NW Grille Seafood",
+          "dist_m": 41.68
+        },
+        {
+          "name": "Metro Diner",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "34th Street Plaza",
+          "dist_m": 38.33
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Gainesville to Gainesville",
+      "transportation": "-",
+      "accommodation": "Private guest suite in a quiet modern farmhouse",
+      "breakfast": "The Top",
+      "attractions": [
+        "Swamp Head Brewery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private guest suite in a quiet modern farmhouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Tires Plus @ NW 13th Street",
+          "dist_m": 179.66
+        },
+        {
+          "name": "Private guest suite in a quiet modern farmhouse",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Tires Plus @ NW 13th Street",
+          "dist_m": 179.66
+        },
+        {
+          "name": "The Top",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Alachua County Office of the State Attorney",
+          "dist_m": 105.38
+        },
+        {
+          "name": "Swamp Head Brewery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Gateway at Gainesville Apartments",
+          "dist_m": 334.13
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Gainesville to Greensboro",
+      "transportation": "Transfer, from Gainesville to Greensboro",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private guest suite in a quiet modern farmhouse",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Tires Plus @ NW 13th Street",
+          "dist_m": 179.66
+        }
+      ]
+    }
+  ]
+}

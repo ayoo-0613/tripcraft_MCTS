@@ -1,0 +1,65 @@
+{
+  "idx": 244,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Wichita",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3900.0,
+    "query": "Plan a 3-day trip for 6 people traveling from Houston to Wichita from November 18th to November 20th, 2024. The budget is $3,900, and accommodations should allow pets.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Wichita",
+      "transportation": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71",
+      "breakfast": "Newport Grill, Wichita",
+      "attraction": "Exploration Place, Wichita",
+      "lunch": "Mediterranean Grill, Wichita",
+      "dinner": "Beacon Restaurant, Wichita",
+      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Newport Grill, visit from 09:25 to 10:16, nearest transit: 2000 Rock NB, 195.32m away; Exploration Place, visit from 11:30 to 15:20, nearest transit: Exploration Place, 91.96m away; Mediterranean Grill, visit from 13:57 to 14:56, nearest transit: Towne East Mall Drive OB, 117.07m away; Beacon Restaurant, visit from 19:51 to 21:00, nearest transit: Washington and Douglas IB, 66.33m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wichita to Wichita",
+      "transportation": "Transfer, from Wichita to Wichita",
+      "breakfast": "Prost, Wichita",
+      "attraction": "Old Town, Wichita",
+      "lunch": "Bella Vita, Wichita",
+      "dinner": "Cafe Bel Ami, Wichita",
+      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Prost, visit from 09:25 to 10:16, nearest transit: Central and Volutsia OB, 49.11m away; Old Town, visit from 11:30 to 14:50, nearest transit: Washington and 2nd St IB, 155.80m away; Bella Vita, visit from 13:57 to 14:56, nearest transit: Douglas and West OB, 111.74m away; Cafe Bel Ami, visit from 19:51 to 21:00, nearest transit: Douglas and Market IB, 141.26m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wichita to Houston",
+      "transportation": "Transfer, from Wichita to Houston",
+      "breakfast": "Little Saigon, Wichita",
+      "attraction": "Music Theatre Wichita, Wichita",
+      "lunch": "The Sweet Spot, Wichita",
+      "dinner": "River City Brewery, Wichita",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Little Saigon, visit from 09:25 to 10:16, nearest transit: Broadway and 9th St IB, 34.07m away; Music Theatre Wichita, visit from 11:30 to 14:50, nearest transit: Douglas and Wichita IB, 145.76m away; The Sweet Spot, visit from 13:57 to 14:56, nearest transit: 8279 W Central OB, 64.66m away; River City Brewery, visit from 19:51 to 21:00, nearest transit: Douglas and Washington OB, 115.44m away."
+    }
+  ]
+}

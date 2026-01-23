@@ -1,0 +1,65 @@
+{
+  "idx": 270,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Madison",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-22",
+      "2024-11-23",
+      "2024-11-24"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 900.0,
+    "query": "Plan a 3-day trip for 1 person from Chicago to Madison from November 22nd to November 24th, 2024, with a budget of $900.",
+    "level": "easy"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Madison",
+      "transportation": "Flight Number: F0234965, from Chicago to Madison, Departure Time: 10:26, Arrival Time: 11:30",
+      "breakfast": "-",
+      "attraction": "Historic District, Madison",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Woodland Studio, Madison",
+      "event": "-",
+      "point_of_interest_list": "Woodland Studio, stay from 08:00 to 09:00, nearest transit: Godfrey Walmart, 456885.61m away; Historic District, visit from 11:30 to 14:13, nearest transit: Highland Park & Ride, 375523.68m away; Woodland Studio, stay from 12:00 to 13:00, nearest transit: Godfrey Walmart, 456885.61m away; Woodland Studio, stay from 22:15 to 08:00, nearest transit: Godfrey Walmart, 456885.61m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Madison to Madison",
+      "transportation": "Transfer, from Madison to Madison",
+      "breakfast": "Madison, Madison",
+      "attraction": "Henry Vilas Zoo, Madison; Madison Food Explorers, Madison",
+      "lunch": "The Madison, Madison",
+      "dinner": "Graze Restaurant, Madison",
+      "accommodation": "Woodland Studio, Madison",
+      "event": "-",
+      "point_of_interest_list": "Woodland Studio, stay from 08:00 to 09:00, nearest transit: Godfrey Walmart, 456885.61m away; Madison, visit from 09:25 to 10:16, nearest transit: Highland Park & Ride, 6739129.93m away; Henry Vilas Zoo, visit from 11:30 to 14:37, nearest transit: Godfrey Walmart, 459640.31m away; The Madison, visit from 13:57 to 14:56, nearest transit: Highland Park & Ride, 1276198.72m away; Madison Food Explorers, visit from 16:30 to 18:42, nearest transit: Godfrey Walmart, 464811.44m away; Graze Restaurant, visit from 19:51 to 21:00, nearest transit: Godfrey Walmart, 461581.57m away; Woodland Studio, stay from 22:15 to 08:00, nearest transit: Godfrey Walmart, 456885.61m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Madison to Chicago",
+      "transportation": "Flight Number: F0232511, from Madison to Chicago, Departure Time: 06:07, Arrival Time: 07:03",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Woodland Studio, stay from 04:37 to 05:37, nearest transit: Godfrey Walmart, 456885.61m away; Woodland Studio, stay from 08:00 to 09:00, nearest transit: Godfrey Walmart, 456885.61m away."
+    }
+  ]
+}

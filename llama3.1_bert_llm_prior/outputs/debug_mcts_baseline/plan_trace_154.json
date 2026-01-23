@@ -1,0 +1,527 @@
+{
+  "idx": 154,
+  "reward": 10.192330093350076,
+  "budget_used": 924.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0460749, from Boise to San Francisco, Departure Time: 16:30, Arrival Time: 17:09",
+      "candidates": [
+        "Flight Number: F0460749, from Boise to San Francisco, Departure Time: 16:30, Arrival Time: 17:09",
+        "Taxi, from Boise to San Francisco, Duration: 712.0466666666667 mins, Distance: 1029.3790999999999 km, Estimated Cost: $1029.38"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Single Studio",
+      "candidates": [
+        "Modern Single Studio",
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Private room with private bathroom with tub",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Stylish Room in The Heart Of San Francisco",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Modern Double Studio with Bay Window",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Eagle Cafe",
+      "candidates": [
+        "Eagle Cafe",
+        "Capital Restaurant",
+        "Outerlands",
+        "Waterbar",
+        "Hillstone",
+        "Quince",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Pier Market Seafood Restaurant",
+        "Tadich Grill",
+        "House of Prime Rib",
+        "Crab House at Pier 39",
+        "Fog Harbor Fish House",
+        "The Stinking Rose",
+        "Z & Y Restaurant",
+        "Mersea Restaurant & Bar",
+        "Hog Island Oyster Co.",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Eight Am",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Honey Honey Cafe & Crepery",
+        "Morton's The Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Trattoria Contadina",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Single Studio",
+      "candidates": [
+        "Modern Single Studio",
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "#1 Private room with private bathroom with tub",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "Stylish Room in The Heart Of San Francisco",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Modern Double Studio with Bay Window",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Capital Restaurant",
+      "candidates": [
+        "Capital Restaurant",
+        "Outerlands",
+        "Waterbar",
+        "Hillstone",
+        "Quince",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Pier Market Seafood Restaurant",
+        "Tadich Grill",
+        "House of Prime Rib",
+        "Crab House at Pier 39",
+        "Fog Harbor Fish House",
+        "The Stinking Rose",
+        "Z & Y Restaurant",
+        "Mersea Restaurant & Bar",
+        "Hog Island Oyster Co.",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Eight Am",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Honey Honey Cafe & Crepery",
+        "Morton's The Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Trattoria Contadina",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Twin Peaks",
+      "candidates": [
+        "Twin Peaks",
+        "Oracle Park",
+        "Cable Cars",
+        "Pier 39",
+        "Cable Car Museum",
+        "Ferry Building Marketplace",
+        "Coit Tower",
+        "Japanese Tea Garden",
+        "Lands End",
+        "Golden Gate Park",
+        "Fisherman's Wharf",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
+        "Palace of Fine Arts Theatre",
+        "Exploratorium",
+        "Alcatraz Island",
+        "California Academy of Sciences",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Outerlands",
+      "candidates": [
+        "Outerlands",
+        "Waterbar",
+        "Hillstone",
+        "Quince",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Pier Market Seafood Restaurant",
+        "Tadich Grill",
+        "House of Prime Rib",
+        "Crab House at Pier 39",
+        "Fog Harbor Fish House",
+        "The Stinking Rose",
+        "Z & Y Restaurant",
+        "Mersea Restaurant & Bar",
+        "Hog Island Oyster Co.",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Eight Am",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Honey Honey Cafe & Crepery",
+        "Morton's The Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Trattoria Contadina",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Oracle Park",
+      "candidates": [
+        "Oracle Park",
+        "Cable Cars",
+        "Pier 39",
+        "Cable Car Museum",
+        "Ferry Building Marketplace",
+        "Coit Tower",
+        "Japanese Tea Garden",
+        "Lands End",
+        "Golden Gate Park",
+        "Fisherman's Wharf",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
+        "Palace of Fine Arts Theatre",
+        "Exploratorium",
+        "Alcatraz Island",
+        "California Academy of Sciences",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Waterbar",
+      "candidates": [
+        "Waterbar",
+        "Hillstone",
+        "Quince",
+        "Blue Mermaid Restaurant",
+        "City View Restaurant",
+        "Pier Market Seafood Restaurant",
+        "Tadich Grill",
+        "House of Prime Rib",
+        "Crab House at Pier 39",
+        "Fog Harbor Fish House",
+        "The Stinking Rose",
+        "Z & Y Restaurant",
+        "Mersea Restaurant & Bar",
+        "Hog Island Oyster Co.",
+        "The Codmother Fish & Chips",
+        "Mo's Grill",
+        "Eight Am",
+        "Original Joe's",
+        "John's Grill",
+        "R&G Lounge",
+        "Scala's Bistro",
+        "Scoma's Restaurant",
+        "Sears Fine Foods",
+        "Honey Honey Cafe & Crepery",
+        "Morton's The Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Trattoria Contadina",
+        "Kokkari Estiatorio",
+        "Akiko's Sushi Bar and Restaurant",
+        "Good Mong Kok Bakery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0451666, from San Francisco to Boise, Departure Time: 08:35, Arrival Time: 11:18",
+      "candidates": [
+        "Flight Number: F0451666, from San Francisco to Boise, Departure Time: 08:35, Arrival Time: 11:18",
+        "Taxi, from San Francisco to Boise, Duration: 712.2783333333333 mins, Distance: 1028.8601999999998 km, Estimated Cost: $1028.86"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boise to San Francisco",
+      "transportation": "Flight Number: F0460749, from Boise to San Francisco, Departure Time: 16:30, Arrival Time: 17:09",
+      "accommodation": "Modern Single Studio",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Eagle Cafe",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "17:39",
+          "end": "18:39",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Eagle Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 2308.55
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Modern Single Studio",
+      "breakfast": "Capital Restaurant",
+      "attractions": [
+        "Twin Peaks",
+        "Oracle Park"
+      ],
+      "lunch": "Outerlands",
+      "dinner": "Waterbar",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Capital Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 972.3
+        },
+        {
+          "name": "Twin Peaks",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 3888.9
+        },
+        {
+          "name": "Outerlands",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 8064.84
+        },
+        {
+          "name": "Oracle Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "4th @ Library (Caltrain)",
+          "dist_m": 474.04
+        },
+        {
+          "name": "Waterbar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 478.55
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Francisco to Boise",
+      "transportation": "Flight Number: F0451666, from San Francisco to Boise, Departure Time: 08:35, Arrival Time: 11:18",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "07:05",
+          "end": "08:05",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        }
+      ]
+    }
+  ]
+}

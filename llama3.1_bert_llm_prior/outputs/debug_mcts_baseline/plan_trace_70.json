@@ -1,0 +1,976 @@
+{
+  "idx": 70,
+  "reward": 10.830417762219879,
+  "budget_used": 2941.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46",
+      "candidates": [
+        "Flight Number: F0453203, from Denver to Cedar Rapids, Departure Time: 09:38, Arrival Time: 12:29",
+        "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casa w/ Private Hot Tub",
+      "candidates": [
+        "Cozy Casa w/ Private Hot Tub",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Uptown B - Private, Modern, Comfortable Stay",
+        "Contemporary Tiny House with a low tech hot tub."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Zeppelins",
+      "candidates": [
+        "Zeppelins",
+        "Lightworks Cafe",
+        "The Map Room",
+        "350 First",
+        "The Breakfast House",
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Brucemore",
+      "candidates": [
+        "Brucemore",
+        "CSPS",
+        "Grant Wood Studio",
+        "Mount Trashmore",
+        "Bever Park",
+        "The History Center",
+        "Paramount theater",
+        "NewBo City Market",
+        "Indian Creek Nature Center",
+        "Czech Village / New Bohemia District",
+        "Veterans Memorial Stadium",
+        "National Czech & Slovak Museum & Library",
+        "African American Museum of Iowa",
+        "Cedar Rapids Public Library",
+        "McGrath Amphitheatre",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Cedar Rapids Museum of Art",
+        "Ushers Ferry Historic Village"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Lightworks Cafe",
+      "candidates": [
+        "Lightworks Cafe",
+        "The Map Room",
+        "350 First",
+        "The Breakfast House",
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Map Room",
+      "candidates": [
+        "The Map Room",
+        "350 First",
+        "The Breakfast House",
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Casa w/ Private Hot Tub",
+      "candidates": [
+        "Cozy Casa w/ Private Hot Tub",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Uptown B - Private, Modern, Comfortable Stay",
+        "Contemporary Tiny House with a low tech hot tub."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "350 First",
+      "candidates": [
+        "350 First",
+        "The Breakfast House",
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "CSPS",
+      "candidates": [
+        "CSPS",
+        "Grant Wood Studio",
+        "Mount Trashmore",
+        "Bever Park",
+        "The History Center",
+        "Paramount theater",
+        "NewBo City Market",
+        "Indian Creek Nature Center",
+        "Czech Village / New Bohemia District",
+        "Veterans Memorial Stadium",
+        "National Czech & Slovak Museum & Library",
+        "African American Museum of Iowa",
+        "Cedar Rapids Public Library",
+        "McGrath Amphitheatre",
+        "Grant Wood Window in Veteran's Memorial Auditorium",
+        "Cedar Rapids Museum of Art",
+        "Ushers Ferry Historic Village"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Breakfast House",
+      "candidates": [
+        "The Breakfast House",
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Blind Pig",
+      "candidates": [
+        "The Blind Pig",
+        "The Class Act Restaurant",
+        "Texas Roadhouse",
+        "Local Pour & Street Food",
+        "Irish Democrat",
+        "Pickle Palace",
+        "Bari Italian",
+        "Ting's Red Lantern",
+        "Granite City Food & Brewery",
+        "Lion Bridge Brewing Company",
+        "Black Sheep Social Club",
+        "Lucky's on 16th",
+        "Scott's Family Restaurant",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Parlor City Pub & Eatery",
+        "Kingston's Steakhouse",
+        "Tomaso's Pizza",
+        "The Edison Pub and Eatery",
+        "Need Pizzeria",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Tornado's Grub and Pub",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Los Compadres",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Biaggi's Ristorante Italiano",
+        "Cappy's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool",
+      "candidates": [
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Subway",
+      "candidates": [
+        "Subway",
+        "Village Inn",
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Community Orchard",
+      "candidates": [
+        "Community Orchard",
+        "Studio Fusion",
+        "Shiny Top Brewing",
+        "Fort Frenzy",
+        "Soldier Creek Winery",
+        "The Fort Museum & Frontier Village",
+        "Blanden Art Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Village Inn",
+      "candidates": [
+        "Village Inn",
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Pizza Hut",
+      "candidates": [
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Fort Dodge to Denver",
+      "candidates": [
+        "Transfer, from Fort Dodge to Denver"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sports Page",
+      "candidates": [
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Studio Fusion",
+      "candidates": [
+        "Studio Fusion",
+        "Shiny Top Brewing",
+        "Fort Frenzy",
+        "Soldier Creek Winery",
+        "The Fort Museum & Frontier Village",
+        "Blanden Art Museum"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Tom Thumb Drive Inn",
+      "candidates": [
+        "Tom Thumb Drive Inn",
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Perkins Restaurant & Bakery",
+      "candidates": [
+        "Perkins Restaurant & Bakery",
+        "Dodge's",
+        "Community Tap and Pizza",
+        "Pizza Ranch of Fort Dodge",
+        "Tropical Smoothie Cafe",
+        "A Pinch Of Love Cafe",
+        "Burger King",
+        "Dariette",
+        "Gaga & Hoo",
+        "Wendy's",
+        "Sneakers Eatry and Pub",
+        "Applebee's",
+        "Culver's",
+        "Rides Bar and Grill",
+        "McDonald's",
+        "Ja-Mar Drive in Restaurant",
+        "Central Perk and Dessert",
+        "Taco Tico",
+        "Willow Ridge Golf Course & Restaurant",
+        "Mineral City Mill and Grill",
+        "Tea Thyme & Thyme to Shop",
+        "Domino's Pizza",
+        "Tres Amigos Mexican Restaurant",
+        "Ninja Sushi Steakhouse",
+        "Olde Boston's Restaurant & Pub",
+        "Lomitas Mexican Restaurant",
+        "Hacienda Vieja",
+        "Pancheros Mexican Grill - Fort Dodge",
+        "Larita's Cakes 'N More",
+        "Dunkin Donuts"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Denver to Cedar Rapids",
+      "transportation": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46",
+      "accommodation": "Cozy Casa w/ Private Hot Tub",
+      "breakfast": "Zeppelins",
+      "attractions": [
+        "Brucemore"
+      ],
+      "lunch": "Lightworks Cafe",
+      "dinner": "The Map Room",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Zeppelins",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "The Fountains",
+          "dist_m": 74.63
+        },
+        {
+          "name": "Brucemore",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "1st Ave at Brucemore",
+          "dist_m": 274.76
+        },
+        {
+          "name": "Lightworks Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "6th St & 6th Ave",
+          "dist_m": 178.56
+        },
+        {
+          "name": "The Map Room",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5th Ave & RR tracks",
+          "dist_m": 111.63
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "Cozy Casa w/ Private Hot Tub",
+      "breakfast": "350 First",
+      "attractions": [
+        "CSPS"
+      ],
+      "lunch": "The Breakfast House",
+      "dinner": "The Blind Pig",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "350 First",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "3rd St & 2nd Ave",
+          "dist_m": 159.53
+        },
+        {
+          "name": "CSPS",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "2nd St & 11th Ave",
+          "dist_m": 75.03
+        },
+        {
+          "name": "The Breakfast House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "812 6th St (Jim's Foods)",
+          "dist_m": 38.5
+        },
+        {
+          "name": "The Blind Pig",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "3335 Center Point Rd (Papa Murph)",
+          "dist_m": 140.18
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Cedar Rapids to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool",
+      "breakfast": "Subway",
+      "attractions": [
+        "Community Orchard"
+      ],
+      "lunch": "Village Inn",
+      "dinner": "Pizza Hut",
+      "poi_blocks": [
+        {
+          "name": "Cozy Casa w/ Private Hot Tub",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Center Point Rd & J Ave",
+          "dist_m": 116.02
+        },
+        {
+          "name": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fort Frenzy",
+          "dist_m": 28632.14
+        },
+        {
+          "name": "Subway",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 101.37
+        },
+        {
+          "name": "Community Orchard",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Village Green",
+          "dist_m": 3093.21
+        },
+        {
+          "name": "Village Inn",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "N 15th Ave and 20th Ave N",
+          "dist_m": 67.45
+        },
+        {
+          "name": "Pizza Hut",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Crossroads Mall Entrance/Younkers",
+          "dist_m": 198.18
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Twin Lakes Family Escape",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Fort Dodge to Denver",
+      "transportation": "Transfer, from Fort Dodge to Denver",
+      "accommodation": "-",
+      "breakfast": "Sports Page",
+      "attractions": [
+        "Studio Fusion"
+      ],
+      "lunch": "Tom Thumb Drive Inn",
+      "dinner": "Perkins Restaurant & Bakery",
+      "poi_blocks": [
+        {
+          "name": "Twin Lakes Family Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
+        },
+        {
+          "name": "Sports Page",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Evergreen Estates",
+          "dist_m": 68.77
+        },
+        {
+          "name": "Studio Fusion",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 71.87
+        },
+        {
+          "name": "Tom Thumb Drive Inn",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 90.84
+        },
+        {
+          "name": "Perkins Restaurant & Bakery",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5th Ave S and S 31st St",
+          "dist_m": 275.17
+        }
+      ]
+    }
+  ]
+}

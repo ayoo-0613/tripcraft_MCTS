@@ -1,0 +1,595 @@
+{
+  "idx": 286,
+  "reward": 12.677945558016905,
+  "budget_used": 5721.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo",
+      "candidates": [
+        "Flight Number: F0396197, from Dallas to San Luis Obispo, Departure Time: 20:49, Arrival Time: 22:54",
+        "Taxi, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Harris House",
+      "candidates": [
+        "Wilderness Cottage",
+        "Harris House",
+        "The SLO Weekender",
+        "The Corner Nook",
+        "Modern Private Cottage- 1 mile to downtown SLO",
+        "Unique Spacious Room with Balcony",
+        "A SLO Space",
+        "Cozy Studio Close to Downtown SLO",
+        "Mid Century Modern Loft Downtown SLO",
+        "The Downtown House SLO with Private Parking"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Roma",
+      "candidates": [
+        "Cafe Roma",
+        "Flour House",
+        "Sidecar",
+        "Apple Farm Restaurant",
+        "Mistura Restaurant",
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bishop Peak",
+      "candidates": [
+        "Farmers Market",
+        "Wolff Vineyards",
+        "Highway 1 Road Trip",
+        "Reservoir Canyon Trail",
+        "Bishop Peak",
+        "Avila Valley Barn",
+        "Kelsey See Canyon Vineyards",
+        "Chamisal Vineyards",
+        "Edna Valley Vineyard",
+        "Tolosa",
+        "Sunset Drive-In Theatre",
+        "Bubblegum Alley",
+        "El Chorro Regional Park",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "San Luis Obispo botanical garden",
+        "Performing Arts Center San Luis Obispo",
+        "Mission San Luis Obispo de Tolosa"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Flour House",
+      "candidates": [
+        "Flour House",
+        "Sidecar",
+        "Apple Farm Restaurant",
+        "Mistura Restaurant",
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Sidecar",
+      "candidates": [
+        "Sidecar",
+        "Apple Farm Restaurant",
+        "Mistura Restaurant",
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Wilderness Cottage",
+      "candidates": [
+        "Wilderness Cottage",
+        "Harris House",
+        "The SLO Weekender",
+        "The Corner Nook",
+        "Modern Private Cottage- 1 mile to downtown SLO",
+        "Unique Spacious Room with Balcony",
+        "A SLO Space",
+        "Cozy Studio Close to Downtown SLO",
+        "Mid Century Modern Loft Downtown SLO",
+        "The Downtown House SLO with Private Parking"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Apple Farm Restaurant",
+      "candidates": [
+        "Apple Farm Restaurant",
+        "Mistura Restaurant",
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Farmers Market",
+      "candidates": [
+        "Farmers Market",
+        "Wolff Vineyards",
+        "Highway 1 Road Trip",
+        "Reservoir Canyon Trail",
+        "Avila Valley Barn",
+        "Kelsey See Canyon Vineyards",
+        "Chamisal Vineyards",
+        "Edna Valley Vineyard",
+        "Tolosa",
+        "Sunset Drive-In Theatre",
+        "Bubblegum Alley",
+        "El Chorro Regional Park",
+        "California Polytechnic University",
+        "San Luis Obispo Children's Museum",
+        "San Luis Obispo botanical garden",
+        "Performing Arts Center San Luis Obispo",
+        "Mission San Luis Obispo de Tolosa"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mistura Restaurant",
+      "candidates": [
+        "Mistura Restaurant",
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Thai Palace",
+      "candidates": [
+        "Thai Palace",
+        "Luna Red",
+        "Gardens of Avila",
+        "Lure Fish House",
+        "Taste Craft Eatery",
+        "Del Monte Cafe",
+        "My Thai Restaurant",
+        "Cowgirl Cafe",
+        "Madonna Inn Copper Cafe",
+        "Novo Restaurant & Lounge",
+        "Taco King",
+        "Bear & The Wren",
+        "Granada Bistro",
+        "Ox + Anchor",
+        "Eureka!",
+        "Koberl At Blue",
+        "Goshi",
+        "Spirit of San Luis Restaurant",
+        "1865 Craft House and Kitchen",
+        "Louisa's Place Restaurant",
+        "Woodstock's Pizza SLO",
+        "Mama's Meatball",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Nate's On Marsh",
+        "Giuseppe’s Cucina Rustica",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Esquina Taqueria",
+        "La Locanda"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+      "candidates": [
+        "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+        "Taxi, from San Luis Obispo to Dallas, Not feasible to drive from San Luis Obispo to Dallas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to San Luis Obispo",
+      "transportation": "Taxi, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo",
+      "accommodation": "Harris House",
+      "breakfast": "Cafe Roma",
+      "attractions": [
+        "Bishop Peak"
+      ],
+      "lunch": "Flour House",
+      "dinner": "Sidecar",
+      "poi_blocks": [
+        {
+          "name": "Harris House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 520.23
+        },
+        {
+          "name": "Harris House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 520.23
+        },
+        {
+          "name": "Cafe Roma",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 751.61
+        },
+        {
+          "name": "Bishop Peak",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "Santa Rosa & Foothill",
+          "dist_m": 1404.87
+        },
+        {
+          "name": "Flour House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 142.15
+        },
+        {
+          "name": "Sidecar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 54.77
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "Wilderness Cottage",
+      "breakfast": "Apple Farm Restaurant",
+      "attractions": [
+        "Farmers Market"
+      ],
+      "lunch": "Mistura Restaurant",
+      "dinner": "Thai Palace",
+      "poi_blocks": [
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "Apple Farm Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Monterey @ Peach Tree Inn",
+          "dist_m": 45.99
+        },
+        {
+          "name": "Farmers Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 112.91
+        },
+        {
+          "name": "Mistura Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 259.05
+        },
+        {
+          "name": "Thai Palace",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Government Center",
+          "dist_m": 168.21
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Luis Obispo to Dallas",
+      "transportation": "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "04:55",
+          "end": "05:55",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        }
+      ]
+    }
+  ]
+}

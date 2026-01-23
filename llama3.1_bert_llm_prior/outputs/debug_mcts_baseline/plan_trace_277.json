@@ -1,0 +1,650 @@
+{
+  "idx": 277,
+  "reward": -105.04724762631501,
+  "budget_used": 1490.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
+      "candidates": [
+        "Flight Number: F0391184, from Chicago to Lexington, Departure Time: 20:37, Arrival Time: 22:57",
+        "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Downtown Apt - 1 block from Rupp",
+      "candidates": [
+        "Luxurious 1-bedroom with free parking on premise",
+        "New! One Bedroom Apt - Close to Everything",
+        "The FLAT at Bell Place - Downtown/Horse Park",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "Downtown Apt-1 block from Main-Free Parking",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lockbox",
+      "candidates": [
+        "Lockbox",
+        "Double Dogs",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bluegrass Bistro",
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lexington Green",
+      "candidates": [
+        "Lexington Green",
+        "Blue Grass Tours",
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Munroe Tavern",
+        "Kentucky Horse Park",
+        "Buckman Tavern",
+        "Hancock-Clarke House",
+        "Lexington Carriage Company",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Double Dogs",
+      "candidates": [
+        "Double Dogs",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bluegrass Bistro",
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Triangle Grille",
+      "candidates": [
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Bluegrass Bistro",
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxurious 1-bedroom with free parking on premise",
+      "candidates": [
+        "Luxurious 1-bedroom with free parking on premise",
+        "New! One Bedroom Apt - Close to Everything",
+        "The FLAT at Bell Place - Downtown/Horse Park",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "Downtown Apt-1 block from Main-Free Parking",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "OBC Kitchen",
+      "candidates": [
+        "OBC Kitchen",
+        "Bluegrass Bistro",
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Blue Grass Tours",
+      "candidates": [
+        "Blue Grass Tours",
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Munroe Tavern",
+        "Kentucky Horse Park",
+        "Buckman Tavern",
+        "Hancock-Clarke House",
+        "Lexington Carriage Company",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bluegrass Bistro",
+      "candidates": [
+        "Bluegrass Bistro",
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "BRU Burger Bar Lexington",
+      "candidates": [
+        "BRU Burger Bar Lexington",
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Lexington to Chicago",
+      "candidates": [
+        "Transfer, from Lexington to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Rackhouse Tavern",
+      "candidates": [
+        "The Rackhouse Tavern",
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Thoroughbred Park",
+      "candidates": [
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Munroe Tavern",
+        "Kentucky Horse Park",
+        "Buckman Tavern",
+        "Hancock-Clarke House",
+        "Lexington Carriage Company",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Ketch Seafood Grill",
+      "candidates": [
+        "The Ketch Seafood Grill",
+        "Archa Nine Thai Kitchen",
+        "Dudley's on Short",
+        "Merrick Inn Restaurant",
+        "Malone's Hamburg",
+        "Frank And Dino’s",
+        "Asian Bistro J2c",
+        "Josie's",
+        "Red State BBQ",
+        "Tony's of Lexington",
+        "Distilled Restaurant & Bourbon Bar",
+        "Malone's Palomar",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Zen Sushi & Sake",
+        "The Blue Heron Steakhouse",
+        "Coles 735 Main",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Carson's Food & Drink - On Main",
+        "Jeff Ruby's Steakhouse, Lexington",
+        "J. Alexander's Restaurant",
+        "Keeneland Track Kitchen",
+        "Corto Lima",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Lexington",
+      "transportation": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
+      "accommodation": "Cozy Downtown Apt - 1 block from Rupp",
+      "breakfast": "Lockbox",
+      "attractions": [
+        "Lexington Green"
+      ],
+      "lunch": "Double Dogs",
+      "dinner": "The Triangle Grille",
+      "poi_blocks": [
+        {
+          "name": "Cozy Downtown Apt - 1 block from Rupp",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Maxwell @ Patterson",
+          "dist_m": 124.11
+        },
+        {
+          "name": "Cozy Downtown Apt - 1 block from Rupp",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Maxwell @ Patterson",
+          "dist_m": 124.11
+        },
+        {
+          "name": "Lockbox",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "West Main @ 269",
+          "dist_m": 116.85
+        },
+        {
+          "name": "Lexington Green",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Polo Club @ 2924",
+          "dist_m": 1222296.78
+        },
+        {
+          "name": "Double Dogs",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Bryant @ 2033 Outbound",
+          "dist_m": 166.09
+        },
+        {
+          "name": "The Triangle Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "North Broadway @ Main Inbound",
+          "dist_m": 68.41
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Lexington to Lexington",
+      "transportation": "-",
+      "accommodation": "Luxurious 1-bedroom with free parking on premise",
+      "breakfast": "OBC Kitchen",
+      "attractions": [
+        "Blue Grass Tours"
+      ],
+      "lunch": "Bluegrass Bistro",
+      "dinner": "BRU Burger Bar Lexington",
+      "poi_blocks": [
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "OBC Kitchen",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Tates Creek @ Lansdowne Shoppes",
+          "dist_m": 69.64
+        },
+        {
+          "name": "Blue Grass Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "Enterprise @ 780 Inbound",
+          "dist_m": 154.91
+        },
+        {
+          "name": "Bluegrass Bistro",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Newtown @ Pintail (Marriott)",
+          "dist_m": 188.4
+        },
+        {
+          "name": "BRU Burger Bar Lexington",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Beaumont Centre @ Beaumont Centre Circle",
+          "dist_m": 83.6
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Lexington to Chicago",
+      "transportation": "Transfer, from Lexington to Chicago",
+      "accommodation": "-",
+      "breakfast": "The Rackhouse Tavern",
+      "attractions": [
+        "Thoroughbred Park"
+      ],
+      "lunch": "The Ketch Seafood Grill",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "The Rackhouse Tavern",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Harrodsburg @ Saint Joseph Hosp Outbound",
+          "dist_m": 224.59
+        },
+        {
+          "name": "Thoroughbred Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Midland @ Short",
+          "dist_m": 112.6
+        },
+        {
+          "name": "The Ketch Seafood Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Southland @ Rainbow",
+          "dist_m": 237.59
+        }
+      ]
+    }
+  ]
+}

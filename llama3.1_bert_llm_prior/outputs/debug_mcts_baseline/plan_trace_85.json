@@ -1,0 +1,958 @@
+{
+  "idx": 85,
+  "reward": 21.443575841798232,
+  "budget_used": 1948.6,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego",
+      "candidates": [
+        "Flight Number: F0312251, from Atlanta to San Diego, Departure Time: 08:18, Arrival Time: 10:11",
+        "Taxi, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room & Bath! Steps to Restaurants & Shops",
+      "candidates": [
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Coyote",
+      "candidates": [
+        "Cafe Coyote",
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "San Diego Zoo",
+        "Petco Park",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Old Town San Diego",
+        "USS Midway Museum",
+        "Birch Aquarium at Scripps",
+        "Point Loma",
+        "Balboa Park",
+        "La Jolla Shores Park",
+        "Mt. Soledad National Veterans Memorial",
+        "Cabrillo National Monument",
+        "Torrey Pines State Natural Reserve",
+        "Old Town San Diego State Historic Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "World Famous",
+      "candidates": [
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Addison Restaurant",
+      "candidates": [
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room & Bath! Steps to Restaurants & Shops",
+      "candidates": [
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Morning Glory",
+      "candidates": [
+        "Morning Glory",
+        "Cowboy Star",
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Little Italy",
+      "candidates": [
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "San Diego Zoo",
+        "Petco Park",
+        "Sunset Cliffs Natural Park",
+        "Coronado Bridge",
+        "Old Town San Diego",
+        "USS Midway Museum",
+        "Birch Aquarium at Scripps",
+        "Point Loma",
+        "Balboa Park",
+        "La Jolla Shores Park",
+        "Mt. Soledad National Veterans Memorial",
+        "Cabrillo National Monument",
+        "Torrey Pines State Natural Reserve",
+        "Old Town San Diego State Historic Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Fishery",
+      "candidates": [
+        "The Fishery",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "Vessel Restaurant + Bar",
+        "The Butcher Shop",
+        "Juniper and Ivy",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "Alforon",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "La Puerta",
+        "Buon Appetito",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0021044, from San Diego to Sacramento, Departure Time: 12:51, Arrival Time: 14:20",
+      "candidates": [
+        "Flight Number: F0021044, from San Diego to Sacramento, Departure Time: 12:51, Arrival Time: 14:20",
+        "Taxi, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $810.62"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tower Cafe",
+      "candidates": [
+        "Tower Cafe",
+        "Orphan",
+        "Localis",
+        "Revival",
+        "Aviators Restaurant",
+        "The Kitchen Restaurant",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Chicago Fire",
+        "The Firehouse Restaurant",
+        "Echo and Rig",
+        "Paragary's",
+        "Moxie",
+        "Grange Restaurant & Bar",
+        "Bacon & Butter",
+        "The Porch Restaurant and Bar",
+        "Yue Huang Restaurant",
+        "Zocalo",
+        "Bangkok @12 Thai Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "El Novillero Restaurant",
+        "Ella Dining Room & Bar",
+        "Tipsy Putt",
+        "Firestone Public House",
+        "Nopalitos",
+        "Pilothouse Restaurant on the Delta King",
+        "Tres Hermanas Mexican Restaurant",
+        "Scott's Seafood on The River",
+        "Frank Fat's Restaurant",
+        "Sauced BBQ & Spirits",
+        "Dawson's Steakhouse",
+        "Il Fornaio",
+        "Mulvaney's Building & Loan",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "candidates": [
+        "★Luxurious Top-Floor, Balcony View, Private Bath★"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Orphan",
+      "candidates": [
+        "Orphan",
+        "Localis",
+        "Revival",
+        "Aviators Restaurant",
+        "The Kitchen Restaurant",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Chicago Fire",
+        "The Firehouse Restaurant",
+        "Echo and Rig",
+        "Paragary's",
+        "Moxie",
+        "Grange Restaurant & Bar",
+        "Bacon & Butter",
+        "The Porch Restaurant and Bar",
+        "Yue Huang Restaurant",
+        "Zocalo",
+        "Bangkok @12 Thai Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "El Novillero Restaurant",
+        "Ella Dining Room & Bar",
+        "Tipsy Putt",
+        "Firestone Public House",
+        "Nopalitos",
+        "Pilothouse Restaurant on the Delta King",
+        "Tres Hermanas Mexican Restaurant",
+        "Scott's Seafood on The River",
+        "Frank Fat's Restaurant",
+        "Sauced BBQ & Spirits",
+        "Dawson's Steakhouse",
+        "Il Fornaio",
+        "Mulvaney's Building & Loan",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Sacramento",
+      "candidates": [
+        "Old Sacramento",
+        "Capitol Park",
+        "Sacramento Zoo",
+        "Tower Bridge",
+        "McKinley Park",
+        "Fairytale Town",
+        "William Land Park",
+        "American River Parkway",
+        "California Automobile Museum",
+        "Funderland Amusement Park",
+        "Sacramento History Museum",
+        "American River Bicycle Trail",
+        "California State Indian Museum",
+        "California State Railroad Museum",
+        "California State Capitol Museum",
+        "Crocker Art Museum",
+        "California State University, Sacramento",
+        "Sutter’s Fort State Historic Park",
+        "Leland Stanford Mansion State Historic Park",
+        "Cathedral of the Blessed Sacrament"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Localis",
+      "candidates": [
+        "Localis",
+        "Revival",
+        "Aviators Restaurant",
+        "The Kitchen Restaurant",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Chicago Fire",
+        "The Firehouse Restaurant",
+        "Echo and Rig",
+        "Paragary's",
+        "Moxie",
+        "Grange Restaurant & Bar",
+        "Bacon & Butter",
+        "The Porch Restaurant and Bar",
+        "Yue Huang Restaurant",
+        "Zocalo",
+        "Bangkok @12 Thai Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "El Novillero Restaurant",
+        "Ella Dining Room & Bar",
+        "Tipsy Putt",
+        "Firestone Public House",
+        "Nopalitos",
+        "Pilothouse Restaurant on the Delta King",
+        "Tres Hermanas Mexican Restaurant",
+        "Scott's Seafood on The River",
+        "Frank Fat's Restaurant",
+        "Sauced BBQ & Spirits",
+        "Dawson's Steakhouse",
+        "Il Fornaio",
+        "Mulvaney's Building & Loan",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Revival",
+      "candidates": [
+        "Revival",
+        "Aviators Restaurant",
+        "The Kitchen Restaurant",
+        "The Waterboy",
+        "Cafeteria 15L",
+        "Chicago Fire",
+        "The Firehouse Restaurant",
+        "Echo and Rig",
+        "Paragary's",
+        "Moxie",
+        "Grange Restaurant & Bar",
+        "Bacon & Butter",
+        "The Porch Restaurant and Bar",
+        "Yue Huang Restaurant",
+        "Zocalo",
+        "Bangkok @12 Thai Restaurant",
+        "Kru Contemporary Japanese Cuisine",
+        "El Novillero Restaurant",
+        "Ella Dining Room & Bar",
+        "Tipsy Putt",
+        "Firestone Public House",
+        "Nopalitos",
+        "Pilothouse Restaurant on the Delta King",
+        "Tres Hermanas Mexican Restaurant",
+        "Scott's Seafood on The River",
+        "Frank Fat's Restaurant",
+        "Sauced BBQ & Spirits",
+        "Dawson's Steakhouse",
+        "Il Fornaio",
+        "Mulvaney's Building & Loan",
+        "Mikuni Japanese Restaurant & Sushi Bar",
+        "Paesano's Pizzeria"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0311434, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:13",
+      "candidates": [
+        "Flight Number: F0311434, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:13",
+        "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Atlanta to San Diego",
+      "transportation": "Taxi, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego",
+      "accommodation": "Private Room & Bath! Steps to Restaurants & Shops",
+      "breakfast": "Cafe Coyote",
+      "attractions": [
+        "SeaWorld"
+      ],
+      "lunch": "World Famous",
+      "dinner": "Addison Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Private Room & Bath! Steps to Restaurants & Shops",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Hawley Bl",
+          "dist_m": 292.57
+        },
+        {
+          "name": "Private Room & Bath! Steps to Restaurants & Shops",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Hawley Bl",
+          "dist_m": 292.57
+        },
+        {
+          "name": "Cafe Coyote",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Juan St & Harney St",
+          "dist_m": 216.77
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:20",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "World Famous",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 120.85
+        },
+        {
+          "name": "Addison Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mira Mesa Bl & Genetic Center Dr",
+          "dist_m": 4339.61
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Private Room & Bath! Steps to Restaurants & Shops",
+      "breakfast": "Morning Glory",
+      "attractions": [
+        "Little Italy"
+      ],
+      "lunch": "Cowboy Star",
+      "dinner": "The Fishery",
+      "poi_blocks": [
+        {
+          "name": "Private Room & Bath! Steps to Restaurants & Shops",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Hawley Bl",
+          "dist_m": 292.57
+        },
+        {
+          "name": "Private Room & Bath! Steps to Restaurants & Shops",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Adams Av & Hawley Bl",
+          "dist_m": 292.57
+        },
+        {
+          "name": "Morning Glory",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 92.52
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 155.04
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "10th Av & Market St",
+          "dist_m": 50.81
+        },
+        {
+          "name": "The Fishery",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mission Bl & Opal St",
+          "dist_m": 346.99
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to Sacramento",
+      "transportation": "Flight Number: F0021044, from San Diego to Sacramento, Departure Time: 12:51, Arrival Time: 14:20",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Tower Cafe",
+      "poi_blocks": [
+        {
+          "name": "Private Room & Bath! Steps to Restaurants & Shops",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Adams Av & Hawley Bl",
+          "dist_m": 292.57
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Tower Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "LAND PARK DR & BROADWAY (SB)",
+          "dist_m": 54.53
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "-",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+      "breakfast": "Orphan",
+      "attractions": [
+        "Old Sacramento"
+      ],
+      "lunch": "Localis",
+      "dinner": "Revival",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "Orphan",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MCKINLEY BLVD & 35TH ST (WB)",
+          "dist_m": 231.17
+        },
+        {
+          "name": "Old Sacramento",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "3RD ST & K ST (NB)",
+          "dist_m": 235.49
+        },
+        {
+          "name": "Localis",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "21ST ST & R ST (NB)",
+          "dist_m": 35.88
+        },
+        {
+          "name": "Revival",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "J ST & 6TH ST (EB)",
+          "dist_m": 79.22
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Sacramento to Atlanta",
+      "transportation": "Flight Number: F0311434, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:13",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "05:26",
+          "end": "06:26",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        },
+        {
+          "name": "★Luxurious Top-Floor, Balcony View, Private Bath★",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Q ST & 5TH ST (EB)",
+          "dist_m": 9.45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "idx": 139,
+  "stages": [
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 2
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 2
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": "2024-11-15",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $74.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $1493.48"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": "2024-11-17",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $11.10"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $221.92"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Washington",
+      "date": "2024-11-19",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Washington, Duration: 1206.6166666666666 mins, Distance: 1717.7531999999999 km, Estimated Cost: $85.89"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from Mason City to Washington, Duration: 1206.6166666666666 mins, Distance: 1717.7531999999999 km, Estimated Cost: $1717.75"
+    }
+  ]
+}

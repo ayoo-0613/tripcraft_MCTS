@@ -1,0 +1,1146 @@
+{
+  "idx": 124,
+  "reward": -174.51465389766338,
+  "budget_used": 2418.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $1271.75",
+      "candidates": [
+        "Flight Number: F0111274, from Dallas to Bloomington, Departure Time: 13:00, Arrival Time: 14:59",
+        "Taxi, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $1271.75"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Founder's Grove Bungalow",
+      "candidates": [
+        "Charming Trail Retreat",
+        "White Oak Oasis",
+        "Founder's Grove Bungalow",
+        "The Normal School House",
+        "Oak Leaf Cabin",
+        "BNB Barker # 1",
+        "The Bougie Bloomington",
+        "New! Luxury Apartment! Centrally Located!",
+        "City Center Oasis in BloNo",
+        "New Listing! Updated lovely one bedroom apartment!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Uptown Cafe",
+      "candidates": [
+        "Southern Stone",
+        "Malibu Grill",
+        "Coffee Hound",
+        "Uptown Cafe",
+        "Farm Bloomington",
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Escape Bloomington",
+      "candidates": [
+        "Escape Bloomington",
+        "Constitution Trail",
+        "Butler Winery",
+        "Monroe Lake",
+        "WonderLab",
+        "Oliver Winery",
+        "Miller Park Zoo",
+        "Bloomington Community Farmers Market",
+        "Tibetan Mongolian Buddhist Cultural Center",
+        "Indiana University Bloomington",
+        "Bloomington Farmer's Market",
+        "IU Opera and Ballet Theater",
+        "McLean County Museum of History",
+        "Monroe County History Center and Research Library",
+        "David Davis Mansion State Historic Site",
+        "Buskirk-Chumley Theater"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Southern Stone",
+      "candidates": [
+        "Southern Stone",
+        "Malibu Grill",
+        "Coffee Hound",
+        "Farm Bloomington",
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Malibu Grill",
+      "candidates": [
+        "Malibu Grill",
+        "Coffee Hound",
+        "Farm Bloomington",
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charming Trail Retreat",
+      "candidates": [
+        "Charming Trail Retreat",
+        "White Oak Oasis",
+        "Founder's Grove Bungalow",
+        "The Normal School House",
+        "Oak Leaf Cabin",
+        "BNB Barker # 1",
+        "The Bougie Bloomington",
+        "New! Luxury Apartment! Centrally Located!",
+        "City Center Oasis in BloNo",
+        "New Listing! Updated lovely one bedroom apartment!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Coffee Hound",
+      "candidates": [
+        "Coffee Hound",
+        "Farm Bloomington",
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Constitution Trail",
+      "candidates": [
+        "Constitution Trail",
+        "Butler Winery",
+        "Monroe Lake",
+        "WonderLab",
+        "Oliver Winery",
+        "Miller Park Zoo",
+        "Bloomington Community Farmers Market",
+        "Tibetan Mongolian Buddhist Cultural Center",
+        "Indiana University Bloomington",
+        "Bloomington Farmer's Market",
+        "IU Opera and Ballet Theater",
+        "McLean County Museum of History",
+        "Monroe County History Center and Research Library",
+        "David Davis Mansion State Historic Site",
+        "Buskirk-Chumley Theater"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Farm Bloomington",
+      "candidates": [
+        "Farm Bloomington",
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Chocolate Moose",
+      "candidates": [
+        "The Chocolate Moose",
+        "Big Woods Bloomington",
+        "Meatheads",
+        "Thai House of Bloomington",
+        "Upland Brewing - Bloomington",
+        "Lucca Grill",
+        "Feast Market & Cellar",
+        "Bloomington ChopHouse",
+        "Nick's English Hut",
+        "Hazelwood Food and Drink",
+        "Tobin's Pizza",
+        "Metal Works Brewing Company",
+        "Trojan Horse",
+        "Janko's Little Zagreb",
+        "Baxter's American Grill",
+        "Cracker Barrel",
+        "Lennie's & Bloomington Brewing Co.",
+        "Osteria Rago",
+        "Jim's Steak House",
+        "Epiphany Farms Restaurant",
+        "Taqueria El Porton",
+        "Mother Bear's Pizza Campus",
+        "Samira's Restaurant",
+        "De'Angelo's Casual Italian",
+        "Runcible Spoon Cafe and Restaurant",
+        "Bandana's Bar-B-Q",
+        "Biaggi's - Bloomington",
+        "My Thai Cafe & Sushi Bar",
+        "Smokin' Jack's Rib Shack",
+        "Bub's Burgers and Ice Cream"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Studio Apartment",
+      "candidates": [
+        "Studio Apartment",
+        "Gallery Getaway",
+        "The Pool House Escape",
+        "Romantic purple suite in Champaign",
+        "Unique, small apartment close to everything",
+        "Private Bedroom Near University Campus",
+        "Updated Townhouse - 10 min to Downtown",
+        "West Urbana state street guest suite",
+        "Modern Bungalow 3BR Home near downtown & UI campus",
+        "Queen bed & Private Bathroom"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Farmhouse Restaurant",
+      "candidates": [
+        "Farmhouse Restaurant",
+        "Rainbow Garden Champaign",
+        "Peking Garden",
+        "Fiesta Cafe",
+        "Golden Harbor",
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Centennial Park Champaign",
+      "candidates": [
+        "Centennial Park Champaign",
+        "Kaufman Lake",
+        "Illinois Terminal",
+        "AMC Champaign 13",
+        "The Virginia Theatre",
+        "Larry Kanfer Photography",
+        "Boneyard Creek Trail",
+        "West Side Park",
+        "State Farm Center",
+        "Hessel Park",
+        "Curtis Orchard & Pumpkin Patch",
+        "Antiques & More at Staley Road, Inc.",
+        "Memorial Stadium",
+        "Alto Vineyards and Winery",
+        "Sholem Aquatic Center",
+        "Champaign Public Library",
+        "Champaign County History Museum",
+        "Krannert Art Museum",
+        "University of Illinois Ice Arena",
+        "William M. Staerkel Planetarium"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Rainbow Garden Champaign",
+      "candidates": [
+        "Rainbow Garden Champaign",
+        "Peking Garden",
+        "Fiesta Cafe",
+        "Golden Harbor",
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Peking Garden",
+      "candidates": [
+        "Peking Garden",
+        "Fiesta Cafe",
+        "Golden Harbor",
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Studio Apartment",
+      "candidates": [
+        "Studio Apartment",
+        "Gallery Getaway",
+        "The Pool House Escape",
+        "Romantic purple suite in Champaign",
+        "Unique, small apartment close to everything",
+        "Private Bedroom Near University Campus",
+        "Updated Townhouse - 10 min to Downtown",
+        "West Urbana state street guest suite",
+        "Modern Bungalow 3BR Home near downtown & UI campus",
+        "Queen bed & Private Bathroom"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fiesta Cafe",
+      "candidates": [
+        "Fiesta Cafe",
+        "Golden Harbor",
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Kaufman Lake",
+      "candidates": [
+        "Kaufman Lake",
+        "Illinois Terminal",
+        "AMC Champaign 13",
+        "The Virginia Theatre",
+        "Larry Kanfer Photography",
+        "Boneyard Creek Trail",
+        "West Side Park",
+        "State Farm Center",
+        "Hessel Park",
+        "Curtis Orchard & Pumpkin Patch",
+        "Antiques & More at Staley Road, Inc.",
+        "Memorial Stadium",
+        "Alto Vineyards and Winery",
+        "Sholem Aquatic Center",
+        "Champaign Public Library",
+        "Champaign County History Museum",
+        "Krannert Art Museum",
+        "University of Illinois Ice Arena",
+        "William M. Staerkel Planetarium"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Golden Harbor",
+      "candidates": [
+        "Golden Harbor",
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Ribeye",
+      "candidates": [
+        "The Ribeye",
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0398812, from Champaign to Dallas, Departure Time: 15:25, Arrival Time: 18:04",
+      "candidates": [
+        "Flight Number: F0398812, from Champaign to Dallas, Departure Time: 15:25, Arrival Time: 18:04",
+        "Taxi, from Champaign to Dallas, Duration: 883.8533333333332 mins, Distance: 1330.2473 km, Estimated Cost: $1330.25"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ko Fusion",
+      "candidates": [
+        "Ko Fusion",
+        "Aspen Tap House",
+        "Seven Saints",
+        "Texas Roadhouse",
+        "Maize Mexican Grill",
+        "Nando Milano",
+        "Maize At the Station",
+        "Hamilton Walker's",
+        "Sunsinger Wine and Spirits",
+        "Sakanaya",
+        "Le Peep Champaign",
+        "Big Grove Tavern",
+        "Thara Thai",
+        "The Original Pancake House",
+        "Monical's Pizza",
+        "Watson's Shack & Rail",
+        "Sam's Cafe",
+        "Houlihan's",
+        "Biaggi's",
+        "Papa Del's Pizza",
+        "Dos Reales Mexican Restaurant",
+        "Kohinoor Indian Restaurant and Lounge",
+        "Oishi Asian Cuisine",
+        "LongHorn Steakhouse",
+        "Billy Barooz Bar & Grill",
+        "Black Dog Smoke & Ale House",
+        "Pizzeria Antica",
+        "Merry Ann's Diner",
+        "Farren's Pub & Eatery"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Illinois Terminal",
+      "candidates": [
+        "Illinois Terminal",
+        "AMC Champaign 13",
+        "The Virginia Theatre",
+        "Larry Kanfer Photography",
+        "Boneyard Creek Trail",
+        "West Side Park",
+        "State Farm Center",
+        "Hessel Park",
+        "Curtis Orchard & Pumpkin Patch",
+        "Antiques & More at Staley Road, Inc.",
+        "Memorial Stadium",
+        "Alto Vineyards and Winery",
+        "Sholem Aquatic Center",
+        "Champaign Public Library",
+        "Champaign County History Museum",
+        "Krannert Art Museum",
+        "University of Illinois Ice Arena",
+        "William M. Staerkel Planetarium"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Bloomington",
+      "transportation": "Taxi, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $1271.75",
+      "accommodation": "Founder's Grove Bungalow",
+      "breakfast": "Uptown Cafe",
+      "attractions": [
+        "Escape Bloomington"
+      ],
+      "lunch": "Southern Stone",
+      "dinner": "Malibu Grill",
+      "poi_blocks": [
+        {
+          "name": "Founder's Grove Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 249838.89
+        },
+        {
+          "name": "Founder's Grove Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 249838.89
+        },
+        {
+          "name": "Uptown Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Washington St & Kirkwood Ave",
+          "dist_m": 81.37
+        },
+        {
+          "name": "Escape Bloomington",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 248708.81
+        },
+        {
+          "name": "Southern Stone",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Rogers St & Patterson Dr",
+          "dist_m": 19.55
+        },
+        {
+          "name": "Malibu Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Washington St & Kirkwood Ave",
+          "dist_m": 111.13
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Bloomington to Bloomington",
+      "transportation": "-",
+      "accommodation": "Charming Trail Retreat",
+      "breakfast": "Coffee Hound",
+      "attractions": [
+        "Constitution Trail"
+      ],
+      "lunch": "Farm Bloomington",
+      "dinner": "The Chocolate Moose",
+      "poi_blocks": [
+        {
+          "name": "Charming Trail Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 252799.18
+        },
+        {
+          "name": "Charming Trail Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 252799.18
+        },
+        {
+          "name": "Coffee Hound",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 252372.5
+        },
+        {
+          "name": "Constitution Trail",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 250910.58
+        },
+        {
+          "name": "Farm Bloomington",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Washington St & Kirkwood Ave",
+          "dist_m": 65.76
+        },
+        {
+          "name": "The Chocolate Moose",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Walnut St & Smith Ave @ Project School",
+          "dist_m": 24.48
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Bloomington to Champaign",
+      "transportation": "-",
+      "accommodation": "Studio Apartment",
+      "breakfast": "Farmhouse Restaurant",
+      "attractions": [
+        "Centennial Park Champaign"
+      ],
+      "lunch": "Rainbow Garden Champaign",
+      "dinner": "Peking Garden",
+      "poi_blocks": [
+        {
+          "name": "Charming Trail Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Prow Rd @ Meadows Hospital",
+          "dist_m": 252799.18
+        },
+        {
+          "name": "Studio Apartment",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Church & Russell (NE Corner)",
+          "dist_m": 93.12
+        },
+        {
+          "name": "Farmhouse Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Fox & Devonshire (NW Corner)",
+          "dist_m": 233.94
+        },
+        {
+          "name": "Centennial Park Champaign",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Kirby & First (NE Corner)",
+          "dist_m": 155.37
+        },
+        {
+          "name": "Rainbow Garden Champaign",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Kirby & Neil (NE Far Side)",
+          "dist_m": 171.48
+        },
+        {
+          "name": "Peking Garden",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Church & Neil (NW Far Side)",
+          "dist_m": 75.3
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Champaign to Champaign",
+      "transportation": "-",
+      "accommodation": "Studio Apartment",
+      "breakfast": "Fiesta Cafe",
+      "attractions": [
+        "Kaufman Lake"
+      ],
+      "lunch": "Golden Harbor",
+      "dinner": "The Ribeye",
+      "poi_blocks": [
+        {
+          "name": "Studio Apartment",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Church & Russell (NE Corner)",
+          "dist_m": 93.12
+        },
+        {
+          "name": "Studio Apartment",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Church & Russell (NE Corner)",
+          "dist_m": 93.12
+        },
+        {
+          "name": "Fiesta Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Logan & First (NW Corner)",
+          "dist_m": 40.52
+        },
+        {
+          "name": "Kaufman Lake",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Ginger Creek (North Side)",
+          "dist_m": 99.95
+        },
+        {
+          "name": "Golden Harbor",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Neil & Healey (NW Corner)",
+          "dist_m": 52.6
+        },
+        {
+          "name": "The Ribeye",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "State & Trade Center Dr. (SE Corner)",
+          "dist_m": 132.56
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Champaign to Dallas",
+      "transportation": "Flight Number: F0398812, from Champaign to Dallas, Departure Time: 15:25, Arrival Time: 18:04",
+      "accommodation": "-",
+      "breakfast": "Ko Fusion",
+      "attractions": [
+        "Illinois Terminal"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Studio Apartment",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Church & Russell (NE Corner)",
+          "dist_m": 93.12
+        },
+        {
+          "name": "Ko Fusion",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Main & Walnut (SW Corner)",
+          "dist_m": 18.68
+        },
+        {
+          "name": "Illinois Terminal",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Illinois Terminal (Platform B)",
+          "dist_m": 15.41
+        }
+      ]
+    }
+  ]
+}

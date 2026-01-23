@@ -1,0 +1,71 @@
+{
+  "idx": 316,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Fort Dodge",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "visitors",
+      "cuisine": [
+        "American",
+        "Fast Food",
+        "Mexican"
+      ],
+      "room type": null,
+      "event": null,
+      "attraction": [
+        "Museums"
+      ],
+      "transportation": null
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 2 people from Chicago to Fort Dodge from November 1st to November 3rd, 2024, with a budget of $1,800. The trip should include visits to museums and dining options featuring American, Fast Food, and Mexican cuisines. Accommodations should comply with house rules allowing visitors.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Fort Dodge",
+      "transportation": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "breakfast": "Wendy's, Fort Dodge",
+      "attraction": "Blanden Art Museum, Fort Dodge; The Fort Museum & Frontier Village, Fort Dodge",
+      "lunch": "Subway, Fort Dodge",
+      "dinner": "Village Inn, Fort Dodge",
+      "accommodation": "Clean and cozy family home, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Clean and cozy family home, stay from 08:00 to 09:00, nearest transit: Starlite, 2575.14m away; Wendy's, visit from 09:25 to 10:16, nearest transit: S 25th St and 5th Ave S, 215.15m away; Blanden Art Museum, visit from 11:30 to 13:12, nearest transit: 3rd Ave S and S 9th St, 75.70m away; Subway, visit from 13:57 to 14:56, nearest transit: A St and Ave O W, 101.37m away; The Fort Museum & Frontier Village, visit from 16:30 to 18:57, nearest transit: Museum Rd and Kenyon Rd, 41.53m away; Village Inn, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Clean and cozy family home, stay from 22:15 to 08:00, nearest transit: Starlite, 2575.14m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Tom Thumb Drive Inn, Fort Dodge",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Backyard Oasis!, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Backyard Oasis!, stay from 08:00 to 09:00, nearest transit: Fort Dodge Senior High School, 269.88m away; Tom Thumb Drive Inn, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 90.84m away; Backyard Oasis!, stay from 22:15 to 08:00, nearest transit: Fort Dodge Senior High School, 269.88m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Fort Dodge to Chicago",
+      "transportation": "Transfer, from Fort Dodge to Chicago",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Backyard Oasis!, stay from 08:00 to 09:00, nearest transit: Fort Dodge Senior High School, 269.88m away."
+    }
+  ]
+}

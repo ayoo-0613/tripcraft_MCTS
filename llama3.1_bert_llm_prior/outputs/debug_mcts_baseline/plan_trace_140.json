@@ -1,0 +1,736 @@
+{
+  "idx": 140,
+  "reward": 15.366275302694522,
+  "budget_used": 2303.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Boise to Los Angeles, Duration: 971.6833333333333 mins, Distance: 1354.6736 km, Estimated Cost: $1354.67",
+      "candidates": [
+        "Flight Number: F0242142, from Boise to Los Angeles, Departure Time: 17:09, Arrival Time: 18:13",
+        "Taxi, from Boise to Los Angeles, Duration: 971.6833333333333 mins, Distance: 1354.6736 km, Estimated Cost: $1354.67"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "Cozy and Bright Private Room",
+        "Room in Happy Hollywood Home",
+        "Topanga Pool House",
+        "Hollywood Hideaway",
+        "Guest house with private parking",
+        "Cabin on the Rocks",
+        "Cozy Beverly Hills Studio Guest House",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Autumn's Modern 1 bedroom with Charming Courtyard."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Yang Chow",
+      "candidates": [
+        "Water Grill",
+        "The Lobster",
+        "Providence",
+        "Perch",
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Venice Beach",
+      "candidates": [
+        "Venice Beach",
+        "Griffith Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Providence",
+      "candidates": [
+        "Water Grill",
+        "The Lobster",
+        "Providence",
+        "Perch",
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "The Lobster",
+        "Perch",
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "Cozy and Bright Private Room",
+        "Room in Happy Hollywood Home",
+        "Topanga Pool House",
+        "Hollywood Hideaway",
+        "Guest house with private parking",
+        "Cabin on the Rocks",
+        "Cozy Beverly Hills Studio Guest House",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Autumn's Modern 1 bedroom with Charming Courtyard."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Lobster",
+      "candidates": [
+        "The Lobster",
+        "Perch",
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Griffith Park",
+      "candidates": [
+        "Griffith Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "Spire 73",
+        "The Boiling Crab",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "25 Degrees",
+        "Leo & Lily",
+        "Belles Beach House",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "Park's BBQ",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "Pizzeria Mozza",
+        "Langer's Delicatessen Restaurant",
+        "Olive & Thyme",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0460812, from Los Angeles to Fresno, Departure Time: 10:28, Arrival Time: 11:33",
+      "candidates": [
+        "Flight Number: F0460812, from Los Angeles to Fresno, Departure Time: 10:28, Arrival Time: 11:33",
+        "Taxi, from Los Angeles to Fresno, Duration: 246.34666666666666 mins, Distance: 351.06359999999995 km, Estimated Cost: $351.06"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lazy Private Cottage",
+      "candidates": [
+        "Lazy Private Cottage",
+        "The Dream Room",
+        "~The Sierra~",
+        "Private Bedroom & Bath SE Fresno",
+        "Private in-law suite!",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "1 Bedroom PRIVATE GUESTHOUSE (w/ Private Entry)",
+        "Beautifully remodeled NE Fresno home 3bed/2Bath",
+        "Cozy Suite with Private Bath in the Heart of Tower"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Fresno",
+      "candidates": [
+        "Fresno",
+        "Parma",
+        "Five",
+        "Elbow Room",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "Train Depot",
+        "Fresno Breakfast House",
+        "The Annex Kitchen",
+        "The Lime Lite",
+        "Eureka! Fresno",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Gem of Thailand",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Ampersand Ice Cream",
+        "Pismo's Coastal Grill",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Westwoods BBQ and Spice Co.",
+        "Taqueria Don Pepe",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Max's Bistro & Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Five",
+      "candidates": [
+        "Parma",
+        "Five",
+        "Elbow Room",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "Train Depot",
+        "Fresno Breakfast House",
+        "The Annex Kitchen",
+        "The Lime Lite",
+        "Eureka! Fresno",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Gem of Thailand",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "AJ's Armenian Cuisine",
+        "DiCicco's",
+        "Ampersand Ice Cream",
+        "Pismo's Coastal Grill",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Westwoods BBQ and Spice Co.",
+        "Taqueria Don Pepe",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Max's Bistro & Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Fresno to Boise, Duration: 799.3533333333332 mins, Distance: 1158.2156 km, Estimated Cost: $1158.22"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boise to Los Angeles",
+      "transportation": "Taxi, from Boise to Los Angeles, Duration: 971.6833333333333 mins, Distance: 1354.6736 km, Estimated Cost: $1354.67",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "Yang Chow",
+      "attractions": [
+        "Venice Beach"
+      ],
+      "lunch": "Providence",
+      "dinner": "Water Grill",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Yang Chow",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Broadway & Alpine St",
+          "dist_m": 85.36
+        },
+        {
+          "name": "Venice Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 973.45
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "The Lobster",
+      "attractions": [
+        "Griffith Park"
+      ],
+      "lunch": "Perch",
+      "dinner": "Bestia",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "The Lobster",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 4397.54
+        },
+        {
+          "name": "Griffith Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "West Observatory Rd & Mt. Hollywood Dr",
+          "dist_m": 1520.21
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Fresno",
+      "transportation": "Flight Number: F0460812, from Los Angeles to Fresno, Departure Time: 10:28, Arrival Time: 11:33",
+      "accommodation": "Lazy Private Cottage",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Fresno",
+      "dinner": "Five",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Lazy Private Cottage",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SW Riverside - El Paso",
+          "dist_m": 20723.14
+        },
+        {
+          "name": "Fresno",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS",
+          "dist_m": 557.44
+        },
+        {
+          "name": "Five",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "CHAMPLAIN - PERRIN",
+          "dist_m": 74.64
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "-",
+      "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "NW WISHON - WELDON",
+          "dist_m": 145.45
+        },
+        {
+          "name": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "NW WISHON - WELDON",
+          "dist_m": 145.45
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Fresno to Boise",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "NW WISHON - WELDON",
+          "dist_m": 145.45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "idx": 265,
+  "reward": 15.79685285416888,
+  "budget_used": 2882.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston",
+      "candidates": [
+        "Flight Number: F0246809, from Seattle to Charleston, Departure Time: 09:55, Arrival Time: 18:11",
+        "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Waterfront Home Near Downtown!",
+      "candidates": [
+        "Waterfront Home Near Downtown!",
+        "Lodge Alley Inn Steps to Charleston Harbor -Studio",
+        "Historic B&B Veranda King Suite Walk to King"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Revival",
+      "candidates": [
+        "Revival",
+        "Charleston Grill",
+        "Magnolias",
+        "Peninsula Grill",
+        "The Ordinary",
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Citadel",
+      "candidates": [
+        "The Citadel",
+        "Middleton Place",
+        "The Charleston Museum",
+        "Old Slave Mart Museum",
+        "South Carolina Aquarium",
+        "Charleston Waterfront Park",
+        "Nathaniel Russell House",
+        "Charleston City Market",
+        "Magnolia Plantation & Gardens",
+        "Drayton Hall",
+        "Arthur Ravenel Jr. Bridge",
+        "Old Exchange & Provost Dungeon",
+        "Battery & White Point Gardens",
+        "Aiken-Rhett House",
+        "The Black Fedora Comedy Mystery Theatre",
+        "McLeod Plantation Historic Site",
+        "Cathedral of Saint John the Baptist",
+        "Fort Sumter National Monument"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Charleston Grill",
+      "candidates": [
+        "Charleston Grill",
+        "Magnolias",
+        "Peninsula Grill",
+        "The Ordinary",
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Magnolias",
+      "candidates": [
+        "Magnolias",
+        "Peninsula Grill",
+        "The Ordinary",
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Waterfront Home Near Downtown!",
+      "candidates": [
+        "Waterfront Home Near Downtown!",
+        "Lodge Alley Inn Steps to Charleston Harbor -Studio",
+        "Historic B&B Veranda King Suite Walk to King"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Peninsula Grill",
+      "candidates": [
+        "Peninsula Grill",
+        "The Ordinary",
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Middleton Place",
+      "candidates": [
+        "Middleton Place",
+        "The Charleston Museum",
+        "Old Slave Mart Museum",
+        "South Carolina Aquarium",
+        "Charleston Waterfront Park",
+        "Nathaniel Russell House",
+        "Charleston City Market",
+        "Magnolia Plantation & Gardens",
+        "Drayton Hall",
+        "Arthur Ravenel Jr. Bridge",
+        "Old Exchange & Provost Dungeon",
+        "Battery & White Point Gardens",
+        "Aiken-Rhett House",
+        "The Black Fedora Comedy Mystery Theatre",
+        "McLeod Plantation Historic Site",
+        "Cathedral of Saint John the Baptist",
+        "Fort Sumter National Monument"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Ordinary",
+      "candidates": [
+        "The Ordinary",
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "FIG",
+      "candidates": [
+        "FIG",
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29",
+      "candidates": [
+        "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29",
+        "Taxi, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Gingerline",
+      "candidates": [
+        "Gingerline",
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Charleston Museum",
+      "candidates": [
+        "The Charleston Museum",
+        "Old Slave Mart Museum",
+        "South Carolina Aquarium",
+        "Charleston Waterfront Park",
+        "Nathaniel Russell House",
+        "Charleston City Market",
+        "Magnolia Plantation & Gardens",
+        "Drayton Hall",
+        "Arthur Ravenel Jr. Bridge",
+        "Old Exchange & Provost Dungeon",
+        "Battery & White Point Gardens",
+        "Aiken-Rhett House",
+        "The Black Fedora Comedy Mystery Theatre",
+        "McLeod Plantation Historic Site",
+        "Cathedral of Saint John the Baptist",
+        "Fort Sumter National Monument"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Husk Restaurant",
+      "candidates": [
+        "Husk Restaurant",
+        "Swamp Fox Restaurant",
+        "Oak Steakhouse",
+        "Fleet Landing Restaurant",
+        "Stella's",
+        "82 Queen",
+        "High Cotton Charleston",
+        "Circa 1886 Restaurant",
+        "Toast! All Day",
+        "Hank's Seafood Restaurant",
+        "The Palmetto Cafe",
+        "Eli's Table",
+        "Coast Bar & Grill",
+        "Lewis Barbecue Charleston",
+        "Chubby Fish",
+        "167 Raw Oyster Bar",
+        "Halls Chophouse Charleston",
+        "Amen Street Fish & Raw Bar",
+        "Charleston Crab House-Market Street",
+        "Virginia's on King",
+        "Slightly North of Broad",
+        "Poogan's Porch",
+        "Hyman's Seafood",
+        "Church and Union Charleston",
+        "Frannie & The Fox",
+        "Burwell's Stone Fire Grill",
+        "Stars Restaurant-Rooftop & Grill Room",
+        "The Rooftop at the Vendue"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Seattle to Charleston",
+      "transportation": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston",
+      "accommodation": "Waterfront Home Near Downtown!",
+      "breakfast": "Revival",
+      "attractions": [
+        "The Citadel"
+      ],
+      "lunch": "Charleston Grill",
+      "dinner": "Magnolias",
+      "poi_blocks": [
+        {
+          "name": "Waterfront Home Near Downtown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Folly Rd / Patterson Ave",
+          "dist_m": 2495.09
+        },
+        {
+          "name": "Waterfront Home Near Downtown!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Folly Rd / Patterson Ave",
+          "dist_m": 2495.09
+        },
+        {
+          "name": "Revival",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "East Bay St / Vendue Range",
+          "dist_m": 37.7
+        },
+        {
+          "name": "The Citadel",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Elmwood Ave / Moultrie St",
+          "dist_m": 174.87
+        },
+        {
+          "name": "Charleston Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "King St / Market St",
+          "dist_m": 36.1
+        },
+        {
+          "name": "Magnolias",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "East Bay St / Vendue Range",
+          "dist_m": 58.4
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Charleston to Charleston",
+      "transportation": "-",
+      "accommodation": "Waterfront Home Near Downtown!",
+      "breakfast": "Peninsula Grill",
+      "attractions": [
+        "Middleton Place"
+      ],
+      "lunch": "The Ordinary",
+      "dinner": "FIG",
+      "poi_blocks": [
+        {
+          "name": "Waterfront Home Near Downtown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Folly Rd / Patterson Ave",
+          "dist_m": 2495.09
+        },
+        {
+          "name": "Waterfront Home Near Downtown!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Folly Rd / Patterson Ave",
+          "dist_m": 2495.09
+        },
+        {
+          "name": "Peninsula Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Market St / Meeting St",
+          "dist_m": 23.88
+        },
+        {
+          "name": "Middleton Place",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "Dorchester Rd / Park Forest Pkwy",
+          "dist_m": 3298.85
+        },
+        {
+          "name": "The Ordinary",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "King St / Cannon St",
+          "dist_m": 22.53
+        },
+        {
+          "name": "FIG",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Meeting St / Hasell St",
+          "dist_m": 35.3
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Charleston to Seattle",
+      "transportation": "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29",
+      "accommodation": "-",
+      "breakfast": "Gingerline",
+      "attractions": [
+        "The Charleston Museum"
+      ],
+      "lunch": "Husk Restaurant",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Waterfront Home Near Downtown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Folly Rd / Patterson Ave",
+          "dist_m": 2495.09
+        },
+        {
+          "name": "Gingerline",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Market St / Meeting St",
+          "dist_m": 185.22
+        },
+        {
+          "name": "The Charleston Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Charleston Museum / Visitors Center",
+          "dist_m": 4.15
+        },
+        {
+          "name": "Husk Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Meeting St / Queen St",
+          "dist_m": 76.78
+        }
+      ]
+    }
+  ]
+}

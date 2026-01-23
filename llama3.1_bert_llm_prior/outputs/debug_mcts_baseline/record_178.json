@@ -1,0 +1,68 @@
+{
+  "idx": 178,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Houston",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": "Seafood",
+      "room type": null,
+      "event": null,
+      "attraction": [
+        "Museums",
+        "Nature & Parks"
+      ],
+      "transportation": null
+    },
+    "budget": 12600.0,
+    "query": "Design a 3-day travel itinerary for 7 people traveling from Boston to Houston from November 1st to November 3rd, 2024. The budget is $12,600. The plan should include dining at seafood restaurants and visits to museums and nature & parks.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Houston",
+      "transportation": "Flight Number: F0275234, from Boston to Houston, Departure Time: 13:48, Arrival Time: 18:45",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Houston Restaurant, Houston",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score, Houston",
+      "event": "-",
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; The Rustic Traveler | 83 Walkability Score, stay from 19:15 to 20:15, nearest transit: W 11th St @ Rutland St, 178.69m away; Houston Restaurant, visit from 19:51 to 21:00, nearest transit: Conroe Park & Ride, 2530051.98m away; The Rustic Traveler | 83 Walkability Score, stay from 22:15 to 08:00, nearest transit: W 11th St @ Rutland St, 178.69m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Houston's, Houston",
+      "attraction": "Discovery Green, Houston",
+      "lunch": "Hugo's, Houston",
+      "dinner": "Taste of Texas, Houston",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score, Houston",
+      "event": "-",
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; Houston's, visit from 09:25 to 10:16, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Discovery Green, visit from 11:30 to 15:20, nearest transit: Lamar St @ Austin St, 231.52m away; Hugo's, visit from 13:57 to 14:56, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Taste of Texas, visit from 19:51 to 21:00, nearest transit: Katy Freeway @ Town And Country Way, 260.58m away; The Rustic Traveler | 83 Walkability Score, stay from 22:15 to 08:00, nearest transit: W 11th St @ Rutland St, 178.69m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Houston to Boston",
+      "transportation": "Flight Number: F0264867, from Houston to Boston, Departure Time: 11:33, Arrival Time: 16:07",
+      "breakfast": "Goode Company Seafood, Houston",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; Goode Company Seafood, visit from 09:25 to 10:16, nearest transit: Westpark Dr @ Wakeforest St, 141.76m away."
+    }
+  ]
+}

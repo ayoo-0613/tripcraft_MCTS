@@ -1,0 +1,654 @@
+{
+  "idx": 156,
+  "reward": 9.213186784143582,
+  "budget_used": 2718.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Everett to Tucson, Not feasible to drive from Everett to Tucson",
+      "candidates": [
+        "Flight Number: F0514789, from Everett to Tucson, Departure Time: 10:18, Arrival Time: 13:07",
+        "Taxi, from Everett to Tucson, Not feasible to drive from Everett to Tucson"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "UofA gem. Gorgeous and convenient.",
+      "candidates": [
+        "Private Midtown Retreat",
+        "Attractive Casita In Tucson",
+        "Accessible Private Studio, Entrance & Parking.",
+        "UofA gem. Gorgeous and convenient.",
+        "Peaceful Casita in the Foothills",
+        "TREAT GUEST HOUSE Private, Quiet, Comfortable",
+        "Desert Solitaire - Rustic Mexican Style Home",
+        "The Coop- Luxury guest house with ideal location",
+        "Historic 4th Ave Sunshine Suite",
+        "3 Palms Hotel - Deluxe King Room City View"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Guadalajara Original Grill",
+      "candidates": [
+        "Feast",
+        "Cup Cafe",
+        "Baja Cafe of Tucson",
+        "Vivace Restaurant",
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Guadalajara Original Grill",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Gates Pass",
+      "candidates": [
+        "Gates Pass",
+        "Cactus Forest Drive",
+        "Trail Dust Town",
+        "Red Hills Visitor Center",
+        "Tucson Botanical Gardens",
+        "Arizona-Sonora Desert Museum",
+        "Reid Park Zoo",
+        "The Gaslight Theatre",
+        "University of Arizona",
+        "Catalina State Park",
+        "Madera Canyon",
+        "Mark Sublette Medicine Man Gallery",
+        "Mission San Xavier del Bac",
+        "Sabino Canyon Recreation Area",
+        "Pima Air and Space Museum",
+        "The Mini Time Machine Museum of Miniatures",
+        "DeGrazia Gallery in the Sun Museum",
+        "Saguaro National Park",
+        "Tohono Chul",
+        "Mt. Lemmon Scenic Byway"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Feast",
+      "candidates": [
+        "Feast",
+        "Cup Cafe",
+        "Baja Cafe of Tucson",
+        "Vivace Restaurant",
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cup Cafe",
+      "candidates": [
+        "Cup Cafe",
+        "Baja Cafe of Tucson",
+        "Vivace Restaurant",
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Midtown Retreat",
+      "candidates": [
+        "Private Midtown Retreat",
+        "Attractive Casita In Tucson",
+        "Accessible Private Studio, Entrance & Parking.",
+        "UofA gem. Gorgeous and convenient.",
+        "Peaceful Casita in the Foothills",
+        "TREAT GUEST HOUSE Private, Quiet, Comfortable",
+        "Desert Solitaire - Rustic Mexican Style Home",
+        "The Coop- Luxury guest house with ideal location",
+        "Historic 4th Ave Sunshine Suite",
+        "3 Palms Hotel - Deluxe King Room City View"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Baja Cafe of Tucson",
+      "candidates": [
+        "Baja Cafe of Tucson",
+        "Vivace Restaurant",
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cactus Forest Drive",
+      "candidates": [
+        "Cactus Forest Drive",
+        "Trail Dust Town",
+        "Red Hills Visitor Center",
+        "Tucson Botanical Gardens",
+        "Arizona-Sonora Desert Museum",
+        "Reid Park Zoo",
+        "The Gaslight Theatre",
+        "University of Arizona",
+        "Catalina State Park",
+        "Madera Canyon",
+        "Mark Sublette Medicine Man Gallery",
+        "Mission San Xavier del Bac",
+        "Sabino Canyon Recreation Area",
+        "Pima Air and Space Museum",
+        "The Mini Time Machine Museum of Miniatures",
+        "DeGrazia Gallery in the Sun Museum",
+        "Saguaro National Park",
+        "Tohono Chul",
+        "Mt. Lemmon Scenic Byway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Vivace Restaurant",
+      "candidates": [
+        "Vivace Restaurant",
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Locale Neighborhood Italian",
+      "candidates": [
+        "Locale Neighborhood Italian",
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0515324, from Tucson to Everett, Departure Time: 14:11, Arrival Time: 17:26",
+      "candidates": [
+        "Flight Number: F0515324, from Tucson to Everett, Departure Time: 14:11, Arrival Time: 17:26",
+        "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "North Italia",
+      "candidates": [
+        "North Italia",
+        "Pinnacle Peak",
+        "Sushi On Oracle",
+        "Coronet Restaurant",
+        "Wildflower",
+        "Renee's",
+        "5 Points Market and Restaurant",
+        "Prep & Pastry",
+        "Bobo's Restaurant",
+        "Cafe a La C'Art",
+        "Blue Willow Restaurant & Gift Shop",
+        "Jun Dynasty",
+        "Mariscos Chihuahua",
+        "Rocco's Little Chicago",
+        "Contigo Latin Kitchen",
+        "Silver Saddle Steakhouse",
+        "Flying V Bar & Grill",
+        "It's Greek to Me",
+        "Kingfisher Bar and Grill",
+        "Opa's Best Greek American Cuisine",
+        "El Charro Cafe - The Original",
+        "Mi Nidito Restaurant, Inc",
+        "Arizona Inn - The Main Dining Room",
+        "Bob's Steak & Chop House - Tucson",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Charro Steak & Del Rey",
+        "The Grill at Hacienda del Sol",
+        "Guiseppe's Ristorante Italiano",
+        "Scordato's Pizzeria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Trail Dust Town",
+      "candidates": [
+        "Trail Dust Town",
+        "Red Hills Visitor Center",
+        "Tucson Botanical Gardens",
+        "Arizona-Sonora Desert Museum",
+        "Reid Park Zoo",
+        "The Gaslight Theatre",
+        "University of Arizona",
+        "Catalina State Park",
+        "Madera Canyon",
+        "Mark Sublette Medicine Man Gallery",
+        "Mission San Xavier del Bac",
+        "Sabino Canyon Recreation Area",
+        "Pima Air and Space Museum",
+        "The Mini Time Machine Museum of Miniatures",
+        "DeGrazia Gallery in the Sun Museum",
+        "Saguaro National Park",
+        "Tohono Chul",
+        "Mt. Lemmon Scenic Byway"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Everett to Tucson",
+      "transportation": "Taxi, from Everett to Tucson, Not feasible to drive from Everett to Tucson",
+      "accommodation": "UofA gem. Gorgeous and convenient.",
+      "breakfast": "Guadalajara Original Grill",
+      "attractions": [
+        "Gates Pass"
+      ],
+      "lunch": "Feast",
+      "dinner": "Cup Cafe",
+      "poi_blocks": [
+        {
+          "name": "UofA gem. Gorgeous and convenient.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Babcock",
+          "dist_m": 309.81
+        },
+        {
+          "name": "UofA gem. Gorgeous and convenient.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Babcock",
+          "dist_m": 309.81
+        },
+        {
+          "name": "Guadalajara Original Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "9004 Lot",
+          "dist_m": 238.37
+        },
+        {
+          "name": "Gates Pass",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "9006 Lot",
+          "dist_m": 11636.97
+        },
+        {
+          "name": "Feast",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "El Con Center",
+          "dist_m": 1580.72
+        },
+        {
+          "name": "Cup Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Time Market South",
+          "dist_m": 1060.95
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Tucson to Tucson",
+      "transportation": "-",
+      "accommodation": "Private Midtown Retreat",
+      "breakfast": "Baja Cafe of Tucson",
+      "attractions": [
+        "Cactus Forest Drive"
+      ],
+      "lunch": "Vivace Restaurant",
+      "dinner": "Locale Neighborhood Italian",
+      "poi_blocks": [
+        {
+          "name": "Private Midtown Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "El Con Center",
+          "dist_m": 3892.54
+        },
+        {
+          "name": "Private Midtown Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "El Con Center",
+          "dist_m": 3892.54
+        },
+        {
+          "name": "Baja Cafe of Tucson",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "El Con Center",
+          "dist_m": 7188.68
+        },
+        {
+          "name": "Cactus Forest Drive",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "El Con Center",
+          "dist_m": 17810.11
+        },
+        {
+          "name": "Vivace Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "9004 Lot",
+          "dist_m": 6195.34
+        },
+        {
+          "name": "Locale Neighborhood Italian",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "El Con Center",
+          "dist_m": 1020.01
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Tucson to Everett",
+      "transportation": "Flight Number: F0515324, from Tucson to Everett, Departure Time: 14:11, Arrival Time: 17:26",
+      "accommodation": "-",
+      "breakfast": "North Italia",
+      "attractions": [
+        "Trail Dust Town"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Midtown Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "El Con Center",
+          "dist_m": 3892.54
+        },
+        {
+          "name": "North Italia",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "9004 Lot",
+          "dist_m": 6274.73
+        },
+        {
+          "name": "Trail Dust Town",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "17:20",
+          "nearest_transit": "El Con Center",
+          "dist_m": 6794.59
+        }
+      ]
+    }
+  ]
+}

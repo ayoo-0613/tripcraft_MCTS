@@ -1,0 +1,65 @@
+{
+  "idx": 191,
+  "JSON": {
+    "org": "San Diego",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-23",
+      "2024-11-24",
+      "2024-11-25"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "smoking",
+      "cuisine": "American",
+      "room type": null,
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 2850.0,
+    "query": "Plan a 3-day trip for 2 people from San Diego to Seattle from November 23rd to November 25th, 2024, with a budget of $2,850. Accommodations should allow smoking, and dining options should include American cuisine.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from San Diego to Seattle",
+      "transportation": "Taxi, from San Diego to Seattle, Duration: 1427.1833333333334 mins, Distance: 2018.8546999999999 km, Estimated Cost: $2018.85",
+      "breakfast": "Lola, Seattle",
+      "attraction": "Space Needle, Seattle",
+      "lunch": "Metropolitan Grill, Seattle",
+      "dinner": "The Capital Grille, Seattle",
+      "accommodation": "Cozy room near UW, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: 4th Ave & University, 41.04m away; Cozy room near UW, stay from 22:15 to 08:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "13 Coins Restaurant, Seattle",
+      "attraction": "Seattle Aquarium, Seattle",
+      "lunch": "Chan Seattle, Seattle",
+      "dinner": "-",
+      "accommodation": "Queen Anne Courtyard Suite, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Queen Anne Courtyard Suite, stay from 08:00 to 09:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away; 13 Coins Restaurant, visit from 09:25 to 10:16, nearest transit: King Street Station, 107.40m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; Chan Seattle, visit from 13:57 to 14:56, nearest transit: Pine St & 9th Ave, 68.08m away; Queen Anne Courtyard Suite, stay from 22:15 to 08:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to San Diego",
+      "transportation": "Transfer, from Seattle to San Diego",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Queen Anne Courtyard Suite, stay from 08:00 to 09:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away."
+    }
+  ]
+}

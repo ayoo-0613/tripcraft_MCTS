@@ -1,0 +1,617 @@
+{
+  "idx": 198,
+  "reward": 15.279976245057604,
+  "budget_used": 2372.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to New York, Not feasible to drive from Dallas to New York",
+      "candidates": [
+        "Flight Number: F0009344, from Dallas to New York, Departure Time: 17:35, Arrival Time: 21:44",
+        "Taxi, from Dallas to New York, Not feasible to drive from Dallas to New York"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lamartine Chelsea 1B",
+      "candidates": [
+        "Lamartine Chelsea 1B",
+        "One King room at Brooklyn",
+        "Bright, Cozy room in Brooklyn",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "High Rise haven + Free Breakfast",
+        "New Cozy Escape, Heart of Times Square",
+        "Big Apple Experience | Central Park. Gym",
+        "Church view bedroom in Harlem brownstone",
+        "NYC Bliss | Sightseeing. Fitness Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Rainbow Room",
+      "candidates": [
+        "Rainbow Room",
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Rockefeller Center",
+      "candidates": [
+        "Brooklyn Bridge",
+        "Times Square",
+        "Rockefeller Center",
+        "The High Line",
+        "Manhattan Skyline",
+        "SUMMIT One Vanderbilt",
+        "Central Park",
+        "The Oculus",
+        "One World Observatory",
+        "Empire State Building",
+        "Top of the Rock",
+        "Statue of Liberty",
+        "Grand Central Terminal",
+        "The National 9/11 Memorial & Museum",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Broadway Lounge",
+      "candidates": [
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lobster Place",
+      "candidates": [
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lamartine Chelsea 1B",
+      "candidates": [
+        "Lamartine Chelsea 1B",
+        "One King room at Brooklyn",
+        "Bright, Cozy room in Brooklyn",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "High Rise haven + Free Breakfast",
+        "New Cozy Escape, Heart of Times Square",
+        "Big Apple Experience | Central Park. Gym",
+        "Church view bedroom in Harlem brownstone",
+        "NYC Bliss | Sightseeing. Fitness Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "BOOM",
+      "candidates": [
+        "BOOM",
+        "Bryant Park Grill",
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Brooklyn Bridge",
+      "candidates": [
+        "Brooklyn Bridge",
+        "Times Square",
+        "The High Line",
+        "Manhattan Skyline",
+        "SUMMIT One Vanderbilt",
+        "Central Park",
+        "The Oculus",
+        "One World Observatory",
+        "Empire State Building",
+        "Top of the Rock",
+        "Statue of Liberty",
+        "Grand Central Terminal",
+        "The National 9/11 Memorial & Museum",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bryant Park Grill",
+      "candidates": [
+        "Bryant Park Grill",
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Westway Diner",
+      "candidates": [
+        "Westway Diner",
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0059549, from New York to Dallas, Departure Time: 11:28, Arrival Time: 14:15",
+      "candidates": [
+        "Flight Number: F0059549, from New York to Dallas, Departure Time: 11:28, Arrival Time: 14:15",
+        "Taxi, from New York to Dallas, Not feasible to drive from New York to Dallas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Harry's",
+      "candidates": [
+        "Harry's",
+        "R Lounge",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "Peak Restaurant & Bar",
+        "Gaonnuri",
+        "Bstro 38",
+        "Mari Vanna",
+        "RH Rooftop Restaurant New York",
+        "Sylvia's Restaurant",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Manhatta",
+        "Gallaghers Steakhouse",
+        "FIG & OLIVE",
+        "La Grande Boucherie",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Blue Smoke Battery Park City",
+        "Papillon Bistro & Bar",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Sarge’s Delicatessen & Diner",
+        "Azalea Ristorante",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to New York",
+      "transportation": "Taxi, from Dallas to New York, Not feasible to drive from Dallas to New York",
+      "accommodation": "Lamartine Chelsea 1B",
+      "breakfast": "Rainbow Room",
+      "attractions": [
+        "Rockefeller Center"
+      ],
+      "lunch": "Broadway Lounge",
+      "dinner": "Lobster Place",
+      "poi_blocks": [
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Rainbow Room",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 50 ST/AVENUE OF THE AMERICAS",
+          "dist_m": 92.4
+        },
+        {
+          "name": "Rockefeller Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "W 49 ST/5 AV",
+          "dist_m": 88.57
+        },
+        {
+          "name": "Broadway Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "7 AV/W 44 ST",
+          "dist_m": 146.82
+        },
+        {
+          "name": "Lobster Place",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 138.2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from New York to New York",
+      "transportation": "-",
+      "accommodation": "Lamartine Chelsea 1B",
+      "breakfast": "BOOM",
+      "attractions": [
+        "Brooklyn Bridge"
+      ],
+      "lunch": "Bryant Park Grill",
+      "dinner": "Westway Diner",
+      "poi_blocks": [
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "BOOM",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 126.07
+        },
+        {
+          "name": "Brooklyn Bridge",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "PEARL ST/PECK SLIP",
+          "dist_m": 511.19
+        },
+        {
+          "name": "Bryant Park Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5 AV/W 42 ST",
+          "dist_m": 147.14
+        },
+        {
+          "name": "Westway Diner",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "9 AV/W 44 ST",
+          "dist_m": 44.32
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from New York to Dallas",
+      "transportation": "Flight Number: F0059549, from New York to Dallas, Departure Time: 11:28, Arrival Time: 14:15",
+      "accommodation": "-",
+      "breakfast": "Harry's",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Harry's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "WATER ST/HANOVER SQ",
+          "dist_m": 85.83
+        }
+      ]
+    }
+  ]
+}

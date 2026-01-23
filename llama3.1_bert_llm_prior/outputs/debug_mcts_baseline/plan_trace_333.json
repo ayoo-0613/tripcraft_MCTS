@@ -1,0 +1,628 @@
+{
+  "idx": 333,
+  "reward": 15.203907617429337,
+  "budget_used": 1351.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+      "candidates": [
+        "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+        "Taxi, from Dallas to Fort Wayne, Duration: 1097.3966666666668 mins, Distance: 1628.4868000000001 km, Estimated Cost: $1628.49"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lakeside Park Bungalow",
+      "candidates": [
+        "Lakeside Park Bungalow",
+        "Friendly Foster Park bungalow!",
+        "Downtown Carriage House / Pet Ok",
+        "Carriage House near Downtown",
+        "*The Cambridge Place*",
+        "Airy Studio Near Downtown",
+        "Sunny Victorian 1-Bedroom apartment near Downtown",
+        "The Palomino - Centrally Located Loft Apartment",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Wit's End"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Copper Spoon",
+      "candidates": [
+        "Copper Spoon",
+        "Oyster Bar",
+        "The Lucky Moose",
+        "Tolon Restaurant",
+        "Black Canyon Restaurant",
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lakeside Park Bungalow",
+      "candidates": [
+        "Lakeside Park Bungalow",
+        "Friendly Foster Park bungalow!",
+        "Downtown Carriage House / Pet Ok",
+        "Carriage House near Downtown",
+        "*The Cambridge Place*",
+        "Airy Studio Near Downtown",
+        "Sunny Victorian 1-Bedroom apartment near Downtown",
+        "The Palomino - Centrally Located Loft Apartment",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Wit's End"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Oyster Bar",
+      "candidates": [
+        "Oyster Bar",
+        "The Lucky Moose",
+        "Tolon Restaurant",
+        "Black Canyon Restaurant",
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Embassy Theatre",
+      "candidates": [
+        "Embassy Theatre",
+        "Room to Escape",
+        "DeBrand Fine Chocolates",
+        "Fort Wayne Trails",
+        "Parkview Field",
+        "Fort Wayne Food Tours",
+        "Historic Fort Wayne",
+        "Fort Wayne Firefighters Museum",
+        "Fort Wayne Escape Room",
+        "Allen County Public Library",
+        "Fort Wayne Visitors Center",
+        "Locked Up Escape Room - Fort Wayne",
+        "Fort Wayne Outfitters and Bike Depot",
+        "Fort Wayne Museum of Art",
+        "Fort Wayne Children's Zoo",
+        "Foellinger-Freimann Botanical Conservatory",
+        "Foellinger Theatre - Fort Wayne Parks and Recreation"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Lucky Moose",
+      "candidates": [
+        "The Lucky Moose",
+        "Tolon Restaurant",
+        "Black Canyon Restaurant",
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Tolon Restaurant",
+      "candidates": [
+        "Tolon Restaurant",
+        "Black Canyon Restaurant",
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Fort Wayne to Dallas",
+      "candidates": [
+        "Transfer, from Fort Wayne to Dallas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Black Canyon Restaurant",
+      "candidates": [
+        "Black Canyon Restaurant",
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Room to Escape",
+      "candidates": [
+        "Room to Escape",
+        "DeBrand Fine Chocolates",
+        "Fort Wayne Trails",
+        "Parkview Field",
+        "Fort Wayne Food Tours",
+        "Historic Fort Wayne",
+        "Fort Wayne Firefighters Museum",
+        "Fort Wayne Escape Room",
+        "Allen County Public Library",
+        "Fort Wayne Visitors Center",
+        "Locked Up Escape Room - Fort Wayne",
+        "Fort Wayne Outfitters and Bike Depot",
+        "Fort Wayne Museum of Art",
+        "Fort Wayne Children's Zoo",
+        "Foellinger-Freimann Botanical Conservatory",
+        "Foellinger Theatre - Fort Wayne Parks and Recreation"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Hoppy Gnome",
+      "candidates": [
+        "The Hoppy Gnome",
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Proximo",
+      "candidates": [
+        "Proximo",
+        "Cosmos House Of Pancakes",
+        "Casa Ristorante",
+        "The Bluebird Restaurant",
+        "Conner's Rooftop",
+        "BakerStreet",
+        "Hideout125",
+        "800 Degrees Wood Fired Pizza",
+        "Junk Ditch Brewing Company",
+        "Eddie Merlot's",
+        "Paula's On Main",
+        "Catablu Grille",
+        "Han Dynasty",
+        "Sara's Family Restaurant",
+        "Don Hall's Factory",
+        "Agaves Mexican Grill",
+        "Wu's Fine Chinese Cuisine",
+        "Ruth's Chris Steak House",
+        "Chop's Steak & Seafood",
+        "Los cabos mexican grill",
+        "The Original Oley's Pizza",
+        "Salvatori's",
+        "Don Hall's Gas House & The Deck",
+        "Fort Wayne's Famous Coney Island",
+        "Conner's Kitchen & Bar- Fort Wayne",
+        "Hall's Tavern at Coventry",
+        "Ziano's Italian eatery",
+        "Cork 'N Cleaver Steak & Seafood",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Fort Wayne",
+      "transportation": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28",
+      "accommodation": "Lakeside Park Bungalow",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Copper Spoon",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "15:58",
+          "end": "16:58",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Copper Spoon",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Ewing St. at Jefferson Blvd. (NB)",
+          "dist_m": 131.99
+        },
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Wayne to Fort Wayne",
+      "transportation": "-",
+      "accommodation": "Lakeside Park Bungalow",
+      "breakfast": "Oyster Bar",
+      "attractions": [
+        "Embassy Theatre"
+      ],
+      "lunch": "The Lucky Moose",
+      "dinner": "Tolon Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Oyster Bar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "S. Calhoun St. north of Masterson St. (NB)",
+          "dist_m": 28.67
+        },
+        {
+          "name": "Embassy Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Northbound on Harrison @ Jefferson",
+          "dist_m": 44.14
+        },
+        {
+          "name": "The Lucky Moose",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Dupont Branch Library (Does not pull in)",
+          "dist_m": 128.23
+        },
+        {
+          "name": "Tolon Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W. Main St. at Harrison St. (WB)",
+          "dist_m": 82.47
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Wayne to Dallas",
+      "transportation": "Transfer, from Fort Wayne to Dallas",
+      "accommodation": "-",
+      "breakfast": "Black Canyon Restaurant",
+      "attractions": [
+        "Room to Escape"
+      ],
+      "lunch": "The Hoppy Gnome",
+      "dinner": "Proximo",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Black Canyon Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Parkview YMCA",
+          "dist_m": 1174.55
+        },
+        {
+          "name": "Room to Escape",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Coldwater Rd. south of Ernst Dr. (SB)",
+          "dist_m": 342.38
+        },
+        {
+          "name": "The Hoppy Gnome",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Southbound on Calhoun St. at Berry St.",
+          "dist_m": 22.61
+        },
+        {
+          "name": "Proximo",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Calhoun St. before Wayne St. (NB)",
+          "dist_m": 148.86
+        }
+      ]
+    }
+  ]
+}

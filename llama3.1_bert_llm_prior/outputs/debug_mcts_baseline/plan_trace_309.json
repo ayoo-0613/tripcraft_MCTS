@@ -1,0 +1,469 @@
+{
+  "idx": 309,
+  "reward": 13.70444485399871,
+  "budget_used": 1791.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "candidates": [
+        "Flight Number: F0483668, from Chicago to Fort Dodge, Departure Time: 11:41, Arrival Time: 12:50",
+        "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Clean and cozy family home",
+      "candidates": [
+        "Backyard Oasis!",
+        "Central duplex",
+        "Twin Lakes Family Escape",
+        "Tiny House Living Experience",
+        "Clean and cozy family home",
+        "The River View at Evergreen Hill",
+        "12 Private twin room at cottage 5",
+        "\"Cottage on the Edge\" in Steamboat Rock, IA",
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Gowrie Guest House"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Wendy's",
+      "candidates": [
+        "Subway",
+        "Village Inn",
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Dodge's",
+        "Burger King",
+        "Perkins Restaurant & Bakery",
+        "Pizza Ranch of Fort Dodge",
+        "Wendy's",
+        "Gaga & Hoo",
+        "Applebee's",
+        "Dariette",
+        "A Pinch Of Love Cafe",
+        "Community Tap and Pizza",
+        "Culver's",
+        "McDonald's",
+        "Tropical Smoothie Cafe",
+        "Rides Bar and Grill",
+        "Sneakers Eatry and Pub",
+        "Taco Tico",
+        "Ja-Mar Drive in Restaurant",
+        "Domino's Pizza",
+        "Mineral City Mill and Grill",
+        "Central Perk and Dessert",
+        "Willow Ridge Golf Course & Restaurant",
+        "Tres Amigos Mexican Restaurant",
+        "Tea Thyme & Thyme to Shop",
+        "Hacienda Vieja",
+        "Ninja Sushi Steakhouse",
+        "Lomitas Mexican Restaurant",
+        "Olde Boston's Restaurant & Pub",
+        "Dunkin Donuts",
+        "Larita's Cakes 'N More",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Community Orchard",
+      "candidates": [
+        "Community Orchard",
+        "Studio Fusion",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Soldier Creek Winery",
+        "Blanden Art Museum",
+        "The Fort Museum & Frontier Village"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Subway",
+      "candidates": [
+        "Subway",
+        "Village Inn",
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Dodge's",
+        "Burger King",
+        "Perkins Restaurant & Bakery",
+        "Pizza Ranch of Fort Dodge",
+        "Gaga & Hoo",
+        "Applebee's",
+        "Dariette",
+        "A Pinch Of Love Cafe",
+        "Community Tap and Pizza",
+        "Culver's",
+        "McDonald's",
+        "Tropical Smoothie Cafe",
+        "Rides Bar and Grill",
+        "Sneakers Eatry and Pub",
+        "Taco Tico",
+        "Ja-Mar Drive in Restaurant",
+        "Domino's Pizza",
+        "Mineral City Mill and Grill",
+        "Central Perk and Dessert",
+        "Willow Ridge Golf Course & Restaurant",
+        "Tres Amigos Mexican Restaurant",
+        "Tea Thyme & Thyme to Shop",
+        "Hacienda Vieja",
+        "Ninja Sushi Steakhouse",
+        "Lomitas Mexican Restaurant",
+        "Olde Boston's Restaurant & Pub",
+        "Dunkin Donuts",
+        "Larita's Cakes 'N More",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Studio Fusion",
+      "candidates": [
+        "Studio Fusion",
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Soldier Creek Winery",
+        "Blanden Art Museum",
+        "The Fort Museum & Frontier Village"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Village Inn",
+      "candidates": [
+        "Village Inn",
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Dodge's",
+        "Burger King",
+        "Perkins Restaurant & Bakery",
+        "Pizza Ranch of Fort Dodge",
+        "Gaga & Hoo",
+        "Applebee's",
+        "Dariette",
+        "A Pinch Of Love Cafe",
+        "Community Tap and Pizza",
+        "Culver's",
+        "McDonald's",
+        "Tropical Smoothie Cafe",
+        "Rides Bar and Grill",
+        "Sneakers Eatry and Pub",
+        "Taco Tico",
+        "Ja-Mar Drive in Restaurant",
+        "Domino's Pizza",
+        "Mineral City Mill and Grill",
+        "Central Perk and Dessert",
+        "Willow Ridge Golf Course & Restaurant",
+        "Tres Amigos Mexican Restaurant",
+        "Tea Thyme & Thyme to Shop",
+        "Hacienda Vieja",
+        "Ninja Sushi Steakhouse",
+        "Lomitas Mexican Restaurant",
+        "Olde Boston's Restaurant & Pub",
+        "Dunkin Donuts",
+        "Larita's Cakes 'N More",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Backyard Oasis!",
+      "candidates": [
+        "Backyard Oasis!",
+        "Central duplex",
+        "Twin Lakes Family Escape",
+        "Tiny House Living Experience",
+        "Clean and cozy family home",
+        "The River View at Evergreen Hill",
+        "12 Private twin room at cottage 5",
+        "\"Cottage on the Edge\" in Steamboat Rock, IA",
+        "Newly-renovated Cozy Home in Convenient Location",
+        "Gowrie Guest House"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Tom Thumb Drive Inn",
+      "candidates": [
+        "Pizza Hut",
+        "Sports Page",
+        "Tom Thumb Drive Inn",
+        "Dodge's",
+        "Burger King",
+        "Perkins Restaurant & Bakery",
+        "Pizza Ranch of Fort Dodge",
+        "Gaga & Hoo",
+        "Applebee's",
+        "Dariette",
+        "A Pinch Of Love Cafe",
+        "Community Tap and Pizza",
+        "Culver's",
+        "McDonald's",
+        "Tropical Smoothie Cafe",
+        "Rides Bar and Grill",
+        "Sneakers Eatry and Pub",
+        "Taco Tico",
+        "Ja-Mar Drive in Restaurant",
+        "Domino's Pizza",
+        "Mineral City Mill and Grill",
+        "Central Perk and Dessert",
+        "Willow Ridge Golf Course & Restaurant",
+        "Tres Amigos Mexican Restaurant",
+        "Tea Thyme & Thyme to Shop",
+        "Hacienda Vieja",
+        "Ninja Sushi Steakhouse",
+        "Lomitas Mexican Restaurant",
+        "Olde Boston's Restaurant & Pub",
+        "Dunkin Donuts",
+        "Larita's Cakes 'N More",
+        "Pancheros Mexican Grill - Fort Dodge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fort Frenzy",
+      "candidates": [
+        "Fort Frenzy",
+        "Shiny Top Brewing",
+        "Soldier Creek Winery",
+        "Blanden Art Museum",
+        "The Fort Museum & Frontier Village"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Shiny Top Brewing",
+      "candidates": [
+        "Shiny Top Brewing",
+        "Soldier Creek Winery",
+        "Blanden Art Museum",
+        "The Fort Museum & Frontier Village"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Fort Dodge to Chicago",
+      "candidates": [
+        "Transfer, from Fort Dodge to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Fort Dodge",
+      "transportation": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
+      "accommodation": "Clean and cozy family home",
+      "breakfast": "Wendy's",
+      "attractions": [
+        "Community Orchard",
+        "Studio Fusion"
+      ],
+      "lunch": "Subway",
+      "dinner": "Village Inn",
+      "poi_blocks": [
+        {
+          "name": "Clean and cozy family home",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 2575.14
+        },
+        {
+          "name": "Clean and cozy family home",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Starlite",
+          "dist_m": 2575.14
+        },
+        {
+          "name": "Wendy's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "S 25th St and 5th Ave S",
+          "dist_m": 215.15
+        },
+        {
+          "name": "Community Orchard",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Village Green",
+          "dist_m": 3093.21
+        },
+        {
+          "name": "Subway",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 101.37
+        },
+        {
+          "name": "Studio Fusion",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "17:27",
+          "nearest_transit": "N 11th St and Central Ave",
+          "dist_m": 71.87
+        },
+        {
+          "name": "Village Inn",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "N 15th Ave and 20th Ave N",
+          "dist_m": 67.45
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "-",
+      "accommodation": "Backyard Oasis!",
+      "breakfast": "Tom Thumb Drive Inn",
+      "attractions": [
+        "Fort Frenzy",
+        "Shiny Top Brewing"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Backyard Oasis!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fort Dodge Senior High School",
+          "dist_m": 269.88
+        },
+        {
+          "name": "Backyard Oasis!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fort Dodge Senior High School",
+          "dist_m": 269.88
+        },
+        {
+          "name": "Tom Thumb Drive Inn",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "A St and Ave O W",
+          "dist_m": 90.84
+        },
+        {
+          "name": "Fort Frenzy",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "1st Ave S and S 31st St",
+          "dist_m": 108.41
+        },
+        {
+          "name": "Shiny Top Brewing",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Public Library",
+          "dist_m": 115.5
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Dodge to Chicago",
+      "transportation": "Transfer, from Fort Dodge to Chicago",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Backyard Oasis!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fort Dodge Senior High School",
+          "dist_m": 269.88
+        }
+      ]
+    }
+  ]
+}

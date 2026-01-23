@@ -1,0 +1,67 @@
+{
+  "idx": 280,
+  "JSON": {
+    "org": "Miami",
+    "dest": "Baltimore",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": [
+        "Arts & Theatre"
+      ],
+      "attraction": null
+    },
+    "budget": 1800.0,
+    "query": "Plan a 3-day trip for 2 people from Miami to Baltimore from November 3rd to November 5th, 2024, with a budget of $1,800. Include events related to Arts & Theatre in the itinerary.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Miami to Baltimore",
+      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views, Baltimore",
+      "event": "Shucked (Touring), Baltimore",
+      "point_of_interest_list": "Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 08:00 to 09:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away; Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 22:15 to 08:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "Transfer, from Baltimore to Baltimore",
+      "breakfast": "Charleston Restaurant, Baltimore",
+      "attraction": "Little Italy, Baltimore; Inner Harbor, Baltimore",
+      "lunch": "Phillips Seafood, Baltimore",
+      "dinner": "The Capital Grille, Baltimore",
+      "accommodation": "Private Bed next to JHH, Baltimore",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Charleston Restaurant, visit from 09:25 to 10:16, nearest transit: SHOT TOWER STATION (METRO) sb, 915.06m away; Little Italy, visit from 11:30 to 14:07, nearest transit: SHOT TOWER STATION (METRO) sb, 507.45m away; Phillips Seafood, visit from 13:57 to 14:56, nearest transit: SHOT TOWER METRO West Entrance, 344.26m away; Inner Harbor, visit from 16:30 to 20:27, nearest transit: CHARLES CENTER METRO Stair 5, 594.73m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Baltimore to Miami",
+      "transportation": "Transfer, from Baltimore to Miami",
+      "breakfast": "The Food Market, Baltimore",
+      "attraction": "Peabody Library, Baltimore; Horseshoe Casino, Baltimore",
+      "lunch": "Blue Moon Cafe, Baltimore",
+      "dinner": "The Helmand, Baltimore",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; The Food Market, visit from 09:25 to 10:16, nearest transit: MONDAWMIN METRO Main Entrance, 2207.42m away; Peabody Library, visit from 11:30 to 11:57, nearest transit: STATE CENTER (METRO) sb, 660.61m away; Blue Moon Cafe, visit from 13:57 to 14:56, nearest transit: SHOT TOWER STATION (METRO) sb, 1161.67m away; Horseshoe Casino, visit from 16:30 to 17:57, nearest transit: CHARLES CENTER METRO West Entrance, 2023.43m away; The Helmand, visit from 19:51 to 21:00, nearest transit: STATE CENTER (METRO) sb, 508.53m away."
+    }
+  ]
+}

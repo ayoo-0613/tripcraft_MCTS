@@ -1,0 +1,1165 @@
+{
+  "idx": 136,
+  "reward": -1295.9400959854752,
+  "budget_used": 1822.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Boston to New York, Duration: 282.14166666666665 mins, Distance: 344.7965 km, Estimated Cost: $344.80",
+      "candidates": [
+        "Flight Number: F0129109, from Boston to New York, Departure Time: 15:10, Arrival Time: 16:15",
+        "Taxi, from Boston to New York, Duration: 282.14166666666665 mins, Distance: 344.7965 km, Estimated Cost: $344.80"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lamartine Chelsea 1B",
+      "candidates": [
+        "Bright, Cozy room in Brooklyn",
+        "One King room at Brooklyn",
+        "Lamartine Chelsea 1B",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "High Rise haven + Free Breakfast",
+        "New Cozy Escape, Heart of Times Square",
+        "Big Apple Experience | Central Park. Gym",
+        "Church view bedroom in Harlem brownstone",
+        "NYC Bliss | Sightseeing. Fitness Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Rainbow Room",
+      "candidates": [
+        "Rainbow Room",
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Rockefeller Center",
+      "candidates": [
+        "Brooklyn Bridge",
+        "Times Square",
+        "Rockefeller Center",
+        "Manhattan Skyline",
+        "The High Line",
+        "Central Park",
+        "SUMMIT One Vanderbilt",
+        "The Oculus",
+        "Empire State Building",
+        "One World Observatory",
+        "Top of the Rock",
+        "Statue of Liberty",
+        "The National 9/11 Memorial & Museum",
+        "Grand Central Terminal",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Broadway Lounge",
+      "candidates": [
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lobster Place",
+      "candidates": [
+        "Lobster Place",
+        "BOOM",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bright, Cozy room in Brooklyn",
+      "candidates": [
+        "Bright, Cozy room in Brooklyn",
+        "One King room at Brooklyn",
+        "Lamartine Chelsea 1B",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "High Rise haven + Free Breakfast",
+        "New Cozy Escape, Heart of Times Square",
+        "Big Apple Experience | Central Park. Gym",
+        "Church view bedroom in Harlem brownstone",
+        "NYC Bliss | Sightseeing. Fitness Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "BOOM",
+      "candidates": [
+        "BOOM",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Brooklyn Bridge",
+      "candidates": [
+        "Brooklyn Bridge",
+        "Times Square",
+        "Manhattan Skyline",
+        "The High Line",
+        "Central Park",
+        "SUMMIT One Vanderbilt",
+        "The Oculus",
+        "Empire State Building",
+        "One World Observatory",
+        "Top of the Rock",
+        "Statue of Liberty",
+        "The National 9/11 Memorial & Museum",
+        "Grand Central Terminal",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bryant Park Grill",
+      "candidates": [
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Harry's",
+      "candidates": [
+        "Harry's",
+        "Westway Diner",
+        "Peak Restaurant & Bar",
+        "Times Square Diner",
+        "Burger & Lobster",
+        "R Lounge",
+        "Bstro 38",
+        "Gaonnuri",
+        "Mari Vanna",
+        "Sylvia's Restaurant",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Rao's Restaurant",
+        "Gallaghers Steakhouse",
+        "Central Park Boathouse",
+        "Manhatta",
+        "La Grande Boucherie",
+        "FIG & OLIVE",
+        "Papillon Bistro & Bar",
+        "Nobu Fifty Seven",
+        "The Skylark - Rooftop Bar",
+        "Blue Smoke Battery Park City",
+        "Trattoria Trecolori",
+        "Azalea Ristorante",
+        "Sarge’s Delicatessen & Diner",
+        "Piccola Cucina Estiatorio",
+        "Lillie's Victorian Establishment",
+        "Del Frisco's Grille",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from New York to Newburgh, Duration: 93.08833333333334 mins, Distance: 110.7581 km, Estimated Cost: $110.76"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Glenbrook Country Villa",
+      "candidates": [
+        "Glenbrook Country Villa",
+        "The Little Red House",
+        "Quaint Newburgh Retreat",
+        "Special Nest w Private Entrance River View Porches",
+        "Lovely home in town of Newburgh",
+        "Hudson Valley Historic, Rose Room",
+        "Romantic Riverfront Retreat | Fall Foliage Views"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Alice",
+      "candidates": [
+        "Cafe Alice",
+        "Subway",
+        "Cafe Arazu",
+        "Alexis Diner",
+        "Abrams Bakery",
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Tower of Victory",
+      "candidates": [
+        "Tower of Victory",
+        "Ann Street Gallery",
+        "Pride of the Hudson",
+        "Lawrence Farms Orchards",
+        "The Captain David Crawford House",
+        "Washington's Headquarters State Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Subway",
+      "candidates": [
+        "Subway",
+        "Cafe Arazu",
+        "Alexis Diner",
+        "Abrams Bakery",
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cafe Arazu",
+      "candidates": [
+        "Cafe Arazu",
+        "Alexis Diner",
+        "Abrams Bakery",
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Glenbrook Country Villa",
+      "candidates": [
+        "Glenbrook Country Villa",
+        "The Little Red House",
+        "Quaint Newburgh Retreat",
+        "Special Nest w Private Entrance River View Porches",
+        "Lovely home in town of Newburgh",
+        "Hudson Valley Historic, Rose Room",
+        "Romantic Riverfront Retreat | Fall Foliage Views"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Alexis Diner",
+      "candidates": [
+        "Alexis Diner",
+        "Abrams Bakery",
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Ann Street Gallery",
+      "candidates": [
+        "Ann Street Gallery",
+        "Pride of the Hudson",
+        "Lawrence Farms Orchards",
+        "The Captain David Crawford House",
+        "Washington's Headquarters State Historic Site"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Abrams Bakery",
+      "candidates": [
+        "Abrams Bakery",
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The River Grill",
+      "candidates": [
+        "The River Grill",
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Newburgh to Boston, Duration: 243.10166666666666 mins, Distance: 316.741 km, Estimated Cost: $316.74"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Pizza Shop",
+      "candidates": [
+        "The Pizza Shop",
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Pride of the Hudson",
+      "candidates": [
+        "Pride of the Hudson",
+        "Lawrence Farms Orchards",
+        "The Captain David Crawford House",
+        "Washington's Headquarters State Historic Site"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Blu Pointe",
+      "candidates": [
+        "Blu Pointe",
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Newburgh Inn",
+      "candidates": [
+        "Newburgh Inn",
+        "The Wherehouse",
+        "Newburgh Brewing Co",
+        "Captain Jake's",
+        "Nellie's Restaurant",
+        "Anna's Restaurant",
+        "2 Alices Coffee Lounge",
+        "Turoni's",
+        "Adams Fairacre Farms",
+        "Tin Fish Newburgh",
+        "knob hill tavern",
+        "Prime Time Pub & Grill",
+        "Cleo's Bakery",
+        "Little Angelo's",
+        "Donut Bank Bakery and Coffee",
+        "North Plank Road Tavern",
+        "Joe's Pizza",
+        "LongHorn Steakhouse",
+        "Azzip Pizza Newburgh",
+        "Orange Hill Global Bistro",
+        "Billy Joe's Ribworks",
+        "Tony's Newburgh Lunch",
+        "Itzmi",
+        "Cosimo's On Union",
+        "Fiesta Acapulco Mexican Cuisine",
+        "Machu Picchu Peruvian Restaurant",
+        "Il Cena'Colo"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boston to New York",
+      "transportation": "Taxi, from Boston to New York, Duration: 282.14166666666665 mins, Distance: 344.7965 km, Estimated Cost: $344.80",
+      "accommodation": "Lamartine Chelsea 1B",
+      "breakfast": "Rainbow Room",
+      "attractions": [
+        "Rockefeller Center"
+      ],
+      "lunch": "Broadway Lounge",
+      "dinner": "Lobster Place",
+      "poi_blocks": [
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Lamartine Chelsea 1B",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "8 AV/W 31 ST",
+          "dist_m": 59.3
+        },
+        {
+          "name": "Rainbow Room",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 50 ST/AVENUE OF THE AMERICAS",
+          "dist_m": 92.4
+        },
+        {
+          "name": "Rockefeller Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "W 49 ST/5 AV",
+          "dist_m": 88.57
+        },
+        {
+          "name": "Broadway Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "7 AV/W 44 ST",
+          "dist_m": 146.82
+        },
+        {
+          "name": "Lobster Place",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 138.2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from New York to New York",
+      "transportation": "-",
+      "accommodation": "Bright, Cozy room in Brooklyn",
+      "breakfast": "BOOM",
+      "attractions": [
+        "Brooklyn Bridge"
+      ],
+      "lunch": "Bryant Park Grill",
+      "dinner": "Harry's",
+      "poi_blocks": [
+        {
+          "name": "Bright, Cozy room in Brooklyn",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GRAND ST/FDR DR",
+          "dist_m": 2542.01
+        },
+        {
+          "name": "Bright, Cozy room in Brooklyn",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "GRAND ST/FDR DR",
+          "dist_m": 2542.01
+        },
+        {
+          "name": "BOOM",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 126.07
+        },
+        {
+          "name": "Brooklyn Bridge",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "PEARL ST/PECK SLIP",
+          "dist_m": 511.19
+        },
+        {
+          "name": "Bryant Park Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5 AV/W 42 ST",
+          "dist_m": 147.14
+        },
+        {
+          "name": "Harry's",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "WATER ST/HANOVER SQ",
+          "dist_m": 85.83
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from New York to Newburgh",
+      "transportation": "-",
+      "accommodation": "Glenbrook Country Villa",
+      "breakfast": "Cafe Alice",
+      "attractions": [
+        "Tower of Victory"
+      ],
+      "lunch": "Subway",
+      "dinner": "Cafe Arazu",
+      "poi_blocks": [
+        {
+          "name": "Bright, Cozy room in Brooklyn",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GRAND ST/FDR DR",
+          "dist_m": 2542.01
+        },
+        {
+          "name": "Glenbrook Country Villa",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Plank Rd & Rte 9W",
+          "dist_m": 1251.81
+        },
+        {
+          "name": "Cafe Alice",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Beacon Station",
+          "dist_m": 5183193.1
+        },
+        {
+          "name": "Tower of Victory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Broadway & Grand St",
+          "dist_m": 239.25
+        },
+        {
+          "name": "Subway",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Stewart Airport",
+          "dist_m": 1208321.97
+        },
+        {
+          "name": "Cafe Arazu",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Stewart Airport",
+          "dist_m": 1205555.11
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Newburgh to Newburgh",
+      "transportation": "-",
+      "accommodation": "Glenbrook Country Villa",
+      "breakfast": "Alexis Diner",
+      "attractions": [
+        "Ann Street Gallery"
+      ],
+      "lunch": "Abrams Bakery",
+      "dinner": "The River Grill",
+      "poi_blocks": [
+        {
+          "name": "Glenbrook Country Villa",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Plank Rd & Rte 9W",
+          "dist_m": 1251.81
+        },
+        {
+          "name": "Glenbrook Country Villa",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Plank Rd & Rte 9W",
+          "dist_m": 1251.81
+        },
+        {
+          "name": "Alexis Diner",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Plank Rd & Rte 9W",
+          "dist_m": 321.47
+        },
+        {
+          "name": "Ann Street Gallery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Broadway & Liberty St",
+          "dist_m": 109.37
+        },
+        {
+          "name": "Abrams Bakery",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Stewart Airport",
+          "dist_m": 387186.34
+        },
+        {
+          "name": "The River Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Broadway & Grand St",
+          "dist_m": 523.55
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Newburgh to Boston",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "The Pizza Shop",
+      "attractions": [
+        "Pride of the Hudson"
+      ],
+      "lunch": "Blu Pointe",
+      "dinner": "Newburgh Inn",
+      "poi_blocks": [
+        {
+          "name": "Glenbrook Country Villa",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Plank Rd & Rte 9W",
+          "dist_m": 1251.81
+        },
+        {
+          "name": "The Pizza Shop",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Broadway & Grand St",
+          "dist_m": 292.42
+        },
+        {
+          "name": "Pride of the Hudson",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "South St & Grand St",
+          "dist_m": 489.12
+        },
+        {
+          "name": "Blu Pointe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "South St & Grand St",
+          "dist_m": 382.06
+        },
+        {
+          "name": "Newburgh Inn",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Beacon Station",
+          "dist_m": 5232669.51
+        }
+      ]
+    }
+  ]
+}

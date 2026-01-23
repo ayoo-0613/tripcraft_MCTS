@@ -1,0 +1,610 @@
+{
+  "idx": 153,
+  "reward": 14.01172464847219,
+  "budget_used": 1457.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0054983, from Sarasota to Baltimore, Departure Time: 13:12, Arrival Time: 15:32",
+      "candidates": [
+        "Flight Number: F0054983, from Sarasota to Baltimore, Departure Time: 13:12, Arrival Time: 15:32",
+        "Taxi, from Sarasota to Baltimore, Duration: 1125.3016666666667 mins, Distance: 1595.0376999999999 km, Estimated Cost: $1595.04"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "candidates": [
+        "Charming Baltimore Home w/Parking - Dog Friendly!",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Loaded Home - Heart Of Fells Point Waterfront Area",
+        "Entire Comfy Studio @Charles Village -5min frm JHU",
+        "Private Bed next to JHH",
+        "Cozy loft in great location",
+        "South-Facing Studio Overlooking Union Square Park",
+        "Private Queen Suite (B) Fells and Hopkins Medical"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Little Italy",
+      "candidates": [
+        "Little Italy",
+        "Inner Harbor",
+        "Peabody Library",
+        "The Maryland Zoo",
+        "Horseshoe Casino",
+        "Federal Hill Park",
+        "National Aquarium",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "Top of the World Observation Level",
+        "American Visionary Art Museum",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "Oriole Park at Camden Yards",
+        "Fell's Point",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Phillips Seafood",
+      "candidates": [
+        "Phillips Seafood",
+        "Charleston Restaurant",
+        "The Food Market",
+        "The Capital Grille",
+        "Blue Moon Cafe",
+        "Angies Seafood",
+        "LP Steamers",
+        "Cinghiale",
+        "Toki Underground Baltimore",
+        "The Helmand",
+        "CLAVEL",
+        "Rec Pier Chop House",
+        "La Scala",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park",
+        "Rusty Scupper",
+        "Restaurante Tio Pepe",
+        "Pratt Street Ale House",
+        "Thames Street Oyster House",
+        "Magdalena, A Maryland Bistro",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Amicci's",
+        "The Abbey Burger Bistro",
+        "Tagliata",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Mama's On the Half Shell",
+        "Twist Fell's Point",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charming Baltimore Home w/Parking - Dog Friendly!",
+      "candidates": [
+        "Charming Baltimore Home w/Parking - Dog Friendly!",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Loaded Home - Heart Of Fells Point Waterfront Area",
+        "Entire Comfy Studio @Charles Village -5min frm JHU",
+        "Private Bed next to JHH",
+        "Cozy loft in great location",
+        "South-Facing Studio Overlooking Union Square Park",
+        "Private Queen Suite (B) Fells and Hopkins Medical"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Charleston Restaurant",
+      "candidates": [
+        "Charleston Restaurant",
+        "The Food Market",
+        "The Capital Grille",
+        "Blue Moon Cafe",
+        "Angies Seafood",
+        "LP Steamers",
+        "Cinghiale",
+        "Toki Underground Baltimore",
+        "The Helmand",
+        "CLAVEL",
+        "Rec Pier Chop House",
+        "La Scala",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park",
+        "Rusty Scupper",
+        "Restaurante Tio Pepe",
+        "Pratt Street Ale House",
+        "Thames Street Oyster House",
+        "Magdalena, A Maryland Bistro",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Amicci's",
+        "The Abbey Burger Bistro",
+        "Tagliata",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Mama's On the Half Shell",
+        "Twist Fell's Point",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Inner Harbor",
+      "candidates": [
+        "Inner Harbor",
+        "Peabody Library",
+        "The Maryland Zoo",
+        "Horseshoe Casino",
+        "Federal Hill Park",
+        "National Aquarium",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "Top of the World Observation Level",
+        "American Visionary Art Museum",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "Oriole Park at Camden Yards",
+        "Fell's Point",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Food Market",
+      "candidates": [
+        "The Food Market",
+        "The Capital Grille",
+        "Blue Moon Cafe",
+        "Angies Seafood",
+        "LP Steamers",
+        "Cinghiale",
+        "Toki Underground Baltimore",
+        "The Helmand",
+        "CLAVEL",
+        "Rec Pier Chop House",
+        "La Scala",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park",
+        "Rusty Scupper",
+        "Restaurante Tio Pepe",
+        "Pratt Street Ale House",
+        "Thames Street Oyster House",
+        "Magdalena, A Maryland Bistro",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Amicci's",
+        "The Abbey Burger Bistro",
+        "Tagliata",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Mama's On the Half Shell",
+        "Twist Fell's Point",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Peabody Library",
+      "candidates": [
+        "Peabody Library",
+        "The Maryland Zoo",
+        "Horseshoe Casino",
+        "Federal Hill Park",
+        "National Aquarium",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "Top of the World Observation Level",
+        "American Visionary Art Museum",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "Oriole Park at Camden Yards",
+        "Fell's Point",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Blue Moon Cafe",
+        "Angies Seafood",
+        "LP Steamers",
+        "Cinghiale",
+        "Toki Underground Baltimore",
+        "The Helmand",
+        "CLAVEL",
+        "Rec Pier Chop House",
+        "La Scala",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park",
+        "Rusty Scupper",
+        "Restaurante Tio Pepe",
+        "Pratt Street Ale House",
+        "Thames Street Oyster House",
+        "Magdalena, A Maryland Bistro",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Amicci's",
+        "The Abbey Burger Bistro",
+        "Tagliata",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Mama's On the Half Shell",
+        "Twist Fell's Point",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0077663, from Baltimore to Sarasota, Departure Time: 14:30, Arrival Time: 16:47",
+      "candidates": [
+        "Flight Number: F0077663, from Baltimore to Sarasota, Departure Time: 14:30, Arrival Time: 16:47",
+        "Taxi, from Baltimore to Sarasota, Duration: 1124.4833333333333 mins, Distance: 1604.5779 km, Estimated Cost: $1604.58"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Blue Moon Cafe",
+      "candidates": [
+        "Blue Moon Cafe",
+        "Angies Seafood",
+        "LP Steamers",
+        "Cinghiale",
+        "Toki Underground Baltimore",
+        "The Helmand",
+        "CLAVEL",
+        "Rec Pier Chop House",
+        "La Scala",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Cypriana of Roland Park",
+        "Rusty Scupper",
+        "Restaurante Tio Pepe",
+        "Pratt Street Ale House",
+        "Thames Street Oyster House",
+        "Magdalena, A Maryland Bistro",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Amicci's",
+        "The Abbey Burger Bistro",
+        "Tagliata",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Mama's On the Half Shell",
+        "Twist Fell's Point",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Maryland Zoo",
+      "candidates": [
+        "The Maryland Zoo",
+        "Horseshoe Casino",
+        "Federal Hill Park",
+        "National Aquarium",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "Top of the World Observation Level",
+        "American Visionary Art Museum",
+        "B&O Railroad Museum",
+        "M&T Bank Stadium",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "Oriole Park at Camden Yards",
+        "Fell's Point",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Sarasota to Baltimore",
+      "transportation": "Flight Number: F0054983, from Sarasota to Baltimore, Departure Time: 13:12, Arrival Time: 15:32",
+      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "breakfast": "-",
+      "attractions": [
+        "Little Italy"
+      ],
+      "lunch": "-",
+      "dinner": "Phillips Seafood",
+      "poi_blocks": [
+        {
+          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "kind": "stay",
+          "start": "16:02",
+          "end": "17:02",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 841.96
+        },
+        {
+          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 841.96
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:23",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 507.45
+        },
+        {
+          "name": "Phillips Seafood",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 344.26
+        },
+        {
+          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 841.96
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "-",
+      "accommodation": "Charming Baltimore Home w/Parking - Dog Friendly!",
+      "breakfast": "Charleston Restaurant",
+      "attractions": [
+        "Inner Harbor",
+        "Peabody Library"
+      ],
+      "lunch": "The Food Market",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Charming Baltimore Home w/Parking - Dog Friendly!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 1615.32
+        },
+        {
+          "name": "Charming Baltimore Home w/Parking - Dog Friendly!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 1615.32
+        },
+        {
+          "name": "Charleston Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 915.06
+        },
+        {
+          "name": "Inner Harbor",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "CHARLES CENTER METRO Stair 5",
+          "dist_m": 594.73
+        },
+        {
+          "name": "The Food Market",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MONDAWMIN METRO Main Entrance",
+          "dist_m": 2207.42
+        },
+        {
+          "name": "Peabody Library",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "16:57",
+          "nearest_transit": "STATE CENTER (METRO) sb",
+          "dist_m": 660.61
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 293.21
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Baltimore to Sarasota",
+      "transportation": "Flight Number: F0077663, from Baltimore to Sarasota, Departure Time: 14:30, Arrival Time: 16:47",
+      "accommodation": "-",
+      "breakfast": "Blue Moon Cafe",
+      "attractions": [
+        "The Maryland Zoo"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Charming Baltimore Home w/Parking - Dog Friendly!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 1615.32
+        },
+        {
+          "name": "Blue Moon Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 1161.67
+        },
+        {
+          "name": "The Maryland Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:53",
+          "nearest_transit": "MONDAWMIN METRO Escalator 4",
+          "dist_m": 586.5
+        }
+      ]
+    }
+  ]
+}

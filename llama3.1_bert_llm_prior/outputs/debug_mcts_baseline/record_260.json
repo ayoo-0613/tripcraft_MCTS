@@ -1,0 +1,70 @@
+{
+  "idx": 260,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "San Diego",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Mexican",
+        "Chinese",
+        "Mediterranean",
+        "Latin"
+      ],
+      "room type": "entire home",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2400.0,
+    "query": "Plan a 3-day trip for 2 people traveling from St. Louis to San Diego from November 25th to November 27th, 2024, with a budget of $2,400. Accommodations should be an entire home, and transportation should not involve self-driving. Include dining options featuring Mexican, Chinese, Mediterranean, or Latin cuisines.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to San Diego",
+      "transportation": "Flight Number: F0099295, from St. Louis to San Diego, Departure Time: 09:49, Arrival Time: 11:33",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Addison Restaurant, San Diego",
+      "dinner": "Cafe Coyote, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 12:03 to 13:03, nearest transit: Mission Bl & Sapphire St, 920.18m away; Addison Restaurant, visit from 13:57 to 14:56, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Cafe Coyote, visit from 19:51 to 21:00, nearest transit: Juan St & Harney St, 216.77m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "World Famous, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "Morning Glory, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; Morning Glory, visit from 13:57 to 14:56, nearest transit: India St & Cedar St, 92.52m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Diego to St. Louis",
+      "transportation": "Taxi, from San Diego to St. Louis, Not feasible to drive from San Diego to St. Louis",
+      "breakfast": "Casa Guadalajara, San Diego",
+      "attraction": "Mission Beach, San Diego",
+      "lunch": "Covewood Restaurant, San Diego",
+      "dinner": "Vessel Restaurant + Bar, San Diego",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Casa Guadalajara, visit from 09:25 to 10:16, nearest transit: Taylor St & Juan St, 50.62m away; Mission Beach, visit from 11:30 to 16:35, nearest transit: W Mission Bay Dr & Mission Bl, 219.18m away; Covewood Restaurant, visit from 13:57 to 14:56, nearest transit: Morena Bl & Asher St, 354.99m away; Vessel Restaurant + Bar, visit from 19:51 to 21:00, nearest transit: Rosecrans St & McCall St, 576.30m away."
+    }
+  ]
+}

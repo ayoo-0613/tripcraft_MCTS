@@ -1,0 +1,1067 @@
+{
+  "idx": 147,
+  "reward": 22.79610432853147,
+  "budget_used": 1784.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles",
+      "candidates": [
+        "Flight Number: F0039324, from Dallas to Los Angeles, Departure Time: 10:07, Arrival Time: 11:11",
+        "Taxi, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hollywood Hideaway",
+      "candidates": [
+        "Hollywood Hideaway",
+        "Oceanfront Sunset Serenity in Malibu"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Providence",
+      "candidates": [
+        "Providence",
+        "Water Grill",
+        "Bestia",
+        "The Lobster",
+        "Perch",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Broad",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Citadel Outlets",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Universal Studios Hollywood",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Getty Center",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "Bestia",
+        "The Lobster",
+        "Perch",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "The Lobster",
+        "Perch",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hollywood Hideaway",
+      "candidates": [
+        "Hollywood Hideaway",
+        "Oceanfront Sunset Serenity in Malibu"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Lobster",
+      "candidates": [
+        "The Lobster",
+        "Perch",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hollywood Sign",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Citadel Outlets",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Universal Studios Hollywood",
+        "Griffith Observatory",
+        "Crypto.com Arena",
+        "The Getty Center",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Spire 73",
+      "candidates": [
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Patina Restaurant",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Maccheroni Republic",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "The Butcher's Daughter",
+        "The Palm - L.A. Downtown",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0451627, from Los Angeles to Santa Rosa, Departure Time: 12:15, Arrival Time: 13:49",
+      "candidates": [
+        "Flight Number: F0451627, from Los Angeles to Santa Rosa, Departure Time: 12:15, Arrival Time: 13:49",
+        "Taxi, from Los Angeles to Santa Rosa, Duration: 480.65833333333336 mins, Distance: 688.4894 km, Estimated Cost: $688.49"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Wine Country Escape",
+      "candidates": [
+        "Cozy Wine Country Escape",
+        "Wine & Comfort: The Perfect Wine Country Escape",
+        "Beautiful & Cozy Home in Historic Cherry St!",
+        "Craftsman 2 blocks from Russian River Brewery!",
+        "NEW! Wine Country Stay with Games & Relaxation",
+        "Central Santa Rosa Close to Coast & Wineries",
+        "Garden View Queen Suite & Separate Entrance"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Piner Cafe",
+      "candidates": [
+        "Piner Cafe",
+        "Yeti Restaurant",
+        "Sazon",
+        "East West Cafe",
+        "River Vine Cafe",
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Yeti Restaurant",
+      "candidates": [
+        "Yeti Restaurant",
+        "Sazon",
+        "East West Cafe",
+        "River Vine Cafe",
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Wine Country Escape",
+      "candidates": [
+        "Cozy Wine Country Escape",
+        "Wine & Comfort: The Perfect Wine Country Escape",
+        "Beautiful & Cozy Home in Historic Cherry St!",
+        "Craftsman 2 blocks from Russian River Brewery!",
+        "NEW! Wine Country Stay with Games & Relaxation",
+        "Central Santa Rosa Close to Coast & Wineries",
+        "Garden View Queen Suite & Separate Entrance"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sazon",
+      "candidates": [
+        "Sazon",
+        "East West Cafe",
+        "River Vine Cafe",
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Safari West",
+      "candidates": [
+        "Safari West",
+        "Paradise Ridge Winery",
+        "Spring Lake Park",
+        "Harvest Moon Winery",
+        "Coursey Graves Estate Winery",
+        "Hook and Ladder Winery",
+        "Martin Ray Vineyards & Winery",
+        "Howarth Park",
+        "Redwood Empire Ice Arena",
+        "Annadel State Park",
+        "St. Francis Winery and Vineyards",
+        "Sonoma County Tourism",
+        "Charles M. Schulz Museum",
+        "Snoopy's Home Ice",
+        "Pacific Coast Air Museum",
+        "Railroad Square Historic District",
+        "Matanzas Creek Winery",
+        "Luther Burbank Home and Gardens",
+        "Children's Museum of Sonoma County",
+        "Luther Burbank Center for the Arts"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "East West Cafe",
+      "candidates": [
+        "East West Cafe",
+        "River Vine Cafe",
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "River Vine Cafe",
+      "candidates": [
+        "River Vine Cafe",
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0400333, from Santa Rosa to Dallas, Departure Time: 14:00, Arrival Time: 19:23",
+      "candidates": [
+        "Flight Number: F0400333, from Santa Rosa to Dallas, Departure Time: 14:00, Arrival Time: 19:23",
+        "Taxi, from Santa Rosa to Dallas, Not feasible to drive from Santa Rosa to Dallas"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Casa Del Mar",
+      "candidates": [
+        "Casa Del Mar",
+        "Royal China Restaurant",
+        "Jeffreys Hillside Cafe",
+        "Riviera Restaurant",
+        "Goji Kitchen",
+        "The Spinster Sisters",
+        "Bird & The Bottle",
+        "John Ash & Co.",
+        "Russian River Brewing Company",
+        "St. Francis Winery & Vineyards",
+        "La Gare French Restaurant",
+        "Ca'Bianca Restaurant",
+        "Dierks Parkside Cafe",
+        "La Rosa Taquileria and Grille",
+        "SEA Thai Bistro",
+        "Pho Vietnam",
+        "LoCoco's Cucina Rustica",
+        "Los Tres Chiles",
+        "Hang Ah Dim Sum",
+        "Jackson's Bar and Oven",
+        "Stark's Steak & Seafood",
+        "Walter Hansel Wine & Bistro",
+        "Rosso Pizzeria & Wine Bar",
+        "Mac’s Deli & Cafe",
+        "Haku Sushi",
+        "Monti's Rotisserie and Bar",
+        "Willi's Wine Bar",
+        "Don Taylor's Omelette Express",
+        "Trattoria Cattaneo",
+        "Franchettis' Gasthaus And Biergarten"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Paradise Ridge Winery",
+      "candidates": [
+        "Paradise Ridge Winery",
+        "Spring Lake Park",
+        "Harvest Moon Winery",
+        "Coursey Graves Estate Winery",
+        "Hook and Ladder Winery",
+        "Martin Ray Vineyards & Winery",
+        "Howarth Park",
+        "Redwood Empire Ice Arena",
+        "Annadel State Park",
+        "St. Francis Winery and Vineyards",
+        "Sonoma County Tourism",
+        "Charles M. Schulz Museum",
+        "Snoopy's Home Ice",
+        "Pacific Coast Air Museum",
+        "Railroad Square Historic District",
+        "Matanzas Creek Winery",
+        "Luther Burbank Home and Gardens",
+        "Children's Museum of Sonoma County",
+        "Luther Burbank Center for the Arts"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Los Angeles",
+      "transportation": "Taxi, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "Providence",
+      "attractions": [
+        "The Broad"
+      ],
+      "lunch": "Water Grill",
+      "dinner": "Bestia",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        },
+        {
+          "name": "The Broad",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 30.42
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "The Lobster",
+      "attractions": [
+        "Hollywood Sign"
+      ],
+      "lunch": "Perch",
+      "dinner": "Spire 73",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "The Lobster",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 4397.54
+        },
+        {
+          "name": "Hollywood Sign",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Beachwood & Westshire",
+          "dist_m": 1574.74
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        },
+        {
+          "name": "Spire 73",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Figueroa St & 7th St",
+          "dist_m": 109.52
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Santa Rosa",
+      "transportation": "Flight Number: F0451627, from Los Angeles to Santa Rosa, Departure Time: 12:15, Arrival Time: 13:49",
+      "accommodation": "Cozy Wine Country Escape",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Piner Cafe",
+      "dinner": "Yeti Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Cozy Wine Country Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fulton Rd @ Gordon Creek Dr",
+          "dist_m": 700.31
+        },
+        {
+          "name": "Piner Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Piner Rd @ Airway Dr",
+          "dist_m": 130.32
+        },
+        {
+          "name": "Yeti Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Fourth St @ Farmers Ln",
+          "dist_m": 147.61
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Santa Rosa to Santa Rosa",
+      "transportation": "-",
+      "accommodation": "Cozy Wine Country Escape",
+      "breakfast": "Sazon",
+      "attractions": [
+        "Safari West"
+      ],
+      "lunch": "East West Cafe",
+      "dinner": "River Vine Cafe",
+      "poi_blocks": [
+        {
+          "name": "Cozy Wine Country Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fulton Rd @ Gordon Creek Dr",
+          "dist_m": 700.31
+        },
+        {
+          "name": "Cozy Wine Country Escape",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fulton Rd @ Gordon Creek Dr",
+          "dist_m": 700.31
+        },
+        {
+          "name": "Sazon",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Sebastopol Rd @ Burbank Ave",
+          "dist_m": 120.88
+        },
+        {
+          "name": "Safari West",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "3585 Round Barn Blvd",
+          "dist_m": 8901.29
+        },
+        {
+          "name": "East West Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Montgomery Dr @ Summerfield Rd",
+          "dist_m": 166.4
+        },
+        {
+          "name": "River Vine Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Hopper Ave @ Coffey Ln",
+          "dist_m": 2038.71
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Santa Rosa to Dallas",
+      "transportation": "Flight Number: F0400333, from Santa Rosa to Dallas, Departure Time: 14:00, Arrival Time: 19:23",
+      "accommodation": "-",
+      "breakfast": "Casa Del Mar",
+      "attractions": [
+        "Paradise Ridge Winery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Wine Country Escape",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fulton Rd @ Gordon Creek Dr",
+          "dist_m": 700.31
+        },
+        {
+          "name": "Casa Del Mar",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Bellevue Ave @ Stony Point Rd",
+          "dist_m": 1554.46
+        },
+        {
+          "name": "Paradise Ridge Winery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "3585 Round Barn Blvd",
+          "dist_m": 1405.83
+        }
+      ]
+    }
+  ]
+}

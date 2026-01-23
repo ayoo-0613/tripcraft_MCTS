@@ -1,0 +1,1119 @@
+{
+  "idx": 111,
+  "reward": 25.269361207972185,
+  "budget_used": 1704.875,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40",
+      "candidates": [
+        "-",
+        "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Harris House",
+      "candidates": [
+        "Wilderness Cottage",
+        "Harris House",
+        "The Corner Nook",
+        "A SLO Space",
+        "The SLO Weekender",
+        "Unique Spacious Room with Balcony",
+        "Cozy Studio Close to Downtown SLO",
+        "Modern Private Cottage- 1 mile to downtown SLO",
+        "Downtown Historic District Sunset Studio",
+        "Eclectic apartment in the heart of downtown SLO."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Roma",
+      "candidates": [
+        "Cafe Roma",
+        "Sidecar",
+        "Luna Red",
+        "Flour House",
+        "Thai Palace",
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Bishop Peak",
+      "candidates": [
+        "Bishop Peak",
+        "Reservoir Canyon Trail",
+        "El Chorro Regional Park",
+        "San Luis Obispo Children's Museum",
+        "San Luis Obispo botanical garden"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sidecar",
+      "candidates": [
+        "Sidecar",
+        "Luna Red",
+        "Flour House",
+        "Thai Palace",
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Luna Red",
+      "candidates": [
+        "Luna Red",
+        "Flour House",
+        "Thai Palace",
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Wilderness Cottage",
+      "candidates": [
+        "Wilderness Cottage",
+        "Harris House",
+        "The Corner Nook",
+        "A SLO Space",
+        "The SLO Weekender",
+        "Unique Spacious Room with Balcony",
+        "Cozy Studio Close to Downtown SLO",
+        "Modern Private Cottage- 1 mile to downtown SLO",
+        "Downtown Historic District Sunset Studio",
+        "Eclectic apartment in the heart of downtown SLO."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Flour House",
+      "candidates": [
+        "Flour House",
+        "Thai Palace",
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Reservoir Canyon Trail",
+      "candidates": [
+        "Reservoir Canyon Trail",
+        "El Chorro Regional Park",
+        "San Luis Obispo Children's Museum",
+        "San Luis Obispo botanical garden"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Thai Palace",
+      "candidates": [
+        "Thai Palace",
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Eureka!",
+      "candidates": [
+        "Eureka!",
+        "Mistura Restaurant",
+        "Goshi",
+        "Cowgirl Cafe",
+        "Apple Farm Restaurant",
+        "Gardens of Avila",
+        "Del Monte Cafe",
+        "Taco King",
+        "My Thai Restaurant",
+        "Ox + Anchor",
+        "Taste Craft Eatery",
+        "Lure Fish House",
+        "Koberl At Blue",
+        "Granada Bistro",
+        "Bear & The Wren",
+        "Madonna Inn Copper Cafe",
+        "Louisa's Place Restaurant",
+        "Novo Restaurant & Lounge",
+        "Mama's Meatball",
+        "Nate's On Marsh",
+        "1865 Craft House and Kitchen",
+        "Woodstock's Pizza SLO",
+        "Spirit of San Luis Restaurant",
+        "F.McLintocks Saloon",
+        "Buona Tavola",
+        "La Locanda",
+        "Alex Madonna's Gold Rush Steak House",
+        "High Street Market & Deli",
+        "Giuseppe’s Cucina Rustica",
+        "La Esquina Taqueria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Dream Room",
+      "candidates": [
+        "The Dream Room",
+        "Lazy Private Cottage",
+        "~The Sierra~",
+        "Private in-law suite!",
+        "Private Bedroom & Bath SE Fresno",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "1 Bedroom PRIVATE GUESTHOUSE (w/ Private Entry)"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fresno",
+      "candidates": [
+        "Fresno",
+        "Parma",
+        "Five",
+        "Elbow Room",
+        "Train Depot",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Woodward Regional Park",
+      "candidates": [
+        "Woodward Regional Park",
+        "Fresno Art Museum",
+        "Fresno Discovery Center",
+        "Meux Home Museum",
+        "Forestiere Underground Gardens",
+        "Shinzen Japanese Garden",
+        "Fresno Chaffee Zoo",
+        "Kearney Mansion Museum & Gallery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Parma",
+      "candidates": [
+        "Parma",
+        "Five",
+        "Elbow Room",
+        "Train Depot",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Five",
+      "candidates": [
+        "Five",
+        "Elbow Room",
+        "Train Depot",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Dream Room",
+      "candidates": [
+        "The Dream Room",
+        "Lazy Private Cottage",
+        "~The Sierra~",
+        "Private in-law suite!",
+        "Private Bedroom & Bath SE Fresno",
+        "Beautiful 3 bedroom 2 bath home (No Cleaning Fees)",
+        "Serenity & Practical Magic in the Heart of Fresno",
+        "1 Bedroom PRIVATE GUESTHOUSE (w/ Private Entry)"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Elbow Room",
+      "candidates": [
+        "Elbow Room",
+        "Train Depot",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fresno Art Museum",
+      "candidates": [
+        "Fresno Art Museum",
+        "Fresno Discovery Center",
+        "Meux Home Museum",
+        "Forestiere Underground Gardens",
+        "Shinzen Japanese Garden",
+        "Fresno Chaffee Zoo",
+        "Kearney Mansion Museum & Gallery"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Train Depot",
+      "candidates": [
+        "Train Depot",
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Dog House Grill",
+      "candidates": [
+        "Dog House Grill",
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30",
+      "candidates": [
+        "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30",
+        "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Red Apple Cafe",
+      "candidates": [
+        "Red Apple Cafe",
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fresno Discovery Center",
+      "candidates": [
+        "Fresno Discovery Center",
+        "Meux Home Museum",
+        "Forestiere Underground Gardens",
+        "Shinzen Japanese Garden",
+        "Fresno Chaffee Zoo",
+        "Kearney Mansion Museum & Gallery"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Fig Garden Village",
+      "candidates": [
+        "Fig Garden Village",
+        "The Annex Kitchen",
+        "Eureka! Fresno",
+        "The Lime Lite",
+        "Fresno Breakfast House",
+        "Gem of Thailand",
+        "Mediterranean Grill & Cafe",
+        "The Cheesecake Factory",
+        "Tandoori Night",
+        "Sakura Chaya Fresno",
+        "Batter Up Pancakes",
+        "Los Fresnos Restaurante",
+        "Chef Paul's Cafe",
+        "Pismo's Coastal Grill",
+        "Ampersand Ice Cream",
+        "DiCicco's",
+        "AJ's Armenian Cuisine",
+        "Los Fresnos Restaurant Bar",
+        "Castillo's Mexican Food",
+        "Taqueria Don Pepe",
+        "Westwoods BBQ and Spice Co.",
+        "Sal's Mexican Restaurant - Fresno",
+        "Yosemite Ranch",
+        "Max's Bistro & Bar",
+        "Fleming's Prime Steakhouse & Wine Bar",
+        "Phoenician Garden Mediterranean Bar & Grill",
+        "La Boulangerie French Bakery & Cafe",
+        "Sam's Italian Deli and Market"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to San Luis Obispo",
+      "transportation": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40",
+      "accommodation": "Harris House",
+      "breakfast": "Cafe Roma",
+      "attractions": [
+        "Bishop Peak"
+      ],
+      "lunch": "Sidecar",
+      "dinner": "Luna Red",
+      "poi_blocks": [
+        {
+          "name": "Harris House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 520.23
+        },
+        {
+          "name": "Harris House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Higuera & South",
+          "dist_m": 520.23
+        },
+        {
+          "name": "Cafe Roma",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Santa Rosa & Higuera",
+          "dist_m": 751.61
+        },
+        {
+          "name": "Bishop Peak",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "Santa Rosa & Foothill",
+          "dist_m": 1404.87
+        },
+        {
+          "name": "Sidecar",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 54.77
+        },
+        {
+          "name": "Luna Red",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 256.3
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "-",
+      "accommodation": "Wilderness Cottage",
+      "breakfast": "Flour House",
+      "attractions": [
+        "Reservoir Canyon Trail"
+      ],
+      "lunch": "Thai Palace",
+      "dinner": "Eureka!",
+      "poi_blocks": [
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "Flour House",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 142.15
+        },
+        {
+          "name": "Reservoir Canyon Trail",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Monterey @ Peach Tree Inn",
+          "dist_m": 1842.85
+        },
+        {
+          "name": "Thai Palace",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Government Center",
+          "dist_m": 168.21
+        },
+        {
+          "name": "Eureka!",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Marsh & Broad",
+          "dist_m": 184.87
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Luis Obispo to Fresno",
+      "transportation": "-",
+      "accommodation": "The Dream Room",
+      "breakfast": "Fresno",
+      "attractions": [
+        "Woodward Regional Park"
+      ],
+      "lunch": "Parma",
+      "dinner": "Five",
+      "poi_blocks": [
+        {
+          "name": "Wilderness Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Kansas Ave & Highway 1",
+          "dist_m": 3513.25
+        },
+        {
+          "name": "The Dream Room",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SW CEDAR - ALLUVIAL",
+          "dist_m": 582.63
+        },
+        {
+          "name": "Fresno",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS",
+          "dist_m": 557.44
+        },
+        {
+          "name": "Woodward Regional Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "SW PERRIN - FOXHILL",
+          "dist_m": 1167.5
+        },
+        {
+          "name": "Parma",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SW Palm - Herndon",
+          "dist_m": 199.36
+        },
+        {
+          "name": "Five",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "CHAMPLAIN - PERRIN",
+          "dist_m": 74.64
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "-",
+      "accommodation": "The Dream Room",
+      "breakfast": "Elbow Room",
+      "attractions": [
+        "Fresno Art Museum"
+      ],
+      "lunch": "Train Depot",
+      "dinner": "Dog House Grill",
+      "poi_blocks": [
+        {
+          "name": "The Dream Room",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SW CEDAR - ALLUVIAL",
+          "dist_m": 582.63
+        },
+        {
+          "name": "The Dream Room",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SW CEDAR - ALLUVIAL",
+          "dist_m": 582.63
+        },
+        {
+          "name": "Elbow Room",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "NW PALM - SHAW",
+          "dist_m": 192.71
+        },
+        {
+          "name": "Fresno Art Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "SW FIRST - YALE",
+          "dist_m": 113.32
+        },
+        {
+          "name": "Train Depot",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "NW ASHLAN - FIRST",
+          "dist_m": 116.67
+        },
+        {
+          "name": "Dog House Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SW SHAW - CHESTNUT",
+          "dist_m": 40.76
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Fresno to Las Vegas",
+      "transportation": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30",
+      "accommodation": "-",
+      "breakfast": "Red Apple Cafe",
+      "attractions": [
+        "Fresno Discovery Center"
+      ],
+      "lunch": "Fig Garden Village",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Dream Room",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SW CEDAR - ALLUVIAL",
+          "dist_m": 582.63
+        },
+        {
+          "name": "Red Apple Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "NW HERNDON - INGRAM",
+          "dist_m": 80.03
+        },
+        {
+          "name": "Fresno Discovery Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "SE CHESTNUT - CAMBRIDGE",
+          "dist_m": 444.87
+        },
+        {
+          "name": "Fig Garden Village",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "NW PALM - SHAW",
+          "dist_m": 83.73
+        }
+      ]
+    }
+  ]
+}

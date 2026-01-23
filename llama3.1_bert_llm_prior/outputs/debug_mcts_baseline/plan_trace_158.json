@@ -1,0 +1,569 @@
+{
+  "idx": 158,
+  "reward": 13.067423517373388,
+  "budget_used": 1384.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2105072, from Albany to Nashville, Departure Time: 11:04, Arrival Time: 12:47",
+      "candidates": [
+        "Flight Number: F2105072, from Albany to Nashville, Departure Time: 11:04, Arrival Time: 12:47",
+        "Taxi, from Albany to Nashville, Duration: 1127.4199999999998 mins, Distance: 1590.8158999999998 km, Estimated Cost: $1590.82"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+      "candidates": [
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Walk to Five Points from a Dreamy Attic Apartment",
+        "1.5 mile to DT & 12th South: Beautiful Studio",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "The Stewart House in 12th South - Half House",
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+        "Private Entrance near Airport in Safe neighborhood",
+        "12 South Original - Restored craftsman from 1905!",
+        "Broadway Honky Tonk| Pool | Courtviews | Firepit"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Aquarium Restaurant",
+      "candidates": [
+        "Aquarium Restaurant",
+        "Smiling Elephant",
+        "The Bridge",
+        "The Standard",
+        "Henley",
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Smiling Elephant",
+      "candidates": [
+        "Smiling Elephant",
+        "The Bridge",
+        "The Standard",
+        "Henley",
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+      "candidates": [
+        "Little Zen Studio Apt. Downtown - Walk to Broadway",
+        "Walk to Five Points from a Dreamy Attic Apartment",
+        "1.5 mile to DT & 12th South: Beautiful Studio",
+        "Lofts At 30th-Nashville Charm -In West End",
+        "The Stewart House in 12th South - Half House",
+        "The Modern Johnny Nash-Walk To Broadway- HOT POOL",
+        "Private Entrance near Airport in Safe neighborhood",
+        "12 South Original - Restored craftsman from 1905!",
+        "Broadway Honky Tonk| Pool | Courtviews | Firepit"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Bridge",
+      "candidates": [
+        "The Bridge",
+        "The Standard",
+        "Henley",
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Centennial Park",
+      "candidates": [
+        "Centennial Park",
+        "Downtown Nashville",
+        "Belmont Mansion",
+        "Cheekwood",
+        "Nashville Parthenon",
+        "RCA Studio B",
+        "Ryman Auditorium",
+        "Lane Motor Museum",
+        "The Johnny Cash Museum",
+        "Tennessee State Museum",
+        "Bridgestone Arena",
+        "Andrew Jackson's Hermitage",
+        "Radnor Lake State Park",
+        "Cooter’s Museum and Store Nashville",
+        "Gaylord Opryland Garden Conservatory",
+        "Musicians Hall of Fame and Museum",
+        "Country Music Hall of Fame and Museum",
+        "Grand Ole Opry",
+        "Belle Meade Historic Site & Winery",
+        "Ole Smoky Distillery & Yee-Haw Brewery"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Standard",
+      "candidates": [
+        "The Standard",
+        "Henley",
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Henley",
+      "candidates": [
+        "Henley",
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1348960, from Nashville to Albany, Departure Time: 12:31, Arrival Time: 15:32",
+      "candidates": [
+        "Flight Number: F1348960, from Nashville to Albany, Departure Time: 12:31, Arrival Time: 15:32",
+        "Taxi, from Nashville to Albany, Duration: 1129.8600000000001 mins, Distance: 1615.2378 km, Estimated Cost: $1615.24"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "417 Union",
+      "candidates": [
+        "417 Union",
+        "1 Kitchen",
+        "Pelato",
+        "The Farm House",
+        "Ole Red",
+        "Gannons Nashville",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "The Mockingbird",
+        "Adele's Nashville",
+        "The Catbird Seat",
+        "Kayne Prime",
+        "Harriet's Rooftop",
+        "Central Bar + Kitchen",
+        "Skull's Rainbow Room",
+        "Luogo",
+        "Miranda Lambert's Casa Rosa",
+        "The Chef And I",
+        "Old Hickory Steakhouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "The Southern Steak & Oyster",
+        "Deacon’s New South",
+        "Caney Fork River Valley Grille",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Hand Cut Chophouse",
+        "Puckett's 5th & Church",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Paula Deen's Family Kitchen",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Albany to Nashville",
+      "transportation": "Flight Number: F2105072, from Albany to Nashville, Departure Time: 11:04, Arrival Time: 12:47",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "Aquarium Restaurant",
+      "dinner": "Smiling Elephant",
+      "poi_blocks": [
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "13:17",
+          "end": "14:17",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        },
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        },
+        {
+          "name": "Aquarium Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "OPRY MILLS DR & GENERAL JACKSON'S",
+          "dist_m": 170.74
+        },
+        {
+          "name": "Smiling Elephant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "8TH AVE S & BRADFORD AVE SB",
+          "dist_m": 66.14
+        },
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+      "breakfast": "The Bridge",
+      "attractions": [
+        "Centennial Park"
+      ],
+      "lunch": "The Standard",
+      "dinner": "Henley",
+      "poi_blocks": [
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        },
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        },
+        {
+          "name": "The Bridge",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 132.87
+        },
+        {
+          "name": "Centennial Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "WEST END AVE & 27TH AVE S WB",
+          "dist_m": 441.64
+        },
+        {
+          "name": "The Standard",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "9TH AVE N & COMMERCE ST SB",
+          "dist_m": 91.13
+        },
+        {
+          "name": "Henley",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "21ST AVE & BROADWAY AVE SB",
+          "dist_m": 79.55
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Nashville to Albany",
+      "transportation": "Flight Number: F1348960, from Nashville to Albany, Departure Time: 12:31, Arrival Time: 15:32",
+      "accommodation": "-",
+      "breakfast": "417 Union",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Little Zen Studio Apt. Downtown - Walk to Broadway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PEABODY STATION INBOUND",
+          "dist_m": 149.43
+        },
+        {
+          "name": "417 Union",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "5TH AVE & CHARLOTTE AVE NB",
+          "dist_m": 153.66
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "idx": 188,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Tucson",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "parties",
+      "cuisine": [
+        "American",
+        "Mexican",
+        "Chinese",
+        "Italian"
+      ],
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3150.0,
+    "query": "Plan a 3-day trip for 4 people from Houston to Tucson from November 1st to November 3rd, 2024, with a budget of $3,150. Accommodations should be an entire home, and the house rules should allow parties. Include dining options featuring American, Mexican, Chinese, and Italian cuisines.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Tucson",
+      "transportation": "Taxi, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $1714.16",
+      "breakfast": "Feast, Tucson",
+      "attraction": "Reid Park Zoo, Tucson",
+      "lunch": "North Italia, Tucson",
+      "dinner": "Cup Cafe, Tucson",
+      "accommodation": "Private Midtown Retreat, Tucson",
+      "event": "-",
+      "point_of_interest_list": "Private Midtown Retreat, stay from 08:00 to 09:00, nearest transit: El Con Center, 3892.54m away; Feast, visit from 09:25 to 10:16, nearest transit: El Con Center, 1580.72m away; Reid Park Zoo, visit from 11:30 to 16:00, nearest transit: El Con Center, 1507.93m away; North Italia, visit from 13:57 to 14:56, nearest transit: 9004 Lot, 6274.73m away; Cup Cafe, visit from 19:51 to 21:00, nearest transit: Time Market South, 1060.95m away; Private Midtown Retreat, stay from 22:15 to 08:00, nearest transit: El Con Center, 3892.54m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Tucson to Tucson",
+      "transportation": "Transfer, from Tucson to Tucson",
+      "breakfast": "Vivace Restaurant, Tucson",
+      "attraction": "Gates Pass, Tucson",
+      "lunch": "Baja Cafe of Tucson, Tucson",
+      "dinner": "Locale Neighborhood Italian, Tucson",
+      "accommodation": "Private Midtown Retreat, Tucson",
+      "event": "-",
+      "point_of_interest_list": "Private Midtown Retreat, stay from 08:00 to 09:00, nearest transit: El Con Center, 3892.54m away; Vivace Restaurant, visit from 09:25 to 10:16, nearest transit: 9004 Lot, 6195.34m away; Gates Pass, visit from 11:30 to 15:20, nearest transit: 9006 Lot, 11636.97m away; Baja Cafe of Tucson, visit from 13:57 to 14:56, nearest transit: El Con Center, 7188.68m away; Locale Neighborhood Italian, visit from 19:51 to 21:00, nearest transit: El Con Center, 1020.01m away; Private Midtown Retreat, stay from 22:15 to 08:00, nearest transit: El Con Center, 3892.54m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Tucson to Houston",
+      "transportation": "Transfer, from Tucson to Houston",
+      "breakfast": "Sushi On Oracle, Tucson",
+      "attraction": "Trail Dust Town, Tucson",
+      "lunch": "Guadalajara Original Grill, Tucson",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Private Midtown Retreat, stay from 08:00 to 09:00, nearest transit: El Con Center, 3892.54m away; Sushi On Oracle, visit from 09:25 to 10:16, nearest transit: 9004 Lot, 6300.09m away; Trail Dust Town, visit from 11:30 to 17:20, nearest transit: El Con Center, 6794.59m away; Guadalajara Original Grill, visit from 13:57 to 14:56, nearest transit: 9004 Lot, 238.37m away."
+    }
+  ]
+}

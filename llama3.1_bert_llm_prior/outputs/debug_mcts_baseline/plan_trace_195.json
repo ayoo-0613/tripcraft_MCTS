@@ -1,0 +1,577 @@
+{
+  "idx": 195,
+  "reward": -50.26939405208685,
+  "budget_used": 3048.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1368945, from Boston to Wilmington, Departure Time: 11:55, Arrival Time: 13:46",
+      "candidates": [
+        "Flight Number: F1368945, from Boston to Wilmington, Departure Time: 11:55, Arrival Time: 13:46",
+        "Taxi, from Boston to Wilmington, Duration: 962.64 mins, Distance: 1302.4002 km, Estimated Cost: $1302.40"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Dockside at The Cove",
+      "candidates": [
+        "Dockside at The Cove",
+        "Charming Historic Downtown Cottage",
+        "Downtown | Balcony | River views | Free parking",
+        "Harbor Oaks, rest, relax, renew...",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Hawks Nest 3 @UNCW",
+        "Serendipitous Studio - Entire Place",
+        "The Swan • Fully Private Guest Suite",
+        "Chic Loft | Downtown | Front & Market",
+        "The Retro Room- Private Suite with bathroom"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Fia",
+      "candidates": [
+        "Pilot House",
+        "The Basics",
+        "Catch",
+        "Manna",
+        "Fish Bites Seafood",
+        "The Anchor",
+        "La Fia",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Pilot House",
+      "candidates": [
+        "Pilot House",
+        "The Basics",
+        "Catch",
+        "Manna",
+        "Fish Bites Seafood",
+        "The Anchor",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Dockside at The Cove",
+      "candidates": [
+        "Dockside at The Cove",
+        "Charming Historic Downtown Cottage",
+        "Downtown | Balcony | River views | Free parking",
+        "Harbor Oaks, rest, relax, renew...",
+        "Beautiful one bedroom steps to downtown riverwalk",
+        "Hawks Nest 3 @UNCW",
+        "Serendipitous Studio - Entire Place",
+        "The Swan • Fully Private Guest Suite",
+        "Chic Loft | Downtown | Front & Market",
+        "The Retro Room- Private Suite with bathroom"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Basics",
+      "candidates": [
+        "The Basics",
+        "Catch",
+        "Manna",
+        "Fish Bites Seafood",
+        "The Anchor",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Downtown Wilmington",
+      "candidates": [
+        "Downtown Wilmington",
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Historic District",
+        "Airlie Gardens",
+        "Henrietta III",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation",
+        "Burgwin-Wright House and Gardens"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Catch",
+      "candidates": [
+        "Catch",
+        "Manna",
+        "Fish Bites Seafood",
+        "The Anchor",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Manna",
+      "candidates": [
+        "Manna",
+        "Fish Bites Seafood",
+        "The Anchor",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1368978, from Wilmington to Boston, Departure Time: 14:51, Arrival Time: 16:46",
+      "candidates": [
+        "Flight Number: F1368978, from Wilmington to Boston, Departure Time: 14:51, Arrival Time: 16:46",
+        "Taxi, from Wilmington to Boston, Duration: 960.1366666666667 mins, Distance: 1295.6133 km, Estimated Cost: $1295.61"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fish Bites Seafood",
+      "candidates": [
+        "Fish Bites Seafood",
+        "The Anchor",
+        "The Wilmington",
+        "PinPoint Restaurant",
+        "Copper Penny",
+        "General Denver Pub",
+        "Banks' Seafood Kitchen",
+        "The Dixie Grill",
+        "Circa 1922",
+        "Front Street Brewery",
+        "Savorez",
+        "Indochine Wilmington",
+        "Elijah's Restaurant",
+        "Fork N Cork",
+        "Roko Italian Cuisine",
+        "Cape Fear Seafood Company",
+        "Winnie's Tavern",
+        "Iron Hill Brewery & Restaurant",
+        "The Peppered Cupcake",
+        "Ruth's Chris Steak House",
+        "The George on the Riverwalk",
+        "Hieronymus Seafood Restaurant & Oyster Bar",
+        "Szechuan 132",
+        "Flaming Amy's Burrito Barn",
+        "Caprice Bistro",
+        "Casey's Buffet Barbecue & Home Cookin",
+        "Fat Tony's Italian Pub",
+        "Yo Sake Downtown Sushi Lounge",
+        "Genki Sushi",
+        "Kilwins Ice Cream -  Chocolate - Fudge"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Riverwalk",
+      "candidates": [
+        "Riverwalk",
+        "Bellamy Mansion",
+        "Historic District",
+        "Airlie Gardens",
+        "Henrietta III",
+        "Battleship North Carolina",
+        "Poplar Grove Plantation",
+        "Burgwin-Wright House and Gardens"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boston to Wilmington",
+      "transportation": "Flight Number: F1368945, from Boston to Wilmington, Departure Time: 11:55, Arrival Time: 13:46",
+      "accommodation": "Dockside at The Cove",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "La Fia",
+      "dinner": "Pilot House",
+      "poi_blocks": [
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "14:16",
+          "end": "15:16",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        },
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        },
+        {
+          "name": "La Fia",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Gordon Rd WB at Military Cutoff Rd",
+          "dist_m": 640890.67
+        },
+        {
+          "name": "Pilot House",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Front St SB at Ann St",
+          "dist_m": 112.21
+        },
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "-",
+      "accommodation": "Dockside at The Cove",
+      "breakfast": "The Basics",
+      "attractions": [
+        "Downtown Wilmington"
+      ],
+      "lunch": "Catch",
+      "dinner": "Manna",
+      "poi_blocks": [
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        },
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        },
+        {
+          "name": "The Basics",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Front St NB at Grace St",
+          "dist_m": 96.37
+        },
+        {
+          "name": "Downtown Wilmington",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Front St SB at Chestnut St",
+          "dist_m": 66.26
+        },
+        {
+          "name": "Catch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Market St WB at Dollar General",
+          "dist_m": 552.38
+        },
+        {
+          "name": "Manna",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Front St SB at Chestnut St",
+          "dist_m": 150.96
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Wilmington to Boston",
+      "transportation": "Flight Number: F1368978, from Wilmington to Boston, Departure Time: 14:51, Arrival Time: 16:46",
+      "accommodation": "-",
+      "breakfast": "Fish Bites Seafood",
+      "attractions": [
+        "Riverwalk"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Dockside at The Cove",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Harnett St WB at Live Oak Bank Pavilion",
+          "dist_m": 251.42
+        },
+        {
+          "name": "Fish Bites Seafood",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Carolina Beach Rd NB at College Rd",
+          "dist_m": 2839.13
+        },
+        {
+          "name": "Riverwalk",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Front St SB at Market St",
+          "dist_m": 105.98
+        }
+      ]
+    }
+  ]
+}

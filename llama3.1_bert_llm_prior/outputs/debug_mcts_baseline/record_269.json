@@ -1,0 +1,65 @@
+{
+  "idx": 269,
+  "JSON": {
+    "org": "Los Angeles",
+    "dest": "Indianapolis",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": null,
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 2500.0,
+    "query": "Plan a 3-day trip for 2 people from Los Angeles to Indianapolis from November 1st to November 3rd, 2024, with a budget of $2,500. Accommodations should allow pets, and transportation should not involve self-driving.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Los Angeles to Indianapolis",
+      "transportation": "Flight Number: F0194881, from Los Angeles to Indianapolis, Departure Time: 23:47, Arrival Time: 06:40",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Cobb Cabin, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Cobb Cabin, stay from 08:00 to 09:00, nearest transit: 10th St & Fenton Ave, 524.39m away; Cobb Cabin, stay from 22:15 to 08:00, nearest transit: 10th St & Fenton Ave, 524.39m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Indianapolis to Indianapolis",
+      "transportation": "Transfer, from Indianapolis to Indianapolis",
+      "breakfast": "Vida, Indianapolis",
+      "attraction": "Central Canal, Indianapolis",
+      "lunch": "Yard House, Indianapolis",
+      "dinner": "Thai Spice, Indianapolis",
+      "accommodation": "Cobb Cabin, Indianapolis",
+      "event": "-",
+      "point_of_interest_list": "Cobb Cabin, stay from 08:00 to 09:00, nearest transit: 10th St & Fenton Ave, 524.39m away; Vida, visit from 09:25 to 10:16, nearest transit: New York St & College Ave, 112.33m away; Central Canal, visit from 11:30 to 15:20, nearest transit: Washington St & West St - White River St, 138.65m away; Yard House, visit from 13:57 to 14:56, nearest transit: Washington St & Illinois St, 224.79m away; Thai Spice, visit from 19:51 to 21:00, nearest transit: County Line Rd at Greenwood Park Mall, 41.67m away; Cobb Cabin, stay from 22:15 to 08:00, nearest transit: 10th St & Fenton Ave, 524.39m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Indianapolis to Los Angeles",
+      "transportation": "Taxi, from Indianapolis to Los Angeles, Not feasible to drive from Indianapolis to Los Angeles",
+      "breakfast": "Market Table, Indianapolis",
+      "attraction": "Monument Circle, Indianapolis",
+      "lunch": "High Velocity, Indianapolis",
+      "dinner": "Nada, Indianapolis",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cobb Cabin, stay from 08:00 to 09:00, nearest transit: 10th St & Fenton Ave, 524.39m away; Market Table, visit from 09:25 to 10:16, nearest transit: Delaware St & Louisiana St, 192.20m away; Monument Circle, visit from 11:30 to 15:20, nearest transit: Ohio St & Meridian St, 185.16m away; High Velocity, visit from 13:57 to 14:56, nearest transit: Washington St & West St - White River St, 101.69m away; Nada, visit from 19:51 to 21:00, nearest transit: Washington St & Illinois St, 228.69m away."
+    }
+  ]
+}

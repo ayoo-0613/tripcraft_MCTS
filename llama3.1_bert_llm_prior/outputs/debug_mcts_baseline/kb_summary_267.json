@@ -1,0 +1,59 @@
+{
+  "idx": 267,
+  "stages": [
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 1
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Bend",
+      "to": "Seattle",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0504315, from Bend to Seattle, Departure Time: 11:49, Arrival Time: 12:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bend",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Self-driving, from Bend to Seattle, Duration: 428.97 mins, Distance: 526.4488 km, Estimated Cost: $26.32"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bend",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Taxi, from Bend to Seattle, Duration: 428.97 mins, Distance: 526.4488 km, Estimated Cost: $526.45"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "Bend",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0482542, from Seattle to Bend, Departure Time: 09:13, Arrival Time: 10:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "Bend",
+      "date": null,
+      "raw": "Self-driving, from Seattle to Bend, Duration: 426.5566666666667 mins, Distance: 526.9143 km, Estimated Cost: $26.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "Bend",
+      "date": null,
+      "raw": "Taxi, from Seattle to Bend, Duration: 426.5566666666667 mins, Distance: 526.9143 km, Estimated Cost: $526.91"
+    }
+  ]
+}

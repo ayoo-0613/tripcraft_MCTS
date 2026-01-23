@@ -1,0 +1,506 @@
+{
+  "idx": 338,
+  "reward": 3.5063856627396435,
+  "budget_used": 1193.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0278829, from Boston to Tampa, Departure Time: 21:20, Arrival Time: 00:34",
+      "candidates": [
+        "Flight Number: F0278829, from Boston to Tampa, Departure Time: 21:20, Arrival Time: 00:34",
+        "Taxi, from Boston to Tampa, Not feasible to drive from Boston to Tampa"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+      "candidates": [
+        "The Gardens",
+        "Tiny House 15 min to Busch Gardens! Walk to coffee",
+        "Amazing Apt by Tampa Airport!",
+        "Studio l Cold Plunge l Firepit l Early Check-in!",
+        "No Fees! Introverts Paradise! Central Pinellas!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+      "candidates": [
+        "The Gardens",
+        "Tiny House 15 min to Busch Gardens! Walk to coffee",
+        "Amazing Apt by Tampa Airport!",
+        "Studio l Cold Plunge l Firepit l Early Check-in!",
+        "No Fees! Introverts Paradise! Central Pinellas!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ulele",
+      "candidates": [
+        "Columbia Restaurant",
+        "Ocean Prime",
+        "Daily Eats",
+        "Haven",
+        "Oxford Exchange",
+        "Olivia",
+        "The Capital Grille",
+        "Ulele",
+        "Green Lemon",
+        "Oak & Ola Restaurant",
+        "Besito Mexican",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Curry Leaves Indian Cuisine",
+        "Oystercatchers",
+        "Bernini Restaurant",
+        "On Swann",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Salt Shack On The Bay",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "La Terrazza Restaurant",
+        "Bella's Italian Cafe",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Vino E Pasta",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Eddie V's Prime Seafood",
+        "Yummy House China Bistro",
+        "Samurai Blue Sushi & Sake Bar",
+        "Rusty Pelican Tampa",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Jackson's Bistro Bar & Sushi",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Al's Finger Licking Good Bar-B-Que"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "ZooTampa At Lowry Park",
+      "candidates": [
+        "Adventure Island",
+        "Tampa Theatre",
+        "The Florida Aquarium",
+        "Tampa Riverwalk",
+        "ZooTampa At Lowry Park",
+        "Bayshore Boulevard",
+        "Amalie Arena",
+        "Horse Power for Kids & Animal Sanctuary",
+        "Raymond James Stadium",
+        "Busch Gardens",
+        "Lettuce Lake Regional Park",
+        "Glazer Children's Museum",
+        "Museum of Science and Industry",
+        "Ybor City",
+        "TECO Line Streetcar System",
+        "International Plaza and Bay Street",
+        "Henry B. Plant Museum",
+        "Tampa Bay History Center",
+        "Seminole Hard Rock Casino Tampa",
+        "George M. Steinbrenner Field"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Columbia Restaurant",
+      "candidates": [
+        "Columbia Restaurant",
+        "Ocean Prime",
+        "Daily Eats",
+        "Haven",
+        "Oxford Exchange",
+        "Olivia",
+        "The Capital Grille",
+        "Green Lemon",
+        "Oak & Ola Restaurant",
+        "Besito Mexican",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Curry Leaves Indian Cuisine",
+        "Oystercatchers",
+        "Bernini Restaurant",
+        "On Swann",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Salt Shack On The Bay",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "La Terrazza Restaurant",
+        "Bella's Italian Cafe",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Vino E Pasta",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Eddie V's Prime Seafood",
+        "Yummy House China Bistro",
+        "Samurai Blue Sushi & Sake Bar",
+        "Rusty Pelican Tampa",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Jackson's Bistro Bar & Sushi",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Al's Finger Licking Good Bar-B-Que"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ocean Prime",
+      "candidates": [
+        "Ocean Prime",
+        "Daily Eats",
+        "Haven",
+        "Oxford Exchange",
+        "Olivia",
+        "The Capital Grille",
+        "Green Lemon",
+        "Oak & Ola Restaurant",
+        "Besito Mexican",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Curry Leaves Indian Cuisine",
+        "Oystercatchers",
+        "Bernini Restaurant",
+        "On Swann",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Salt Shack On The Bay",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "La Terrazza Restaurant",
+        "Bella's Italian Cafe",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Vino E Pasta",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Eddie V's Prime Seafood",
+        "Yummy House China Bistro",
+        "Samurai Blue Sushi & Sake Bar",
+        "Rusty Pelican Tampa",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Jackson's Bistro Bar & Sushi",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Al's Finger Licking Good Bar-B-Que"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0278933, from Tampa to Boston, Departure Time: 15:53, Arrival Time: 18:50",
+      "candidates": [
+        "Flight Number: F0278933, from Tampa to Boston, Departure Time: 15:53, Arrival Time: 18:50",
+        "Taxi, from Tampa to Boston, Not feasible to drive from Tampa to Boston"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Daily Eats",
+      "candidates": [
+        "Daily Eats",
+        "Haven",
+        "Oxford Exchange",
+        "Olivia",
+        "The Capital Grille",
+        "Green Lemon",
+        "Oak & Ola Restaurant",
+        "Besito Mexican",
+        "Market At EDITION",
+        "The Pearl Tampa",
+        "Curry Leaves Indian Cuisine",
+        "Oystercatchers",
+        "Bernini Restaurant",
+        "On Swann",
+        "Columbia Cafe - Riverwalk Tampa",
+        "Salt Shack On The Bay",
+        "Happy Fish Peruvian Fusion Restaurant",
+        "La Terrazza Restaurant",
+        "Bella's Italian Cafe",
+        "Bosphorous Turkish Cuisine - Soho",
+        "Vino E Pasta",
+        "Terra Gaucha Brazilian Steakhouse Tampa",
+        "Bern's Steak House",
+        "Charley’s Steak House & Market Fresh Fish",
+        "Eddie V's Prime Seafood",
+        "Yummy House China Bistro",
+        "Samurai Blue Sushi & Sake Bar",
+        "Rusty Pelican Tampa",
+        "Whiskey Joe's Bar & Grill - Tampa",
+        "Jackson's Bistro Bar & Sushi",
+        "Bavaro's Pizza Napoletana & Pastaria",
+        "Al's Finger Licking Good Bar-B-Que"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Adventure Island",
+      "candidates": [
+        "Adventure Island",
+        "Tampa Theatre",
+        "The Florida Aquarium",
+        "Tampa Riverwalk",
+        "Bayshore Boulevard",
+        "Amalie Arena",
+        "Horse Power for Kids & Animal Sanctuary",
+        "Raymond James Stadium",
+        "Busch Gardens",
+        "Lettuce Lake Regional Park",
+        "Glazer Children's Museum",
+        "Museum of Science and Industry",
+        "Ybor City",
+        "TECO Line Streetcar System",
+        "International Plaza and Bay Street",
+        "Henry B. Plant Museum",
+        "Tampa Bay History Center",
+        "Seminole Hard Rock Casino Tampa",
+        "George M. Steinbrenner Field"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Boston to Tampa",
+      "transportation": "Flight Number: F0278829, from Boston to Tampa, Departure Time: 21:20, Arrival Time: 00:34",
+      "accommodation": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 6885.43
+        },
+        {
+          "name": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 6885.43
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Tampa to Tampa",
+      "transportation": "-",
+      "accommodation": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+      "breakfast": "Ulele",
+      "attractions": [
+        "ZooTampa At Lowry Park"
+      ],
+      "lunch": "Columbia Restaurant",
+      "dinner": "Ocean Prime",
+      "poi_blocks": [
+        {
+          "name": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 6885.43
+        },
+        {
+          "name": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 6885.43
+        },
+        {
+          "name": "Ulele",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 10143.81
+        },
+        {
+          "name": "ZooTampa At Lowry Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 5842.47
+        },
+        {
+          "name": "Columbia Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 9370.5
+        },
+        {
+          "name": "Ocean Prime",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 13591.45
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Tampa to Boston",
+      "transportation": "Flight Number: F0278933, from Tampa to Boston, Departure Time: 15:53, Arrival Time: 18:50",
+      "accommodation": "-",
+      "breakfast": "Daily Eats",
+      "attractions": [
+        "Adventure Island"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Tiny House 15 min to Busch Gardens! Walk to coffee",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 6885.43
+        },
+        {
+          "name": "Daily Eats",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Busch Gardens Employee Entrance",
+          "dist_m": 13493.33
+        },
+        {
+          "name": "Adventure Island",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "17:20",
+          "nearest_transit": "Adventure Island Employee Entrance",
+          "dist_m": 210.63
+        }
+      ]
+    }
+  ]
+}

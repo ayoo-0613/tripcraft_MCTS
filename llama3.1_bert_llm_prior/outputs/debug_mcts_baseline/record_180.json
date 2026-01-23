@@ -1,0 +1,65 @@
+{
+  "idx": 180,
+  "JSON": {
+    "org": "Indianapolis",
+    "dest": "Detroit",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": "entire home",
+      "event": null,
+      "attraction": null,
+      "transportation": null
+    },
+    "budget": 3600.0,
+    "query": "Plan a 3-day trip for 4 people from Indianapolis to Detroit from November 18th to November 20th, 2024, with a budget of $3,600. Accommodations should include an entire home, and smoking should be allowed as per the house rules.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Indianapolis to Detroit",
+      "transportation": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08",
+      "breakfast": "Hudson Cafe, Detroit",
+      "attraction": "Motown Museum, Detroit",
+      "lunch": "Parc, Detroit",
+      "dinner": "The Whitney, Detroit",
+      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Hudson Cafe, visit from 09:25 to 10:16, nearest transit: Campus Martius - Northbound, 130.86m away; Motown Museum, visit from 11:30 to 15:20, nearest transit: Grand Blvd, 1422.76m away; Parc, visit from 13:57 to 14:56, nearest transit: Campus Martius - Southbound, 82.17m away; The Whitney, visit from 19:51 to 21:00, nearest transit: Canfield St - Southbound, 81.76m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Detroit to Detroit",
+      "transportation": "Transfer, from Detroit to Detroit",
+      "breakfast": "Cliff Bells, Detroit",
+      "attraction": "Greektown, Detroit",
+      "lunch": "Grey Ghost Detroit, Detroit",
+      "dinner": "Dime Store, Detroit",
+      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "event": "-",
+      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Cliff Bells, visit from 09:25 to 10:16, nearest transit: Grand Circus - Southbound, 186.82m away; Greektown, visit from 11:30 to 14:50, nearest transit: Campus Martius - Northbound, 630.15m away; Grey Ghost Detroit, visit from 13:57 to 14:56, nearest transit: Mack Ave - Northbound, 279.12m away; Dime Store, visit from 19:51 to 21:00, nearest transit: Campus Martius - Southbound, 150.09m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Detroit to Indianapolis",
+      "transportation": "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
+      "breakfast": "Vertical Detroit, Detroit",
+      "attraction": "Detroit Downtown, Detroit",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Vertical Detroit, visit from 09:25 to 10:16, nearest transit: Grand Circus - Northbound, 257.87m away; Detroit Downtown, visit from 11:30 to 14:50, nearest transit: Congress St, 56.59m away."
+    }
+  ]
+}

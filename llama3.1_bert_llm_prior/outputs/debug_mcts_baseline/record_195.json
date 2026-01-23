@@ -1,0 +1,65 @@
+{
+  "idx": 195,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Wilmington",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "entire home",
+      "event": null,
+      "attraction": "Sights & Landmarks",
+      "transportation": null
+    },
+    "budget": 4500.0,
+    "query": "Plan a 3-day trip for 4 people from Boston to Wilmington from November 2nd to November 4th, 2024, with a budget of $4,500. Accommodations should be an entire home and the itinerary should include visits to sights and landmarks. Pets should be allowed.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Wilmington",
+      "transportation": "Flight Number: F1368945, from Boston to Wilmington, Departure Time: 11:55, Arrival Time: 13:46",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "La Fia, Wilmington",
+      "dinner": "Pilot House, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; La Fia, visit from 13:57 to 14:56, nearest transit: Gordon Rd WB at Military Cutoff Rd, 640890.67m away; Dockside at The Cove, stay from 14:16 to 15:16, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Pilot House, visit from 19:51 to 21:00, nearest transit: Front St SB at Ann St, 112.21m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "The Basics, Wilmington",
+      "attraction": "Downtown Wilmington, Wilmington",
+      "lunch": "Catch, Wilmington",
+      "dinner": "Manna, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; The Basics, visit from 09:25 to 10:16, nearest transit: Front St NB at Grace St, 96.37m away; Downtown Wilmington, visit from 11:30 to 14:50, nearest transit: Front St SB at Chestnut St, 66.26m away; Catch, visit from 13:57 to 14:56, nearest transit: Market St WB at Dollar General, 552.38m away; Manna, visit from 19:51 to 21:00, nearest transit: Front St SB at Chestnut St, 150.96m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wilmington to Boston",
+      "transportation": "Flight Number: F1368978, from Wilmington to Boston, Departure Time: 14:51, Arrival Time: 16:46",
+      "breakfast": "Fish Bites Seafood, Wilmington",
+      "attraction": "Riverwalk, Wilmington",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Fish Bites Seafood, visit from 09:25 to 10:16, nearest transit: Carolina Beach Rd NB at College Rd, 2839.13m away; Riverwalk, visit from 11:30 to 15:20, nearest transit: Front St SB at Market St, 105.98m away."
+    }
+  ]
+}

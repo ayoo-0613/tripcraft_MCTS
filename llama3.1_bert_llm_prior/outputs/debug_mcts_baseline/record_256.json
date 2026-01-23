@@ -1,0 +1,68 @@
+{
+  "idx": 256,
+  "JSON": {
+    "org": "Las Vegas",
+    "dest": "Colorado Springs",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-17",
+      "2024-11-18",
+      "2024-11-19"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": null,
+      "event": null,
+      "attraction": [
+        "Sights & Landmarks",
+        "Nature & Parks"
+      ]
+    },
+    "budget": 1900.0,
+    "query": "Plan a 3-day trip for 2 people from Las Vegas to Colorado Springs from November 17th to November 19th, 2024, with a budget of $1,900. Accommodations should include a private room, and the itinerary should focus on visiting sights, landmarks, and nature parks.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Las Vegas to Colorado Springs",
+      "transportation": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
+      "breakfast": "Restaurant 1858, Colorado Springs",
+      "attraction": "Palmer Park, Colorado Springs; Helen Hunt Falls, Colorado Springs",
+      "lunch": "Prime 25, Colorado Springs",
+      "dinner": "Caspian Cafe Mediterranean, Colorado Springs",
+      "accommodation": "Casa De Mariposas, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "Casa De Mariposas, stay from 08:00 to 09:00, nearest transit: Galley/Ford, 862.13m away; Restaurant 1858, visit from 09:25 to 10:16, nearest transit: Moreno/Communication, 320.84m away; Palmer Park, visit from 11:30 to 15:12, nearest transit: Academy/Maizeland, 308.09m away; Prime 25, visit from 13:57 to 14:56, nearest transit: Brookside/Cascade, 181.96m away; Helen Hunt Falls, visit from 16:30 to 20:27, nearest transit: Mesa/Lake, 4478.97m away; Caspian Cafe Mediterranean, visit from 19:51 to 21:00, nearest transit: GoG/Northpark, 155.07m away; Casa De Mariposas, stay from 22:15 to 08:00, nearest transit: Galley/Ford, 862.13m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
+      "breakfast": "Cowboy Star, Colorado Springs",
+      "attraction": "Seven Falls, Colorado Springs; Seven Bridges Trail, Colorado Springs",
+      "lunch": "Mountain Shadows Restaurant, Colorado Springs",
+      "dinner": "-",
+      "accommodation": "The Master Suite at the Fisher House, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "The Master Suite at the Fisher House, stay from 08:00 to 09:00, nearest transit: Uintah/24th, 223.24m away; Cowboy Star, visit from 09:25 to 10:16, nearest transit: Nevada/Eagle Rock, 261.61m away; Seven Falls, visit from 11:30 to 15:27, nearest transit: Mesa/Lake, 2799.21m away; Mountain Shadows Restaurant, visit from 13:57 to 14:56, nearest transit: Colorado/23rd, 76.10m away; Seven Bridges Trail, visit from 16:30 to 20:12, nearest transit: Mesa/Lake, 4548.45m away; The Master Suite at the Fisher House, stay from 22:15 to 08:00, nearest transit: Uintah/24th, 223.24m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Colorado Springs to Las Vegas",
+      "transportation": "Transfer, from Colorado Springs to Las Vegas",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "The Master Suite at the Fisher House, stay from 08:00 to 09:00, nearest transit: Uintah/24th, 223.24m away."
+    }
+  ]
+}

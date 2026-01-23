@@ -1,0 +1,707 @@
+{
+  "idx": 234,
+  "reward": 19.13347461298474,
+  "budget_used": 6613.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Oklahoma City to Atlanta, Duration: 905.6433333333333 mins, Distance: 1363.4583 km, Estimated Cost: $1363.46",
+      "candidates": [
+        "Flight Number: F0045765, from Oklahoma City to Atlanta, Departure Time: 18:19, Arrival Time: 21:19",
+        "Taxi, from Oklahoma City to Atlanta, Duration: 905.6433333333333 mins, Distance: 1363.4583 km, Estimated Cost: $1363.46"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "candidates": [
+        "Alpaca Treehouse in the Bamboo Forest",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Urban Farm Stay in Heart of Atlanta"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Home Grown",
+      "candidates": [
+        "Home Grown",
+        "Canoe",
+        "Marcel",
+        "Aria",
+        "The Capital Grille",
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Swan House",
+      "candidates": [
+        "Swan House",
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Piedmont Park",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Canoe",
+      "candidates": [
+        "Canoe",
+        "Marcel",
+        "Aria",
+        "The Capital Grille",
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Georgia Aquarium",
+      "candidates": [
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Piedmont Park",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Marcel",
+      "candidates": [
+        "Marcel",
+        "Aria",
+        "The Capital Grille",
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Alpaca Treehouse in the Bamboo Forest",
+      "candidates": [
+        "Alpaca Treehouse in the Bamboo Forest",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Urban Farm Stay in Heart of Atlanta"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Aria",
+      "candidates": [
+        "Aria",
+        "The Capital Grille",
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Zoo Atlanta",
+      "candidates": [
+        "Zoo Atlanta",
+        "Piedmont Park",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Piedmont Park",
+      "candidates": [
+        "Piedmont Park",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bangkok Station",
+      "candidates": [
+        "Bangkok Station",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Atlanta to Oklahoma City",
+      "candidates": [
+        "Transfer, from Atlanta to Oklahoma City"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Steamhouse Lounge",
+      "candidates": [
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "Atlanta Breakfast Club",
+        "Trader Vic's",
+        "South City Kitchen Midtown",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "St. Cecilia",
+        "By George restaurant and bar",
+        "Poor Calvin's",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "The Optimist",
+        "Bone's Restaurant",
+        "Murphy's Restaurant",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Fox Bros. Bar-B-Q",
+        "Ray's in the City",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Tavola Trattoria",
+        "La Grotta Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fox Theatre",
+      "candidates": [
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Fernbank Museum",
+      "candidates": [
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "Centennial Olympic Park",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "High Museum of Art",
+        "Jimmy Carter Presidential Library & Museum",
+        "World of Coca-Cola",
+        "Mercedes Benz Stadium",
+        "Center for Puppetry Arts",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Oklahoma City to Atlanta",
+      "transportation": "Taxi, from Oklahoma City to Atlanta, Duration: 905.6433333333333 mins, Distance: 1363.4583 km, Estimated Cost: $1363.46",
+      "accommodation": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "breakfast": "Home Grown",
+      "attractions": [
+        "Swan House",
+        "Georgia Aquarium"
+      ],
+      "lunch": "Canoe",
+      "dinner": "Marcel",
+      "poi_blocks": [
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Home Grown",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MEMORIAL DR SE @ GIBSON ST SE",
+          "dist_m": 49.17
+        },
+        {
+          "name": "Swan House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "PEACHTREE RD NW @ PHARR RD NW",
+          "dist_m": 659.66
+        },
+        {
+          "name": "Canoe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "NORTHSIDE PKWY @ RIVER GREEN DR",
+          "dist_m": 738.85
+        },
+        {
+          "name": "Georgia Aquarium",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "19:27",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 131.37
+        },
+        {
+          "name": "Marcel",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "HOWELL MILL RD NW @ 14TH ST NW",
+          "dist_m": 77.33
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Alpaca Treehouse in the Bamboo Forest",
+      "breakfast": "Aria",
+      "attractions": [
+        "Zoo Atlanta",
+        "Piedmont Park"
+      ],
+      "lunch": "The Capital Grille",
+      "dinner": "Bangkok Station",
+      "poi_blocks": [
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Aria",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "PIEDMONT RD NE @ E PACES FERRY RD NE",
+          "dist_m": 250.25
+        },
+        {
+          "name": "Zoo Atlanta",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:37",
+          "nearest_transit": "CHEROKEE AVE @ GRANT PARK PL",
+          "dist_m": 195.14
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEACHTREE RD @ E PACES FERRY RD NE",
+          "dist_m": 94.17
+        },
+        {
+          "name": "Piedmont Park",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "20:27",
+          "nearest_transit": "PIEDMONT AVE NE @ PRADO",
+          "dist_m": 407.1
+        },
+        {
+          "name": "Bangkok Station",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PIEDMONT RD NE @ PEACHTREE DR NE",
+          "dist_m": 153.2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Oklahoma City",
+      "transportation": "Transfer, from Atlanta to Oklahoma City",
+      "accommodation": "-",
+      "breakfast": "Steamhouse Lounge",
+      "attractions": [
+        "Fox Theatre",
+        "Fernbank Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Steamhouse Lounge",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W PEACHTREE ST @ 12TH ST",
+          "dist_m": 93.0
+        },
+        {
+          "name": "Fox Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:42",
+          "nearest_transit": "PEACHTREE ST NE @ PONCE DE LEON AVE",
+          "dist_m": 41.68
+        },
+        {
+          "name": "Fernbank Museum",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "PONCE DE LEON AVE @ S PONCE DE LEON AVE",
+          "dist_m": 179.68
+        }
+      ]
+    }
+  ]
+}

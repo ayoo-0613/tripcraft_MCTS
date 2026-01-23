@@ -1,0 +1,65 @@
+{
+  "idx": 202,
+  "JSON": {
+    "org": "San Francisco",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3450.0,
+    "query": "Plan a 3-day trip for 2 people from San Francisco to New York from November 8th to November 10th, 2024, with a budget of $3,450. Accommodations should include a private room, and transportation should not involve self-driving. Pets must be allowed.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from San Francisco to New York",
+      "transportation": "Taxi, from San Francisco to New York, Not feasible to drive from San Francisco to New York",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Manhattan Skyline, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "Lobster Place, New York",
+      "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+      "event": "-",
+      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Manhattan Skyline, visit from 11:30 to 15:20, nearest transit: EAST BROADWAY/FORSYTH ST, 67.74m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Minimal room 1 SofaBed + loft bed in Manhattan, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Westway Diner, New York",
+      "attraction": "Brooklyn Bridge, New York",
+      "lunch": "Bryant Park Grill, New York",
+      "dinner": "BOOM, New York",
+      "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+      "event": "-",
+      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; Brooklyn Bridge, visit from 11:30 to 15:20, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; BOOM, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Minimal room 1 SofaBed + loft bed in Manhattan, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to San Francisco",
+      "transportation": "Taxi, from New York to San Francisco, Not feasible to drive from New York to San Francisco",
+      "breakfast": "Burger & Lobster, New York",
+      "attraction": "The High Line, New York",
+      "lunch": "Harry's, New York",
+      "dinner": "Peak Restaurant & Bar, New York",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Burger & Lobster, visit from 09:25 to 10:16, nearest transit: W 42 ST/BROADWAY, 75.08m away; The High Line, visit from 11:30 to 16:05, nearest transit: GREENWICH ST/HORATIO ST, 184.89m away; Harry's, visit from 13:57 to 14:56, nearest transit: WATER ST/HANOVER SQ, 85.83m away; Peak Restaurant & Bar, visit from 19:51 to 21:00, nearest transit: W 34 ST/HUDSON BLVD E, 153.03m away."
+    }
+  ]
+}

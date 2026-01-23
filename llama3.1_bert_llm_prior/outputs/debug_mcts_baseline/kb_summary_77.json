@@ -1,0 +1,90 @@
+{
+  "idx": 77,
+  "stages": [
+    {
+      "city": "Beaumont",
+      "counts": {
+        "attractions": 10,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 66,
+        "events": 19
+      }
+    },
+    {
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Asheville",
+      "to": "Beaumont",
+      "date": "2024-11-02",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Asheville",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Self-driving, from Asheville to Beaumont, Duration: 1022.5166666666667 mins, Distance: 1455.8277 km, Estimated Cost: $72.79"
+    },
+    {
+      "mode": "taxi",
+      "from": "Asheville",
+      "to": "Beaumont",
+      "date": null,
+      "raw": "Taxi, from Asheville to Beaumont, Duration: 1022.5166666666667 mins, Distance: 1455.8277 km, Estimated Cost: $1455.83"
+    },
+    {
+      "mode": "flight",
+      "from": "Beaumont",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Beaumont",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Self-driving, from Beaumont to San Antonio, Duration: 307.02833333333336 mins, Distance: 450.7428 km, Estimated Cost: $22.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "Beaumont",
+      "to": "San Antonio",
+      "date": null,
+      "raw": "Taxi, from Beaumont to San Antonio, Duration: 307.02833333333336 mins, Distance: 450.7428 km, Estimated Cost: $450.74"
+    },
+    {
+      "mode": "flight",
+      "from": "San Antonio",
+      "to": "Asheville",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Antonio",
+      "to": "Asheville",
+      "date": null,
+      "raw": "Self-driving, from San Antonio to Asheville, Duration: 1327.355 mins, Distance: 1904.3448 km, Estimated Cost: $95.22"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Antonio",
+      "to": "Asheville",
+      "date": null,
+      "raw": "Taxi, from San Antonio to Asheville, Duration: 1327.355 mins, Distance: 1904.3448 km, Estimated Cost: $1904.34"
+    }
+  ]
+}

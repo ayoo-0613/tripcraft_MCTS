@@ -1,0 +1,90 @@
+{
+  "idx": 21,
+  "stages": [
+    {
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "El Paso",
+      "to": "Sacramento",
+      "date": "2024-11-01",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "El Paso",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Self-driving, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $95.30"
+    },
+    {
+      "mode": "taxi",
+      "from": "El Paso",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Taxi, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $1905.95"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Monterey",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Monterey",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Monterey, Duration: 291.5066666666667 mins, Distance: 355.9538 km, Estimated Cost: $17.80"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Monterey",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Monterey, Duration: 291.5066666666667 mins, Distance: 355.9538 km, Estimated Cost: $355.95"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "El Paso",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "El Paso",
+      "date": null,
+      "raw": "Self-driving, from Monterey to El Paso, Duration: 1204.2983333333332 mins, Distance: 1740.2439 km, Estimated Cost: $87.01"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "El Paso",
+      "date": null,
+      "raw": "Taxi, from Monterey to El Paso, Duration: 1204.2983333333332 mins, Distance: 1740.2439 km, Estimated Cost: $1740.24"
+    }
+  ]
+}

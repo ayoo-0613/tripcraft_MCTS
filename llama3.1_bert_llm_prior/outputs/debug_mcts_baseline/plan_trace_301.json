@@ -1,0 +1,693 @@
+{
+  "idx": 301,
+  "reward": 17.43098540596001,
+  "budget_used": 1139.1,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego",
+      "candidates": [
+        "Flight Number: F0509097, from Everett to San Diego, Departure Time: 10:22, Arrival Time: 13:06",
+        "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Coyote",
+      "candidates": [
+        "Cafe Coyote",
+        "World Famous",
+        "Morning Glory",
+        "Addison Restaurant",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "World Famous",
+      "candidates": [
+        "World Famous",
+        "Morning Glory",
+        "Addison Restaurant",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Little Italy",
+      "candidates": [
+        "Little Italy",
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Morning Glory",
+      "candidates": [
+        "Morning Glory",
+        "Addison Restaurant",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Addison Restaurant",
+      "candidates": [
+        "Addison Restaurant",
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Mission Beach",
+      "candidates": [
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Casa Guadalajara",
+      "candidates": [
+        "Casa Guadalajara",
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Seaport Village",
+      "candidates": [
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+      "candidates": [
+        "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+        "Taxi, from San Diego to Everett, Not feasible to drive from San Diego to Everett"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Covewood Restaurant",
+      "candidates": [
+        "Covewood Restaurant",
+        "Born & Raised",
+        "Vessel Restaurant + Bar",
+        "The Fishery",
+        "Oceana Coastal Kitchen",
+        "Meze Greek Fusion",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Civico 1845",
+        "Barbusa",
+        "The Butcher Shop",
+        "Alforon",
+        "Dockside 1953",
+        "Pacific Beach AleHouse",
+        "The Fish Market - San Diego",
+        "Las Hadas Grill",
+        "Trailer Park After Dark",
+        "Mimmo's",
+        "Lou & Mickey's",
+        "Bencotto Italian Kitchen",
+        "Ironside Fish & Oyster",
+        "Ruth's Chris Steak House",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Petco Park",
+      "candidates": [
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "Mt. Soledad National Veterans Memorial",
+        "La Jolla Shores Park",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Everett to San Diego",
+      "transportation": "Taxi, from Everett to San Diego, Not feasible to drive from Everett to San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "breakfast": "Cafe Coyote",
+      "attractions": [
+        "SeaWorld",
+        "Little Italy"
+      ],
+      "lunch": "World Famous",
+      "dinner": "Morning Glory",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Cafe Coyote",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Juan St & Harney St",
+          "dist_m": 216.77
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:57",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "World Famous",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 120.85
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:27",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 155.04
+        },
+        {
+          "name": "Morning Glory",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 92.52
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "breakfast": "Addison Restaurant",
+      "attractions": [
+        "Mission Beach",
+        "Seaport Village"
+      ],
+      "lunch": "Casa Guadalajara",
+      "dinner": "Cowboy Star",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Addison Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Mira Mesa Bl & Genetic Center Dr",
+          "dist_m": 4339.61
+        },
+        {
+          "name": "Mission Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:12",
+          "nearest_transit": "W Mission Bay Dr & Mission Bl",
+          "dist_m": 219.18
+        },
+        {
+          "name": "Casa Guadalajara",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Taylor St & Juan St",
+          "dist_m": 50.62
+        },
+        {
+          "name": "Seaport Village",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Seaport Village Station",
+          "dist_m": 377.46
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "10th Av & Market St",
+          "dist_m": 50.81
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to Everett",
+      "transportation": "Flight Number: F0509620, from San Diego to Everett, Departure Time: 15:16, Arrival Time: 18:20",
+      "accommodation": "-",
+      "breakfast": "Covewood Restaurant",
+      "attractions": [
+        "Petco Park"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Covewood Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Morena Bl & Asher St",
+          "dist_m": 354.99
+        },
+        {
+          "name": "Petco Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:28",
+          "nearest_transit": "10th Av & Park Bl (Petco Park)",
+          "dist_m": 185.0
+        }
+      ]
+    }
+  ]
+}

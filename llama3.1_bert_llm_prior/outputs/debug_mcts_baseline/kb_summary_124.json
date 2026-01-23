@@ -1,0 +1,90 @@
+{
+  "idx": 124,
+  "stages": [
+    {
+      "city": "Bloomington",
+      "counts": {
+        "attractions": 16,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 71,
+        "events": 20
+      }
+    },
+    {
+      "city": "Champaign",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 4
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Dallas",
+      "to": "Bloomington",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0111274, from Dallas to Bloomington, Departure Time: 13:00, Arrival Time: 14:59"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Dallas",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Self-driving, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $63.59"
+    },
+    {
+      "mode": "taxi",
+      "from": "Dallas",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Taxi, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $1271.75"
+    },
+    {
+      "mode": "flight",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": "2024-11-04",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Self-driving, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $4.08"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bloomington",
+      "to": "Champaign",
+      "date": null,
+      "raw": "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
+    },
+    {
+      "mode": "flight",
+      "from": "Champaign",
+      "to": "Dallas",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0398812, from Champaign to Dallas, Departure Time: 15:25, Arrival Time: 18:04"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Champaign",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Champaign to Dallas, Duration: 883.8533333333332 mins, Distance: 1330.2473 km, Estimated Cost: $66.51"
+    },
+    {
+      "mode": "taxi",
+      "from": "Champaign",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Champaign to Dallas, Duration: 883.8533333333332 mins, Distance: 1330.2473 km, Estimated Cost: $1330.25"
+    }
+  ]
+}

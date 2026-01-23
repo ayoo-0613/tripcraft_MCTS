@@ -1,0 +1,65 @@
+{
+  "idx": 239,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Long Beach",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "event": null,
+      "attraction": "Nature & Parks",
+      "transportation": null
+    },
+    "budget": 3600.0,
+    "query": "Plan a 3-day trip for 2 people from Chicago to Long Beach from November 25th to November 27th, 2024, with a budget of $3,600. Include visits to attractions related to Nature & Parks.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Long Beach",
+      "transportation": "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Belmont Shore: Casita Granada, Long Beach",
+      "event": "-",
+      "point_of_interest_list": "Belmont Shore: Casita Granada, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3975306.53m away; Belmont Shore: Casita Granada, stay from 11:41 to 12:41, nearest transit: Nevada Ave, 3975306.53m away; Belmont Shore: Casita Granada, stay from 22:15 to 08:00, nearest transit: Nevada Ave, 3975306.53m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Long Beach to Long Beach",
+      "transportation": "Transfer, from Long Beach to Long Beach",
+      "breakfast": "Yard House, Long Beach",
+      "attraction": "Long Beach, Long Beach",
+      "lunch": "Long Beach, Long Beach",
+      "dinner": "Open Sesame, Long Beach",
+      "accommodation": "Belmont Shore: Casita Granada, Long Beach",
+      "event": "-",
+      "point_of_interest_list": "Belmont Shore: Casita Granada, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3975306.53m away; Yard House, visit from 09:25 to 10:16, nearest transit: Nevada Ave, 3979844.70m away; Long Beach, visit from 11:30 to 16:35, nearest transit: Nevada Ave, 4055419.43m away; Long Beach, visit from 11:30 to 16:35, nearest transit: Nevada Ave, 4055419.43m away; Open Sesame, visit from 19:51 to 21:00, nearest transit: Nevada Ave, 3975088.33m away; Belmont Shore: Casita Granada, stay from 22:15 to 08:00, nearest transit: Nevada Ave, 3975306.53m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Long Beach to Chicago",
+      "transportation": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23",
+      "breakfast": "Long Beach Cafe, Long Beach",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Belmont Shore: Casita Granada, stay from 08:00 to 09:00, nearest transit: Nevada Ave, 3975306.53m away; Long Beach Cafe, visit from 09:25 to 10:16, nearest transit: Nevada Ave, 3924384.10m away."
+    }
+  ]
+}

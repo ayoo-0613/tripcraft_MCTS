@@ -1,0 +1,800 @@
+{
+  "idx": 25,
+  "reward": 18.314353267577584,
+  "budget_used": 2614.875,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08",
+      "candidates": [
+        "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "2 Bedroom Home near Downtown Colorado Springs",
+      "candidates": [
+        "Casa De Mariposas",
+        "Private, Spacious Basement Suite in N CO Springs",
+        "The Enchanted Cottage at Easy Manor",
+        "The Master Suite at the Fisher House",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Tiny Home Studio, Centrally Located Near Downtown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Restaurant 1858",
+      "candidates": [
+        "Restaurant 1858",
+        "Caspian Cafe Mediterranean",
+        "Prime 25",
+        "Cowboy Star",
+        "The Airplane Restaurant",
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Palmer Park",
+      "candidates": [
+        "Palmer Park",
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "Seven Falls",
+        "Red Rock Canyon",
+        "Cheyenne Mountain Zoo",
+        "Colorado Springs Pioneers Museum",
+        "Penrose Heritage Museum",
+        "U.S. Olympic & Paralympic Museum",
+        "Michael Garman Museum & Gallery",
+        "Garden of the Gods",
+        "Cheyenne Mountain State Park",
+        "National Museum of World War II Aviation",
+        "North Cheyenne Canon Park and Starsmore Discovery Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Caspian Cafe Mediterranean",
+      "candidates": [
+        "Caspian Cafe Mediterranean",
+        "Prime 25",
+        "Cowboy Star",
+        "The Airplane Restaurant",
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Prime 25",
+      "candidates": [
+        "Prime 25",
+        "Cowboy Star",
+        "The Airplane Restaurant",
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Casa De Mariposas",
+      "candidates": [
+        "Casa De Mariposas",
+        "Private, Spacious Basement Suite in N CO Springs",
+        "The Enchanted Cottage at Easy Manor",
+        "The Master Suite at the Fisher House",
+        "2 Bedroom Home near Downtown Colorado Springs",
+        "Tiny Home Studio, Centrally Located Near Downtown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cowboy Star",
+      "candidates": [
+        "Cowboy Star",
+        "The Airplane Restaurant",
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Helen Hunt Falls",
+      "candidates": [
+        "Helen Hunt Falls",
+        "Seven Bridges Trail",
+        "Seven Falls",
+        "Red Rock Canyon",
+        "Cheyenne Mountain Zoo",
+        "Colorado Springs Pioneers Museum",
+        "Penrose Heritage Museum",
+        "U.S. Olympic & Paralympic Museum",
+        "Michael Garman Museum & Gallery",
+        "Garden of the Gods",
+        "Cheyenne Mountain State Park",
+        "National Museum of World War II Aviation",
+        "North Cheyenne Canon Park and Starsmore Discovery Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Airplane Restaurant",
+      "candidates": [
+        "The Airplane Restaurant",
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "TAPAteria",
+      "candidates": [
+        "TAPAteria",
+        "Mountain Shadows Restaurant",
+        "The Melting Pot",
+        "The Rabbit Hole",
+        "Colorado Mountain Brewery",
+        "The Warehouse Restaurant & Gallery",
+        "The Great British Food Company",
+        "La Bella Vita",
+        "Uchenna",
+        "The Famous Steak House",
+        "NaRai Thai Restaurant",
+        "Carlos Bistro",
+        "Marigold Cafe & Bakery",
+        "Urban Egg A Daytime Eatery",
+        "Yellow Mountain Tea House",
+        "Margarita At Pine Creek",
+        "Pizzeria Rustica",
+        "The Steakhouse At Flying Horse",
+        "Saltgrass Steak House",
+        "Denver Biscuit Company",
+        "Shuga's Restaurant",
+        "Garden of the God's Market & Cafe",
+        "Front Range Barbeque",
+        "Sushi Ato",
+        "MacKenzie's Chop House",
+        "Uwe's German Restaurant",
+        "Summit at The Broadmoor",
+        "Jack Quinn's Irish Pub & Restaurant",
+        "Edelweiss German Restaurant",
+        "Paravicini's Italian Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20",
+      "candidates": [
+        "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Animas Homestead",
+      "candidates": [
+        "Animas Homestead",
+        "Private Bedroom and Bath - Walk Downtown!",
+        "Main Street Retreat - Downtown Durango",
+        "Creek-view studio overlooking Hermosa Creek",
+        "The Lovely Loft with Epic Views Outside of Durango",
+        "Private Cabin~Stunning Mountain View~Starlink WiFi"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bread",
+      "candidates": [
+        "Bread",
+        "Rice Monkeys",
+        "Himalayan Kitchen",
+        "College Drive Cafe",
+        "Carver Brewing Co.",
+        "Mahogany Grille",
+        "Diamond Belle Saloon",
+        "Derailed Pour House",
+        "Ska Brewing Co",
+        "The Yellow Carrot Restaurant",
+        "Durango Diner",
+        "Oscar's Cafe",
+        "East by Southwest",
+        "Eolus Bar & Dining",
+        "Seasons of Durango",
+        "Jean Pierre Bakery and Restaurant",
+        "Steamworks Brewing Co",
+        "Hermosa  Creek Grill",
+        "Gazpacho",
+        "Durango Doughworks",
+        "Serious Texas Bar-B-Q",
+        "Durango Bagel",
+        "T's Smokehouse and Grill",
+        "Zia Taqueria",
+        "Chimayo Stone Fired Kitchen",
+        "Durango's Mexican",
+        "Durango's Restaurant & Gift",
+        "81301 Coffee House and Roasters",
+        "Durango's Mexican Restaurant",
+        "Durango's Steakhouse",
+        "El Moro Spirits & Tavern",
+        "Durango's Mexican Grill",
+        "Fired Up Pizzeria",
+        "Michel's Corner Crepes",
+        "Durango Joe's Coffee on College Dr."
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Colorado Trail",
+      "candidates": [
+        "The Colorado Trail",
+        "Animas Museum",
+        "Animas River Trail",
+        "Purgatory Resort",
+        "Animas River",
+        "San Juan National Forest"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Rice Monkeys",
+      "candidates": [
+        "Rice Monkeys",
+        "Himalayan Kitchen",
+        "College Drive Cafe",
+        "Carver Brewing Co.",
+        "Mahogany Grille",
+        "Diamond Belle Saloon",
+        "Derailed Pour House",
+        "Ska Brewing Co",
+        "The Yellow Carrot Restaurant",
+        "Durango Diner",
+        "Oscar's Cafe",
+        "East by Southwest",
+        "Eolus Bar & Dining",
+        "Seasons of Durango",
+        "Jean Pierre Bakery and Restaurant",
+        "Steamworks Brewing Co",
+        "Hermosa  Creek Grill",
+        "Gazpacho",
+        "Durango Doughworks",
+        "Serious Texas Bar-B-Q",
+        "Durango Bagel",
+        "T's Smokehouse and Grill",
+        "Zia Taqueria",
+        "Chimayo Stone Fired Kitchen",
+        "Durango's Mexican",
+        "Durango's Restaurant & Gift",
+        "81301 Coffee House and Roasters",
+        "Durango's Mexican Restaurant",
+        "Durango's Steakhouse",
+        "El Moro Spirits & Tavern",
+        "Durango's Mexican Grill",
+        "Fired Up Pizzeria",
+        "Michel's Corner Crepes",
+        "Durango Joe's Coffee on College Dr."
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Himalayan Kitchen",
+      "candidates": [
+        "Himalayan Kitchen",
+        "College Drive Cafe",
+        "Carver Brewing Co.",
+        "Mahogany Grille",
+        "Diamond Belle Saloon",
+        "Derailed Pour House",
+        "Ska Brewing Co",
+        "The Yellow Carrot Restaurant",
+        "Durango Diner",
+        "Oscar's Cafe",
+        "East by Southwest",
+        "Eolus Bar & Dining",
+        "Seasons of Durango",
+        "Jean Pierre Bakery and Restaurant",
+        "Steamworks Brewing Co",
+        "Hermosa  Creek Grill",
+        "Gazpacho",
+        "Durango Doughworks",
+        "Serious Texas Bar-B-Q",
+        "Durango Bagel",
+        "T's Smokehouse and Grill",
+        "Zia Taqueria",
+        "Chimayo Stone Fired Kitchen",
+        "Durango's Mexican",
+        "Durango's Restaurant & Gift",
+        "81301 Coffee House and Roasters",
+        "Durango's Mexican Restaurant",
+        "Durango's Steakhouse",
+        "El Moro Spirits & Tavern",
+        "Durango's Mexican Grill",
+        "Fired Up Pizzeria",
+        "Michel's Corner Crepes",
+        "Durango Joe's Coffee on College Dr."
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Durango to Helena",
+      "candidates": [
+        "Transfer, from Durango to Helena"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Helena to Colorado Springs",
+      "transportation": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08",
+      "accommodation": "2 Bedroom Home near Downtown Colorado Springs",
+      "breakfast": "Restaurant 1858",
+      "attractions": [
+        "Palmer Park"
+      ],
+      "lunch": "Caspian Cafe Mediterranean",
+      "dinner": "Prime 25",
+      "poi_blocks": [
+        {
+          "name": "2 Bedroom Home near Downtown Colorado Springs",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Nevada/Willamette",
+          "dist_m": 260.79
+        },
+        {
+          "name": "2 Bedroom Home near Downtown Colorado Springs",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Nevada/Willamette",
+          "dist_m": 260.79
+        },
+        {
+          "name": "Restaurant 1858",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Moreno/Communication",
+          "dist_m": 320.84
+        },
+        {
+          "name": "Palmer Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Academy/Maizeland",
+          "dist_m": 308.09
+        },
+        {
+          "name": "Caspian Cafe Mediterranean",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "GoG/Northpark",
+          "dist_m": 155.07
+        },
+        {
+          "name": "Prime 25",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Brookside/Cascade",
+          "dist_m": 181.96
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "-",
+      "accommodation": "Casa De Mariposas",
+      "breakfast": "Cowboy Star",
+      "attractions": [
+        "Helen Hunt Falls"
+      ],
+      "lunch": "The Airplane Restaurant",
+      "dinner": "TAPAteria",
+      "poi_blocks": [
+        {
+          "name": "Casa De Mariposas",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Galley/Ford",
+          "dist_m": 862.13
+        },
+        {
+          "name": "Casa De Mariposas",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Galley/Ford",
+          "dist_m": 862.13
+        },
+        {
+          "name": "Cowboy Star",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Nevada/Eagle Rock",
+          "dist_m": 261.61
+        },
+        {
+          "name": "Helen Hunt Falls",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Mesa/Lake",
+          "dist_m": 4478.97
+        },
+        {
+          "name": "The Airplane Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Jet Wing/Fenton",
+          "dist_m": 1384.1
+        },
+        {
+          "name": "TAPAteria",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "26th/Cucharras",
+          "dist_m": 107.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Colorado Springs to Durango",
+      "transportation": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20",
+      "accommodation": "Animas Homestead",
+      "breakfast": "Bread",
+      "attractions": [
+        "The Colorado Trail"
+      ],
+      "lunch": "Rice Monkeys",
+      "dinner": "Himalayan Kitchen",
+      "poi_blocks": [
+        {
+          "name": "Casa De Mariposas",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Galley/Ford",
+          "dist_m": 862.13
+        },
+        {
+          "name": "Animas Homestead",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Sunnyside",
+          "dist_m": 18782.76
+        },
+        {
+          "name": "Bread",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Ptarmigan Center",
+          "dist_m": 50.35
+        },
+        {
+          "name": "The Colorado Trail",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:35",
+          "nearest_transit": "Durango High School",
+          "dist_m": 286.28
+        },
+        {
+          "name": "Rice Monkeys",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Main Ave. & 11th St.",
+          "dist_m": 73.45
+        },
+        {
+          "name": "Himalayan Kitchen",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Main Ave. & 9th St.",
+          "dist_m": 94.06
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Durango to Durango",
+      "transportation": "-",
+      "accommodation": "Private Bedroom and Bath - Walk Downtown!",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Bedroom and Bath - Walk Downtown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave. & 3rd St.",
+          "dist_m": 81.0
+        },
+        {
+          "name": "Private Bedroom and Bath - Walk Downtown!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "5th Ave. & 3rd St.",
+          "dist_m": 81.0
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Durango to Helena",
+      "transportation": "Transfer, from Durango to Helena",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Bedroom and Bath - Walk Downtown!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave. & 3rd St.",
+          "dist_m": 81.0
+        }
+      ]
+    }
+  ]
+}
