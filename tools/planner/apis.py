@@ -6,6 +6,10 @@ from agents.prompts import (
     planner_agent_prompt_direct_og,
     planner_agent_prompt_direct_param,
     react_planner_agent_prompt,
+    plan_skeleton_prompt,
+    plan_execute_prompt,
+    verifier_repair_prompt,
+    reflexion_repair_prompt,
 )
 # from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
@@ -19,14 +23,22 @@ from langchain.schema import (
 from env import ReactEnv,ReactReflectEnv
 import tiktoken
 import re
+import json
 import openai
 import time
 from enum import Enum
-from typing import List, Union, Literal, Optional
+from typing import Any, Dict, List, Union, Literal, Optional
 # from langchain_google_genai import ChatGoogleGenerativeAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import argparse
+
+_EVAL_IMPORT_CWD = os.getcwd()
+try:
+    from evaluation.commonsense_constraint import evaluation as commonsense_eval
+    from evaluation.hard_constraint import evaluation as hard_eval
+finally:
+    os.chdir(_EVAL_IMPORT_CWD)
 
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
@@ -64,6 +76,70 @@ class OllamaChatClient:
         data = resp.json()
         content = (data.get("message") or {}).get("content")
         return str(content or "")
+
+
+class LLMRunner:
+    def __init__(self, model_name: str = "gpt-3.5-turbo-1106") -> None:
+        self.model_name = model_name
+        self.ollama_model = _resolve_ollama_model(model_name)
+        self.ollama_client = None
+        self.enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+
+        if model_name.startswith("ollama") and not self.ollama_model:
+            raise ValueError("Ollama model name missing. Set OLLAMA_MODEL or use model_name=ollama:<model>.")
+
+        if model_name in ["qwen", "phi4"]:
+            model_path = {
+                "qwen": "Qwen/Qwen2.5-7B-Instruct",
+                "phi4": "microsoft/Phi-4-mini-instruct",
+            }[model_name]
+            self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                model_path,
+                torch_dtype=torch.float16,
+                device_map="auto",
+                offload_folder="offload",
+                attn_implementation="flash_attention_2",
+            )
+            self.llm = None
+        elif self.ollama_model:
+            self.ollama_client = OllamaChatClient(
+                base_url=os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434"),
+                model=self.ollama_model,
+                timeout_sec=float(os.environ.get("OLLAMA_TIMEOUT", "999")),
+            )
+            self.llm = None
+        else:
+            self.llm = ChatOpenAI(
+                model_name=model_name,
+                temperature=0,
+                max_tokens=4096,
+                openai_api_key=OPENAI_API_KEY,
+            )
+
+    def chat(self, prompt: str) -> str:
+        if len(self.enc.encode(prompt)) > 12000:
+            return "Max Token Length Exceeded."
+        if self.model_name in ["qwen", "phi4"]:
+            inputs = self.tokenizer(prompt, return_tensors="pt").to("cuda")
+            output = self.model.generate(**inputs, max_new_tokens=3072)
+            generated_text = self.tokenizer.decode(output[0], skip_special_tokens=True)
+            response_start = generated_text.find(prompt)
+            if response_start != -1:
+                generated_text = generated_text[response_start + len(prompt):].strip()
+            return generated_text
+        if self.ollama_client:
+            return self.ollama_client.chat(prompt)
+        if self.model_name == "gpt-4o":
+            response = openai.ChatCompletion.create(
+                model=self.model_name,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0,
+                max_tokens=4096,
+                api_key=OPENAI_API_KEY,
+            )
+            return response["choices"][0]["message"]["content"]
+        return self.llm([HumanMessage(content=prompt)]).content
 
 def catch_openai_api_error():
     error = sys.exc_info()[0]
@@ -165,6 +241,179 @@ class Planner:
         return self.agent_prompt.format(text=text, query=query, persona=persona)
 
 
+REQUIRED_PLAN_KEYS = [
+    "days",
+    "current_city",
+    "transportation",
+    "breakfast",
+    "attraction",
+    "lunch",
+    "dinner",
+    "accommodation",
+    "event",
+    "point_of_interest_list",
+]
+
+
+def _strip_code_fence(text: str) -> str:
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z0-9]*\\n", "", text)
+        text = re.sub(r"\\n```$", "", text)
+    return text.strip()
+
+
+def _extract_json_array(text: str) -> Optional[List[Dict[str, Any]]]:
+    if text is None:
+        return None
+    text = _strip_code_fence(str(text).strip())
+    if text.startswith("[") and text.endswith("]"):
+        try:
+            obj = json.loads(text)
+            if isinstance(obj, list):
+                return obj
+        except Exception:
+            pass
+    m = re.search(r"\\[.*\\]", text, flags=re.DOTALL)
+    if m:
+        chunk = m.group(0)
+        try:
+            obj = json.loads(chunk)
+            if isinstance(obj, list):
+                return obj
+        except Exception:
+            pass
+        try:
+            obj = eval(chunk, {"__builtins__": {}})
+            if isinstance(obj, list):
+                return obj
+        except Exception:
+            pass
+    return None
+
+
+def _normalize_plan(plan: Any) -> Optional[List[Dict[str, Any]]]:
+    if not isinstance(plan, list):
+        return None
+    normalized = []
+    for idx, item in enumerate(plan, start=1):
+        if not isinstance(item, dict):
+            return None
+        norm = {}
+        for key in REQUIRED_PLAN_KEYS:
+            value = item.get(key, "-")
+            if key == "days":
+                try:
+                    value = int(value)
+                except Exception:
+                    value = idx
+            elif isinstance(value, list):
+                value = "; ".join([str(v) for v in value])
+            elif value is None:
+                value = "-"
+            else:
+                value = str(value)
+            norm[key] = value
+        normalized.append(norm)
+    return normalized
+
+
+def _coerce_query_data(query_data: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    if not query_data:
+        return None
+    query_data = dict(query_data)
+    local_constraint = query_data.get("local_constraint")
+    if isinstance(local_constraint, str):
+        try:
+            query_data["local_constraint"] = eval(local_constraint, {"__builtins__": {}})
+        except Exception:
+            pass
+    return query_data
+
+
+def _collect_failures(query_data: Optional[Dict[str, Any]], plan: List[Dict[str, Any]]) -> List[str]:
+    if not query_data:
+        return ["Missing query data for constraint evaluation."]
+    failures = []
+    commonsense_info = commonsense_eval(query_data, plan)
+    hard_info = hard_eval(query_data, plan)
+    for info in (commonsense_info, hard_info):
+        if not info:
+            continue
+        for key, value in info.items():
+            if value is None:
+                continue
+            ok = value[0]
+            msg = value[1] if len(value) > 1 else ""
+            if ok is False:
+                failures.append(f"{key}: {msg}")
+    return failures
+
+
+class VerifierRepairPlanner:
+    def __init__(
+        self,
+        model_name: str,
+        agent_prompt: PromptTemplate,
+        repair_prompt: PromptTemplate,
+        max_rounds: int = 2,
+    ) -> None:
+        self.runner = LLMRunner(model_name=model_name)
+        self.agent_prompt = agent_prompt
+        self.repair_prompt = repair_prompt
+        self.max_rounds = max_rounds
+
+    def run(self, text, query, persona, query_data=None) -> str:
+        prompt = self.agent_prompt.format(text=text, query=query, persona=persona)
+        plan_text = self.runner.chat(prompt)
+        query_data = _coerce_query_data(query_data)
+        for _ in range(self.max_rounds):
+            parsed = _extract_json_array(plan_text)
+            normalized = _normalize_plan(parsed) if parsed is not None else None
+            if normalized is None:
+                failures = ["Plan is not valid JSON array with required keys."]
+            else:
+                failures = _collect_failures(query_data, normalized)
+            if not failures:
+                return plan_text
+            plan_json = json.dumps(normalized or plan_text, ensure_ascii=True)
+            repair = self.repair_prompt.format(
+                text=text,
+                query=query,
+                persona=persona,
+                plan_json=plan_json,
+                failures="; ".join(failures),
+            )
+            plan_text = self.runner.chat(repair)
+        return plan_text
+
+
+class ReflexionPlanner(VerifierRepairPlanner):
+    pass
+
+
+class PlanExecutePlanner:
+    def __init__(
+        self,
+        model_name: str,
+        plan_prompt: PromptTemplate,
+        execute_prompt: PromptTemplate,
+    ) -> None:
+        self.runner = LLMRunner(model_name=model_name)
+        self.plan_prompt = plan_prompt
+        self.execute_prompt = execute_prompt
+
+    def run(self, text, query, persona, query_data=None) -> str:
+        skeleton = self.runner.chat(self.plan_prompt.format(text=text, query=query, persona=persona))
+        execute = self.execute_prompt.format(
+            text=text,
+            query=query,
+            persona=persona,
+            plan_json=skeleton,
+        )
+        return self.runner.chat(execute)
+
+
 class ReactPlanner:
     """
     A question answering ReAct Agent.
@@ -218,6 +467,21 @@ class ReactPlanner:
 
         while not (self.is_halted() or self.is_finished()):
             self.step()
+
+        if not self.answer:
+            force_prompt = (
+                self._build_agent_prompt()
+                + "\n\nYou must now finish. Output only: Finish[<final Travel Plan>]"
+            )
+            try:
+                forced = format_step(self._call_llm(force_prompt))
+            except Exception:
+                forced = ""
+            action_type, action_arg = parse_action(forced)
+            if action_type == "Finish":
+                self.answer = action_arg
+            elif forced:
+                self.answer = forced
 
         return self.answer, self.scratchpad
 

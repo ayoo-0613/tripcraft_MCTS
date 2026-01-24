@@ -298,3 +298,231 @@ planner_agent_prompt_zs_cot_param = PromptTemplate(
     input_variables=["text", "query", "persona"],
     template=PLANNER_INSTRUCTION_ZS_COT_PARAM,
 )
+
+# Plan-and-execute: first produce a JSON skeleton with placeholders,
+# then fill in concrete values using the provided data.
+PLAN_SKELETON_INSTRUCTION = """You are a proficient planner. Based on the provided information, query, and persona, produce a JSON skeleton of the travel plan.
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Use the placeholder "TBD" for any specific entity names or times that must be filled later.
+- Keep the correct number of days and correct city transitions based on the query.
+- Do NOT invent concrete restaurant/attraction/flight/accommodation names here.
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+PLAN_EXECUTE_INSTRUCTION = """You are a proficient planner. Based on the provided information, query, persona, and the JSON skeleton, fill in all placeholders with concrete details drawn ONLY from the provided data.
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+JSON skeleton:
+{plan_json}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+# Parameter-aware plan-and-execute prompts.
+PLAN_SKELETON_INSTRUCTION_PARAM = """You are a proficient planner. Based on the provided information, query, and persona, produce a JSON skeleton of the travel plan. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Use the placeholder "TBD" for any specific entity names or times that must be filled later.
+- Keep the correct number of days and correct city transitions based on the query.
+- Do NOT invent concrete restaurant/attraction/flight/accommodation names here.
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+PLAN_EXECUTE_INSTRUCTION_PARAM = """You are a proficient planner. Based on the provided information, query, persona, and the JSON skeleton, fill in all placeholders with concrete details drawn ONLY from the provided data. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+JSON skeleton:
+{plan_json}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+# Verifier-guided repair (hard + commonsense constraints)
+VERIFIER_REPAIR_INSTRUCTION = """You are a meticulous planner. You are given a travel plan JSON and a list of constraint failures.
+Fix the plan to satisfy all constraints. Use ONLY the provided data. Preserve the required JSON format.
+
+Constraints failed (must fix all):
+{failures}
+
+Current plan JSON:
+{plan_json}
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+# Parameter-aware verifier repair prompt.
+VERIFIER_REPAIR_INSTRUCTION_PARAM = """You are a meticulous planner. You are given a travel plan JSON and a list of constraint failures.
+Fix the plan to satisfy all constraints. Use ONLY the provided data. Preserve the required JSON format. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
+
+Constraints failed (must fix all):
+{failures}
+
+Current plan JSON:
+{plan_json}
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+# Reflexion: reflect silently, then repair the plan JSON.
+REFLEXION_REPAIR_INSTRUCTION = """You are a meticulous planner. Reflect on why the current plan violates constraints, then repair it.
+Do not output your reflection. Only output the corrected JSON plan.
+
+Constraints failed (must fix all):
+{failures}
+
+Current plan JSON:
+{plan_json}
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+REFLEXION_REPAIR_INSTRUCTION_PARAM = """You are a meticulous planner. Reflect on why the current plan violates constraints, then repair it. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
+
+Constraints failed (must fix all):
+{failures}
+
+Current plan JSON:
+{plan_json}
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is missing. Use ";" to separate multiple items.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+plan_skeleton_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona"],
+    template=PLAN_SKELETON_INSTRUCTION,
+)
+
+plan_skeleton_prompt_param = PromptTemplate(
+    input_variables=["text", "query", "persona"],
+    template=PLAN_SKELETON_INSTRUCTION_PARAM,
+)
+
+plan_execute_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json"],
+    template=PLAN_EXECUTE_INSTRUCTION,
+)
+
+plan_execute_prompt_param = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json"],
+    template=PLAN_EXECUTE_INSTRUCTION_PARAM,
+)
+
+verifier_repair_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "failures"],
+    template=VERIFIER_REPAIR_INSTRUCTION,
+)
+
+verifier_repair_prompt_param = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "failures"],
+    template=VERIFIER_REPAIR_INSTRUCTION_PARAM,
+)
+
+reflexion_repair_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "failures"],
+    template=REFLEXION_REPAIR_INSTRUCTION,
+)
+
+reflexion_repair_prompt_param = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "failures"],
+    template=REFLEXION_REPAIR_INSTRUCTION_PARAM,
+)

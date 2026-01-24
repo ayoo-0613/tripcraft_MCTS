@@ -14,7 +14,14 @@ import pandas as pd
 from tqdm import tqdm
 # from langchain.callbacks import get_openai_callback
 from langchain_community.callbacks.manager import get_openai_callback
-from tools.planner.apis import Planner, ReactPlanner, ReactReflectPlanner
+from tools.planner.apis import (
+    Planner,
+    ReactPlanner,
+    ReactReflectPlanner,
+    VerifierRepairPlanner,
+    ReflexionPlanner,
+    PlanExecutePlanner,
+)
 import openai
 
 # Change the working directory if needed
@@ -26,6 +33,14 @@ from agents.prompts import (
     planner_agent_prompt_zs_cot_og,
     planner_agent_prompt_zs_cot_param,
     react_planner_agent_prompt,
+    plan_skeleton_prompt,
+    plan_execute_prompt,
+    verifier_repair_prompt,
+    reflexion_repair_prompt,
+    plan_skeleton_prompt_param,
+    plan_execute_prompt_param,
+    verifier_repair_prompt_param,
+    reflexion_repair_prompt_param,
 )
 
 
@@ -84,7 +99,27 @@ if __name__ == "__main__":
         planner = ReactPlanner(model_name=args.model_name, agent_prompt=react_planner_agent_prompt)
 
     elif args.strategy == "reflexion":
-        planner = ReactReflectPlanner(model_name=args.model_name, agent_prompt=react_planner_agent_prompt)
+        planner = ReflexionPlanner(
+            model_name=args.model_name,
+            agent_prompt=planner_agent_prompt_direct_param,
+            repair_prompt=reflexion_repair_prompt_param,
+            max_rounds=2,
+        )
+
+    elif args.strategy == "verifier_repair":
+        planner = VerifierRepairPlanner(
+            model_name=args.model_name,
+            agent_prompt=planner_agent_prompt_direct_param,
+            repair_prompt=verifier_repair_prompt_param,
+            max_rounds=2,
+        )
+
+    elif args.strategy == "plan_execute":
+        planner = PlanExecutePlanner(
+            model_name=args.model_name,
+            plan_prompt=plan_skeleton_prompt_param,
+            execute_prompt=plan_execute_prompt_param,
+        )
 
     else:
         raise ValueError(f"Unknown strategy: {args.strategy}")
@@ -114,10 +149,22 @@ if __name__ == "__main__":
                 reference_information_3 = json.loads(query_data['reference_information_3'])
                 reference_information = json.dumps(reference_information_1 + reference_information_2 + reference_information_3)
             while True:
-                if args.strategy in ['react', 'reflexion']:
-                    planner_results, scratchpad = planner.run(reference_information, query_data['query'], query_data['persona'])
+                if args.strategy == 'react':
+                    planner_results, scratchpad = planner.run(
+                        reference_information, query_data['query'], query_data['persona']
+                    )
+                elif args.strategy in ['reflexion', 'verifier_repair', 'plan_execute']:
+                    planner_results = planner.run(
+                        reference_information,
+                        query_data['query'],
+                        query_data['persona'],
+                        query_data=query_data,
+                    )
+                    time.sleep(8)
                 else:
-                    planner_results = planner.run(reference_information, query_data['query'],query_data['persona'])
+                    planner_results = planner.run(
+                        reference_information, query_data['query'], query_data['persona']
+                    )
                     time.sleep(8)
                 if planner_results is not None:
                     break
