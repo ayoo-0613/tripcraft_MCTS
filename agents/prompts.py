@@ -60,7 +60,7 @@ IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
 
 JSON Example:
 [
-  {
+  {{
     "days": 1,
     "current_city": "from Ithaca to Charlotte",
     "transportation": "Flight Number: F3633413, from Ithaca to Charlotte, Departure Time: 05:15, Arrival Time: 07:28",
@@ -71,7 +71,7 @@ JSON Example:
     "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte",
     "event": "-",
     "point_of_interest_list": "Affordable Spacious Refurbished Room in Bushwick!, stay from 08:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Nagaland's Kitchen, visit from 09:00 to 09:45, nearest transit: Uptown Station, 200m away."
-  }
+  }}
 ]
 
 Given information: {text}
@@ -140,7 +140,7 @@ IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
 
 JSON Example:
 [
-  {
+  {{
     "days": 1,
     "current_city": "from Ithaca to Charlotte",
     "transportation": "Flight Number: F3633413, from Ithaca to Charlotte, Departure Time: 05:15, Arrival Time: 07:28",
@@ -151,7 +151,7 @@ JSON Example:
     "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte",
     "event": "-",
     "point_of_interest_list": "Affordable Spacious Refurbished Room in Bushwick!, stay from 08:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Nagaland's Kitchen, visit from 09:00 to 09:45, nearest transit: Uptown Station, 200m away."
-  }
+  }}
 ]
 
 Given information: {text}
