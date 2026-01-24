@@ -2,11 +2,21 @@
   "idx": 255,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "New York",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Newburgh",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 17,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "San Francisco",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0075165, from Denver to San Francisco, Departure Time: 20:24, Arrival Time: 21:50"
+      "from": "Ontario",
+      "to": "New York",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0261275, from Ontario to New York, Departure Time: 01:28, Arrival Time: 09:38"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "San Francisco",
+      "from": "Ontario",
+      "to": "New York",
       "date": null,
-      "raw": "Self-driving, from Denver to San Francisco, Duration: 1299.995 mins, Distance: 2018.7035 km, Estimated Cost: $100.94"
+      "raw": "Self-driving, from Ontario to New York, Duration: 396.88 mins, Distance: 510.32079999999996 km, Estimated Cost: $25.52"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "San Francisco",
+      "from": "Ontario",
+      "to": "New York",
       "date": null,
-      "raw": "Taxi, from Denver to San Francisco, Duration: 1299.995 mins, Distance: 2018.7035 km, Estimated Cost: $2018.70"
+      "raw": "Taxi, from Ontario to New York, Duration: 396.88 mins, Distance: 510.32079999999996 km, Estimated Cost: $510.32"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Denver",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0098906, from San Francisco to Denver, Departure Time: 06:06, Arrival Time: 09:26"
+      "from": "New York",
+      "to": "Newburgh",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Denver",
+      "from": "New York",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Denver, Duration: 1298.9733333333331 mins, Distance: 2017.3485 km, Estimated Cost: $100.87"
+      "raw": "Self-driving, from New York to Newburgh, Duration: 93.08833333333334 mins, Distance: 110.7581 km, Estimated Cost: $5.54"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
-      "to": "Denver",
+      "from": "New York",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Taxi, from San Francisco to Denver, Duration: 1298.9733333333331 mins, Distance: 2017.3485 km, Estimated Cost: $2017.35"
+      "raw": "Taxi, from New York to Newburgh, Duration: 93.08833333333334 mins, Distance: 110.7581 km, Estimated Cost: $110.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Self-driving, from Newburgh to Ontario, Duration: 350.06166666666667 mins, Distance: 436.3958 km, Estimated Cost: $21.82"
+    },
+    {
+      "mode": "taxi",
+      "from": "Newburgh",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Taxi, from Newburgh to Ontario, Duration: 350.06166666666667 mins, Distance: 436.3958 km, Estimated Cost: $436.40"
     }
   ]
 }

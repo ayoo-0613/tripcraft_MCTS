@@ -2,58 +2,89 @@
   "idx": 230,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Corpus Christi",
       "counts": {
-        "attractions": 19,
+        "attractions": 17,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 0
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 16
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Seattle",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0249232, from Houston to Seattle, Departure Time: 06:54, Arrival Time: 09:51"
+      "from": "Oklahoma City",
+      "to": "Corpus Christi",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Seattle",
+      "from": "Oklahoma City",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Self-driving, from Houston to Seattle, Not feasible to drive from Houston to Seattle"
+      "raw": "Self-driving, from Oklahoma City to Corpus Christi, Duration: 625.7616666666667 mins, Distance: 937.8675999999999 km, Estimated Cost: $46.89"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Seattle",
+      "from": "Oklahoma City",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Taxi, from Houston to Seattle, Not feasible to drive from Houston to Seattle"
+      "raw": "Taxi, from Oklahoma City to Corpus Christi, Duration: 625.7616666666667 mins, Distance: 937.8675999999999 km, Estimated Cost: $937.87"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Houston",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0250472, from Seattle to Houston, Departure Time: 22:49, Arrival Time: 04:45"
+      "from": "Corpus Christi",
+      "to": "Amarillo",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Houston",
+      "from": "Corpus Christi",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Seattle to Houston, Not feasible to drive from Seattle to Houston"
+      "raw": "Self-driving, from Corpus Christi to Amarillo, Duration: 678.7416666666667 mins, Distance: 1047.0719 km, Estimated Cost: $52.35"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Houston",
+      "from": "Corpus Christi",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Seattle to Houston, Not feasible to drive from Seattle to Houston"
+      "raw": "Taxi, from Corpus Christi to Amarillo, Duration: 678.7416666666667 mins, Distance: 1047.0719 km, Estimated Cost: $1047.07"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

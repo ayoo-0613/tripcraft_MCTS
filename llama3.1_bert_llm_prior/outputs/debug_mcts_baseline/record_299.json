@@ -2,72 +2,90 @@
   "idx": 299,
   "JSON": {
     "org": "Chicago",
-    "dest": "Albuquerque",
-    "days": 3,
-    "visiting_city_number": 1,
+    "dest": "Iowa",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
       "2024-11-05",
-      "2024-11-06",
-      "2024-11-07"
+      "2024-11-06"
     ],
-    "people_number": 8,
+    "people_number": 6,
     "local_constraint": {
-      "house rule": "children under 10",
-      "cuisine": [
-        "French",
-        "Chinese",
-        "Italian",
-        "Mexican"
-      ],
+      "house rule": null,
+      "cuisine": null,
       "room type": null,
-      "transportation": null,
       "event": null,
-      "attraction": [
-        "Museums",
-        "Zoos & Aquariums"
-      ]
+      "attraction": null,
+      "transportation": null
     },
-    "budget": 7350.0,
-    "query": "Plan a 3-day trip for 8 people from Chicago to Albuquerque from November 5th to November 7th, 2024, with a budget of $7,350. The trip should accommodate children under 10 and include visits to museums and zoos or aquariums. Dining options should feature French, Chinese, Italian, and Mexican cuisines.",
-    "level": "hard"
+    "budget": 12600.0,
+    "query": "Plan a 5-day trip for 6 people traveling from Chicago to explore 2 cities in Iowa, from November 2nd to November 6th, 2024, with a budget of $12,600.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Albuquerque",
-      "transportation": "Flight Number: F0059776, from Chicago to Albuquerque, Departure Time: 12:45, Arrival Time: 14:47",
-      "breakfast": "-",
-      "attraction": "Turquoise Museum, Albuquerque",
-      "lunch": "-",
-      "dinner": "Two Fools Tavern, Albuquerque",
-      "accommodation": "Backyard Casita - Designer Reno!, Albuquerque",
+      "current_city": "from Chicago to Cedar Rapids",
+      "transportation": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16",
+      "breakfast": "Zeppelins, Cedar Rapids",
+      "attraction": "CSPS, Cedar Rapids",
+      "lunch": "The Map Room, Cedar Rapids",
+      "dinner": "350 First, Cedar Rapids",
+      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Backyard Casita - Designer Reno!, stay from 08:00 to 09:00, nearest transit: Martin Luther King @ Edith, 95.01m away; Turquoise Museum, visit from 11:30 to 13:28, nearest transit: 2nd @ Silver, 199.86m away; Backyard Casita - Designer Reno!, stay from 15:17 to 16:17, nearest transit: Martin Luther King @ Edith, 95.01m away; Two Fools Tavern, visit from 19:51 to 21:00, nearest transit: ART - Nob Hill Station, 52.19m away; Backyard Casita - Designer Reno!, stay from 22:15 to 08:00, nearest transit: Martin Luther King @ Edith, 95.01m away."
+      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; CSPS, visit from 11:30 to 14:50, nearest transit: 2nd St & 11th Ave, 75.03m away; The Map Room, visit from 13:57 to 14:56, nearest transit: 5th Ave & RR tracks, 111.63m away; 350 First, visit from 19:51 to 21:00, nearest transit: 3rd St & 2nd Ave, 159.53m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
     },
     {
       "days": 2,
-      "current_city": "from Albuquerque to Albuquerque",
-      "transportation": "Transfer, from Albuquerque to Albuquerque",
-      "breakfast": "Antiquity Restaurant, Albuquerque",
-      "attraction": "Albuquerque Museum, Albuquerque; Albuquerque Biological Park, Albuquerque",
-      "lunch": "Frenchish, Albuquerque",
-      "dinner": "El Pinto, Albuquerque",
-      "accommodation": "Inn Sanctuary ~, Albuquerque",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "The Blind Pig, Cedar Rapids",
+      "attraction": "Brucemore, Cedar Rapids",
+      "lunch": "Irish Democrat, Cedar Rapids",
+      "dinner": "Lightworks Cafe, Cedar Rapids",
+      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Inn Sanctuary ~, stay from 08:00 to 09:00, nearest transit: Copper @ Turner, 17294.90m away; Antiquity Restaurant, visit from 09:25 to 10:16, nearest transit: Central @ Rio Grande, 112.38m away; Albuquerque Museum, visit from 11:30 to 13:57, nearest transit: Rio Grande @ Mountain, 259.92m away; Frenchish, visit from 13:57 to 14:56, nearest transit: Central @ Carlisle, 109.83m away; Albuquerque Biological Park, visit from 16:30 to 19:37, nearest transit: Central @ Tingley, 39.13m away; El Pinto, visit from 19:51 to 21:00, nearest transit: Raymond G. Sanchez C.C. (PnR), 1368.49m away; Inn Sanctuary ~, stay from 22:15 to 08:00, nearest transit: Copper @ Turner, 17294.90m away."
+      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; The Blind Pig, visit from 09:25 to 10:16, nearest transit: 3335 Center Point Rd (Papa Murph), 140.18m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; Irish Democrat, visit from 13:57 to 14:56, nearest transit: 1st Ave & 32nd St, 46.22m away; Lightworks Cafe, visit from 19:51 to 21:00, nearest transit: 6th St & 6th Ave, 178.56m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
     },
     {
       "days": 3,
-      "current_city": "from Albuquerque to Chicago",
-      "transportation": "Transfer, from Albuquerque to Chicago",
-      "breakfast": "Golden Crown Bakery, Albuquerque",
-      "attraction": "ABQ BioPark Zoo, Albuquerque; Indian Pueblo Cultural Center, Albuquerque",
-      "lunch": "66 Diner, Albuquerque",
-      "dinner": "Seared, Albuquerque",
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "Transfer, from Cedar Rapids to Sioux City",
+      "breakfast": "Red Lobster, Sioux City",
+      "attraction": "Palmer Candy, Sioux City",
+      "lunch": "Miles Inn, Sioux City",
+      "dinner": "Old Chicago, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Red Lobster, visit from 09:25 to 10:16, nearest transit: Sergeant Rd & South Lancelot Lane, 109.59m away; Palmer Candy, visit from 11:30 to 13:50, nearest transit: Floyd Blvd & 33rd St, 1226.11m away; Miles Inn, visit from 13:57 to 14:56, nearest transit: Leech Ave & Fairmount St, 28.28m away; Old Chicago, visit from 19:51 to 21:00, nearest transit: Lakeport Commons - Panera Bread, 73.40m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Buffalo Alice, Sioux City",
+      "attraction": "Trinity Heights, Sioux City",
+      "lunch": "Horizon Family Restaurant, Sioux City",
+      "dinner": "Brightside Cafe, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Buffalo Alice, visit from 09:25 to 10:16, nearest transit: 3rd St & Virginia St, 122.83m away; Trinity Heights, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Horizon Family Restaurant, visit from 13:57 to 14:56, nearest transit: Myrtle St & Tri-View Ave - Central Mart, 73.11m away; Brightside Cafe, visit from 19:51 to 21:00, nearest transit: Pierce St & 4th St, 114.95m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to Chicago",
+      "transportation": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Inn Sanctuary ~, stay from 08:00 to 09:00, nearest transit: Copper @ Turner, 17294.90m away; Golden Crown Bakery, visit from 09:25 to 10:16, nearest transit: 12th @ Granite, 88.71m away; ABQ BioPark Zoo, visit from 11:30 to 14:37, nearest transit: 8th @ Atlantic (Zoo), 284.41m away; 66 Diner, visit from 13:57 to 14:56, nearest transit: Central @ Sycamore, 33.14m away; Indian Pueblo Cultural Center, visit from 16:30 to 18:57, nearest transit: 12th @ Indian School, 75.09m away; Seared, visit from 19:51 to 21:00, nearest transit: Central @ San Pasquale, 107.37m away."
+      "point_of_interest_list": "Bungalow, stay from 06:11 to 07:11, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
     }
   ]
 }

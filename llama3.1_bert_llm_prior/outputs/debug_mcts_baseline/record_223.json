@@ -1,65 +1,96 @@
 {
   "idx": 223,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Lexington",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Missoula",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23",
       "2024-11-24",
-      "2024-11-25",
-      "2024-11-26"
+      "2024-11-25"
     ],
-    "people_number": 1,
+    "people_number": 4,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": "private room",
-      "transportation": "no flight",
+      "house rule": "children under 10",
+      "cuisine": [
+        "Mediterranean",
+        "French",
+        "Seafood",
+        "American"
+      ],
+      "room type": null,
+      "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1050.0,
-    "query": "Plan a 3-day trip for 1 person traveling from Detroit to Lexington from November 24th to November 26th, 2024. The budget is $1,050, and accommodations should include a private room. Travel should exclude flights.",
+    "budget": 5850.0,
+    "query": "Design a 5-day travel itinerary for 4 people departing from Missoula to visit 2 cities in California from November 21st to November 25th, 2024. The budget is $5,850. Accommodations and activities should adhere to house rules allowing children under 10. Include dining options featuring Mediterranean, French, Seafood, and American cuisines.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Lexington",
-      "transportation": "Taxi, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $548.26",
-      "breakfast": "Lockbox, Lexington",
-      "attraction": "Lexington Green, Lexington",
-      "lunch": "Double Dogs, Lexington",
-      "dinner": "The Triangle Grille, Lexington",
-      "accommodation": "A single room for your stay, Lexington",
+      "current_city": "from Missoula to Los Angeles",
+      "transportation": "Taxi, from Missoula to Los Angeles, Duration: 1218.995 mins, Distance: 1948.0665 km, Estimated Cost: $1948.07",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "Hollywood Sign, Los Angeles; The Grove, Los Angeles",
+      "lunch": "Providence, Los Angeles",
+      "dinner": "The Lobster, Los Angeles",
+      "accommodation": "Pristine Mid Century Gem Near USC Hospital, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "A single room for your stay, stay from 08:00 to 09:00, nearest transit: Chandler Hospital, 202.96m away; Lockbox, visit from 09:25 to 10:16, nearest transit: West Main @ 269, 116.85m away; Lexington Green, visit from 11:30 to 15:20, nearest transit: Polo Club @ 2924, 1222296.78m away; Double Dogs, visit from 13:57 to 14:56, nearest transit: Bryant @ 2033 Outbound, 166.09m away; The Triangle Grille, visit from 19:51 to 21:00, nearest transit: North Broadway @ Main Inbound, 68.41m away; A single room for your stay, stay from 22:15 to 08:00, nearest transit: Chandler Hospital, 202.96m away."
+      "point_of_interest_list": "Pristine Mid Century Gem Near USC Hospital, stay from 08:00 to 09:00, nearest transit: Wabash Ave & Forest Ave (Westbound) (4319), 326.49m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Sign, visit from 11:30 to 13:57, nearest transit: Beachwood & Westshire, 1574.74m away; Providence, visit from 13:57 to 14:56, nearest transit: Melrose & Gower (Westbound), 749.15m away; The Grove, visit from 16:30 to 17:27, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; The Lobster, visit from 19:51 to 21:00, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Pristine Mid Century Gem Near USC Hospital, stay from 22:15 to 08:00, nearest transit: Wabash Ave & Forest Ave (Westbound) (4319), 326.49m away."
     },
     {
       "days": 2,
-      "current_city": "from Lexington to Lexington",
-      "transportation": "Transfer, from Lexington to Lexington",
-      "breakfast": "Bluegrass Bistro, Lexington",
-      "attraction": "Blue Grass Tours, Lexington",
-      "lunch": "OBC Kitchen, Lexington",
-      "dinner": "The Rackhouse Tavern, Lexington",
-      "accommodation": "Lexington Home for Bluegrass Adventures, Lexington",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Bestia, Los Angeles",
+      "attraction": "Citadel Outlets, Los Angeles; The Broad, Los Angeles",
+      "lunch": "Perch, Los Angeles",
+      "dinner": "Spire 73, Los Angeles",
+      "accommodation": "Cozy Private Room In LA., Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Lexington Home for Bluegrass Adventures, stay from 08:00 to 09:00, nearest transit: Harrodsburg @ Man-O-War, 1843.64m away; Bluegrass Bistro, visit from 09:25 to 10:16, nearest transit: Newtown @ Pintail (Marriott), 188.40m away; Blue Grass Tours, visit from 11:30 to 15:05, nearest transit: Enterprise @ 780 Inbound, 154.91m away; OBC Kitchen, visit from 13:57 to 14:56, nearest transit: Tates Creek @ Lansdowne Shoppes, 69.64m away; The Rackhouse Tavern, visit from 19:51 to 21:00, nearest transit: Harrodsburg @ Saint Joseph Hosp Outbound, 224.59m away; Lexington Home for Bluegrass Adventures, stay from 22:15 to 08:00, nearest transit: Harrodsburg @ Man-O-War, 1843.64m away."
+      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; Citadel Outlets, visit from 11:30 to 12:27, nearest transit: Herbert Ave & Whittier Blvd (4354), 3385.72m away; Perch, visit from 13:57 to 14:56, nearest transit: Hill St & 5th St (Northbound), 65.01m away; The Broad, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; Spire 73, visit from 19:51 to 21:00, nearest transit: Figueroa St & 7th St, 109.52m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
     },
     {
       "days": 3,
-      "current_city": "from Lexington to Detroit",
-      "transportation": "Transfer, from Lexington to Detroit",
-      "breakfast": "BRU Burger Bar Lexington, Lexington",
-      "attraction": "Thoroughbred Park, Lexington",
-      "lunch": "Merrick Inn Restaurant, Lexington",
-      "dinner": "Josie's, Lexington",
+      "current_city": "from Los Angeles to San Luis Obispo",
+      "transportation": "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Harris House, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Cafe Roma, San Luis Obispo",
+      "attraction": "Wolff Vineyards, San Luis Obispo; Farmers Market, San Luis Obispo",
+      "lunch": "Luna Red, San Luis Obispo",
+      "dinner": "Sidecar, San Luis Obispo",
+      "accommodation": "Harris House, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 13:27, nearest transit: Higuera & Prado, 7989.92m away; Luna Red, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 256.30m away; Farmers Market, visit from 16:30 to 17:27, nearest transit: Marsh & Broad, 112.91m away; Sidecar, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 54.77m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Luis Obispo to Missoula",
+      "transportation": "Transfer, from San Luis Obispo to Missoula",
+      "breakfast": "Flour House, San Luis Obispo",
+      "attraction": "Highway 1 Road Trip, San Luis Obispo; Bishop Peak, San Luis Obispo",
+      "lunch": "Thai Palace, San Luis Obispo",
+      "dinner": "Lure Fish House, San Luis Obispo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Lexington Home for Bluegrass Adventures, stay from 08:00 to 09:00, nearest transit: Harrodsburg @ Man-O-War, 1843.64m away; BRU Burger Bar Lexington, visit from 09:25 to 10:16, nearest transit: Beaumont Centre @ Beaumont Centre Circle, 83.60m away; Thoroughbred Park, visit from 11:30 to 16:50, nearest transit: Midland @ Short, 112.60m away; Merrick Inn Restaurant, visit from 13:57 to 14:56, nearest transit: Tates Creek @ Kirklevington, 451.14m away; Josie's, visit from 19:51 to 21:00, nearest transit: Tates Creek @ 107 Outbound, 75.09m away."
+      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Flour House, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 142.15m away; Highway 1 Road Trip, visit from 11:30 to 14:27, nearest transit: Ardath & Green, 3584.66m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Bishop Peak, visit from 16:30 to 19:42, nearest transit: Santa Rosa & Foothill, 1404.87m away; Lure Fish House, visit from 19:51 to 21:00, nearest transit: Santa Rosa & Higuera, 83.37m away."
     }
   ]
 }

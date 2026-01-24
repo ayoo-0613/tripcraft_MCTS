@@ -2,58 +2,89 @@
   "idx": 246,
   "stages": [
     {
-      "city": "Las Vegas",
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 74,
+        "events": 3
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Omaha",
-      "to": "Las Vegas",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0045788, from Omaha to Las Vegas, Departure Time: 13:21, Arrival Time: 14:09"
+      "from": "Denver",
+      "to": "Santa Rosa",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Omaha",
-      "to": "Las Vegas",
+      "from": "Denver",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Self-driving, from Omaha to Las Vegas, Duration: 1313.6233333333332 mins, Distance: 2068.195 km, Estimated Cost: $103.41"
+      "raw": "Self-driving, from Denver to Santa Rosa, Duration: 1311.8583333333333 mins, Distance: 2030.6128999999999 km, Estimated Cost: $101.53"
     },
     {
       "mode": "taxi",
-      "from": "Omaha",
-      "to": "Las Vegas",
+      "from": "Denver",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Taxi, from Omaha to Las Vegas, Duration: 1313.6233333333332 mins, Distance: 2068.195 km, Estimated Cost: $2068.20"
+      "raw": "Taxi, from Denver to Santa Rosa, Duration: 1311.8583333333333 mins, Distance: 2030.6128999999999 km, Estimated Cost: $2030.61"
     },
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Omaha",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0071249, from Las Vegas to Omaha, Departure Time: 08:08, Arrival Time: 12:23"
+      "from": "Santa Rosa",
+      "to": "Fresno",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Omaha",
+      "from": "Santa Rosa",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Omaha, Duration: 1314.7566666666667 mins, Distance: 2067.4503999999997 km, Estimated Cost: $103.37"
+      "raw": "Self-driving, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $18.74"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Omaha",
+      "from": "Santa Rosa",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Omaha, Duration: 1314.7566666666667 mins, Distance: 2067.4503999999997 km, Estimated Cost: $2067.45"
+      "raw": "Taxi, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $374.84"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0040929, from Fresno to Denver, Departure Time: 15:52, Arrival Time: 18:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $91.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $1838.70"
     }
   ]
 }

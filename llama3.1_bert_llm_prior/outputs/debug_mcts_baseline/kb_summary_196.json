@@ -2,9 +2,19 @@
   "idx": 196,
   "stages": [
     {
-      "city": "Kansas City",
+      "city": "Key West",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Gainesville",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Kansas City",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0081660, from Denver to Kansas City, Departure Time: 17:10, Arrival Time: 19:31"
+      "from": "Greensboro",
+      "to": "Key West",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "Kansas City",
+      "from": "Greensboro",
+      "to": "Key West",
       "date": null,
-      "raw": "Self-driving, from Denver to Kansas City, Duration: 619.7666666666667 mins, Distance: 969.824 km, Estimated Cost: $48.49"
+      "raw": "Self-driving, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $76.54"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "Kansas City",
+      "from": "Greensboro",
+      "to": "Key West",
       "date": null,
-      "raw": "Taxi, from Denver to Kansas City, Duration: 619.7666666666667 mins, Distance: 969.824 km, Estimated Cost: $969.82"
+      "raw": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81"
     },
     {
       "mode": "flight",
-      "from": "Kansas City",
-      "to": "Denver",
-      "date": "2024-11-27",
-      "raw": "Flight Number: F0024831, from Kansas City to Denver, Departure Time: 00:28, Arrival Time: 01:02"
+      "from": "Key West",
+      "to": "Gainesville",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Kansas City",
-      "to": "Denver",
+      "from": "Key West",
+      "to": "Gainesville",
       "date": null,
-      "raw": "Self-driving, from Kansas City to Denver, Duration: 619.8383333333334 mins, Distance: 969.6244 km, Estimated Cost: $48.48"
+      "raw": "Self-driving, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $39.81"
     },
     {
       "mode": "taxi",
-      "from": "Kansas City",
-      "to": "Denver",
+      "from": "Key West",
+      "to": "Gainesville",
       "date": null,
-      "raw": "Taxi, from Kansas City to Denver, Duration: 619.8383333333334 mins, Distance: 969.6244 km, Estimated Cost: $969.62"
+      "raw": "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18"
+    },
+    {
+      "mode": "flight",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Self-driving, from Gainesville to Greensboro, Duration: 589.4816666666667 mins, Distance: 823.4602 km, Estimated Cost: $41.17"
+    },
+    {
+      "mode": "taxi",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Taxi, from Gainesville to Greensboro, Duration: 589.4816666666667 mins, Distance: 823.4602 km, Estimated Cost: $823.46"
     }
   ]
 }

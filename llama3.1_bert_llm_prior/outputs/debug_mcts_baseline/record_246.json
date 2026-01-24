@@ -1,67 +1,91 @@
 {
   "idx": 246,
   "JSON": {
-    "org": "Omaha",
-    "dest": "Las Vegas",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Denver",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-13",
-      "2024-11-14",
-      "2024-11-15"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": [
-        "French"
-      ],
+      "house rule": "smoking",
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1650.0,
-    "query": "Plan a 3-day trip for 1 person traveling from Omaha to Las Vegas from November 13th to November 15th, 2024. The budget is $1,650, and the itinerary should include French cuisine options.",
+    "budget": 2700.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Denver to explore 2 cities in California between November 8th and November 12th, 2024. The budget is $2,700, and accommodations should allow smoking.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Omaha to Las Vegas",
-      "transportation": "Flight Number: F0045788, from Omaha to Las Vegas, Departure Time: 13:21, Arrival Time: 14:09",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Garden Court, Las Vegas",
-      "accommodation": "Private Room Next to Strip, Las Vegas",
+      "current_city": "from Denver to Santa Rosa",
+      "transportation": "Transfer, from Denver to Santa Rosa",
+      "breakfast": "Piner Cafe, Santa Rosa",
+      "attraction": "Spring Lake Park, Santa Rosa",
+      "lunch": "Sazon, Santa Rosa",
+      "dinner": "East West Cafe, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
       "event": "-",
-      "point_of_interest_list": "Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away; Private Room Next to Strip, stay from 14:39 to 15:39, nearest transit: The Strat, 1578.93m away; Garden Court, visit from 19:51 to 21:00, nearest transit: Circa, 185.80m away; Private Room Next to Strip, stay from 22:15 to 08:00, nearest transit: The Strat, 1578.93m away."
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Piner Cafe, visit from 09:25 to 10:16, nearest transit: Piner Rd @ Airway Dr, 130.32m away; Spring Lake Park, visit from 11:30 to 16:50, nearest transit: Calistoga Rd @ Hwy 12, 1268.28m away; Sazon, visit from 13:57 to 14:56, nearest transit: Sebastopol Rd @ Burbank Ave, 120.88m away; East West Cafe, visit from 19:51 to 21:00, nearest transit: Montgomery Dr @ Summerfield Rd, 166.40m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
     },
     {
       "days": 2,
-      "current_city": "from Las Vegas to Las Vegas",
-      "transportation": "Transfer, from Las Vegas to Las Vegas",
-      "breakfast": "Triple George Grill, Las Vegas",
-      "attraction": "The Mob Museum, Las Vegas",
-      "lunch": "Blossom, Las Vegas",
-      "dinner": "Cafe Berlin, Las Vegas",
-      "accommodation": "Private Room Next to Strip, Las Vegas",
+      "current_city": "from Santa Rosa to Santa Rosa",
+      "transportation": "Transfer, from Santa Rosa to Santa Rosa",
+      "breakfast": "Yeti Restaurant, Santa Rosa",
+      "attraction": "Safari West, Santa Rosa",
+      "lunch": "River Vine Cafe, Santa Rosa",
+      "dinner": "Royal China Restaurant, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
       "event": "-",
-      "point_of_interest_list": "Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away; Triple George Grill, visit from 09:25 to 10:16, nearest transit: Mob Museum, 87.09m away; The Mob Museum, visit from 11:30 to 15:20, nearest transit: Mob Museum, 48.14m away; Blossom, visit from 13:57 to 14:56, nearest transit: The Strat, 4819.75m away; Cafe Berlin, visit from 19:51 to 21:00, nearest transit: The Strat, 9497.62m away; Private Room Next to Strip, stay from 22:15 to 08:00, nearest transit: The Strat, 1578.93m away."
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Yeti Restaurant, visit from 09:25 to 10:16, nearest transit: Fourth St @ Farmers Ln, 147.61m away; Safari West, visit from 11:30 to 16:50, nearest transit: 3585 Round Barn Blvd, 8901.29m away; River Vine Cafe, visit from 13:57 to 14:56, nearest transit: Hopper Ave @ Coffey Ln, 2038.71m away; Royal China Restaurant, visit from 19:51 to 21:00, nearest transit: Marlow Rd @ Piner Rd, 88.95m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
     },
     {
       "days": 3,
-      "current_city": "from Las Vegas to Omaha",
-      "transportation": "Flight Number: F0071249, from Las Vegas to Omaha, Departure Time: 08:08, Arrival Time: 12:23",
-      "breakfast": "-",
-      "attraction": "-",
+      "current_city": "from Santa Rosa to Fresno",
+      "transportation": "Transfer, from Santa Rosa to Fresno",
+      "breakfast": "Fresno, Fresno",
+      "attraction": "Island Waterpark, Fresno",
+      "lunch": "Parma, Fresno",
+      "dinner": "Five, Fresno",
+      "accommodation": "Mid-Century Modern Oasis W/Spa, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Fresno, visit from 09:25 to 10:16, nearest transit: House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS, 557.44m away; Island Waterpark, visit from 11:30 to 17:20, nearest transit: SW SHAW - POLK, 867.35m away; Parma, visit from 13:57 to 14:56, nearest transit: SW Palm - Herndon, 199.36m away; Five, visit from 19:51 to 21:00, nearest transit: CHAMPLAIN - PERRIN, 74.64m away; Mid-Century Modern Oasis W/Spa, stay from 22:15 to 08:00, nearest transit: NW SHAW - SHAW LANE, 164.27m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "Transfer, from Fresno to Fresno",
+      "breakfast": "Elbow Room, Fresno",
+      "attraction": "Woodward Regional Park, Fresno",
+      "lunch": "Red Apple Cafe, Fresno",
+      "dinner": "Dog House Grill, Fresno",
+      "accommodation": "Mid-Century Modern Oasis W/Spa, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Mid-Century Modern Oasis W/Spa, stay from 08:00 to 09:00, nearest transit: NW SHAW - SHAW LANE, 164.27m away; Elbow Room, visit from 09:25 to 10:16, nearest transit: NW PALM - SHAW, 192.71m away; Woodward Regional Park, visit from 11:30 to 16:50, nearest transit: SW PERRIN - FOXHILL, 1167.50m away; Red Apple Cafe, visit from 13:57 to 14:56, nearest transit: NW HERNDON - INGRAM, 80.03m away; Dog House Grill, visit from 19:51 to 21:00, nearest transit: SW SHAW - CHESTNUT, 40.76m away; Mid-Century Modern Oasis W/Spa, stay from 22:15 to 08:00, nearest transit: NW SHAW - SHAW LANE, 164.27m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Fresno to Denver",
+      "transportation": "Flight Number: F0040929, from Fresno to Denver, Departure Time: 15:52, Arrival Time: 18:52",
+      "breakfast": "Train Depot, Fresno",
+      "attraction": "Fresno Art Museum, Fresno",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private Room Next to Strip, stay from 06:38 to 07:38, nearest transit: The Strat, 1578.93m away; Private Room Next to Strip, stay from 08:00 to 09:00, nearest transit: The Strat, 1578.93m away."
+      "point_of_interest_list": "Mid-Century Modern Oasis W/Spa, stay from 08:00 to 09:00, nearest transit: NW SHAW - SHAW LANE, 164.27m away; Train Depot, visit from 09:25 to 10:16, nearest transit: NW ASHLAN - FIRST, 116.67m away; Fresno Art Museum, visit from 11:30 to 15:20, nearest transit: SW FIRST - YALE, 113.32m away."
     }
   ]
 }

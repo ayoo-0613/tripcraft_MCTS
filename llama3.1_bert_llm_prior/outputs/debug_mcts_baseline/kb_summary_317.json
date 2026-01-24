@@ -2,11 +2,21 @@
   "idx": 317,
   "stages": [
     {
-      "city": "Ontario",
+      "city": "Greensboro",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Charlotte",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Ontario",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50"
+      "from": "Lynchburg",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
     },
     {
       "mode": "flight",
-      "from": "Ontario",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
     },
     {
       "mode": "self-driving",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

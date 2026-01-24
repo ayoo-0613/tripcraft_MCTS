@@ -2,58 +2,89 @@
   "idx": 280,
   "stages": [
     {
-      "city": "Baltimore",
+      "city": "Rochester",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
+        "poi2transit": 73,
+        "events": 16
+      }
+    },
+    {
+      "city": "Newburgh",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 17,
         "poi2transit": 75,
-        "events": 8
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Miami",
-      "to": "Baltimore",
+      "from": "Cleveland",
+      "to": "Rochester",
       "date": "2024-11-03",
-      "raw": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31"
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Miami",
-      "to": "Baltimore",
+      "from": "Cleveland",
+      "to": "Rochester",
       "date": null,
-      "raw": "Self-driving, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $87.74"
+      "raw": "Self-driving, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $20.80"
     },
     {
       "mode": "taxi",
-      "from": "Miami",
-      "to": "Baltimore",
+      "from": "Cleveland",
+      "to": "Rochester",
       "date": null,
-      "raw": "Taxi, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $1754.86"
+      "raw": "Taxi, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $415.95"
     },
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Miami",
+      "from": "Rochester",
+      "to": "Newburgh",
       "date": "2024-11-05",
-      "raw": "Flight Number: F0039090, from Baltimore to Miami, Departure Time: 21:04, Arrival Time: 23:55"
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Miami",
+      "from": "Rochester",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Miami, Duration: 1218.4983333333332 mins, Distance: 1756.7002 km, Estimated Cost: $87.84"
+      "raw": "Self-driving, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $21.90"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Miami",
+      "from": "Rochester",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Taxi, from Baltimore to Miami, Duration: 1218.4983333333332 mins, Distance: 1756.7002 km, Estimated Cost: $1756.70"
+      "raw": "Taxi, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $437.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $37.85"
+    },
+    {
+      "mode": "taxi",
+      "from": "Newburgh",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $757.09"
     }
   ]
 }

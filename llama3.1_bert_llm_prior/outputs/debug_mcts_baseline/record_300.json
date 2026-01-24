@@ -1,14 +1,16 @@
 {
   "idx": 300,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Kansas City",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Houston",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-20",
-      "2024-11-21",
-      "2024-11-22"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
     "people_number": 1,
     "local_constraint": {
@@ -19,47 +21,71 @@
       "event": null,
       "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 1 person from Las Vegas to Kansas City from November 20th to November 22nd, 2024, with a budget of $1,800.",
+    "budget": 3000.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Houston to explore 2 cities in Tennessee between November 6th and November 10th, 2024, with a budget of $3,000.",
     "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Kansas City",
-      "transportation": "Flight Number: F0023242, from Las Vegas to Kansas City, Departure Time: 14:18, Arrival Time: 18:53",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Bella Napoli, Kansas City",
-      "accommodation": "Westwood cottage in garden setting, Kansas City",
+      "current_city": "from Houston to Memphis",
+      "transportation": "Taxi, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $911.42",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Arcade Restaurant, Memphis",
+      "dinner": "Interstate Barbecue, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Westwood cottage in garden setting, stay from 08:00 to 09:00, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away; Westwood cottage in garden setting, stay from 19:23 to 20:23, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away; Bella Napoli, visit from 19:51 to 21:00, nearest transit: ON 63RD AT BROOKSIDE EASTBOUND, 54.91m away; Westwood cottage in garden setting, stay from 22:15 to 08:00, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Memphis Zoo, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Arcade Restaurant, visit from 13:57 to 14:56, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 2,
-      "current_city": "from Kansas City to Kansas City",
-      "transportation": "Transfer, from Kansas City to Kansas City",
-      "breakfast": "Cafe Gratitude, Kansas City",
-      "attraction": "City Market, Kansas City; Crown Center, Kansas City",
-      "lunch": "Fern Bar, Kansas City",
-      "dinner": "Cafe Trio Restaurant, Kansas City",
-      "accommodation": "Westwood cottage in garden setting, Kansas City",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Cozy Corner, Memphis",
+      "dinner": "Flying Fish, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Westwood cottage in garden setting, stay from 08:00 to 09:00, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away; Cafe Gratitude, visit from 09:25 to 10:16, nearest transit: ON SW BLVD AT CENTRAL WESTBOUND, 164.17m away; City Market, visit from 11:30 to 12:27, nearest transit: CITY MARKET ON WALNUT AT 5TH ST EB, 50.51m away; Fern Bar, visit from 13:57 to 14:56, nearest transit: ON 13TH ST BETWEEN WYANDOTTE AND CENTRAL WB, 45.99m away; Crown Center, visit from 16:30 to 17:27, nearest transit: ON GRAND AT 26TH SOUTHBOUND, 215.60m away; Cafe Trio Restaurant, visit from 19:51 to 21:00, nearest transit: ON NICH PKWY AT 46TH TERR SOUTHBOUND, 122.23m away; Westwood cottage in garden setting, stay from 22:15 to 08:00, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Cozy Corner, visit from 13:57 to 14:56, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Flying Fish, visit from 19:51 to 21:00, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 3,
-      "current_city": "from Kansas City to Las Vegas",
-      "transportation": "Flight Number: F0053552, from Kansas City to Las Vegas, Departure Time: 10:51, Arrival Time: 11:48",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Memphis to Bristol",
+      "transportation": "Transfer, from Memphis to Bristol",
+      "breakfast": "Cafe Bristol, Bristol",
+      "attraction": "Bristol Cathedral, Bristol",
+      "lunch": "Caribbean Croft, Bristol",
+      "dinner": "Raj, Bristol",
+      "accommodation": "Walk to State Street - Remodeled Home, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Cafe Bristol, visit from 09:25 to 10:16, nearest transit: Home Depot, 7679840.27m away; Bristol Cathedral, visit from 11:30 to 15:20, nearest transit: Home Depot, 6253967.38m away; Caribbean Croft, visit from 13:57 to 14:56, nearest transit: Home Depot, 6254299.11m away; Raj, visit from 19:51 to 21:00, nearest transit: Home Depot, 6254364.70m away; Walk to State Street - Remodeled Home, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Riverstation, Bristol",
+      "attraction": "Cabot Tower, Bristol",
+      "lunch": "Bristol Lounge, Bristol",
+      "dinner": "Spitfire Barbecue, Bristol",
+      "accommodation": "Walk to State Street - Remodeled Home, Bristol",
+      "event": "-",
+      "point_of_interest_list": "Walk to State Street - Remodeled Home, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Riverstation, visit from 09:25 to 10:16, nearest transit: Home Depot, 6254527.93m away; Cabot Tower, visit from 11:30 to 15:20, nearest transit: Home Depot, 6253464.57m away; Bristol Lounge, visit from 13:57 to 14:56, nearest transit: Home Depot, 7639826.42m away; Spitfire Barbecue, visit from 19:51 to 21:00, nearest transit: Home Depot, 6254016.11m away; Walk to State Street - Remodeled Home, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Bristol to Houston",
+      "transportation": "Transfer, from Bristol to Houston",
+      "breakfast": "Curry House, Bristol",
+      "attraction": "Bristol Ferry Boats, Bristol",
+      "lunch": "Bristol Seafood Restaurant, Bristol",
+      "dinner": "The River Grille, Bristol",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Westwood cottage in garden setting, stay from 08:00 to 09:00, nearest transit: ON 47TH AT MISSION EASTBOUND, 605.70m away."
+      "point_of_interest_list": "Walk to State Street - Remodeled Home, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Curry House, visit from 09:25 to 10:16, nearest transit: Home Depot, 6256796.42m away; Bristol Ferry Boats, visit from 11:30 to 13:50, nearest transit: Home Depot, 6254348.70m away; Bristol Seafood Restaurant, visit from 13:57 to 14:56, nearest transit: Hard Rock Hotel Main Entrance, 789410.12m away; The River Grille, visit from 19:51 to 21:00, nearest transit: Home Depot, 6254241.18m away."
     }
   ]
 }

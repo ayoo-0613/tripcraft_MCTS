@@ -1,67 +1,91 @@
 {
   "idx": 313,
   "JSON": {
-    "org": "Denver",
-    "dest": "Wichita",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Valparaiso",
+    "dest": "Iowa",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-15",
-      "2024-11-16",
-      "2024-11-17"
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
     ],
-    "people_number": 3,
+    "people_number": 5,
     "local_constraint": {
       "house rule": "smoking",
       "cuisine": null,
       "room type": "entire home",
-      "transportation": null,
-      "event": [
-        "Music"
-      ],
-      "attraction": null
+      "event": null,
+      "attraction": "Museums",
+      "transportation": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 3 people from Denver to Wichita from November 15th to November 17th, 2024, with a budget of $1,800. Accommodations should be an entire home, and the itinerary should include attending music events. Smoking should be allowed as per the house rules.",
+    "budget": 2000.0,
+    "query": "Design a 5-day travel itinerary for 5 people departing from Valparaiso to visit 2 cities in Iowa from November 9th to November 13th, 2024. The budget is $2,000. Accommodations should be an entire home, and the plan should include visits to museums. Smoking should be allowed as per the house rules.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Wichita",
-      "transportation": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29",
-      "breakfast": "Newport Grill, Wichita",
-      "attraction": "Exploration Place, Wichita; Music Theatre Wichita, Wichita",
-      "lunch": "Mediterranean Grill, Wichita",
-      "dinner": "Beacon Restaurant, Wichita",
-      "accommodation": "Downtown Retreat, Wichita",
-      "event": "SOLD OUT Straight Tequila Night ~ A Tribute to '90s Country, Wichita",
-      "point_of_interest_list": "Downtown Retreat, stay from 08:00 to 09:00, nearest transit: Emporia and Lincoln IB, 233.24m away; Newport Grill, visit from 09:25 to 10:16, nearest transit: 2000 Rock NB, 195.32m away; Exploration Place, visit from 11:30 to 13:57, nearest transit: Exploration Place, 91.96m away; Mediterranean Grill, visit from 13:57 to 14:56, nearest transit: Towne East Mall Drive OB, 117.07m away; Music Theatre Wichita, visit from 16:30 to 18:27, nearest transit: Douglas and Wichita IB, 145.76m away; Beacon Restaurant, visit from 19:51 to 21:00, nearest transit: Washington and Douglas IB, 66.33m away; Downtown Retreat, stay from 22:15 to 08:00, nearest transit: Emporia and Lincoln IB, 233.24m away."
+      "current_city": "from Valparaiso to Fort Dodge",
+      "transportation": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
     },
     {
       "days": 2,
-      "current_city": "from Wichita to Wichita",
-      "transportation": "Transfer, from Wichita to Wichita",
-      "breakfast": "Bella Vita, Wichita",
-      "attraction": "Old Town, Wichita; Pizza Hut Museum, Wichita",
-      "lunch": "Cafe Bel Ami, Wichita",
-      "dinner": "Prost, Wichita",
-      "accommodation": "Downtown Retreat, Wichita",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Twin Lakes Family Escape, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Downtown Retreat, stay from 08:00 to 09:00, nearest transit: Emporia and Lincoln IB, 233.24m away; Bella Vita, visit from 09:25 to 10:16, nearest transit: Douglas and West OB, 111.74m away; Old Town, visit from 11:30 to 13:27, nearest transit: Washington and 2nd St IB, 155.80m away; Cafe Bel Ami, visit from 13:57 to 14:56, nearest transit: Douglas and Market IB, 141.26m away; Pizza Hut Museum, visit from 16:30 to 18:57, nearest transit: WSU Welcome Center, 41.48m away; Prost, visit from 19:51 to 21:00, nearest transit: Central and Volutsia OB, 49.11m away; Downtown Retreat, stay from 22:15 to 08:00, nearest transit: Emporia and Lincoln IB, 233.24m away."
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
     },
     {
       "days": 3,
-      "current_city": "from Wichita to Denver",
-      "transportation": "Transfer, from Wichita to Denver",
-      "breakfast": "Little Saigon, Wichita",
-      "attraction": "Kansas Aviation Museum, Wichita; Paramount Antique Mall, Wichita",
-      "lunch": "The Sweet Spot, Wichita",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; The Uptown B - Private, Modern, Comfortable Stay, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Cedar Rapids to Valparaiso",
+      "transportation": "Transfer, from Cedar Rapids to Valparaiso",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Downtown Retreat, stay from 08:00 to 09:00, nearest transit: Emporia and Lincoln IB, 233.24m away; Little Saigon, visit from 09:25 to 10:16, nearest transit: Broadway and 9th St IB, 34.07m away; Kansas Aviation Museum, visit from 11:30 to 13:57, nearest transit: Geo Wash Blvd and Oliver IB, 1496.67m away; The Sweet Spot, visit from 13:57 to 14:56, nearest transit: 8279 W Central OB, 64.66m away; Paramount Antique Mall, visit from 16:30 to 17:27, nearest transit: Tyler&Central Inbound, 5426.65m away."
+      "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
     }
   ]
 }

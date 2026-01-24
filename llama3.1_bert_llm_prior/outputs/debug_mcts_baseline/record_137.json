@@ -1,91 +1,124 @@
 {
   "idx": 137,
   "JSON": {
-    "org": "Charleston",
-    "dest": "Texas",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Detroit",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-03",
-      "2024-11-04",
       "2024-11-05",
       "2024-11-06",
-      "2024-11-07"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": "Steakhouse",
-      "room type": null,
-      "transportation": null,
+      "house rule": "pets",
+      "cuisine": [
+        "American",
+        "Italian",
+        "Japanese"
+      ],
+      "room type": "entire home",
+      "transportation": "none",
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Museum",
+        "Sights & Landmarks"
+      ]
     },
-    "budget": 3450.0,
-    "query": "Plan a 5-day trip for 1 person traveling from Charleston to explore 2 cities in Texas between November 3rd and November 7th, 2024. The budget is $3,450, and the itinerary should include dining at steakhouses.",
-    "level": "medium"
+    "budget": 7950.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Detroit and visiting 3 cities in Iowa between November 5th and November 11th, 2024. The budget is $7,950. Accommodations should be an entire home that allows pets. Include visits to museums and sights & landmarks. The plan should feature American, Italian, and Japanese cuisine, and no transportation options are required.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Charleston to San Antonio",
-      "transportation": "Taxi, from Charleston to San Antonio, Duration: 1415.1133333333335 mins, Distance: 2025.7825 km, Estimated Cost: $2025.78",
-      "breakfast": "Yard House, San Antonio",
-      "attraction": "SeaWorld, San Antonio",
-      "lunch": "Battalion, San Antonio",
-      "dinner": "Bliss, San Antonio",
-      "accommodation": "Cozy Cottage, San Antonio",
+      "current_city": "from Detroit to Cedar Rapids",
+      "transportation": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09",
+      "breakfast": "Zeppelins, Cedar Rapids",
+      "attraction": "Grant Wood Studio, Cedar Rapids",
+      "lunch": "The Map Room, Cedar Rapids",
+      "dinner": "Lightworks Cafe, Cedar Rapids",
+      "accommodation": "Cozy Casa w/ Private Hot Tub, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away; Yard House, visit from 09:25 to 10:16, nearest transit: MARKET/ FRONT OF CONVENTION CENTER, 117.25m away; SeaWorld, visit from 11:30 to 17:20, nearest transit: SEA WORLD OF TEXAS MAIN ENTRANCE, 320.40m away; Battalion, visit from 13:57 to 14:56, nearest transit: S ALAMO OPPOSITE REFUGIO & LAVACA, 55.78m away; Bliss, visit from 19:51 to 21:00, nearest transit: S. PRESA OPPOSITE SADIE, 41.72m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away."
+      "point_of_interest_list": "Cozy Casa w/ Private Hot Tub, stay from 08:00 to 09:00, nearest transit: Center Point Rd & J Ave, 116.02m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Grant Wood Studio, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 66.36m away; The Map Room, visit from 13:57 to 14:56, nearest transit: 5th Ave & RR tracks, 111.63m away; Lightworks Cafe, visit from 19:51 to 21:00, nearest transit: 6th St & 6th Ave, 178.56m away; Cozy Casa w/ Private Hot Tub, stay from 22:15 to 08:00, nearest transit: Center Point Rd & J Ave, 116.02m away."
     },
     {
       "days": 2,
-      "current_city": "from San Antonio to San Antonio",
-      "transportation": "Transfer, from San Antonio to San Antonio",
-      "breakfast": "Sichuan House, San Antonio",
-      "attraction": "Mission Trail, San Antonio",
-      "lunch": "Colonial Room Restaurant, San Antonio",
-      "dinner": "Domingo Restaurant, San Antonio",
-      "accommodation": "Cozy Cottage, San Antonio",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "350 First, Cedar Rapids",
+      "attraction": "Brucemore, Cedar Rapids",
+      "lunch": "Irish Democrat, Cedar Rapids",
+      "dinner": "The Breakfast House, Cedar Rapids",
+      "accommodation": "Cozy Casa w/ Private Hot Tub, Cedar Rapids",
       "event": "-",
-      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away; Sichuan House, visit from 09:25 to 10:16, nearest transit: WURZBACH OPP. ENT. DR. TO DILLARD'S, 73.79m away; Mission Trail, visit from 11:30 to 15:20, nearest transit: ROOSEVELT OPPOSITE PYRON, 207.07m away; Colonial Room Restaurant, visit from 13:57 to 14:56, nearest transit: MARKET & ALAMO - 150 FT. WEST, 219.31m away; Domingo Restaurant, visit from 19:51 to 21:00, nearest transit: ST. MARY'S & COMMERCE, 28.70m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away."
+      "point_of_interest_list": "Cozy Casa w/ Private Hot Tub, stay from 08:00 to 09:00, nearest transit: Center Point Rd & J Ave, 116.02m away; 350 First, visit from 09:25 to 10:16, nearest transit: 3rd St & 2nd Ave, 159.53m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; Irish Democrat, visit from 13:57 to 14:56, nearest transit: 1st Ave & 32nd St, 46.22m away; The Breakfast House, visit from 19:51 to 21:00, nearest transit: 812 6th St (Jim's Foods), 38.50m away; Cozy Casa w/ Private Hot Tub, stay from 22:15 to 08:00, nearest transit: Center Point Rd & J Ave, 116.02m away."
     },
     {
       "days": 3,
-      "current_city": "from San Antonio to Houston",
-      "transportation": "Flight Number: F0060728, from San Antonio to Houston, Departure Time: 06:45, Arrival Time: 07:33",
-      "breakfast": "Houston Restaurant, Houston",
-      "attraction": "Discovery Green, Houston",
-      "lunch": "Houston's, Houston",
-      "dinner": "Goode Company Seafood, Houston",
-      "accommodation": "Secluded Suite in Southwest Houston, Houston",
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "Transfer, from Cedar Rapids to Sioux City",
+      "breakfast": "Old Chicago, Sioux City",
+      "attraction": "Trinity Heights, Sioux City",
+      "lunch": "Red Lobster, Sioux City",
+      "dinner": "Brightside Cafe, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
       "event": "-",
-      "point_of_interest_list": "Cozy Cottage, stay from 05:15 to 06:15, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away; Cozy Cottage, stay from 08:00 to 09:00, nearest transit: DONALDSON OPPOSITE MABRY, 246.46m away; Houston Restaurant, visit from 09:25 to 10:16, nearest transit: Conroe Park & Ride, 2530051.98m away; Discovery Green, visit from 11:30 to 15:20, nearest transit: Lamar St @ Austin St, 231.52m away; Houston's, visit from 13:57 to 14:56, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Goode Company Seafood, visit from 19:51 to 21:00, nearest transit: Westpark Dr @ Wakeforest St, 141.76m away; Secluded Suite in Southwest Houston, stay from 22:15 to 08:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away."
+      "point_of_interest_list": "Cozy Casa w/ Private Hot Tub, stay from 08:00 to 09:00, nearest transit: Center Point Rd & J Ave, 116.02m away; Old Chicago, visit from 09:25 to 10:16, nearest transit: Lakeport Commons - Panera Bread, 73.40m away; Trinity Heights, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Red Lobster, visit from 13:57 to 14:56, nearest transit: Sergeant Rd & South Lancelot Lane, 109.59m away; Brightside Cafe, visit from 19:51 to 21:00, nearest transit: Pierce St & 4th St, 114.95m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
     },
     {
       "days": 4,
-      "current_city": "from Houston to Houston",
-      "transportation": "Transfer, from Houston to Houston",
-      "breakfast": "Taste of Texas, Houston",
-      "attraction": "Hermann Park, Houston",
-      "lunch": "The Breakfast Klub, Houston",
-      "dinner": "Market on Houston, Houston",
-      "accommodation": "Secluded Suite in Southwest Houston, Houston",
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Miles Inn, Sioux City",
+      "attraction": "Sergeant Floyd Monument, Sioux City",
+      "lunch": "Horizon Family Restaurant, Sioux City",
+      "dinner": "Buffalo Alice, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
       "event": "-",
-      "point_of_interest_list": "Secluded Suite in Southwest Houston, stay from 08:00 to 09:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away; Taste of Texas, visit from 09:25 to 10:16, nearest transit: Katy Freeway @ Town And Country Way, 260.58m away; Hermann Park, visit from 11:30 to 16:35, nearest transit: Cambridge St @ Ben Taub Loop, 355.64m away; The Breakfast Klub, visit from 13:57 to 14:56, nearest transit: Ensemble/Hcc Stn SB, 127.57m away; Market on Houston, visit from 19:51 to 21:00, nearest transit: Grand Parkway Park & Ride, 265982.52m away; Secluded Suite in Southwest Houston, stay from 22:15 to 08:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away."
+      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Miles Inn, visit from 09:25 to 10:16, nearest transit: Leech Ave & Fairmount St, 28.28m away; Sergeant Floyd Monument, visit from 11:30 to 15:20, nearest transit: 3rd St & Lewis Blvd, 292.28m away; Horizon Family Restaurant, visit from 13:57 to 14:56, nearest transit: Myrtle St & Tri-View Ave - Central Mart, 73.11m away; Buffalo Alice, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 122.83m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
     },
     {
       "days": 5,
-      "current_city": "from Houston to Charleston",
-      "transportation": "Flight Number: F0066166, from Houston to Charleston, Departure Time: 10:58, Arrival Time: 14:13",
-      "breakfast": "-",
+      "current_city": "from Sioux City to Fort Dodge",
+      "transportation": "Transfer, from Sioux City to Fort Dodge",
+      "breakfast": "Subway, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Sports Page, Fort Dodge",
+      "dinner": "Pizza Hut, Fort Dodge",
+      "accommodation": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Subway, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 101.37m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Sports Page, visit from 13:57 to 14:56, nearest transit: Evergreen Estates, 68.77m away; Pizza Hut, visit from 19:51 to 21:00, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 28632.14m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
       "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "lunch": "Pizza Ranch of Fort Dodge, Fort Dodge",
+      "dinner": "Perkins Restaurant & Bakery, Fort Dodge",
+      "accommodation": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, Fort Dodge",
+      "event": "-",
+      "point_of_interest_list": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 28632.14m away; Village Inn, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Pizza Ranch of Fort Dodge, visit from 13:57 to 14:56, nearest transit: 5th Ave S and S 31st St, 542.94m away; Perkins Restaurant & Bakery, visit from 19:51 to 21:00, nearest transit: 5th Ave S and S 31st St, 275.17m away; Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 28632.14m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Fort Dodge to Detroit",
+      "transportation": "Transfer, from Fort Dodge to Detroit",
+      "breakfast": "Dodge's, Fort Dodge",
+      "attraction": "-",
+      "lunch": "Burger King, Fort Dodge",
+      "dinner": "Community Tap and Pizza, Fort Dodge",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Secluded Suite in Southwest Houston, stay from 08:00 to 09:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away."
+      "point_of_interest_list": "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 28632.14m away; Dodge's, visit from 09:25 to 10:16, nearest transit: S 31st St and 8th Ave S, 858866.05m away; Burger King, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 182.06m away; Community Tap and Pizza, visit from 19:51 to 21:00, nearest transit: 5th Ave S and S 21st St, 91.42m away."
     }
   ]
 }

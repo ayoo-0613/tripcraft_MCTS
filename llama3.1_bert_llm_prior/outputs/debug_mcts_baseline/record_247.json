@@ -1,68 +1,96 @@
 {
   "idx": 247,
   "JSON": {
-    "org": "Madison",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Denver",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-21",
-      "2024-11-22",
-      "2024-11-23"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "pets",
       "cuisine": [
         "Italian",
-        "French"
+        "Chinese",
+        "Vietnamese",
+        "Grill"
       ],
       "room type": null,
+      "transportation": "selfdriving",
       "event": null,
-      "attraction": "Museums",
-      "transportation": null
+      "attraction": "Sights & Landmarks"
     },
-    "budget": 4950.0,
-    "query": "Plan a 3-day trip for 3 people traveling from Madison to New York from November 21st to November 23rd, 2024. The budget is $4,950. Include visits to museums and dining options featuring Italian and French cuisine.",
+    "budget": 2700.0,
+    "query": "Design a 5-day travel itinerary for 1 person traveling from Denver to explore 2 cities in California between November 8th and November 12th, 2024. The budget is $2,700. The traveler will be self-driving and prefers accommodations that allow pets. Include visits to sights and landmarks, and recommend dining options featuring Italian, Chinese, Vietnamese, and grill cuisines.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Madison to New York",
-      "transportation": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
-      "breakfast": "Rainbow Room, New York",
-      "attraction": "New York Public Library, New York; American Museum of Natural History, New York",
-      "lunch": "Broadway Lounge, New York",
-      "dinner": "Lobster Place, New York",
-      "accommodation": "Dazzling Oasis | Times Square. Restaurant, New York",
+      "current_city": "from Denver to Santa Rosa",
+      "transportation": "Taxi, from Denver to Santa Rosa, Duration: 1311.8583333333333 mins, Distance: 2030.6128999999999 km, Estimated Cost: $2030.61",
+      "breakfast": "Piner Cafe, Santa Rosa",
+      "attraction": "Snoopy's Home Ice, Santa Rosa",
+      "lunch": "Sazon, Santa Rosa",
+      "dinner": "East West Cafe, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
       "event": "-",
-      "point_of_interest_list": "Dazzling Oasis | Times Square. Restaurant, stay from 08:00 to 09:00, nearest transit: W 50 ST/7 AV, 82.76m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; New York Public Library, visit from 11:30 to 13:57, nearest transit: 5 AV/W 42 ST, 34.90m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; American Museum of Natural History, visit from 16:30 to 18:57, nearest transit: CENTRAL PARK WEST/W 79 ST, 124.14m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Dazzling Oasis | Times Square. Restaurant, stay from 22:15 to 08:00, nearest transit: W 50 ST/7 AV, 82.76m away."
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Piner Cafe, visit from 09:25 to 10:16, nearest transit: Piner Rd @ Airway Dr, 130.32m away; Snoopy's Home Ice, visit from 11:30 to 14:35, nearest transit: West Steele Ln @ Range Ave, 88.70m away; Sazon, visit from 13:57 to 14:56, nearest transit: Sebastopol Rd @ Burbank Ave, 120.88m away; East West Cafe, visit from 19:51 to 21:00, nearest transit: Montgomery Dr @ Summerfield Rd, 166.40m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "BOOM, New York",
-      "attraction": "The National 9/11 Memorial & Museum, New York; The Metropolitan Museum of Art, New York",
-      "lunch": "Bryant Park Grill, New York",
-      "dinner": "R Lounge, New York",
-      "accommodation": "Standard 1 King at Hotel Indigo Williamsburg, New York",
+      "current_city": "from Santa Rosa to Santa Rosa",
+      "transportation": "Transfer, from Santa Rosa to Santa Rosa",
+      "breakfast": "Yeti Restaurant, Santa Rosa",
+      "attraction": "Redwood Empire Ice Arena, Santa Rosa",
+      "lunch": "River Vine Cafe, Santa Rosa",
+      "dinner": "Royal China Restaurant, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
       "event": "-",
-      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; The National 9/11 Memorial & Museum, visit from 11:30 to 13:57, nearest transit: CHURCH ST/LIBERTY ST, 234.55m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; The Metropolitan Museum of Art, visit from 16:30 to 18:57, nearest transit: 5 AV/E 80 ST, 182.01m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 22:15 to 08:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Yeti Restaurant, visit from 09:25 to 10:16, nearest transit: Fourth St @ Farmers Ln, 147.61m away; Redwood Empire Ice Arena, visit from 11:30 to 15:20, nearest transit: West Steele Ln @ Range Ave, 88.70m away; River Vine Cafe, visit from 13:57 to 14:56, nearest transit: Hopper Ave @ Coffey Ln, 2038.71m away; Royal China Restaurant, visit from 19:51 to 21:00, nearest transit: Marlow Rd @ Piner Rd, 88.95m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Madison",
-      "transportation": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "current_city": "from Santa Rosa to Fresno",
+      "transportation": "Transfer, from Santa Rosa to Fresno",
+      "breakfast": "Fresno, Fresno",
+      "attraction": "Forestiere Underground Gardens, Fresno",
+      "lunch": "Parma, Fresno",
+      "dinner": "Five, Fresno",
+      "accommodation": "Lazy Private Cottage, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Fresno, visit from 09:25 to 10:16, nearest transit: House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS, 557.44m away; Forestiere Underground Gardens, visit from 11:30 to 16:05, nearest transit: NW SHAW - CORNELIA, 95.29m away; Parma, visit from 13:57 to 14:56, nearest transit: SW Palm - Herndon, 199.36m away; Five, visit from 19:51 to 21:00, nearest transit: CHAMPLAIN - PERRIN, 74.64m away; Lazy Private Cottage, stay from 22:15 to 08:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "Transfer, from Fresno to Fresno",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away; Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, stay from 22:15 to 08:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Fresno to Denver",
+      "transportation": "Transfer, from Fresno to Denver",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 06:35 to 07:35, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
+      "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away."
     }
   ]
 }

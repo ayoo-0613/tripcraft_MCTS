@@ -2,11 +2,21 @@
   "idx": 248,
   "stages": [
     {
-      "city": "New York",
+      "city": "Sacramento",
       "counts": {
-        "attractions": 19,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Madison",
-      "to": "New York",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0152368, from Madison to New York, Departure Time: 06:00, Arrival Time: 09:10"
+      "from": "Ontario",
+      "to": "Sacramento",
+      "date": "2024-11-18",
+      "raw": "Flight Number: F0097128, from Ontario to Sacramento, Departure Time: 16:00, Arrival Time: 17:18"
     },
     {
       "mode": "self-driving",
-      "from": "Madison",
-      "to": "New York",
+      "from": "Ontario",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $75.73"
+      "raw": "Self-driving, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
     },
     {
       "mode": "taxi",
-      "from": "Madison",
-      "to": "New York",
+      "from": "Ontario",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69"
+      "raw": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Madison",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26"
+      "from": "Sacramento",
+      "to": "San Francisco",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0459283, from Sacramento to San Francisco, Departure Time: 09:38, Arrival Time: 10:33"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Madison",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from New York to Madison, Duration: 1065.7733333333333 mins, Distance: 1519.9384 km, Estimated Cost: $76.00"
+      "raw": "Self-driving, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $7.00"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Madison",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from New York to Madison, Duration: 1065.7733333333333 mins, Distance: 1519.9384 km, Estimated Cost: $1519.94"
+      "raw": "Taxi, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $140.03"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": "2024-11-22",
+      "raw": "Flight Number: F0365067, from San Francisco to Ontario, Departure Time: 08:58, Arrival Time: 10:25"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Ontario, Not feasible to drive from San Francisco to Ontario"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Ontario, Not feasible to drive from San Francisco to Ontario"
     }
   ]
 }

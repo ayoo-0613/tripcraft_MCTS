@@ -2,58 +2,89 @@
   "idx": 271,
   "stages": [
     {
-      "city": "Key West",
+      "city": "Corpus Christi",
       "counts": {
-        "attractions": 19,
+        "attractions": 17,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 1
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
-        "events": 0
+        "events": 4
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Key West",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0986596, from Houston to Key West, Departure Time: 12:22, Arrival Time: 15:57"
+      "from": "Memphis",
+      "to": "Corpus Christi",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Key West",
+      "from": "Memphis",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Self-driving, from Houston to Key West, Not feasible to drive from Houston to Key West"
+      "raw": "Self-driving, from Memphis to Corpus Christi, Duration: 868.2433333333333 mins, Distance: 1249.054 km, Estimated Cost: $62.45"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Key West",
+      "from": "Memphis",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West"
+      "raw": "Taxi, from Memphis to Corpus Christi, Duration: 868.2433333333333 mins, Distance: 1249.054 km, Estimated Cost: $1249.05"
     },
     {
       "mode": "flight",
-      "from": "Key West",
+      "from": "Corpus Christi",
       "to": "Houston",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0987158, from Key West to Houston, Departure Time: 16:45, Arrival Time: 19:01"
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0000327, from Corpus Christi to Houston, Departure Time: 16:04, Arrival Time: 17:11"
     },
     {
       "mode": "self-driving",
-      "from": "Key West",
+      "from": "Corpus Christi",
       "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Key West to Houston, Not feasible to drive from Key West to Houston"
+      "raw": "Self-driving, from Corpus Christi to Houston, Duration: 254.63333333333333 mins, Distance: 340.09740000000005 km, Estimated Cost: $17.00"
     },
     {
       "mode": "taxi",
-      "from": "Key West",
+      "from": "Corpus Christi",
       "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Key West to Houston, Not feasible to drive from Key West to Houston"
+      "raw": "Taxi, from Corpus Christi to Houston, Duration: 254.63333333333333 mins, Distance: 340.09740000000005 km, Estimated Cost: $340.10"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0039908, from Houston to Memphis, Departure Time: 14:30, Arrival Time: 15:49"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $45.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $911.42"
     }
   ]
 }

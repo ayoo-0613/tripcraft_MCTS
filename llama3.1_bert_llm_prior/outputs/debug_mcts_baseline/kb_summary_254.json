@@ -2,11 +2,21 @@
   "idx": 254,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Watertown",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 15
+      }
+    },
+    {
+      "city": "New York",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "Seattle",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0244191, from Tucson to Seattle, Departure Time: 18:52, Arrival Time: 22:11"
+      "from": "Wilmington",
+      "to": "Watertown",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tucson",
-      "to": "Seattle",
+      "from": "Wilmington",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle"
+      "raw": "Self-driving, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $64.76"
     },
     {
       "mode": "taxi",
-      "from": "Tucson",
-      "to": "Seattle",
+      "from": "Wilmington",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Tucson to Seattle, Not feasible to drive from Tucson to Seattle"
+      "raw": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Tucson",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0245478, from Seattle to Tucson, Departure Time: 07:32, Arrival Time: 10:28"
+      "from": "Watertown",
+      "to": "New York",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Tucson",
+      "from": "Watertown",
+      "to": "New York",
       "date": null,
-      "raw": "Self-driving, from Seattle to Tucson, Not feasible to drive from Seattle to Tucson"
+      "raw": "Self-driving, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $25.81"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Tucson",
+      "from": "Watertown",
+      "to": "New York",
       "date": null,
-      "raw": "Taxi, from Seattle to Tucson, Not feasible to drive from Seattle to Tucson"
+      "raw": "Taxi, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $516.22"
+    },
+    {
+      "mode": "flight",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0122356, from New York to Wilmington, Departure Time: 08:59, Arrival Time: 10:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Self-driving, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $48.06"
+    },
+    {
+      "mode": "taxi",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Taxi, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $961.15"
     }
   ]
 }

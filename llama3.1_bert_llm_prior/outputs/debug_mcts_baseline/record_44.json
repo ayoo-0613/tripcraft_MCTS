@@ -1,94 +1,120 @@
 {
   "idx": 44,
   "JSON": {
-    "org": "Los Angeles",
-    "dest": "Colorado",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Detroit",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 7,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": [
-        "American",
+        "Italian",
         "Mexican"
       ],
-      "room type": "entire home",
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 17550.0,
-    "query": "Design a 5-day travel itinerary for 7 people departing from Los Angeles to explore 2 cities in Colorado from November 1st to November 5th, 2024. The budget is $17,550. Accommodations should be in an entire home, and dining options should include American and Mexican cuisines.",
-    "level": "hard"
+    "budget": 8800.0,
+    "query": "Design a 7-day travel itinerary for 1 person traveling from Detroit to explore 3 cities in California between November 2nd and November 8th, 2024. The budget is $8,800. Include dining options with Italian and Mexican cuisine.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Los Angeles to Colorado Springs",
-      "transportation": "Taxi, from Los Angeles to Colorado Springs, Duration: 1135.6783333333333 mins, Distance: 1741.0568999999998 km, Estimated Cost: $1741.06",
-      "breakfast": "Restaurant 1858, Colorado Springs",
-      "attraction": "Olympic Training Center, Colorado Springs",
-      "lunch": "The Airplane Restaurant, Colorado Springs",
-      "dinner": "Caspian Cafe Mediterranean, Colorado Springs",
-      "accommodation": "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC, Colorado Springs",
+      "current_city": "from Detroit to San Diego",
+      "transportation": "Taxi, from Detroit to San Diego, Not feasible to drive from Detroit to San Diego",
+      "breakfast": "World Famous, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "Cafe Coyote, San Diego",
+      "dinner": "Addison Restaurant, San Diego",
+      "accommodation": "Big Bay Views, San Diego Bay, San Diego",
       "event": "-",
-      "point_of_interest_list": "Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC, stay from 08:00 to 09:00, nearest transit: Cache La Poudre/Institute, 116.09m away; Restaurant 1858, visit from 09:25 to 10:16, nearest transit: Moreno/Communication, 320.84m away; Olympic Training Center, visit from 11:30 to 13:50, nearest transit: Boulder/Childrens View, 185.49m away; The Airplane Restaurant, visit from 13:57 to 14:56, nearest transit: Jet Wing/Fenton, 1384.10m away; Caspian Cafe Mediterranean, visit from 19:51 to 21:00, nearest transit: GoG/Northpark, 155.07m away; Historic Craftsman ★ Fire pit┃Waffle Maker┃Near CC, stay from 22:15 to 08:00, nearest transit: Cache La Poudre/Institute, 116.09m away."
+      "point_of_interest_list": "Big Bay Views, San Diego Bay, stay from 08:00 to 09:00, nearest transit: Rosecrans St & Talbot St, 129.96m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; Cafe Coyote, visit from 13:57 to 14:56, nearest transit: Juan St & Harney St, 216.77m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Big Bay Views, San Diego Bay, stay from 22:15 to 08:00, nearest transit: Rosecrans St & Talbot St, 129.96m away."
     },
     {
       "days": 2,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Cowboy Star, Colorado Springs",
-      "attraction": "Palmer Park, Colorado Springs",
-      "lunch": "Mountain Shadows Restaurant, Colorado Springs",
-      "dinner": "Prime 25, Colorado Springs",
-      "accommodation": "Creekside Cowboy Cabin with 360° Mountain Views, Colorado Springs",
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Morning Glory, San Diego",
+      "attraction": "Little Italy, San Diego",
+      "lunch": "Cowboy Star, San Diego",
+      "dinner": "Casa Guadalajara, San Diego",
+      "accommodation": "charming, colorful, close to beach, San Diego",
       "event": "-",
-      "point_of_interest_list": "Creekside Cowboy Cabin with 360° Mountain Views, stay from 08:00 to 09:00, nearest transit: Ruxton/Fairview, 10061.41m away; Cowboy Star, visit from 09:25 to 10:16, nearest transit: Nevada/Eagle Rock, 261.61m away; Palmer Park, visit from 11:30 to 16:35, nearest transit: Academy/Maizeland, 308.09m away; Mountain Shadows Restaurant, visit from 13:57 to 14:56, nearest transit: Colorado/23rd, 76.10m away; Prime 25, visit from 19:51 to 21:00, nearest transit: Brookside/Cascade, 181.96m away; Creekside Cowboy Cabin with 360° Mountain Views, stay from 22:15 to 08:00, nearest transit: Ruxton/Fairview, 10061.41m away."
+      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away; Little Italy, visit from 11:30 to 14:50, nearest transit: Kettner Bl & Grape St, 155.04m away; Cowboy Star, visit from 13:57 to 14:56, nearest transit: 10th Av & Market St, 50.81m away; Casa Guadalajara, visit from 19:51 to 21:00, nearest transit: Taylor St & Juan St, 50.62m away; charming, colorful, close to beach, stay from 22:15 to 08:00, nearest transit: Jewell St & Garnet Av, 578.25m away."
     },
     {
       "days": 3,
-      "current_city": "from Colorado Springs to Durango",
-      "transportation": "Transfer, from Colorado Springs to Durango",
-      "breakfast": "Bread, Durango",
-      "attraction": "The Colorado Trail, Durango",
-      "lunch": "Rice Monkeys, Durango",
-      "dinner": "Himalayan Kitchen, Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from San Diego to San Francisco",
+      "transportation": "Flight Number: F0037906, from San Diego to San Francisco, Departure Time: 10:12, Arrival Time: 11:48",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Eagle Cafe, San Francisco",
+      "dinner": "Outerlands, San Francisco",
+      "accommodation": "Monroe Studio 303, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Creekside Cowboy Cabin with 360° Mountain Views, stay from 08:00 to 09:00, nearest transit: Ruxton/Fairview, 10061.41m away; Bread, visit from 09:25 to 10:16, nearest transit: Ptarmigan Center, 50.35m away; The Colorado Trail, visit from 11:30 to 16:35, nearest transit: Durango High School, 286.28m away; Rice Monkeys, visit from 13:57 to 14:56, nearest transit: Main Ave. & 11th St., 73.45m away; Himalayan Kitchen, visit from 19:51 to 21:00, nearest transit: Main Ave. & 9th St., 94.06m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Eagle Cafe, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Outerlands, visit from 19:51 to 21:00, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
     },
     {
       "days": 4,
-      "current_city": "from Durango to Durango",
-      "transportation": "Transfer, from Durango to Durango",
-      "breakfast": "Mahogany Grille, Durango",
-      "attraction": "Snowmobile Adventures, Durango",
-      "lunch": "College Drive Cafe, Durango",
-      "dinner": "Carver Brewing Co., Durango",
-      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Capital Restaurant, San Francisco",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Hillstone, San Francisco",
+      "dinner": "Quince, San Francisco",
+      "accommodation": "Monroe Studio 303, San Francisco",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Mahogany Grille, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 51.51m away; Snowmobile Adventures, visit from 11:30 to 16:20, nearest transit: North Animas View Dr., 34663.38m away; College Drive Cafe, visit from 13:57 to 14:56, nearest transit: College Dr. & 8th Ave, 166.74m away; Carver Brewing Co., visit from 19:51 to 21:00, nearest transit: Main Ave. & 11th St., 100.92m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
+      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Capital Restaurant, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 972.30m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Hillstone, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Quince, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
     },
     {
       "days": 5,
-      "current_city": "from Durango to Los Angeles",
-      "transportation": "Transfer, from Durango to Los Angeles",
-      "breakfast": "Diamond Belle Saloon, Durango",
-      "attraction": "Four Leaves Winery, Durango",
-      "lunch": "Derailed Pour House, Durango",
-      "dinner": "Ska Brewing Co, Durango",
+      "current_city": "from San Francisco to Los Angeles",
+      "transportation": "Flight Number: F0064363, from San Francisco to Los Angeles, Departure Time: 21:39, Arrival Time: 22:48",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Cozy Private Room In LA., Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "Hollywood Sign, Los Angeles",
+      "lunch": "The Lobster, Los Angeles",
+      "dinner": "Perch, Los Angeles",
+      "accommodation": "Cozy Private Room In LA., Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Sign, visit from 11:30 to 15:20, nearest transit: Beachwood & Westshire, 1574.74m away; The Lobster, visit from 13:57 to 14:56, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Perch, visit from 19:51 to 21:00, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Los Angeles to Detroit",
+      "transportation": "Flight Number: F0296278, from Los Angeles to Detroit, Departure Time: 14:30, Arrival Time: 22:10",
+      "breakfast": "Providence, Los Angeles",
+      "attraction": "The Broad, Los Angeles",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Diamond Belle Saloon, visit from 09:25 to 10:16, nearest transit: Main Ave. & 7th St., 25.56m away; Four Leaves Winery, visit from 11:30 to 15:00, nearest transit: College Dr. & Main Ave., 80.37m away; Derailed Pour House, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 38.31m away; Ska Brewing Co, visit from 19:51 to 21:00, nearest transit: Turner Dr. & Sheppard Dr., 235.67m away."
+      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Providence, visit from 09:25 to 10:16, nearest transit: Melrose & Gower (Westbound), 749.15m away; The Broad, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away."
     }
   ]
 }

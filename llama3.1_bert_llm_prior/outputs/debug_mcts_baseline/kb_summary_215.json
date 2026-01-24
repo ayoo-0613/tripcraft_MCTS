@@ -2,12 +2,22 @@
   "idx": 215,
   "stages": [
     {
-      "city": "Fort Wayne",
+      "city": "Key West",
       "counts": {
-        "attractions": 17,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 72,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Gainesville",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Dallas",
-      "to": "Fort Wayne",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0470206, from Dallas to Fort Wayne, Departure Time: 12:06, Arrival Time: 15:28"
+      "from": "Greensboro",
+      "to": "Key West",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Dallas",
-      "to": "Fort Wayne",
+      "from": "Greensboro",
+      "to": "Key West",
       "date": null,
-      "raw": "Self-driving, from Dallas to Fort Wayne, Duration: 1097.3966666666668 mins, Distance: 1628.4868000000001 km, Estimated Cost: $81.42"
+      "raw": "Self-driving, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $76.54"
     },
     {
       "mode": "taxi",
-      "from": "Dallas",
-      "to": "Fort Wayne",
+      "from": "Greensboro",
+      "to": "Key West",
       "date": null,
-      "raw": "Taxi, from Dallas to Fort Wayne, Duration: 1097.3966666666668 mins, Distance: 1628.4868000000001 km, Estimated Cost: $1628.49"
+      "raw": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81"
     },
     {
       "mode": "flight",
-      "from": "Fort Wayne",
-      "to": "Dallas",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0447664, from Fort Wayne to Dallas, Departure Time: 12:29, Arrival Time: 14:01"
+      "from": "Key West",
+      "to": "Gainesville",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Fort Wayne",
-      "to": "Dallas",
+      "from": "Key West",
+      "to": "Gainesville",
       "date": null,
-      "raw": "Self-driving, from Fort Wayne to Dallas, Duration: 1096.5966666666668 mins, Distance: 1627.7375 km, Estimated Cost: $81.39"
+      "raw": "Self-driving, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $39.81"
     },
     {
       "mode": "taxi",
-      "from": "Fort Wayne",
-      "to": "Dallas",
+      "from": "Key West",
+      "to": "Gainesville",
       "date": null,
-      "raw": "Taxi, from Fort Wayne to Dallas, Duration: 1096.5966666666668 mins, Distance: 1627.7375 km, Estimated Cost: $1627.74"
+      "raw": "Taxi, from Key West to Gainesville, Duration: 607.215 mins, Distance: 796.1796999999999 km, Estimated Cost: $796.18"
+    },
+    {
+      "mode": "flight",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": "2024-11-06",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Self-driving, from Gainesville to Greensboro, Duration: 589.4816666666667 mins, Distance: 823.4602 km, Estimated Cost: $41.17"
+    },
+    {
+      "mode": "taxi",
+      "from": "Gainesville",
+      "to": "Greensboro",
+      "date": null,
+      "raw": "Taxi, from Gainesville to Greensboro, Duration: 589.4816666666667 mins, Distance: 823.4602 km, Estimated Cost: $823.46"
     }
   ]
 }

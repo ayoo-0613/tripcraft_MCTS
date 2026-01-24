@@ -2,89 +2,120 @@
   "idx": 19,
   "stages": [
     {
-      "city": "Sacramento",
+      "city": "Mason City",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 1
       }
     },
     {
-      "city": "Monterey",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 19,
+        "attractions": 7,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 24
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "El Paso",
-      "to": "Sacramento",
-      "date": "2024-11-01",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "El Paso",
-      "to": "Sacramento",
-      "date": null,
-      "raw": "Self-driving, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $95.30"
-    },
-    {
-      "mode": "taxi",
-      "from": "El Paso",
-      "to": "Sacramento",
-      "date": null,
-      "raw": "Taxi, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $1905.95"
-    },
-    {
-      "mode": "flight",
-      "from": "Sacramento",
-      "to": "Monterey",
+      "from": "Chicago",
+      "to": "Mason City",
       "date": "2024-11-03",
-      "raw": "-"
+      "raw": "Flight Number: F0453854, from Chicago to Mason City, Departure Time: 13:53, Arrival Time: 15:13"
     },
     {
       "mode": "self-driving",
-      "from": "Sacramento",
-      "to": "Monterey",
+      "from": "Chicago",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Sacramento to Monterey, Duration: 291.5066666666667 mins, Distance: 355.9538 km, Estimated Cost: $17.80"
+      "raw": "Self-driving, from Chicago to Mason City, Duration: 438.0133333333333 mins, Distance: 565.973 km, Estimated Cost: $28.30"
     },
     {
       "mode": "taxi",
-      "from": "Sacramento",
-      "to": "Monterey",
+      "from": "Chicago",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Sacramento to Monterey, Duration: 291.5066666666667 mins, Distance: 355.9538 km, Estimated Cost: $355.95"
+      "raw": "Taxi, from Chicago to Mason City, Duration: 438.0133333333333 mins, Distance: 565.973 km, Estimated Cost: $565.97"
     },
     {
       "mode": "flight",
-      "from": "Monterey",
-      "to": "El Paso",
+      "from": "Mason City",
+      "to": "Fort Dodge",
       "date": "2024-11-05",
+      "raw": "Flight Number: F0457102, from Mason City to Fort Dodge, Departure Time: 16:01, Arrival Time: 16:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $7.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $154.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Monterey",
-      "to": "El Paso",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Monterey to El Paso, Duration: 1204.2983333333332 mins, Distance: 1740.2439 km, Estimated Cost: $87.01"
+      "raw": "Self-driving, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $12.43"
     },
     {
       "mode": "taxi",
-      "from": "Monterey",
-      "to": "El Paso",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Monterey to El Paso, Duration: 1204.2983333333332 mins, Distance: 1740.2439 km, Estimated Cost: $1740.24"
+      "raw": "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Chicago",
+      "date": "2024-11-09",
+      "raw": "Flight Number: F0388768, from Cedar Rapids to Chicago, Departure Time: 16:23, Arrival Time: 17:38"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Chicago, Duration: 281.27166666666665 mins, Distance: 397.6572 km, Estimated Cost: $19.88"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Chicago, Duration: 281.27166666666665 mins, Distance: 397.6572 km, Estimated Cost: $397.66"
     }
   ]
 }

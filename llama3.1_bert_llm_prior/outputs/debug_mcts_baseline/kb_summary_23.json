@@ -2,89 +2,120 @@
   "idx": 23,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 20,
+        "attractions": 7,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 17
+        "poi2transit": 63,
+        "events": 13
       }
     },
     {
-      "city": "Durango",
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 0
+      }
+    },
+    {
+      "city": "Mason City",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 73,
-        "events": 0
+        "poi2transit": 75,
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Helena",
-      "to": "Colorado Springs",
-      "date": "2024-11-01",
-      "raw": "-"
+      "from": "Chicago",
+      "to": "Fort Dodge",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0497830, from Chicago to Fort Dodge, Departure Time: 07:42, Arrival Time: 09:05"
     },
     {
       "mode": "self-driving",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $69.20"
+      "raw": "Self-driving, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $29.64"
     },
     {
       "mode": "taxi",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      "raw": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Durango",
-      "date": "2024-11-03",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-13",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $25.31"
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Helena",
-      "date": "2024-11-05",
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": "2024-11-15",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Sioux City",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $70.35"
+      "raw": "Self-driving, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $16.62"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Sioux City",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $1407.09"
+      "raw": "Taxi, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $332.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $28.42"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $568.32"
     }
   ]
 }

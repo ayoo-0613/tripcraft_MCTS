@@ -8,52 +8,83 @@
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 1
+        "events": 0
+      }
+    },
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Miami",
+      "from": "Washington",
       "to": "San Francisco",
-      "date": "2024-11-01",
-      "raw": "Flight Number: F0198184, from Miami to San Francisco, Departure Time: 21:21, Arrival Time: 00:57"
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0243016, from Washington to San Francisco, Departure Time: 17:49, Arrival Time: 21:12"
     },
     {
       "mode": "self-driving",
-      "from": "Miami",
+      "from": "Washington",
       "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco"
+      "raw": "Self-driving, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco"
     },
     {
       "mode": "taxi",
-      "from": "Miami",
+      "from": "Washington",
       "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco"
+      "raw": "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco"
     },
     {
       "mode": "flight",
       "from": "San Francisco",
-      "to": "Miami",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20"
+      "to": "San Diego",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46"
     },
     {
       "mode": "self-driving",
       "from": "San Francisco",
-      "to": "Miami",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Miami, Not feasible to drive from San Francisco to Miami"
+      "raw": "Self-driving, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $40.31"
     },
     {
       "mode": "taxi",
       "from": "San Francisco",
-      "to": "Miami",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from San Francisco to Miami, Not feasible to drive from San Francisco to Miami"
+      "raw": "Taxi, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $806.29"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Washington",
+      "date": "2024-11-09",
+      "raw": "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Washington, Not feasible to drive from San Diego to Washington"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from San Diego to Washington, Not feasible to drive from San Diego to Washington"
     }
   ]
 }

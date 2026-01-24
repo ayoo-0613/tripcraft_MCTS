@@ -2,58 +2,89 @@
   "idx": 192,
   "stages": [
     {
-      "city": "Cincinnati",
+      "city": "Los Angeles",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 74,
-        "events": 22
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Redding",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 73,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Atlanta",
-      "to": "Cincinnati",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0295809, from Atlanta to Cincinnati, Departure Time: 19:58, Arrival Time: 21:22"
+      "from": "Bend",
+      "to": "Los Angeles",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0454768, from Bend to Los Angeles, Departure Time: 15:43, Arrival Time: 17:49"
     },
     {
       "mode": "self-driving",
-      "from": "Atlanta",
-      "to": "Cincinnati",
+      "from": "Bend",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Atlanta to Cincinnati, Duration: 510.65166666666664 mins, Distance: 722.627 km, Estimated Cost: $36.13"
+      "raw": "Self-driving, from Bend to Los Angeles, Duration: 922.1233333333333 mins, Distance: 1316.9775 km, Estimated Cost: $65.85"
     },
     {
       "mode": "taxi",
-      "from": "Atlanta",
-      "to": "Cincinnati",
+      "from": "Bend",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Atlanta to Cincinnati, Duration: 510.65166666666664 mins, Distance: 722.627 km, Estimated Cost: $722.63"
+      "raw": "Taxi, from Bend to Los Angeles, Duration: 922.1233333333333 mins, Distance: 1316.9775 km, Estimated Cost: $1316.98"
     },
     {
       "mode": "flight",
-      "from": "Cincinnati",
-      "to": "Atlanta",
-      "date": "2024-11-04",
-      "raw": "Flight Number: F0297694, from Cincinnati to Atlanta, Departure Time: 13:46, Arrival Time: 15:02"
+      "from": "Los Angeles",
+      "to": "Redding",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0485094, from Los Angeles to Redding, Departure Time: 13:15, Arrival Time: 15:08"
     },
     {
       "mode": "self-driving",
-      "from": "Cincinnati",
-      "to": "Atlanta",
+      "from": "Los Angeles",
+      "to": "Redding",
       "date": null,
-      "raw": "Self-driving, from Cincinnati to Atlanta, Duration: 510.5 mins, Distance: 722.769 km, Estimated Cost: $36.14"
+      "raw": "Self-driving, from Los Angeles to Redding, Duration: 597.2816666666666 mins, Distance: 875.9086 km, Estimated Cost: $43.80"
     },
     {
       "mode": "taxi",
-      "from": "Cincinnati",
-      "to": "Atlanta",
+      "from": "Los Angeles",
+      "to": "Redding",
       "date": null,
-      "raw": "Taxi, from Cincinnati to Atlanta, Duration: 510.5 mins, Distance: 722.769 km, Estimated Cost: $722.77"
+      "raw": "Taxi, from Los Angeles to Redding, Duration: 597.2816666666666 mins, Distance: 875.9086 km, Estimated Cost: $875.91"
+    },
+    {
+      "mode": "flight",
+      "from": "Redding",
+      "to": "Bend",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Redding",
+      "to": "Bend",
+      "date": null,
+      "raw": "Self-driving, from Redding to Bend, Duration: 331.87166666666667 mins, Distance: 445.2644 km, Estimated Cost: $22.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Redding",
+      "to": "Bend",
+      "date": null,
+      "raw": "Taxi, from Redding to Bend, Duration: 331.87166666666667 mins, Distance: 445.2644 km, Estimated Cost: $445.26"
     }
   ]
 }

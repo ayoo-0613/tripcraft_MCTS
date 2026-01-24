@@ -2,58 +2,89 @@
   "idx": 227,
   "stages": [
     {
-      "city": "Monterey",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 19,
+        "attractions": 7,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Monterey",
-      "date": "2024-11-14",
-      "raw": "Flight Number: F0512226, from Seattle to Monterey, Departure Time: 11:31, Arrival Time: 13:48"
+      "from": "St. Louis",
+      "to": "Fort Dodge",
+      "date": "2024-11-05",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Monterey",
+      "from": "St. Louis",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Seattle to Monterey, Duration: 1119.5783333333334 mins, Distance: 1513.9693 km, Estimated Cost: $75.70"
+      "raw": "Self-driving, from St. Louis to Fort Dodge, Duration: 514.2233333333334 mins, Distance: 704.619 km, Estimated Cost: $35.23"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Monterey",
+      "from": "St. Louis",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Seattle to Monterey, Duration: 1119.5783333333334 mins, Distance: 1513.9693 km, Estimated Cost: $1513.97"
+      "raw": "Taxi, from St. Louis to Fort Dodge, Duration: 514.2233333333334 mins, Distance: 704.619 km, Estimated Cost: $704.62"
     },
     {
       "mode": "flight",
-      "from": "Monterey",
-      "to": "Seattle",
-      "date": "2024-11-16",
-      "raw": "Flight Number: F0512737, from Monterey to Seattle, Departure Time: 14:12, Arrival Time: 16:25"
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-07",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Monterey",
-      "to": "Seattle",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Monterey to Seattle, Duration: 1120.0633333333333 mins, Distance: 1514.4771 km, Estimated Cost: $75.72"
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
     },
     {
       "mode": "taxi",
-      "from": "Monterey",
-      "to": "Seattle",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Monterey to Seattle, Duration: 1120.0633333333333 mins, Distance: 1514.4771 km, Estimated Cost: $1514.48"
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "St. Louis",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to St. Louis, Duration: 584.8333333333334 mins, Distance: 852.9522 km, Estimated Cost: $42.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Taxi, from Sioux City to St. Louis, Duration: 584.8333333333334 mins, Distance: 852.9522 km, Estimated Cost: $852.95"
     }
   ]
 }

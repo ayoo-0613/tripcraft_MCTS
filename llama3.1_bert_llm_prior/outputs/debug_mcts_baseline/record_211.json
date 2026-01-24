@@ -1,70 +1,91 @@
 {
   "idx": 211,
   "JSON": {
-    "org": "Raleigh",
-    "dest": "Tampa",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Las Vegas",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
+      "2024-11-17",
       "2024-11-18",
       "2024-11-19",
-      "2024-11-20"
+      "2024-11-20",
+      "2024-11-21"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "smoking",
-      "cuisine": [
-        "Indian",
-        "Italian"
-      ],
-      "room type": "entire home",
-      "transportation": "no flight",
-      "event": null,
-      "attraction": [
-        "Outdoor Activities"
-      ]
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": "Sports",
+      "attraction": null
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 2 people from Raleigh to Tampa from November 18th to November 20th, 2024, with a budget of $1,500. Accommodations should be an entire home that allows smoking. Include options for Indian and Italian cuisine, and focus on outdoor activities. Transportation should exclude flights.",
-    "level": "hard"
+    "budget": 1800.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Las Vegas to explore 2 cities in California between November 17th and November 21st, 2024. The budget is $1,800. Include sports events in the itinerary.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Raleigh to Tampa",
-      "transportation": "Taxi, from Raleigh to Tampa, Duration: 728.44 mins, Distance: 1044.7846 km, Estimated Cost: $1044.78",
-      "breakfast": "Ulele, Tampa",
-      "attraction": "ZooTampa At Lowry Park, Tampa",
-      "lunch": "Oxford Exchange, Tampa",
-      "dinner": "Columbia Restaurant, Tampa",
-      "accommodation": "Tiny House 15 min to Busch Gardens! Walk to coffee, Tampa",
+      "current_city": "from Las Vegas to San Luis Obispo",
+      "transportation": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40",
+      "breakfast": "Cafe Roma, San Luis Obispo",
+      "attraction": "Wolff Vineyards, San Luis Obispo",
+      "lunch": "Sidecar, San Luis Obispo",
+      "dinner": "Luna Red, San Luis Obispo",
+      "accommodation": "Harris House, San Luis Obispo",
       "event": "-",
-      "point_of_interest_list": "Tiny House 15 min to Busch Gardens! Walk to coffee, stay from 08:00 to 09:00, nearest transit: Busch Gardens Employee Entrance, 6885.43m away; Ulele, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 10143.81m away; ZooTampa At Lowry Park, visit from 11:30 to 16:00, nearest transit: Busch Gardens Employee Entrance, 5842.47m away; Oxford Exchange, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 11712.84m away; Columbia Restaurant, visit from 19:51 to 21:00, nearest transit: Busch Gardens Employee Entrance, 9370.50m away; Tiny House 15 min to Busch Gardens! Walk to coffee, stay from 22:15 to 08:00, nearest transit: Busch Gardens Employee Entrance, 6885.43m away."
+      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 14:50, nearest transit: Higuera & Prado, 7989.92m away; Sidecar, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 54.77m away; Luna Red, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 256.30m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
     },
     {
       "days": 2,
-      "current_city": "from Tampa to Tampa",
-      "transportation": "Transfer, from Tampa to Tampa",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "No Fees! Introverts Paradise! Central Pinellas!, Tampa",
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Flour House, San Luis Obispo",
+      "attraction": "Farmers Market, San Luis Obispo",
+      "lunch": "Thai Palace, San Luis Obispo",
+      "dinner": "Eureka!, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
       "event": "-",
-      "point_of_interest_list": "No Fees! Introverts Paradise! Central Pinellas!, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 35717.79m away; No Fees! Introverts Paradise! Central Pinellas!, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 35717.79m away."
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Flour House, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 142.15m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Eureka!, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 184.87m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
     },
     {
       "days": 3,
-      "current_city": "from Tampa to Raleigh",
-      "transportation": "Transfer, from Tampa to Raleigh",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from San Luis Obispo to Fresno",
+      "transportation": "Transfer, from San Luis Obispo to Fresno",
+      "breakfast": "Fresno, Fresno",
+      "attraction": "Island Waterpark, Fresno",
+      "lunch": "Parma, Fresno",
+      "dinner": "Five, Fresno",
+      "accommodation": "The Dream Room, Fresno",
+      "event": "Tahoe Knight Monsters v Kansas City Mavericks - School Day, Fresno",
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Fresno, visit from 09:25 to 10:16, nearest transit: House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS, 557.44m away; Island Waterpark, visit from 11:30 to 17:20, nearest transit: SW SHAW - POLK, 867.35m away; Parma, visit from 13:57 to 14:56, nearest transit: SW Palm - Herndon, 199.36m away; Five, visit from 19:51 to 21:00, nearest transit: CHAMPLAIN - PERRIN, 74.64m away; The Dream Room, stay from 22:15 to 08:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "Transfer, from Fresno to Fresno",
+      "breakfast": "Elbow Room, Fresno",
+      "attraction": "Woodward Regional Park, Fresno",
+      "lunch": "Train Depot, Fresno",
+      "dinner": "Dog House Grill, Fresno",
+      "accommodation": "The Dream Room, Fresno",
+      "event": "-",
+      "point_of_interest_list": "The Dream Room, stay from 08:00 to 09:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away; Elbow Room, visit from 09:25 to 10:16, nearest transit: NW PALM - SHAW, 192.71m away; Woodward Regional Park, visit from 11:30 to 16:50, nearest transit: SW PERRIN - FOXHILL, 1167.50m away; Train Depot, visit from 13:57 to 14:56, nearest transit: NW ASHLAN - FIRST, 116.67m away; Dog House Grill, visit from 19:51 to 21:00, nearest transit: SW SHAW - CHESTNUT, 40.76m away; The Dream Room, stay from 22:15 to 08:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Fresno to Las Vegas",
+      "transportation": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30",
+      "breakfast": "Red Apple Cafe, Fresno",
+      "attraction": "Bad Axe Throwing Fresno, Fresno",
+      "lunch": "Fig Garden Village, Fresno",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "No Fees! Introverts Paradise! Central Pinellas!, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 35717.79m away."
+      "point_of_interest_list": "The Dream Room, stay from 08:00 to 09:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away; Red Apple Cafe, visit from 09:25 to 10:16, nearest transit: NW HERNDON - INGRAM, 80.03m away; Bad Axe Throwing Fresno, visit from 11:30 to 13:50, nearest transit: SW Palm - Shields, 28.41m away; Fig Garden Village, visit from 13:57 to 14:56, nearest transit: NW PALM - SHAW, 83.73m away."
     }
   ]
 }

@@ -2,12 +2,22 @@
   "idx": 292,
   "stages": [
     {
-      "city": "Savannah",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
+        "poi2transit": 74,
+        "events": 1
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Newburgh",
-      "to": "Savannah",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F2559024, from Newburgh to Savannah, Departure Time: 16:02, Arrival Time: 18:24"
+      "from": "Denver",
+      "to": "Cedar Rapids",
+      "date": "2024-11-16",
+      "raw": "Flight Number: F0453203, from Denver to Cedar Rapids, Departure Time: 09:38, Arrival Time: 12:29"
     },
     {
       "mode": "self-driving",
-      "from": "Newburgh",
-      "to": "Savannah",
+      "from": "Denver",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $69.34"
+      "raw": "Self-driving, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $64.27"
     },
     {
       "mode": "taxi",
-      "from": "Newburgh",
-      "to": "Savannah",
+      "from": "Denver",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74"
+      "raw": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46"
     },
     {
       "mode": "flight",
-      "from": "Savannah",
-      "to": "Newburgh",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F1346283, from Savannah to Newburgh, Departure Time: 08:02, Arrival Time: 10:13"
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-18",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Savannah",
-      "to": "Newburgh",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Savannah to Newburgh, Duration: 989.985 mins, Distance: 1384.401 km, Estimated Cost: $69.22"
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
     },
     {
       "mode": "taxi",
-      "from": "Savannah",
-      "to": "Newburgh",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Savannah to Newburgh, Duration: 989.985 mins, Distance: 1384.401 km, Estimated Cost: $1384.40"
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Denver",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0602441, from Fort Dodge to Denver, Departure Time: 18:23, Arrival Time: 19:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $56.17"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $1123.35"
     }
   ]
 }

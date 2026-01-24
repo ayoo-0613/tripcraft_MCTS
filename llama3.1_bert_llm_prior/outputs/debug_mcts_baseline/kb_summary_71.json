@@ -2,22 +2,32 @@
   "idx": 71,
   "stages": [
     {
-      "city": "Cedar Rapids",
+      "city": "Monterey",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 74,
-        "events": 1
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "Fort Dodge",
+      "city": "San Diego",
       "counts": {
-        "attractions": 7,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 63,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": "2024-11-16",
-      "raw": "Flight Number: F0453203, from Denver to Cedar Rapids, Departure Time: 09:38, Arrival Time: 12:29"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": null,
-      "raw": "Self-driving, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $64.27"
-    },
-    {
-      "mode": "taxi",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": null,
-      "raw": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46"
-    },
-    {
-      "mode": "flight",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
-      "date": "2024-11-18",
+      "from": "Reno",
+      "to": "Monterey",
+      "date": "2024-11-02",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
+      "from": "Reno",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
+      "raw": "Self-driving, from Reno to Monterey, Duration: 443.65166666666664 mins, Distance: 567.2126999999999 km, Estimated Cost: $28.36"
     },
     {
       "mode": "taxi",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
+      "from": "Reno",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+      "raw": "Taxi, from Reno to Monterey, Duration: 443.65166666666664 mins, Distance: 567.2126999999999 km, Estimated Cost: $567.21"
     },
     {
       "mode": "flight",
-      "from": "Fort Dodge",
-      "to": "Denver",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0602441, from Fort Dodge to Denver, Departure Time: 18:23, Arrival Time: 19:14"
+      "from": "Monterey",
+      "to": "San Diego",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0451062, from Monterey to San Diego, Departure Time: 10:54, Arrival Time: 12:15"
     },
     {
       "mode": "self-driving",
-      "from": "Fort Dodge",
-      "to": "Denver",
+      "from": "Monterey",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $56.17"
+      "raw": "Self-driving, from Monterey to San Diego, Duration: 500.13 mins, Distance: 644.8295 km, Estimated Cost: $32.24"
     },
     {
       "mode": "taxi",
-      "from": "Fort Dodge",
-      "to": "Denver",
+      "from": "Monterey",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $1123.35"
+      "raw": "Taxi, from Monterey to San Diego, Duration: 500.13 mins, Distance: 644.8295 km, Estimated Cost: $644.83"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0452398, from San Diego to Santa Rosa, Departure Time: 17:11, Arrival Time: 18:54"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Santa Rosa, Duration: 618.3266666666666 mins, Distance: 881.251 km, Estimated Cost: $44.06"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Santa Rosa",
+      "date": null,
+      "raw": "Taxi, from San Diego to Santa Rosa, Duration: 618.3266666666666 mins, Distance: 881.251 km, Estimated Cost: $881.25"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to Reno, Duration: 271.56166666666667 mins, Distance: 363.23359999999997 km, Estimated Cost: $18.16"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to Reno, Duration: 271.56166666666667 mins, Distance: 363.23359999999997 km, Estimated Cost: $363.23"
     }
   ]
 }

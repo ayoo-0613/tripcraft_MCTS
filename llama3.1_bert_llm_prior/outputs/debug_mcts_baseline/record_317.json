@@ -1,68 +1,91 @@
 {
   "idx": 317,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Ontario",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "visitors",
-      "cuisine": [
-        "Italian",
-        "Canadian"
-      ],
-      "room type": "entire home",
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": "no self-driving",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 1350.0,
-    "query": "Plan a 3-day trip for 2 people from Las Vegas to Ontario from November 19th to November 21st, 2024, with a budget of $1,350. Accommodations should be an entire home that allows visitors. Include dining options featuring Italian and Canadian cuisine.",
+    "budget": 2100.0,
+    "query": "Design a 5-day travel itinerary for 1 person starting from Lynchburg and visiting 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $2,100. Accommodations should include a private room, and the plan should avoid self-driving transportation. Smoking-friendly accommodations are required.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Ontario",
-      "transportation": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
-      "breakfast": "Sunset Grill, Ontario",
-      "attraction": "Butterfly Conservatory, Ontario; White Water Walk, Ontario",
-      "lunch": "The Everest Grill, Ontario",
-      "dinner": "Beijing Restaurant, Ontario",
-      "accommodation": "3rd floor-Amsterdam Room, Ontario",
+      "current_city": "from Lynchburg to Greensboro",
+      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
+      "breakfast": "Blue Denim, Greensboro",
+      "attraction": "Gateway Gardens, Greensboro",
+      "lunch": "Green Valley Grill, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Sunset Grill, visit from 09:25 to 10:16, nearest transit: Brantford Bus Terminal, 513.23m away; Butterfly Conservatory, visit from 11:30 to 15:27, nearest transit: Niagara Falls GO, 3035.92m away; The Everest Grill, visit from 13:57 to 14:56, nearest transit: Wayne Gretzky Pkwy. @ Chatham St., 721.26m away; White Water Walk, visit from 16:30 to 20:12, nearest transit: Niagara Falls GO, 328.08m away; Beijing Restaurant, visit from 19:51 to 21:00, nearest transit: Brantford Bus Terminal, 2199.42m away; 3rd floor-Amsterdam Room, stay from 22:15 to 08:00, nearest transit: Bloor GO, 1894.70m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Blue Denim, visit from 09:25 to 10:16, nearest transit: International Civil Rights Museum, 72.70m away; Gateway Gardens, visit from 11:30 to 16:50, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; Green Valley Grill, visit from 13:57 to 14:56, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 2,
-      "current_city": "from Ontario to Ontario",
-      "transportation": "Transfer, from Ontario to Ontario",
-      "breakfast": "Shanghai Restaurant, Ontario",
-      "attraction": "CN Tower, Ontario; Little Canada, Ontario",
-      "lunch": "Healthy Rabbit, Ontario",
-      "dinner": "Cafe Andreou, Ontario",
-      "accommodation": "3rd floor-Amsterdam Room, Ontario",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Mythos Grill, Greensboro",
+      "attraction": "Carolina Theatre, Greensboro",
+      "lunch": "Golden Wok, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Shanghai Restaurant, visit from 09:25 to 10:16, nearest transit: Wayne Gretzky Pkwy. @ Chatham St., 1490.23m away; CN Tower, visit from 11:30 to 13:57, nearest transit: Union Station, 598.48m away; Healthy Rabbit, visit from 13:57 to 14:56, nearest transit: Brantford Bus Terminal, 642.61m away; Little Canada, visit from 16:30 to 18:57, nearest transit: Union Station, 1278.56m away; Cafe Andreou, visit from 19:51 to 21:00, nearest transit: Brantford Bus Terminal, 384.54m away; 3rd floor-Amsterdam Room, stay from 22:15 to 08:00, nearest transit: Bloor GO, 1894.70m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Mythos Grill, visit from 09:25 to 10:16, nearest transit: West Market/Walker, 60.36m away; Carolina Theatre, visit from 11:30 to 14:50, nearest transit: Washington/Eugene, 118.33m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 3,
-      "current_city": "from Ontario to Las Vegas",
-      "transportation": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
-      "breakfast": "Kingswood Restaurant, Ontario",
-      "attraction": "Steam Whistle Brewery, Ontario",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53",
+      "breakfast": "-",
+      "attraction": "-",
       "lunch": "-",
+      "dinner": "Charlotte Bakery, Charlotte",
+      "accommodation": "Comfy private bed and bath, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Charlotte Bakery, visit from 19:51 to 21:00, nearest transit: White Street Park and Ride, 1016826.02m away; Comfy private bed and bath, stay from 22:15 to 08:00, nearest transit: The Plaza & Glenfiddich Dr, 419.92m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "The Capital Grille, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "Queen Charlotte, Charlotte",
+      "dinner": "Charlotte Lane, Charlotte",
+      "accommodation": "Comfy private bed and bath, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Comfy private bed and bath, stay from 08:00 to 09:00, nearest transit: The Plaza & Glenfiddich Dr, 419.92m away; The Capital Grille, visit from 09:25 to 10:16, nearest transit: Tryon St & 6th St, 103.97m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; Queen Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6385477.65m away; Charlotte Lane, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 1612739.20m away; Comfy private bed and bath, stay from 22:15 to 08:00, nearest transit: The Plaza & Glenfiddich Dr, 419.92m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34",
+      "breakfast": "Princess Charlotte, Charlotte",
+      "attraction": "SouthPark, Charlotte",
+      "lunch": "Bistro Charlotte, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Kingswood Restaurant, visit from 09:25 to 10:16, nearest transit: Brantford Bus Terminal, 833.84m away; Steam Whistle Brewery, visit from 11:30 to 13:43, nearest transit: Union Station, 649.77m away."
+      "point_of_interest_list": "Comfy private bed and bath, stay from 08:00 to 09:00, nearest transit: The Plaza & Glenfiddich Dr, 419.92m away; Princess Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6465940.22m away; SouthPark, visit from 11:30 to 13:50, nearest transit: Southpark Community Transit Center, 112.94m away; Bistro Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7764630.63m away."
     }
   ]
 }

@@ -2,89 +2,120 @@
   "idx": 12,
   "stages": [
     {
-      "city": "Greensboro",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 27
+        "poi2transit": 74,
+        "events": 17
       }
     },
     {
-      "city": "Charlotte",
+      "city": "Mason City",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 6
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 10
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Lynchburg",
-      "to": "Greensboro",
-      "date": "2024-11-02",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Lynchburg",
-      "to": "Greensboro",
+      "from": "Washington",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
+      "raw": "Self-driving, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $74.67"
     },
     {
       "mode": "taxi",
-      "from": "Lynchburg",
-      "to": "Greensboro",
+      "from": "Washington",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
+      "raw": "Taxi, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $1493.48"
     },
     {
       "mode": "flight",
-      "from": "Greensboro",
-      "to": "Charlotte",
-      "date": "2024-11-04",
-      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Greensboro",
-      "to": "Charlotte",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
+      "raw": "Self-driving, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $11.10"
     },
     {
       "mode": "taxi",
-      "from": "Greensboro",
-      "to": "Charlotte",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+      "raw": "Taxi, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $221.92"
     },
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Lynchburg",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Lynchburg",
+      "from": "Mason City",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+      "raw": "Self-driving, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $16.60"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Lynchburg",
+      "from": "Mason City",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
+      "raw": "Taxi, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $332.01"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $97.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $1955.49"
     }
   ]
 }

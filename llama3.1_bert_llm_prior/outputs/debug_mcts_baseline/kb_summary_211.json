@@ -2,58 +2,89 @@
   "idx": 211,
   "stages": [
     {
-      "city": "Tampa",
+      "city": "San Luis Obispo",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 6
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Raleigh",
-      "to": "Tampa",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0017354, from Raleigh to Tampa, Departure Time: 14:49, Arrival Time: 16:36"
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
+      "date": "2024-11-17",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Raleigh",
-      "to": "Tampa",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Raleigh to Tampa, Duration: 728.44 mins, Distance: 1044.7846 km, Estimated Cost: $52.24"
+      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
     },
     {
       "mode": "taxi",
-      "from": "Raleigh",
-      "to": "Tampa",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Raleigh to Tampa, Duration: 728.44 mins, Distance: 1044.7846 km, Estimated Cost: $1044.78"
+      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
     },
     {
       "mode": "flight",
-      "from": "Tampa",
-      "to": "Raleigh",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0048009, from Tampa to Raleigh, Departure Time: 13:34, Arrival Time: 15:12"
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": "2024-11-19",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Raleigh",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Tampa to Raleigh, Duration: 729.0883333333334 mins, Distance: 1036.5089 km, Estimated Cost: $51.83"
+      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Raleigh",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Tampa to Raleigh, Duration: 729.0883333333334 mins, Distance: 1036.5089 km, Estimated Cost: $1036.51"
+      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
     }
   ]
 }

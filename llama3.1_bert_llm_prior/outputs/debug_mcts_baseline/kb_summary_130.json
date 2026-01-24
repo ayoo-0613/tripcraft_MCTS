@@ -2,89 +2,120 @@
   "idx": 130,
   "stages": [
     {
-      "city": "San Diego",
+      "city": "Cedar Rapids",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 6
       }
     },
     {
-      "city": "Redding",
+      "city": "Sioux City",
       "counts": {
-        "attractions": 18,
+        "attractions": 12,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 73,
-        "events": 1
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "San Diego",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0074375, from Tucson to San Diego, Departure Time: 14:17, Arrival Time: 15:30"
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0153294, from Detroit to Cedar Rapids, Departure Time: 15:49, Arrival Time: 16:25"
     },
     {
       "mode": "self-driving",
-      "from": "Tucson",
-      "to": "San Diego",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Tucson to San Diego, Duration: 431.81166666666667 mins, Distance: 656.4621999999999 km, Estimated Cost: $32.82"
+      "raw": "Self-driving, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $41.25"
     },
     {
       "mode": "taxi",
-      "from": "Tucson",
-      "to": "San Diego",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Tucson to San Diego, Duration: 431.81166666666667 mins, Distance: 656.4621999999999 km, Estimated Cost: $656.46"
+      "raw": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09"
     },
     {
       "mode": "flight",
-      "from": "San Diego",
-      "to": "Redding",
-      "date": "2024-11-24",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Diego",
-      "to": "Redding",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from San Diego to Redding, Duration: 734.95 mins, Distance: 1068.6703 km, Estimated Cost: $53.43"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "San Diego",
-      "to": "Redding",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from San Diego to Redding, Duration: 734.95 mins, Distance: 1068.6703 km, Estimated Cost: $1068.67"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
     },
     {
       "mode": "flight",
-      "from": "Redding",
-      "to": "Tucson",
-      "date": "2024-11-26",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Redding",
-      "to": "Tucson",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Redding to Tucson, Duration: 1112.8600000000001 mins, Distance: 1653.3025 km, Estimated Cost: $82.67"
+      "raw": "Self-driving, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $9.45"
     },
     {
       "mode": "taxi",
-      "from": "Redding",
-      "to": "Tucson",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Redding to Tucson, Duration: 1112.8600000000001 mins, Distance: 1653.3025 km, Estimated Cost: $1653.30"
+      "raw": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $53.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99"
     }
   ]
 }

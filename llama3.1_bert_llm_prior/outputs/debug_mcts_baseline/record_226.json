@@ -1,65 +1,91 @@
 {
   "idx": 226,
   "JSON": {
-    "org": "Birmingham",
-    "dest": "Detroit",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "St. Louis",
+    "dest": "Iowa",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "private room",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 1 person from Birmingham to Detroit from November 19th to November 21st, 2024, with a budget of $1,500.",
-    "level": "easy"
+    "budget": 2550.0,
+    "query": "Plan a 5-day trip for 1 person traveling from St. Louis to explore 2 cities in Iowa between November 5th and November 9th, 2024. The budget is $2,550, and accommodations should include a private room.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Birmingham to Detroit",
-      "transportation": "Flight Number: F0508126, from Birmingham to Detroit, Departure Time: 07:03, Arrival Time: 10:15",
-      "breakfast": "-",
-      "attraction": "Motown Museum, Detroit; Greektown, Detroit",
-      "lunch": "Besa, Detroit",
-      "dinner": "Hudson Cafe, Detroit",
-      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "current_city": "from St. Louis to Fort Dodge",
+      "transportation": "Taxi, from St. Louis to Fort Dodge, Duration: 514.2233333333334 mins, Distance: 704.619 km, Estimated Cost: $704.62",
+      "breakfast": "Subway, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Pizza Hut, Fort Dodge",
+      "dinner": "Village Inn, Fort Dodge",
+      "accommodation": "Cozy self-contained apartment with loft., Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Stay downtown and walk everywhere!, stay from 10:45 to 11:45, nearest transit: Grand Circus - Southbound, 352.62m away; Motown Museum, visit from 11:30 to 13:57, nearest transit: Grand Blvd, 1422.76m away; Besa, visit from 13:57 to 14:56, nearest transit: Congress St, 71.32m away; Greektown, visit from 16:30 to 18:27, nearest transit: Campus Martius - Northbound, 630.15m away; Hudson Cafe, visit from 19:51 to 21:00, nearest transit: Campus Martius - Northbound, 130.86m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+      "point_of_interest_list": "Cozy self-contained apartment with loft., stay from 08:00 to 09:00, nearest transit: S 22nd St and 22nd Ave S, 24136.68m away; Subway, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 101.37m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Pizza Hut, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Village Inn, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Cozy self-contained apartment with loft., stay from 22:15 to 08:00, nearest transit: S 22nd St and 22nd Ave S, 24136.68m away."
     },
     {
       "days": 2,
-      "current_city": "from Detroit to Detroit",
-      "transportation": "Transfer, from Detroit to Detroit",
-      "breakfast": "Parc, Detroit",
-      "attraction": "Detroit Downtown, Detroit; Detroit Rolling Pub, Detroit",
-      "lunch": "Cliff Bells, Detroit",
-      "dinner": "Grey Ghost Detroit, Detroit",
-      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Sports Page, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Dodge's, Fort Dodge",
+      "dinner": "Burger King, Fort Dodge",
+      "accommodation": "Private suite bedroom with queen bed and full bath, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Parc, visit from 09:25 to 10:16, nearest transit: Campus Martius - Southbound, 82.17m away; Detroit Downtown, visit from 11:30 to 13:27, nearest transit: Congress St, 56.59m away; Cliff Bells, visit from 13:57 to 14:56, nearest transit: Grand Circus - Southbound, 186.82m away; Detroit Rolling Pub, visit from 16:30 to 18:57, nearest transit: Montcalm St - Southbound, 361.10m away; Grey Ghost Detroit, visit from 19:51 to 21:00, nearest transit: Mack Ave - Northbound, 279.12m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+      "point_of_interest_list": "Private suite bedroom with queen bed and full bath, stay from 08:00 to 09:00, nearest transit: 6th Ave S and S 21st St, 112.10m away; Sports Page, visit from 09:25 to 10:16, nearest transit: Evergreen Estates, 68.77m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Dodge's, visit from 13:57 to 14:56, nearest transit: S 31st St and 8th Ave S, 858866.05m away; Burger King, visit from 19:51 to 21:00, nearest transit: Crossroads Mall Entrance/Younkers, 182.06m away; Private suite bedroom with queen bed and full bath, stay from 22:15 to 08:00, nearest transit: 6th Ave S and S 21st St, 112.10m away."
     },
     {
       "days": 3,
-      "current_city": "from Detroit to Birmingham",
-      "transportation": "Flight Number: F0492107, from Detroit to Birmingham, Departure Time: 18:27, Arrival Time: 19:09",
-      "breakfast": "The Whitney, Detroit",
-      "attraction": "The Guardian Building, Detroit",
-      "lunch": "Green Dot Stables, Detroit",
-      "dinner": "-",
+      "current_city": "from Fort Dodge to Sioux City",
+      "transportation": "Transfer, from Fort Dodge to Sioux City",
+      "breakfast": "Miles Inn, Sioux City",
+      "attraction": "Palmer Candy, Sioux City",
+      "lunch": "Red Lobster, Sioux City",
+      "dinner": "Old Chicago, Sioux City",
+      "accommodation": "Private Room Near Hospitals, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Private suite bedroom with queen bed and full bath, stay from 08:00 to 09:00, nearest transit: 6th Ave S and S 21st St, 112.10m away; Miles Inn, visit from 09:25 to 10:16, nearest transit: Leech Ave & Fairmount St, 28.28m away; Palmer Candy, visit from 11:30 to 13:50, nearest transit: Floyd Blvd & 33rd St, 1226.11m away; Red Lobster, visit from 13:57 to 14:56, nearest transit: Sergeant Rd & South Lancelot Lane, 109.59m away; Old Chicago, visit from 19:51 to 21:00, nearest transit: Lakeport Commons - Panera Bread, 73.40m away; Private Room Near Hospitals, stay from 22:15 to 08:00, nearest transit: Pierce St & 21st St, 162.39m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Buffalo Alice, Sioux City",
+      "attraction": "Trinity Heights, Sioux City",
+      "lunch": "Horizon Family Restaurant, Sioux City",
+      "dinner": "Brightside Cafe, Sioux City",
+      "accommodation": "Private Room Near Hospitals, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Private Room Near Hospitals, stay from 08:00 to 09:00, nearest transit: Pierce St & 21st St, 162.39m away; Buffalo Alice, visit from 09:25 to 10:16, nearest transit: 3rd St & Virginia St, 122.83m away; Trinity Heights, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Horizon Family Restaurant, visit from 13:57 to 14:56, nearest transit: Myrtle St & Tri-View Ave - Central Mart, 73.11m away; Brightside Cafe, visit from 19:51 to 21:00, nearest transit: Pierce St & 4th St, 114.95m away; Private Room Near Hospitals, stay from 22:15 to 08:00, nearest transit: Pierce St & 21st St, 162.39m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to St. Louis",
+      "transportation": "Transfer, from Sioux City to St. Louis",
+      "breakfast": "Jitters, Sioux City",
+      "attraction": "Sergeant Floyd Monument, Sioux City",
+      "lunch": "The Diving Elk, Sioux City",
+      "dinner": "Wheelhouse, Sioux City",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; The Whitney, visit from 09:25 to 10:16, nearest transit: Canfield St - Southbound, 81.76m away; The Guardian Building, visit from 11:30 to 14:13, nearest transit: Congress St, 46.14m away; Green Dot Stables, visit from 13:57 to 14:56, nearest transit: Campus Martius - Southbound, 2304.45m away."
+      "point_of_interest_list": "Private Room Near Hospitals, stay from 08:00 to 09:00, nearest transit: Pierce St & 21st St, 162.39m away; Jitters, visit from 09:25 to 10:16, nearest transit: 3rd St & Virginia St, 31.46m away; Sergeant Floyd Monument, visit from 11:30 to 15:20, nearest transit: 3rd St & Lewis Blvd, 292.28m away; The Diving Elk, visit from 13:57 to 14:56, nearest transit: 4th & Iowa St, 120.28m away; Wheelhouse, visit from 19:51 to 21:00, nearest transit: Southern Hills Dr & Southern Square - Hobby Lobby, 210.10m away."
     }
   ]
 }

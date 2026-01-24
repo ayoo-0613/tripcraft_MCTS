@@ -2,7 +2,17 @@
   "idx": 318,
   "stages": [
     {
-      "city": "Ontario",
+      "city": "Durango",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 73,
+        "events": 1
+      }
+    },
+    {
+      "city": "Colorado Springs",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Ontario",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50"
+      "from": "Santa Fe",
+      "to": "Durango",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Santa Fe",
+      "to": "Durango",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Self-driving, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $19.51"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Santa Fe",
+      "to": "Durango",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14"
     },
     {
       "mode": "flight",
-      "from": "Ontario",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49"
+      "from": "Durango",
+      "to": "Colorado Springs",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Durango",
+      "to": "Colorado Springs",
       "date": null,
-      "raw": "Self-driving, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Self-driving, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $25.30"
     },
     {
       "mode": "taxi",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Durango",
+      "to": "Colorado Springs",
       "date": null,
-      "raw": "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Taxi, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $506.09"
+    },
+    {
+      "mode": "flight",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": null,
+      "raw": "Self-driving, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $26.10"
+    },
+    {
+      "mode": "taxi",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": null,
+      "raw": "Taxi, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $522.04"
     }
   ]
 }

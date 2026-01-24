@@ -2,12 +2,22 @@
   "idx": 223,
   "stages": [
     {
-      "city": "Lexington",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 13,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 68,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Luis Obispo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Lexington",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0134900, from Detroit to Lexington, Departure Time: 16:12, Arrival Time: 17:17"
+      "from": "Missoula",
+      "to": "Los Angeles",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F1111105, from Missoula to Los Angeles, Departure Time: 15:08, Arrival Time: 17:04"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Lexington",
+      "from": "Missoula",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $27.41"
+      "raw": "Self-driving, from Missoula to Los Angeles, Duration: 1218.995 mins, Distance: 1948.0665 km, Estimated Cost: $97.40"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Lexington",
+      "from": "Missoula",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Detroit to Lexington, Duration: 387.0566666666667 mins, Distance: 548.257 km, Estimated Cost: $548.26"
+      "raw": "Taxi, from Missoula to Los Angeles, Duration: 1218.995 mins, Distance: 1948.0665 km, Estimated Cost: $1948.07"
     },
     {
       "mode": "flight",
-      "from": "Lexington",
-      "to": "Detroit",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0135445, from Lexington to Detroit, Departure Time: 18:26, Arrival Time: 19:40"
+      "from": "Los Angeles",
+      "to": "San Luis Obispo",
+      "date": "2024-11-23",
+      "raw": "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50"
     },
     {
       "mode": "self-driving",
-      "from": "Lexington",
-      "to": "Detroit",
+      "from": "Los Angeles",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Lexington to Detroit, Duration: 389.9566666666667 mins, Distance: 549.431 km, Estimated Cost: $27.47"
+      "raw": "Self-driving, from Los Angeles to San Luis Obispo, Duration: 279.97666666666663 mins, Distance: 348.2305 km, Estimated Cost: $17.41"
     },
     {
       "mode": "taxi",
-      "from": "Lexington",
-      "to": "Detroit",
+      "from": "Los Angeles",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Lexington to Detroit, Duration: 389.9566666666667 mins, Distance: 549.431 km, Estimated Cost: $549.43"
+      "raw": "Taxi, from Los Angeles to San Luis Obispo, Duration: 279.97666666666663 mins, Distance: 348.2305 km, Estimated Cost: $348.23"
+    },
+    {
+      "mode": "flight",
+      "from": "San Luis Obispo",
+      "to": "Missoula",
+      "date": "2024-11-25",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Luis Obispo",
+      "to": "Missoula",
+      "date": null,
+      "raw": "Self-driving, from San Luis Obispo to Missoula, Duration: 1353.8633333333335 mins, Distance: 1896.4061000000002 km, Estimated Cost: $94.82"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Luis Obispo",
+      "to": "Missoula",
+      "date": null,
+      "raw": "Taxi, from San Luis Obispo to Missoula, Duration: 1353.8633333333335 mins, Distance: 1896.4061000000002 km, Estimated Cost: $1896.41"
     }
   ]
 }

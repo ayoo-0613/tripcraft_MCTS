@@ -1,65 +1,95 @@
 {
   "idx": 309,
   "JSON": {
-    "org": "Chicago",
-    "dest": "Fort Dodge",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "New York",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
       "2024-11-01",
       "2024-11-02",
-      "2024-11-03"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "visitors",
-      "cuisine": null,
+      "house rule": "pets",
+      "cuisine": [
+        "Italian",
+        "American",
+        "Chinese"
+      ],
       "room type": null,
+      "transportation": "no self-driving",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Chicago to Fort Dodge from November 1st to November 3rd, 2024, with a budget of $1,800. Accommodations should allow visitors.",
-    "level": "medium"
+    "budget": 2700.0,
+    "query": "Design a 5-day travel itinerary for 1 person traveling from New York to explore 2 cities in North Carolina between November 1st and November 5th, 2024. The budget is $2,700. Accommodations should allow pets, and the plan should include dining options featuring Italian, American, and Chinese cuisines. Transportation should not involve self-driving.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Travelers; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Fort Dodge",
-      "transportation": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84",
-      "breakfast": "Wendy's, Fort Dodge",
-      "attraction": "Community Orchard, Fort Dodge; Studio Fusion, Fort Dodge",
-      "lunch": "Subway, Fort Dodge",
-      "dinner": "Village Inn, Fort Dodge",
-      "accommodation": "Clean and cozy family home, Fort Dodge",
+      "current_city": "from New York to Wilmington",
+      "transportation": "Taxi, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $961.15",
+      "breakfast": "Copper Penny, Wilmington",
+      "attraction": "Sea Turtle Camp, Wilmington; Downtown Wilmington, Wilmington",
+      "lunch": "Catch, Wilmington",
+      "dinner": "The Basics, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Clean and cozy family home, stay from 08:00 to 09:00, nearest transit: Starlite, 2575.14m away; Wendy's, visit from 09:25 to 10:16, nearest transit: S 25th St and 5th Ave S, 215.15m away; Community Orchard, visit from 11:30 to 13:57, nearest transit: Village Green, 3093.21m away; Subway, visit from 13:57 to 14:56, nearest transit: A St and Ave O W, 101.37m away; Studio Fusion, visit from 16:30 to 17:27, nearest transit: N 11th St and Central Ave, 71.87m away; Village Inn, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Clean and cozy family home, stay from 22:15 to 08:00, nearest transit: Starlite, 2575.14m away."
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Copper Penny, visit from 09:25 to 10:16, nearest transit: Front St SB at Chestnut St, 63.70m away; Sea Turtle Camp, visit from 11:30 to 15:27, nearest transit: Gordon Rd WB at Military Cutoff Rd, 1499.62m away; Catch, visit from 13:57 to 14:56, nearest transit: Market St WB at Dollar General, 552.38m away; Downtown Wilmington, visit from 16:30 to 18:27, nearest transit: Front St SB at Chestnut St, 66.26m away; The Basics, visit from 19:51 to 21:00, nearest transit: Front St NB at Grace St, 96.37m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
     },
     {
       "days": 2,
-      "current_city": "from Fort Dodge to Fort Dodge",
-      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
-      "breakfast": "Tom Thumb Drive Inn, Fort Dodge",
-      "attraction": "Fort Frenzy, Fort Dodge; Shiny Top Brewing, Fort Dodge",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Backyard Oasis!, Fort Dodge",
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "The Wilmington, Wilmington",
+      "attraction": "Riverwalk, Wilmington; Bellamy Mansion, Wilmington",
+      "lunch": "Pilot House, Wilmington",
+      "dinner": "Fish Bites Seafood, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Backyard Oasis!, stay from 08:00 to 09:00, nearest transit: Fort Dodge Senior High School, 269.88m away; Tom Thumb Drive Inn, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 90.84m away; Fort Frenzy, visit from 11:30 to 12:27, nearest transit: 1st Ave S and S 31st St, 108.41m away; Shiny Top Brewing, visit from 16:30 to 18:27, nearest transit: Public Library, 115.50m away; Backyard Oasis!, stay from 22:15 to 08:00, nearest transit: Fort Dodge Senior High School, 269.88m away."
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; The Wilmington, visit from 09:25 to 10:16, nearest transit: Gordon Rd WB at Military Cutoff Rd, 6310808.05m away; Riverwalk, visit from 11:30 to 13:57, nearest transit: Front St SB at Market St, 105.98m away; Pilot House, visit from 13:57 to 14:56, nearest transit: Front St SB at Ann St, 112.21m away; Bellamy Mansion, visit from 16:30 to 18:57, nearest transit: Market St WB at 4th St, 135.15m away; Fish Bites Seafood, visit from 19:51 to 21:00, nearest transit: Carolina Beach Rd NB at College Rd, 2839.13m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
     },
     {
       "days": 3,
-      "current_city": "from Fort Dodge to Chicago",
-      "transportation": "Transfer, from Fort Dodge to Chicago",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0116723, from Wilmington to Charlotte, Departure Time: 04:53, Arrival Time: 05:58",
+      "breakfast": "Charlotte Bakery, Charlotte",
+      "attraction": "Spectrum Center, Charlotte; SouthPark, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Queen Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Dockside at The Cove, stay from 03:23 to 04:23, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Charlotte Bakery, visit from 09:25 to 10:16, nearest transit: White Street Park and Ride, 1016826.02m away; Spectrum Center, visit from 11:30 to 13:57, nearest transit: CTC/Arena CityLYNX, 95.01m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; SouthPark, visit from 16:30 to 17:27, nearest transit: Southpark Community Transit Center, 112.94m away; Queen Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 6385477.65m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Charlotte Lane, Charlotte",
+      "attraction": "Freedom Park, Charlotte; Wing Haven, Charlotte",
+      "lunch": "Princess Charlotte, Charlotte",
+      "dinner": "Bistro Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Lane, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 1612739.20m away; Freedom Park, visit from 11:30 to 15:27, nearest transit: East Blvd & Kings Dr, 701.42m away; Princess Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6465940.22m away; Wing Haven, visit from 16:30 to 20:27, nearest transit: Selwyn Ave & Sterling Rd, 345.69m away; Bistro Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 7764630.63m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to New York",
+      "transportation": "Flight Number: F0130061, from Charlotte to New York, Departure Time: 22:17, Arrival Time: 00:03",
+      "breakfast": "Charlotte Quay Restaurant, Charlotte",
+      "attraction": "Mint Museum Uptown, Charlotte; Fourth Ward, Charlotte",
+      "lunch": "Charlotte & Fritz, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Backyard Oasis!, stay from 08:00 to 09:00, nearest transit: Fort Dodge Senior High School, 269.88m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Quay Restaurant, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 5961834.13m away; Mint Museum Uptown, visit from 11:30 to 13:57, nearest transit: Tryon St & Stonewall St, 100.42m away; Charlotte & Fritz, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7233404.02m away; Fourth Ward, visit from 16:30 to 18:27, nearest transit: Church St & 6th St, 129.82m away."
     }
   ]
 }

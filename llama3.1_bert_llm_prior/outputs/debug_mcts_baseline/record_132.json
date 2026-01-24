@@ -1,91 +1,119 @@
 {
   "idx": 132,
   "JSON": {
-    "org": "Washington",
+    "org": "Colorado Springs",
     "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
       "2024-11-05",
       "2024-11-06",
-      "2024-11-07",
-      "2024-11-08",
-      "2024-11-09"
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "French"
+      ],
       "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 5100.0,
-    "query": "Plan a 5-day trip for 1 person traveling from Washington to explore 2 cities in California between November 5th and November 9th, 2024. The budget is $5,100.",
-    "level": "easy"
+    "budget": 7650.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Colorado Springs and visiting 3 cities in California between November 1st and November 7th, 2024. The budget is $7,650. Include French cuisine options in the plan.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Washington to San Francisco",
-      "transportation": "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco",
-      "breakfast": "Eagle Cafe, San Francisco",
-      "attraction": "Ferry Building Marketplace, San Francisco",
-      "lunch": "Capital Restaurant, San Francisco",
-      "dinner": "Outerlands, San Francisco",
-      "accommodation": "Monroe Studio 303, San Francisco",
+      "current_city": "from Colorado Springs to Los Angeles",
+      "transportation": "Taxi, from Colorado Springs to Los Angeles, Duration: 1135.4466666666667 mins, Distance: 1742.9415 km, Estimated Cost: $1742.94",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "The Broad, Los Angeles",
+      "lunch": "Providence, Los Angeles",
+      "dinner": "The Lobster, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Ferry Building Marketplace, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Capital Restaurant, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 972.30m away; Outerlands, visit from 19:51 to 21:00, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; The Broad, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away; Providence, visit from 13:57 to 14:56, nearest transit: Melrose & Gower (Westbound), 749.15m away; The Lobster, visit from 19:51 to 21:00, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 2,
-      "current_city": "from San Francisco to San Francisco",
-      "transportation": "Transfer, from San Francisco to San Francisco",
-      "breakfast": "Waterbar, San Francisco",
-      "attraction": "Twin Peaks, San Francisco",
-      "lunch": "Quince, San Francisco",
-      "dinner": "Hillstone, San Francisco",
-      "accommodation": "Monroe Studio 303, San Francisco",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Perch, Los Angeles",
+      "attraction": "Hollywood Sign, Los Angeles",
+      "lunch": "Bestia, Los Angeles",
+      "dinner": "Spire 73, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Waterbar, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Quince, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Hillstone, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Perch, visit from 09:25 to 10:16, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Hollywood Sign, visit from 11:30 to 15:20, nearest transit: Beachwood & Westshire, 1574.74m away; Bestia, visit from 13:57 to 14:56, nearest transit: Molino St & Palmetto St, 869.23m away; Spire 73, visit from 19:51 to 21:00, nearest transit: Figueroa St & 7th St, 109.52m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 3,
-      "current_city": "from San Francisco to San Diego",
-      "transportation": "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46",
+      "current_city": "from Los Angeles to Redding",
+      "transportation": "Flight Number: F0453955, from Los Angeles to Redding, Departure Time: 13:20, Arrival Time: 15:12",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
-      "dinner": "-",
-      "accommodation": "charming, colorful, close to beach, San Diego",
+      "dinner": "Mosaic, Redding",
+      "accommodation": "Redding Farmhouse Getaway, Redding",
       "event": "-",
-      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; charming, colorful, close to beach, stay from 22:15 to 08:00, nearest transit: Jewell St & Garnet Av, 578.25m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Mosaic, visit from 19:51 to 21:00, nearest transit: Turtle Bay Exploration Park (Sheraton), 204.20m away; Redding Farmhouse Getaway, stay from 22:15 to 08:00, nearest transit: College View Dr at Old Oregon Trail, 408.05m away."
     },
     {
       "days": 4,
-      "current_city": "from San Diego to San Diego",
-      "transportation": "Transfer, from San Diego to San Diego",
-      "breakfast": "Cafe Coyote, San Diego",
-      "attraction": "SeaWorld, San Diego",
-      "lunch": "World Famous, San Diego",
-      "dinner": "Addison Restaurant, San Diego",
-      "accommodation": "charming, colorful, close to beach, San Diego",
+      "current_city": "from Redding to Redding",
+      "transportation": "Transfer, from Redding to Redding",
+      "breakfast": "Grand Buffet, Redding",
+      "attraction": "Escape Redding, Redding",
+      "lunch": "Thai Cafe, Redding",
+      "dinner": "Karlines, Redding",
+      "accommodation": "Redding Farmhouse Getaway, Redding",
       "event": "-",
-      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Cafe Coyote, visit from 09:25 to 10:16, nearest transit: Juan St & Harney St, 216.77m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; World Famous, visit from 13:57 to 14:56, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; charming, colorful, close to beach, stay from 22:15 to 08:00, nearest transit: Jewell St & Garnet Av, 578.25m away."
+      "point_of_interest_list": "Redding Farmhouse Getaway, stay from 08:00 to 09:00, nearest transit: College View Dr at Old Oregon Trail, 408.05m away; Grand Buffet, visit from 09:25 to 10:16, nearest transit: Maraglia St e/o Hilltop Dr, 185.24m away; Escape Redding, visit from 11:30 to 13:50, nearest transit: Hilltop Dr at Industrial St, 84.40m away; Thai Cafe, visit from 13:57 to 14:56, nearest transit: Continental St at Butte St, 235.20m away; Karlines, visit from 19:51 to 21:00, nearest transit: Trinity St at California St, 174.94m away; Redding Farmhouse Getaway, stay from 22:15 to 08:00, nearest transit: College View Dr at Old Oregon Trail, 408.05m away."
     },
     {
       "days": 5,
-      "current_city": "from San Diego to Washington",
-      "transportation": "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44",
-      "breakfast": "Morning Glory, San Diego",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Redding to San Luis Obispo",
+      "transportation": "Transfer, from Redding to San Luis Obispo",
+      "breakfast": "Cafe Roma, San Luis Obispo",
+      "attraction": "Wolff Vineyards, San Luis Obispo",
+      "lunch": "Sidecar, San Luis Obispo",
+      "dinner": "Luna Red, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Redding Farmhouse Getaway, stay from 08:00 to 09:00, nearest transit: College View Dr at Old Oregon Trail, 408.05m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 14:50, nearest transit: Higuera & Prado, 7989.92m away; Sidecar, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 54.77m away; Luna Red, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 256.30m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Flour House, San Luis Obispo",
+      "attraction": "Farmers Market, San Luis Obispo",
+      "lunch": "Thai Palace, San Luis Obispo",
+      "dinner": "Mistura Restaurant, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Flour House, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 142.15m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Mistura Restaurant, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 259.05m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Luis Obispo to Colorado Springs",
+      "transportation": "Transfer, from San Luis Obispo to Colorado Springs",
+      "breakfast": "Apple Farm Restaurant, San Luis Obispo",
+      "attraction": "Bishop Peak, San Luis Obispo",
+      "lunch": "My Thai Restaurant, San Luis Obispo",
+      "dinner": "Del Monte Cafe, San Luis Obispo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away."
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Apple Farm Restaurant, visit from 09:25 to 10:16, nearest transit: Monterey @ Peach Tree Inn, 45.99m away; Bishop Peak, visit from 11:30 to 16:05, nearest transit: Santa Rosa & Foothill, 1404.87m away; My Thai Restaurant, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 777.53m away; Del Monte Cafe, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 809.82m away."
     }
   ]
 }

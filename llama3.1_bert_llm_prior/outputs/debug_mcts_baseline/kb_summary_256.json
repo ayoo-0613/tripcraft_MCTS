@@ -2,58 +2,89 @@
   "idx": 256,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Rochester",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 73,
+        "events": 16
+      }
+    },
+    {
+      "city": "Watertown",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 15
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Colorado Springs",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0092582, from Las Vegas to Colorado Springs, Departure Time: 16:03, Arrival Time: 18:30"
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Colorado Springs",
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $65.47"
+      "raw": "Self-driving, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $37.34"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Colorado Springs",
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32"
+      "raw": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Las Vegas",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0018785, from Colorado Springs to Las Vegas, Departure Time: 05:40, Arrival Time: 06:34"
+      "from": "Rochester",
+      "to": "Watertown",
+      "date": "2024-11-05",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Las Vegas",
+      "from": "Rochester",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Las Vegas, Duration: 842.7216666666667 mins, Distance: 1310.3346999999999 km, Estimated Cost: $65.52"
+      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Las Vegas",
+      "from": "Rochester",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Las Vegas, Duration: 842.7216666666667 mins, Distance: 1310.3346999999999 km, Estimated Cost: $1310.33"
+      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": null,
+      "raw": "Self-driving, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $32.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": null,
+      "raw": "Taxi, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $653.39"
     }
   ]
 }

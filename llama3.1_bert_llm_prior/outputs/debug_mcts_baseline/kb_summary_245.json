@@ -2,9 +2,19 @@
   "idx": 245,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Greensboro",
       "counts": {
         "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "El Paso",
-      "to": "Seattle",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0244132, from El Paso to Seattle, Departure Time: 20:08, Arrival Time: 23:15"
+      "from": "Lynchburg",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "El Paso",
-      "to": "Seattle",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle"
+      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
     },
     {
       "mode": "taxi",
-      "from": "El Paso",
-      "to": "Seattle",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from El Paso to Seattle, Not feasible to drive from El Paso to Seattle"
+      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "El Paso",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0245421, from Seattle to El Paso, Departure Time: 13:21, Arrival Time: 17:22"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "El Paso",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Seattle to El Paso, Not feasible to drive from Seattle to El Paso"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "El Paso",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Seattle to El Paso, Not feasible to drive from Seattle to El Paso"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

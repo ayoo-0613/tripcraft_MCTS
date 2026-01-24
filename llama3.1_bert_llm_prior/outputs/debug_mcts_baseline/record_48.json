@@ -1,94 +1,117 @@
 {
   "idx": 48,
   "JSON": {
-    "org": "Denver",
-    "dest": "Iowa",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Tampa",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-07",
       "2024-11-08",
       "2024-11-09",
       "2024-11-10",
       "2024-11-11",
-      "2024-11-12"
+      "2024-11-12",
+      "2024-11-13"
     ],
-    "people_number": 4,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Asian",
-        "Mexican"
-      ],
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": "Nature & Parks"
+      "attraction": null
     },
-    "budget": 7100.0,
-    "query": "Design a 5-day travel itinerary for 4 people departing from Denver to visit 2 cities in Iowa from November 8th to November 12th, 2024. The budget is $7,100. Include dining options with Asian and Mexican cuisines and prioritize attractions related to nature and parks.",
-    "level": "hard"
+    "budget": 6600.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Tampa to explore 3 cities in Tennessee from November 7th to November 13th, 2024, with a budget of $6,600.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Cedar Rapids",
-      "transportation": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46",
-      "breakfast": "Zeppelins, Cedar Rapids",
-      "attraction": "Mount Trashmore, Cedar Rapids",
-      "lunch": "The Map Room, Cedar Rapids",
-      "dinner": "350 First, Cedar Rapids",
-      "accommodation": "Charming Convenience, Cedar Rapids",
+      "current_city": "from Tampa to Pasco",
+      "transportation": "Transfer, from Tampa to Pasco",
+      "breakfast": "Round Table Pizza, Pasco",
+      "attraction": "Levey Park, Pasco",
+      "lunch": "Dutch Bros Coffee, Pasco",
+      "dinner": "Country Mercantile, Pasco",
+      "accommodation": "NEW in Pasco!Inviting 3bd, King Bed Suite, Garage!, Pasco",
       "event": "-",
-      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Mount Trashmore, visit from 11:30 to 16:10, nearest transit: C St & Rapids Ave, 656.14m away; The Map Room, visit from 13:57 to 14:56, nearest transit: 5th Ave & RR tracks, 111.63m away; 350 First, visit from 19:51 to 21:00, nearest transit: 3rd St & 2nd Ave, 159.53m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+      "point_of_interest_list": "NEW in Pasco!Inviting 3bd, King Bed Suite, Garage!, stay from 08:00 to 09:00, nearest transit: Clark St & Armand Way, 3736129.59m away; Round Table Pizza, visit from 09:25 to 10:16, nearest transit: Clark St & Armand Way, 3741632.18m away; Levey Park, visit from 11:30 to 16:50, nearest transit: Clark St & Armand Way, 3721488.28m away; Dutch Bros Coffee, visit from 13:57 to 14:56, nearest transit: Clark St & Armand Way, 3745904.14m away; Country Mercantile, visit from 19:51 to 21:00, nearest transit: Clark St & Armand Way, 3742364.29m away; NEW in Pasco!Inviting 3bd, King Bed Suite, Garage!, stay from 22:15 to 08:00, nearest transit: Clark St & Armand Way, 3736129.59m away."
     },
     {
       "days": 2,
-      "current_city": "from Cedar Rapids to Cedar Rapids",
-      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
-      "breakfast": "Irish Democrat, Cedar Rapids",
-      "attraction": "Bever Park, Cedar Rapids",
-      "lunch": "The Blind Pig, Cedar Rapids",
-      "dinner": "The Breakfast House, Cedar Rapids",
-      "accommodation": "Charming Convenience, Cedar Rapids",
+      "current_city": "from Pasco to Pasco",
+      "transportation": "Transfer, from Pasco to Pasco",
+      "breakfast": "Starbucks, Pasco",
+      "attraction": "Volunteer Park, Pasco",
+      "lunch": "Roasters Coffee, Pasco",
+      "dinner": "Golden Wok, Pasco",
+      "accommodation": "Home in Pasco with backyard, Pasco",
       "event": "-",
-      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Bever Park, visit from 11:30 to 16:00, nearest transit: Memorial Dr & Bever Ave, 31.27m away; The Blind Pig, visit from 13:57 to 14:56, nearest transit: 3335 Center Point Rd (Papa Murph), 140.18m away; The Breakfast House, visit from 19:51 to 21:00, nearest transit: 812 6th St (Jim's Foods), 38.50m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+      "point_of_interest_list": "Home in Pasco with backyard, stay from 08:00 to 09:00, nearest transit: Clark St & Armand Way, 3744829.91m away; Starbucks, visit from 09:25 to 10:16, nearest transit: Clark St & Armand Way, 3746598.16m away; Volunteer Park, visit from 11:30 to 15:20, nearest transit: Clark St & Armand Way, 3738600.78m away; Roasters Coffee, visit from 13:57 to 14:56, nearest transit: Clark St & Armand Way, 3740602.89m away; Golden Wok, visit from 19:51 to 21:00, nearest transit: Clark St & Armand Way, 3746556.63m away; Home in Pasco with backyard, stay from 22:15 to 08:00, nearest transit: Clark St & Armand Way, 3744829.91m away."
     },
     {
       "days": 3,
-      "current_city": "from Cedar Rapids to Fort Dodge",
-      "transportation": "Transfer, from Cedar Rapids to Fort Dodge",
-      "breakfast": "Subway, Fort Dodge",
-      "attraction": "Community Orchard, Fort Dodge",
-      "lunch": "Pizza Hut, Fort Dodge",
-      "dinner": "Village Inn, Fort Dodge",
-      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
+      "current_city": "from Pasco to Everett",
+      "transportation": "Taxi, from Pasco to Everett, Duration: 285.56666666666666 mins, Distance: 401.19590000000005 km, Estimated Cost: $401.20",
+      "breakfast": "Vintage Cafe, Everett",
+      "attraction": "Escape Everett, Everett",
+      "lunch": "The Irishmen, Everett",
+      "dinner": "Curries In Everett, Everett",
+      "accommodation": "Bedroom Apt, Everett",
       "event": "-",
-      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Subway, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 101.37m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Pizza Hut, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Village Inn, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
+      "point_of_interest_list": "Home in Pasco with backyard, stay from 08:00 to 09:00, nearest transit: Clark St & Armand Way, 3744829.91m away; Vintage Cafe, visit from 09:25 to 10:16, nearest transit: HEWITT AVE & HOYT AVE - WB, 44.63m away; Escape Everett, visit from 11:30 to 13:50, nearest transit: MAPLE ST & PACIFIC AVE - SB, 48.26m away; The Irishmen, visit from 13:57 to 14:56, nearest transit: WETMORE AVE & HEWITT AVE - NB, 94.94m away; Curries In Everett, visit from 19:51 to 21:00, nearest transit: EVERGREEN WAY & 73RD - SB, 34.50m away; Bedroom Apt, stay from 22:15 to 08:00, nearest transit: COLBY AVE & 23RD ST - NB, 214.05m away."
     },
     {
       "days": 4,
-      "current_city": "from Fort Dodge to Fort Dodge",
-      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
-      "breakfast": "Sports Page, Fort Dodge",
-      "attraction": "Studio Fusion, Fort Dodge",
-      "lunch": "Burger King, Fort Dodge",
-      "dinner": "Dodge's, Fort Dodge",
-      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
+      "current_city": "from Everett to Everett",
+      "transportation": "Transfer, from Everett to Everett",
+      "breakfast": "Everett's, Everett",
+      "attraction": "At Large Brewing, Everett",
+      "lunch": "Everett Street Diner, Everett",
+      "dinner": "Anthony's Homeport, Everett",
+      "accommodation": "Bedroom Apt, Everett",
       "event": "-",
-      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Sports Page, visit from 09:25 to 10:16, nearest transit: Evergreen Estates, 68.77m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Burger King, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 182.06m away; Dodge's, visit from 19:51 to 21:00, nearest transit: S 31st St and 8th Ave S, 858866.05m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
+      "point_of_interest_list": "Bedroom Apt, stay from 08:00 to 09:00, nearest transit: COLBY AVE & 23RD ST - NB, 214.05m away; Everett's, visit from 09:25 to 10:16, nearest transit: 13TH ST & W MARINE VIEW DR - WB, 2281928.35m away; At Large Brewing, visit from 11:30 to 14:50, nearest transit: W MARINE VIEW DR & CALIFORNIA ST - NB, 38.11m away; Everett Street Diner, visit from 13:57 to 14:56, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 3466772.13m away; Anthony's Homeport, visit from 19:51 to 21:00, nearest transit: W MARINE VIEW DR & 16TH ST - SB, 690.67m away; Bedroom Apt, stay from 22:15 to 08:00, nearest transit: COLBY AVE & 23RD ST - NB, 214.05m away."
     },
     {
       "days": 5,
-      "current_city": "from Fort Dodge to Denver",
-      "transportation": "Flight Number: F3406692, from Fort Dodge to Denver, Departure Time: 18:17, Arrival Time: 18:58",
-      "breakfast": "Tom Thumb Drive Inn, Fort Dodge",
-      "attraction": "Fort Frenzy, Fort Dodge",
-      "lunch": "Pizza Ranch of Fort Dodge, Fort Dodge",
-      "dinner": "-",
+      "current_city": "from Everett to Seattle",
+      "transportation": "Taxi, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $46.81",
+      "breakfast": "Metropolitan Grill, Seattle",
+      "attraction": "Space Needle, Seattle",
+      "lunch": "Lola, Seattle",
+      "dinner": "The Capital Grille, Seattle",
+      "accommodation": "At Mine - Studio Apartment In Seattle., Seattle",
+      "event": "-",
+      "point_of_interest_list": "Bedroom Apt, stay from 08:00 to 09:00, nearest transit: COLBY AVE & 23RD ST - NB, 214.05m away; Metropolitan Grill, visit from 09:25 to 10:16, nearest transit: 2nd Ave & Marion St, 39.95m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Lola, visit from 13:57 to 14:56, nearest transit: Virginia St & 4th Ave, 26.10m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: 4th Ave & University, 41.04m away; At Mine - Studio Apartment In Seattle., stay from 22:15 to 08:00, nearest transit: 2nd Ave & Stewart St, 93.13m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "13 Coins Restaurant, Seattle",
+      "attraction": "Seattle Aquarium, Seattle",
+      "lunch": "Spinasse, Seattle",
+      "dinner": "Wild Ginger, Seattle",
+      "accommodation": "At Mine - Studio Apartment In Seattle., Seattle",
+      "event": "-",
+      "point_of_interest_list": "At Mine - Studio Apartment In Seattle., stay from 08:00 to 09:00, nearest transit: 2nd Ave & Stewart St, 93.13m away; 13 Coins Restaurant, visit from 09:25 to 10:16, nearest transit: King Street Station, 107.40m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; Spinasse, visit from 13:57 to 14:56, nearest transit: E Pine St & 15th Ave, 90.45m away; Wild Ginger, visit from 19:51 to 21:00, nearest transit: 3rd Ave & Pike St, 13.86m away; At Mine - Studio Apartment In Seattle., stay from 22:15 to 08:00, nearest transit: 2nd Ave & Stewart St, 93.13m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Seattle to Tampa",
+      "transportation": "Transfer, from Seattle to Tampa",
+      "breakfast": "Tulio, Seattle",
+      "attraction": "Discovery Park, Seattle",
+      "lunch": "Chan Seattle, Seattle",
+      "dinner": "The Pink Door, Seattle",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Tom Thumb Drive Inn, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 90.84m away; Fort Frenzy, visit from 11:30 to 13:50, nearest transit: 1st Ave S and S 31st St, 108.41m away; Pizza Ranch of Fort Dodge, visit from 13:57 to 14:56, nearest transit: 5th Ave S and S 31st St, 542.94m away."
+      "point_of_interest_list": "At Mine - Studio Apartment In Seattle., stay from 08:00 to 09:00, nearest transit: 2nd Ave & Stewart St, 93.13m away; Tulio, visit from 09:25 to 10:16, nearest transit: 5th Ave & Spring St, 55.15m away; Discovery Park, visit from 11:30 to 16:50, nearest transit: Discovery Park Road & Texas Way, 604.23m away; Chan Seattle, visit from 13:57 to 14:56, nearest transit: Pine St & 9th Ave, 68.08m away; The Pink Door, visit from 19:51 to 21:00, nearest transit: 2nd Ave & Stewart St, 176.00m away."
     }
   ]
 }

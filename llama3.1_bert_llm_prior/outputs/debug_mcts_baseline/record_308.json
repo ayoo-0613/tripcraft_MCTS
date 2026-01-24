@@ -1,65 +1,94 @@
 {
   "idx": 308,
   "JSON": {
-    "org": "Tampa",
-    "dest": "Nashville",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-22",
-      "2024-11-23",
-      "2024-11-24"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 4,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": "entire home",
+      "house rule": "parties",
+      "cuisine": [
+        "American",
+        "Italian"
+      ],
+      "room type": null,
+      "transportation": "self-driving",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 4950.0,
-    "query": "Plan a 3-day trip for 4 people from Tampa to Nashville from November 22nd to November 24th, 2024, with a budget of $4,950. Accommodations should include an entire home.",
-    "level": "medium"
+    "budget": 6000.0,
+    "query": "Design a 5-day travel itinerary for 4 people traveling from Dallas to explore 2 cities in Tennessee between November 4th and November 8th, 2024. The budget is $6,000. The group will be self-driving, and the accommodations should follow house rules that allow parties. Include dining options with American and Italian cuisine.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Tampa to Nashville",
-      "transportation": "Taxi, from Tampa to Nashville, Duration: 774.4866666666666 mins, Distance: 1131.5828000000001 km, Estimated Cost: $1131.58",
-      "breakfast": "Aquarium Restaurant, Nashville",
-      "attraction": "Centennial Park, Nashville; Downtown Nashville, Nashville",
-      "lunch": "Smiling Elephant, Nashville",
-      "dinner": "417 Union, Nashville",
-      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "current_city": "from Dallas to Memphis",
+      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "breakfast": "Arcade Restaurant, Memphis",
+      "attraction": "Graceland, Memphis; Sun Studio, Memphis",
+      "lunch": "Majestic Grille, Memphis",
+      "dinner": "Interstate Barbecue, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Aquarium Restaurant, visit from 09:25 to 10:16, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Centennial Park, visit from 11:30 to 15:12, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; Smiling Elephant, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Downtown Nashville, visit from 16:30 to 18:27, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; 417 Union, visit from 19:51 to 21:00, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Arcade Restaurant, visit from 09:25 to 10:16, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Graceland, visit from 11:30 to 13:57, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Majestic Grille, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Sun Studio, visit from 16:30 to 18:57, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from Nashville to Nashville",
-      "transportation": "Transfer, from Nashville to Nashville",
-      "breakfast": "The Standard, Nashville",
-      "attraction": "Belmont Mansion, Nashville; Cheekwood, Nashville",
-      "lunch": "The Bridge, Nashville",
-      "dinner": "1 Kitchen, Nashville",
-      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Memphis Zoo, Memphis; Backbeat Tours, Memphis",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; The Standard, visit from 09:25 to 10:16, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Belmont Mansion, visit from 11:30 to 14:42, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; The Bridge, visit from 13:57 to 14:56, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Cheekwood, visit from 16:30 to 19:27, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; 1 Kitchen, visit from 19:51 to 21:00, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Memphis Zoo, visit from 11:30 to 14:37, nearest transit: N PARKWAY@WEST DR, 8.68m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Backbeat Tours, visit from 16:30 to 19:27, nearest transit: THIRD@PEABODYPL, 78.56m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 3,
-      "current_city": "from Nashville to Tampa",
-      "transportation": "Flight Number: F0077393, from Nashville to Tampa, Departure Time: 18:48, Arrival Time: 21:26",
-      "breakfast": "Pelato, Nashville",
-      "attraction": "Lane Motor Museum, Nashville; Ryman Auditorium, Nashville",
-      "lunch": "Henley, Nashville",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Tennessee Aquarium, Chattanooga; Chattanooga Zoo, Chattanooga",
+      "lunch": "Stir, Chattanooga",
+      "dinner": "Bluegrass Grill, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 14:27, nearest transit: BRO AQ 1, 109.14m away; Stir, visit from 13:57 to 14:56, nearest transit: MARKET + MAIN, 69.25m away; Chattanooga Zoo, visit from 16:30 to 19:37, nearest transit: Holtzclaw & 5th-1, 123.88m away; Bluegrass Grill, visit from 19:51 to 21:00, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Lookout Mountain, Chattanooga; Chattanooga Ghost Tours, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "1885 Grill, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Lookout Mountain, visit from 11:30 to 14:42, nearest transit: 55TH + ALABAMA, 1650.28m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; Chattanooga Ghost Tours, visit from 16:30 to 18:57, nearest transit: MARKET + 5TH, 59.20m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Dallas",
+      "transportation": "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Pelato, visit from 09:25 to 10:16, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away; Lane Motor Museum, visit from 11:30 to 13:57, nearest transit: MURFREESBORO PIKE & ARLINGTON AVE E, 212.47m away; Henley, visit from 13:57 to 14:56, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Ryman Auditorium, visit from 16:30 to 18:42, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away."
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 04:26 to 05:26, nearest transit: BONNOAK, 4223.21m away; Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away."
     }
   ]
 }

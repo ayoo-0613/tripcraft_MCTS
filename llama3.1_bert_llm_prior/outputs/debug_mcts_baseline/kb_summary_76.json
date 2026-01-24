@@ -2,22 +2,32 @@
   "idx": 76,
   "stages": [
     {
-      "city": "Beaumont",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 10,
+        "attractions": 14,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 66,
-        "events": 19
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 30
       }
     },
     {
-      "city": "San Antonio",
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Asheville",
-      "to": "Beaumont",
-      "date": "2024-11-02",
+      "from": "Key West",
+      "to": "Chattanooga",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Asheville",
-      "to": "Beaumont",
+      "from": "Key West",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Asheville to Beaumont, Duration: 1022.5166666666667 mins, Distance: 1455.8277 km, Estimated Cost: $72.79"
+      "raw": "Self-driving, from Key West to Chattanooga, Duration: 1087.585 mins, Distance: 1509.5618 km, Estimated Cost: $75.48"
     },
     {
       "mode": "taxi",
-      "from": "Asheville",
-      "to": "Beaumont",
+      "from": "Key West",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Asheville to Beaumont, Duration: 1022.5166666666667 mins, Distance: 1455.8277 km, Estimated Cost: $1455.83"
+      "raw": "Taxi, from Key West to Chattanooga, Duration: 1087.585 mins, Distance: 1509.5618 km, Estimated Cost: $1509.56"
     },
     {
       "mode": "flight",
-      "from": "Beaumont",
-      "to": "San Antonio",
-      "date": "2024-11-04",
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-09",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Beaumont",
-      "to": "San Antonio",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Beaumont to San Antonio, Duration: 307.02833333333336 mins, Distance: 450.7428 km, Estimated Cost: $22.54"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Beaumont",
-      "to": "San Antonio",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Beaumont to San Antonio, Duration: 307.02833333333336 mins, Distance: 450.7428 km, Estimated Cost: $450.74"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
     },
     {
       "mode": "flight",
-      "from": "San Antonio",
-      "to": "Asheville",
-      "date": "2024-11-06",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-11",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Antonio",
-      "to": "Asheville",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from San Antonio to Asheville, Duration: 1327.355 mins, Distance: 1904.3448 km, Estimated Cost: $95.22"
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
     },
     {
       "mode": "taxi",
-      "from": "San Antonio",
-      "to": "Asheville",
+      "from": "Nashville",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from San Antonio to Asheville, Duration: 1327.355 mins, Distance: 1904.3448 km, Estimated Cost: $1904.34"
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
+    },
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": "2024-11-13",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Key West, Duration: 1356.1416666666667 mins, Distance: 1824.9449 km, Estimated Cost: $91.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Key West",
+      "date": null,
+      "raw": "Taxi, from Memphis to Key West, Duration: 1356.1416666666667 mins, Distance: 1824.9449 km, Estimated Cost: $1824.94"
     }
   ]
 }

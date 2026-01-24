@@ -2,89 +2,120 @@
   "idx": 109,
   "stages": [
     {
-      "city": "San Luis Obispo",
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 17
+      }
+    },
+    {
+      "city": "Mason City",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 6
       }
     },
     {
-      "city": "Fresno",
+      "city": "Sioux City",
       "counts": {
-        "attractions": 19,
+        "attractions": 12,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 6
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 10
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
-      "date": "2024-11-17",
+      "from": "Washington",
+      "to": "Cedar Rapids",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "from": "Washington",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
+      "raw": "Self-driving, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $74.67"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "from": "Washington",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
+      "raw": "Taxi, from Washington to Cedar Rapids, Duration: 1039.9316666666666 mins, Distance: 1493.483 km, Estimated Cost: $1493.48"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
-      "date": "2024-11-19",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
+      "raw": "Self-driving, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $11.10"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "Cedar Rapids",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+      "raw": "Taxi, from Cedar Rapids to Mason City, Duration: 161.88 mins, Distance: 221.9152 km, Estimated Cost: $221.92"
     },
     {
       "mode": "flight",
-      "from": "Fresno",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
+      "from": "Mason City",
+      "to": "Sioux City",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Fresno",
-      "to": "Las Vegas",
+      "from": "Mason City",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
+      "raw": "Self-driving, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $16.60"
     },
     {
       "mode": "taxi",
-      "from": "Fresno",
-      "to": "Las Vegas",
+      "from": "Mason City",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
+      "raw": "Taxi, from Mason City to Sioux City, Duration: 244.28 mins, Distance: 332.01309999999995 km, Estimated Cost: $332.01"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": "2024-11-12",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $97.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Washington, Duration: 1355.1 mins, Distance: 1955.4858000000002 km, Estimated Cost: $1955.49"
     }
   ]
 }

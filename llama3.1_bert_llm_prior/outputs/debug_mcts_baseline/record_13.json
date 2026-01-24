@@ -1,96 +1,117 @@
 {
   "idx": 13,
   "JSON": {
-    "org": "Tampa",
-    "dest": "Illinois",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
       "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 6,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "American",
-        "Mexican",
-        "Italian",
-        "Cajun & Creole"
-      ],
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 10200.0,
-    "query": "Plan a 5-day trip for 6 people traveling from Tampa to explore 2 cities in Illinois between November 1st and November 5th, 2024. The budget is $10,200. Include dining options with American, Mexican, Italian, and Cajun & Creole cuisines.",
-    "level": "medium"
+    "budget": 5100.0,
+    "query": "Plan a 7-day trip for 1 person from Lynchburg to explore 3 cities in North Carolina between November 1st and November 7th, 2024, with a budget of $5,100.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Tampa to Bloomington",
-      "transportation": "Taxi, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $1769.41",
-      "breakfast": "Uptown Cafe, Bloomington",
-      "attraction": "Escape Bloomington, Bloomington",
-      "lunch": "Southern Stone, Bloomington",
-      "dinner": "Malibu Grill, Bloomington",
-      "accommodation": "Founder's Grove Bungalow, Bloomington",
+      "current_city": "from Lynchburg to Wilmington",
+      "transportation": "Taxi, from Lynchburg to Wilmington, Duration: 337.2 mins, Distance: 448.7858 km, Estimated Cost: $448.79",
+      "breakfast": "Manna, Wilmington",
+      "attraction": "Riverwalk, Wilmington",
+      "lunch": "Pilot House, Wilmington",
+      "dinner": "The Basics, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Founder's Grove Bungalow, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 249838.89m away; Uptown Cafe, visit from 09:25 to 10:16, nearest transit: Washington St & Kirkwood Ave, 81.37m away; Escape Bloomington, visit from 11:30 to 13:50, nearest transit: Prow Rd @ Meadows Hospital, 248708.81m away; Southern Stone, visit from 13:57 to 14:56, nearest transit: Rogers St & Patterson Dr, 19.55m away; Malibu Grill, visit from 19:51 to 21:00, nearest transit: Washington St & Kirkwood Ave, 111.13m away; Founder's Grove Bungalow, stay from 22:15 to 08:00, nearest transit: Prow Rd @ Meadows Hospital, 249838.89m away."
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Manna, visit from 09:25 to 10:16, nearest transit: Front St SB at Chestnut St, 150.96m away; Riverwalk, visit from 11:30 to 15:20, nearest transit: Front St SB at Market St, 105.98m away; Pilot House, visit from 13:57 to 14:56, nearest transit: Front St SB at Ann St, 112.21m away; The Basics, visit from 19:51 to 21:00, nearest transit: Front St NB at Grace St, 96.37m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
     },
     {
       "days": 2,
-      "current_city": "from Bloomington to Bloomington",
-      "transportation": "Transfer, from Bloomington to Bloomington",
-      "breakfast": "Coffee Hound, Bloomington",
-      "attraction": "Constitution Trail, Bloomington",
-      "lunch": "Farm Bloomington, Bloomington",
-      "dinner": "The Chocolate Moose, Bloomington",
-      "accommodation": "Charming Trail Retreat, Bloomington",
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "Catch, Wilmington",
+      "attraction": "Downtown Wilmington, Wilmington",
+      "lunch": "The Wilmington, Wilmington",
+      "dinner": "Fish Bites Seafood, Wilmington",
+      "accommodation": "Crestwood Cottage, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Charming Trail Retreat, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 252799.18m away; Coffee Hound, visit from 09:25 to 10:16, nearest transit: Prow Rd @ Meadows Hospital, 252372.50m away; Constitution Trail, visit from 11:30 to 16:35, nearest transit: Prow Rd @ Meadows Hospital, 250910.58m away; Farm Bloomington, visit from 13:57 to 14:56, nearest transit: Washington St & Kirkwood Ave, 65.76m away; The Chocolate Moose, visit from 19:51 to 21:00, nearest transit: Walnut St & Smith Ave @ Project School, 24.48m away; Charming Trail Retreat, stay from 22:15 to 08:00, nearest transit: Prow Rd @ Meadows Hospital, 252799.18m away."
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Catch, visit from 09:25 to 10:16, nearest transit: Market St WB at Dollar General, 552.38m away; Downtown Wilmington, visit from 11:30 to 14:50, nearest transit: Front St SB at Chestnut St, 66.26m away; The Wilmington, visit from 13:57 to 14:56, nearest transit: Gordon Rd WB at Military Cutoff Rd, 6310808.05m away; Fish Bites Seafood, visit from 19:51 to 21:00, nearest transit: Carolina Beach Rd NB at College Rd, 2839.13m away; Crestwood Cottage, stay from 22:15 to 08:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away."
     },
     {
       "days": 3,
-      "current_city": "from Bloomington to Champaign",
-      "transportation": "Transfer, from Bloomington to Champaign",
-      "breakfast": "Farmhouse Restaurant, Champaign",
-      "attraction": "Centennial Park Champaign, Champaign",
-      "lunch": "Rainbow Garden Champaign, Champaign",
-      "dinner": "Fiesta Cafe, Champaign",
-      "accommodation": "Studio Apartment, Champaign",
+      "current_city": "from Wilmington to Greensboro",
+      "transportation": "Transfer, from Wilmington to Greensboro",
+      "breakfast": "Green Valley Grill, Greensboro",
+      "attraction": "Gateway Gardens, Greensboro",
+      "lunch": "Blue Denim, Greensboro",
+      "dinner": "Mythos Grill, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Charming Trail Retreat, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 252799.18m away; Farmhouse Restaurant, visit from 09:25 to 10:16, nearest transit: Fox & Devonshire (NW Corner), 233.94m away; Centennial Park Champaign, visit from 11:30 to 16:50, nearest transit: Kirby & First (NE Corner), 155.37m away; Rainbow Garden Champaign, visit from 13:57 to 14:56, nearest transit: Kirby & Neil (NE Far Side), 171.48m away; Fiesta Cafe, visit from 19:51 to 21:00, nearest transit: Logan & First (NW Corner), 40.52m away; Studio Apartment, stay from 22:15 to 08:00, nearest transit: Church & Russell (NE Corner), 93.12m away."
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Green Valley Grill, visit from 09:25 to 10:16, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; Gateway Gardens, visit from 11:30 to 16:50, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; Blue Denim, visit from 13:57 to 14:56, nearest transit: International Civil Rights Museum, 72.70m away; Mythos Grill, visit from 19:51 to 21:00, nearest transit: West Market/Walker, 60.36m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 4,
-      "current_city": "from Champaign to Champaign",
-      "transportation": "Transfer, from Champaign to Champaign",
-      "breakfast": "Peking Garden, Champaign",
-      "attraction": "Kaufman Lake, Champaign",
-      "lunch": "Golden Harbor, Champaign",
-      "dinner": "The Ribeye, Champaign",
-      "accommodation": "Studio Apartment, Champaign",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Golden Wok, Greensboro",
+      "attraction": "Carolina Theatre, Greensboro",
+      "lunch": "The Sage Mule, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Studio Apartment, stay from 08:00 to 09:00, nearest transit: Church & Russell (NE Corner), 93.12m away; Peking Garden, visit from 09:25 to 10:16, nearest transit: Church & Neil (NW Far Side), 75.30m away; Kaufman Lake, visit from 11:30 to 16:50, nearest transit: Ginger Creek (North Side), 99.95m away; Golden Harbor, visit from 13:57 to 14:56, nearest transit: Neil & Healey (NW Corner), 52.60m away; The Ribeye, visit from 19:51 to 21:00, nearest transit: State & Trade Center Dr. (SE Corner), 132.56m away; Studio Apartment, stay from 22:15 to 08:00, nearest transit: Church & Russell (NE Corner), 93.12m away."
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Golden Wok, visit from 09:25 to 10:16, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Carolina Theatre, visit from 11:30 to 14:50, nearest transit: Washington/Eugene, 118.33m away; The Sage Mule, visit from 13:57 to 14:56, nearest transit: Battleground/Wharton St, 22.50m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 5,
-      "current_city": "from Champaign to Tampa",
-      "transportation": "Transfer, from Champaign to Tampa",
-      "breakfast": "Ko Fusion, Champaign",
-      "attraction": "Illinois Terminal, Champaign",
-      "lunch": "Seven Saints, Champaign",
-      "dinner": "Aspen Tap House, Champaign",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0216117, from Greensboro to Charlotte, Departure Time: 06:55, Arrival Time: 08:26",
+      "breakfast": "Charlotte Bakery, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Queen Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, stay from 05:25 to 06:25, nearest transit: Glendale/Allen Middle School, 40.68m away; Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Charlotte Bakery, visit from 09:25 to 10:16, nearest transit: White Street Park and Ride, 1016826.02m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; Queen Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 6385477.65m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Charlotte Lane, Charlotte",
+      "attraction": "Freedom Park, Charlotte",
+      "lunch": "Princess Charlotte, Charlotte",
+      "dinner": "Charlotte Quay Restaurant, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Lane, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 1612739.20m away; Freedom Park, visit from 11:30 to 16:50, nearest transit: East Blvd & Kings Dr, 701.42m away; Princess Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6465940.22m away; Charlotte Quay Restaurant, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 5961834.13m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Flight Number: F0234002, from Charlotte to Lynchburg, Departure Time: 20:28, Arrival Time: 21:21",
+      "breakfast": "Bistro Charlotte, Charlotte",
+      "attraction": "SouthPark, Charlotte",
+      "lunch": "ROKA Charlotte Street, Charlotte",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Studio Apartment, stay from 08:00 to 09:00, nearest transit: Church & Russell (NE Corner), 93.12m away; Ko Fusion, visit from 09:25 to 10:16, nearest transit: Main & Walnut (SW Corner), 18.68m away; Illinois Terminal, visit from 11:30 to 15:20, nearest transit: Illinois Terminal (Platform B), 15.41m away; Seven Saints, visit from 13:57 to 14:56, nearest transit: I. T. at Market St., 63.73m away; Aspen Tap House, visit from 19:51 to 21:00, nearest transit: Fox & State (South Side), 239.69m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Bistro Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 7764630.63m away; SouthPark, visit from 11:30 to 13:50, nearest transit: Southpark Community Transit Center, 112.94m away; ROKA Charlotte Street, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6415395.43m away."
     }
   ]
 }

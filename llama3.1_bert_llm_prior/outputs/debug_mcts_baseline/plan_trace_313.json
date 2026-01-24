@@ -1,218 +1,31 @@
 {
   "idx": 313,
-  "reward": 19.9312612404998,
-  "budget_used": 1800.0,
+  "reward": -9.940341293734448,
+  "budget_used": 2516.0,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29",
+      "chosen": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
       "candidates": [
-        "Flight Number: F0070629, from Denver to Wichita, Departure Time: 13:46, Arrival Time: 15:52",
-        "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29"
+        "-",
+        "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02"
       ]
     },
     {
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Downtown Retreat",
+      "chosen": "Twin Lakes Family Escape",
       "candidates": [
-        "Downtown Retreat",
-        "The Boho Oasis",
-        "Charming Bungalow near Downtown",
-        "Traveler’s Retreat Kessler Cir",
-        "Country Retreat in Fully Renovated Cottage",
-        "Renovated luxury 2bedroom guest house",
-        "The Fly the Coop Dupe",
-        "Jan's Art Nest: Cozy Riverside Suite!",
-        "Modern 3BR Home 10 minutes from Downtown",
-        "Boho Bliss in College Hill by Indigo Moon Homes"
+        "Twin Lakes Family Escape",
+        "Ranchview Inn.Huge Kitchen, Sunroom & Outdoor Pool"
       ]
     },
     {
       "day": 1,
       "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Newport Grill",
-      "candidates": [
-        "Newport Grill",
-        "Mediterranean Grill",
-        "Beacon Restaurant",
-        "Bella Vita",
-        "Cafe Bel Ami",
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "Exploration Place",
-      "candidates": [
-        "Exploration Place",
-        "Music Theatre Wichita",
-        "Old Town",
-        "Pizza Hut Museum",
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Mediterranean Grill",
-      "candidates": [
-        "Mediterranean Grill",
-        "Beacon Restaurant",
-        "Bella Vita",
-        "Cafe Bel Ami",
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "attraction2",
-      "action_type": "add_attraction2",
-      "chosen": "Music Theatre Wichita",
-      "candidates": [
-        "Music Theatre Wichita",
-        "Old Town",
-        "Pizza Hut Museum",
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "dinner",
-      "action_type": "set_dinner",
-      "chosen": "Beacon Restaurant",
-      "candidates": [
-        "Beacon Restaurant",
-        "Bella Vita",
-        "Cafe Bel Ami",
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -220,190 +33,6 @@
     {
       "day": 2,
       "slot": "accommodation",
-      "action_type": "set_accommodation",
-      "chosen": "Downtown Retreat",
-      "candidates": [
-        "Downtown Retreat",
-        "The Boho Oasis",
-        "Charming Bungalow near Downtown",
-        "Traveler’s Retreat Kessler Cir",
-        "Country Retreat in Fully Renovated Cottage",
-        "Renovated luxury 2bedroom guest house",
-        "The Fly the Coop Dupe",
-        "Jan's Art Nest: Cozy Riverside Suite!",
-        "Modern 3BR Home 10 minutes from Downtown",
-        "Boho Bliss in College Hill by Indigo Moon Homes"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Bella Vita",
-      "candidates": [
-        "Bella Vita",
-        "Cafe Bel Ami",
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "Old Town",
-      "candidates": [
-        "Old Town",
-        "Pizza Hut Museum",
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Cafe Bel Ami",
-      "candidates": [
-        "Cafe Bel Ami",
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction2",
-      "action_type": "add_attraction2",
-      "chosen": "Pizza Hut Museum",
-      "candidates": [
-        "Pizza Hut Museum",
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "dinner",
-      "action_type": "set_dinner",
-      "chosen": "Prost",
-      "candidates": [
-        "Prost",
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -412,141 +41,39 @@
       "day": 3,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Transfer, from Wichita to Denver",
-      "candidates": [
-        "Transfer, from Wichita to Denver"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Little Saigon",
-      "candidates": [
-        "Little Saigon",
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "Kansas Aviation Museum",
-      "candidates": [
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "The Sweet Spot",
-      "candidates": [
-        "The Sweet Spot",
-        "River City Brewery",
-        "Oak & Pie",
-        "Bricktown Brewery",
-        "Whiskey Dicks",
-        "El Mexico Cafe",
-        "Texas Roadhouse",
-        "Homegrown",
-        "Redrock Canyon Grill",
-        "Kobe Steak House of Japan",
-        "Bite Me BBQ",
-        "Old Mill Tasty Shop",
-        "Wasabi Japanese Restaurant",
-        "B & C Bbq",
-        "Chicken N Pickle- Wichita",
-        "Larkspur Bistro & Bar",
-        "Scotch & Sirloin",
-        "Ziggys Pizza East",
-        "Firebirds Wood Fired Grill",
-        "Siena Tuscan Steakhouse",
-        "Wichita Brewing Co & Pizzeria",
-        "Doo-Dah Diner",
-        "Sabor Latin Bar & Grill",
-        "George's French Bistro",
-        "Chester's Chophouse and Wine Bar",
-        "Oh Yeah! Chinese Bistro",
-        "Abuelo's Mexican Restaurant",
-        "Puero Vallarta Mexican Restaurant"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction2",
-      "action_type": "add_attraction2",
-      "chosen": "Paramount Antique Mall",
-      "candidates": [
-        "Paramount Antique Mall",
-        "Old Cowtown Museum",
-        "Wichita Art Museum",
-        "Museum of World Treasures",
-        "Botanica: The Wichita Gardens",
-        "The Keeper of the Plains",
-        "Wichita Toy Train Museum",
-        "Great Plains Nature Center",
-        "Cathedral of the Immaculate Conception",
-        "Sedgwick Park",
-        "Mid-America All-Indian Center",
-        "Frank Lloyd Wright's Allen House",
-        "Sedgwick County Zoo",
-        "Wichita Sedgwick County Historical Museum"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "dinner",
-      "action_type": "skip_dinner",
       "chosen": "-",
       "candidates": [
-        "-"
+        "-",
+        "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
       ]
     },
     {
       "day": 3,
-      "slot": "end_day",
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Cedar Rapids to Valparaiso, Duration: 327.02666666666664 mins, Distance: 451.17440000000005 km, Estimated Cost: $451.17"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -555,198 +82,133 @@
   "days": [
     {
       "day": 1,
-      "current_city": "from Denver to Wichita",
-      "transportation": "Taxi, from Denver to Wichita, Duration: 533.1016666666667 mins, Distance: 834.2885 km, Estimated Cost: $834.29",
-      "accommodation": "Downtown Retreat",
-      "breakfast": "Newport Grill",
-      "attractions": [
-        "Exploration Place",
-        "Music Theatre Wichita"
-      ],
-      "lunch": "Mediterranean Grill",
-      "dinner": "Beacon Restaurant",
+      "current_city": "from Valparaiso to Fort Dodge",
+      "transportation": "Taxi, from Valparaiso to Fort Dodge, Duration: 505.64166666666665 mins, Distance: 700.0192 km, Estimated Cost: $700.02",
+      "accommodation": "Twin Lakes Family Escape",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Downtown Retreat",
+          "name": "Twin Lakes Family Escape",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "Emporia and Lincoln IB",
-          "dist_m": 233.24
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
         },
         {
-          "name": "Downtown Retreat",
+          "name": "Twin Lakes Family Escape",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "Emporia and Lincoln IB",
-          "dist_m": 233.24
-        },
-        {
-          "name": "Newport Grill",
-          "kind": "visit",
-          "start": "09:25",
-          "end": "10:16",
-          "nearest_transit": "2000 Rock NB",
-          "dist_m": 195.32
-        },
-        {
-          "name": "Exploration Place",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "13:57",
-          "nearest_transit": "Exploration Place",
-          "dist_m": 91.96
-        },
-        {
-          "name": "Mediterranean Grill",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "Towne East Mall Drive OB",
-          "dist_m": 117.07
-        },
-        {
-          "name": "Music Theatre Wichita",
-          "kind": "visit",
-          "start": "16:30",
-          "end": "18:27",
-          "nearest_transit": "Douglas and Wichita IB",
-          "dist_m": 145.76
-        },
-        {
-          "name": "Beacon Restaurant",
-          "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
-          "nearest_transit": "Washington and Douglas IB",
-          "dist_m": 66.33
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
         }
       ]
     },
     {
       "day": 2,
-      "current_city": "from Wichita to Wichita",
+      "current_city": "from Fort Dodge to Fort Dodge",
       "transportation": "-",
-      "accommodation": "Downtown Retreat",
-      "breakfast": "Bella Vita",
-      "attractions": [
-        "Old Town",
-        "Pizza Hut Museum"
-      ],
-      "lunch": "Cafe Bel Ami",
-      "dinner": "Prost",
+      "accommodation": "Twin Lakes Family Escape",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Downtown Retreat",
+          "name": "Twin Lakes Family Escape",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "Emporia and Lincoln IB",
-          "dist_m": 233.24
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
         },
         {
-          "name": "Downtown Retreat",
+          "name": "Twin Lakes Family Escape",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "Emporia and Lincoln IB",
-          "dist_m": 233.24
-        },
-        {
-          "name": "Bella Vita",
-          "kind": "visit",
-          "start": "09:25",
-          "end": "10:16",
-          "nearest_transit": "Douglas and West OB",
-          "dist_m": 111.74
-        },
-        {
-          "name": "Old Town",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "13:27",
-          "nearest_transit": "Washington and 2nd St IB",
-          "dist_m": 155.8
-        },
-        {
-          "name": "Cafe Bel Ami",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "Douglas and Market IB",
-          "dist_m": 141.26
-        },
-        {
-          "name": "Pizza Hut Museum",
-          "kind": "visit",
-          "start": "16:30",
-          "end": "18:57",
-          "nearest_transit": "WSU Welcome Center",
-          "dist_m": 41.48
-        },
-        {
-          "name": "Prost",
-          "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
-          "nearest_transit": "Central and Volutsia OB",
-          "dist_m": 49.11
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
         }
       ]
     },
     {
       "day": 3,
-      "current_city": "from Wichita to Denver",
-      "transportation": "Transfer, from Wichita to Denver",
-      "accommodation": "-",
-      "breakfast": "Little Saigon",
-      "attractions": [
-        "Kansas Aviation Museum",
-        "Paramount Antique Mall"
-      ],
-      "lunch": "The Sweet Spot",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "The Uptown B - Private, Modern, Comfortable Stay",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
       "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Downtown Retreat",
+          "name": "Twin Lakes Family Escape",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "Emporia and Lincoln IB",
-          "dist_m": 233.24
+          "nearest_transit": "Starlite",
+          "dist_m": 33928.75
         },
         {
-          "name": "Little Saigon",
-          "kind": "visit",
-          "start": "09:25",
-          "end": "10:16",
-          "nearest_transit": "Broadway and 9th St IB",
-          "dist_m": 34.07
+          "name": "The Uptown B - Private, Modern, Comfortable Stay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "6th Ave & 22nd St",
+          "dist_m": 215.7
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "-",
+      "accommodation": "The Uptown B - Private, Modern, Comfortable Stay",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Uptown B - Private, Modern, Comfortable Stay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "6th Ave & 22nd St",
+          "dist_m": 215.7
         },
         {
-          "name": "Kansas Aviation Museum",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "13:57",
-          "nearest_transit": "Geo Wash Blvd and Oliver IB",
-          "dist_m": 1496.67
-        },
+          "name": "The Uptown B - Private, Modern, Comfortable Stay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "6th Ave & 22nd St",
+          "dist_m": 215.7
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Cedar Rapids to Valparaiso",
+      "transportation": "-",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
         {
-          "name": "The Sweet Spot",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "8279 W Central OB",
-          "dist_m": 64.66
-        },
-        {
-          "name": "Paramount Antique Mall",
-          "kind": "visit",
-          "start": "16:30",
-          "end": "17:27",
-          "nearest_transit": "Tyler&Central Inbound",
-          "dist_m": 5426.65
+          "name": "The Uptown B - Private, Modern, Comfortable Stay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "6th Ave & 22nd St",
+          "dist_m": 215.7
         }
       ]
     }

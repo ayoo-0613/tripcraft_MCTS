@@ -2,12 +2,22 @@
   "idx": 232,
   "stages": [
     {
-      "city": "Washington",
+      "city": "Amarillo",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
+        "events": 25
+      }
+    },
+    {
+      "city": "Corpus Christi",
+      "counts": {
+        "attractions": 17,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Washington",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0062624, from Houston to Washington, Departure Time: 20:19, Arrival Time: 23:56"
+      "from": "Nashville",
+      "to": "Amarillo",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Washington",
+      "from": "Nashville",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Houston to Washington, Not feasible to drive from Houston to Washington"
+      "raw": "Self-driving, from Nashville to Amarillo, Duration: 983.1266666666667 mins, Distance: 1506.9196000000002 km, Estimated Cost: $75.35"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Washington",
+      "from": "Nashville",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Houston to Washington, Not feasible to drive from Houston to Washington"
+      "raw": "Taxi, from Nashville to Amarillo, Duration: 983.1266666666667 mins, Distance: 1506.9196000000002 km, Estimated Cost: $1506.92"
     },
     {
       "mode": "flight",
-      "from": "Washington",
-      "to": "Houston",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0084522, from Washington to Houston, Departure Time: 07:04, Arrival Time: 09:31"
+      "from": "Amarillo",
+      "to": "Corpus Christi",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Washington",
-      "to": "Houston",
+      "from": "Amarillo",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Self-driving, from Washington to Houston, Not feasible to drive from Washington to Houston"
+      "raw": "Self-driving, from Amarillo to Corpus Christi, Duration: 680.4416666666667 mins, Distance: 1045.7828 km, Estimated Cost: $52.29"
     },
     {
       "mode": "taxi",
-      "from": "Washington",
-      "to": "Houston",
+      "from": "Amarillo",
+      "to": "Corpus Christi",
       "date": null,
-      "raw": "Taxi, from Washington to Houston, Not feasible to drive from Washington to Houston"
+      "raw": "Taxi, from Amarillo to Corpus Christi, Duration: 680.4416666666667 mins, Distance: 1045.7828 km, Estimated Cost: $1045.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Corpus Christi",
+      "to": "Nashville",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Corpus Christi",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Corpus Christi to Nashville, Duration: 1106.4066666666665 mins, Distance: 1592.0141 km, Estimated Cost: $79.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "Corpus Christi",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Corpus Christi to Nashville, Duration: 1106.4066666666665 mins, Distance: 1592.0141 km, Estimated Cost: $1592.01"
     }
   ]
 }

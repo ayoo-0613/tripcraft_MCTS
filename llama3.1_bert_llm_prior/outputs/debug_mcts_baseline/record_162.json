@@ -1,65 +1,117 @@
 {
   "idx": 162,
   "JSON": {
-    "org": "Sarasota",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Chicago",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-26",
-      "2024-11-27",
-      "2024-11-28"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
-      "room type": "private room",
-      "transportation": null,
+      "cuisine": "Italian",
+      "room type": null,
       "event": null,
-      "attraction": null
+      "attraction": null,
+      "transportation": null
     },
-    "budget": 2250.0,
-    "query": "Plan a 3-day trip for 1 person from Sarasota to New York from November 26th to November 28th, 2024, with a budget of $2,250. Accommodations should include a private room.",
+    "budget": 15300.0,
+    "query": "Plan a 7-day trip for 2 people traveling from Chicago to explore 3 cities in California between November 1st and November 7th, 2024. The budget is $15,300, and the itinerary should include Italian cuisine options.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Sarasota to New York",
-      "transportation": "Flight Number: F0260136, from Sarasota to New York, Departure Time: 18:07, Arrival Time: 20:57",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "East Village, Private room with access to garden, New York",
+      "current_city": "from Chicago to San Diego",
+      "transportation": "Taxi, from Chicago to San Diego, Not feasible to drive from Chicago to San Diego",
+      "breakfast": "World Famous, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "Cafe Coyote, San Diego",
+      "dinner": "Addison Restaurant, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; East Village, Private room with access to garden, stay from 21:27 to 22:15, nearest transit: 1 AV/E 1 ST, 79.09m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; Cafe Coyote, visit from 13:57 to 14:56, nearest transit: Juan St & Harney St, 216.77m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "Rainbow Room, New York",
-      "attraction": "Times Square, New York",
-      "lunch": "Broadway Lounge, New York",
-      "dinner": "Lobster Place, New York",
-      "accommodation": "East Village, Private room with access to garden, New York",
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Morning Glory, San Diego",
+      "attraction": "Mission Beach, San Diego",
+      "lunch": "Casa Guadalajara, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Times Square, visit from 11:30 to 14:50, nearest transit: 7 AV/W 44 ST, 171.17m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; East Village, Private room with access to garden, stay from 22:15 to 08:00, nearest transit: 1 AV/E 1 ST, 79.09m away."
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away; Mission Beach, visit from 11:30 to 16:35, nearest transit: W Mission Bay Dr & Mission Bl, 219.18m away; Casa Guadalajara, visit from 13:57 to 14:56, nearest transit: Taylor St & Juan St, 50.62m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Sarasota",
-      "transportation": "Flight Number: F0262321, from New York to Sarasota, Departure Time: 14:20, Arrival Time: 17:02",
-      "breakfast": "BOOM, New York",
-      "attraction": "Rockefeller Center, New York",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from San Diego to San Francisco",
+      "transportation": "Flight Number: F0034327, from San Diego to San Francisco, Departure Time: 10:13, Arrival Time: 11:41",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Eagle Cafe, San Francisco",
+      "dinner": "Capital Restaurant, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Eagle Cafe, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Outerlands, San Francisco",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Waterbar, San Francisco",
+      "dinner": "Quince, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Outerlands, visit from 09:25 to 10:16, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Waterbar, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Quince, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Francisco to Fresno",
+      "transportation": "Flight Number: F0455732, from San Francisco to Fresno, Departure Time: 08:40, Arrival Time: 09:47",
+      "breakfast": "-",
+      "attraction": "Island Waterpark, Fresno",
+      "lunch": "Fresno, Fresno",
+      "dinner": "Parma, Fresno",
+      "accommodation": "Lazy Private Cottage, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 07:10 to 08:10, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Island Waterpark, visit from 11:30 to 17:20, nearest transit: SW SHAW - POLK, 867.35m away; Fresno, visit from 13:57 to 14:56, nearest transit: House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS, 557.44m away; Parma, visit from 19:51 to 21:00, nearest transit: SW Palm - Herndon, 199.36m away; Lazy Private Cottage, stay from 22:15 to 08:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Fresno to Fresno",
+      "transportation": "Transfer, from Fresno to Fresno",
+      "breakfast": "Elbow Room, Fresno",
+      "attraction": "Woodward Regional Park, Fresno",
+      "lunch": "Five, Fresno",
+      "dinner": "Dog House Grill, Fresno",
+      "accommodation": "Lazy Private Cottage, Fresno",
+      "event": "-",
+      "point_of_interest_list": "Lazy Private Cottage, stay from 08:00 to 09:00, nearest transit: SW Riverside - El Paso, 20723.14m away; Elbow Room, visit from 09:25 to 10:16, nearest transit: NW PALM - SHAW, 192.71m away; Woodward Regional Park, visit from 11:30 to 16:50, nearest transit: SW PERRIN - FOXHILL, 1167.50m away; Five, visit from 13:57 to 14:56, nearest transit: CHAMPLAIN - PERRIN, 74.64m away; Dog House Grill, visit from 19:51 to 21:00, nearest transit: SW SHAW - CHESTNUT, 40.76m away; Lazy Private Cottage, stay from 22:15 to 08:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Fresno to Chicago",
+      "transportation": "Flight Number: F2417142, from Fresno to Chicago, Departure Time: 23:56, Arrival Time: 05:32",
+      "breakfast": "Red Apple Cafe, Fresno",
+      "attraction": "Bad Axe Throwing Fresno, Fresno",
+      "lunch": "Train Depot, Fresno",
+      "dinner": "Fig Garden Village, Fresno",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "East Village, Private room with access to garden, stay from 08:00 to 09:00, nearest transit: 1 AV/E 1 ST, 79.09m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Rockefeller Center, visit from 11:30 to 15:20, nearest transit: W 49 ST/5 AV, 88.57m away."
+      "point_of_interest_list": "Lazy Private Cottage, stay from 08:00 to 09:00, nearest transit: SW Riverside - El Paso, 20723.14m away; Red Apple Cafe, visit from 09:25 to 10:16, nearest transit: NW HERNDON - INGRAM, 80.03m away; Bad Axe Throwing Fresno, visit from 11:30 to 13:50, nearest transit: SW Palm - Shields, 28.41m away; Train Depot, visit from 13:57 to 14:56, nearest transit: NW ASHLAN - FIRST, 116.67m away; Fig Garden Village, visit from 19:51 to 21:00, nearest transit: NW PALM - SHAW, 83.73m away."
     }
   ]
 }

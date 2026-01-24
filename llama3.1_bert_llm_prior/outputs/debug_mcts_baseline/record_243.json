@@ -1,65 +1,91 @@
 {
   "idx": 243,
   "JSON": {
-    "org": "Manchester",
-    "dest": "Charlotte",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "New York",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-08",
-      "2024-11-09",
-      "2024-11-10"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 2250.0,
-    "query": "Plan a 3-day trip for 2 people from Manchester to Charlotte from November 8th to November 10th, 2024, with a budget of $2,250.",
-    "level": "medium"
+    "budget": 2700.0,
+    "query": "Plan a 5-day trip for 1 person traveling from New York to explore 2 cities in North Carolina between November 1st and November 5th, 2024, with a budget of $2,700.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Travelers; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Manchester to Charlotte",
-      "transportation": "Flight Number: F0437368, from Manchester to Charlotte, Departure Time: 07:03, Arrival Time: 09:58",
+      "current_city": "from New York to Wilmington",
+      "transportation": "Flight Number: F0116083, from New York to Wilmington, Departure Time: 14:20, Arrival Time: 16:45",
       "breakfast": "-",
-      "attraction": "Spectrum Center, Charlotte; Freedom Park, Charlotte",
-      "lunch": "Charlotte Bakery, Charlotte",
-      "dinner": "The Capital Grille, Charlotte",
-      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Pilot House, Wilmington",
+      "accommodation": "Beautiful one bedroom steps to downtown riverwalk, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 10:28 to 11:28, nearest transit: Graham St & 10th St, 28.34m away; Spectrum Center, visit from 11:30 to 13:57, nearest transit: CTC/Arena CityLYNX, 95.01m away; Charlotte Bakery, visit from 13:57 to 14:56, nearest transit: White Street Park and Ride, 1016826.02m away; Freedom Park, visit from 16:30 to 20:27, nearest transit: East Blvd & Kings Dr, 701.42m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: Tryon St & 6th St, 103.97m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+      "point_of_interest_list": "Beautiful one bedroom steps to downtown riverwalk, stay from 08:00 to 09:00, nearest transit: 3rd St NB at Nun St, 40.85m away; Beautiful one bedroom steps to downtown riverwalk, stay from 17:15 to 18:15, nearest transit: 3rd St NB at Nun St, 40.85m away; Pilot House, visit from 19:51 to 21:00, nearest transit: Front St SB at Ann St, 112.21m away; Beautiful one bedroom steps to downtown riverwalk, stay from 22:15 to 08:00, nearest transit: 3rd St NB at Nun St, 40.85m away."
     },
     {
       "days": 2,
-      "current_city": "from Charlotte to Charlotte",
-      "transportation": "Transfer, from Charlotte to Charlotte",
-      "breakfast": "Queen Charlotte, Charlotte",
-      "attraction": "SouthPark, Charlotte; Wing Haven, Charlotte",
-      "lunch": "Princess Charlotte, Charlotte",
-      "dinner": "Charlotte Lane, Charlotte",
-      "accommodation": "Modern Walkable Uptown Flat- 7 blocks to Panthers, Charlotte",
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "Catch, Wilmington",
+      "attraction": "Downtown Wilmington, Wilmington; Riverwalk, Wilmington",
+      "lunch": "The Basics, Wilmington",
+      "dinner": "The Wilmington, Wilmington",
+      "accommodation": "Crestwood Cottage, Wilmington",
       "event": "-",
-      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Queen Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6385477.65m away; SouthPark, visit from 11:30 to 12:27, nearest transit: Southpark Community Transit Center, 112.94m away; Princess Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6465940.22m away; Wing Haven, visit from 16:30 to 20:27, nearest transit: Selwyn Ave & Sterling Rd, 345.69m away; Charlotte Lane, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 1612739.20m away; Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 22:15 to 08:00, nearest transit: Graham St & 10th St, 28.34m away."
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Catch, visit from 09:25 to 10:16, nearest transit: Market St WB at Dollar General, 552.38m away; Downtown Wilmington, visit from 11:30 to 13:27, nearest transit: Front St SB at Chestnut St, 66.26m away; The Basics, visit from 13:57 to 14:56, nearest transit: Front St NB at Grace St, 96.37m away; Riverwalk, visit from 16:30 to 18:57, nearest transit: Front St SB at Market St, 105.98m away; The Wilmington, visit from 19:51 to 21:00, nearest transit: Gordon Rd WB at Military Cutoff Rd, 6310808.05m away; Crestwood Cottage, stay from 22:15 to 08:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away."
     },
     {
       "days": 3,
-      "current_city": "from Charlotte to Manchester",
-      "transportation": "Flight Number: F0437456, from Charlotte to Manchester, Departure Time: 16:44, Arrival Time: 19:03",
-      "breakfast": "Bistro Charlotte, Charlotte",
-      "attraction": "Mint Museum Uptown, Charlotte",
-      "lunch": "Charlotte Quay Restaurant, Charlotte",
-      "dinner": "-",
+      "current_city": "from Wilmington to Charlotte",
+      "transportation": "Flight Number: F0116723, from Wilmington to Charlotte, Departure Time: 04:53, Arrival Time: 05:58",
+      "breakfast": "Charlotte Bakery, Charlotte",
+      "attraction": "Spectrum Center, Charlotte; SouthPark, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Queen Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Crestwood Cottage, stay from 03:23 to 04:23, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Charlotte Bakery, visit from 09:25 to 10:16, nearest transit: White Street Park and Ride, 1016826.02m away; Spectrum Center, visit from 11:30 to 13:57, nearest transit: CTC/Arena CityLYNX, 95.01m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; SouthPark, visit from 16:30 to 17:27, nearest transit: Southpark Community Transit Center, 112.94m away; Queen Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 6385477.65m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Charlotte Lane, Charlotte",
+      "attraction": "Freedom Park, Charlotte; Wing Haven, Charlotte",
+      "lunch": "Princess Charlotte, Charlotte",
+      "dinner": "Bistro Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Lane, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 1612739.20m away; Freedom Park, visit from 11:30 to 15:27, nearest transit: East Blvd & Kings Dr, 701.42m away; Princess Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6465940.22m away; Wing Haven, visit from 16:30 to 20:27, nearest transit: Selwyn Ave & Sterling Rd, 345.69m away; Bistro Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 7764630.63m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to New York",
+      "transportation": "Flight Number: F0130061, from Charlotte to New York, Departure Time: 22:17, Arrival Time: 00:03",
+      "breakfast": "Charlotte & Fritz, Charlotte",
+      "attraction": "Mint Museum Uptown, Charlotte; Fourth Ward, Charlotte",
+      "lunch": "ROKA Charlotte Street, Charlotte",
+      "dinner": "Charlotte Quay Restaurant, Charlotte",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Modern Walkable Uptown Flat- 7 blocks to Panthers, stay from 08:00 to 09:00, nearest transit: Graham St & 10th St, 28.34m away; Bistro Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 7764630.63m away; Mint Museum Uptown, visit from 11:30 to 14:13, nearest transit: Tryon St & Stonewall St, 100.42m away; Charlotte Quay Restaurant, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 5961834.13m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte & Fritz, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 7233404.02m away; Mint Museum Uptown, visit from 11:30 to 13:57, nearest transit: Tryon St & Stonewall St, 100.42m away; ROKA Charlotte Street, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6415395.43m away; Fourth Ward, visit from 16:30 to 18:27, nearest transit: Church St & 6th St, 129.82m away; Charlotte Quay Restaurant, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 5961834.13m away."
     }
   ]
 }

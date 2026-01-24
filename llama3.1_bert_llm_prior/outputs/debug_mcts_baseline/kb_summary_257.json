@@ -2,58 +2,89 @@
   "idx": 257,
   "stages": [
     {
-      "city": "Chattanooga",
+      "city": "Rochester",
       "counts": {
-        "attractions": 14,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 69,
-        "events": 12
+        "accommodations": 19,
+        "poi2transit": 73,
+        "events": 16
+      }
+    },
+    {
+      "city": "Watertown",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 15
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Chattanooga",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0457609, from Chicago to Chattanooga, Departure Time: 13:59, Arrival Time: 16:38"
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Chattanooga",
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
       "date": null,
-      "raw": "Self-driving, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $45.98"
+      "raw": "Self-driving, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $37.34"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Chattanooga",
+      "from": "Martha's Vineyard",
+      "to": "Rochester",
       "date": null,
-      "raw": "Taxi, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $919.64"
+      "raw": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Chicago",
-      "date": "2024-11-04",
-      "raw": "Flight Number: F0456984, from Chattanooga to Chicago, Departure Time: 06:34, Arrival Time: 07:34"
+      "from": "Rochester",
+      "to": "Watertown",
+      "date": "2024-11-05",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Chicago",
+      "from": "Rochester",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Chicago, Duration: 667.94 mins, Distance: 918.8884 km, Estimated Cost: $45.94"
+      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Chicago",
+      "from": "Rochester",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Chicago, Duration: 667.94 mins, Distance: 918.8884 km, Estimated Cost: $918.89"
+      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+    },
+    {
+      "mode": "flight",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": null,
+      "raw": "Self-driving, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $32.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Watertown",
+      "to": "Martha's Vineyard",
+      "date": null,
+      "raw": "Taxi, from Watertown to Martha's Vineyard, Duration: 552.3 mins, Distance: 653.3942 km, Estimated Cost: $653.39"
     }
   ]
 }

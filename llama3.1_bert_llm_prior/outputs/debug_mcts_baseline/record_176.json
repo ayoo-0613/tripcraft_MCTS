@@ -1,65 +1,94 @@
 {
   "idx": 176,
   "JSON": {
-    "org": "Washington",
-    "dest": "Nantucket",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Wilmington",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-02",
-      "2024-11-03",
-      "2024-11-04"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
-      "house rule": "visitors",
+      "house rule": null,
       "cuisine": null,
-      "room type": null,
-      "transportation": null,
+      "room type": "private room",
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Nature & Parks",
+        "Outdoor Activities"
+      ],
+      "transportation": "no flight"
     },
-    "budget": 2250.0,
-    "query": "Plan a 3-day trip for 1 person from Washington to Nantucket from November 2nd to November 4th, 2024, with a budget of $2,250. Accommodations should allow visitors as per the house rules.",
-    "level": "medium"
+    "budget": 3900.0,
+    "query": "Design a 5-day travel itinerary for 2 people starting from Wilmington and visiting 2 cities in New York between November 4th and November 8th, 2024. The budget is $3,900. Accommodations should include a private room. The trip should focus on attractions related to Nature & Parks and Outdoor Activities, and transportation should exclude flights.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Washington to Nantucket",
-      "transportation": "Flight Number: F1254522, from Washington to Nantucket, Departure Time: 12:13, Arrival Time: 14:48",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Breeze Restaurant, Nantucket",
-      "accommodation": "Nautical Downtown House (Sleeps 5), Nantucket",
+      "current_city": "from Wilmington to Watertown",
+      "transportation": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Charles River Greenway, Watertown; Bramble Park Zoo, Watertown",
+      "lunch": "Bistro 108, Watertown",
+      "dinner": "Empire Square, Watertown",
+      "accommodation": "Clean, cozy and convenient., Watertown",
       "event": "-",
-      "point_of_interest_list": "Nautical Downtown House (Sleeps 5), stay from 08:00 to 09:00, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away; Nautical Downtown House (Sleeps 5), stay from 15:18 to 16:18, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away; Breeze Restaurant, visit from 19:51 to 21:00, nearest transit: North Water Street/Easton Street (Outbound), 21.00m away; Nautical Downtown House (Sleeps 5), stay from 22:15 to 08:00, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away."
+      "point_of_interest_list": "Clean, cozy and convenient., stay from 08:00 to 09:00, nearest transit: Weldon Jewell, 506.60m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Charles River Greenway, visit from 11:30 to 15:12, nearest transit: Northland Plaza, 418957.03m away; Bistro 108, visit from 13:57 to 14:56, nearest transit: Transfer Station, 69.37m away; Bramble Park Zoo, visit from 16:30 to 19:37, nearest transit: Target - Towne Center Parking, 1683726.61m away; Empire Square, visit from 19:51 to 21:00, nearest transit: Transfer Station, 172.75m away; Clean, cozy and convenient., stay from 22:15 to 08:00, nearest transit: Weldon Jewell, 506.60m away."
     },
     {
       "days": 2,
-      "current_city": "from Nantucket to Nantucket",
-      "transportation": "Transfer, from Nantucket to Nantucket",
-      "breakfast": "Something Natural, Nantucket",
-      "attraction": "Cisco Brewers, Nantucket",
-      "lunch": "Dune, Nantucket",
-      "dinner": "Ventuno, Nantucket",
-      "accommodation": "Nautical Downtown House (Sleeps 5), Nantucket",
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Lotus Restaurant, Watertown",
+      "attraction": "New York State Zoo at Thompson Park, Watertown; Adirondack River Outfitters, Watertown",
+      "lunch": "Red Robin, Watertown",
+      "dinner": "Fairground Inn, Watertown",
+      "accommodation": "Clean, cozy and convenient., Watertown",
       "event": "-",
-      "point_of_interest_list": "Nautical Downtown House (Sleeps 5), stay from 08:00 to 09:00, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away; Something Natural, visit from 09:25 to 10:16, nearest transit: Cliff Road/North Liberty Street (Inbound), 84.83m away; Cisco Brewers, visit from 11:30 to 14:50, nearest transit: Catherine Lane, 872.46m away; Dune, visit from 13:57 to 14:56, nearest transit: Broad Street (in front of Whaling Museum), 126.28m away; Ventuno, visit from 19:51 to 21:00, nearest transit: Broad Street (in front of Whaling Museum), 98.66m away; Nautical Downtown House (Sleeps 5), stay from 22:15 to 08:00, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away."
+      "point_of_interest_list": "Clean, cozy and convenient., stay from 08:00 to 09:00, nearest transit: Weldon Jewell, 506.60m away; Lotus Restaurant, visit from 09:25 to 10:16, nearest transit: Price Chopper, 127.25m away; New York State Zoo at Thompson Park, visit from 11:30 to 14:37, nearest transit: Northland Plaza, 962.27m away; Red Robin, visit from 13:57 to 14:56, nearest transit: Hannaford Foods, 63.20m away; Adirondack River Outfitters, visit from 16:30 to 19:27, nearest transit: Transfer Station, 246.79m away; Fairground Inn, visit from 19:51 to 21:00, nearest transit: Coffeen VanDuzee, 215.08m away; Clean, cozy and convenient., stay from 22:15 to 08:00, nearest transit: Weldon Jewell, 506.60m away."
     },
     {
       "days": 3,
-      "current_city": "from Nantucket to Washington",
-      "transportation": "Flight Number: F1536771, from Nantucket to Washington, Departure Time: 10:01, Arrival Time: 11:28",
-      "breakfast": "-",
+      "current_city": "from Watertown to New York",
+      "transportation": "Taxi, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $516.22",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Central Park, New York; The High Line, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "Lobster Place, New York",
+      "accommodation": "Lamartine Chelsea 1B, New York",
+      "event": "-",
+      "point_of_interest_list": "Clean, cozy and convenient., stay from 08:00 to 09:00, nearest transit: Weldon Jewell, 506.60m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Central Park, visit from 11:30 to 14:42, nearest transit: 79 ST TRANSVERSE RD/CENTRAL PARK, 297.39m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; The High Line, visit from 16:30 to 19:42, nearest transit: GREENWICH ST/HORATIO ST, 184.89m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Lamartine Chelsea 1B, stay from 22:15 to 08:00, nearest transit: 8 AV/W 31 ST, 59.30m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "BOOM, New York",
       "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "lunch": "Bryant Park Grill, New York",
+      "dinner": "R Lounge, New York",
+      "accommodation": "Lamartine Chelsea 1B, New York",
+      "event": "-",
+      "point_of_interest_list": "Lamartine Chelsea 1B, stay from 08:00 to 09:00, nearest transit: 8 AV/W 31 ST, 59.30m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; Lamartine Chelsea 1B, stay from 22:15 to 08:00, nearest transit: 8 AV/W 31 ST, 59.30m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from New York to Wilmington",
+      "transportation": "Transfer, from New York to Wilmington",
+      "breakfast": "Westway Diner, New York",
+      "attraction": "-",
+      "lunch": "Harry's, New York",
+      "dinner": "Times Square Diner, New York",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Nautical Downtown House (Sleeps 5), stay from 08:00 to 09:00, nearest transit: West Chester Street/New Lane (Inbound), 36.76m away."
+      "point_of_interest_list": "Lamartine Chelsea 1B, stay from 08:00 to 09:00, nearest transit: 8 AV/W 31 ST, 59.30m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; Harry's, visit from 13:57 to 14:56, nearest transit: WATER ST/HANOVER SQ, 85.83m away; Times Square Diner, visit from 19:51 to 21:00, nearest transit: W 49 ST/8 AV, 51.46m away."
     }
   ]
 }

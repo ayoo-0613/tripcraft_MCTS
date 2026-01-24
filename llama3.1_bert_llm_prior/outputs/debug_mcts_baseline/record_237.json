@@ -1,65 +1,91 @@
 {
   "idx": 237,
   "JSON": {
-    "org": "San Francisco",
-    "dest": "Atlanta",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Ontario",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-14",
-      "2024-11-15",
-      "2024-11-16"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": null,
+      "transportation": null
     },
-    "budget": 2700.0,
-    "query": "Plan a 3-day trip for 1 person from San Francisco to Atlanta from November 14th to November 16th, 2024, with a budget of $2,700.",
+    "budget": 8400.0,
+    "query": "Plan a 5-day trip for 2 people from Ontario to explore 2 cities in New York from November 1st to November 5th, 2024, with a budget of $8,400.",
     "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from San Francisco to Atlanta",
-      "transportation": "Taxi, from San Francisco to Atlanta, Not feasible to drive from San Francisco to Atlanta",
-      "breakfast": "Home Grown, Atlanta",
-      "attraction": "Fox Theatre, Atlanta; Swan House, Atlanta",
-      "lunch": "Canoe, Atlanta",
-      "dinner": "Marcel, Atlanta",
-      "accommodation": "Alpaca Treehouse in the Bamboo Forest, Atlanta",
+      "current_city": "from Ontario to New York",
+      "transportation": "Taxi, from Ontario to New York, Duration: 396.88 mins, Distance: 510.32079999999996 km, Estimated Cost: $510.32",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Times Square, New York; Chelsea Market, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "BOOM, New York",
+      "accommodation": "Dazzling Oasis | Times Square. Restaurant, New York",
       "event": "-",
-      "point_of_interest_list": "Alpaca Treehouse in the Bamboo Forest, stay from 08:00 to 09:00, nearest transit: BOULDERCREST DR SE @ WAINWRIGHT DR SE, 360.67m away; Home Grown, visit from 09:25 to 10:16, nearest transit: MEMORIAL DR SE @ GIBSON ST SE, 49.17m away; Fox Theatre, visit from 11:30 to 13:42, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Canoe, visit from 13:57 to 14:56, nearest transit: NORTHSIDE PKWY @ RIVER GREEN DR, 738.85m away; Swan House, visit from 16:30 to 18:57, nearest transit: PEACHTREE RD NW @ PHARR RD NW, 659.66m away; Marcel, visit from 19:51 to 21:00, nearest transit: HOWELL MILL RD NW @ 14TH ST NW, 77.33m away; Alpaca Treehouse in the Bamboo Forest, stay from 22:15 to 08:00, nearest transit: BOULDERCREST DR SE @ WAINWRIGHT DR SE, 360.67m away."
+      "point_of_interest_list": "Dazzling Oasis | Times Square. Restaurant, stay from 08:00 to 09:00, nearest transit: W 50 ST/7 AV, 82.76m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Times Square, visit from 11:30 to 13:27, nearest transit: 7 AV/W 44 ST, 171.17m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Chelsea Market, visit from 16:30 to 17:27, nearest transit: W 14 ST/WASHINGTON ST, 131.35m away; BOOM, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Dazzling Oasis | Times Square. Restaurant, stay from 22:15 to 08:00, nearest transit: W 50 ST/7 AV, 82.76m away."
     },
     {
       "days": 2,
-      "current_city": "from Atlanta to Atlanta",
-      "transportation": "Transfer, from Atlanta to Atlanta",
-      "breakfast": "Aria, Atlanta",
-      "attraction": "Georgia Aquarium, Atlanta; Zoo Atlanta, Atlanta",
-      "lunch": "The Capital Grille, Atlanta",
-      "dinner": "Bangkok Station, Atlanta",
-      "accommodation": "Alpaca Treehouse in the Bamboo Forest, Atlanta",
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Lobster Place, New York",
+      "attraction": "Brooklyn Bridge, New York; SUMMIT One Vanderbilt, New York",
+      "lunch": "R Lounge, New York",
+      "dinner": "Bryant Park Grill, New York",
+      "accommodation": "Standard 1 King at Hotel Indigo Williamsburg, New York",
       "event": "-",
-      "point_of_interest_list": "Alpaca Treehouse in the Bamboo Forest, stay from 08:00 to 09:00, nearest transit: BOULDERCREST DR SE @ WAINWRIGHT DR SE, 360.67m away; Aria, visit from 09:25 to 10:16, nearest transit: PIEDMONT RD NE @ E PACES FERRY RD NE, 250.25m away; Georgia Aquarium, visit from 11:30 to 14:27, nearest transit: IVAN ALLEN JR BLVD NW @ LUCKIE ST, 131.37m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: PEACHTREE RD @ E PACES FERRY RD NE, 94.17m away; Zoo Atlanta, visit from 16:30 to 19:37, nearest transit: CHEROKEE AVE @ GRANT PARK PL, 195.14m away; Bangkok Station, visit from 19:51 to 21:00, nearest transit: PIEDMONT RD NE @ PEACHTREE DR NE, 153.20m away; Alpaca Treehouse in the Bamboo Forest, stay from 22:15 to 08:00, nearest transit: BOULDERCREST DR SE @ WAINWRIGHT DR SE, 360.67m away."
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Lobster Place, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; R Lounge, visit from 13:57 to 14:56, nearest transit: W 49 ST/7 AV, 131.04m away; SUMMIT One Vanderbilt, visit from 16:30 to 18:57, nearest transit: E 42 ST/MADISON AV, 28.59m away; Bryant Park Grill, visit from 19:51 to 21:00, nearest transit: 5 AV/W 42 ST, 147.14m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 22:15 to 08:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
     },
     {
       "days": 3,
-      "current_city": "from Atlanta to San Francisco",
-      "transportation": "Flight Number: F0289614, from Atlanta to San Francisco, Departure Time: 11:03, Arrival Time: 13:31",
-      "breakfast": "Steamhouse Lounge, Atlanta",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from New York to Newburgh",
+      "transportation": "Transfer, from New York to Newburgh",
+      "breakfast": "Subway, Newburgh",
+      "attraction": "Grit Works, Newburgh; Downing Park, Newburgh",
+      "lunch": "Cafe Alice, Newburgh",
+      "dinner": "Alexis Diner, Newburgh",
+      "accommodation": "Romantic Riverfront Retreat | Fall Foliage Views, Newburgh",
+      "event": "-",
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Subway, visit from 09:25 to 10:16, nearest transit: Stewart Airport, 1208321.97m away; Grit Works, visit from 11:30 to 13:12, nearest transit: Broadway & Liberty St, 101.81m away; Cafe Alice, visit from 13:57 to 14:56, nearest transit: Beacon Station, 5183193.10m away; Downing Park, visit from 16:30 to 20:27, nearest transit: Broadway & Rte 9W, 553.64m away; Alexis Diner, visit from 19:51 to 21:00, nearest transit: Plank Rd & Rte 9W, 321.47m away; Romantic Riverfront Retreat | Fall Foliage Views, stay from 22:15 to 08:00, nearest transit: Broadway & Grand St, 817.33m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Newburgh to Newburgh",
+      "transportation": "Transfer, from Newburgh to Newburgh",
+      "breakfast": "Abrams Bakery, Newburgh",
+      "attraction": "Tower of Victory, Newburgh; Ann Street Gallery, Newburgh",
+      "lunch": "Blu Pointe, Newburgh",
+      "dinner": "Cafe Arazu, Newburgh",
+      "accommodation": "Romantic Riverfront Retreat | Fall Foliage Views, Newburgh",
+      "event": "-",
+      "point_of_interest_list": "Romantic Riverfront Retreat | Fall Foliage Views, stay from 08:00 to 09:00, nearest transit: Broadway & Grand St, 817.33m away; Abrams Bakery, visit from 09:25 to 10:16, nearest transit: Stewart Airport, 387186.34m away; Tower of Victory, visit from 11:30 to 13:57, nearest transit: Broadway & Grand St, 239.25m away; Blu Pointe, visit from 13:57 to 14:56, nearest transit: South St & Grand St, 382.06m away; Ann Street Gallery, visit from 16:30 to 18:57, nearest transit: Broadway & Liberty St, 109.37m away; Cafe Arazu, visit from 19:51 to 21:00, nearest transit: Stewart Airport, 1205555.11m away; Romantic Riverfront Retreat | Fall Foliage Views, stay from 22:15 to 08:00, nearest transit: Broadway & Grand St, 817.33m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Newburgh to Ontario",
+      "transportation": "Transfer, from Newburgh to Ontario",
+      "breakfast": "The River Grill, Newburgh",
+      "attraction": "Lawrence Farms Orchards, Newburgh; Resorts World Hudson Valley, Newburgh",
+      "lunch": "Newburgh Inn, Newburgh",
+      "dinner": "The Wherehouse, Newburgh",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Alpaca Treehouse in the Bamboo Forest, stay from 08:00 to 09:00, nearest transit: BOULDERCREST DR SE @ WAINWRIGHT DR SE, 360.67m away; Steamhouse Lounge, visit from 09:25 to 10:16, nearest transit: W PEACHTREE ST @ 12TH ST, 93.00m away."
+      "point_of_interest_list": "Romantic Riverfront Retreat | Fall Foliage Views, stay from 08:00 to 09:00, nearest transit: Broadway & Grand St, 817.33m away; The River Grill, visit from 09:25 to 10:16, nearest transit: Broadway & Grand St, 523.55m away; Lawrence Farms Orchards, visit from 11:30 to 13:57, nearest transit: Plank Rd & Rte 9W, 6323.78m away; Newburgh Inn, visit from 13:57 to 14:56, nearest transit: Beacon Station, 5232669.51m away; Resorts World Hudson Valley, visit from 16:30 to 17:57, nearest transit: Rte 17K Park & Ride, 1780.41m away; The Wherehouse, visit from 19:51 to 21:00, nearest transit: Broadway & Liberty St, 110.81m away."
     }
   ]
 }

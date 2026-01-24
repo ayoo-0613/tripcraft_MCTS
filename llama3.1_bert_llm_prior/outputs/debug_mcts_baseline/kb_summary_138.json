@@ -2,89 +2,120 @@
   "idx": 138,
   "stages": [
     {
-      "city": "Beaumont",
-      "counts": {
-        "attractions": 10,
-        "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 66,
-        "events": 1
-      }
-    },
-    {
-      "city": "Amarillo",
+      "city": "Cedar Rapids",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 12
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 6
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "Beaumont",
-      "date": "2024-11-03",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Tucson",
-      "to": "Beaumont",
-      "date": null,
-      "raw": "Self-driving, from Tucson to Beaumont, Duration: 1169.62 mins, Distance: 1845.1055 km, Estimated Cost: $92.26"
-    },
-    {
-      "mode": "taxi",
-      "from": "Tucson",
-      "to": "Beaumont",
-      "date": null,
-      "raw": "Taxi, from Tucson to Beaumont, Duration: 1169.62 mins, Distance: 1845.1055 km, Estimated Cost: $1845.11"
-    },
-    {
-      "mode": "flight",
-      "from": "Beaumont",
-      "to": "Amarillo",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": "2024-11-05",
-      "raw": "-"
+      "raw": "Flight Number: F0153294, from Detroit to Cedar Rapids, Departure Time: 15:49, Arrival Time: 16:25"
     },
     {
       "mode": "self-driving",
-      "from": "Beaumont",
-      "to": "Amarillo",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Beaumont to Amarillo, Duration: 711.2516666666667 mins, Distance: 1026.4141 km, Estimated Cost: $51.32"
+      "raw": "Self-driving, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $41.25"
     },
     {
       "mode": "taxi",
-      "from": "Beaumont",
-      "to": "Amarillo",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Beaumont to Amarillo, Duration: 711.2516666666667 mins, Distance: 1026.4141 km, Estimated Cost: $1026.41"
+      "raw": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09"
     },
     {
       "mode": "flight",
-      "from": "Amarillo",
-      "to": "Tucson",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Amarillo",
-      "to": "Tucson",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Amarillo to Tucson, Duration: 752.425 mins, Distance: 1078.3512 km, Estimated Cost: $53.92"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "Amarillo",
-      "to": "Tucson",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Amarillo to Tucson, Duration: 752.425 mins, Distance: 1078.3512 km, Estimated Cost: $1078.35"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $9.45"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $53.65"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99"
     }
   ]
 }

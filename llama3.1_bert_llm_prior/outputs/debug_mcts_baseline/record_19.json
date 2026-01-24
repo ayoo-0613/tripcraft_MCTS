@@ -1,94 +1,120 @@
 {
   "idx": 19,
   "JSON": {
-    "org": "El Paso",
-    "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Chicago",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-01",
-      "2024-11-02",
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
-    "people_number": 3,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Mexican",
-        "Chinese"
-      ],
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Museums",
+        "Sights & Landmarks"
+      ]
     },
-    "budget": 7150.0,
-    "query": "Plan a 5-day trip for 3 people traveling from El Paso to explore 2 cities in California between November 1st and November 5th, 2024. The budget is $7,150. Include dining options with Mexican and Chinese cuisine.",
+    "budget": 7500.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Chicago and visiting 3 cities in Iowa between November 3rd and November 9th, 2024. The budget is $7,500. The plan should include visits to museums and sights & landmarks.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from El Paso to Sacramento",
-      "transportation": "Taxi, from El Paso to Sacramento, Duration: 1267.1483333333333 mins, Distance: 1905.9524 km, Estimated Cost: $1905.95",
-      "breakfast": "Orphan, Sacramento",
-      "attraction": "Old Sacramento, Sacramento",
-      "lunch": "Tower Cafe, Sacramento",
-      "dinner": "Revival, Sacramento",
-      "accommodation": "Sac City Loft, Sacramento",
+      "current_city": "from Chicago to Mason City",
+      "transportation": "Flight Number: F0453854, from Chicago to Mason City, Departure Time: 13:53, Arrival Time: 15:13",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Plaza Mexico Mason City, Mason City",
+      "accommodation": "Cozy windfall, Mason City",
       "event": "-",
-      "point_of_interest_list": "Sac City Loft, stay from 08:00 to 09:00, nearest transit: 21ST ST & P ST (NB), 176.77m away; Orphan, visit from 09:25 to 10:16, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; Old Sacramento, visit from 11:30 to 15:20, nearest transit: 3RD ST & K ST (NB), 235.49m away; Tower Cafe, visit from 13:57 to 14:56, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Revival, visit from 19:51 to 21:00, nearest transit: J ST & 6TH ST (EB), 79.22m away; Sac City Loft, stay from 22:15 to 08:00, nearest transit: 21ST ST & P ST (NB), 176.77m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Cozy windfall, stay from 15:43 to 16:43, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Plaza Mexico Mason City, visit from 19:51 to 21:00, nearest transit: S Pennsylvania Ave. and 19th St. SE, 187.49m away; Cozy windfall, stay from 22:15 to 08:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away."
     },
     {
       "days": 2,
-      "current_city": "from Sacramento to Sacramento",
-      "transportation": "Transfer, from Sacramento to Sacramento",
-      "breakfast": "Localis, Sacramento",
-      "attraction": "Tower Bridge, Sacramento",
-      "lunch": "Aviators Restaurant, Sacramento",
-      "dinner": "The Waterboy, Sacramento",
-      "accommodation": "Sac City Loft, Sacramento",
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "Mason Jar, Mason City",
+      "attraction": "Rancho Deluxe, Mason City",
+      "lunch": "China Buffet, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Cozy windfall, Mason City",
       "event": "-",
-      "point_of_interest_list": "Sac City Loft, stay from 08:00 to 09:00, nearest transit: 21ST ST & P ST (NB), 176.77m away; Localis, visit from 09:25 to 10:16, nearest transit: 21ST ST & R ST (NB), 35.88m away; Tower Bridge, visit from 11:30 to 15:20, nearest transit: L ST & 4TH ST (WB), 26.39m away; Aviators Restaurant, visit from 13:57 to 14:56, nearest transit: FREEPORT BLVD & MCALLISTER AVE (SB), 185.83m away; The Waterboy, visit from 19:51 to 21:00, nearest transit: 21ST ST & CAPITOL AVE (NB), 117.25m away; Sac City Loft, stay from 22:15 to 08:00, nearest transit: 21ST ST & P ST (NB), 176.77m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Mason Jar, visit from 09:25 to 10:16, nearest transit: 24th St. SW and S Jefferson Ave., 464148.03m away; Rancho Deluxe, visit from 11:30 to 15:20, nearest transit: N Connecticut Ave. and 2nd St. NE, 111.40m away; China Buffet, visit from 13:57 to 14:56, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; The Quarry, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Cozy windfall, stay from 22:15 to 08:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away."
     },
     {
       "days": 3,
-      "current_city": "from Sacramento to Monterey",
-      "transportation": "Transfer, from Sacramento to Monterey",
-      "breakfast": "Fish Hopper, Monterey",
-      "attraction": "Perry House, Monterey",
-      "lunch": "Tidal Coffee, Monterey",
-      "dinner": "Cafe Fina, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from Mason City to Fort Dodge",
+      "transportation": "Flight Number: F0457102, from Mason City to Fort Dodge, Departure Time: 16:01, Arrival Time: 16:52",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Subway, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Sac City Loft, stay from 08:00 to 09:00, nearest transit: 21ST ST & P ST (NB), 176.77m away; Fish Hopper, visit from 09:25 to 10:16, nearest transit: Cannery Row / Prescott, 76.06m away; Perry House, visit from 11:30 to 15:20, nearest transit: Pacific / Scott, 79.46m away; Tidal Coffee, visit from 13:57 to 14:56, nearest transit: Cannery Row / Drake, 46.73m away; Cafe Fina, visit from 19:51 to 21:00, nearest transit: Olivier St / 155 MPR Trail, 146.98m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Subway, visit from 19:51 to 21:00, nearest transit: A St and Ave O W, 101.37m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 4,
-      "current_city": "from Monterey to Monterey",
-      "transportation": "Transfer, from Monterey to Monterey",
-      "breakfast": "Old Monterey Cafe, Monterey",
-      "attraction": "MST Trolley, Monterey",
-      "lunch": "Crystal Fish, Monterey",
-      "dinner": "Montrio, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Pizza Hut, Fort Dodge",
+      "dinner": "Sports Page, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Old Monterey Cafe, visit from 09:25 to 10:16, nearest transit: Monterey Transit Plaza / Gate 3 Pearl, 45.93m away; MST Trolley, visit from 11:30 to 13:50, nearest transit: Cannery Row / Prescott, 18.07m away; Crystal Fish, visit from 13:57 to 14:56, nearest transit: Lighthouse / Hoffman, 98.34m away; Montrio, visit from 19:51 to 21:00, nearest transit: Pacific / Parking Garage, 71.33m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Village Inn, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Pizza Hut, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Sports Page, visit from 19:51 to 21:00, nearest transit: Evergreen Estates, 68.77m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 5,
-      "current_city": "from Monterey to El Paso",
-      "transportation": "Transfer, from Monterey to El Paso",
-      "breakfast": "Chart House, Monterey",
-      "attraction": "Coast Guard Pier, Monterey",
-      "lunch": "First Awakenings, Monterey",
-      "dinner": "Schooners Monterey, Monterey",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
+      "breakfast": "Zeppelins, Cedar Rapids",
+      "attraction": "Brucemore, Cedar Rapids",
+      "lunch": "350 First, Cedar Rapids",
+      "dinner": "The Map Room, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; 350 First, visit from 13:57 to 14:56, nearest transit: 3rd St & 2nd Ave, 159.53m away; The Map Room, visit from 19:51 to 21:00, nearest transit: 5th Ave & RR tracks, 111.63m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "Mount Trashmore, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "The Blind Pig, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; Mount Trashmore, visit from 11:30 to 16:10, nearest transit: C St & Rapids Ave, 656.14m away; The Breakfast House, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; The Blind Pig, visit from 19:51 to 21:00, nearest transit: 3335 Center Point Rd (Papa Murph), 140.18m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Cedar Rapids to Chicago",
+      "transportation": "Flight Number: F0388768, from Cedar Rapids to Chicago, Departure Time: 16:23, Arrival Time: 17:38",
+      "breakfast": "Lightworks Cafe, Cedar Rapids",
+      "attraction": "Grant Wood Studio, Cedar Rapids",
+      "lunch": "The Class Act Restaurant, Cedar Rapids",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Chart House, visit from 09:25 to 10:16, nearest transit: Cannery Row / Drake, 139.04m away; Coast Guard Pier, visit from 11:30 to 15:20, nearest transit: Foam / Reeside, 384.16m away; First Awakenings, visit from 13:57 to 14:56, nearest transit: David / Hawthorne, 56.63m away; Schooners Monterey, visit from 19:51 to 21:00, nearest transit: Cannery Row / Drake, 47.78m away."
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Lightworks Cafe, visit from 09:25 to 10:16, nearest transit: 6th St & 6th Ave, 178.56m away; Grant Wood Studio, visit from 11:30 to 15:20, nearest transit: 2nd Ave & 8th St, 66.36m away; The Class Act Restaurant, visit from 13:57 to 14:56, nearest transit: 76th Ave Dr & Kirkwood Hotel, 132.89m away."
     }
   ]
 }

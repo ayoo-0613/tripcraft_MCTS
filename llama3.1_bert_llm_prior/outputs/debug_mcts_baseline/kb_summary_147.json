@@ -2,9 +2,9 @@
   "idx": 147,
   "stages": [
     {
-      "city": "Los Angeles",
+      "city": "San Francisco",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -12,11 +12,21 @@
       }
     },
     {
-      "city": "Santa Rosa",
+      "city": "Fresno",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 2
+      }
+    },
+    {
+      "city": "Sacramento",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Dallas",
-      "to": "Los Angeles",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0039324, from Dallas to Los Angeles, Departure Time: 10:07, Arrival Time: 11:11"
+      "from": "Portland",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0240738, from Portland to San Francisco, Departure Time: 08:45, Arrival Time: 10:25"
     },
     {
       "mode": "self-driving",
-      "from": "Dallas",
-      "to": "Los Angeles",
+      "from": "Portland",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles"
+      "raw": "Self-driving, from Portland to San Francisco, Duration: 733.7900000000001 mins, Distance: 1020.2180999999999 km, Estimated Cost: $51.01"
     },
     {
       "mode": "taxi",
-      "from": "Dallas",
-      "to": "Los Angeles",
+      "from": "Portland",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Dallas to Los Angeles, Not feasible to drive from Dallas to Los Angeles"
+      "raw": "Taxi, from Portland to San Francisco, Duration: 733.7900000000001 mins, Distance: 1020.2180999999999 km, Estimated Cost: $1020.22"
     },
     {
       "mode": "flight",
-      "from": "Los Angeles",
-      "to": "Santa Rosa",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0451627, from Los Angeles to Santa Rosa, Departure Time: 12:15, Arrival Time: 13:49"
+      "from": "San Francisco",
+      "to": "Fresno",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0455633, from San Francisco to Fresno, Departure Time: 15:55, Arrival Time: 16:56"
     },
     {
       "mode": "self-driving",
-      "from": "Los Angeles",
-      "to": "Santa Rosa",
+      "from": "San Francisco",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Los Angeles to Santa Rosa, Duration: 480.65833333333336 mins, Distance: 688.4894 km, Estimated Cost: $34.42"
+      "raw": "Self-driving, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $14.99"
     },
     {
       "mode": "taxi",
-      "from": "Los Angeles",
-      "to": "Santa Rosa",
+      "from": "San Francisco",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Los Angeles to Santa Rosa, Duration: 480.65833333333336 mins, Distance: 688.4894 km, Estimated Cost: $688.49"
+      "raw": "Taxi, from San Francisco to Fresno, Duration: 220.69500000000002 mins, Distance: 299.85609999999997 km, Estimated Cost: $299.86"
     },
     {
       "mode": "flight",
-      "from": "Santa Rosa",
-      "to": "Dallas",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0400333, from Santa Rosa to Dallas, Departure Time: 14:00, Arrival Time: 19:23"
+      "from": "Fresno",
+      "to": "Sacramento",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Rosa",
-      "to": "Dallas",
+      "from": "Fresno",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Santa Rosa to Dallas, Not feasible to drive from Santa Rosa to Dallas"
+      "raw": "Self-driving, from Fresno to Sacramento, Duration: 198.64666666666665 mins, Distance: 272.8536 km, Estimated Cost: $13.64"
     },
     {
       "mode": "taxi",
-      "from": "Santa Rosa",
-      "to": "Dallas",
+      "from": "Fresno",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Santa Rosa to Dallas, Not feasible to drive from Santa Rosa to Dallas"
+      "raw": "Taxi, from Fresno to Sacramento, Duration: 198.64666666666665 mins, Distance: 272.8536 km, Estimated Cost: $272.85"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0086885, from Sacramento to Portland, Departure Time: 16:40, Arrival Time: 18:00"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Portland, Duration: 667.9300000000001 mins, Distance: 932.3056 km, Estimated Cost: $46.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Portland",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Portland, Duration: 667.9300000000001 mins, Distance: 932.3056 km, Estimated Cost: $932.31"
     }
   ]
 }

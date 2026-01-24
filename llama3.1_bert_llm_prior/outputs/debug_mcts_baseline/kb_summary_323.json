@@ -2,58 +2,89 @@
   "idx": 323,
   "stages": [
     {
-      "city": "Tampa",
+      "city": "Memphis",
       "counts": {
-        "attractions": 20,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 22
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Kansas City",
-      "to": "Tampa",
-      "date": "2024-11-27",
-      "raw": "Flight Number: F0024862, from Kansas City to Tampa, Departure Time: 19:30, Arrival Time: 22:52"
+      "from": "Peoria",
+      "to": "Memphis",
+      "date": "2024-11-07",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Kansas City",
-      "to": "Tampa",
+      "from": "Peoria",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Kansas City to Tampa, Duration: 1382.575 mins, Distance: 2019.1095 km, Estimated Cost: $100.96"
+      "raw": "Self-driving, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $36.24"
     },
     {
       "mode": "taxi",
-      "from": "Kansas City",
-      "to": "Tampa",
+      "from": "Peoria",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Kansas City to Tampa, Duration: 1382.575 mins, Distance: 2019.1095 km, Estimated Cost: $2019.11"
+      "raw": "Taxi, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $724.79"
     },
     {
       "mode": "flight",
-      "from": "Tampa",
-      "to": "Kansas City",
-      "date": "2024-11-29",
-      "raw": "Flight Number: F0056422, from Tampa to Kansas City, Departure Time: 21:23, Arrival Time: 00:04"
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Kansas City",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Tampa to Kansas City, Duration: 1387.3916666666667 mins, Distance: 2022.0329 km, Estimated Cost: $101.10"
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Kansas City",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Tampa to Kansas City, Duration: 1387.3916666666667 mins, Distance: 2022.0329 km, Estimated Cost: $2022.03"
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Peoria",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $44.97"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $899.39"
     }
   ]
 }

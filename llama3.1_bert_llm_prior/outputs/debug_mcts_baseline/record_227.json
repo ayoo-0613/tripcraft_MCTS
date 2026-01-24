@@ -1,65 +1,91 @@
 {
   "idx": 227,
   "JSON": {
-    "org": "Seattle",
-    "dest": "Monterey",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "St. Louis",
+    "dest": "Iowa",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-14",
-      "2024-11-15",
-      "2024-11-16"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "entire home",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1650.0,
-    "query": "Plan a 3-day trip for 1 person from Seattle to Monterey from November 14th to November 16th, 2024, with a budget of $1,650.",
-    "level": "easy"
+    "budget": 2550.0,
+    "query": "Plan a 5-day trip for 1 person from St. Louis to explore 2 cities in Iowa between November 5th and November 9th, 2024. The budget is $2,550, and accommodations should include an entire home.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Seattle to Monterey",
-      "transportation": "Flight Number: F0512226, from Seattle to Monterey, Departure Time: 11:31, Arrival Time: 13:48",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "Fish Hopper, Monterey",
-      "dinner": "Tidal Coffee, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from St. Louis to Fort Dodge",
+      "transportation": "Taxi, from St. Louis to Fort Dodge, Duration: 514.2233333333334 mins, Distance: 704.619 km, Estimated Cost: $704.62",
+      "breakfast": "Subway, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Pizza Hut, Fort Dodge",
+      "dinner": "Village Inn, Fort Dodge",
+      "accommodation": "Twin Lakes Family Escape, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Fish Hopper, visit from 13:57 to 14:56, nearest transit: Cannery Row / Prescott, 76.06m away; The Mermaid Bungalow, stay from 14:18 to 15:18, nearest transit: Fremont / Francis Avenue, 146.00m away; Tidal Coffee, visit from 19:51 to 21:00, nearest transit: Cannery Row / Drake, 46.73m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Subway, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 101.37m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Pizza Hut, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Village Inn, visit from 19:51 to 21:00, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Twin Lakes Family Escape, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
     },
     {
       "days": 2,
-      "current_city": "from Monterey to Monterey",
-      "transportation": "Transfer, from Monterey to Monterey",
-      "breakfast": "Cafe Fina, Monterey",
-      "attraction": "Perry House, Monterey",
-      "lunch": "Old Monterey Cafe, Monterey",
-      "dinner": "Crystal Fish, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Sports Page, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Dodge's, Fort Dodge",
+      "dinner": "Burger King, Fort Dodge",
+      "accommodation": "Twin Lakes Family Escape, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Cafe Fina, visit from 09:25 to 10:16, nearest transit: Olivier St / 155 MPR Trail, 146.98m away; Perry House, visit from 11:30 to 15:20, nearest transit: Pacific / Scott, 79.46m away; Old Monterey Cafe, visit from 13:57 to 14:56, nearest transit: Monterey Transit Plaza / Gate 3 Pearl, 45.93m away; Crystal Fish, visit from 19:51 to 21:00, nearest transit: Lighthouse / Hoffman, 98.34m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Sports Page, visit from 09:25 to 10:16, nearest transit: Evergreen Estates, 68.77m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Dodge's, visit from 13:57 to 14:56, nearest transit: S 31st St and 8th Ave S, 858866.05m away; Burger King, visit from 19:51 to 21:00, nearest transit: Crossroads Mall Entrance/Younkers, 182.06m away; Twin Lakes Family Escape, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
     },
     {
       "days": 3,
-      "current_city": "from Monterey to Seattle",
-      "transportation": "Flight Number: F0512737, from Monterey to Seattle, Departure Time: 14:12, Arrival Time: 16:25",
-      "breakfast": "Montrio, Monterey",
-      "attraction": "Coast Guard Pier, Monterey",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Fort Dodge to Sioux City",
+      "transportation": "Transfer, from Fort Dodge to Sioux City",
+      "breakfast": "Miles Inn, Sioux City",
+      "attraction": "Palmer Candy, Sioux City",
+      "lunch": "Red Lobster, Sioux City",
+      "dinner": "Old Chicago, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Twin Lakes Family Escape, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Miles Inn, visit from 09:25 to 10:16, nearest transit: Leech Ave & Fairmount St, 28.28m away; Palmer Candy, visit from 11:30 to 13:50, nearest transit: Floyd Blvd & 33rd St, 1226.11m away; Red Lobster, visit from 13:57 to 14:56, nearest transit: Sergeant Rd & South Lancelot Lane, 109.59m away; Old Chicago, visit from 19:51 to 21:00, nearest transit: Lakeport Commons - Panera Bread, 73.40m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "Transfer, from Sioux City to Sioux City",
+      "breakfast": "Buffalo Alice, Sioux City",
+      "attraction": "Trinity Heights, Sioux City",
+      "lunch": "Horizon Family Restaurant, Sioux City",
+      "dinner": "Brightside Cafe, Sioux City",
+      "accommodation": "Bungalow, Sioux City",
+      "event": "-",
+      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Buffalo Alice, visit from 09:25 to 10:16, nearest transit: 3rd St & Virginia St, 122.83m away; Trinity Heights, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Horizon Family Restaurant, visit from 13:57 to 14:56, nearest transit: Myrtle St & Tri-View Ave - Central Mart, 73.11m away; Brightside Cafe, visit from 19:51 to 21:00, nearest transit: Pierce St & 4th St, 114.95m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Sioux City to St. Louis",
+      "transportation": "Transfer, from Sioux City to St. Louis",
+      "breakfast": "Jitters, Sioux City",
+      "attraction": "Sergeant Floyd Monument, Sioux City",
+      "lunch": "The Diving Elk, Sioux City",
+      "dinner": "Wheelhouse, Sioux City",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Montrio, visit from 09:25 to 10:16, nearest transit: Pacific / Parking Garage, 71.33m away; Coast Guard Pier, visit from 11:30 to 15:20, nearest transit: Foam / Reeside, 384.16m away."
+      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Jitters, visit from 09:25 to 10:16, nearest transit: 3rd St & Virginia St, 31.46m away; Sergeant Floyd Monument, visit from 11:30 to 15:20, nearest transit: 3rd St & Lewis Blvd, 292.28m away; The Diving Elk, visit from 13:57 to 14:56, nearest transit: 4th & Iowa St, 120.28m away; Wheelhouse, visit from 19:51 to 21:00, nearest transit: Southern Hills Dr & Southern Square - Hobby Lobby, 210.10m away."
     }
   ]
 }

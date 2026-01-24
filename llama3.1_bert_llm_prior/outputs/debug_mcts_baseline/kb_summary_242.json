@@ -2,11 +2,21 @@
   "idx": 242,
   "stages": [
     {
-      "city": "New York",
+      "city": "Durango",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
+        "poi2transit": 73,
+        "events": 1
+      }
+    },
+    {
+      "city": "Colorado Springs",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Nashville",
-      "to": "New York",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0065146, from Nashville to New York, Departure Time: 17:49, Arrival Time: 22:12"
+      "from": "Santa Fe",
+      "to": "Durango",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Nashville",
-      "to": "New York",
+      "from": "Santa Fe",
+      "to": "Durango",
       "date": null,
-      "raw": "Self-driving, from Nashville to New York, Duration: 994.2066666666667 mins, Distance: 1424.3848 km, Estimated Cost: $71.22"
+      "raw": "Self-driving, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $19.51"
     },
     {
       "mode": "taxi",
-      "from": "Nashville",
-      "to": "New York",
+      "from": "Santa Fe",
+      "to": "Durango",
       "date": null,
-      "raw": "Taxi, from Nashville to New York, Duration: 994.2066666666667 mins, Distance: 1424.3848 km, Estimated Cost: $1424.38"
+      "raw": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Nashville",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0088474, from New York to Nashville, Departure Time: 14:18, Arrival Time: 15:26"
+      "from": "Durango",
+      "to": "Colorado Springs",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Nashville",
+      "from": "Durango",
+      "to": "Colorado Springs",
       "date": null,
-      "raw": "Self-driving, from New York to Nashville, Duration: 993.9699999999999 mins, Distance: 1424.3275 km, Estimated Cost: $71.22"
+      "raw": "Self-driving, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $25.30"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Nashville",
+      "from": "Durango",
+      "to": "Colorado Springs",
       "date": null,
-      "raw": "Taxi, from New York to Nashville, Duration: 993.9699999999999 mins, Distance: 1424.3275 km, Estimated Cost: $1424.33"
+      "raw": "Taxi, from Durango to Colorado Springs, Duration: 394.87166666666667 mins, Distance: 506.0878 km, Estimated Cost: $506.09"
+    },
+    {
+      "mode": "flight",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": null,
+      "raw": "Self-driving, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $26.10"
+    },
+    {
+      "mode": "taxi",
+      "from": "Colorado Springs",
+      "to": "Santa Fe",
+      "date": null,
+      "raw": "Taxi, from Colorado Springs to Santa Fe, Duration: 336.54833333333335 mins, Distance: 522.037 km, Estimated Cost: $522.04"
     }
   ]
 }

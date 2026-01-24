@@ -2,11 +2,21 @@
   "idx": 263,
   "stages": [
     {
-      "city": "Charleston",
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Charleston",
-      "date": "2024-11-11",
-      "raw": "Flight Number: F0246809, from Seattle to Charleston, Departure Time: 09:55, Arrival Time: 18:11"
+      "from": "Ontario",
+      "to": "Sacramento",
+      "date": "2024-11-18",
+      "raw": "Flight Number: F0097128, from Ontario to Sacramento, Departure Time: 16:00, Arrival Time: 17:18"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Charleston",
+      "from": "Ontario",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston"
+      "raw": "Self-driving, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Charleston",
+      "from": "Ontario",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston"
+      "raw": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
     },
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Seattle",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29"
+      "from": "Sacramento",
+      "to": "San Francisco",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0459283, from Sacramento to San Francisco, Departure Time: 09:38, Arrival Time: 10:33"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Seattle",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle"
+      "raw": "Self-driving, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $7.00"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Seattle",
+      "from": "Sacramento",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle"
+      "raw": "Taxi, from Sacramento to San Francisco, Duration: 106.65333333333334 mins, Distance: 140.0283 km, Estimated Cost: $140.03"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": "2024-11-22",
+      "raw": "Flight Number: F0365067, from San Francisco to Ontario, Departure Time: 08:58, Arrival Time: 10:25"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Ontario, Not feasible to drive from San Francisco to Ontario"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Ontario",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Ontario, Not feasible to drive from San Francisco to Ontario"
     }
   ]
 }

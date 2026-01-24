@@ -1,94 +1,117 @@
 {
   "idx": 152,
   "JSON": {
-    "org": "Bend",
-    "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Albany",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-04",
-      "2024-11-05",
       "2024-11-06",
       "2024-11-07",
-      "2024-11-08"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "smoking",
-      "cuisine": [
-        "Italian",
-        "Chinese"
-      ],
-      "room type": "private room",
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": "no flight"
+      "attraction": "Museums"
     },
-    "budget": 3600.0,
-    "query": "Plan a 5-day trip for 2 people traveling from Bend to explore 2 cities in California between November 4th and November 8th, 2024. The budget is $3,600. Accommodations should include a private room and adhere to smoking house rules. The trip should feature Italian and Chinese cuisine, and transportation should exclude flights.",
-    "level": "hard"
+    "budget": 7050.0,
+    "query": "Plan a 7-day trip for 1 person from Albany to explore 3 cities in Tennessee between November 6th and November 12th, 2024. The budget is $7,050. Include visits to museums as part of the itinerary.",
+    "level": "medium"
   },
   "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Bend to San Luis Obispo",
-      "transportation": "Taxi, from Bend to San Luis Obispo, Duration: 838.455 mins, Distance: 1147.4142 km, Estimated Cost: $1147.41",
-      "breakfast": "Cafe Roma, San Luis Obispo",
-      "attraction": "Wolff Vineyards, San Luis Obispo",
-      "lunch": "Flour House, San Luis Obispo",
-      "dinner": "Sidecar, San Luis Obispo",
-      "accommodation": "Unique Spacious Room with Balcony, San Luis Obispo",
+      "current_city": "from Albany to Memphis",
+      "transportation": "Taxi, from Albany to Memphis, Duration: 1356.8533333333332 mins, Distance: 1928.8254 km, Estimated Cost: $1928.83",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Interstate Barbecue, Memphis",
+      "dinner": "Arcade Restaurant, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Unique Spacious Room with Balcony, stay from 08:00 to 09:00, nearest transit: Santa Rosa & Higuera, 432.02m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 14:50, nearest transit: Higuera & Prado, 7989.92m away; Flour House, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 142.15m away; Sidecar, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 54.77m away; Unique Spacious Room with Balcony, stay from 22:15 to 08:00, nearest transit: Santa Rosa & Higuera, 432.02m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Interstate Barbecue, visit from 13:57 to 14:56, nearest transit: MALLORY@THIRD, 92.75m away; Arcade Restaurant, visit from 19:51 to 21:00, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from San Luis Obispo to San Luis Obispo",
-      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
-      "breakfast": "Luna Red, San Luis Obispo",
-      "attraction": "Farmers Market, San Luis Obispo",
-      "lunch": "Apple Farm Restaurant, San Luis Obispo",
-      "dinner": "Thai Palace, San Luis Obispo",
-      "accommodation": "Unique Spacious Room with Balcony, San Luis Obispo",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Stax Museum of American Soul Music, Memphis",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Unique Spacious Room with Balcony, stay from 08:00 to 09:00, nearest transit: Santa Rosa & Higuera, 432.02m away; Luna Red, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 256.30m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Apple Farm Restaurant, visit from 13:57 to 14:56, nearest transit: Monterey @ Peach Tree Inn, 45.99m away; Thai Palace, visit from 19:51 to 21:00, nearest transit: Government Center, 168.21m away; Unique Spacious Room with Balcony, stay from 22:15 to 08:00, nearest transit: Santa Rosa & Higuera, 432.02m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Stax Museum of American Soul Music, visit from 11:30 to 15:20, nearest transit: MCLEMORE@COLLEGE, 36.06m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 3,
-      "current_city": "from San Luis Obispo to Sacramento",
-      "transportation": "Taxi, from San Luis Obispo to Sacramento, Duration: 348.25166666666667 mins, Distance: 453.3913 km, Estimated Cost: $453.39",
-      "breakfast": "Localis, Sacramento",
-      "attraction": "Old Sacramento, Sacramento",
-      "lunch": "Orphan, Sacramento",
-      "dinner": "Tower Cafe, Sacramento",
-      "accommodation": "Room with private bathroom, Sacramento",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Cheekwood, Nashville",
+      "lunch": "The Standard, Nashville",
+      "dinner": "Aquarium Restaurant, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
       "event": "-",
-      "point_of_interest_list": "Unique Spacious Room with Balcony, stay from 08:00 to 09:00, nearest transit: Santa Rosa & Higuera, 432.02m away; Localis, visit from 09:25 to 10:16, nearest transit: 21ST ST & R ST (NB), 35.88m away; Old Sacramento, visit from 11:30 to 15:20, nearest transit: 3RD ST & K ST (NB), 235.49m away; Orphan, visit from 13:57 to 14:56, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; Tower Cafe, visit from 19:51 to 21:00, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Room with private bathroom, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & SAN FRANCISCO BLVD (NB), 172.34m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; The Standard, visit from 13:57 to 14:56, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Aquarium Restaurant, visit from 19:51 to 21:00, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
     },
     {
       "days": 4,
-      "current_city": "from Sacramento to Sacramento",
-      "transportation": "Transfer, from Sacramento to Sacramento",
-      "breakfast": "Revival, Sacramento",
-      "attraction": "Sacramento Zoo, Sacramento",
-      "lunch": "The Kitchen Restaurant, Sacramento",
-      "dinner": "Aviators Restaurant, Sacramento",
-      "accommodation": "Room with private bathroom, Sacramento",
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Henley, Nashville",
+      "attraction": "Lane Motor Museum, Nashville",
+      "lunch": "417 Union, Nashville",
+      "dinner": "Ole Red, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
       "event": "-",
-      "point_of_interest_list": "Room with private bathroom, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & SAN FRANCISCO BLVD (NB), 172.34m away; Revival, visit from 09:25 to 10:16, nearest transit: J ST & 6TH ST (EB), 79.22m away; Sacramento Zoo, visit from 11:30 to 16:00, nearest transit: LAND PARK DR & 16TH AVE (NB), 321.53m away; The Kitchen Restaurant, visit from 13:57 to 14:56, nearest transit: BROADWAY & 10TH ST (WB), 68.15m away; Aviators Restaurant, visit from 19:51 to 21:00, nearest transit: FREEPORT BLVD & MCALLISTER AVE (SB), 185.83m away; Room with private bathroom, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & SAN FRANCISCO BLVD (NB), 172.34m away."
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Henley, visit from 09:25 to 10:16, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Lane Motor Museum, visit from 11:30 to 15:20, nearest transit: MURFREESBORO PIKE & ARLINGTON AVE E, 212.47m away; 417 Union, visit from 13:57 to 14:56, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Ole Red, visit from 19:51 to 21:00, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
     },
     {
       "days": 5,
-      "current_city": "from Sacramento to Bend",
-      "transportation": "Transfer, from Sacramento to Bend",
-      "breakfast": "The Waterboy, Sacramento",
-      "attraction": "Capitol Park, Sacramento",
-      "lunch": "Cafeteria 15L, Sacramento",
-      "dinner": "Chicago Fire, Sacramento",
+      "current_city": "from Nashville to Chattanooga",
+      "transportation": "Transfer, from Nashville to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Tennessee Valley Railroad Museum, Chattanooga",
+      "lunch": "Bluegrass Grill, Chattanooga",
+      "dinner": "Community Pie, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Valley Railroad Museum, visit from 11:30 to 15:20, nearest transit: Bonny Oaks & Redlands Dr-1, 1191.41m away; Bluegrass Grill, visit from 13:57 to 14:56, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Community Pie, visit from 19:51 to 21:00, nearest transit: MARKET + M.L.KING, 20.76m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "-",
+      "lunch": "Stir, Chattanooga",
+      "dinner": "Whitebird, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Stir, visit from 13:57 to 14:56, nearest transit: MARKET + MAIN, 69.25m away; Whitebird, visit from 19:51 to 21:00, nearest transit: 3RD + WALNUT, 188.07m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Chattanooga to Albany",
+      "transportation": "Transfer, from Chattanooga to Albany",
+      "breakfast": "Mellow Mushroom Chattanooga, Chattanooga",
+      "attraction": "-",
+      "lunch": "1885 Grill, Chattanooga",
+      "dinner": "Public House, Chattanooga",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Room with private bathroom, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & SAN FRANCISCO BLVD (NB), 172.34m away; The Waterboy, visit from 09:25 to 10:16, nearest transit: 21ST ST & CAPITOL AVE (NB), 117.25m away; Capitol Park, visit from 11:30 to 16:05, nearest transit: L ST & 14TH ST (WB), 86.40m away; Cafeteria 15L, visit from 13:57 to 14:56, nearest transit: 15TH ST & K ST (SB), 126.90m away; Chicago Fire, visit from 19:51 to 21:00, nearest transit: J ST & 25TH ST (EB), 70.25m away."
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Mellow Mushroom Chattanooga, visit from 09:25 to 10:16, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; 1885 Grill, visit from 13:57 to 14:56, nearest transit: TENN AVE + INCLINE, 114.35m away; Public House, visit from 19:51 to 21:00, nearest transit: HOUSTON + MARKET, 28.53m away."
     }
   ]
 }

@@ -2,89 +2,120 @@
   "idx": 42,
   "stages": [
     {
-      "city": "Rochester",
+      "city": "San Diego",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 73,
-        "events": 16
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "Watertown",
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 15
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Memphis",
-      "to": "Rochester",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "Detroit",
+      "to": "San Diego",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0318378, from Detroit to San Diego, Departure Time: 20:59, Arrival Time: 22:41"
     },
     {
       "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Detroit",
+      "to": "San Diego",
       "date": null,
-      "raw": "Self-driving, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $79.02"
+      "raw": "Self-driving, from Detroit to San Diego, Not feasible to drive from Detroit to San Diego"
     },
     {
       "mode": "taxi",
-      "from": "Memphis",
-      "to": "Rochester",
+      "from": "Detroit",
+      "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Memphis to Rochester, Duration: 1115.3716666666667 mins, Distance: 1580.3017 km, Estimated Cost: $1580.30"
+      "raw": "Taxi, from Detroit to San Diego, Not feasible to drive from Detroit to San Diego"
     },
     {
       "mode": "flight",
-      "from": "Rochester",
-      "to": "Watertown",
-      "date": "2024-11-05",
-      "raw": "-"
+      "from": "San Diego",
+      "to": "San Francisco",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0037906, from San Diego to San Francisco, Departure Time: 10:12, Arrival Time: 11:48"
     },
     {
       "mode": "self-driving",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "San Diego",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $10.49"
+      "raw": "Self-driving, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $40.31"
     },
     {
       "mode": "taxi",
-      "from": "Rochester",
-      "to": "Watertown",
+      "from": "San Diego",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Taxi, from Rochester to Watertown, Duration: 177.97166666666666 mins, Distance: 209.7635 km, Estimated Cost: $209.76"
+      "raw": "Taxi, from San Diego to San Francisco, Duration: 564.5983333333334 mins, Distance: 806.2133 km, Estimated Cost: $806.21"
     },
     {
       "mode": "flight",
-      "from": "Watertown",
-      "to": "Memphis",
-      "date": "2024-11-07",
-      "raw": "-"
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0064363, from San Francisco to Los Angeles, Departure Time: 21:39, Arrival Time: 22:48"
     },
     {
       "mode": "self-driving",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "San Francisco",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $90.30"
+      "raw": "Self-driving, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $30.66"
     },
     {
       "mode": "taxi",
-      "from": "Watertown",
-      "to": "Memphis",
+      "from": "San Francisco",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Watertown to Memphis, Duration: 1268.3866666666665 mins, Distance: 1805.9173 km, Estimated Cost: $1805.92"
+      "raw": "Taxi, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $613.27"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0296278, from Los Angeles to Detroit, Departure Time: 14:30, Arrival Time: 22:10"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to Detroit, Not feasible to drive from Los Angeles to Detroit"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "Detroit",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to Detroit, Not feasible to drive from Los Angeles to Detroit"
     }
   ]
 }

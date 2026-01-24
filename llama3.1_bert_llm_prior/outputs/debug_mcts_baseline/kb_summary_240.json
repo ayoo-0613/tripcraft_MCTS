@@ -8,6 +8,16 @@
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 71,
+        "events": 12
+      }
+    },
+    {
+      "city": "Champaign",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Tampa",
+      "from": "Waterloo",
       "to": "Bloomington",
+      "date": "2024-11-03",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Waterloo",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Self-driving, from Waterloo to Bloomington, Duration: 1301.7716666666668 mins, Distance: 2072.3223000000003 km, Estimated Cost: $103.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Waterloo",
+      "to": "Bloomington",
+      "date": null,
+      "raw": "Taxi, from Waterloo to Bloomington, Duration: 1301.7716666666668 mins, Distance: 2072.3223000000003 km, Estimated Cost: $2072.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Bloomington",
+      "to": "Champaign",
       "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Bloomington",
+      "from": "Bloomington",
+      "to": "Champaign",
       "date": null,
-      "raw": "Self-driving, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $88.47"
+      "raw": "Self-driving, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $4.08"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Bloomington",
+      "from": "Bloomington",
+      "to": "Champaign",
       "date": null,
-      "raw": "Taxi, from Tampa to Bloomington, Duration: 1228.5449999999998 mins, Distance: 1769.4128 km, Estimated Cost: $1769.41"
+      "raw": "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
     },
     {
       "mode": "flight",
-      "from": "Bloomington",
-      "to": "Tampa",
+      "from": "Champaign",
+      "to": "Waterloo",
       "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Bloomington",
-      "to": "Tampa",
+      "from": "Champaign",
+      "to": "Waterloo",
       "date": null,
-      "raw": "Self-driving, from Bloomington to Tampa, Duration: 1224.335 mins, Distance: 1765.7608 km, Estimated Cost: $88.29"
+      "raw": "Self-driving, from Champaign to Waterloo, Duration: 1303.5916666666667 mins, Distance: 2072.2776 km, Estimated Cost: $103.61"
     },
     {
       "mode": "taxi",
-      "from": "Bloomington",
-      "to": "Tampa",
+      "from": "Champaign",
+      "to": "Waterloo",
       "date": null,
-      "raw": "Taxi, from Bloomington to Tampa, Duration: 1224.335 mins, Distance: 1765.7608 km, Estimated Cost: $1765.76"
+      "raw": "Taxi, from Champaign to Waterloo, Duration: 1303.5916666666667 mins, Distance: 2072.2776 km, Estimated Cost: $2072.28"
     }
   ]
 }

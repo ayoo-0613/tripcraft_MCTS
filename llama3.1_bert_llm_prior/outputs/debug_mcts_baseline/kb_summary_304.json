@@ -2,11 +2,21 @@
   "idx": 304,
   "stages": [
     {
-      "city": "Charlotte",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Bristol",
-      "to": "Charlotte",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0233296, from Bristol to Charlotte, Departure Time: 14:20, Arrival Time: 15:24"
+      "from": "Reno",
+      "to": "Los Angeles",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0093879, from Reno to Los Angeles, Departure Time: 10:37, Arrival Time: 11:56"
     },
     {
       "mode": "self-driving",
-      "from": "Bristol",
-      "to": "Charlotte",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Bristol to Charlotte, Duration: 212.82166666666666 mins, Distance: 253.2508 km, Estimated Cost: $12.66"
+      "raw": "Self-driving, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $37.86"
     },
     {
       "mode": "taxi",
-      "from": "Bristol",
-      "to": "Charlotte",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Bristol to Charlotte, Duration: 212.82166666666666 mins, Distance: 253.2508 km, Estimated Cost: $253.25"
+      "raw": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
     },
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Bristol",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0238633, from Charlotte to Bristol, Departure Time: 20:32, Arrival Time: 21:47"
+      "from": "Los Angeles",
+      "to": "Monterey",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Bristol",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Bristol, Duration: 212.88166666666666 mins, Distance: 252.9456 km, Estimated Cost: $12.65"
+      "raw": "Self-driving, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $22.61"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Bristol",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from Charlotte to Bristol, Duration: 212.88166666666666 mins, Distance: 252.9456 km, Estimated Cost: $252.95"
+      "raw": "Taxi, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $452.22"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": "2024-11-21",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $28.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $567.06"
     }
   ]
 }

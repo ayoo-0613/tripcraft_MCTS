@@ -2,22 +2,32 @@
   "idx": 57,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 17
+        "events": 27
       }
     },
     {
-      "city": "Durango",
+      "city": "Wilmington",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 73,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Helena",
-      "to": "Colorado Springs",
-      "date": "2024-11-01",
+      "from": "Milwaukee",
+      "to": "Greensboro",
+      "date": "2024-11-02",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Milwaukee",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $69.20"
+      "raw": "Self-driving, from Milwaukee to Greensboro, Duration: 940.5666666666667 mins, Distance: 1301.4765 km, Estimated Cost: $65.07"
     },
     {
       "mode": "taxi",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Milwaukee",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      "raw": "Taxi, from Milwaukee to Greensboro, Duration: 940.5666666666667 mins, Distance: 1301.4765 km, Estimated Cost: $1301.48"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Durango",
-      "date": "2024-11-03",
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-04",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $25.31"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Helena",
-      "date": "2024-11-05",
-      "raw": "-"
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0217100, from Wilmington to Charlotte, Departure Time: 18:05, Arrival Time: 19:12"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Wilmington",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $70.35"
+      "raw": "Self-driving, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $15.93"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Wilmington",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $1407.09"
+      "raw": "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0175714, from Charlotte to Milwaukee, Departure Time: 18:17, Arrival Time: 19:26"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Milwaukee, Duration: 979.6933333333333 mins, Distance: 1344.2727 km, Estimated Cost: $67.21"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Milwaukee",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Milwaukee, Duration: 979.6933333333333 mins, Distance: 1344.2727 km, Estimated Cost: $1344.27"
     }
   ]
 }

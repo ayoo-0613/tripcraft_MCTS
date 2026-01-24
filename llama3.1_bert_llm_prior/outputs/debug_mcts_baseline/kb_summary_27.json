@@ -2,89 +2,120 @@
   "idx": 27,
   "stages": [
     {
-      "city": "Cedar Rapids",
+      "city": "Memphis",
       "counts": {
-        "attractions": 18,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 74,
-        "events": 19
+        "poi2transit": 70,
+        "events": 12
       }
     },
     {
-      "city": "Sioux City",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 12,
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 4
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 67,
-        "events": 7
+        "poi2transit": 75,
+        "events": 5
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0001126, from Chicago to Cedar Rapids, Departure Time: 10:55, Arrival Time: 12:00"
+      "from": "Atlanta",
+      "to": "Memphis",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0083692, from Atlanta to Memphis, Departure Time: 19:50, Arrival Time: 20:04"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
+      "from": "Atlanta",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $19.81"
+      "raw": "Self-driving, from Atlanta to Memphis, Duration: 421.4566666666667 mins, Distance: 612.9464 km, Estimated Cost: $30.65"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
+      "from": "Atlanta",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16"
+      "raw": "Taxi, from Atlanta to Memphis, Duration: 421.4566666666667 mins, Distance: 612.9464 km, Estimated Cost: $612.95"
     },
     {
       "mode": "flight",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
-      "date": "2024-11-04",
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
     },
     {
       "mode": "taxi",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
     },
     {
       "mode": "flight",
-      "from": "Sioux City",
-      "to": "Chicago",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-12",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sioux City",
-      "to": "Chicago",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $38.56"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Sioux City",
-      "to": "Chicago",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $771.24"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": "2024-11-14",
+      "raw": "Flight Number: F0047081, from Nashville to Atlanta, Departure Time: 07:00, Arrival Time: 08:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Atlanta, Duration: 277.6816666666667 mins, Distance: 396.1468 km, Estimated Cost: $19.81"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Nashville to Atlanta, Duration: 277.6816666666667 mins, Distance: 396.1468 km, Estimated Cost: $396.15"
     }
   ]
 }

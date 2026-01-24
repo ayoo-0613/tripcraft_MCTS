@@ -1,19 +1,22 @@
 {
   "idx": 170,
   "JSON": {
-    "org": "Houston",
-    "dest": "Hartford",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Key West",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-12",
-      "2024-11-13",
-      "2024-11-14"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": [
+        "American",
         "Italian"
       ],
       "room type": null,
@@ -21,47 +24,71 @@
       "event": null,
       "attraction": null
     },
-    "budget": 2100.0,
-    "query": "Plan a 3-day trip for 1 person from Houston to Hartford from November 12th to November 14th, 2024, with a budget of $2,100. Include Italian cuisine options in the itinerary.",
+    "budget": 3000.0,
+    "query": "Plan a 5-day trip for 1 person from Key West to explore 2 cities in North Carolina between November 1st and November 5th, 2024. The budget is $3,000. Include dining options with American and Italian cuisines.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Hartford",
-      "transportation": "Flight Number: F0526338, from Houston to Hartford, Departure Time: 18:10, Arrival Time: 22:25",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, Hartford",
+      "current_city": "from Key West to Greensboro",
+      "transportation": "Taxi, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $1530.67",
+      "breakfast": "Green Valley Grill, Greensboro",
+      "attraction": "Greensboro Children's Museum, Greensboro; Gateway Gardens, Greensboro",
+      "lunch": "Blue Denim, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 22:15 to 08:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Green Valley Grill, visit from 09:25 to 10:16, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; Greensboro Children's Museum, visit from 11:30 to 13:17, nearest transit: Lindsay/Church, 95.37m away; Blue Denim, visit from 13:57 to 14:56, nearest transit: International Civil Rights Museum, 72.70m away; Gateway Gardens, visit from 16:30 to 20:27, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 2,
-      "current_city": "from Hartford to Hartford",
-      "transportation": "Transfer, from Hartford to Hartford",
-      "breakfast": "Salute, Hartford",
-      "attraction": "TheaterWorks, Hartford",
-      "lunch": "bartaco, Hartford",
-      "dinner": "Max Downtown, Hartford",
-      "accommodation": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, Hartford",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Village Tavern, Greensboro",
+      "attraction": "Carolina Theatre, Greensboro; Blandwood, Greensboro",
+      "lunch": "Golden Wok, Greensboro",
+      "dinner": "Mythos Grill, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away; Salute, visit from 09:25 to 10:16, nearest transit: Hartford, 599.22m away; TheaterWorks, visit from 11:30 to 14:50, nearest transit: Hartford, 426.41m away; bartaco, visit from 13:57 to 14:56, nearest transit: Hartford, 5192.42m away; Max Downtown, visit from 19:51 to 21:00, nearest transit: Hartford, 465.48m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 22:15 to 08:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Village Tavern, visit from 09:25 to 10:16, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; Carolina Theatre, visit from 11:30 to 13:27, nearest transit: Washington/Eugene, 118.33m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Blandwood, visit from 16:30 to 18:57, nearest transit: Spring Garden/Blandwood (OB), 208.65m away; Mythos Grill, visit from 19:51 to 21:00, nearest transit: West Market/Walker, 60.36m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 3,
-      "current_city": "from Hartford to Houston",
-      "transportation": "Flight Number: F0523993, from Hartford to Houston, Departure Time: 07:51, Arrival Time: 10:45",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Greensboro to Wilmington",
+      "transportation": "Transfer, from Greensboro to Wilmington",
+      "breakfast": "Catch, Wilmington",
+      "attraction": "Sea Turtle Camp, Wilmington; Downtown Wilmington, Wilmington",
+      "lunch": "The Basics, Wilmington",
+      "dinner": "The Wilmington, Wilmington",
+      "accommodation": "Crestwood Cottage, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Catch, visit from 09:25 to 10:16, nearest transit: Market St WB at Dollar General, 552.38m away; Sea Turtle Camp, visit from 11:30 to 15:27, nearest transit: Gordon Rd WB at Military Cutoff Rd, 1499.62m away; The Basics, visit from 13:57 to 14:56, nearest transit: Front St NB at Grace St, 96.37m away; Downtown Wilmington, visit from 16:30 to 18:27, nearest transit: Front St SB at Chestnut St, 66.26m away; The Wilmington, visit from 19:51 to 21:00, nearest transit: Gordon Rd WB at Military Cutoff Rd, 6310808.05m away; Crestwood Cottage, stay from 22:15 to 08:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "Pilot House, Wilmington",
+      "attraction": "Riverwalk, Wilmington; Bellamy Mansion, Wilmington",
+      "lunch": "Fish Bites Seafood, Wilmington",
+      "dinner": "Manna, Wilmington",
+      "accommodation": "Crestwood Cottage, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Pilot House, visit from 09:25 to 10:16, nearest transit: Front St SB at Ann St, 112.21m away; Riverwalk, visit from 11:30 to 13:57, nearest transit: Front St SB at Market St, 105.98m away; Fish Bites Seafood, visit from 13:57 to 14:56, nearest transit: Carolina Beach Rd NB at College Rd, 2839.13m away; Bellamy Mansion, visit from 16:30 to 18:57, nearest transit: Market St WB at 4th St, 135.15m away; Manna, visit from 19:51 to 21:00, nearest transit: Front St SB at Chestnut St, 150.96m away; Crestwood Cottage, stay from 22:15 to 08:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Wilmington to Key West",
+      "transportation": "Transfer, from Wilmington to Key West",
+      "breakfast": "La Fia, Wilmington",
+      "attraction": "Cameron Art Museum, Wilmington; The Cotton Exchange, Wilmington",
+      "lunch": "Copper Penny, Wilmington",
+      "dinner": "The Anchor, Wilmington",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 06:21 to 07:21, nearest transit: Hartford, 822.77m away; XL Center 1-BR Condo|DWNTN Hartford|Easy Parking, stay from 08:00 to 09:00, nearest transit: Hartford, 822.77m away."
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; La Fia, visit from 09:25 to 10:16, nearest transit: Gordon Rd WB at Military Cutoff Rd, 640890.67m away; Cameron Art Museum, visit from 11:30 to 13:57, nearest transit: 17th St NB at Independence Blvd (CAM), 185.73m away; Copper Penny, visit from 13:57 to 14:56, nearest transit: Front St SB at Chestnut St, 63.70m away; The Cotton Exchange, visit from 16:30 to 17:27, nearest transit: Front St NB at Grace St, 73.32m away; The Anchor, visit from 19:51 to 21:00, nearest transit: Gordon Rd WB at Military Cutoff Rd, 1047961.40m away."
     }
   ]
 }

@@ -1,65 +1,93 @@
 {
   "idx": 296,
   "JSON": {
-    "org": "Oklahoma City",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Tucson",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-01",
-      "2024-11-02",
-      "2024-11-03"
+      "2024-11-24",
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27",
+      "2024-11-28"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "pets",
       "cuisine": null,
-      "room type": null,
+      "room type": "private room",
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Nature & Parks"
+      ]
     },
     "budget": 2250.0,
-    "query": "Plan a 3-day trip for 1 person traveling from Oklahoma City to Seattle from November 1st to November 3rd, 2024, with a budget of $2,250.",
-    "level": "easy"
+    "query": "Design a 5-day travel itinerary for 1 person starting from Tucson and visiting 2 cities in California between November 24th and November 28th, 2024. The budget is $2,250. Accommodations should include a private room and allow pets. The plan should feature attractions related to nature and parks.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Oklahoma City to Seattle",
-      "transportation": "Taxi, from Oklahoma City to Seattle, Not feasible to drive from Oklahoma City to Seattle",
-      "breakfast": "Lola, Seattle",
-      "attraction": "Seattle Center, Seattle",
-      "lunch": "Metropolitan Grill, Seattle",
-      "dinner": "Spinasse, Seattle",
-      "accommodation": "Peaceful Classic Seattle Neighborhood, Seattle",
+      "current_city": "from Tucson to Sacramento",
+      "transportation": "Transfer, from Tucson to Sacramento",
+      "breakfast": "Orphan, Sacramento",
+      "attraction": "McKinley Park, Sacramento",
+      "lunch": "Tower Cafe, Sacramento",
+      "dinner": "Localis, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Peaceful Classic Seattle Neighborhood, stay from 08:00 to 09:00, nearest transit: Roosevelt Way NE & NE 80th St, 315.01m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Seattle Center, visit from 11:30 to 16:05, nearest transit: Seattle Center, 84.22m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; Spinasse, visit from 19:51 to 21:00, nearest transit: E Pine St & 15th Ave, 90.45m away; Peaceful Classic Seattle Neighborhood, stay from 22:15 to 08:00, nearest transit: Roosevelt Way NE & NE 80th St, 315.01m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Orphan, visit from 09:25 to 10:16, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; McKinley Park, visit from 11:30 to 16:35, nearest transit: MCKINLEY BLVD & 34TH ST (EB), 48.79m away; Tower Cafe, visit from 13:57 to 14:56, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Localis, visit from 19:51 to 21:00, nearest transit: 21ST ST & R ST (NB), 35.88m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "The Capital Grille, Seattle",
-      "attraction": "Space Needle, Seattle",
-      "lunch": "Wild Ginger, Seattle",
-      "dinner": "Chan Seattle, Seattle",
-      "accommodation": "The Nut House, Seattle",
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Revival, Sacramento",
+      "attraction": "Capitol Park, Sacramento",
+      "lunch": "Aviators Restaurant, Sacramento",
+      "dinner": "The Kitchen Restaurant, Sacramento",
+      "accommodation": "★Luxurious Top-Floor, Balcony View, Private Bath★, Sacramento",
       "event": "-",
-      "point_of_interest_list": "The Nut House, stay from 08:00 to 09:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away; The Capital Grille, visit from 09:25 to 10:16, nearest transit: 4th Ave & University, 41.04m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Wild Ginger, visit from 13:57 to 14:56, nearest transit: 3rd Ave & Pike St, 13.86m away; Chan Seattle, visit from 19:51 to 21:00, nearest transit: Pine St & 9th Ave, 68.08m away; The Nut House, stay from 22:15 to 08:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away."
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Revival, visit from 09:25 to 10:16, nearest transit: J ST & 6TH ST (EB), 79.22m away; Capitol Park, visit from 11:30 to 16:05, nearest transit: L ST & 14TH ST (WB), 86.40m away; Aviators Restaurant, visit from 13:57 to 14:56, nearest transit: FREEPORT BLVD & MCALLISTER AVE (SB), 185.83m away; The Kitchen Restaurant, visit from 19:51 to 21:00, nearest transit: BROADWAY & 10TH ST (WB), 68.15m away; ★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to Oklahoma City",
-      "transportation": "Flight Number: F0241794, from Seattle to Oklahoma City, Departure Time: 12:32, Arrival Time: 17:51",
-      "breakfast": "Tulio, Seattle",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Sacramento to Santa Rosa",
+      "transportation": "Transfer, from Sacramento to Santa Rosa",
+      "breakfast": "Piner Cafe, Santa Rosa",
+      "attraction": "Safari West, Santa Rosa",
+      "lunch": "Sazon, Santa Rosa",
+      "dinner": "Yeti Restaurant, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
+      "event": "-",
+      "point_of_interest_list": "★Luxurious Top-Floor, Balcony View, Private Bath★, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; Piner Cafe, visit from 09:25 to 10:16, nearest transit: Piner Rd @ Airway Dr, 130.32m away; Safari West, visit from 11:30 to 16:50, nearest transit: 3585 Round Barn Blvd, 8901.29m away; Sazon, visit from 13:57 to 14:56, nearest transit: Sebastopol Rd @ Burbank Ave, 120.88m away; Yeti Restaurant, visit from 19:51 to 21:00, nearest transit: Fourth St @ Farmers Ln, 147.61m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Santa Rosa to Santa Rosa",
+      "transportation": "Transfer, from Santa Rosa to Santa Rosa",
+      "breakfast": "East West Cafe, Santa Rosa",
+      "attraction": "Spring Lake Park, Santa Rosa",
+      "lunch": "River Vine Cafe, Santa Rosa",
+      "dinner": "Royal China Restaurant, Santa Rosa",
+      "accommodation": "Cozy Wine Country Escape, Santa Rosa",
+      "event": "-",
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; East West Cafe, visit from 09:25 to 10:16, nearest transit: Montgomery Dr @ Summerfield Rd, 166.40m away; Spring Lake Park, visit from 11:30 to 16:50, nearest transit: Calistoga Rd @ Hwy 12, 1268.28m away; River Vine Cafe, visit from 13:57 to 14:56, nearest transit: Hopper Ave @ Coffey Ln, 2038.71m away; Royal China Restaurant, visit from 19:51 to 21:00, nearest transit: Marlow Rd @ Piner Rd, 88.95m away; Cozy Wine Country Escape, stay from 22:15 to 08:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Santa Rosa to Tucson",
+      "transportation": "Transfer, from Santa Rosa to Tucson",
+      "breakfast": "Casa Del Mar, Santa Rosa",
+      "attraction": "Howarth Park, Santa Rosa",
+      "lunch": "Jeffreys Hillside Cafe, Santa Rosa",
+      "dinner": "Riviera Restaurant, Santa Rosa",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Nut House, stay from 08:00 to 09:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away; Tulio, visit from 09:25 to 10:16, nearest transit: 5th Ave & Spring St, 55.15m away."
+      "point_of_interest_list": "Cozy Wine Country Escape, stay from 08:00 to 09:00, nearest transit: Fulton Rd @ Gordon Creek Dr, 700.31m away; Casa Del Mar, visit from 09:25 to 10:16, nearest transit: Bellevue Ave @ Stony Point Rd, 1554.46m away; Howarth Park, visit from 11:30 to 16:35, nearest transit: Montgomery Dr @ Summerfield Rd, 330.61m away; Jeffreys Hillside Cafe, visit from 13:57 to 14:56, nearest transit: Fourth St @ Farmers Ln, 199.94m away; Riviera Restaurant, visit from 19:51 to 21:00, nearest transit: Sonoma Ave @ Brookwood Ave, 261.76m away."
     }
   ]
 }

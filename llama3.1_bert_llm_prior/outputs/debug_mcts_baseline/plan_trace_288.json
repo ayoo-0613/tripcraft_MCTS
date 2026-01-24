@@ -1,35 +1,393 @@
 {
   "idx": 288,
-  "reward": 14.390868347395568,
-  "budget_used": 1654.0,
+  "reward": 18.256978485940934,
+  "budget_used": 1998.0,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "chosen": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26",
       "candidates": [
-        "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
-        "Taxi, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $1754.86"
+        "Flight Number: F0093879, from Reno to Los Angeles, Departure Time: 10:37, Arrival Time: 11:56",
+        "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
       ]
     },
     {
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "chosen": "Hollywood Hideaway",
       "candidates": [
-        "Charming Baltimore Home w/Parking - Dog Friendly!",
-        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
-        "Loaded Home - Heart Of Fells Point Waterfront Area",
-        "Private Bed next to JHH",
-        "Cozy loft in great location",
-        "Entire Comfy Studio @Charles Village -5min frm JHU",
-        "Private Queen Suite (B) Fells and Hopkins Medical"
+        "Oceanfront Sunset Serenity in Malibu",
+        "Hollywood Hideaway"
       ]
     },
     {
       "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "The Lobster",
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hollywood Sign",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Citadel Outlets",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "The Getty Center",
+        "Griffith Observatory",
+        "Universal Studios Hollywood",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Los Angeles County Museum of Art",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Lobster",
+      "candidates": [
+        "The Lobster",
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Providence",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Spire 73",
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hollywood Hideaway",
+      "candidates": [
+        "Oceanfront Sunset Serenity in Malibu",
+        "Hollywood Hideaway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "Spire 73",
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Grove",
+      "candidates": [
+        "The Grove",
+        "Citadel Outlets",
+        "The Broad",
+        "Venice Canals Walkway",
+        "Venice Beach",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "The Getty Center",
+        "Griffith Observatory",
+        "Universal Studios Hollywood",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "Dodger Stadium",
+        "Los Angeles County Museum of Art",
+        "Hollywood Walk of Fame",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Spire 73",
+      "candidates": [
+        "Spire 73",
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Patina Restaurant",
+        "Bavel",
+        "Leo & Lily",
+        "25 Degrees",
+        "Bubba Gump Shrimp Co.",
+        "Belles Beach House",
+        "The Palm - L.A. Downtown",
+        "Ayara Thai Cuisine",
+        "Au Lac Dtla",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "n/naka",
+        "Maccheroni Republic",
+        "The Butcher's Daughter",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "22nd Street Landing Seafood Grill & Bar",
+        "71Above Restaurant and Skylounge",
+        "Pizzeria Mozza",
+        "Brent's Deli Northridge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele",
+        "Katsuya"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43",
+      "candidates": [
+        "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43",
+        "Taxi, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $452.22"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Mermaid Bungalow",
+      "candidates": [
+        "The Mermaid Bungalow",
+        "Basic King",
+        "Cozy home in sunny Seaside!",
+        "Sallie’s Cottage",
+        "Pacific Grove Mid Century Near Beach",
+        "Private Room w/Ensuite Bathroom at Monterey Hostel",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 3,
       "slot": "breakfast",
       "action_type": "skip_breakfast",
       "chosen": "-",
@@ -38,25 +396,77 @@
       ]
     },
     {
-      "day": 1,
+      "day": 3,
       "slot": "attraction1",
-      "action_type": "skip_attraction1",
-      "chosen": "-",
+      "action_type": "add_attraction1",
+      "chosen": "Perry House",
       "candidates": [
-        "-"
+        "Perry House",
+        "MST Trolley",
+        "Cannery Row",
+        "Coast Guard Pier",
+        "Pierce Ranch Vineyards Tasting Room",
+        "Colton Hall Museum",
+        "17-Mile Drive",
+        "Monterey Bay",
+        "Monterey Bay Aquarium",
+        "Dennis the Menace Park",
+        "Del Monte Beach",
+        "Monterey County Youth Museum",
+        "Old Monterey Farmer's Market",
+        "Monterey Museum of Art",
+        "California Sea Otter Game Refuge",
+        "Monterey Peninsula Recreational Trail",
+        "San Carlos Cathedral",
+        "Jacks Peak County Park",
+        "Doc Rickett's Pacific Biological Laboratories"
       ]
     },
     {
-      "day": 1,
+      "day": 3,
       "slot": "lunch",
-      "action_type": "skip_lunch",
-      "chosen": "-",
+      "action_type": "set_lunch",
+      "chosen": "Fish Hopper",
       "candidates": [
-        "-"
+        "Fish Hopper",
+        "Tidal Coffee",
+        "Crystal Fish",
+        "Cafe Fina",
+        "Old Monterey Cafe",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Chart House",
+        "C restaurant + bar",
+        "Bistro Moulin",
+        "Bubba Gump Shrimp Co.",
+        "Schooners Monterey",
+        "The Sardine Factory",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Tarpy's",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Sandbar & Grill",
+        "Monterey's Fish House",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Monterey Bay Fish Grotto",
+        "Monterey Jack's Perth",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Old Fisherman's  Grotto",
+        "Cibo Ristorante Italiano",
+        "Domenico's On the Wharf",
+        "Peter B's Brewpub",
+        "Compagno's Market & Deli",
+        "Gianni's Pizza",
+        "Rosine's Restaurant",
+        "Loulou's Griddle In The Middle"
       ]
     },
     {
-      "day": 1,
+      "day": 3,
       "slot": "attraction2",
       "action_type": "skip_attraction2",
       "chosen": "-",
@@ -65,337 +475,74 @@
       ]
     },
     {
-      "day": 1,
-      "slot": "dinner",
-      "action_type": "skip_dinner",
-      "chosen": "-",
-      "candidates": [
-        "-"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "end_day",
-      "action_type": "end_day",
-      "chosen": "-",
-      "candidates": null
-    },
-    {
-      "day": 2,
-      "slot": "accommodation",
-      "action_type": "set_accommodation",
-      "chosen": "Private Bed next to JHH",
-      "candidates": [
-        "Charming Baltimore Home w/Parking - Dog Friendly!",
-        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
-        "Loaded Home - Heart Of Fells Point Waterfront Area",
-        "Private Bed next to JHH",
-        "Cozy loft in great location",
-        "Entire Comfy Studio @Charles Village -5min frm JHU",
-        "Private Queen Suite (B) Fells and Hopkins Medical"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Charleston Restaurant",
-      "candidates": [
-        "Charleston Restaurant",
-        "Phillips Seafood",
-        "The Capital Grille",
-        "The Food Market",
-        "Blue Moon Cafe",
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "Horseshoe Casino",
-      "candidates": [
-        "Horseshoe Casino",
-        "The Maryland Zoo",
-        "National Aquarium"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Phillips Seafood",
-      "candidates": [
-        "Phillips Seafood",
-        "The Capital Grille",
-        "The Food Market",
-        "Blue Moon Cafe",
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction2",
-      "action_type": "add_attraction2",
-      "chosen": "The Maryland Zoo",
-      "candidates": [
-        "The Maryland Zoo",
-        "National Aquarium"
-      ]
-    },
-    {
-      "day": 2,
+      "day": 3,
       "slot": "dinner",
       "action_type": "set_dinner",
-      "chosen": "The Capital Grille",
+      "chosen": "Tidal Coffee",
       "candidates": [
-        "The Capital Grille",
-        "The Food Market",
-        "Blue Moon Cafe",
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
+        "Tidal Coffee",
+        "Crystal Fish",
+        "Cafe Fina",
+        "Old Monterey Cafe",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "Chart House",
+        "C restaurant + bar",
+        "Bistro Moulin",
+        "Bubba Gump Shrimp Co.",
+        "Schooners Monterey",
+        "The Sardine Factory",
+        "Monterey's Pizza",
+        "Monterey Jacks Stirling",
+        "Tarpy's",
+        "Monterey's Little Mexico",
+        "Monterey's Little Mexico",
+        "Sandbar & Grill",
+        "Monterey's Fish House",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Monterey Bay Fish Grotto",
+        "Monterey Jack's Perth",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Old Fisherman's  Grotto",
+        "Cibo Ristorante Italiano",
+        "Domenico's On the Wharf",
+        "Peter B's Brewpub",
+        "Compagno's Market & Deli",
+        "Gianni's Pizza",
+        "Rosine's Restaurant",
+        "Loulou's Griddle In The Middle"
       ]
-    },
-    {
-      "day": 2,
-      "slot": "end_day",
-      "action_type": "end_day",
-      "chosen": "-",
-      "candidates": null
     },
     {
       "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Transfer, from Baltimore to Miami",
-      "candidates": [
-        "Transfer, from Baltimore to Miami"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "The Food Market",
-      "candidates": [
-        "The Food Market",
-        "Blue Moon Cafe",
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "National Aquarium",
-      "candidates": [
-        "National Aquarium"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Blue Moon Cafe",
-      "candidates": [
-        "Blue Moon Cafe",
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction2",
-      "action_type": "skip_attraction2",
       "chosen": "-",
       "candidates": [
-        "-"
+        "-",
+        "Taxi, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $567.06"
       ]
     },
     {
-      "day": 3,
-      "slot": "dinner",
-      "action_type": "set_dinner",
-      "chosen": "The Helmand",
-      "candidates": [
-        "The Helmand",
-        "LP Steamers",
-        "CLAVEL",
-        "Cinghiale",
-        "La Scala",
-        "Angies Seafood",
-        "Toki Underground Baltimore",
-        "Rec Pier Chop House",
-        "Gertrude's Chesapeake Kitchen",
-        "Nick's Fish House",
-        "Rusty Scupper",
-        "Pratt Street Ale House",
-        "Restaurante Tio Pepe",
-        "Cypriana of Roland Park",
-        "Alexander's Tavern",
-        "La Tavola",
-        "Thames Street Oyster House",
-        "Tagliata",
-        "Amicci's",
-        "Magdalena, A Maryland Bistro",
-        "The Abbey Burger Bistro",
-        "One-Eyed Mike's",
-        "Miss Shirley's Cafe, Inner Harbor",
-        "Dalesio's of Little Italy Restaurant",
-        "Luna Del Sea Steak & Seafood Bistro",
-        "Twist Fell's Point",
-        "Mama's On the Half Shell",
-        "Fogo de Chao Brazilian Steakhouse",
-        "Chiapparelli's Restaurant",
-        "Sotto Sopra"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "end_day",
+      "day": 5,
+      "slot": "breakfast",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -404,154 +551,227 @@
   "days": [
     {
       "day": 1,
-      "current_city": "from Miami to Baltimore",
-      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
-      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "current_city": "from Reno to Los Angeles",
+      "transportation": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "Water Grill",
+      "attractions": [
+        "Hollywood Sign"
+      ],
+      "lunch": "The Lobster",
+      "dinner": "Providence",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        },
+        {
+          "name": "Hollywood Sign",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Beachwood & Westshire",
+          "dist_m": 1574.74
+        },
+        {
+          "name": "The Lobster",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 4397.54
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "Bestia",
+      "attractions": [
+        "The Grove"
+      ],
+      "lunch": "Spire 73",
+      "dinner": "Perch",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        },
+        {
+          "name": "The Grove",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "3rd & Ogden (Eastbound)",
+          "dist_m": 143.67
+        },
+        {
+          "name": "Spire 73",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Figueroa St & 7th St",
+          "dist_m": 109.52
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Monterey",
+      "transportation": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43",
+      "accommodation": "The Mermaid Bungalow",
+      "breakfast": "-",
+      "attractions": [
+        "Perry House"
+      ],
+      "lunch": "Fish Hopper",
+      "dinner": "Tidal Coffee",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "Perry House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Pacific / Scott",
+          "dist_m": 79.46
+        },
+        {
+          "name": "Fish Hopper",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 76.06
+        },
+        {
+          "name": "Tidal Coffee",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Cannery Row / Drake",
+          "dist_m": 46.73
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "-",
+      "accommodation": "Bird Room with Shared Bathroom",
       "breakfast": "-",
       "attractions": [],
       "lunch": "-",
       "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
-          "kind": "stay",
-          "start": "22:15",
-          "end": "08:00",
-          "nearest_transit": "SHOT TOWER METRO West Entrance",
-          "dist_m": 841.96
-        },
-        {
-          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "name": "Bird Room with Shared Bathroom",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "SHOT TOWER METRO West Entrance",
-          "dist_m": 841.96
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
+        },
+        {
+          "name": "Bird Room with Shared Bathroom",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
         }
       ]
     },
     {
-      "day": 2,
-      "current_city": "from Baltimore to Baltimore",
+      "day": 5,
+      "current_city": "from Monterey to Reno",
       "transportation": "-",
-      "accommodation": "Private Bed next to JHH",
-      "breakfast": "Charleston Restaurant",
-      "attractions": [
-        "Horseshoe Casino",
-        "The Maryland Zoo"
-      ],
-      "lunch": "Phillips Seafood",
-      "dinner": "The Capital Grille",
-      "poi_blocks": [
-        {
-          "name": "Private Bed next to JHH",
-          "kind": "stay",
-          "start": "08:00",
-          "end": "09:00",
-          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
-          "dist_m": 457.98
-        },
-        {
-          "name": "Private Bed next to JHH",
-          "kind": "stay",
-          "start": "22:15",
-          "end": "08:00",
-          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
-          "dist_m": 457.98
-        },
-        {
-          "name": "Charleston Restaurant",
-          "kind": "visit",
-          "start": "09:25",
-          "end": "10:16",
-          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
-          "dist_m": 915.06
-        },
-        {
-          "name": "Horseshoe Casino",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "12:57",
-          "nearest_transit": "CHARLES CENTER METRO West Entrance",
-          "dist_m": 2023.43
-        },
-        {
-          "name": "Phillips Seafood",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "SHOT TOWER METRO West Entrance",
-          "dist_m": 344.26
-        },
-        {
-          "name": "The Maryland Zoo",
-          "kind": "visit",
-          "start": "16:30",
-          "end": "19:37",
-          "nearest_transit": "MONDAWMIN METRO Escalator 4",
-          "dist_m": 586.5
-        },
-        {
-          "name": "The Capital Grille",
-          "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
-          "nearest_transit": "SHOT TOWER METRO West Entrance",
-          "dist_m": 293.21
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "current_city": "from Baltimore to Miami",
-      "transportation": "Transfer, from Baltimore to Miami",
       "accommodation": "-",
-      "breakfast": "The Food Market",
-      "attractions": [
-        "National Aquarium"
-      ],
-      "lunch": "Blue Moon Cafe",
-      "dinner": "The Helmand",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Private Bed next to JHH",
+          "name": "Bird Room with Shared Bathroom",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
-          "dist_m": 457.98
-        },
-        {
-          "name": "The Food Market",
-          "kind": "visit",
-          "start": "09:25",
-          "end": "10:16",
-          "nearest_transit": "MONDAWMIN METRO Main Entrance",
-          "dist_m": 2207.42
-        },
-        {
-          "name": "National Aquarium",
-          "kind": "visit",
-          "start": "11:30",
-          "end": "14:43",
-          "nearest_transit": "SHOT TOWER METRO West Entrance",
-          "dist_m": 474.59
-        },
-        {
-          "name": "Blue Moon Cafe",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
-          "dist_m": 1161.67
-        },
-        {
-          "name": "The Helmand",
-          "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
-          "nearest_transit": "STATE CENTER (METRO) sb",
-          "dist_m": 508.53
+          "nearest_transit": "Canyon Del Rey / Carlton Drive",
+          "dist_m": 516.37
         }
       ]
     }

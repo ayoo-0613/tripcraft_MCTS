@@ -2,58 +2,89 @@
   "idx": 300,
   "stages": [
     {
-      "city": "Kansas City",
+      "city": "Memphis",
       "counts": {
-        "attractions": 20,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 4
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 1
+      }
+    },
+    {
+      "city": "Bristol",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Kansas City",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0023242, from Las Vegas to Kansas City, Departure Time: 14:18, Arrival Time: 18:53"
+      "from": "Houston",
+      "to": "Memphis",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0062675, from Houston to Memphis, Departure Time: 14:29, Arrival Time: 15:53"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Kansas City",
+      "from": "Houston",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Kansas City, Duration: 1384.365 mins, Distance: 2172.5742999999998 km, Estimated Cost: $108.63"
+      "raw": "Self-driving, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $45.57"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Kansas City",
+      "from": "Houston",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Kansas City, Duration: 1384.365 mins, Distance: 2172.5742999999998 km, Estimated Cost: $2172.57"
+      "raw": "Taxi, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $911.42"
     },
     {
       "mode": "flight",
-      "from": "Kansas City",
-      "to": "Las Vegas",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0053552, from Kansas City to Las Vegas, Departure Time: 10:51, Arrival Time: 11:48"
+      "from": "Memphis",
+      "to": "Bristol",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Kansas City",
-      "to": "Las Vegas",
+      "from": "Memphis",
+      "to": "Bristol",
       "date": null,
-      "raw": "Self-driving, from Kansas City to Las Vegas, Duration: 1382.5316666666665 mins, Distance: 2173.3572000000004 km, Estimated Cost: $108.67"
+      "raw": "Self-driving, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $40.29"
     },
     {
       "mode": "taxi",
-      "from": "Kansas City",
-      "to": "Las Vegas",
+      "from": "Memphis",
+      "to": "Bristol",
       "date": null,
-      "raw": "Taxi, from Kansas City to Las Vegas, Duration: 1382.5316666666665 mins, Distance: 2173.3572000000004 km, Estimated Cost: $2173.36"
+      "raw": "Taxi, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $805.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Bristol to Houston, Duration: 1138.2016666666668 mins, Distance: 1665.1613 km, Estimated Cost: $83.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Bristol to Houston, Duration: 1138.2016666666668 mins, Distance: 1665.1613 km, Estimated Cost: $1665.16"
     }
   ]
 }

@@ -2,11 +2,21 @@
   "idx": 286,
   "stages": [
     {
-      "city": "San Luis Obispo",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Dallas",
-      "to": "San Luis Obispo",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0396197, from Dallas to San Luis Obispo, Departure Time: 20:49, Arrival Time: 22:54"
+      "from": "Reno",
+      "to": "Los Angeles",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0093879, from Reno to Los Angeles, Departure Time: 10:37, Arrival Time: 11:56"
     },
     {
       "mode": "self-driving",
-      "from": "Dallas",
-      "to": "San Luis Obispo",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo"
+      "raw": "Self-driving, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $37.86"
     },
     {
       "mode": "taxi",
-      "from": "Dallas",
-      "to": "San Luis Obispo",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Dallas to San Luis Obispo, Not feasible to drive from Dallas to San Luis Obispo"
+      "raw": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Dallas",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0396169, from San Luis Obispo to Dallas, Departure Time: 06:25, Arrival Time: 11:29"
+      "from": "Los Angeles",
+      "to": "Monterey",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Dallas",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Dallas, Not feasible to drive from San Luis Obispo to Dallas"
+      "raw": "Self-driving, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $22.61"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Dallas",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Dallas, Not feasible to drive from San Luis Obispo to Dallas"
+      "raw": "Taxi, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $452.22"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": "2024-11-21",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $28.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $567.06"
     }
   ]
 }

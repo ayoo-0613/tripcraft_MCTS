@@ -8,7 +8,17 @@
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 69,
-        "events": 12
+        "events": 9
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 2
       }
     },
     {
@@ -18,73 +28,94 @@
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 70,
-        "events": 14
+        "events": 12
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
+      "from": "San Antonio",
       "to": "Chattanooga",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0457609, from Chicago to Chattanooga, Departure Time: 13:59, Arrival Time: 16:38"
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
+      "from": "San Antonio",
       "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $45.98"
+      "raw": "Self-driving, from San Antonio to Chattanooga, Duration: 1097.7783333333332 mins, Distance: 1620.8854 km, Estimated Cost: $81.04"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
+      "from": "San Antonio",
       "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Chicago to Chattanooga, Duration: 670.67 mins, Distance: 919.6393 km, Estimated Cost: $919.64"
+      "raw": "Taxi, from San Antonio to Chattanooga, Duration: 1097.7783333333332 mins, Distance: 1620.8854 km, Estimated Cost: $1620.89"
     },
     {
       "mode": "flight",
       "from": "Chattanooga",
-      "to": "Memphis",
-      "date": "2024-11-04",
+      "to": "Nashville",
+      "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
       "from": "Chattanooga",
-      "to": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
       "from": "Chattanooga",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
       "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
+      "raw": "Self-driving, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $17.15"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Nashville to Memphis, Duration: 235.415 mins, Distance: 342.9624 km, Estimated Cost: $342.96"
     },
     {
       "mode": "flight",
       "from": "Memphis",
-      "to": "Chicago",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0063525, from Memphis to Chicago, Departure Time: 17:35, Arrival Time: 18:58"
+      "to": "San Antonio",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
       "from": "Memphis",
-      "to": "Chicago",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Memphis to Chicago, Duration: 585.8933333333333 mins, Distance: 855.8181999999999 km, Estimated Cost: $42.79"
+      "raw": "Self-driving, from Memphis to San Antonio, Duration: 769.8516666666667 mins, Distance: 1167.9948 km, Estimated Cost: $58.40"
     },
     {
       "mode": "taxi",
       "from": "Memphis",
-      "to": "Chicago",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Memphis to Chicago, Duration: 585.8933333333333 mins, Distance: 855.8181999999999 km, Estimated Cost: $855.82"
+      "raw": "Taxi, from Memphis to San Antonio, Duration: 769.8516666666667 mins, Distance: 1167.9948 km, Estimated Cost: $1167.99"
     }
   ]
 }

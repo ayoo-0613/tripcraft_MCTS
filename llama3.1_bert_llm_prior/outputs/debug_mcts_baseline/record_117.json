@@ -1,91 +1,120 @@
 {
   "idx": 117,
   "JSON": {
-    "org": "Atlanta",
-    "dest": "Iowa",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Champaign",
+    "dest": "Texas",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-15",
-      "2024-11-16",
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
-      "room type": null,
+      "cuisine": [
+        "American",
+        "Italian"
+      ],
+      "room type": "entire home",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 3300.0,
-    "query": "Plan a 5-day trip for 1 person traveling from Atlanta to explore 2 cities in Iowa between November 15th and November 19th, 2024, with a budget of $3,300.",
-    "level": "easy"
+    "budget": 17400.0,
+    "query": "Plan a 7-day trip for 1 person starting from Champaign and visiting 3 cities in Texas between November 1st and November 7th, 2024. The budget is $17,400. Accommodations should be in an entire home, and dining options should include American and Italian cuisines.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Atlanta to Cedar Rapids",
-      "transportation": "Taxi, from Atlanta to Cedar Rapids, Duration: 948.7716666666668 mins, Distance: 1347.778 km, Estimated Cost: $1347.78",
-      "breakfast": "Zeppelins, Cedar Rapids",
-      "attraction": "Bever Park, Cedar Rapids",
-      "lunch": "The Map Room, Cedar Rapids",
-      "dinner": "Lightworks Cafe, Cedar Rapids",
-      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
+      "current_city": "from Champaign to Houston",
+      "transportation": "Taxi, from Champaign to Houston, Duration: 1031.875 mins, Distance: 1513.0673000000002 km, Estimated Cost: $1513.07",
+      "breakfast": "Houston Restaurant, Houston",
+      "attraction": "Discovery Green, Houston",
+      "lunch": "Taste of Texas, Houston",
+      "dinner": "Houston's, Houston",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score, Houston",
       "event": "-",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Bever Park, visit from 11:30 to 16:00, nearest transit: Memorial Dr & Bever Ave, 31.27m away; The Map Room, visit from 13:57 to 14:56, nearest transit: 5th Ave & RR tracks, 111.63m away; Lightworks Cafe, visit from 19:51 to 21:00, nearest transit: 6th St & 6th Ave, 178.56m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; Houston Restaurant, visit from 09:25 to 10:16, nearest transit: Conroe Park & Ride, 2530051.98m away; Discovery Green, visit from 11:30 to 15:20, nearest transit: Lamar St @ Austin St, 231.52m away; Taste of Texas, visit from 13:57 to 14:56, nearest transit: Katy Freeway @ Town And Country Way, 260.58m away; Houston's, visit from 19:51 to 21:00, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; The Rustic Traveler | 83 Walkability Score, stay from 22:15 to 08:00, nearest transit: W 11th St @ Rutland St, 178.69m away."
     },
     {
       "days": 2,
-      "current_city": "from Cedar Rapids to Cedar Rapids",
-      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
-      "breakfast": "350 First, Cedar Rapids",
-      "attraction": "Brucemore, Cedar Rapids",
-      "lunch": "Irish Democrat, Cedar Rapids",
-      "dinner": "The Breakfast House, Cedar Rapids",
-      "accommodation": "Burnett Cottage @NewBo District (OG), Cedar Rapids",
+      "current_city": "from Houston to Houston",
+      "transportation": "Transfer, from Houston to Houston",
+      "breakfast": "Hugo's, Houston",
+      "attraction": "Hermann Park, Houston",
+      "lunch": "Goode Company Seafood, Houston",
+      "dinner": "Houston White Co, Houston",
+      "accommodation": "The Rustic Traveler | 83 Walkability Score, Houston",
       "event": "-",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; 350 First, visit from 09:25 to 10:16, nearest transit: 3rd St & 2nd Ave, 159.53m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; Irish Democrat, visit from 13:57 to 14:56, nearest transit: 1st Ave & 32nd St, 46.22m away; The Breakfast House, visit from 19:51 to 21:00, nearest transit: 812 6th St (Jim's Foods), 38.50m away; Burnett Cottage @NewBo District (OG), stay from 22:15 to 08:00, nearest transit: 6th St & 10th Ave, 40.75m away."
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; Hugo's, visit from 09:25 to 10:16, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Hermann Park, visit from 11:30 to 16:35, nearest transit: Cambridge St @ Ben Taub Loop, 355.64m away; Goode Company Seafood, visit from 13:57 to 14:56, nearest transit: Westpark Dr @ Wakeforest St, 141.76m away; Houston White Co, visit from 19:51 to 21:00, nearest transit: Baytown Park & Ride, 2075682.55m away; The Rustic Traveler | 83 Walkability Score, stay from 22:15 to 08:00, nearest transit: W 11th St @ Rutland St, 178.69m away."
     },
     {
       "days": 3,
-      "current_city": "from Cedar Rapids to Sioux City",
-      "transportation": "Transfer, from Cedar Rapids to Sioux City",
-      "breakfast": "Old Chicago, Sioux City",
-      "attraction": "Trinity Heights, Sioux City",
-      "lunch": "Red Lobster, Sioux City",
-      "dinner": "Brightside Cafe, Sioux City",
-      "accommodation": "Bungalow, Sioux City",
+      "current_city": "from Houston to Amarillo",
+      "transportation": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Drunken Oyster, Amarillo",
+      "dinner": "Metropolitan, Amarillo",
+      "accommodation": "Cadillac Ranch Casita, Amarillo",
       "event": "-",
-      "point_of_interest_list": "Burnett Cottage @NewBo District (OG), stay from 08:00 to 09:00, nearest transit: 6th St & 10th Ave, 40.75m away; Old Chicago, visit from 09:25 to 10:16, nearest transit: Lakeport Commons - Panera Bread, 73.40m away; Trinity Heights, visit from 11:30 to 15:20, nearest transit: Floyd Blvd & 33rd St, 269.87m away; Red Lobster, visit from 13:57 to 14:56, nearest transit: Sergeant Rd & South Lancelot Lane, 109.59m away; Brightside Cafe, visit from 19:51 to 21:00, nearest transit: Pierce St & 4th St, 114.95m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+      "point_of_interest_list": "The Rustic Traveler | 83 Walkability Score, stay from 08:00 to 09:00, nearest transit: W 11th St @ Rutland St, 178.69m away; Drunken Oyster, visit from 13:57 to 14:56, nearest transit: SW 45th Ave & S Coulter St (Walmart), 107.92m away; Metropolitan, visit from 19:51 to 21:00, nearest transit: SW 45th Ave & Wesley St (Colonies Church of Christ), 1638.39m away; Cadillac Ranch Casita, stay from 22:15 to 08:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away."
     },
     {
       "days": 4,
-      "current_city": "from Sioux City to Sioux City",
-      "transportation": "Transfer, from Sioux City to Sioux City",
-      "breakfast": "Miles Inn, Sioux City",
-      "attraction": "Palmer Candy, Sioux City",
-      "lunch": "Horizon Family Restaurant, Sioux City",
-      "dinner": "Buffalo Alice, Sioux City",
-      "accommodation": "Bungalow, Sioux City",
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "Transfer, from Amarillo to Amarillo",
+      "breakfast": "Crush, Amarillo",
+      "attraction": "Cadillac Ranch, Amarillo",
+      "lunch": "Pacific Rim, Amarillo",
+      "dinner": "The Plaza Restaurant, Amarillo",
+      "accommodation": "Cadillac Ranch Casita, Amarillo",
       "event": "-",
-      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Miles Inn, visit from 09:25 to 10:16, nearest transit: Leech Ave & Fairmount St, 28.28m away; Palmer Candy, visit from 11:30 to 13:50, nearest transit: Floyd Blvd & 33rd St, 1226.11m away; Horizon Family Restaurant, visit from 13:57 to 14:56, nearest transit: Myrtle St & Tri-View Ave - Central Mart, 73.11m away; Buffalo Alice, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 122.83m away; Bungalow, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+      "point_of_interest_list": "Cadillac Ranch Casita, stay from 08:00 to 09:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away; Crush, visit from 09:25 to 10:16, nearest transit: SE 7th Ave & S Polk St (Crush), 29.57m away; Cadillac Ranch, visit from 11:30 to 15:20, nearest transit: 2810 S Soncy Rd (Applebee's), 4475.02m away; Pacific Rim, visit from 13:57 to 14:56, nearest transit: S Georgia St & Civic Cir, 570.08m away; The Plaza Restaurant, visit from 19:51 to 21:00, nearest transit: Westgate Pkwy West of Best Buy, 614.28m away; Cadillac Ranch Casita, stay from 22:15 to 08:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away."
     },
     {
       "days": 5,
-      "current_city": "from Sioux City to Atlanta",
-      "transportation": "Transfer, from Sioux City to Atlanta",
-      "breakfast": "Wheelhouse, Sioux City",
-      "attraction": "Sergeant Floyd Monument, Sioux City",
-      "lunch": "Table 32, Sioux City",
-      "dinner": "Jitters, Sioux City",
+      "current_city": "from Amarillo to San Antonio",
+      "transportation": "Transfer, from Amarillo to San Antonio",
+      "breakfast": "Bliss, San Antonio",
+      "attraction": "SeaWorld, San Antonio",
+      "lunch": "Yard House, San Antonio",
+      "dinner": "Battalion, San Antonio",
+      "accommodation": "Studio @ LA LUZ | Standuke (no window), San Antonio",
+      "event": "-",
+      "point_of_interest_list": "Cadillac Ranch Casita, stay from 08:00 to 09:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away; Bliss, visit from 09:25 to 10:16, nearest transit: S. PRESA OPPOSITE SADIE, 41.72m away; SeaWorld, visit from 11:30 to 17:20, nearest transit: SEA WORLD OF TEXAS MAIN ENTRANCE, 320.40m away; Yard House, visit from 13:57 to 14:56, nearest transit: MARKET/ FRONT OF CONVENTION CENTER, 117.25m away; Battalion, visit from 19:51 to 21:00, nearest transit: S ALAMO OPPOSITE REFUGIO & LAVACA, 55.78m away; Studio @ LA LUZ | Standuke (no window), stay from 22:15 to 08:00, nearest transit: Alamo & 3rd Street, 146.98m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Antonio to San Antonio",
+      "transportation": "Transfer, from San Antonio to San Antonio",
+      "breakfast": "Sichuan House, San Antonio",
+      "attraction": "Pearl Brewery, San Antonio",
+      "lunch": "Colonial Room Restaurant, San Antonio",
+      "dinner": "Domingo Restaurant, San Antonio",
+      "accommodation": "Studio @ LA LUZ | Standuke (no window), San Antonio",
+      "event": "-",
+      "point_of_interest_list": "Studio @ LA LUZ | Standuke (no window), stay from 08:00 to 09:00, nearest transit: Alamo & 3rd Street, 146.98m away; Sichuan House, visit from 09:25 to 10:16, nearest transit: WURZBACH OPP. ENT. DR. TO DILLARD'S, 73.79m away; Pearl Brewery, visit from 11:30 to 14:35, nearest transit: JOSEPHINE & ISLETA, 335.74m away; Colonial Room Restaurant, visit from 13:57 to 14:56, nearest transit: MARKET & ALAMO - 150 FT. WEST, 219.31m away; Domingo Restaurant, visit from 19:51 to 21:00, nearest transit: ST. MARY'S & COMMERCE, 28.70m away; Studio @ LA LUZ | Standuke (no window), stay from 22:15 to 08:00, nearest transit: Alamo & 3rd Street, 146.98m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Antonio to Champaign",
+      "transportation": "Transfer, from San Antonio to Champaign",
+      "breakfast": "La Margarita Restaurant, San Antonio",
+      "attraction": "Mission Trail, San Antonio",
+      "lunch": "Biga on the Banks, San Antonio",
+      "dinner": "J Prime Steakhouse, San Antonio",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Bungalow, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Wheelhouse, visit from 09:25 to 10:16, nearest transit: Southern Hills Dr & Southern Square - Hobby Lobby, 210.10m away; Sergeant Floyd Monument, visit from 11:30 to 15:20, nearest transit: 3rd St & Lewis Blvd, 292.28m away; Table 32, visit from 13:57 to 14:56, nearest transit: Virginia St & Gordon Dr, 122.58m away; Jitters, visit from 19:51 to 21:00, nearest transit: 3rd St & Virginia St, 31.46m away."
+      "point_of_interest_list": "Studio @ LA LUZ | Standuke (no window), stay from 08:00 to 09:00, nearest transit: Alamo & 3rd Street, 146.98m away; La Margarita Restaurant, visit from 09:25 to 10:16, nearest transit: Dolorosa Between San Saba & Santa Rosa, 66.72m away; Mission Trail, visit from 11:30 to 15:20, nearest transit: ROOSEVELT OPPOSITE PYRON, 207.07m away; Biga on the Banks, visit from 13:57 to 14:56, nearest transit: ST MARYS BET. MARKET & VILLITA, 27.33m away; J Prime Steakhouse, visit from 19:51 to 21:00, nearest transit: WESTBOUND LOOP 1604 ACCESS RD. 645 FT. WEST OF BLANCO, 134.64m away."
     }
   ]
 }

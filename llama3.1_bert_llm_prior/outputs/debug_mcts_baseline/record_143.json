@@ -1,91 +1,117 @@
 {
   "idx": 143,
   "JSON": {
-    "org": "Savannah",
+    "org": "Dallas",
     "dest": "Tennessee",
-    "days": 5,
-    "visiting_city_number": 2,
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
       "2024-11-10",
-      "2024-11-11",
-      "2024-11-12",
-      "2024-11-13",
-      "2024-11-14"
+      "2024-11-11"
     ],
-    "people_number": 7,
+    "people_number": 2,
     "local_constraint": {
-      "house rule": "children under 10",
+      "house rule": null,
       "cuisine": null,
       "room type": null,
       "event": null,
       "attraction": null,
       "transportation": null
     },
-    "budget": 15750.0,
-    "query": "Plan a 5-day trip for 7 people traveling from Savannah to explore 2 cities in Tennessee between November 10th and November 14th, 2024. The budget is $15,750. Please ensure accommodations follow the house rule of no children under 10.",
-    "level": "medium"
+    "budget": 10350.0,
+    "query": "Plan a 7-day trip for 2 people from Dallas to explore 3 cities in Tennessee, from November 5th to November 11th, 2024, with a budget of $10,350.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Savannah to Chattanooga",
-      "transportation": "Taxi, from Savannah to Chattanooga, Duration: 405.55 mins, Distance: 588.2941999999999 km, Estimated Cost: $588.29",
-      "breakfast": "Urban Stack, Chattanooga",
-      "attraction": "Tennessee Aquarium, Chattanooga",
-      "lunch": "Bluegrass Grill, Chattanooga",
-      "dinner": "Stir, Chattanooga",
-      "accommodation": "Glenn Falls Tiny Cabin, Chattanooga",
+      "current_city": "from Dallas to Bristol",
+      "transportation": "Flight Number: F0470114, from Dallas to Bristol, Departure Time: 13:29, Arrival Time: 16:42",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Walk to State Street - Remodeled Home, Bristol",
       "event": "-",
-      "point_of_interest_list": "Glenn Falls Tiny Cabin, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 428.92m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 15:50, nearest transit: BRO AQ 1, 109.14m away; Bluegrass Grill, visit from 13:57 to 14:56, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Stir, visit from 19:51 to 21:00, nearest transit: MARKET + MAIN, 69.25m away; Glenn Falls Tiny Cabin, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 428.92m away."
+      "point_of_interest_list": "Walk to State Street - Remodeled Home, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Walk to State Street - Remodeled Home, stay from 17:12 to 18:12, nearest transit: Downtown Transfer Center, 1324.41m away; Walk to State Street - Remodeled Home, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
     },
     {
       "days": 2,
-      "current_city": "from Chattanooga to Chattanooga",
-      "transportation": "Transfer, from Chattanooga to Chattanooga",
-      "breakfast": "Community Pie, Chattanooga",
-      "attraction": "Chattanooga Zoo, Chattanooga",
-      "lunch": "Alleia, Chattanooga",
-      "dinner": "1885 Grill, Chattanooga",
-      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Bristol Seafood Grill, Bristol",
+      "attraction": "Bristol Cathedral, Bristol",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Walk to State Street - Remodeled Home, Bristol",
       "event": "-",
-      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Community Pie, visit from 09:25 to 10:16, nearest transit: MARKET + M.L.KING, 20.76m away; Chattanooga Zoo, visit from 11:30 to 16:00, nearest transit: Holtzclaw & 5th-1, 123.88m away; Alleia, visit from 13:57 to 14:56, nearest transit: Main & Market Outbound, 49.84m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+      "point_of_interest_list": "Walk to State Street - Remodeled Home, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Bristol Seafood Grill, visit from 09:25 to 10:16, nearest transit: Hard Rock Hotel Main Entrance, 761097.80m away; Bristol Cathedral, visit from 11:30 to 15:20, nearest transit: Home Depot, 6253967.38m away; Walk to State Street - Remodeled Home, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
     },
     {
       "days": 3,
-      "current_city": "from Chattanooga to Nashville",
-      "transportation": "Transfer, from Chattanooga to Nashville",
-      "breakfast": "Smiling Elephant, Nashville",
-      "attraction": "Downtown Nashville, Nashville",
-      "lunch": "Henley, Nashville",
-      "dinner": "Aquarium Restaurant, Nashville",
-      "accommodation": "Historic Dream In East Nashville, Nashville",
+      "current_city": "from Bristol to Memphis",
+      "transportation": "Taxi, from Bristol to Memphis, Duration: 552.7683333333333 mins, Distance: 810.1358 km, Estimated Cost: $810.14",
+      "breakfast": "Arcade Restaurant, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Majestic Grille, Memphis",
+      "dinner": "Interstate Barbecue, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Downtown Nashville, visit from 11:30 to 14:50, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; Henley, visit from 13:57 to 14:56, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Aquarium Restaurant, visit from 19:51 to 21:00, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Historic Dream In East Nashville, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 9TH ST WB, 67.91m away."
+      "point_of_interest_list": "Walk to State Street - Remodeled Home, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Arcade Restaurant, visit from 09:25 to 10:16, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Majestic Grille, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 4,
-      "current_city": "from Nashville to Nashville",
-      "transportation": "Transfer, from Nashville to Nashville",
-      "breakfast": "The Standard, Nashville",
-      "attraction": "Centennial Park, Nashville",
-      "lunch": "The Bridge, Nashville",
-      "dinner": "417 Union, Nashville",
-      "accommodation": "Historic Dream In East Nashville, Nashville",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Cozy Corner, Memphis",
+      "attraction": "Sun Studio, Memphis",
+      "lunch": "Memphis Barbecue, Memphis",
+      "dinner": "Flying Fish, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "Historic Dream In East Nashville, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 9TH ST WB, 67.91m away; The Standard, visit from 09:25 to 10:16, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Centennial Park, visit from 11:30 to 16:35, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; The Bridge, visit from 13:57 to 14:56, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; 417 Union, visit from 19:51 to 21:00, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Historic Dream In East Nashville, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 9TH ST WB, 67.91m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Cozy Corner, visit from 09:25 to 10:16, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Sun Studio, visit from 11:30 to 15:20, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Memphis Barbecue, visit from 13:57 to 14:56, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Flying Fish, visit from 19:51 to 21:00, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 5,
-      "current_city": "from Nashville to Savannah",
-      "transportation": "Flight Number: F0047187, from Nashville to Savannah, Departure Time: 14:27, Arrival Time: 16:44",
-      "breakfast": "Ole Red, Nashville",
-      "attraction": "Cheekwood, Nashville",
-      "lunch": "-",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Aquarium Restaurant, Nashville",
+      "attraction": "Centennial Park, Nashville",
+      "lunch": "Smiling Elephant, Nashville",
+      "dinner": "The Bridge, Nashville",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Aquarium Restaurant, visit from 09:25 to 10:16, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Centennial Park, visit from 11:30 to 16:35, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; Smiling Elephant, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; The Bridge, visit from 19:51 to 21:00, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 22:15 to 08:00, nearest transit: PEABODY STATION INBOUND, 149.43m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "417 Union, Nashville",
+      "attraction": "Downtown Nashville, Nashville",
+      "lunch": "Henley, Nashville",
+      "dinner": "The Standard, Nashville",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 08:00 to 09:00, nearest transit: PEABODY STATION INBOUND, 149.43m away; 417 Union, visit from 09:25 to 10:16, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Downtown Nashville, visit from 11:30 to 14:50, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; Henley, visit from 13:57 to 14:56, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; The Standard, visit from 19:51 to 21:00, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 22:15 to 08:00, nearest transit: PEABODY STATION INBOUND, 149.43m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0013562, from Nashville to Dallas, Departure Time: 19:41, Arrival Time: 21:39",
+      "breakfast": "1 Kitchen, Nashville",
+      "attraction": "Belmont Mansion, Nashville",
+      "lunch": "The Farm House, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Historic Dream In East Nashville, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 9TH ST WB, 67.91m away; Ole Red, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away."
+      "point_of_interest_list": "Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 08:00 to 09:00, nearest transit: PEABODY STATION INBOUND, 149.43m away; 1 Kitchen, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away; Belmont Mansion, visit from 11:30 to 16:05, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; The Farm House, visit from 13:57 to 14:56, nearest transit: CONVENTION CENTER STATION OUTBOUND, 114.93m away."
     }
   ]
 }

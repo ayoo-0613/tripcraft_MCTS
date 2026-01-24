@@ -1,68 +1,91 @@
 {
   "idx": 185,
   "JSON": {
-    "org": "Sarasota",
-    "dest": "Cincinnati",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Nashville",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-05",
-      "2024-11-06",
-      "2024-11-07"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
     "people_number": 2,
     "local_constraint": {
-      "house rule": "pets",
-      "cuisine": [
-        "Asian",
-        "American"
-      ],
-      "room type": null,
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
       "event": null,
       "attraction": null,
-      "transportation": "flight"
+      "transportation": null
     },
-    "budget": 2250.0,
-    "query": "Plan a 3-day trip for 2 people from Sarasota to Cincinnati from November 5th to November 7th, 2024, with a budget of $2,250. The trip should include flights as the mode of transportation, and accommodations must allow pets. Dining options should feature Asian and American cuisines.",
-    "level": "hard"
+    "budget": 4500.0,
+    "query": "Plan a 5-day trip for 2 people traveling from Nashville to explore 2 cities in New York between November 1st and November 5th, 2024. The budget is $4,500, and accommodations should include an entire home.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Sarasota to Cincinnati",
-      "transportation": "Taxi, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $1538.66",
-      "breakfast": "Cafe Mediterranean, Cincinnati",
-      "attraction": "Fountain Square, Cincinnati",
-      "lunch": "Boca, Cincinnati",
-      "dinner": "Swampwater Grill, Cincinnati",
-      "accommodation": "Renovated 2 BR-King bed-Free Parking-Walnut Hills, Cincinnati",
+      "current_city": "from Nashville to Newburgh",
+      "transportation": "Taxi, from Nashville to Newburgh, Duration: 1042.5016666666666 mins, Distance: 1498.384 km, Estimated Cost: $1498.38",
+      "breakfast": "Cafe Alice, Newburgh",
+      "attraction": "Ann Street Gallery, Newburgh",
+      "lunch": "Alexis Diner, Newburgh",
+      "dinner": "Cafe Arazu, Newburgh",
+      "accommodation": "Romantic Riverfront Retreat | Fall Foliage Views, Newburgh",
       "event": "-",
-      "point_of_interest_list": "Renovated 2 BR-King bed-Free Parking-Walnut Hills, stay from 08:00 to 09:00, nearest transit: GILBERT AVE & DURRELL AVE, 80.35m away; Cafe Mediterranean, visit from 09:25 to 10:16, nearest transit: MARBURG AVE & ERIE AVE, 323.22m away; Fountain Square, visit from 11:30 to 15:20, nearest transit: 5TH ST & FOUNTAIN SQUARE, 53.60m away; Boca, visit from 13:57 to 14:56, nearest transit: 6TH ST & MAIN ST, 42.37m away; Swampwater Grill, visit from 19:51 to 21:00, nearest transit: KELLOGG AVE & CONGRESS AVE, 145.82m away; Renovated 2 BR-King bed-Free Parking-Walnut Hills, stay from 22:15 to 08:00, nearest transit: GILBERT AVE & DURRELL AVE, 80.35m away."
+      "point_of_interest_list": "Romantic Riverfront Retreat | Fall Foliage Views, stay from 08:00 to 09:00, nearest transit: Broadway & Grand St, 817.33m away; Cafe Alice, visit from 09:25 to 10:16, nearest transit: Beacon Station, 5183193.10m away; Ann Street Gallery, visit from 11:30 to 15:20, nearest transit: Broadway & Liberty St, 109.37m away; Alexis Diner, visit from 13:57 to 14:56, nearest transit: Plank Rd & Rte 9W, 321.47m away; Cafe Arazu, visit from 19:51 to 21:00, nearest transit: Stewart Airport, 1205555.11m away; Romantic Riverfront Retreat | Fall Foliage Views, stay from 22:15 to 08:00, nearest transit: Broadway & Grand St, 817.33m away."
     },
     {
       "days": 2,
-      "current_city": "from Cincinnati to Cincinnati",
-      "transportation": "Transfer, from Cincinnati to Cincinnati",
-      "breakfast": "Nada, Cincinnati",
-      "attraction": "Eden Park, Cincinnati",
-      "lunch": "Subito, Cincinnati",
-      "dinner": "The Blind Lemon, Cincinnati",
-      "accommodation": "Luxury King Bed Suite! Resort Pool-Free Parking, Cincinnati",
+      "current_city": "from Newburgh to Newburgh",
+      "transportation": "Transfer, from Newburgh to Newburgh",
+      "breakfast": "Subway, Newburgh",
+      "attraction": "Grit Works, Newburgh",
+      "lunch": "Abrams Bakery, Newburgh",
+      "dinner": "The River Grill, Newburgh",
+      "accommodation": "Romantic Riverfront Retreat | Fall Foliage Views, Newburgh",
       "event": "-",
-      "point_of_interest_list": "Luxury King Bed Suite! Resort Pool-Free Parking, stay from 08:00 to 09:00, nearest transit: PETE ROSE WAY & EGGLESTON AVE, 751.16m away; Nada, visit from 09:25 to 10:16, nearest transit: 6TH ST & MAIN ST, 60.38m away; Eden Park, visit from 11:30 to 16:50, nearest transit: GILBERT AVE & EDEN PARK DR, 132.39m away; Subito, visit from 13:57 to 14:56, nearest transit: PIKE ST & 3RD ST, 50.20m away; The Blind Lemon, visit from 19:51 to 21:00, nearest transit: PARADROME ST 941, 64.25m away; Luxury King Bed Suite! Resort Pool-Free Parking, stay from 22:15 to 08:00, nearest transit: PETE ROSE WAY & EGGLESTON AVE, 751.16m away."
+      "point_of_interest_list": "Romantic Riverfront Retreat | Fall Foliage Views, stay from 08:00 to 09:00, nearest transit: Broadway & Grand St, 817.33m away; Subway, visit from 09:25 to 10:16, nearest transit: Stewart Airport, 1208321.97m away; Grit Works, visit from 11:30 to 14:35, nearest transit: Broadway & Liberty St, 101.81m away; Abrams Bakery, visit from 13:57 to 14:56, nearest transit: Stewart Airport, 387186.34m away; The River Grill, visit from 19:51 to 21:00, nearest transit: Broadway & Grand St, 523.55m away; Romantic Riverfront Retreat | Fall Foliage Views, stay from 22:15 to 08:00, nearest transit: Broadway & Grand St, 817.33m away."
     },
     {
       "days": 3,
-      "current_city": "from Cincinnati to Sarasota",
-      "transportation": "Transfer, from Cincinnati to Sarasota",
-      "breakfast": "The Melting Pot, Cincinnati",
-      "attraction": "Findlay Market, Cincinnati",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Newburgh to Watertown",
+      "transportation": "Transfer, from Newburgh to Watertown",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Literatus & Co, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "The Hideaway Cabin, Watertown",
+      "event": "-",
+      "point_of_interest_list": "Romantic Riverfront Retreat | Fall Foliage Views, stay from 08:00 to 09:00, nearest transit: Broadway & Grand St, 817.33m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Literatus & Co, visit from 11:30 to 13:50, nearest transit: Target - Towne Center Parking, 1033038.46m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; The Hideaway Cabin, stay from 22:15 to 08:00, nearest transit: Target - Towne Center Parking, 16215.05m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "United China Restaurant, Watertown",
+      "attraction": "Terry Redlin Museum, Watertown",
+      "lunch": "The Crystal Restaurant, Watertown",
+      "dinner": "Fairground Inn, Watertown",
+      "accommodation": "The Hideaway Cabin, Watertown",
+      "event": "-",
+      "point_of_interest_list": "The Hideaway Cabin, stay from 08:00 to 09:00, nearest transit: Target - Towne Center Parking, 16215.05m away; United China Restaurant, visit from 09:25 to 10:16, nearest transit: Northland Plaza, 218.90m away; Terry Redlin Museum, visit from 11:30 to 14:35, nearest transit: Target - Towne Center Parking, 1678308.27m away; The Crystal Restaurant, visit from 13:57 to 14:56, nearest transit: Transfer Station, 208.03m away; Fairground Inn, visit from 19:51 to 21:00, nearest transit: Coffeen VanDuzee, 215.08m away; The Hideaway Cabin, stay from 22:15 to 08:00, nearest transit: Target - Towne Center Parking, 16215.05m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Watertown to Nashville",
+      "transportation": "Transfer, from Watertown to Nashville",
+      "breakfast": "Bistro 108, Watertown",
+      "attraction": "Salmon Run Mall, Watertown",
+      "lunch": "Texas Roadhouse, Watertown",
+      "dinner": "Jreck Subs, Watertown",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Luxury King Bed Suite! Resort Pool-Free Parking, stay from 08:00 to 09:00, nearest transit: PETE ROSE WAY & EGGLESTON AVE, 751.16m away; The Melting Pot, visit from 09:25 to 10:16, nearest transit: MONTGOMERY RD 10981, 148.77m away; Findlay Market, visit from 11:30 to 13:50, nearest transit: FINDLAY MARKET-ELM Station, Elm & Glass Alley, 68.13m away."
+      "point_of_interest_list": "The Hideaway Cabin, stay from 08:00 to 09:00, nearest transit: Target - Towne Center Parking, 16215.05m away; Bistro 108, visit from 09:25 to 10:16, nearest transit: Transfer Station, 69.37m away; Salmon Run Mall, visit from 11:30 to 13:50, nearest transit: Transfer Station, 220.90m away; Texas Roadhouse, visit from 13:57 to 14:56, nearest transit: Walmart Outer - Arsenal Street Parking, 144.00m away; Jreck Subs, visit from 19:51 to 21:00, nearest transit: Price Chopper, 251.57m away."
     }
   ]
 }

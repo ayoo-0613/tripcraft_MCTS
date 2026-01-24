@@ -1,71 +1,91 @@
 {
   "idx": 318,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Ontario",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Santa Fe",
+    "dest": "Colorado",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
-    "people_number": 2,
+    "people_number": 3,
     "local_constraint": {
-      "house rule": "pets",
-      "cuisine": [
-        "Italian",
-        "Canadian",
-        "Diner"
-      ],
-      "room type": "entire home",
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": null,
+      "transportation": "no self-driving",
       "event": null,
-      "attraction": [
-        "Sights & Landmarks"
-      ],
-      "transportation": null
+      "attraction": null
     },
-    "budget": 1350.0,
-    "query": "Plan a 3-day trip for 2 people from Las Vegas to Ontario from November 19th to November 21st, 2024, with a budget of $1,350. Accommodations should be an entire home that allows pets. Include dining options featuring Italian, Canadian, and Diner cuisines, and visits to sights and landmarks.",
+    "budget": 3000.0,
+    "query": "Design a 5-day travel itinerary for 3 people starting from Santa Fe and visiting 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $3,000. The plan should avoid self-driving transportation and accommodate smoking-friendly options.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Ontario",
-      "transportation": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
-      "breakfast": "Sunset Grill, Ontario",
-      "attraction": "CN Tower, Ontario; Casa Loma, Ontario",
-      "lunch": "The Everest Grill, Ontario",
-      "dinner": "Beijing Restaurant, Ontario",
-      "accommodation": "3rd floor-Amsterdam Room, Ontario",
+      "current_city": "from Santa Fe to Durango",
+      "transportation": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14",
+      "breakfast": "Bread, Durango",
+      "attraction": "The Colorado Trail, Durango",
+      "lunch": "Himalayan Kitchen, Durango",
+      "dinner": "Rice Monkeys, Durango",
+      "accommodation": "Private Bedroom and Bath - Walk Downtown!, Durango",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Sunset Grill, visit from 09:25 to 10:16, nearest transit: Brantford Bus Terminal, 513.23m away; CN Tower, visit from 11:30 to 13:57, nearest transit: Union Station, 598.48m away; The Everest Grill, visit from 13:57 to 14:56, nearest transit: Wayne Gretzky Pkwy. @ Chatham St., 721.26m away; Casa Loma, visit from 16:30 to 18:57, nearest transit: Bloor GO, 4037.02m away; Beijing Restaurant, visit from 19:51 to 21:00, nearest transit: Brantford Bus Terminal, 2199.42m away; 3rd floor-Amsterdam Room, stay from 22:15 to 08:00, nearest transit: Bloor GO, 1894.70m away."
+      "point_of_interest_list": "Private Bedroom and Bath - Walk Downtown!, stay from 08:00 to 09:00, nearest transit: 5th Ave. & 3rd St., 81.00m away; Bread, visit from 09:25 to 10:16, nearest transit: Ptarmigan Center, 50.35m away; The Colorado Trail, visit from 11:30 to 16:35, nearest transit: Durango High School, 286.28m away; Himalayan Kitchen, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 94.06m away; Rice Monkeys, visit from 19:51 to 21:00, nearest transit: Main Ave. & 11th St., 73.45m away; Private Bedroom and Bath - Walk Downtown!, stay from 22:15 to 08:00, nearest transit: 5th Ave. & 3rd St., 81.00m away."
     },
     {
       "days": 2,
-      "current_city": "from Ontario to Ontario",
-      "transportation": "Transfer, from Ontario to Ontario",
-      "breakfast": "Shanghai Restaurant, Ontario",
-      "attraction": "Skylon Tower, Ontario; Niagara Falls Canada, Ontario",
-      "lunch": "Healthy Rabbit, Ontario",
-      "dinner": "Cafe Andreou, Ontario",
-      "accommodation": "3rd floor-Amsterdam Room, Ontario",
+      "current_city": "from Durango to Durango",
+      "transportation": "Transfer, from Durango to Durango",
+      "breakfast": "College Drive Cafe, Durango",
+      "attraction": "Four Leaves Winery, Durango",
+      "lunch": "Mahogany Grille, Durango",
+      "dinner": "Diamond Belle Saloon, Durango",
+      "accommodation": "skyhouse downtown: designer + walkable + spacious, Durango",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Shanghai Restaurant, visit from 09:25 to 10:16, nearest transit: Wayne Gretzky Pkwy. @ Chatham St., 1490.23m away; Skylon Tower, visit from 11:30 to 13:57, nearest transit: Stanley Ave. @ Hwy. 420 Park & Ride, 1398.97m away; Healthy Rabbit, visit from 13:57 to 14:56, nearest transit: Brantford Bus Terminal, 642.61m away; Niagara Falls Canada, visit from 16:30 to 19:42, nearest transit: Stanley Ave. @ Hwy. 420 Park & Ride, 2096.18m away; Cafe Andreou, visit from 19:51 to 21:00, nearest transit: Brantford Bus Terminal, 384.54m away; 3rd floor-Amsterdam Room, stay from 22:15 to 08:00, nearest transit: Bloor GO, 1894.70m away."
+      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; College Drive Cafe, visit from 09:25 to 10:16, nearest transit: College Dr. & 8th Ave, 166.74m away; Four Leaves Winery, visit from 11:30 to 15:00, nearest transit: College Dr. & Main Ave., 80.37m away; Mahogany Grille, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 51.51m away; Diamond Belle Saloon, visit from 19:51 to 21:00, nearest transit: Main Ave. & 7th St., 25.56m away; skyhouse downtown: designer + walkable + spacious, stay from 22:15 to 08:00, nearest transit: Buckley Park, 52.91m away."
     },
     {
       "days": 3,
-      "current_city": "from Ontario to Las Vegas",
-      "transportation": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
-      "breakfast": "Kingswood Restaurant, Ontario",
-      "attraction": "Rogers Centre, Ontario",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Durango to Colorado Springs",
+      "transportation": "Transfer, from Durango to Colorado Springs",
+      "breakfast": "Restaurant 1858, Colorado Springs",
+      "attraction": "Palmer Park, Colorado Springs",
+      "lunch": "Prime 25, Colorado Springs",
+      "dinner": "Cowboy Star, Colorado Springs",
+      "accommodation": "Creekside Cowboy Cabin with 360° Mountain Views, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "skyhouse downtown: designer + walkable + spacious, stay from 08:00 to 09:00, nearest transit: Buckley Park, 52.91m away; Restaurant 1858, visit from 09:25 to 10:16, nearest transit: Moreno/Communication, 320.84m away; Palmer Park, visit from 11:30 to 16:35, nearest transit: Academy/Maizeland, 308.09m away; Prime 25, visit from 13:57 to 14:56, nearest transit: Brookside/Cascade, 181.96m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: Nevada/Eagle Rock, 261.61m away; Creekside Cowboy Cabin with 360° Mountain Views, stay from 22:15 to 08:00, nearest transit: Ruxton/Fairview, 10061.41m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
+      "breakfast": "Caspian Cafe Mediterranean, Colorado Springs",
+      "attraction": "Seven Falls, Colorado Springs",
+      "lunch": "Mountain Shadows Restaurant, Colorado Springs",
+      "dinner": "The Airplane Restaurant, Colorado Springs",
+      "accommodation": "Creekside Cowboy Cabin with 360° Mountain Views, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "Creekside Cowboy Cabin with 360° Mountain Views, stay from 08:00 to 09:00, nearest transit: Ruxton/Fairview, 10061.41m away; Caspian Cafe Mediterranean, visit from 09:25 to 10:16, nearest transit: GoG/Northpark, 155.07m away; Seven Falls, visit from 11:30 to 16:50, nearest transit: Mesa/Lake, 2799.21m away; Mountain Shadows Restaurant, visit from 13:57 to 14:56, nearest transit: Colorado/23rd, 76.10m away; The Airplane Restaurant, visit from 19:51 to 21:00, nearest transit: Jet Wing/Fenton, 1384.10m away; Creekside Cowboy Cabin with 360° Mountain Views, stay from 22:15 to 08:00, nearest transit: Ruxton/Fairview, 10061.41m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Colorado Springs to Santa Fe",
+      "transportation": "Transfer, from Colorado Springs to Santa Fe",
+      "breakfast": "The Melting Pot, Colorado Springs",
+      "attraction": "Helen Hunt Falls, Colorado Springs",
+      "lunch": "The Rabbit Hole, Colorado Springs",
+      "dinner": "TAPAteria, Colorado Springs",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "3rd floor-Amsterdam Room, stay from 08:00 to 09:00, nearest transit: Bloor GO, 1894.70m away; Kingswood Restaurant, visit from 09:25 to 10:16, nearest transit: Brantford Bus Terminal, 833.84m away; Rogers Centre, visit from 11:30 to 14:13, nearest transit: Union Station, 880.15m away."
+      "point_of_interest_list": "Creekside Cowboy Cabin with 360° Mountain Views, stay from 08:00 to 09:00, nearest transit: Ruxton/Fairview, 10061.41m away; The Melting Pot, visit from 09:25 to 10:16, nearest transit: Cascade/Colorado, 160.80m away; Helen Hunt Falls, visit from 11:30 to 16:50, nearest transit: Mesa/Lake, 4478.97m away; The Rabbit Hole, visit from 13:57 to 14:56, nearest transit: Terminal, 121.11m away; TAPAteria, visit from 19:51 to 21:00, nearest transit: 26th/Cucharras, 107.17m away."
     }
   ]
 }

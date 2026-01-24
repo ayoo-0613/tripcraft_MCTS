@@ -2,89 +2,120 @@
   "idx": 124,
   "stages": [
     {
-      "city": "Bloomington",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 16,
+        "attractions": 7,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 71,
-        "events": 20
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 13
       }
     },
     {
-      "city": "Champaign",
+      "city": "Sioux City",
       "counts": {
-        "attractions": 20,
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 0
+      }
+    },
+    {
+      "city": "Mason City",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 4
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Dallas",
-      "to": "Bloomington",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0111274, from Dallas to Bloomington, Departure Time: 13:00, Arrival Time: 14:59"
+      "from": "Chicago",
+      "to": "Fort Dodge",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0497830, from Chicago to Fort Dodge, Departure Time: 07:42, Arrival Time: 09:05"
     },
     {
       "mode": "self-driving",
-      "from": "Dallas",
-      "to": "Bloomington",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $63.59"
+      "raw": "Self-driving, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $29.64"
     },
     {
       "mode": "taxi",
-      "from": "Dallas",
-      "to": "Bloomington",
+      "from": "Chicago",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Dallas to Bloomington, Duration: 883.3316666666667 mins, Distance: 1271.7523 km, Estimated Cost: $1271.75"
+      "raw": "Taxi, from Chicago to Fort Dodge, Duration: 456.325 mins, Distance: 592.8366 km, Estimated Cost: $592.84"
     },
     {
       "mode": "flight",
-      "from": "Bloomington",
-      "to": "Champaign",
-      "date": "2024-11-04",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
+      "date": "2024-11-13",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Bloomington",
-      "to": "Champaign",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $4.08"
+      "raw": "Self-driving, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $9.43"
     },
     {
       "mode": "taxi",
-      "from": "Bloomington",
-      "to": "Champaign",
+      "from": "Fort Dodge",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Bloomington to Champaign, Duration: 61.72833333333333 mins, Distance: 81.5202 km, Estimated Cost: $81.52"
+      "raw": "Taxi, from Fort Dodge to Sioux City, Duration: 145.275 mins, Distance: 188.6151 km, Estimated Cost: $188.62"
     },
     {
       "mode": "flight",
-      "from": "Champaign",
-      "to": "Dallas",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0398812, from Champaign to Dallas, Departure Time: 15:25, Arrival Time: 18:04"
+      "from": "Sioux City",
+      "to": "Mason City",
+      "date": "2024-11-15",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Champaign",
-      "to": "Dallas",
+      "from": "Sioux City",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Champaign to Dallas, Duration: 883.8533333333332 mins, Distance: 1330.2473 km, Estimated Cost: $66.51"
+      "raw": "Self-driving, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $16.62"
     },
     {
       "mode": "taxi",
-      "from": "Champaign",
-      "to": "Dallas",
+      "from": "Sioux City",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Champaign to Dallas, Duration: 883.8533333333332 mins, Distance: 1330.2473 km, Estimated Cost: $1330.25"
+      "raw": "Taxi, from Sioux City to Mason City, Duration: 243.94833333333332 mins, Distance: 332.3184 km, Estimated Cost: $332.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0456134, from Mason City to Chicago, Departure Time: 11:02, Arrival Time: 12:17"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $28.42"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Mason City to Chicago, Duration: 433.77000000000004 mins, Distance: 568.3221 km, Estimated Cost: $568.32"
     }
   ]
 }

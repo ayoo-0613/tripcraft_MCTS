@@ -1,65 +1,94 @@
 {
   "idx": 216,
   "JSON": {
-    "org": "Tucson",
-    "dest": "Everett",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Greensboro",
+    "dest": "Florida",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-09",
-      "2024-11-10",
-      "2024-11-11"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
     "people_number": 2,
     "local_constraint": {
-      "house rule": "children under 10",
-      "cuisine": null,
-      "room type": "private room",
-      "transportation": "no self-driving",
+      "house rule": "visitors",
+      "cuisine": [
+        "Chinese",
+        "American"
+      ],
+      "room type": "entire home",
       "event": null,
-      "attraction": "Museums"
+      "attraction": null,
+      "transportation": "no flight"
     },
-    "budget": 1950.0,
-    "query": "Plan a 3-day trip for 2 people from Tucson to Everett from November 9th to November 11th, 2024, with a budget of $1,950. Accommodations should include a private room, and the trip should avoid self-driving transportation. Include visits to museums. Note that children under 10 are restricted by house rules.",
+    "budget": 3500.0,
+    "query": "Design a 5-day travel itinerary for 2 people starting from Greensboro and visiting 2 cities in Florida between November 2nd and November 6th, 2024. The budget is $3,500. Accommodations should be an entire home that allows visitors. Include options for Chinese and American cuisine. Transportation should exclude flights.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Tucson to Everett",
-      "transportation": "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett",
-      "breakfast": "Vintage Cafe, Everett",
-      "attraction": "Imagine Children's Museum, Everett",
-      "lunch": "The Irishmen, Everett",
-      "dinner": "Everett's, Everett",
-      "accommodation": "Private room rental, Everett",
+      "current_city": "from Greensboro to Key West",
+      "transportation": "Taxi, from Greensboro to Key West, Duration: 1116.4550000000002 mins, Distance: 1530.8081000000002 km, Estimated Cost: $1530.81",
+      "breakfast": "Sunset Pier, Key West",
+      "attraction": "Mallory Square, Key West",
+      "lunch": "Blue Heaven, Key West",
+      "dinner": "Thirsty Mermaid, Key West",
+      "accommodation": "Charming Houseboat in Key West, Key West",
       "event": "-",
-      "point_of_interest_list": "Private room rental, stay from 08:00 to 09:00, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 2248.62m away; Vintage Cafe, visit from 09:25 to 10:16, nearest transit: HEWITT AVE & HOYT AVE - WB, 44.63m away; Imagine Children's Museum, visit from 11:30 to 15:20, nearest transit: WALL ST & HOYT AVE - WB, 29.48m away; The Irishmen, visit from 13:57 to 14:56, nearest transit: WETMORE AVE & HEWITT AVE - NB, 94.94m away; Everett's, visit from 19:51 to 21:00, nearest transit: 13TH ST & W MARINE VIEW DR - WB, 2281928.35m away; Private room rental, stay from 22:15 to 08:00, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 2248.62m away."
+      "point_of_interest_list": "Charming Houseboat in Key West, stay from 08:00 to 09:00, nearest transit: Oceanwalk & Las Salinas, 268.29m away; Sunset Pier, visit from 09:25 to 10:16, nearest transit: Whitehead & Greene St., 318.33m away; Mallory Square, visit from 11:30 to 16:05, nearest transit: Whitehead & Greene St., 235.56m away; Blue Heaven, visit from 13:57 to 14:56, nearest transit: Petronia & Whitehead, 73.82m away; Thirsty Mermaid, visit from 19:51 to 21:00, nearest transit: Simonton & Southard St., 200.66m away; Charming Houseboat in Key West, stay from 22:15 to 08:00, nearest transit: Oceanwalk & Las Salinas, 268.29m away."
     },
     {
       "days": 2,
-      "current_city": "from Everett to Everett",
-      "transportation": "Transfer, from Everett to Everett",
-      "breakfast": "Curries In Everett, Everett",
-      "attraction": "Museum of Flight Restoration Center, Everett",
-      "lunch": "Everett Street Diner, Everett",
-      "dinner": "Everett & Jones Barbecue, Everett",
-      "accommodation": "Private room rental, Everett",
+      "current_city": "from Key West to Key West",
+      "transportation": "Transfer, from Key West to Key West",
+      "breakfast": "Seven Fish, Key West",
+      "attraction": "Southernmost Point, Key West",
+      "lunch": "Waterfront Brewery, Key West",
+      "dinner": "Onlywood Grill, Key West",
+      "accommodation": "Yacht Your Ordinary Airbnb, Key West",
       "event": "-",
-      "point_of_interest_list": "Private room rental, stay from 08:00 to 09:00, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 2248.62m away; Curries In Everett, visit from 09:25 to 10:16, nearest transit: EVERGREEN WAY & 73RD - SB, 34.50m away; Museum of Flight Restoration Center, visit from 11:30 to 15:20, nearest transit: 100TH ST SW & 29TH AVE W - WB, 59.54m away; Everett Street Diner, visit from 13:57 to 14:56, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 3466772.13m away; Everett & Jones Barbecue, visit from 19:51 to 21:00, nearest transit: MARINER PARK AND RIDE - Bay 4, 1112054.87m away; Private room rental, stay from 22:15 to 08:00, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 2248.62m away."
+      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Seven Fish, visit from 09:25 to 10:16, nearest transit: Truman & Grinnell, 19.45m away; Southernmost Point, visit from 11:30 to 15:20, nearest transit: Whitehead & United, 162.79m away; Waterfront Brewery, visit from 13:57 to 14:56, nearest transit: Caroline & William, 119.49m away; Onlywood Grill, visit from 19:51 to 21:00, nearest transit: Caroline & William, 28.22m away; Yacht Your Ordinary Airbnb, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away."
     },
     {
       "days": 3,
-      "current_city": "from Everett to Tucson",
-      "transportation": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
-      "breakfast": "La Palmera Family Mexican, Everett",
+      "current_city": "from Key West to Gainesville",
+      "transportation": "Transfer, from Key West to Gainesville",
+      "breakfast": "Ocean Buffet, Gainesville",
+      "attraction": "Depot Park, Gainesville",
+      "lunch": "Northwest Grille, Gainesville",
+      "dinner": "Metro Diner, Gainesville",
+      "accommodation": "The Botanical Suite. Newly Built, Upscale, Central, Gainesville",
+      "event": "-",
+      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Ocean Buffet, visit from 09:25 to 10:16, nearest transit: Oaks Mall, 139.72m away; Depot Park, visit from 11:30 to 16:50, nearest transit: Rosa Parks RTS Downtown Station, 34.55m away; Northwest Grille, visit from 13:57 to 14:56, nearest transit: NW Grille Seafood, 41.68m away; Metro Diner, visit from 19:51 to 21:00, nearest transit: 34th Street Plaza, 38.33m away; The Botanical Suite. Newly Built, Upscale, Central, stay from 22:15 to 08:00, nearest transit: Santa Fe College Charles L. Blount Center, 133.75m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Gainesville to Gainesville",
+      "transportation": "Transfer, from Gainesville to Gainesville",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Private In-Law Suite - 1 mile from UF Campus, Gainesville",
+      "event": "-",
+      "point_of_interest_list": "Private In-Law Suite - 1 mile from UF Campus, stay from 08:00 to 09:00, nearest transit: Atlantic Design, 224.43m away; Private In-Law Suite - 1 mile from UF Campus, stay from 22:15 to 08:00, nearest transit: Atlantic Design, 224.43m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Gainesville to Greensboro",
+      "transportation": "Transfer, from Gainesville to Greensboro",
+      "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private room rental, stay from 08:00 to 09:00, nearest transit: 19TH AVE SE & 116TH ST SE - NB, 2248.62m away; La Palmera Family Mexican, visit from 09:25 to 10:16, nearest transit: EVERGREEN WAY & 116TH - SB, 207.06m away."
+      "point_of_interest_list": "Private In-Law Suite - 1 mile from UF Campus, stay from 08:00 to 09:00, nearest transit: Atlantic Design, 224.43m away."
     }
   ]
 }

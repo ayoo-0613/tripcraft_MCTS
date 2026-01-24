@@ -2,89 +2,120 @@
   "idx": 146,
   "stages": [
     {
-      "city": "Rochester",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 18,
+        "attractions": 14,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 73,
-        "events": 16
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 29
       }
     },
     {
-      "city": "Newburgh",
+      "city": "Memphis",
       "counts": {
-        "attractions": 19,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 17,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Cleveland",
-      "to": "Rochester",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "Charlotte",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234481, from Charlotte to Chattanooga, Departure Time: 10:39, Arrival Time: 11:59"
     },
     {
       "mode": "self-driving",
-      "from": "Cleveland",
-      "to": "Rochester",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $20.80"
+      "raw": "Self-driving, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $25.43"
     },
     {
       "mode": "taxi",
-      "from": "Cleveland",
-      "to": "Rochester",
+      "from": "Charlotte",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $415.95"
+      "raw": "Taxi, from Charlotte to Chattanooga, Duration: 400.51166666666666 mins, Distance: 508.6109 km, Estimated Cost: $508.61"
     },
     {
       "mode": "flight",
-      "from": "Rochester",
-      "to": "Newburgh",
-      "date": "2024-11-05",
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": "2024-11-08",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Rochester",
-      "to": "Newburgh",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $21.90"
+      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
     },
     {
       "mode": "taxi",
-      "from": "Rochester",
-      "to": "Newburgh",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Rochester to Newburgh, Duration: 355.6166666666667 mins, Distance: 437.9638 km, Estimated Cost: $437.96"
+      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
     },
     {
       "mode": "flight",
-      "from": "Newburgh",
-      "to": "Cleveland",
-      "date": "2024-11-07",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-10",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Newburgh",
-      "to": "Cleveland",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $37.85"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Newburgh",
-      "to": "Cleveland",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Newburgh to Cleveland, Duration: 533.8166666666667 mins, Distance: 757.0928 km, Estimated Cost: $757.09"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0039981, from Nashville to Charlotte, Departure Time: 16:35, Arrival Time: 18:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $32.83"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Nashville to Charlotte, Duration: 489.71666666666664 mins, Distance: 656.6615 km, Estimated Cost: $656.66"
     }
   ]
 }

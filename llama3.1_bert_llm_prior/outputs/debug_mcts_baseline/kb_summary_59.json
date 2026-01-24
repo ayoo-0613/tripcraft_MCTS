@@ -2,89 +2,120 @@
   "idx": 59,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 20
+      }
+    },
+    {
+      "city": "San Antonio",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 17
+        "events": 0
       }
     },
     {
-      "city": "Durango",
+      "city": "Amarillo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 73,
-        "events": 0
+        "poi2transit": 75,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Helena",
-      "to": "Colorado Springs",
-      "date": "2024-11-01",
-      "raw": "-"
+      "from": "Oklahoma City",
+      "to": "Houston",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0000950, from Oklahoma City to Houston, Departure Time: 15:05, Arrival Time: 16:35"
     },
     {
       "mode": "self-driving",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $69.20"
+      "raw": "Self-driving, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $35.69"
     },
     {
       "mode": "taxi",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Oklahoma City",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      "raw": "Taxi, from Oklahoma City to Houston, Duration: 470.225 mins, Distance: 713.8145 km, Estimated Cost: $713.81"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Durango",
-      "date": "2024-11-03",
-      "raw": "-"
+      "from": "Houston",
+      "to": "San Antonio",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036367, from Houston to San Antonio, Departure Time: 13:16, Arrival Time: 14:18"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $25.31"
+      "raw": "Self-driving, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $15.77"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Houston",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      "raw": "Taxi, from Houston to San Antonio, Duration: 211.06833333333333 mins, Distance: 315.3022 km, Estimated Cost: $315.30"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Helena",
-      "date": "2024-11-05",
+      "from": "San Antonio",
+      "to": "Amarillo",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "San Antonio",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $70.35"
+      "raw": "Self-driving, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $40.74"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "San Antonio",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $1407.09"
+      "raw": "Taxi, from San Antonio to Amarillo, Duration: 529.4066666666666 mins, Distance: 814.7448 km, Estimated Cost: $814.74"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $20.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Oklahoma City",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Oklahoma City, Duration: 269.3666666666667 mins, Distance: 415.3576 km, Estimated Cost: $415.36"
     }
   ]
 }

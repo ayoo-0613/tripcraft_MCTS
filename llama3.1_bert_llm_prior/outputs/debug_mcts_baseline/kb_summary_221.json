@@ -2,58 +2,89 @@
   "idx": 221,
   "stages": [
     {
-      "city": "Valparaiso",
+      "city": "Mason City",
       "counts": {
-        "attractions": 12,
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 67,
-        "events": 0
+        "poi2transit": 74,
+        "events": 17
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Washington",
-      "to": "Valparaiso",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0441680, from Washington to Valparaiso, Departure Time: 08:45, Arrival Time: 10:32"
+      "from": "Houston",
+      "to": "Mason City",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Washington",
-      "to": "Valparaiso",
+      "from": "Houston",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Washington to Valparaiso, Duration: 741.295 mins, Distance: 1062.0261 km, Estimated Cost: $53.10"
+      "raw": "Self-driving, from Houston to Mason City, Duration: 1155.24 mins, Distance: 1694.8879 km, Estimated Cost: $84.74"
     },
     {
       "mode": "taxi",
-      "from": "Washington",
-      "to": "Valparaiso",
+      "from": "Houston",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Washington to Valparaiso, Duration: 741.295 mins, Distance: 1062.0261 km, Estimated Cost: $1062.03"
+      "raw": "Taxi, from Houston to Mason City, Duration: 1155.24 mins, Distance: 1694.8879 km, Estimated Cost: $1694.89"
     },
     {
       "mode": "flight",
-      "from": "Valparaiso",
-      "to": "Washington",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0441712, from Valparaiso to Washington, Departure Time: 11:33, Arrival Time: 14:35"
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Valparaiso",
-      "to": "Washington",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Valparaiso to Washington, Duration: 745.285 mins, Distance: 1063.2104 km, Estimated Cost: $53.16"
+      "raw": "Self-driving, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $11.15"
     },
     {
       "mode": "taxi",
-      "from": "Valparaiso",
-      "to": "Washington",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Valparaiso to Washington, Duration: 745.285 mins, Distance: 1063.2104 km, Estimated Cost: $1063.21"
+      "raw": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Cedar Rapids to Houston, Duration: 1158.855 mins, Distance: 1703.3657 km, Estimated Cost: $85.17"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cedar Rapids",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Houston, Duration: 1158.855 mins, Distance: 1703.3657 km, Estimated Cost: $1703.37"
     }
   ]
 }

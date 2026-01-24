@@ -1,68 +1,91 @@
 {
   "idx": 219,
   "JSON": {
-    "org": "San Diego",
-    "dest": "Nashville",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Everett",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-16",
-      "2024-11-17",
-      "2024-11-18"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 4,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": [
-        "Italian",
-        "American"
-      ],
-      "room type": "entire home",
+      "house rule": "smoking",
+      "cuisine": null,
+      "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": "Sights & Landmarks"
+      "attraction": null
     },
-    "budget": 7250.0,
-    "query": "Plan a 3-day trip for 4 people from San Diego to Nashville from November 16th to November 18th, 2024, with a budget of $7,250. Accommodations should include an entire home. The itinerary should feature Italian and American cuisine options and visits to sights and landmarks.",
-    "level": "hard"
+    "budget": 2850.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Everett to explore 2 cities in California between November 4th and November 8th, 2024. The budget is $2,850. Accommodations should allow smoking.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from San Diego to Nashville",
-      "transportation": "Flight Number: F0090538, from San Diego to Nashville, Departure Time: 07:01, Arrival Time: 12:27",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "Smiling Elephant, Nashville",
-      "dinner": "Aquarium Restaurant, Nashville",
-      "accommodation": "Walk to Five Points from a Dreamy Attic Apartment, Nashville",
+      "current_city": "from Everett to Santa Barbara",
+      "transportation": "Transfer, from Everett to Santa Barbara",
+      "breakfast": "Shoreline Cafe, Santa Barbara",
+      "attraction": "Shoreline Park, Santa Barbara",
+      "lunch": "The Palace Grill, Santa Barbara",
+      "dinner": "Bella Vista, Santa Barbara",
+      "accommodation": "Cozy Studio w/Private entrance & parking. KING BED, Santa Barbara",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 12:57 to 13:57, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Smiling Elephant, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Aquarium Restaurant, visit from 19:51 to 21:00, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 22:15 to 08:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away."
+      "point_of_interest_list": "Cozy Studio w/Private entrance & parking. KING BED, stay from 08:00 to 09:00, nearest transit: Calle Real & Calle Real Center, 250.81m away; Shoreline Cafe, visit from 09:25 to 10:16, nearest transit: Harbor, 329.01m away; Shoreline Park, visit from 11:30 to 16:50, nearest transit: Cliff & San Rafael, 657.29m away; The Palace Grill, visit from 13:57 to 14:56, nearest transit: Cota & State, 28.38m away; Bella Vista, visit from 19:51 to 21:00, nearest transit: Coast Village & Middle, 425.00m away; Cozy Studio w/Private entrance & parking. KING BED, stay from 22:15 to 08:00, nearest transit: Calle Real & Calle Real Center, 250.81m away."
     },
     {
       "days": 2,
-      "current_city": "from Nashville to Nashville",
-      "transportation": "Transfer, from Nashville to Nashville",
-      "breakfast": "Henley, Nashville",
-      "attraction": "Cheekwood, Nashville",
-      "lunch": "The Standard, Nashville",
-      "dinner": "417 Union, Nashville",
-      "accommodation": "Walk to Five Points from a Dreamy Attic Apartment, Nashville",
+      "current_city": "from Santa Barbara to Santa Barbara",
+      "transportation": "Transfer, from Santa Barbara to Santa Barbara",
+      "breakfast": "The Black Sheep, Santa Barbara",
+      "attraction": "Reagan Ranch Center, Santa Barbara",
+      "lunch": "Brophy Bros., Santa Barbara",
+      "dinner": "Lure Fish House, Santa Barbara",
+      "accommodation": "Montecito Magic Full Suite Mountain Views and Pool, Santa Barbara",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Henley, visit from 09:25 to 10:16, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; The Standard, visit from 13:57 to 14:56, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; 417 Union, visit from 19:51 to 21:00, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 22:15 to 08:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away."
+      "point_of_interest_list": "Montecito Magic Full Suite Mountain Views and Pool, stay from 08:00 to 09:00, nearest transit: Salinas & Mason, 1584.37m away; The Black Sheep, visit from 09:25 to 10:16, nearest transit: Cota & State, 40.91m away; Reagan Ranch Center, visit from 11:30 to 15:20, nearest transit: State & Yanonali, 36.75m away; Brophy Bros., visit from 13:57 to 14:56, nearest transit: Harbor, 130.83m away; Lure Fish House, visit from 19:51 to 21:00, nearest transit: State & Hope, 145.70m away; Montecito Magic Full Suite Mountain Views and Pool, stay from 22:15 to 08:00, nearest transit: Salinas & Mason, 1584.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Nashville to San Diego",
-      "transportation": "Taxi, from Nashville to San Diego, Not feasible to drive from Nashville to San Diego",
-      "breakfast": "The Bridge, Nashville",
-      "attraction": "Belmont Mansion, Nashville",
-      "lunch": "1 Kitchen, Nashville",
-      "dinner": "Ole Red, Nashville",
+      "current_city": "from Santa Barbara to San Luis Obispo",
+      "transportation": "Transfer, from Santa Barbara to San Luis Obispo",
+      "breakfast": "Cafe Roma, San Luis Obispo",
+      "attraction": "Wolff Vineyards, San Luis Obispo",
+      "lunch": "Flour House, San Luis Obispo",
+      "dinner": "Apple Farm Restaurant, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Montecito Magic Full Suite Mountain Views and Pool, stay from 08:00 to 09:00, nearest transit: Salinas & Mason, 1584.37m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 14:50, nearest transit: Higuera & Prado, 7989.92m away; Flour House, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 142.15m away; Apple Farm Restaurant, visit from 19:51 to 21:00, nearest transit: Monterey @ Peach Tree Inn, 45.99m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Mistura Restaurant, San Luis Obispo",
+      "attraction": "Farmers Market, San Luis Obispo",
+      "lunch": "Sidecar, San Luis Obispo",
+      "dinner": "Luna Red, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
+      "event": "-",
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Mistura Restaurant, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 259.05m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Sidecar, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 54.77m away; Luna Red, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 256.30m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Luis Obispo to Everett",
+      "transportation": "Transfer, from San Luis Obispo to Everett",
+      "breakfast": "Thai Palace, San Luis Obispo",
+      "attraction": "Highway 1 Road Trip, San Luis Obispo",
+      "lunch": "Taste Craft Eatery, San Luis Obispo",
+      "dinner": "Lure Fish House, San Luis Obispo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; The Bridge, visit from 09:25 to 10:16, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Belmont Mansion, visit from 11:30 to 16:05, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; 1 Kitchen, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away; Ole Red, visit from 19:51 to 21:00, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away."
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Thai Palace, visit from 09:25 to 10:16, nearest transit: Government Center, 168.21m away; Highway 1 Road Trip, visit from 11:30 to 15:50, nearest transit: Ardath & Green, 3584.66m away; Taste Craft Eatery, visit from 13:57 to 14:56, nearest transit: Higuera & South, 1579.10m away; Lure Fish House, visit from 19:51 to 21:00, nearest transit: Santa Rosa & Higuera, 83.37m away."
     }
   ]
 }

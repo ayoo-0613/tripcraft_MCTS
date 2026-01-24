@@ -2,58 +2,89 @@
   "idx": 293,
   "stages": [
     {
-      "city": "Indianapolis",
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 1
+      }
+    },
+    {
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 0
+        "events": 12
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Indianapolis",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0161855, from Detroit to Indianapolis, Departure Time: 15:59, Arrival Time: 17:02"
+      "from": "Denver",
+      "to": "Memphis",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0062346, from Denver to Memphis, Departure Time: 15:15, Arrival Time: 18:14"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "Denver",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $22.39"
+      "raw": "Self-driving, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $88.07"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "Denver",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70"
+      "raw": "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36"
     },
     {
       "mode": "flight",
-      "from": "Indianapolis",
-      "to": "Detroit",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0156896, from Indianapolis to Detroit, Departure Time: 18:40, Arrival Time: 19:45"
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $22.40"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Denver",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Denver, Duration: 1233.9583333333333 mins, Distance: 1862.1452 km, Estimated Cost: $93.11"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Nashville to Denver, Duration: 1233.9583333333333 mins, Distance: 1862.1452 km, Estimated Cost: $1862.15"
     }
   ]
 }

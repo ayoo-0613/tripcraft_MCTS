@@ -2,11 +2,21 @@
   "idx": 272,
   "stages": [
     {
-      "city": "Charleston",
+      "city": "San Luis Obispo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Sacramento",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Charleston",
-      "date": "2024-11-11",
-      "raw": "Flight Number: F0013798, from Baltimore to Charleston, Departure Time: 13:49, Arrival Time: 15:23"
+      "from": "Bend",
+      "to": "San Luis Obispo",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Charleston",
+      "from": "Bend",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Charleston, Duration: 651.3533333333332 mins, Distance: 923.2168 km, Estimated Cost: $46.16"
+      "raw": "Self-driving, from Bend to San Luis Obispo, Duration: 838.455 mins, Distance: 1147.4142 km, Estimated Cost: $57.37"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Charleston",
+      "from": "Bend",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Baltimore to Charleston, Duration: 651.3533333333332 mins, Distance: 923.2168 km, Estimated Cost: $923.22"
+      "raw": "Taxi, from Bend to San Luis Obispo, Duration: 838.455 mins, Distance: 1147.4142 km, Estimated Cost: $1147.41"
     },
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Baltimore",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0043929, from Charleston to Baltimore, Departure Time: 07:48, Arrival Time: 09:04"
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Baltimore",
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Charleston to Baltimore, Duration: 651.7766666666666 mins, Distance: 921.0831 km, Estimated Cost: $46.05"
+      "raw": "Self-driving, from San Luis Obispo to Sacramento, Duration: 348.25166666666667 mins, Distance: 453.3913 km, Estimated Cost: $22.67"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Baltimore",
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Charleston to Baltimore, Duration: 651.7766666666666 mins, Distance: 921.0831 km, Estimated Cost: $921.08"
+      "raw": "Taxi, from San Luis Obispo to Sacramento, Duration: 348.25166666666667 mins, Distance: 453.3913 km, Estimated Cost: $453.39"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Bend, Duration: 502.39833333333337 mins, Distance: 701.3331999999999 km, Estimated Cost: $35.07"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Bend, Duration: 502.39833333333337 mins, Distance: 701.3331999999999 km, Estimated Cost: $701.33"
     }
   ]
 }

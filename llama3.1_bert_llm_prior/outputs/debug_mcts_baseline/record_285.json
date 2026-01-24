@@ -1,68 +1,91 @@
 {
   "idx": 285,
   "JSON": {
-    "org": "Memphis",
-    "dest": "Houston",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Reno",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-23",
-      "2024-11-24",
-      "2024-11-25"
+      "2024-11-17",
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Mediterranean",
-        "American"
-      ],
-      "room type": "entire home",
+      "cuisine": "Mexican",
+      "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Memphis to Houston from November 23rd to November 25th, 2024, with a budget of $1,800. Accommodations should include an entire home, and dining options should feature Mediterranean and American cuisines.",
+    "budget": 1950.0,
+    "query": "Plan a 5-day trip for 1 person from Reno to explore 2 cities in California between November 17th and November 21st, 2024. The budget is $1,950, and the itinerary should include Mexican cuisine options.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Memphis to Houston",
-      "transportation": "Flight Number: F0076039, from Memphis to Houston, Departure Time: 05:37, Arrival Time: 07:06",
-      "breakfast": "Houston Restaurant, Houston",
-      "attraction": "Discovery Green, Houston",
-      "lunch": "Houston's, Houston",
-      "dinner": "Goode Company Seafood, Houston",
-      "accommodation": "Secluded Suite in Southwest Houston, Houston",
+      "current_city": "from Reno to Los Angeles",
+      "transportation": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "Hollywood Sign, Los Angeles",
+      "lunch": "The Lobster, Los Angeles",
+      "dinner": "Providence, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Secluded Suite in Southwest Houston, stay from 08:00 to 09:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away; Houston Restaurant, visit from 09:25 to 10:16, nearest transit: Conroe Park & Ride, 2530051.98m away; Discovery Green, visit from 11:30 to 15:20, nearest transit: Lamar St @ Austin St, 231.52m away; Houston's, visit from 13:57 to 14:56, nearest transit: Kirby Dr @ Westpark Dr, 23.24m away; Goode Company Seafood, visit from 19:51 to 21:00, nearest transit: Westpark Dr @ Wakeforest St, 141.76m away; Secluded Suite in Southwest Houston, stay from 22:15 to 08:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Sign, visit from 11:30 to 15:20, nearest transit: Beachwood & Westshire, 1574.74m away; The Lobster, visit from 13:57 to 14:56, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Providence, visit from 19:51 to 21:00, nearest transit: Melrose & Gower (Westbound), 749.15m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 2,
-      "current_city": "from Houston to Houston",
-      "transportation": "Transfer, from Houston to Houston",
-      "breakfast": "Houston White Co, Houston",
-      "attraction": "Hermann Park, Houston",
-      "lunch": "The Breakfast Klub, Houston",
-      "dinner": "Hugo's, Houston",
-      "accommodation": "Secluded Suite in Southwest Houston, Houston",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Bestia, Los Angeles",
+      "attraction": "The Grove, Los Angeles",
+      "lunch": "Spire 73, Los Angeles",
+      "dinner": "Perch, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Secluded Suite in Southwest Houston, stay from 08:00 to 09:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away; Houston White Co, visit from 09:25 to 10:16, nearest transit: Baytown Park & Ride, 2075682.55m away; Hermann Park, visit from 11:30 to 16:35, nearest transit: Cambridge St @ Ben Taub Loop, 355.64m away; The Breakfast Klub, visit from 13:57 to 14:56, nearest transit: Ensemble/Hcc Stn SB, 127.57m away; Hugo's, visit from 19:51 to 21:00, nearest transit: Westheimer Rd @ Mandell St, 26.11m away; Secluded Suite in Southwest Houston, stay from 22:15 to 08:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; The Grove, visit from 11:30 to 13:50, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; Spire 73, visit from 13:57 to 14:56, nearest transit: Figueroa St & 7th St, 109.52m away; Perch, visit from 19:51 to 21:00, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 3,
-      "current_city": "from Houston to Memphis",
-      "transportation": "Flight Number: F0097214, from Houston to Memphis, Departure Time: 15:11, Arrival Time: 16:56",
-      "breakfast": "Taste of Texas, Houston",
-      "attraction": "Houston Zoo, Houston",
+      "current_city": "from Los Angeles to Monterey",
+      "transportation": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43",
+      "breakfast": "-",
+      "attraction": "Perry House, Monterey",
+      "lunch": "Fish Hopper, Monterey",
+      "dinner": "Tidal Coffee, Monterey",
+      "accommodation": "The Mermaid Bungalow, Monterey",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Perry House, visit from 11:30 to 15:20, nearest transit: Pacific / Scott, 79.46m away; Fish Hopper, visit from 13:57 to 14:56, nearest transit: Cannery Row / Prescott, 76.06m away; Tidal Coffee, visit from 19:51 to 21:00, nearest transit: Cannery Row / Drake, 46.73m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "Transfer, from Monterey to Monterey",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Bird Room with Shared Bathroom, Monterey",
+      "event": "-",
+      "point_of_interest_list": "Bird Room with Shared Bathroom, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away; Bird Room with Shared Bathroom, stay from 22:15 to 08:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Monterey to Reno",
+      "transportation": "Transfer, from Monterey to Reno",
+      "breakfast": "-",
+      "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Secluded Suite in Southwest Houston, stay from 08:00 to 09:00, nearest transit: Bellaire Blvd @ Avenue B, 142.81m away; Taste of Texas, visit from 09:25 to 10:16, nearest transit: Katy Freeway @ Town And Country Way, 260.58m away; Houston Zoo, visit from 11:30 to 16:00, nearest transit: Cambridge St @ Ben Taub Loop, 473.45m away."
+      "point_of_interest_list": "Bird Room with Shared Bathroom, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
     }
   ]
 }

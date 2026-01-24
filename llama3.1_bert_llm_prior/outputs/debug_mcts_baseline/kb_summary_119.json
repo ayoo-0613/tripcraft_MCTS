@@ -2,89 +2,120 @@
   "idx": 119,
   "stages": [
     {
-      "city": "Santa Barbara",
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Cedar Rapids",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 74,
+        "events": 24
       }
     },
     {
-      "city": "San Luis Obispo",
+      "city": "Sioux City",
       "counts": {
-        "attractions": 18,
+        "attractions": 12,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Everett",
-      "to": "Santa Barbara",
-      "date": "2024-11-04",
-      "raw": "-"
+      "from": "Denver",
+      "to": "Fort Dodge",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F3380515, from Denver to Fort Dodge, Departure Time: 15:15, Arrival Time: 18:18"
     },
     {
       "mode": "self-driving",
-      "from": "Everett",
-      "to": "Santa Barbara",
+      "from": "Denver",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $91.82"
+      "raw": "Self-driving, from Denver to Fort Dodge, Duration: 762.6733333333334 mins, Distance: 1124.1338 km, Estimated Cost: $56.21"
     },
     {
       "mode": "taxi",
-      "from": "Everett",
-      "to": "Santa Barbara",
+      "from": "Denver",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from Everett to Santa Barbara, Duration: 1330.7533333333333 mins, Distance: 1836.404 km, Estimated Cost: $1836.40"
+      "raw": "Taxi, from Denver to Fort Dodge, Duration: 762.6733333333334 mins, Distance: 1124.1338 km, Estimated Cost: $1124.13"
     },
     {
       "mode": "flight",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
-      "date": "2024-11-06",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Santa Barbara to San Luis Obispo, Duration: 169.08333333333334 mins, Distance: 195.3044 km, Estimated Cost: $9.77"
+      "raw": "Self-driving, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $12.43"
     },
     {
       "mode": "taxi",
-      "from": "Santa Barbara",
-      "to": "San Luis Obispo",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Santa Barbara to San Luis Obispo, Duration: 169.08333333333334 mins, Distance: 195.3044 km, Estimated Cost: $195.30"
+      "raw": "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Everett",
-      "date": "2024-11-08",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-09",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Everett",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Everett, Duration: 1242.23 mins, Distance: 1701.6733000000002 km, Estimated Cost: $85.08"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Everett",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Everett, Duration: 1242.23 mins, Distance: 1701.6733000000002 km, Estimated Cost: $1701.67"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0462857, from Sioux City to Denver, Departure Time: 12:46, Arrival Time: 13:29"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Sioux City to Denver, Duration: 640.0716666666667 mins, Distance: 945.7002 km, Estimated Cost: $47.29"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Denver, Duration: 640.0716666666667 mins, Distance: 945.7002 km, Estimated Cost: $945.70"
     }
   ]
 }

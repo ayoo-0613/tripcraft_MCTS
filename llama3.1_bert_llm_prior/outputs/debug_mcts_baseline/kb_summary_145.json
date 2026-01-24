@@ -2,89 +2,120 @@
   "idx": 145,
   "stages": [
     {
-      "city": "Monterey",
+      "city": "Bristol",
       "counts": {
-        "attractions": 19,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 70,
+        "events": 27
       }
     },
     {
-      "city": "Fresno",
+      "city": "Memphis",
       "counts": {
-        "attractions": 19,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 5
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 18
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 2
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Monterey",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0494347, from Denver to Monterey, Departure Time: 14:26, Arrival Time: 16:20"
+      "from": "Dallas",
+      "to": "Bristol",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0469289, from Dallas to Bristol, Departure Time: 13:56, Arrival Time: 16:56"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "Monterey",
+      "from": "Dallas",
+      "to": "Bristol",
       "date": null,
-      "raw": "Self-driving, from Denver to Monterey, Duration: 1336.4766666666667 mins, Distance: 1954.5922 km, Estimated Cost: $97.73"
+      "raw": "Self-driving, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $76.92"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "Monterey",
+      "from": "Dallas",
+      "to": "Bristol",
       "date": null,
-      "raw": "Taxi, from Denver to Monterey, Duration: 1336.4766666666667 mins, Distance: 1954.5922 km, Estimated Cost: $1954.59"
+      "raw": "Taxi, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $1538.48"
     },
     {
       "mode": "flight",
-      "from": "Monterey",
-      "to": "Fresno",
-      "date": "2024-11-24",
+      "from": "Bristol",
+      "to": "Memphis",
+      "date": "2024-11-03",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Monterey",
-      "to": "Fresno",
+      "from": "Bristol",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Monterey to Fresno, Duration: 230.54833333333332 mins, Distance: 243.9231 km, Estimated Cost: $12.20"
+      "raw": "Self-driving, from Bristol to Memphis, Duration: 552.7683333333333 mins, Distance: 810.1358 km, Estimated Cost: $40.51"
     },
     {
       "mode": "taxi",
-      "from": "Monterey",
-      "to": "Fresno",
+      "from": "Bristol",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Monterey to Fresno, Duration: 230.54833333333332 mins, Distance: 243.9231 km, Estimated Cost: $243.92"
+      "raw": "Taxi, from Bristol to Memphis, Duration: 552.7683333333333 mins, Distance: 810.1358 km, Estimated Cost: $810.14"
     },
     {
       "mode": "flight",
-      "from": "Fresno",
-      "to": "Denver",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0100608, from Fresno to Denver, Departure Time: 15:30, Arrival Time: 18:22"
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-05",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Fresno",
-      "to": "Denver",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $91.93"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Fresno",
-      "to": "Denver",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $1838.70"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0065109, from Nashville to Dallas, Departure Time: 19:12, Arrival Time: 21:03"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $53.53"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $1070.54"
     }
   ]
 }

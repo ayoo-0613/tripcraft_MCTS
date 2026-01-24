@@ -1,67 +1,96 @@
 {
   "idx": 177,
   "JSON": {
-    "org": "Charleston",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Wilmington",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-08",
-      "2024-11-09",
-      "2024-11-10"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "American",
+        "Steakhouse",
+        "Bar",
+        "Pub"
+      ],
       "room type": null,
-      "transportation": null,
       "event": null,
-      "attraction": [
-        "Nature & Parks"
-      ]
+      "attraction": null,
+      "transportation": "no flight"
     },
-    "budget": 3000.0,
-    "query": "Plan a 3-day trip for 1 person from Charleston to Seattle from November 8th to November 10th, 2024, with a budget of $3,000. Include visits to attractions related to Nature & Parks.",
-    "level": "medium"
+    "budget": 3900.0,
+    "query": "Design a 5-day travel itinerary for 2 people starting from Wilmington and visiting 2 cities in New York between November 4th and November 8th, 2024. The budget is $3,900. The trip should avoid flights and include dining options featuring American, Steakhouse, Bar, and Pub cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Charleston to Seattle",
-      "transportation": "Taxi, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle",
-      "breakfast": "Lola, Seattle",
-      "attraction": "Seattle Aquarium, Seattle",
-      "lunch": "Metropolitan Grill, Seattle",
-      "dinner": "The Capital Grille, Seattle",
-      "accommodation": "Peaceful Classic Seattle Neighborhood, Seattle",
+      "current_city": "from Wilmington to Watertown",
+      "transportation": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Literatus & Co, Watertown; Armenian Museum of America, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Peaceful Classic Seattle Neighborhood, stay from 08:00 to 09:00, nearest transit: Roosevelt Way NE & NE 80th St, 315.01m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: 4th Ave & University, 41.04m away; Peaceful Classic Seattle Neighborhood, stay from 22:15 to 08:00, nearest transit: Roosevelt Way NE & NE 80th St, 315.01m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Literatus & Co, visit from 11:30 to 12:27, nearest transit: Target - Towne Center Parking, 1033038.46m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Armenian Museum of America, visit from 16:30 to 18:57, nearest transit: Northland Plaza, 421122.69m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "Wild Ginger, Seattle",
-      "attraction": "Seattle Center, Seattle",
-      "lunch": "Chan Seattle, Seattle",
-      "dinner": "13 Coins Restaurant, Seattle",
-      "accommodation": "The Nut House, Seattle",
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Red Robin, Watertown",
+      "attraction": "Terry Redlin Museum, Watertown; Salmon Run Mall, Watertown",
+      "lunch": "Fairground Inn, Watertown",
+      "dinner": "United China Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "The Nut House, stay from 08:00 to 09:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away; Wild Ginger, visit from 09:25 to 10:16, nearest transit: 3rd Ave & Pike St, 13.86m away; Seattle Center, visit from 11:30 to 16:05, nearest transit: Seattle Center, 84.22m away; Chan Seattle, visit from 13:57 to 14:56, nearest transit: Pine St & 9th Ave, 68.08m away; 13 Coins Restaurant, visit from 19:51 to 21:00, nearest transit: King Street Station, 107.40m away; The Nut House, stay from 22:15 to 08:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Red Robin, visit from 09:25 to 10:16, nearest transit: Hannaford Foods, 63.20m away; Terry Redlin Museum, visit from 11:30 to 13:12, nearest transit: Target - Towne Center Parking, 1678308.27m away; Fairground Inn, visit from 13:57 to 14:56, nearest transit: Coffeen VanDuzee, 215.08m away; Salmon Run Mall, visit from 16:30 to 17:27, nearest transit: Transfer Station, 220.90m away; United China Restaurant, visit from 19:51 to 21:00, nearest transit: Northland Plaza, 218.90m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to Charleston",
-      "transportation": "Flight Number: F0246154, from Seattle to Charleston, Departure Time: 09:13, Arrival Time: 17:15",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Watertown to New York",
+      "transportation": "Taxi, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $516.22",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Times Square, New York; Rockefeller Center, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "Lobster Place, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Times Square, visit from 11:30 to 13:27, nearest transit: 7 AV/W 44 ST, 171.17m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "BOOM, New York",
+      "attraction": "Brooklyn Bridge, New York; Chelsea Market, New York",
+      "lunch": "Bryant Park Grill, New York",
+      "dinner": "R Lounge, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; Chelsea Market, visit from 16:30 to 17:27, nearest transit: W 14 ST/WASHINGTON ST, 131.35m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from New York to Wilmington",
+      "transportation": "Transfer, from New York to Wilmington",
+      "breakfast": "Westway Diner, New York",
+      "attraction": "SUMMIT One Vanderbilt, New York; Central Park, New York",
+      "lunch": "Harry's, New York",
+      "dinner": "Times Square Diner, New York",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Nut House, stay from 07:43 to 08:43, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away; The Nut House, stay from 08:00 to 09:00, nearest transit: 271st St NW & 101st Ave NW, 8426.62m away."
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:57, nearest transit: E 42 ST/MADISON AV, 28.59m away; Harry's, visit from 13:57 to 14:56, nearest transit: WATER ST/HANOVER SQ, 85.83m away; Central Park, visit from 16:30 to 19:42, nearest transit: 79 ST TRANSVERSE RD/CENTRAL PARK, 297.39m away; Times Square Diner, visit from 19:51 to 21:00, nearest transit: W 49 ST/8 AV, 51.46m away."
     }
   ]
 }

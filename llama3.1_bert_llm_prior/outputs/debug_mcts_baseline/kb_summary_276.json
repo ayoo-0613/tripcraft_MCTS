@@ -2,11 +2,21 @@
   "idx": 276,
   "stages": [
     {
-      "city": "Key West",
+      "city": "Greensboro",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Key West",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0986596, from Houston to Key West, Departure Time: 12:22, Arrival Time: 15:57"
+      "from": "Lynchburg",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Key West",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Houston to Key West, Not feasible to drive from Houston to Key West"
+      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Key West",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West"
+      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
     },
     {
       "mode": "flight",
-      "from": "Key West",
-      "to": "Houston",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0987158, from Key West to Houston, Departure Time: 16:45, Arrival Time: 19:01"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
     },
     {
       "mode": "self-driving",
-      "from": "Key West",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Key West to Houston, Not feasible to drive from Key West to Houston"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Key West",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Key West to Houston, Not feasible to drive from Key West to Houston"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

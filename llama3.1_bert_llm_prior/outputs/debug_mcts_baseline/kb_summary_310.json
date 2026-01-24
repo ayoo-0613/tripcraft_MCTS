@@ -2,58 +2,89 @@
   "idx": 310,
   "stages": [
     {
-      "city": "Ontario",
+      "city": "Houston",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
-        "accommodations": 19,
+        "accommodations": 18,
         "poi2transit": 75,
-        "events": 0
+        "events": 18
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 20
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Ontario",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50"
+      "from": "Peoria",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Self-driving, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $75.86"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Ontario",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      "raw": "Taxi, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $1517.19"
     },
     {
       "mode": "flight",
-      "from": "Ontario",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43"
     },
     {
       "mode": "self-driving",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "Ontario",
-      "to": "Las Vegas",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $73.95"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $1479.02"
     }
   ]
 }

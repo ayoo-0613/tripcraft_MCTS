@@ -1,65 +1,117 @@
 {
   "idx": 155,
   "JSON": {
-    "org": "Missoula",
-    "dest": "San Francisco",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-13",
-      "2024-11-14",
-      "2024-11-15"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
-    "people_number": 5,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": "private room",
+      "room type": null,
       "event": null,
       "attraction": null,
       "transportation": null
     },
-    "budget": 8250.0,
-    "query": "Plan a 3-day trip for 5 people from Missoula to San Francisco from November 13th to November 15th, 2024, with a budget of $8,250. Accommodations should include a private room.",
-    "level": "medium"
+    "budget": 10500.0,
+    "query": "Plan a 7-day trip for 2 people traveling from Dallas to explore 3 cities in Tennessee between November 4th and November 10th, 2024. The budget is $10,500.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Missoula to San Francisco",
-      "transportation": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43",
-      "breakfast": "Eagle Cafe, San Francisco",
-      "attraction": "Twin Peaks, San Francisco",
-      "lunch": "Outerlands, San Francisco",
-      "dinner": "Capital Restaurant, San Francisco",
-      "accommodation": "Modern Single Studio, San Francisco",
+      "current_city": "from Dallas to Bristol",
+      "transportation": "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Riverstation, Bristol",
+      "accommodation": "The Secret Society Suite, Bristol",
       "event": "-",
-      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Outerlands, visit from 13:57 to 14:56, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+      "point_of_interest_list": "The Secret Society Suite, stay from 08:00 to 09:00, nearest transit: Cumberland St & Waters Alley, 149.61m away; The Secret Society Suite, stay from 17:27 to 18:27, nearest transit: Cumberland St & Waters Alley, 149.61m away; Riverstation, visit from 19:51 to 21:00, nearest transit: Home Depot, 6254527.93m away; The Secret Society Suite, stay from 22:15 to 08:00, nearest transit: Cumberland St & Waters Alley, 149.61m away."
     },
     {
       "days": 2,
-      "current_city": "from San Francisco to San Francisco",
-      "transportation": "Transfer, from San Francisco to San Francisco",
-      "breakfast": "Quince, San Francisco",
-      "attraction": "Cable Cars, San Francisco",
-      "lunch": "Hillstone, San Francisco",
-      "dinner": "Waterbar, San Francisco",
-      "accommodation": "Modern Single Studio, San Francisco",
+      "current_city": "from Bristol to Bristol",
+      "transportation": "Transfer, from Bristol to Bristol",
+      "breakfast": "Caribbean Croft, Bristol",
+      "attraction": "Bristol Cathedral, Bristol; Escape Hunt Bristol, Bristol",
+      "lunch": "Cafe Bristol, Bristol",
+      "dinner": "Raj, Bristol",
+      "accommodation": "Bristol Bungalow, Bristol",
       "event": "-",
-      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Quince, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Cable Cars, visit from 11:30 to 13:50, nearest transit: Powell @ 22 4th, 1246.40m away; Hillstone, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Waterbar, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+      "point_of_interest_list": "Bristol Bungalow, stay from 08:00 to 09:00, nearest transit: Oakview Ave & Clinton Ave, 529.33m away; Caribbean Croft, visit from 09:25 to 10:16, nearest transit: Home Depot, 6254299.11m away; Bristol Cathedral, visit from 11:30 to 13:57, nearest transit: Home Depot, 6253967.38m away; Cafe Bristol, visit from 13:57 to 14:56, nearest transit: Home Depot, 7679840.27m away; Escape Hunt Bristol, visit from 16:30 to 17:27, nearest transit: Home Depot, 6254741.37m away; Raj, visit from 19:51 to 21:00, nearest transit: Home Depot, 6254364.70m away; Bristol Bungalow, stay from 22:15 to 08:00, nearest transit: Oakview Ave & Clinton Ave, 529.33m away."
     },
     {
       "days": 3,
-      "current_city": "from San Francisco to Missoula",
-      "transportation": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
-      "breakfast": "City View Restaurant, San Francisco",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from Bristol to Chattanooga",
+      "transportation": "Transfer, from Bristol to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Tennessee Aquarium, Chattanooga; Chattanooga Zoo, Chattanooga",
+      "lunch": "Stir, Chattanooga",
+      "dinner": "Bluegrass Grill, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Bristol Bungalow, stay from 08:00 to 09:00, nearest transit: Oakview Ave & Clinton Ave, 529.33m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 14:27, nearest transit: BRO AQ 1, 109.14m away; Stir, visit from 13:57 to 14:56, nearest transit: MARKET + MAIN, 69.25m away; Chattanooga Zoo, visit from 16:30 to 19:37, nearest transit: Holtzclaw & 5th-1, 123.88m away; Bluegrass Grill, visit from 19:51 to 21:00, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Lookout Mountain, Chattanooga; Chattanooga Ghost Tours, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "1885 Grill, Chattanooga",
+      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Lookout Mountain, visit from 11:30 to 14:42, nearest transit: 55TH + ALABAMA, 1650.28m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; Chattanooga Ghost Tours, visit from 16:30 to 18:57, nearest transit: MARKET + 5TH, 59.20m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Centennial Park, Nashville; Downtown Nashville, Nashville",
+      "lunch": "Aquarium Restaurant, Nashville",
+      "dinner": "Henley, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Centennial Park, visit from 11:30 to 15:12, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; Aquarium Restaurant, visit from 13:57 to 14:56, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Downtown Nashville, visit from 16:30 to 18:27, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; Henley, visit from 19:51 to 21:00, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "The Standard, Nashville",
+      "attraction": "Cheekwood, Nashville; Belmont Mansion, Nashville",
+      "lunch": "417 Union, Nashville",
+      "dinner": "The Bridge, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; The Standard, visit from 09:25 to 10:16, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Cheekwood, visit from 11:30 to 14:27, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; 417 Union, visit from 13:57 to 14:56, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Belmont Mansion, visit from 16:30 to 19:42, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; The Bridge, visit from 19:51 to 21:00, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41",
+      "breakfast": "1 Kitchen, Nashville",
+      "attraction": "RCA Studio B, Nashville; Lane Motor Museum, Nashville",
+      "lunch": "Ole Red, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; City View Restaurant, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 1055.48m away."
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; 1 Kitchen, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away; RCA Studio B, visit from 11:30 to 13:57, nearest transit: BROADWAY AVE & 19TH AVE S EB, 338.29m away; Ole Red, visit from 13:57 to 14:56, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Lane Motor Museum, visit from 16:30 to 18:57, nearest transit: MURFREESBORO PIKE & ARLINGTON AVE E, 212.47m away."
     }
   ]
 }

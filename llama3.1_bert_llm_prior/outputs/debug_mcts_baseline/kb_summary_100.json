@@ -2,11 +2,21 @@
   "idx": 100,
   "stages": [
     {
-      "city": "San Diego",
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Francisco",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -26,51 +36,72 @@
     {
       "mode": "flight",
       "from": "Atlanta",
-      "to": "San Diego",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0312251, from Atlanta to San Diego, Departure Time: 08:18, Arrival Time: 10:11"
+      "to": "Los Angeles",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0202772, from Atlanta to Los Angeles, Departure Time: 19:20, Arrival Time: 21:14"
     },
     {
       "mode": "self-driving",
       "from": "Atlanta",
-      "to": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego"
+      "raw": "Self-driving, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles"
     },
     {
       "mode": "taxi",
       "from": "Atlanta",
-      "to": "San Diego",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego"
+      "raw": "Taxi, from Atlanta to Los Angeles, Not feasible to drive from Atlanta to Los Angeles"
     },
     {
       "mode": "flight",
-      "from": "San Diego",
-      "to": "Sacramento",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0021044, from San Diego to Sacramento, Departure Time: 12:51, Arrival Time: 14:20"
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036740, from Los Angeles to San Francisco, Departure Time: 05:17, Arrival Time: 06:35"
     },
     {
       "mode": "self-driving",
-      "from": "San Diego",
-      "to": "Sacramento",
+      "from": "Los Angeles",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $40.53"
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
     },
     {
       "mode": "taxi",
-      "from": "San Diego",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Sacramento",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0460803, from San Francisco to Sacramento, Departure Time: 18:20, Arrival Time: 18:58"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
       "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $810.62"
+      "raw": "Self-driving, from San Francisco to Sacramento, Duration: 108.31 mins, Distance: 140.708 km, Estimated Cost: $7.04"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Sacramento, Duration: 108.31 mins, Distance: 140.708 km, Estimated Cost: $140.71"
     },
     {
       "mode": "flight",
       "from": "Sacramento",
       "to": "Atlanta",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0311434, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:13"
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0311422, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:14"
     },
     {
       "mode": "self-driving",

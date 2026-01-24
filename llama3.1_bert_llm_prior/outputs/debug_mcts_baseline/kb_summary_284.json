@@ -2,58 +2,89 @@
   "idx": 284,
   "stages": [
     {
-      "city": "Sacramento",
+      "city": "Houston",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 18,
         "poi2transit": 75,
-        "events": 0
+        "events": 18
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 20
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Ontario",
-      "to": "Sacramento",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0024177, from Ontario to Sacramento, Departure Time: 15:48, Arrival Time: 17:05"
+      "from": "Peoria",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Ontario",
-      "to": "Sacramento",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
+      "raw": "Self-driving, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $75.86"
     },
     {
       "mode": "taxi",
-      "from": "Ontario",
-      "to": "Sacramento",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento"
+      "raw": "Taxi, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $1517.19"
     },
     {
       "mode": "flight",
-      "from": "Sacramento",
-      "to": "Ontario",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0054885, from Sacramento to Ontario, Departure Time: 19:44, Arrival Time: 20:48"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43"
     },
     {
       "mode": "self-driving",
-      "from": "Sacramento",
-      "to": "Ontario",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Sacramento to Ontario, Not feasible to drive from Sacramento to Ontario"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "Sacramento",
-      "to": "Ontario",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Sacramento to Ontario, Not feasible to drive from Sacramento to Ontario"
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $73.95"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $1479.02"
     }
   ]
 }

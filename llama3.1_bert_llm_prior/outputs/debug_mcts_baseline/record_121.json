@@ -1,95 +1,117 @@
 {
   "idx": 121,
   "JSON": {
-    "org": "Missoula",
-    "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Houston",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-21",
-      "2024-11-22",
-      "2024-11-23",
-      "2024-11-24",
-      "2024-11-25"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
     ],
-    "people_number": 4,
+    "people_number": 2,
     "local_constraint": {
-      "house rule": "children under 10",
-      "cuisine": [
-        "Mediterranean",
-        "French",
-        "American"
-      ],
-      "room type": "entire home",
-      "transportation": null,
+      "house rule": null,
+      "cuisine": null,
+      "room type": "private room",
       "event": null,
-      "attraction": null
+      "attraction": null,
+      "transportation": "no flight"
     },
-    "budget": 5850.0,
-    "query": "Design a 5-day travel itinerary for 4 people departing from Missoula to visit 2 cities in California from November 21st to November 25th, 2024. The budget is $5,850. Accommodations should be an entire home, and the house rules must allow children under 10. Include dining options featuring Mediterranean, French, and American cuisines.",
-    "level": "hard"
+    "budget": 10350.0,
+    "query": "Plan a 7-day trip for 2 people traveling from Houston to explore 3 cities in Tennessee between November 7th and November 13th, 2024. The budget is $10,350, and accommodations should include a private room. Transportation should exclude flights.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Missoula to Los Angeles",
-      "transportation": "Taxi, from Missoula to Los Angeles, Duration: 1218.995 mins, Distance: 1948.0665 km, Estimated Cost: $1948.07",
-      "breakfast": "Water Grill, Los Angeles",
-      "attraction": "Hollywood Sign, Los Angeles; The Grove, Los Angeles",
-      "lunch": "Providence, Los Angeles",
-      "dinner": "The Lobster, Los Angeles",
-      "accommodation": "Pristine Mid Century Gem Near USC Hospital, Los Angeles",
+      "current_city": "from Houston to Nashville",
+      "transportation": "Taxi, from Houston to Nashville, Duration: 857.39 mins, Distance: 1252.7872 km, Estimated Cost: $1252.79",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Cheekwood, Nashville",
+      "lunch": "Aquarium Restaurant, Nashville",
+      "dinner": "Henley, Nashville",
+      "accommodation": "Dave's Place, Nashville",
       "event": "-",
-      "point_of_interest_list": "Pristine Mid Century Gem Near USC Hospital, stay from 08:00 to 09:00, nearest transit: Wabash Ave & Forest Ave (Westbound) (4319), 326.49m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Sign, visit from 11:30 to 13:57, nearest transit: Beachwood & Westshire, 1574.74m away; Providence, visit from 13:57 to 14:56, nearest transit: Melrose & Gower (Westbound), 749.15m away; The Grove, visit from 16:30 to 17:27, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; The Lobster, visit from 19:51 to 21:00, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Pristine Mid Century Gem Near USC Hospital, stay from 22:15 to 08:00, nearest transit: Wabash Ave & Forest Ave (Westbound) (4319), 326.49m away."
+      "point_of_interest_list": "Dave's Place, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; Aquarium Restaurant, visit from 13:57 to 14:56, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Henley, visit from 19:51 to 21:00, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Dave's Place, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away."
     },
     {
       "days": 2,
-      "current_city": "from Los Angeles to Los Angeles",
-      "transportation": "Transfer, from Los Angeles to Los Angeles",
-      "breakfast": "Bestia, Los Angeles",
-      "attraction": "Citadel Outlets, Los Angeles; The Broad, Los Angeles",
-      "lunch": "Perch, Los Angeles",
-      "dinner": "Spire 73, Los Angeles",
-      "accommodation": "Cozy Private Room In LA., Los Angeles",
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "The Standard, Nashville",
+      "attraction": "Centennial Park, Nashville",
+      "lunch": "417 Union, Nashville",
+      "dinner": "Ole Red, Nashville",
+      "accommodation": "Dave's Place, Nashville",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; Citadel Outlets, visit from 11:30 to 12:27, nearest transit: Herbert Ave & Whittier Blvd (4354), 3385.72m away; Perch, visit from 13:57 to 14:56, nearest transit: Hill St & 5th St (Northbound), 65.01m away; The Broad, visit from 16:30 to 18:57, nearest transit: Grand Ave & 2nd St, 30.42m away; Spire 73, visit from 19:51 to 21:00, nearest transit: Figueroa St & 7th St, 109.52m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+      "point_of_interest_list": "Dave's Place, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; The Standard, visit from 09:25 to 10:16, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Centennial Park, visit from 11:30 to 16:35, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; 417 Union, visit from 13:57 to 14:56, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Ole Red, visit from 19:51 to 21:00, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Dave's Place, stay from 22:15 to 08:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away."
     },
     {
       "days": 3,
-      "current_city": "from Los Angeles to San Luis Obispo",
-      "transportation": "Flight Number: F0466448, from Los Angeles to San Luis Obispo, Departure Time: 22:52, Arrival Time: 23:50",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Harris House, San Luis Obispo",
+      "current_city": "from Nashville to Chattanooga",
+      "transportation": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Tennessee Aquarium, Chattanooga",
+      "lunch": "Bluegrass Grill, Chattanooga",
+      "dinner": "Stir, Chattanooga",
+      "accommodation": "Wren’s nest on the ridge, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
+      "point_of_interest_list": "Dave's Place, stay from 08:00 to 09:00, nearest transit: SHELBY AVE & S 8TH ST WB, 120.59m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 15:50, nearest transit: BRO AQ 1, 109.14m away; Bluegrass Grill, visit from 13:57 to 14:56, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Stir, visit from 19:51 to 21:00, nearest transit: MARKET + MAIN, 69.25m away; Wren’s nest on the ridge, stay from 22:15 to 08:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away."
     },
     {
       "days": 4,
-      "current_city": "from San Luis Obispo to San Luis Obispo",
-      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
-      "breakfast": "Cafe Roma, San Luis Obispo",
-      "attraction": "Wolff Vineyards, San Luis Obispo; Farmers Market, San Luis Obispo",
-      "lunch": "Luna Red, San Luis Obispo",
-      "dinner": "Sidecar, San Luis Obispo",
-      "accommodation": "Harris House, San Luis Obispo",
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Chattanooga Zoo, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "1885 Grill, Chattanooga",
+      "accommodation": "Wren’s nest on the ridge, Chattanooga",
       "event": "-",
-      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 13:27, nearest transit: Higuera & Prado, 7989.92m away; Luna Red, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 256.30m away; Farmers Market, visit from 16:30 to 17:27, nearest transit: Marsh & Broad, 112.91m away; Sidecar, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 54.77m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
+      "point_of_interest_list": "Wren’s nest on the ridge, stay from 08:00 to 09:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Chattanooga Zoo, visit from 11:30 to 16:00, nearest transit: Holtzclaw & 5th-1, 123.88m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Wren’s nest on the ridge, stay from 22:15 to 08:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away."
     },
     {
       "days": 5,
-      "current_city": "from San Luis Obispo to Missoula",
-      "transportation": "Transfer, from San Luis Obispo to Missoula",
-      "breakfast": "Flour House, San Luis Obispo",
-      "attraction": "Highway 1 Road Trip, San Luis Obispo; Bishop Peak, San Luis Obispo",
-      "lunch": "Thai Palace, San Luis Obispo",
-      "dinner": "Lure Fish House, San Luis Obispo",
+      "current_city": "from Chattanooga to Memphis",
+      "transportation": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Arcade Restaurant, Memphis",
+      "dinner": "Interstate Barbecue, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Wren’s nest on the ridge, stay from 08:00 to 09:00, nearest transit: BRAINERD RD + SEMINOLE, 196.66m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Arcade Restaurant, visit from 13:57 to 14:56, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Sun Studio, Memphis",
+      "lunch": "Cozy Corner, Memphis",
+      "dinner": "Flying Fish, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
+      "event": "-",
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Sun Studio, visit from 11:30 to 15:20, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Cozy Corner, visit from 13:57 to 14:56, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Flying Fish, visit from 19:51 to 21:00, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Memphis to Houston",
+      "transportation": "Taxi, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $912.37",
+      "breakfast": "Blues City Cafe, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Brother Juniper's, Memphis",
+      "dinner": "Central BBQ, Memphis",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Flour House, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 142.15m away; Highway 1 Road Trip, visit from 11:30 to 14:27, nearest transit: Ardath & Green, 3584.66m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Bishop Peak, visit from 16:30 to 19:42, nearest transit: Santa Rosa & Foothill, 1404.87m away; Lure Fish House, visit from 19:51 to 21:00, nearest transit: Santa Rosa & Higuera, 83.37m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Blues City Cafe, visit from 09:25 to 10:16, nearest transit: SECOND@BEALE, 21.42m away; Memphis Zoo, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Brother Juniper's, visit from 13:57 to 14:56, nearest transit: SOUTHERN@ELLSWORTH, 199.70m away; Central BBQ, visit from 19:51 to 21:00, nearest transit: SUMMER AVE@SANDRIDGE, 20.99m away."
     }
   ]
 }

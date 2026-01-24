@@ -2,89 +2,120 @@
   "idx": 55,
   "stages": [
     {
-      "city": "Colorado Springs",
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 12
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 14
+      }
+    },
+    {
+      "city": "Nashville",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 17
-      }
-    },
-    {
-      "city": "Durango",
-      "counts": {
-        "attractions": 18,
-        "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 73,
-        "events": 0
+        "events": 6
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Helena",
-      "to": "Colorado Springs",
-      "date": "2024-11-01",
+      "from": "Charleston",
+      "to": "Chattanooga",
+      "date": "2024-11-02",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Charleston",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $69.20"
+      "raw": "Self-driving, from Charleston to Chattanooga, Duration: 481.7116666666667 mins, Distance: 671.6423000000001 km, Estimated Cost: $33.58"
     },
     {
       "mode": "taxi",
-      "from": "Helena",
-      "to": "Colorado Springs",
+      "from": "Charleston",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Helena to Colorado Springs, Duration: 883.8433333333334 mins, Distance: 1384.0799 km, Estimated Cost: $1384.08"
+      "raw": "Taxi, from Charleston to Chattanooga, Duration: 481.7116666666667 mins, Distance: 671.6423000000001 km, Estimated Cost: $671.64"
     },
     {
       "mode": "flight",
-      "from": "Colorado Springs",
-      "to": "Durango",
-      "date": "2024-11-03",
+      "from": "Chattanooga",
+      "to": "Memphis",
+      "date": "2024-11-04",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $25.31"
+      "raw": "Self-driving, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $27.36"
     },
     {
       "mode": "taxi",
-      "from": "Colorado Springs",
-      "to": "Durango",
+      "from": "Chattanooga",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Colorado Springs to Durango, Duration: 394.78499999999997 mins, Distance: 506.202 km, Estimated Cost: $506.20"
+      "raw": "Taxi, from Chattanooga to Memphis, Duration: 376.3683333333333 mins, Distance: 547.2609 km, Estimated Cost: $547.26"
     },
     {
       "mode": "flight",
-      "from": "Durango",
-      "to": "Helena",
-      "date": "2024-11-05",
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $70.35"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Durango",
-      "to": "Helena",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Durango to Helena, Duration: 938.6266666666667 mins, Distance: 1407.0927 km, Estimated Cost: $1407.09"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Charleston",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0083862, from Nashville to Charleston, Departure Time: 09:00, Arrival Time: 11:15"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Charleston, Duration: 625.1 mins, Distance: 878.6063 km, Estimated Cost: $43.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Charleston",
+      "date": null,
+      "raw": "Taxi, from Nashville to Charleston, Duration: 625.1 mins, Distance: 878.6063 km, Estimated Cost: $878.61"
     }
   ]
 }

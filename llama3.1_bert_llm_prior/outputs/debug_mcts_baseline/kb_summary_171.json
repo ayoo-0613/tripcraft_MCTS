@@ -2,12 +2,22 @@
   "idx": 171,
   "stages": [
     {
-      "city": "Anchorage",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 17,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 72,
+        "poi2transit": 75,
+        "events": 30
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Anchorage",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0245209, from Seattle to Anchorage, Departure Time: 22:39, Arrival Time: 01:32"
+      "from": "Key West",
+      "to": "Greensboro",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Anchorage",
+      "from": "Key West",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Seattle to Anchorage, Not feasible to drive from Seattle to Anchorage"
+      "raw": "Self-driving, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $76.53"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Anchorage",
+      "from": "Key West",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Seattle to Anchorage, Not feasible to drive from Seattle to Anchorage"
+      "raw": "Taxi, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $1530.67"
     },
     {
       "mode": "flight",
-      "from": "Anchorage",
-      "to": "Seattle",
-      "date": "2024-11-11",
-      "raw": "Flight Number: F0246465, from Anchorage to Seattle, Departure Time: 05:55, Arrival Time: 10:24"
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Anchorage",
-      "to": "Seattle",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Anchorage to Seattle, Not feasible to drive from Anchorage to Seattle"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "Anchorage",
-      "to": "Seattle",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Anchorage to Seattle, Not feasible to drive from Anchorage to Seattle"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $75.34"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $1506.70"
     }
   ]
 }

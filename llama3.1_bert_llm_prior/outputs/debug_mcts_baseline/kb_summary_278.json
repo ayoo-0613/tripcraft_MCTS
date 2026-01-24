@@ -2,58 +2,89 @@
   "idx": 278,
   "stages": [
     {
-      "city": "Wichita",
+      "city": "Greensboro",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 74,
-        "events": 4
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Wichita",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0572674, from Houston to Wichita, Departure Time: 20:15, Arrival Time: 22:16"
+      "from": "Lynchburg",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Wichita",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $48.34"
+      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Wichita",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71"
+      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
     },
     {
       "mode": "flight",
-      "from": "Wichita",
-      "to": "Houston",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0461655, from Wichita to Houston, Departure Time: 11:38, Arrival Time: 13:22"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
     },
     {
       "mode": "self-driving",
-      "from": "Wichita",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Wichita to Houston, Duration: 634.1333333333333 mins, Distance: 965.9154 km, Estimated Cost: $48.30"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "Wichita",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Wichita to Houston, Duration: 634.1333333333333 mins, Distance: 965.9154 km, Estimated Cost: $965.92"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

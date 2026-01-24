@@ -1,65 +1,94 @@
 {
   "idx": 282,
   "JSON": {
-    "org": "Newburgh",
-    "dest": "Savannah",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Denver",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
       "2024-11-06",
       "2024-11-07",
-      "2024-11-08"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
-      "room type": null,
-      "transportation": "self driving",
+      "cuisine": [
+        "American",
+        "Mexican"
+      ],
+      "room type": "private room",
+      "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": "Shopping"
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 1 person from Newburgh to Savannah from November 6th to November 8th, 2024, with a budget of $1,500. The trip will involve self-driving as the mode of transportation.",
-    "level": "medium"
+    "budget": 3600.0,
+    "query": "Design a 5-day travel itinerary for 1 person departing from Denver to visit 2 cities in Tennessee from November 6th to November 10th, 2024. The budget is $3,600. Accommodations should include a private room. The plan should feature American and Mexican cuisine options and include shopping as a key attraction.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Newburgh to Savannah",
-      "transportation": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74",
-      "breakfast": "Common Restaurant, Savannah",
-      "attraction": "City Market, Savannah",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Cozy Room Near Starland District, Savannah",
+      "current_city": "from Denver to Memphis",
+      "transportation": "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Bass Pro Shops at the Pyramid, Memphis",
+      "lunch": "Interstate Barbecue, Memphis",
+      "dinner": "Arcade Restaurant, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy Room Near Starland District, stay from 08:00 to 09:00, nearest transit: E BROAD & 35th NB, 65.21m away; Common Restaurant, visit from 09:25 to 10:16, nearest transit: DRAYTON & BROUGHTON, 62.61m away; City Market, visit from 11:30 to 14:35, nearest transit: CONGRESS & JEFFERSON, 51.55m away; Cozy Room Near Starland District, stay from 22:15 to 08:00, nearest transit: E BROAD & 35th NB, 65.21m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Bass Pro Shops at the Pyramid, visit from 11:30 to 13:50, nearest transit: BASS PRO SHOPS, 166.10m away; Interstate Barbecue, visit from 13:57 to 14:56, nearest transit: MALLORY@THIRD, 92.75m away; Arcade Restaurant, visit from 19:51 to 21:00, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from Savannah to Savannah",
-      "transportation": "Transfer, from Savannah to Savannah",
-      "breakfast": "-",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
       "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "King Bed, Very Walkable Location! By FREE Shuttle, Savannah",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "King Bed, Very Walkable Location! By FREE Shuttle, stay from 08:00 to 09:00, nearest transit: ABERCORN & 33rd SB, 35.10m away; King Bed, Very Walkable Location! By FREE Shuttle, stay from 22:15 to 08:00, nearest transit: ABERCORN & 33rd SB, 35.10m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 3,
-      "current_city": "from Savannah to Newburgh",
-      "transportation": "Transfer, from Savannah to Newburgh",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Cheekwood, Nashville",
+      "lunch": "Henley, Nashville",
+      "dinner": "The Standard, Nashville",
+      "accommodation": "Private Entrance near Airport in Safe neighborhood, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; Henley, visit from 13:57 to 14:56, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; The Standard, visit from 19:51 to 21:00, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Private Entrance near Airport in Safe neighborhood, stay from 22:15 to 08:00, nearest transit: LEBANON PIKE & DANYACREST DR SB, 295.08m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Aquarium Restaurant, Nashville",
+      "attraction": "Downtown Nashville, Nashville",
+      "lunch": "417 Union, Nashville",
+      "dinner": "The Bridge, Nashville",
+      "accommodation": "Private Entrance near Airport in Safe neighborhood, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Private Entrance near Airport in Safe neighborhood, stay from 08:00 to 09:00, nearest transit: LEBANON PIKE & DANYACREST DR SB, 295.08m away; Aquarium Restaurant, visit from 09:25 to 10:16, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Downtown Nashville, visit from 11:30 to 14:50, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; 417 Union, visit from 13:57 to 14:56, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; The Bridge, visit from 19:51 to 21:00, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Private Entrance near Airport in Safe neighborhood, stay from 22:15 to 08:00, nearest transit: LEBANON PIKE & DANYACREST DR SB, 295.08m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Nashville to Denver",
+      "transportation": "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "King Bed, Very Walkable Location! By FREE Shuttle, stay from 08:00 to 09:00, nearest transit: ABERCORN & 33rd SB, 35.10m away."
+      "point_of_interest_list": "Private Entrance near Airport in Safe neighborhood, stay from 03:50 to 04:50, nearest transit: LEBANON PIKE & DANYACREST DR SB, 295.08m away; Private Entrance near Airport in Safe neighborhood, stay from 08:00 to 09:00, nearest transit: LEBANON PIKE & DANYACREST DR SB, 295.08m away."
     }
   ]
 }

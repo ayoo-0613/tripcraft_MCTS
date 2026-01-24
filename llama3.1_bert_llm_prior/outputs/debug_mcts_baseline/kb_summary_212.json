@@ -2,58 +2,89 @@
   "idx": 212,
   "stages": [
     {
-      "city": "Las Vegas",
+      "city": "San Luis Obispo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 74,
+        "events": 6
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Hartford",
-      "to": "Las Vegas",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0275341, from Hartford to Las Vegas, Departure Time: 19:35, Arrival Time: 22:08"
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
+      "date": "2024-11-17",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Hartford",
-      "to": "Las Vegas",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Hartford to Las Vegas, Not feasible to drive from Hartford to Las Vegas"
+      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
     },
     {
       "mode": "taxi",
-      "from": "Hartford",
-      "to": "Las Vegas",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Hartford to Las Vegas, Not feasible to drive from Hartford to Las Vegas"
+      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
     },
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "Hartford",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0278234, from Las Vegas to Hartford, Departure Time: 23:01, Arrival Time: 06:35"
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": "2024-11-19",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "Hartford",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to Hartford, Not feasible to drive from Las Vegas to Hartford"
+      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "Hartford",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Las Vegas to Hartford, Not feasible to drive from Las Vegas to Hartford"
+      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
     }
   ]
 }

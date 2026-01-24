@@ -1,68 +1,91 @@
 {
   "idx": 252,
   "JSON": {
-    "org": "Miami",
-    "dest": "Nashville",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Wilmington",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
     "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": null,
       "event": null,
-      "attraction": [
-        "Food & Drink",
-        "Concerts & Shows"
-      ]
+      "attraction": null,
+      "transportation": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Miami to Nashville from November 17th to November 19th, 2024, with a budget of $1,800. Include activities related to food and drink, as well as concerts and shows.",
-    "level": "medium"
+    "budget": 3900.0,
+    "query": "Plan a 5-day trip for 2 people traveling from Wilmington to explore 2 cities in New York between November 4th and November 8th, 2024. The budget is $3,900.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to Nashville",
-      "transportation": "Flight Number: F0093275, from Miami to Nashville, Departure Time: 09:50, Arrival Time: 11:11",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "Smiling Elephant, Nashville",
-      "dinner": "Henley, Nashville",
-      "accommodation": "Walk to Five Points from a Dreamy Attic Apartment, Nashville",
+      "current_city": "from Wilmington to Watertown",
+      "transportation": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Literatus & Co, Watertown; Armenian Museum of America, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 11:41 to 12:41, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Smiling Elephant, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Henley, visit from 19:51 to 21:00, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 22:15 to 08:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Literatus & Co, visit from 11:30 to 12:27, nearest transit: Target - Towne Center Parking, 1033038.46m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Armenian Museum of America, visit from 16:30 to 18:57, nearest transit: Northland Plaza, 421122.69m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 2,
-      "current_city": "from Nashville to Nashville",
-      "transportation": "Transfer, from Nashville to Nashville",
-      "breakfast": "Aquarium Restaurant, Nashville",
-      "attraction": "Ryman Auditorium, Nashville",
-      "lunch": "The Standard, Nashville",
-      "dinner": "417 Union, Nashville",
-      "accommodation": "Walk to Five Points from a Dreamy Attic Apartment, Nashville",
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Red Robin, Watertown",
+      "attraction": "Terry Redlin Museum, Watertown; Salmon Run Mall, Watertown",
+      "lunch": "Fairground Inn, Watertown",
+      "dinner": "United China Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Aquarium Restaurant, visit from 09:25 to 10:16, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Ryman Auditorium, visit from 11:30 to 15:05, nearest transit: 5TH AVE N & COMMERCE ST NB, 76.95m away; The Standard, visit from 13:57 to 14:56, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; 417 Union, visit from 19:51 to 21:00, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Walk to Five Points from a Dreamy Attic Apartment, stay from 22:15 to 08:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Red Robin, visit from 09:25 to 10:16, nearest transit: Hannaford Foods, 63.20m away; Terry Redlin Museum, visit from 11:30 to 13:12, nearest transit: Target - Towne Center Parking, 1678308.27m away; Fairground Inn, visit from 13:57 to 14:56, nearest transit: Coffeen VanDuzee, 215.08m away; Salmon Run Mall, visit from 16:30 to 17:27, nearest transit: Transfer Station, 220.90m away; United China Restaurant, visit from 19:51 to 21:00, nearest transit: Northland Plaza, 218.90m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 3,
-      "current_city": "from Nashville to Miami",
-      "transportation": "Transfer, from Nashville to Miami",
-      "breakfast": "Ole Red, Nashville",
-      "attraction": "Grand Ole Opry, Nashville",
-      "lunch": "The Bridge, Nashville",
-      "dinner": "1 Kitchen, Nashville",
+      "current_city": "from Watertown to New York",
+      "transportation": "Transfer, from Watertown to New York",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Times Square, New York; Rockefeller Center, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "Lobster Place, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Times Square, visit from 11:30 to 13:27, nearest transit: 7 AV/W 44 ST, 171.17m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "BOOM, New York",
+      "attraction": "Brooklyn Bridge, New York; Chelsea Market, New York",
+      "lunch": "Bryant Park Grill, New York",
+      "dinner": "R Lounge, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; Chelsea Market, visit from 16:30 to 17:27, nearest transit: W 14 ST/WASHINGTON ST, 131.35m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from New York to Wilmington",
+      "transportation": "Flight Number: F0122356, from New York to Wilmington, Departure Time: 08:59, Arrival Time: 10:55",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Walk to Five Points from a Dreamy Attic Apartment, stay from 08:00 to 09:00, nearest transit: EASTLAND STATION INBOUND, 236.32m away; Ole Red, visit from 09:25 to 10:16, nearest transit: BROADWAY AVE & 3RD AVE WB, 17.30m away; Grand Ole Opry, visit from 11:30 to 14:50, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 377.07m away; The Bridge, visit from 13:57 to 14:56, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; 1 Kitchen, visit from 19:51 to 21:00, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away."
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 07:29 to 08:29, nearest transit: 3 AV/E 14 ST, 30.60m away; Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
     }
   ]
 }

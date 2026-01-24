@@ -2,89 +2,120 @@
   "idx": 62,
   "stages": [
     {
-      "city": "Cedar Rapids",
+      "city": "Bristol",
       "counts": {
-        "attractions": 18,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 74,
-        "events": 19
+        "poi2transit": 70,
+        "events": 0
       }
     },
     {
-      "city": "Sioux City",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 12,
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 29
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 67,
-        "events": 7
+        "poi2transit": 75,
+        "events": 12
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
-      "date": "2024-11-02",
-      "raw": "Flight Number: F0001126, from Chicago to Cedar Rapids, Departure Time: 10:55, Arrival Time: 12:00"
+      "from": "Dallas",
+      "to": "Bristol",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0448850, from Dallas to Bristol, Departure Time: 13:55, Arrival Time: 16:57"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
+      "from": "Dallas",
+      "to": "Bristol",
       "date": null,
-      "raw": "Self-driving, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $19.81"
+      "raw": "Self-driving, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $76.92"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Cedar Rapids",
+      "from": "Dallas",
+      "to": "Bristol",
       "date": null,
-      "raw": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16"
+      "raw": "Taxi, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $1538.48"
     },
     {
       "mode": "flight",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
-      "date": "2024-11-04",
+      "from": "Bristol",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "Bristol",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+      "raw": "Self-driving, from Bristol to Chattanooga, Duration: 249.65166666666667 mins, Distance: 360.1764 km, Estimated Cost: $18.01"
     },
     {
       "mode": "taxi",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "Bristol",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+      "raw": "Taxi, from Bristol to Chattanooga, Duration: 249.65166666666667 mins, Distance: 360.1764 km, Estimated Cost: $360.18"
     },
     {
       "mode": "flight",
-      "from": "Sioux City",
-      "to": "Chicago",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sioux City",
-      "to": "Chicago",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $38.56"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Sioux City",
-      "to": "Chicago",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $771.24"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0010005, from Nashville to Dallas, Departure Time: 19:51, Arrival Time: 21:41"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $53.53"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $1070.54"
     }
   ]
 }

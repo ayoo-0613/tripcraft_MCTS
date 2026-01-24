@@ -2,58 +2,89 @@
   "idx": 308,
   "stages": [
     {
-      "city": "Nashville",
+      "city": "Memphis",
       "counts": {
-        "attractions": 20,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 11
+        "poi2transit": 70,
+        "events": 14
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 29
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Tampa",
-      "to": "Nashville",
-      "date": "2024-11-22",
-      "raw": "Flight Number: F0055094, from Tampa to Nashville, Departure Time: 22:03, Arrival Time: 22:50"
+      "from": "Dallas",
+      "to": "Memphis",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0035794, from Dallas to Memphis, Departure Time: 15:34, Arrival Time: 16:44"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Nashville",
+      "from": "Dallas",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Tampa to Nashville, Duration: 774.4866666666666 mins, Distance: 1131.5828000000001 km, Estimated Cost: $56.58"
+      "raw": "Self-driving, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $36.47"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Nashville",
+      "from": "Dallas",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Tampa to Nashville, Duration: 774.4866666666666 mins, Distance: 1131.5828000000001 km, Estimated Cost: $1131.58"
+      "raw": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47"
     },
     {
       "mode": "flight",
-      "from": "Nashville",
-      "to": "Tampa",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0077393, from Nashville to Tampa, Departure Time: 18:48, Arrival Time: 21:26"
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Nashville",
-      "to": "Tampa",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Nashville to Tampa, Duration: 771.62 mins, Distance: 1128.6763 km, Estimated Cost: $56.43"
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
     },
     {
       "mode": "taxi",
-      "from": "Nashville",
-      "to": "Tampa",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Nashville to Tampa, Duration: 771.62 mins, Distance: 1128.6763 km, Estimated Cost: $1128.68"
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $63.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $1274.84"
     }
   ]
 }

@@ -1,94 +1,120 @@
 {
   "idx": 115,
   "JSON": {
-    "org": "Greensboro",
-    "dest": "Florida",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Chicago",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-02",
       "2024-11-03",
       "2024-11-04",
       "2024-11-05",
-      "2024-11-06"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": [
-        "Chinese",
-        "American"
+        "American",
+        "Mexican"
       ],
       "room type": null,
+      "transportation": "no flight",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 3500.0,
-    "query": "Plan a 5-day trip for 2 people from Greensboro to explore 2 cities in Florida from November 2nd to November 6th, 2024. The budget is $3,500. Include dining options with Chinese and American cuisines.",
-    "level": "medium"
+    "budget": 7500.0,
+    "query": "Design a 7-day travel itinerary for 1 person starting from Chicago and visiting 3 cities in Iowa between November 3rd and November 9th, 2024. The budget is $7,500. The trip should avoid flights and include dining options featuring American and Mexican cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Greensboro to Key West",
-      "transportation": "Transfer, from Greensboro to Key West",
-      "breakfast": "Sunset Pier, Key West",
-      "attraction": "Mallory Square, Key West",
-      "lunch": "Blue Heaven, Key West",
-      "dinner": "Thirsty Mermaid, Key West",
-      "accommodation": "Yacht Your Ordinary Airbnb, Key West",
+      "current_city": "from Chicago to Mason City",
+      "transportation": "Taxi, from Chicago to Mason City, Duration: 438.0133333333333 mins, Distance: 565.973 km, Estimated Cost: $565.97",
+      "breakfast": "Birdsall's, Mason City",
+      "attraction": "Rancho Deluxe, Mason City",
+      "lunch": "Mason Bar, Mason City",
+      "dinner": "China Buffet, Mason City",
+      "accommodation": "Cozy windfall, Mason City",
       "event": "-",
-      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Sunset Pier, visit from 09:25 to 10:16, nearest transit: Whitehead & Greene St., 318.33m away; Mallory Square, visit from 11:30 to 16:05, nearest transit: Whitehead & Greene St., 235.56m away; Blue Heaven, visit from 13:57 to 14:56, nearest transit: Petronia & Whitehead, 73.82m away; Thirsty Mermaid, visit from 19:51 to 21:00, nearest transit: Simonton & Southard St., 200.66m away; Yacht Your Ordinary Airbnb, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Birdsall's, visit from 09:25 to 10:16, nearest transit: Fareway, 155.13m away; Rancho Deluxe, visit from 11:30 to 15:20, nearest transit: N Connecticut Ave. and 2nd St. NE, 111.40m away; Mason Bar, visit from 13:57 to 14:56, nearest transit: North Iowa Area Community College, 9806825.02m away; China Buffet, visit from 19:51 to 21:00, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; Cozy windfall, stay from 22:15 to 08:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away."
     },
     {
       "days": 2,
-      "current_city": "from Key West to Key West",
-      "transportation": "Transfer, from Key West to Key West",
-      "breakfast": "Seven Fish, Key West",
-      "attraction": "Southernmost Point, Key West",
-      "lunch": "Waterfront Brewery, Key West",
-      "dinner": "Onlywood Grill, Key West",
-      "accommodation": "Yacht Your Ordinary Airbnb, Key West",
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "The Quarry, Mason City",
+      "attraction": "East Park, Mason City",
+      "lunch": "Mason Jar, Mason City",
+      "dinner": "Mason's, Mason City",
+      "accommodation": "River House, Mason City",
       "event": "-",
-      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Seven Fish, visit from 09:25 to 10:16, nearest transit: Truman & Grinnell, 19.45m away; Southernmost Point, visit from 11:30 to 15:20, nearest transit: Whitehead & United, 162.79m away; Waterfront Brewery, visit from 13:57 to 14:56, nearest transit: Caroline & William, 119.49m away; Onlywood Grill, visit from 19:51 to 21:00, nearest transit: Caroline & William, 28.22m away; Yacht Your Ordinary Airbnb, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away."
+      "point_of_interest_list": "River House, stay from 08:00 to 09:00, nearest transit: Mercy Medical Center West, 17453.21m away; The Quarry, visit from 09:25 to 10:16, nearest transit: Central Park, 118.96m away; East Park, visit from 11:30 to 16:50, nearest transit: E State St. and S Virginia Ave., 149.57m away; Mason Jar, visit from 13:57 to 14:56, nearest transit: 24th St. SW and S Jefferson Ave., 464148.03m away; Mason's, visit from 19:51 to 21:00, nearest transit: North Iowa Area Community College, 958375.72m away; River House, stay from 22:15 to 08:00, nearest transit: Mercy Medical Center West, 17453.21m away."
     },
     {
       "days": 3,
-      "current_city": "from Key West to Gainesville",
-      "transportation": "Transfer, from Key West to Gainesville",
-      "breakfast": "Ocean Buffet, Gainesville",
-      "attraction": "Depot Park, Gainesville",
-      "lunch": "Northwest Grille, Gainesville",
-      "dinner": "Metro Diner, Gainesville",
-      "accommodation": "The Botanical Suite. Newly Built, Upscale, Central, Gainesville",
+      "current_city": "from Mason City to Fort Dodge",
+      "transportation": "Taxi, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $154.60",
+      "breakfast": "Subway, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Village Inn, Fort Dodge",
+      "dinner": "Pizza Hut, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Ocean Buffet, visit from 09:25 to 10:16, nearest transit: Oaks Mall, 139.72m away; Depot Park, visit from 11:30 to 16:50, nearest transit: Rosa Parks RTS Downtown Station, 34.55m away; Northwest Grille, visit from 13:57 to 14:56, nearest transit: NW Grille Seafood, 41.68m away; Metro Diner, visit from 19:51 to 21:00, nearest transit: 34th Street Plaza, 38.33m away; The Botanical Suite. Newly Built, Upscale, Central, stay from 22:15 to 08:00, nearest transit: Santa Fe College Charles L. Blount Center, 133.75m away."
+      "point_of_interest_list": "River House, stay from 08:00 to 09:00, nearest transit: Mercy Medical Center West, 17453.21m away; Subway, visit from 09:25 to 10:16, nearest transit: A St and Ave O W, 101.37m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Village Inn, visit from 13:57 to 14:56, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Pizza Hut, visit from 19:51 to 21:00, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 4,
-      "current_city": "from Gainesville to Gainesville",
-      "transportation": "Transfer, from Gainesville to Gainesville",
-      "breakfast": "The Top, Gainesville",
-      "attraction": "Swamp Head Brewery, Gainesville",
-      "lunch": "Blue Gill, Gainesville",
-      "dinner": "Bonefish Grill, Gainesville",
-      "accommodation": "The Botanical Suite. Newly Built, Upscale, Central, Gainesville",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Sports Page, Fort Dodge",
+      "attraction": "Studio Fusion, Fort Dodge",
+      "lunch": "Tom Thumb Drive Inn, Fort Dodge",
+      "dinner": "Dodge's, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "The Botanical Suite. Newly Built, Upscale, Central, stay from 08:00 to 09:00, nearest transit: Santa Fe College Charles L. Blount Center, 133.75m away; The Top, visit from 09:25 to 10:16, nearest transit: Alachua County Office of the State Attorney, 105.38m away; Swamp Head Brewery, visit from 11:30 to 14:50, nearest transit: Gateway at Gainesville Apartments, 334.13m away; Blue Gill, visit from 13:57 to 14:56, nearest transit: Southbound SW 13th ST @ SW 13th AVE, 19.68m away; Bonefish Grill, visit from 19:51 to 21:00, nearest transit: Bonefish Grill Seafood Restaurant @ Butler Plaza, 17.00m away; The Botanical Suite. Newly Built, Upscale, Central, stay from 22:15 to 08:00, nearest transit: Santa Fe College Charles L. Blount Center, 133.75m away."
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Sports Page, visit from 09:25 to 10:16, nearest transit: Evergreen Estates, 68.77m away; Studio Fusion, visit from 11:30 to 13:50, nearest transit: N 11th St and Central Ave, 71.87m away; Tom Thumb Drive Inn, visit from 13:57 to 14:56, nearest transit: A St and Ave O W, 90.84m away; Dodge's, visit from 19:51 to 21:00, nearest transit: S 31st St and 8th Ave S, 858866.05m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 5,
-      "current_city": "from Gainesville to Greensboro",
-      "transportation": "Transfer, from Gainesville to Greensboro",
-      "breakfast": "Paramount Grill, Gainesville",
-      "attraction": "Butterfly Rainforest, Gainesville",
-      "lunch": "Bangkok Square, Gainesville",
-      "dinner": "Peach Valley Cafe, Gainesville",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65",
+      "breakfast": "Zeppelins, Cedar Rapids",
+      "attraction": "Brucemore, Cedar Rapids",
+      "lunch": "350 First, Cedar Rapids",
+      "dinner": "The Map Room, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; 350 First, visit from 13:57 to 14:56, nearest transit: 3rd St & 2nd Ave, 159.53m away; The Map Room, visit from 19:51 to 21:00, nearest transit: 5th Ave & RR tracks, 111.63m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "CSPS, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "The Blind Pig, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; CSPS, visit from 11:30 to 14:50, nearest transit: 2nd St & 11th Ave, 75.03m away; The Breakfast House, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; The Blind Pig, visit from 19:51 to 21:00, nearest transit: 3335 Center Point Rd (Papa Murph), 140.18m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Cedar Rapids to Chicago",
+      "transportation": "Taxi, from Cedar Rapids to Chicago, Duration: 281.27166666666665 mins, Distance: 397.6572 km, Estimated Cost: $397.66",
+      "breakfast": "Lightworks Cafe, Cedar Rapids",
+      "attraction": "Mount Trashmore, Cedar Rapids",
+      "lunch": "The Class Act Restaurant, Cedar Rapids",
+      "dinner": "Bari Italian, Cedar Rapids",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Botanical Suite. Newly Built, Upscale, Central, stay from 08:00 to 09:00, nearest transit: Santa Fe College Charles L. Blount Center, 133.75m away; Paramount Grill, visit from 09:25 to 10:16, nearest transit: Alachua County Office of the State Attorney, 82.14m away; Butterfly Rainforest, visit from 11:30 to 16:50, nearest transit: Harn Museum, 184.40m away; Bangkok Square, visit from 13:57 to 14:56, nearest transit: Kanapaha Station Plaza, 136.20m away; Peach Valley Cafe, visit from 19:51 to 21:00, nearest transit: University Town Center, 103.24m away."
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Lightworks Cafe, visit from 09:25 to 10:16, nearest transit: 6th St & 6th Ave, 178.56m away; Mount Trashmore, visit from 11:30 to 16:10, nearest transit: C St & Rapids Ave, 656.14m away; The Class Act Restaurant, visit from 13:57 to 14:56, nearest transit: 76th Ave Dr & Kirkwood Hotel, 132.89m away; Bari Italian, visit from 19:51 to 21:00, nearest transit: 1st St at McGrath Ampitheatre, 71.85m away."
     }
   ]
 }

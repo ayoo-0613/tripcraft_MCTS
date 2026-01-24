@@ -1,65 +1,94 @@
 {
   "idx": 172,
   "JSON": {
-    "org": "Dallas",
-    "dest": "Monterey",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Washington",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-20",
-      "2024-11-21",
-      "2024-11-22"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
-    "people_number": 4,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "Chinese",
+        "American"
+      ],
       "room type": null,
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 7200.0,
-    "query": "Plan a 3-day trip for 4 people from Dallas to Monterey from November 20th to November 22nd, 2024, with a budget of $7,200.",
+    "budget": 5100.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Washington to explore 2 cities in California between November 5th and November 9th, 2024. The budget is $5,100. Include dining options with Chinese and American cuisines.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Dallas to Monterey",
-      "transportation": "Taxi, from Dallas to Monterey, Not feasible to drive from Dallas to Monterey",
-      "breakfast": "Fish Hopper, Monterey",
-      "attraction": "Perry House, Monterey",
-      "lunch": "Tidal Coffee, Monterey",
-      "dinner": "Crystal Fish, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from Washington to San Francisco",
+      "transportation": "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco",
+      "breakfast": "Eagle Cafe, San Francisco",
+      "attraction": "Ferry Building Marketplace, San Francisco",
+      "lunch": "Capital Restaurant, San Francisco",
+      "dinner": "Outerlands, San Francisco",
+      "accommodation": "Monroe Studio 303, San Francisco",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Fish Hopper, visit from 09:25 to 10:16, nearest transit: Cannery Row / Prescott, 76.06m away; Perry House, visit from 11:30 to 15:20, nearest transit: Pacific / Scott, 79.46m away; Tidal Coffee, visit from 13:57 to 14:56, nearest transit: Cannery Row / Drake, 46.73m away; Crystal Fish, visit from 19:51 to 21:00, nearest transit: Lighthouse / Hoffman, 98.34m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Ferry Building Marketplace, visit from 11:30 to 14:35, nearest transit: Mission @ Spear (Embarcadero), 334.47m away; Capital Restaurant, visit from 13:57 to 14:56, nearest transit: Powell @ 22 4th, 972.30m away; Outerlands, visit from 19:51 to 21:00, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
     },
     {
       "days": 2,
-      "current_city": "from Monterey to Monterey",
-      "transportation": "Transfer, from Monterey to Monterey",
-      "breakfast": "Old Monterey Cafe, Monterey",
-      "attraction": "MST Trolley, Monterey",
-      "lunch": "Cafe Fina, Monterey",
-      "dinner": "Montrio, Monterey",
-      "accommodation": "The Mermaid Bungalow, Monterey",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Waterbar, San Francisco",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Quince, San Francisco",
+      "dinner": "Hillstone, San Francisco",
+      "accommodation": "Monroe Studio 303, San Francisco",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Old Monterey Cafe, visit from 09:25 to 10:16, nearest transit: Monterey Transit Plaza / Gate 3 Pearl, 45.93m away; MST Trolley, visit from 11:30 to 13:50, nearest transit: Cannery Row / Prescott, 18.07m away; Cafe Fina, visit from 13:57 to 14:56, nearest transit: Olivier St / 155 MPR Trail, 146.98m away; Montrio, visit from 19:51 to 21:00, nearest transit: Pacific / Parking Garage, 71.33m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; Waterbar, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Quince, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Hillstone, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Monroe Studio 303, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away."
     },
     {
       "days": 3,
-      "current_city": "from Monterey to Dallas",
-      "transportation": "Flight Number: F0386991, from Monterey to Dallas, Departure Time: 05:27, Arrival Time: 10:40",
+      "current_city": "from San Francisco to San Diego",
+      "transportation": "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46",
       "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "charming, colorful, close to beach, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Monroe Studio 303, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1571.78m away; charming, colorful, close to beach, stay from 22:15 to 08:00, nearest transit: Jewell St & Garnet Av, 578.25m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Cafe Coyote, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "World Famous, San Diego",
+      "dinner": "Addison Restaurant, San Diego",
+      "accommodation": "charming, colorful, close to beach, San Diego",
+      "event": "-",
+      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Cafe Coyote, visit from 09:25 to 10:16, nearest transit: Juan St & Harney St, 216.77m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; World Famous, visit from 13:57 to 14:56, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; charming, colorful, close to beach, stay from 22:15 to 08:00, nearest transit: Jewell St & Garnet Av, 578.25m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Diego to Washington",
+      "transportation": "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44",
+      "breakfast": "Morning Glory, San Diego",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Mermaid Bungalow, stay from 03:57 to 04:57, nearest transit: Fremont / Francis Avenue, 146.00m away; The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+      "point_of_interest_list": "charming, colorful, close to beach, stay from 08:00 to 09:00, nearest transit: Jewell St & Garnet Av, 578.25m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away."
     }
   ]
 }

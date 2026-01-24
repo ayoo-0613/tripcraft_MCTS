@@ -2,23 +2,33 @@
   "idx": 113,
   "stages": [
     {
-      "city": "San Luis Obispo",
+      "city": "San Antonio",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 17
+      }
+    },
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 4
+      }
+    },
+    {
+      "city": "Amarillo",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
-      }
-    },
-    {
-      "city": "Fresno",
-      "counts": {
-        "attractions": 19,
-        "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 6
+        "events": 12
       }
     }
   ],
@@ -26,65 +36,86 @@
     {
       "mode": "flight",
       "from": "Las Vegas",
-      "to": "San Luis Obispo",
-      "date": "2024-11-17",
-      "raw": "-"
+      "to": "San Antonio",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0003487, from Las Vegas to San Antonio, Departure Time: 15:11, Arrival Time: 19:31"
     },
     {
       "mode": "self-driving",
       "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
+      "raw": "Self-driving, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $102.52"
     },
     {
       "mode": "taxi",
       "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
+      "raw": "Taxi, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $2050.35"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
-      "date": "2024-11-19",
-      "raw": "-"
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0034380, from San Antonio to Houston, Departure Time: 20:43, Arrival Time: 21:34"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
     },
     {
       "mode": "flight",
-      "from": "Fresno",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0465913, from Houston to Amarillo, Departure Time: 10:11, Arrival Time: 12:03"
     },
     {
       "mode": "self-driving",
-      "from": "Fresno",
-      "to": "Las Vegas",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "Fresno",
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": null,
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Las Vegas",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0064873, from Amarillo to Las Vegas, Departure Time: 10:48, Arrival Time: 10:47"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
       "to": "Las Vegas",
       "date": null,
-      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
+      "raw": "Self-driving, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $69.05"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $1381.07"
     }
   ]
 }

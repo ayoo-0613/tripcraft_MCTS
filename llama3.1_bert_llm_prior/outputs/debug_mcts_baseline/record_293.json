@@ -1,14 +1,16 @@
 {
   "idx": 293,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Indianapolis",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Denver",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-24",
-      "2024-11-25",
-      "2024-11-26"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10"
     ],
     "people_number": 1,
     "local_constraint": {
@@ -19,47 +21,71 @@
       "event": null,
       "attraction": null
     },
-    "budget": 1050.0,
-    "query": "Plan a 3-day trip for 1 person from Detroit to Indianapolis from November 24th to November 26th, 2024, with a budget of $1,050.",
+    "budget": 3600.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Denver to explore 2 cities in Tennessee between November 6th and November 10th, 2024, with a budget of $3,600.",
     "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Indianapolis",
-      "transportation": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70",
-      "breakfast": "Vida, Indianapolis",
-      "attraction": "Monument Circle, Indianapolis; Indianapolis Zoo, Indianapolis",
-      "lunch": "Thai Spice, Indianapolis",
-      "dinner": "Yard House, Indianapolis",
-      "accommodation": "The Metro House - Modern Cozy & Pet Friendly, Indianapolis",
+      "current_city": "from Denver to Memphis",
+      "transportation": "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Interstate Barbecue, Memphis",
+      "dinner": "Arcade Restaurant, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "The Metro House - Modern Cozy & Pet Friendly, stay from 08:00 to 09:00, nearest transit: Oliver Ave & Marion Ave, 67.13m away; Vida, visit from 09:25 to 10:16, nearest transit: New York St & College Ave, 112.33m away; Monument Circle, visit from 11:30 to 13:57, nearest transit: Ohio St & Meridian St, 185.16m away; Thai Spice, visit from 13:57 to 14:56, nearest transit: County Line Rd at Greenwood Park Mall, 41.67m away; Indianapolis Zoo, visit from 16:30 to 19:37, nearest transit: Washington St & White River Pkwy W Dr, 244.02m away; Yard House, visit from 19:51 to 21:00, nearest transit: Washington St & Illinois St, 224.79m away; The Metro House - Modern Cozy & Pet Friendly, stay from 22:15 to 08:00, nearest transit: Oliver Ave & Marion Ave, 67.13m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Interstate Barbecue, visit from 13:57 to 14:56, nearest transit: MALLORY@THIRD, 92.75m away; Arcade Restaurant, visit from 19:51 to 21:00, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from Indianapolis to Indianapolis",
-      "transportation": "Transfer, from Indianapolis to Indianapolis",
-      "breakfast": "Mesh Indy, Indianapolis",
-      "attraction": "Central Canal, Indianapolis; Eagle Creek Park, Indianapolis",
-      "lunch": "Milktooth, Indianapolis",
-      "dinner": "The Capital Grille, Indianapolis",
-      "accommodation": "The Metro House - Modern Cozy & Pet Friendly, Indianapolis",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Guest House, Memphis",
       "event": "-",
-      "point_of_interest_list": "The Metro House - Modern Cozy & Pet Friendly, stay from 08:00 to 09:00, nearest transit: Oliver Ave & Marion Ave, 67.13m away; Mesh Indy, visit from 09:25 to 10:16, nearest transit: Massachusetts Ave & Park Ave, 75.37m away; Central Canal, visit from 11:30 to 13:57, nearest transit: Washington St & West St - White River St, 138.65m away; Milktooth, visit from 13:57 to 14:56, nearest transit: Fletcher Place Station NB, 34.30m away; Eagle Creek Park, visit from 16:30 to 20:27, nearest transit: Intech Blvd & Network Way, 1850.05m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: Washington St & Illinois St, 95.94m away; The Metro House - Modern Cozy & Pet Friendly, stay from 22:15 to 08:00, nearest transit: Oliver Ave & Marion Ave, 67.13m away."
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Memphis Zoo, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
     },
     {
       "days": 3,
-      "current_city": "from Indianapolis to Detroit",
-      "transportation": "Transfer, from Indianapolis to Detroit",
-      "breakfast": "Livery Indianapolis, Indianapolis",
-      "attraction": "The Fashion Mall at Keystone, Indianapolis; Victory Field, Indianapolis",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "Transfer, from Memphis to Nashville",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Cheekwood, Nashville",
+      "lunch": "Henley, Nashville",
+      "dinner": "The Standard, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Cheekwood, visit from 11:30 to 15:50, nearest transit: HWY 70 S & BROOK HOLLOW RD EB, 833.18m away; Henley, visit from 13:57 to 14:56, nearest transit: 21ST AVE & BROADWAY AVE SB, 79.55m away; The Standard, visit from 19:51 to 21:00, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "Aquarium Restaurant, Nashville",
+      "attraction": "Downtown Nashville, Nashville",
+      "lunch": "417 Union, Nashville",
+      "dinner": "The Bridge, Nashville",
+      "accommodation": "Cute Cottage Apartment Downtown, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Aquarium Restaurant, visit from 09:25 to 10:16, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; Downtown Nashville, visit from 11:30 to 14:50, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; 417 Union, visit from 13:57 to 14:56, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; The Bridge, visit from 19:51 to 21:00, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Cute Cottage Apartment Downtown, stay from 22:15 to 08:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Nashville to Denver",
+      "transportation": "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59",
+      "breakfast": "-",
+      "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Metro House - Modern Cozy & Pet Friendly, stay from 08:00 to 09:00, nearest transit: Oliver Ave & Marion Ave, 67.13m away; Livery Indianapolis, visit from 09:25 to 10:16, nearest transit: Massachusetts Ave & Park Ave, 127.06m away; The Fashion Mall at Keystone, visit from 11:30 to 12:27, nearest transit: Keystone Crossing - 8700 N, 51.70m away; Victory Field, visit from 16:30 to 18:57, nearest transit: Washington St & Victory Field - 800 W, 132.89m away."
+      "point_of_interest_list": "Cute Cottage Apartment Downtown, stay from 03:50 to 04:50, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away; Cute Cottage Apartment Downtown, stay from 08:00 to 09:00, nearest transit: JEFFERSON ST & 14TH AVE N WB, 56.42m away."
     }
   ]
 }

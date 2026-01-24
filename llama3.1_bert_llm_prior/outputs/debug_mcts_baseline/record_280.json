@@ -1,67 +1,95 @@
 {
   "idx": 280,
   "JSON": {
-    "org": "Miami",
-    "dest": "Baltimore",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Cleveland",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
       "2024-11-03",
       "2024-11-04",
-      "2024-11-05"
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
+      "cuisine": [
+        "Indian",
+        "Italian",
+        "Chinese"
+      ],
       "room type": null,
       "transportation": null,
-      "event": [
-        "Arts & Theatre"
-      ],
+      "event": null,
       "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Miami to Baltimore from November 3rd to November 5th, 2024, with a budget of $1,800. Include events related to Arts & Theatre in the itinerary.",
+    "budget": 2400.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Cleveland to explore 2 cities in New York between November 3rd and November 7th, 2024. The budget is $2,400. Include dining options with Indian, Italian, and Chinese cuisines.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to Baltimore",
-      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views, Baltimore",
-      "event": "Shucked (Touring), Baltimore",
-      "point_of_interest_list": "Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 08:00 to 09:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away; Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 22:15 to 08:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away."
+      "current_city": "from Cleveland to Rochester",
+      "transportation": "Taxi, from Cleveland to Rochester, Duration: 306.5516666666666 mins, Distance: 415.9474 km, Estimated Cost: $415.95",
+      "breakfast": "Good Luck, Rochester",
+      "attraction": "Groome Transportation, Rochester; Rochester Shuttle Service, Rochester",
+      "lunch": "Chocolaterie Stam, Rochester",
+      "dinner": "Restaurant Fiorella, Rochester",
+      "accommodation": "Guest home in Churchville, Rochester",
+      "event": "-",
+      "point_of_interest_list": "Guest home in Churchville, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away; Good Luck, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1141851.57m away; Groome Transportation, visit from 11:30 to 12:27, nearest transit: St. Mary's Hospital, 939.18m away; Chocolaterie Stam, visit from 13:57 to 14:56, nearest transit: 2nd Ave. SW & 2nd St. SW (East side, North), 216.10m away; Rochester Shuttle Service, visit from 16:30 to 17:27, nearest transit: Stewartville County Rd. 120 & Main St., 4218.86m away; Restaurant Fiorella, visit from 19:51 to 21:00, nearest transit: Winona 61 & Hwy. 14, 1141228.14m away; Guest home in Churchville, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away."
     },
     {
       "days": 2,
-      "current_city": "from Baltimore to Baltimore",
-      "transportation": "Transfer, from Baltimore to Baltimore",
-      "breakfast": "Charleston Restaurant, Baltimore",
-      "attraction": "Little Italy, Baltimore; Inner Harbor, Baltimore",
-      "lunch": "Phillips Seafood, Baltimore",
-      "dinner": "The Capital Grille, Baltimore",
-      "accommodation": "Private Bed next to JHH, Baltimore",
+      "current_city": "from Rochester to Rochester",
+      "transportation": "Transfer, from Rochester to Rochester",
+      "breakfast": "Hunan Garden, Rochester",
+      "attraction": "Restoration House, Rochester; Douglas Trail, Rochester",
+      "lunch": "Swan Market, Rochester",
+      "dinner": "Jines Restaurant, Rochester",
+      "accommodation": "Guest home in Churchville, Rochester",
       "event": "-",
-      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Charleston Restaurant, visit from 09:25 to 10:16, nearest transit: SHOT TOWER STATION (METRO) sb, 915.06m away; Little Italy, visit from 11:30 to 14:07, nearest transit: SHOT TOWER STATION (METRO) sb, 507.45m away; Phillips Seafood, visit from 13:57 to 14:56, nearest transit: SHOT TOWER METRO West Entrance, 344.26m away; Inner Harbor, visit from 16:30 to 20:27, nearest transit: CHARLES CENTER METRO Stair 5, 594.73m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+      "point_of_interest_list": "Guest home in Churchville, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away; Hunan Garden, visit from 09:25 to 10:16, nearest transit: St. Mary's Hospital, 1030.16m away; Restoration House, visit from 11:30 to 13:57, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6492204.41m away; Swan Market, visit from 13:57 to 14:56, nearest transit: Winona 61 & Hwy. 14, 1142628.73m away; Douglas Trail, visit from 16:30 to 20:27, nearest transit: 3rd Ave. SW & 2nd St. SW (North), 289.83m away; Jines Restaurant, visit from 19:51 to 21:00, nearest transit: Winona 61 & Hwy. 14, 1142527.42m away; Guest home in Churchville, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away."
     },
     {
       "days": 3,
-      "current_city": "from Baltimore to Miami",
-      "transportation": "Transfer, from Baltimore to Miami",
-      "breakfast": "The Food Market, Baltimore",
-      "attraction": "Peabody Library, Baltimore; Horseshoe Casino, Baltimore",
-      "lunch": "Blue Moon Cafe, Baltimore",
-      "dinner": "The Helmand, Baltimore",
+      "current_city": "from Rochester to Newburgh",
+      "transportation": "Transfer, from Rochester to Newburgh",
+      "breakfast": "Cafe Alice, Newburgh",
+      "attraction": "Grit Works, Newburgh; Tower of Victory, Newburgh",
+      "lunch": "Subway, Newburgh",
+      "dinner": "Alexis Diner, Newburgh",
+      "accommodation": "Quaint Newburgh Retreat, Newburgh",
+      "event": "-",
+      "point_of_interest_list": "Guest home in Churchville, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away; Cafe Alice, visit from 09:25 to 10:16, nearest transit: Beacon Station, 5183193.10m away; Grit Works, visit from 11:30 to 13:12, nearest transit: Broadway & Liberty St, 101.81m away; Subway, visit from 13:57 to 14:56, nearest transit: Stewart Airport, 1208321.97m away; Tower of Victory, visit from 16:30 to 18:57, nearest transit: Broadway & Grand St, 239.25m away; Alexis Diner, visit from 19:51 to 21:00, nearest transit: Plank Rd & Rte 9W, 321.47m away; Quaint Newburgh Retreat, stay from 22:15 to 08:00, nearest transit: Grand St & South St, 296.07m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Newburgh to Newburgh",
+      "transportation": "Transfer, from Newburgh to Newburgh",
+      "breakfast": "Cafe Arazu, Newburgh",
+      "attraction": "Downing Park, Newburgh; Resorts World Hudson Valley, Newburgh",
+      "lunch": "Abrams Bakery, Newburgh",
+      "dinner": "The River Grill, Newburgh",
+      "accommodation": "Quaint Newburgh Retreat, Newburgh",
+      "event": "-",
+      "point_of_interest_list": "Quaint Newburgh Retreat, stay from 08:00 to 09:00, nearest transit: Grand St & South St, 296.07m away; Cafe Arazu, visit from 09:25 to 10:16, nearest transit: Stewart Airport, 1205555.11m away; Downing Park, visit from 11:30 to 15:27, nearest transit: Broadway & Rte 9W, 553.64m away; Abrams Bakery, visit from 13:57 to 14:56, nearest transit: Stewart Airport, 387186.34m away; Resorts World Hudson Valley, visit from 16:30 to 17:57, nearest transit: Rte 17K Park & Ride, 1780.41m away; The River Grill, visit from 19:51 to 21:00, nearest transit: Broadway & Grand St, 523.55m away; Quaint Newburgh Retreat, stay from 22:15 to 08:00, nearest transit: Grand St & South St, 296.07m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Newburgh to Cleveland",
+      "transportation": "Transfer, from Newburgh to Cleveland",
+      "breakfast": "Blu Pointe, Newburgh",
+      "attraction": "Ann Street Gallery, Newburgh; All Transportation Network, Newburgh",
+      "lunch": "Newburgh Inn, Newburgh",
+      "dinner": "The Wherehouse, Newburgh",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; The Food Market, visit from 09:25 to 10:16, nearest transit: MONDAWMIN METRO Main Entrance, 2207.42m away; Peabody Library, visit from 11:30 to 11:57, nearest transit: STATE CENTER (METRO) sb, 660.61m away; Blue Moon Cafe, visit from 13:57 to 14:56, nearest transit: SHOT TOWER STATION (METRO) sb, 1161.67m away; Horseshoe Casino, visit from 16:30 to 17:57, nearest transit: CHARLES CENTER METRO West Entrance, 2023.43m away; The Helmand, visit from 19:51 to 21:00, nearest transit: STATE CENTER (METRO) sb, 508.53m away."
+      "point_of_interest_list": "Quaint Newburgh Retreat, stay from 08:00 to 09:00, nearest transit: Grand St & South St, 296.07m away; Blu Pointe, visit from 09:25 to 10:16, nearest transit: South St & Grand St, 382.06m away; Ann Street Gallery, visit from 11:30 to 13:57, nearest transit: Broadway & Liberty St, 109.37m away; Newburgh Inn, visit from 13:57 to 14:56, nearest transit: Beacon Station, 5232669.51m away; All Transportation Network, visit from 16:30 to 17:27, nearest transit: Plank Rd & Rte 9W, 5729.35m away; The Wherehouse, visit from 19:51 to 21:00, nearest transit: Broadway & Liberty St, 110.81m away."
     }
   ]
 }

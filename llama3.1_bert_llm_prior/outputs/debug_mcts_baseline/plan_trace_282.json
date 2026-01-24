@@ -1,114 +1,123 @@
 {
   "idx": 282,
-  "reward": 8.095230074863785,
-  "budget_used": 1496.5,
+  "reward": 22.38181875093835,
+  "budget_used": 2848.75,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74",
+      "chosen": "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36",
       "candidates": [
-        "Flight Number: F2559024, from Newburgh to Savannah, Departure Time: 16:02, Arrival Time: 18:24",
-        "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74"
+        "Flight Number: F0062346, from Denver to Memphis, Departure Time: 15:15, Arrival Time: 18:14",
+        "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36"
       ]
     },
     {
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Cozy Room Near Starland District",
+      "chosen": "Crosstown Cottage",
       "candidates": [
-        "Delightful barn loft apartment.",
-        "The Garden Tiny House",
-        "Beautiful Sunny Room",
-        "Cozy Room Near Starland District",
-        "The Green Gecko",
-        "Historic District Perch with Cathedral Views!",
-        "Historic District Garden Apartment at Forsyth Park",
-        "King bedroom private bathroom",
-        "Midnight Inn Suite: Historic Savannah Retreat!",
-        "Perfect location! Home on Forsyth!"
+        "Crosstown Cottage",
+        "Sunny Bedroom at the Greenhouse Oasis",
+        "Affordable Comfy Home Away From Home",
+        "Modern Midtown Pad (Queen real bed)",
+        "Private room/bath in shared home"
       ]
     },
     {
       "day": 1,
       "slot": "breakfast",
       "action_type": "set_breakfast",
-      "chosen": "Common Restaurant",
+      "chosen": "Majestic Grille",
       "candidates": [
-        "Common Restaurant",
-        "River House",
-        "Noble Fare",
-        "Alligator Soul",
-        "Driftaway Cafe",
-        "1540 Room",
-        "The Grey",
-        "Crystal Beer Parlor",
-        "Madame Butterfly",
-        "The Collins Quarter",
-        "Toast! All Day",
-        "Belford's Savannah",
-        "Cotton & Rye",
-        "Mrs. Wilkes Dining Room",
-        "The Public Kitchen & Bar",
-        "Little Duck Diner",
-        "17 Hundred 90 Restaurant",
-        "Planters Tavern",
-        "Rocks on the Roof",
-        "Olde Pink House Restaurant",
-        "The Cotton Exchange Tavern & Restaurant",
-        "Goose Feathers Cafe & Bakery",
-        "Wright Square Bistro",
-        "The Pirates' House",
-        "Garibaldi's Cafe",
-        "Jazz'd Tapas Bar",
-        "Boar's Head Grill & Tavern",
-        "Chive Sea Bar & Lounge",
-        "Stone & Webster Chophouse",
-        "B. Matthew's Eatery",
-        "Huey's On The River",
-        "Bella Napoli Italian Bistro",
-        "Wiley's Championship BBQ",
-        "Vic's On the River",
-        "Vinnie Van Go-Go's"
+        "Majestic Grille",
+        "Interstate Barbecue",
+        "Arcade Restaurant",
+        "Memphis Barbecue",
+        "Flying Fish",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
       ]
     },
     {
       "day": 1,
       "slot": "attraction1",
       "action_type": "add_attraction1",
-      "chosen": "City Market",
+      "chosen": "Bass Pro Shops at the Pyramid",
       "candidates": [
-        "City Market",
-        "Forsyth Park",
-        "Old Fort Jackson",
-        "SCADstory",
-        "American Prohibition Museum",
-        "Historic River Street",
-        "Webb Military Museum",
-        "Pin Point Heritage Museum",
-        "Historic Savannah Theatre",
-        "First African Baptist Church",
-        "Congregation Mickve Israel",
-        "Savannah Historic District",
-        "Wormsloe Historic Site",
-        "The Olde Pink House",
-        "Cathedral of St. John the Baptist",
-        "The Old Sorrel Weed House Museum & Tours",
-        "Owens-Thomas House & Slave Quarters",
-        "Bonaventure Cemetery",
-        "Skidaway Island State Park",
-        "Chippewa Square"
+        "Bass Pro Shops at the Pyramid"
       ]
     },
     {
       "day": 1,
       "slot": "lunch",
-      "action_type": "skip_lunch",
-      "chosen": "-",
+      "action_type": "set_lunch",
+      "chosen": "Interstate Barbecue",
       "candidates": [
-        "-"
+        "Interstate Barbecue",
+        "Arcade Restaurant",
+        "Memphis Barbecue",
+        "Flying Fish",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
       ]
     },
     {
@@ -123,10 +132,42 @@
     {
       "day": 1,
       "slot": "dinner",
-      "action_type": "skip_dinner",
-      "chosen": "-",
+      "action_type": "set_dinner",
+      "chosen": "Arcade Restaurant",
       "candidates": [
-        "-"
+        "Arcade Restaurant",
+        "Memphis Barbecue",
+        "Flying Fish",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
       ]
     },
     {
@@ -139,6 +180,154 @@
     {
       "day": 2,
       "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Crosstown Cottage",
+      "candidates": [
+        "Crosstown Cottage",
+        "Sunny Bedroom at the Greenhouse Oasis",
+        "Affordable Comfy Home Away From Home",
+        "Modern Midtown Pad (Queen real bed)",
+        "Private room/bath in shared home"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Memphis Barbecue",
+      "candidates": [
+        "Memphis Barbecue",
+        "Flying Fish",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Flying Fish",
+      "candidates": [
+        "Flying Fish",
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cozy Corner",
+      "candidates": [
+        "Cozy Corner",
+        "Blues City Cafe",
+        "Brother Juniper's",
+        "Pig On Beale",
+        "Central BBQ",
+        "Central BBQ",
+        "Central BBQ",
+        "The Soul Fish Cafe Inc",
+        "Rum Boogie Cafe",
+        "Flight Restaurant and Wine Bar",
+        "The BBQ Shop",
+        "Itta Bena",
+        "Silky O'sullivan's",
+        "The Brass Door Irish Pub",
+        "Memphis BBQ Grill",
+        "Huey's Downtown",
+        "Kooky Canuck",
+        "Leonard's Pit Barbecue",
+        "Charles Vergos' Rendezvous",
+        "Memphis Fire Barbeque Company",
+        "Marlowe's Ribs & Restaurant",
+        "Memphis Blues Barbeque House",
+        "Mcewen's Memphis",
+        "Gus's World Famous Fried Chicken",
+        "Gus's World Famous Fried Chicken",
+        "Gibson's Donuts",
+        "Payne's Bar-B-Que",
+        "One & Only BBQ - Kirby Pkwy",
+        "B.B. King's Blues Club",
+        "Corky's Ribs & BBQ"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -147,14 +336,420 @@
       "day": 3,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Transfer, from Savannah to Newburgh",
+      "chosen": "-",
       "candidates": [
-        "Transfer, from Savannah to Newburgh"
+        "-",
+        "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Entrance near Airport in Safe neighborhood",
+      "candidates": [
+        "Private Entrance near Airport in Safe neighborhood",
+        "Dave's Place"
       ]
     },
     {
       "day": 3,
       "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Smiling Elephant",
+      "candidates": [
+        "Smiling Elephant",
+        "Henley",
+        "The Standard",
+        "Aquarium Restaurant",
+        "417 Union",
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Cheekwood",
+      "candidates": [
+        "Cheekwood",
+        "Downtown Nashville",
+        "Centennial Park",
+        "Belmont Mansion",
+        "RCA Studio B",
+        "Nashville Parthenon",
+        "Lane Motor Museum",
+        "Ryman Auditorium",
+        "The Johnny Cash Museum",
+        "Tennessee State Museum",
+        "Andrew Jackson's Hermitage",
+        "Bridgestone Arena",
+        "Cooter’s Museum and Store Nashville",
+        "Radnor Lake State Park",
+        "Gaylord Opryland Garden Conservatory",
+        "Musicians Hall of Fame and Museum",
+        "Country Music Hall of Fame and Museum",
+        "Grand Ole Opry",
+        "Belle Meade Historic Site & Winery",
+        "Ole Smoky Distillery & Yee-Haw Brewery"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Henley",
+      "candidates": [
+        "Henley",
+        "The Standard",
+        "Aquarium Restaurant",
+        "417 Union",
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Standard",
+      "candidates": [
+        "The Standard",
+        "Aquarium Restaurant",
+        "417 Union",
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Entrance near Airport in Safe neighborhood",
+      "candidates": [
+        "Private Entrance near Airport in Safe neighborhood",
+        "Dave's Place"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Aquarium Restaurant",
+      "candidates": [
+        "Aquarium Restaurant",
+        "417 Union",
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Downtown Nashville",
+      "candidates": [
+        "Downtown Nashville",
+        "Centennial Park",
+        "Belmont Mansion",
+        "RCA Studio B",
+        "Nashville Parthenon",
+        "Lane Motor Museum",
+        "Ryman Auditorium",
+        "The Johnny Cash Museum",
+        "Tennessee State Museum",
+        "Andrew Jackson's Hermitage",
+        "Bridgestone Arena",
+        "Cooter’s Museum and Store Nashville",
+        "Radnor Lake State Park",
+        "Gaylord Opryland Garden Conservatory",
+        "Musicians Hall of Fame and Museum",
+        "Country Music Hall of Fame and Museum",
+        "Grand Ole Opry",
+        "Belle Meade Historic Site & Winery",
+        "Ole Smoky Distillery & Yee-Haw Brewery"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "417 Union",
+      "candidates": [
+        "417 Union",
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Bridge",
+      "candidates": [
+        "The Bridge",
+        "Ole Red",
+        "1 Kitchen",
+        "The Farm House",
+        "Pelato",
+        "The Stillery",
+        "The Bluebird Cafe",
+        "Gannons Nashville",
+        "The Catbird Seat",
+        "The Mockingbird",
+        "Kayne Prime",
+        "Luogo",
+        "Adele's Nashville",
+        "Harriet's Rooftop",
+        "The Chef And I",
+        "Deacon’s New South",
+        "Central Bar + Kitchen",
+        "Caney Fork River Valley Grille",
+        "Skull's Rainbow Room",
+        "Old Hickory Steakhouse",
+        "Miranda Lambert's Casa Rosa",
+        "The Southern Steak & Oyster",
+        "Hand Cut Chophouse",
+        "Bourbon Street Blues and Boogie Bar",
+        "Puckett's 5th & Church",
+        "Honky Tonk – The Twelve Thirty Club",
+        "Jeff Ruby's Steakhouse, Nashville",
+        "Paula Deen's Family Kitchen",
+        "Bourbon Steak by Michael Mina, a Nashville Steakhouse",
+        "Tootsie's Orchid Lounge"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59",
+      "candidates": [
+        "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59",
+        "Taxi, from Nashville to Denver, Duration: 1233.9583333333333 mins, Distance: 1862.1452 km, Estimated Cost: $1862.15"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -163,82 +758,246 @@
   "days": [
     {
       "day": 1,
-      "current_city": "from Newburgh to Savannah",
-      "transportation": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74",
-      "accommodation": "Cozy Room Near Starland District",
-      "breakfast": "Common Restaurant",
+      "current_city": "from Denver to Memphis",
+      "transportation": "Taxi, from Denver to Memphis, Duration: 1129.365 mins, Distance: 1761.3598 km, Estimated Cost: $1761.36",
+      "accommodation": "Crosstown Cottage",
+      "breakfast": "Majestic Grille",
       "attractions": [
-        "City Market"
+        "Bass Pro Shops at the Pyramid"
       ],
-      "lunch": "-",
-      "dinner": "-",
+      "lunch": "Interstate Barbecue",
+      "dinner": "Arcade Restaurant",
       "poi_blocks": [
         {
-          "name": "Cozy Room Near Starland District",
+          "name": "Crosstown Cottage",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "E BROAD & 35th NB",
-          "dist_m": 65.21
+          "nearest_transit": "N PARKWAY@STONEWALL",
+          "dist_m": 456.5
         },
         {
-          "name": "Cozy Room Near Starland District",
+          "name": "Crosstown Cottage",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "E BROAD & 35th NB",
-          "dist_m": 65.21
+          "nearest_transit": "N PARKWAY@STONEWALL",
+          "dist_m": 456.5
         },
         {
-          "name": "Common Restaurant",
+          "name": "Majestic Grille",
           "kind": "visit",
           "start": "09:25",
           "end": "10:16",
-          "nearest_transit": "DRAYTON & BROUGHTON",
-          "dist_m": 62.61
+          "nearest_transit": "PEABODY-MAIN/TRO NB",
+          "dist_m": 40.0
         },
         {
-          "name": "City Market",
+          "name": "Bass Pro Shops at the Pyramid",
           "kind": "visit",
           "start": "11:30",
-          "end": "14:35",
-          "nearest_transit": "CONGRESS & JEFFERSON",
-          "dist_m": 51.55
+          "end": "13:50",
+          "nearest_transit": "BASS PRO SHOPS",
+          "dist_m": 166.1
+        },
+        {
+          "name": "Interstate Barbecue",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MALLORY@THIRD",
+          "dist_m": 92.75
+        },
+        {
+          "name": "Arcade Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "GE PATTERSON@MAIN (Central Station)",
+          "dist_m": 56.82
         }
       ]
     },
     {
       "day": 2,
-      "current_city": "from Savannah to Savannah",
+      "current_city": "from Memphis to Memphis",
       "transportation": "-",
-      "accommodation": "King Bed, Very Walkable Location! By FREE Shuttle",
-      "breakfast": "-",
+      "accommodation": "Crosstown Cottage",
+      "breakfast": "Memphis Barbecue",
       "attractions": [],
-      "lunch": "-",
-      "dinner": "-",
+      "lunch": "Flying Fish",
+      "dinner": "Cozy Corner",
       "poi_blocks": [
         {
-          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "name": "Crosstown Cottage",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "ABERCORN & 33rd SB",
-          "dist_m": 35.1
+          "nearest_transit": "N PARKWAY@STONEWALL",
+          "dist_m": 456.5
         },
         {
-          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "name": "Crosstown Cottage",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "ABERCORN & 33rd SB",
-          "dist_m": 35.1
+          "nearest_transit": "N PARKWAY@STONEWALL",
+          "dist_m": 456.5
+        },
+        {
+          "name": "Memphis Barbecue",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "HOLMES@SANTA MONICA",
+          "dist_m": 4810.86
+        },
+        {
+          "name": "Flying Fish",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "UNION-MAIN/TRO NB",
+          "dist_m": 140.97
+        },
+        {
+          "name": "Cozy Corner",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "N PARKWAY@MANASSAS",
+          "dist_m": 47.05
         }
       ]
     },
     {
       "day": 3,
-      "current_city": "from Savannah to Newburgh",
-      "transportation": "Transfer, from Savannah to Newburgh",
+      "current_city": "from Memphis to Nashville",
+      "transportation": "-",
+      "accommodation": "Private Entrance near Airport in Safe neighborhood",
+      "breakfast": "Smiling Elephant",
+      "attractions": [
+        "Cheekwood"
+      ],
+      "lunch": "Henley",
+      "dinner": "The Standard",
+      "poi_blocks": [
+        {
+          "name": "Crosstown Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N PARKWAY@STONEWALL",
+          "dist_m": 456.5
+        },
+        {
+          "name": "Private Entrance near Airport in Safe neighborhood",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LEBANON PIKE & DANYACREST DR SB",
+          "dist_m": 295.08
+        },
+        {
+          "name": "Smiling Elephant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "8TH AVE S & BRADFORD AVE SB",
+          "dist_m": 66.14
+        },
+        {
+          "name": "Cheekwood",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "HWY 70 S & BROOK HOLLOW RD EB",
+          "dist_m": 833.18
+        },
+        {
+          "name": "Henley",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "21ST AVE & BROADWAY AVE SB",
+          "dist_m": 79.55
+        },
+        {
+          "name": "The Standard",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "9TH AVE N & COMMERCE ST SB",
+          "dist_m": 91.13
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "-",
+      "accommodation": "Private Entrance near Airport in Safe neighborhood",
+      "breakfast": "Aquarium Restaurant",
+      "attractions": [
+        "Downtown Nashville"
+      ],
+      "lunch": "417 Union",
+      "dinner": "The Bridge",
+      "poi_blocks": [
+        {
+          "name": "Private Entrance near Airport in Safe neighborhood",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "LEBANON PIKE & DANYACREST DR SB",
+          "dist_m": 295.08
+        },
+        {
+          "name": "Private Entrance near Airport in Safe neighborhood",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LEBANON PIKE & DANYACREST DR SB",
+          "dist_m": 295.08
+        },
+        {
+          "name": "Aquarium Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "OPRY MILLS DR & GENERAL JACKSON'S",
+          "dist_m": 170.74
+        },
+        {
+          "name": "Downtown Nashville",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 140.94
+        },
+        {
+          "name": "417 Union",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5TH AVE & CHARLOTTE AVE NB",
+          "dist_m": 153.66
+        },
+        {
+          "name": "The Bridge",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5TH AVE N & COMMERCE ST NB",
+          "dist_m": 132.87
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Nashville to Denver",
+      "transportation": "Flight Number: F0010015, from Nashville to Denver, Departure Time: 05:20, Arrival Time: 06:59",
       "accommodation": "-",
       "breakfast": "-",
       "attractions": [],
@@ -246,12 +1005,20 @@
       "dinner": "-",
       "poi_blocks": [
         {
-          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "name": "Private Entrance near Airport in Safe neighborhood",
+          "kind": "stay",
+          "start": "03:50",
+          "end": "04:50",
+          "nearest_transit": "LEBANON PIKE & DANYACREST DR SB",
+          "dist_m": 295.08
+        },
+        {
+          "name": "Private Entrance near Airport in Safe neighborhood",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "ABERCORN & 33rd SB",
-          "dist_m": 35.1
+          "nearest_transit": "LEBANON PIKE & DANYACREST DR SB",
+          "dist_m": 295.08
         }
       ]
     }

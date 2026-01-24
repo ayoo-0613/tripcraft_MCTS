@@ -2,11 +2,21 @@
   "idx": 186,
   "stages": [
     {
-      "city": "Houston",
+      "city": "San Luis Obispo",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Charlotte",
-      "to": "Houston",
-      "date": "2024-11-16",
-      "raw": "Flight Number: F0107082, from Charlotte to Houston, Departure Time: 06:51, Arrival Time: 08:43"
+      "from": "Boise",
+      "to": "San Luis Obispo",
+      "date": "2024-11-07",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charlotte",
-      "to": "Houston",
+      "from": "Boise",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Charlotte to Houston, Duration: 1158.18 mins, Distance: 1672.3175 km, Estimated Cost: $83.62"
+      "raw": "Self-driving, from Boise to San Luis Obispo, Duration: 954.9116666666666 mins, Distance: 1344.6093 km, Estimated Cost: $67.23"
     },
     {
       "mode": "taxi",
-      "from": "Charlotte",
-      "to": "Houston",
+      "from": "Boise",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Charlotte to Houston, Duration: 1158.18 mins, Distance: 1672.3175 km, Estimated Cost: $1672.32"
+      "raw": "Taxi, from Boise to San Luis Obispo, Duration: 954.9116666666666 mins, Distance: 1344.6093 km, Estimated Cost: $1344.61"
     },
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Charlotte",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0106145, from Houston to Charlotte, Departure Time: 14:25, Arrival Time: 17:48"
+      "from": "San Luis Obispo",
+      "to": "Los Angeles",
+      "date": "2024-11-09",
+      "raw": "Flight Number: F0463169, from San Luis Obispo to Los Angeles, Departure Time: 05:55, Arrival Time: 06:50"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Charlotte",
+      "from": "San Luis Obispo",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Houston to Charlotte, Duration: 1154.1933333333334 mins, Distance: 1666.8832 km, Estimated Cost: $83.34"
+      "raw": "Self-driving, from San Luis Obispo to Los Angeles, Duration: 279.50333333333333 mins, Distance: 348.3962 km, Estimated Cost: $17.42"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Charlotte",
+      "from": "San Luis Obispo",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Houston to Charlotte, Duration: 1154.1933333333334 mins, Distance: 1666.8832 km, Estimated Cost: $1666.88"
+      "raw": "Taxi, from San Luis Obispo to Los Angeles, Duration: 279.50333333333333 mins, Distance: 348.3962 km, Estimated Cost: $348.40"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "Boise",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0246692, from Los Angeles to Boise, Departure Time: 08:43, Arrival Time: 11:57"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "Boise",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to Boise, Duration: 970.8 mins, Distance: 1352.8451 km, Estimated Cost: $67.64"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "Boise",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to Boise, Duration: 970.8 mins, Distance: 1352.8451 km, Estimated Cost: $1352.85"
     }
   ]
 }

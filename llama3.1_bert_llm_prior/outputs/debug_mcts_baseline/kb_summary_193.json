@@ -2,58 +2,89 @@
   "idx": 193,
   "stages": [
     {
-      "city": "Chattanooga",
+      "city": "Memphis",
       "counts": {
-        "attractions": 14,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 69,
-        "events": 15
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 1
+      }
+    },
+    {
+      "city": "Bristol",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Washington",
-      "to": "Chattanooga",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0444278, from Washington to Chattanooga, Departure Time: 20:02, Arrival Time: 21:58"
+      "from": "Houston",
+      "to": "Memphis",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0062675, from Houston to Memphis, Departure Time: 14:29, Arrival Time: 15:53"
     },
     {
       "mode": "self-driving",
-      "from": "Washington",
-      "to": "Chattanooga",
+      "from": "Houston",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $48.11"
+      "raw": "Self-driving, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $45.57"
     },
     {
       "mode": "taxi",
-      "from": "Washington",
-      "to": "Chattanooga",
+      "from": "Houston",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Washington to Chattanooga, Duration: 663.67 mins, Distance: 962.1453 km, Estimated Cost: $962.15"
+      "raw": "Taxi, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $911.42"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Washington",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0440749, from Chattanooga to Washington, Departure Time: 06:56, Arrival Time: 08:27"
+      "from": "Memphis",
+      "to": "Bristol",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Washington",
+      "from": "Memphis",
+      "to": "Bristol",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Washington, Duration: 663.0733333333334 mins, Distance: 961.8596 km, Estimated Cost: $48.09"
+      "raw": "Self-driving, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $40.29"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Washington",
+      "from": "Memphis",
+      "to": "Bristol",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Washington, Duration: 663.0733333333334 mins, Distance: 961.8596 km, Estimated Cost: $961.86"
+      "raw": "Taxi, from Memphis to Bristol, Duration: 553.0733333333334 mins, Distance: 805.7771 km, Estimated Cost: $805.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": "2024-11-10",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Bristol to Houston, Duration: 1138.2016666666668 mins, Distance: 1665.1613 km, Estimated Cost: $83.26"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bristol",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Bristol to Houston, Duration: 1138.2016666666668 mins, Distance: 1665.1613 km, Estimated Cost: $1665.16"
     }
   ]
 }

@@ -2,9 +2,19 @@
   "idx": 287,
   "stages": [
     {
-      "city": "Tampa",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Manchester",
-      "to": "Tampa",
-      "date": "2024-11-13",
-      "raw": "Flight Number: F0932639, from Manchester to Tampa, Departure Time: 14:33, Arrival Time: 18:18"
+      "from": "Reno",
+      "to": "Los Angeles",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0093879, from Reno to Los Angeles, Departure Time: 10:37, Arrival Time: 11:56"
     },
     {
       "mode": "self-driving",
-      "from": "Manchester",
-      "to": "Tampa",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Manchester to Tampa, Not feasible to drive from Manchester to Tampa"
+      "raw": "Self-driving, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $37.86"
     },
     {
       "mode": "taxi",
-      "from": "Manchester",
-      "to": "Tampa",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Manchester to Tampa, Not feasible to drive from Manchester to Tampa"
+      "raw": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
     },
     {
       "mode": "flight",
-      "from": "Tampa",
-      "to": "Manchester",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0932652, from Tampa to Manchester, Departure Time: 10:41, Arrival Time: 13:29"
+      "from": "Los Angeles",
+      "to": "Monterey",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43"
     },
     {
       "mode": "self-driving",
-      "from": "Tampa",
-      "to": "Manchester",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from Tampa to Manchester, Not feasible to drive from Tampa to Manchester"
+      "raw": "Self-driving, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $22.61"
     },
     {
       "mode": "taxi",
-      "from": "Tampa",
-      "to": "Manchester",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from Tampa to Manchester, Not feasible to drive from Tampa to Manchester"
+      "raw": "Taxi, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $452.22"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": "2024-11-21",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $28.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $567.06"
     }
   ]
 }

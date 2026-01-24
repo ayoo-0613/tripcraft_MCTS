@@ -1,70 +1,91 @@
 {
   "idx": 288,
   "JSON": {
-    "org": "Miami",
-    "dest": "Baltimore",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Reno",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-03",
-      "2024-11-04",
-      "2024-11-05"
+      "2024-11-17",
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": "pets",
+      "house rule": null,
       "cuisine": null,
       "room type": null,
       "transportation": null,
-      "event": [
-        "Arts & Theatre"
-      ],
-      "attraction": [
-        "Zoos & Aquariums",
-        "Fun & Games"
-      ]
+      "event": null,
+      "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 2 people from Miami to Baltimore from November 3rd to November 5th, 2024, with a budget of $1,800. The trip should include visits to zoos, aquariums, and fun & games attractions, as well as arts and theatre events. Accommodations should allow pets.",
-    "level": "hard"
+    "budget": 1950.0,
+    "query": "Plan a 5-day trip for 1 person from Reno to explore 2 cities in California between November 17th and November 21st, 2024, with a budget of $1,950.",
+    "level": "easy"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to Baltimore",
-      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "current_city": "from Reno to Los Angeles",
+      "transportation": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "Hollywood Sign, Los Angeles",
+      "lunch": "The Lobster, Los Angeles",
+      "dinner": "Providence, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Sign, visit from 11:30 to 15:20, nearest transit: Beachwood & Westshire, 1574.74m away; The Lobster, visit from 13:57 to 14:56, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Providence, visit from 19:51 to 21:00, nearest transit: Melrose & Gower (Westbound), 749.15m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Bestia, Los Angeles",
+      "attraction": "The Grove, Los Angeles",
+      "lunch": "Spire 73, Los Angeles",
+      "dinner": "Perch, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; The Grove, visit from 11:30 to 13:50, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; Spire 73, visit from 13:57 to 14:56, nearest transit: Figueroa St & 7th St, 109.52m away; Perch, visit from 19:51 to 21:00, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Los Angeles to Monterey",
+      "transportation": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43",
+      "breakfast": "-",
+      "attraction": "Perry House, Monterey",
+      "lunch": "Fish Hopper, Monterey",
+      "dinner": "Tidal Coffee, Monterey",
+      "accommodation": "The Mermaid Bungalow, Monterey",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Perry House, visit from 11:30 to 15:20, nearest transit: Pacific / Scott, 79.46m away; Fish Hopper, visit from 13:57 to 14:56, nearest transit: Cannery Row / Prescott, 76.06m away; Tidal Coffee, visit from 19:51 to 21:00, nearest transit: Cannery Row / Drake, 46.73m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "Transfer, from Monterey to Monterey",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
-      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views, Baltimore",
-      "event": "Shucked (Touring), Baltimore",
-      "point_of_interest_list": "Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 08:00 to 09:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away; Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 22:15 to 08:00, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away."
-    },
-    {
-      "days": 2,
-      "current_city": "from Baltimore to Baltimore",
-      "transportation": "Transfer, from Baltimore to Baltimore",
-      "breakfast": "Charleston Restaurant, Baltimore",
-      "attraction": "Horseshoe Casino, Baltimore; The Maryland Zoo, Baltimore",
-      "lunch": "Phillips Seafood, Baltimore",
-      "dinner": "The Capital Grille, Baltimore",
-      "accommodation": "Private Bed next to JHH, Baltimore",
+      "accommodation": "Bird Room with Shared Bathroom, Monterey",
       "event": "-",
-      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Charleston Restaurant, visit from 09:25 to 10:16, nearest transit: SHOT TOWER STATION (METRO) sb, 915.06m away; Horseshoe Casino, visit from 11:30 to 12:57, nearest transit: CHARLES CENTER METRO West Entrance, 2023.43m away; Phillips Seafood, visit from 13:57 to 14:56, nearest transit: SHOT TOWER METRO West Entrance, 344.26m away; The Maryland Zoo, visit from 16:30 to 19:37, nearest transit: MONDAWMIN METRO Escalator 4, 586.50m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away; Private Bed next to JHH, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+      "point_of_interest_list": "Bird Room with Shared Bathroom, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away; Bird Room with Shared Bathroom, stay from 22:15 to 08:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
     },
     {
-      "days": 3,
-      "current_city": "from Baltimore to Miami",
-      "transportation": "Transfer, from Baltimore to Miami",
-      "breakfast": "The Food Market, Baltimore",
-      "attraction": "National Aquarium, Baltimore",
-      "lunch": "Blue Moon Cafe, Baltimore",
-      "dinner": "The Helmand, Baltimore",
+      "days": 5,
+      "current_city": "from Monterey to Reno",
+      "transportation": "Transfer, from Monterey to Reno",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private Bed next to JHH, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; The Food Market, visit from 09:25 to 10:16, nearest transit: MONDAWMIN METRO Main Entrance, 2207.42m away; National Aquarium, visit from 11:30 to 14:43, nearest transit: SHOT TOWER METRO West Entrance, 474.59m away; Blue Moon Cafe, visit from 13:57 to 14:56, nearest transit: SHOT TOWER STATION (METRO) sb, 1161.67m away; The Helmand, visit from 19:51 to 21:00, nearest transit: STATE CENTER (METRO) sb, 508.53m away."
+      "point_of_interest_list": "Bird Room with Shared Bathroom, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
     }
   ]
 }

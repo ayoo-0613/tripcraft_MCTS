@@ -2,58 +2,89 @@
   "idx": 184,
   "stages": [
     {
-      "city": "Reno",
+      "city": "Houston",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 18,
         "poi2transit": 75,
-        "events": 16
+        "events": 18
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 20
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Los Angeles",
-      "to": "Reno",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0066627, from Los Angeles to Reno, Departure Time: 20:40, Arrival Time: 21:53"
+      "from": "Peoria",
+      "to": "Houston",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Los Angeles",
-      "to": "Reno",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Los Angeles to Reno, Duration: 577.24 mins, Distance: 830.7624000000001 km, Estimated Cost: $41.54"
+      "raw": "Self-driving, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $75.86"
     },
     {
       "mode": "taxi",
-      "from": "Los Angeles",
-      "to": "Reno",
+      "from": "Peoria",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Los Angeles to Reno, Duration: 577.24 mins, Distance: 830.7624000000001 km, Estimated Cost: $830.76"
+      "raw": "Taxi, from Peoria to Houston, Duration: 1044.9966666666667 mins, Distance: 1517.1914 km, Estimated Cost: $1517.19"
     },
     {
       "mode": "flight",
-      "from": "Reno",
-      "to": "Los Angeles",
-      "date": "2024-11-09",
-      "raw": "Flight Number: F0089291, from Reno to Los Angeles, Departure Time: 15:01, Arrival Time: 16:17"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453831, from Houston to Amarillo, Departure Time: 11:56, Arrival Time: 13:43"
     },
     {
       "mode": "self-driving",
-      "from": "Reno",
-      "to": "Los Angeles",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $37.86"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "Reno",
-      "to": "Los Angeles",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $73.95"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Peoria",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Peoria, Duration: 985.0366666666666 mins, Distance: 1479.0246000000002 km, Estimated Cost: $1479.02"
     }
   ]
 }

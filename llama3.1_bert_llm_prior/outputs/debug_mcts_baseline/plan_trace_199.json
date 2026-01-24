@@ -1,36 +1,131 @@
 {
   "idx": 199,
-  "reward": 14.202813629775612,
-  "budget_used": 1779.0,
+  "reward": 23.18159136834749,
+  "budget_used": 4614.0,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Flight Number: F0120166, from Louisville to New York, Departure Time: 12:44, Arrival Time: 14:44",
+      "chosen": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16",
       "candidates": [
-        "Flight Number: F0120166, from Louisville to New York, Departure Time: 12:44, Arrival Time: 14:44",
-        "Taxi, from Louisville to New York, Duration: 870.7266666666667 mins, Distance: 1194.3366 km, Estimated Cost: $1194.34"
+        "Flight Number: F0001126, from Chicago to Cedar Rapids, Departure Time: 10:55, Arrival Time: 12:00",
+        "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16"
       ]
     },
     {
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Dazzling Oasis | Times Square. Restaurant",
+      "chosen": "Burnett Cottage @NewBo District (OG)",
       "candidates": [
-        "One King room at Brooklyn",
-        "Dazzling Oasis | Times Square. Restaurant",
-        "One Bedroom 2 Queen room at Brooklyn",
-        "NYC Bliss | Sightseeing. Fitness Center",
-        "East Village, Private room with access to garden",
-        "Minimal room 1 SofaBed + loft bed in Manhattan"
+        "Burnett Cottage @NewBo District (OG)",
+        "Cozy Casa w/ Private Hot Tub",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Uptown B - Private, Modern, Comfortable Stay",
+        "Contemporary Tiny House with a low tech hot tub."
       ]
     },
     {
       "day": 1,
       "slot": "breakfast",
-      "action_type": "skip_breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Zeppelins",
+      "candidates": [
+        "Zeppelins",
+        "The Map Room",
+        "350 First",
+        "The Blind Pig",
+        "Irish Democrat",
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "CSPS",
+      "candidates": [
+        "CSPS",
+        "Paramount theater",
+        "McGrath Amphitheatre"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Map Room",
+      "candidates": [
+        "The Map Room",
+        "350 First",
+        "The Blind Pig",
+        "Irish Democrat",
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
       "chosen": "-",
       "candidates": [
         "-"
@@ -38,6 +133,429 @@
     },
     {
       "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "350 First",
+      "candidates": [
+        "350 First",
+        "The Blind Pig",
+        "Irish Democrat",
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Burnett Cottage @NewBo District (OG)",
+      "candidates": [
+        "Burnett Cottage @NewBo District (OG)",
+        "Cozy Casa w/ Private Hot Tub",
+        "Kadia’s Place-The One Near 380(& everything else)",
+        "The Uptown B - Private, Modern, Comfortable Stay",
+        "Contemporary Tiny House with a low tech hot tub."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Blind Pig",
+      "candidates": [
+        "The Blind Pig",
+        "Irish Democrat",
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Paramount theater",
+      "candidates": [
+        "Paramount theater",
+        "McGrath Amphitheatre"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Irish Democrat",
+      "candidates": [
+        "Irish Democrat",
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lightworks Cafe",
+      "candidates": [
+        "Lightworks Cafe",
+        "The Breakfast House",
+        "The Class Act Restaurant",
+        "Bari Italian",
+        "Texas Roadhouse",
+        "Pickle Palace",
+        "Ting's Red Lantern",
+        "Lion Bridge Brewing Company",
+        "Local Pour & Street Food",
+        "Lucky's on 16th",
+        "Granite City Food & Brewery",
+        "Black Sheep Social Club",
+        "El Bajio",
+        "Cobble Hill Restaurant",
+        "Scott's Family Restaurant",
+        "Tomaso's Pizza",
+        "Need Pizzeria",
+        "Kingston's Steakhouse",
+        "Parlor City Pub & Eatery",
+        "The Edison Pub and Eatery",
+        "Emil's Hideaway",
+        "The Pedaler's Fork",
+        "Los Compadres",
+        "Tornado's Grub and Pub",
+        "Vino's Italian Ristorante",
+        "Cancun Mexican Grill and Bar",
+        "Cheddar's Scratch Kitchen",
+        "Edith Lucielle's Bait Shack & Wing Depot",
+        "Cappy's Pizzeria",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "-",
+      "candidates": [
+        "-",
+        "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bungalow",
+      "candidates": [
+        "Bungalow"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Red Lobster",
+      "candidates": [
+        "Red Lobster",
+        "Miles Inn",
+        "Old Chicago",
+        "Buffalo Alice",
+        "Horizon Family Restaurant",
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hard Rock Casino Sioux City",
+      "candidates": [
+        "Hard Rock Casino Sioux City"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Miles Inn",
+      "candidates": [
+        "Miles Inn",
+        "Old Chicago",
+        "Buffalo Alice",
+        "Horizon Family Restaurant",
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Old Chicago",
+      "candidates": [
+        "Old Chicago",
+        "Buffalo Alice",
+        "Horizon Family Restaurant",
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Bungalow",
+      "candidates": [
+        "Bungalow"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Buffalo Alice",
+      "candidates": [
+        "Buffalo Alice",
+        "Horizon Family Restaurant",
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 4,
       "slot": "attraction1",
       "action_type": "skip_attraction1",
       "chosen": "-",
@@ -46,7 +564,128 @@
       ]
     },
     {
-      "day": 1,
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Horizon Family Restaurant",
+      "candidates": [
+        "Horizon Family Restaurant",
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Brightside Cafe",
+      "candidates": [
+        "Brightside Cafe",
+        "Jitters",
+        "The Diving Elk",
+        "Wheelhouse",
+        "Table 32",
+        "Texas Roadhouse",
+        "Shahi Palace",
+        "Diamond Thai Cuisine",
+        "Monterrey Mexican Restaurant",
+        "Marto Brewing Company",
+        "Main + Abbey",
+        "SoHo Kitchen and Bar",
+        "Johnnie Mars Family Restaraunt",
+        "1008 Key Club",
+        "Four Brothers Grill & Bar",
+        "Minervas Food & Cocktails",
+        "Trattoria Fresco",
+        "Outback Steakhouse",
+        "Jerry's Pizza",
+        "SNEAKY'S Chicken",
+        "El Fredo Pizza",
+        "Crave American Kitchen & Sushi Bar",
+        "Milwaukee Wiener House, Famous since 1918",
+        "Woodbury's An American Steakhouse",
+        "Navarrete's Mexican Food",
+        "Famous Dave's Bar-B-Que",
+        "Beano and Sherry's Casinos",
+        "Da Kao Chinese & Vietnamese Cuisine",
+        "Pete's Thai On 5th",
+        "Tokyo Japanese Steakhouse and Sushi Bar"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12",
+      "candidates": [
+        "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12",
+        "Taxi, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $771.24"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
       "slot": "lunch",
       "action_type": "skip_lunch",
       "chosen": "-",
@@ -55,7 +694,7 @@
       ]
     },
     {
-      "day": 1,
+      "day": 5,
       "slot": "attraction2",
       "action_type": "skip_attraction2",
       "chosen": "-",
@@ -64,328 +703,7 @@
       ]
     },
     {
-      "day": 1,
-      "slot": "dinner",
-      "action_type": "set_dinner",
-      "chosen": "R Lounge",
-      "candidates": [
-        "Rainbow Room",
-        "Broadway Lounge",
-        "Lobster Place",
-        "BOOM",
-        "R Lounge",
-        "Westway Diner",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 1,
-      "slot": "end_day",
-      "action_type": "end_day",
-      "chosen": "-",
-      "candidates": null
-    },
-    {
-      "day": 2,
-      "slot": "accommodation",
-      "action_type": "set_accommodation",
-      "chosen": "NYC Bliss | Sightseeing. Fitness Center",
-      "candidates": [
-        "One King room at Brooklyn",
-        "Dazzling Oasis | Times Square. Restaurant",
-        "One Bedroom 2 Queen room at Brooklyn",
-        "NYC Bliss | Sightseeing. Fitness Center",
-        "East Village, Private room with access to garden",
-        "Minimal room 1 SofaBed + loft bed in Manhattan"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Rainbow Room",
-      "candidates": [
-        "Rainbow Room",
-        "Broadway Lounge",
-        "Lobster Place",
-        "BOOM",
-        "Westway Diner",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "The National 9/11 Memorial & Museum",
-      "candidates": [
-        "The National 9/11 Memorial & Museum",
-        "New York Public Library",
-        "American Museum of Natural History",
-        "The Metropolitan Museum of Art"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Broadway Lounge",
-      "candidates": [
-        "Broadway Lounge",
-        "Lobster Place",
-        "BOOM",
-        "Westway Diner",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction2",
-      "action_type": "skip_attraction2",
-      "chosen": "-",
-      "candidates": [
-        "-"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "dinner",
-      "action_type": "set_dinner",
-      "chosen": "Lobster Place",
-      "candidates": [
-        "Lobster Place",
-        "BOOM",
-        "Westway Diner",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "end_day",
-      "action_type": "end_day",
-      "chosen": "-",
-      "candidates": null
-    },
-    {
-      "day": 3,
-      "slot": "transport",
-      "action_type": "set_transport",
-      "chosen": "Transfer, from New York to Louisville",
-      "candidates": [
-        "Transfer, from New York to Louisville"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "breakfast",
-      "action_type": "set_breakfast",
-      "chosen": "Westway Diner",
-      "candidates": [
-        "BOOM",
-        "Westway Diner",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction1",
-      "action_type": "add_attraction1",
-      "chosen": "New York Public Library",
-      "candidates": [
-        "New York Public Library",
-        "American Museum of Natural History",
-        "The Metropolitan Museum of Art"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Times Square Diner",
-      "candidates": [
-        "BOOM",
-        "Bryant Park Grill",
-        "Burger & Lobster",
-        "Harry's",
-        "Gaonnuri",
-        "Times Square Diner",
-        "Mari Vanna",
-        "Bstro 38",
-        "Peak Restaurant & Bar",
-        "RH Rooftop Restaurant New York",
-        "Manhatta",
-        "FIG & OLIVE",
-        "Carmine's",
-        "Rao's Restaurant",
-        "Sylvia's Restaurant",
-        "Sarge’s Delicatessen & Diner",
-        "Central Park Boathouse",
-        "Papillon Bistro & Bar",
-        "Blue Smoke Battery Park City",
-        "Gallaghers Steakhouse",
-        "Nobu Fifty Seven",
-        "La Grande Boucherie",
-        "The Skylark - Rooftop Bar",
-        "Piccola Cucina Estiatorio",
-        "Trattoria Trecolori",
-        "Azalea Ristorante",
-        "Del Frisco's Grille",
-        "Piccola Cucina Osteria",
-        "Lillie's Victorian Establishment",
-        "Del Frisco's Double Eagle Steakhouse"
-      ]
-    },
-    {
-      "day": 3,
-      "slot": "attraction2",
-      "action_type": "skip_attraction2",
-      "chosen": "-",
-      "candidates": [
-        "-"
-      ]
-    },
-    {
-      "day": 3,
+      "day": 5,
       "slot": "dinner",
       "action_type": "skip_dinner",
       "chosen": "-",
@@ -394,7 +712,7 @@
       ]
     },
     {
-      "day": 3,
+      "day": 5,
       "slot": "end_day",
       "action_type": "end_day",
       "chosen": "-",
@@ -404,153 +722,267 @@
   "days": [
     {
       "day": 1,
-      "current_city": "from Louisville to New York",
-      "transportation": "Flight Number: F0120166, from Louisville to New York, Departure Time: 12:44, Arrival Time: 14:44",
-      "accommodation": "Dazzling Oasis | Times Square. Restaurant",
-      "breakfast": "-",
-      "attractions": [],
-      "lunch": "-",
-      "dinner": "R Lounge",
+      "current_city": "from Chicago to Cedar Rapids",
+      "transportation": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16",
+      "accommodation": "Burnett Cottage @NewBo District (OG)",
+      "breakfast": "Zeppelins",
+      "attractions": [
+        "CSPS"
+      ],
+      "lunch": "The Map Room",
+      "dinner": "350 First",
       "poi_blocks": [
         {
-          "name": "Dazzling Oasis | Times Square. Restaurant",
-          "kind": "stay",
-          "start": "15:14",
-          "end": "16:14",
-          "nearest_transit": "W 50 ST/7 AV",
-          "dist_m": 82.76
-        },
-        {
-          "name": "Dazzling Oasis | Times Square. Restaurant",
-          "kind": "stay",
-          "start": "22:15",
-          "end": "08:00",
-          "nearest_transit": "W 50 ST/7 AV",
-          "dist_m": 82.76
-        },
-        {
-          "name": "R Lounge",
-          "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
-          "nearest_transit": "W 49 ST/7 AV",
-          "dist_m": 131.04
-        },
-        {
-          "name": "Dazzling Oasis | Times Square. Restaurant",
+          "name": "Burnett Cottage @NewBo District (OG)",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "W 50 ST/7 AV",
-          "dist_m": 82.76
+          "nearest_transit": "6th St & 10th Ave",
+          "dist_m": 40.75
+        },
+        {
+          "name": "Burnett Cottage @NewBo District (OG)",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "6th St & 10th Ave",
+          "dist_m": 40.75
+        },
+        {
+          "name": "Zeppelins",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "The Fountains",
+          "dist_m": 74.63
+        },
+        {
+          "name": "CSPS",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "2nd St & 11th Ave",
+          "dist_m": 75.03
+        },
+        {
+          "name": "The Map Room",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "5th Ave & RR tracks",
+          "dist_m": 111.63
+        },
+        {
+          "name": "350 First",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "3rd St & 2nd Ave",
+          "dist_m": 159.53
         }
       ]
     },
     {
       "day": 2,
-      "current_city": "from New York to New York",
+      "current_city": "from Cedar Rapids to Cedar Rapids",
       "transportation": "-",
-      "accommodation": "NYC Bliss | Sightseeing. Fitness Center",
-      "breakfast": "Rainbow Room",
+      "accommodation": "Burnett Cottage @NewBo District (OG)",
+      "breakfast": "The Blind Pig",
       "attractions": [
-        "The National 9/11 Memorial & Museum"
+        "Paramount theater"
       ],
-      "lunch": "Broadway Lounge",
-      "dinner": "Lobster Place",
+      "lunch": "Irish Democrat",
+      "dinner": "Lightworks Cafe",
       "poi_blocks": [
         {
-          "name": "NYC Bliss | Sightseeing. Fitness Center",
+          "name": "Burnett Cottage @NewBo District (OG)",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "W 34 ST/BROADWAY",
-          "dist_m": 60.68
+          "nearest_transit": "6th St & 10th Ave",
+          "dist_m": 40.75
         },
         {
-          "name": "NYC Bliss | Sightseeing. Fitness Center",
+          "name": "Burnett Cottage @NewBo District (OG)",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "W 34 ST/BROADWAY",
-          "dist_m": 60.68
+          "nearest_transit": "6th St & 10th Ave",
+          "dist_m": 40.75
         },
         {
-          "name": "Rainbow Room",
+          "name": "The Blind Pig",
           "kind": "visit",
           "start": "09:25",
           "end": "10:16",
-          "nearest_transit": "W 50 ST/AVENUE OF THE AMERICAS",
-          "dist_m": 92.4
+          "nearest_transit": "3335 Center Point Rd (Papa Murph)",
+          "dist_m": 140.18
         },
         {
-          "name": "The National 9/11 Memorial & Museum",
+          "name": "Paramount theater",
           "kind": "visit",
           "start": "11:30",
-          "end": "15:20",
-          "nearest_transit": "CHURCH ST/LIBERTY ST",
-          "dist_m": 234.55
+          "end": "14:50",
+          "nearest_transit": "GTC Bay 8",
+          "dist_m": 93.12
         },
         {
-          "name": "Broadway Lounge",
+          "name": "Irish Democrat",
           "kind": "visit",
           "start": "13:57",
           "end": "14:56",
-          "nearest_transit": "7 AV/W 44 ST",
-          "dist_m": 146.82
+          "nearest_transit": "1st Ave & 32nd St",
+          "dist_m": 46.22
         },
         {
-          "name": "Lobster Place",
+          "name": "Lightworks Cafe",
           "kind": "visit",
           "start": "19:51",
           "end": "21:00",
-          "nearest_transit": "W 14 ST/WASHINGTON ST",
-          "dist_m": 138.2
+          "nearest_transit": "6th St & 6th Ave",
+          "dist_m": 178.56
         }
       ]
     },
     {
       "day": 3,
-      "current_city": "from New York to Louisville",
-      "transportation": "Transfer, from New York to Louisville",
-      "accommodation": "-",
-      "breakfast": "Westway Diner",
+      "current_city": "from Cedar Rapids to Sioux City",
+      "transportation": "-",
+      "accommodation": "Bungalow",
+      "breakfast": "Red Lobster",
       "attractions": [
-        "New York Public Library"
+        "Hard Rock Casino Sioux City"
       ],
-      "lunch": "Times Square Diner",
-      "dinner": "-",
+      "lunch": "Miles Inn",
+      "dinner": "Old Chicago",
       "poi_blocks": [
         {
-          "name": "NYC Bliss | Sightseeing. Fitness Center",
+          "name": "Burnett Cottage @NewBo District (OG)",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "W 34 ST/BROADWAY",
-          "dist_m": 60.68
+          "nearest_transit": "6th St & 10th Ave",
+          "dist_m": 40.75
         },
         {
-          "name": "Westway Diner",
+          "name": "Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LaPlante Ave & Metropolitain St",
+          "dist_m": 91.69
+        },
+        {
+          "name": "Red Lobster",
           "kind": "visit",
           "start": "09:25",
           "end": "10:16",
-          "nearest_transit": "9 AV/W 44 ST",
-          "dist_m": 44.32
+          "nearest_transit": "Sergeant Rd & South Lancelot Lane",
+          "dist_m": 109.59
         },
         {
-          "name": "New York Public Library",
+          "name": "Hard Rock Casino Sioux City",
           "kind": "visit",
           "start": "11:30",
-          "end": "15:20",
-          "nearest_transit": "5 AV/W 42 ST",
-          "dist_m": 34.9
+          "end": "14:35",
+          "nearest_transit": "3rd & Pearl St",
+          "dist_m": 103.59
         },
         {
-          "name": "Times Square Diner",
+          "name": "Miles Inn",
           "kind": "visit",
           "start": "13:57",
           "end": "14:56",
-          "nearest_transit": "W 49 ST/8 AV",
-          "dist_m": 51.46
+          "nearest_transit": "Leech Ave & Fairmount St",
+          "dist_m": 28.28
+        },
+        {
+          "name": "Old Chicago",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Lakeport Commons - Panera Bread",
+          "dist_m": 73.4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from Sioux City to Sioux City",
+      "transportation": "-",
+      "accommodation": "Bungalow",
+      "breakfast": "Buffalo Alice",
+      "attractions": [],
+      "lunch": "Horizon Family Restaurant",
+      "dinner": "Brightside Cafe",
+      "poi_blocks": [
+        {
+          "name": "Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "LaPlante Ave & Metropolitain St",
+          "dist_m": 91.69
+        },
+        {
+          "name": "Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "LaPlante Ave & Metropolitain St",
+          "dist_m": 91.69
+        },
+        {
+          "name": "Buffalo Alice",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "3rd St & Virginia St",
+          "dist_m": 122.83
+        },
+        {
+          "name": "Horizon Family Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Myrtle St & Tri-View Ave - Central Mart",
+          "dist_m": 73.11
+        },
+        {
+          "name": "Brightside Cafe",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Pierce St & 4th St",
+          "dist_m": 114.95
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from Sioux City to Chicago",
+      "transportation": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Bungalow",
+          "kind": "stay",
+          "start": "06:11",
+          "end": "07:11",
+          "nearest_transit": "LaPlante Ave & Metropolitain St",
+          "dist_m": 91.69
+        },
+        {
+          "name": "Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "LaPlante Ave & Metropolitain St",
+          "dist_m": 91.69
         }
       ]
     }

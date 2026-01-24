@@ -1,65 +1,122 @@
 {
   "idx": 163,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Kansas City",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Dallas",
+    "dest": "Tennessee",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
-    "people_number": 1,
+    "people_number": 7,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": "private room",
+      "house rule": "children under 10",
+      "cuisine": [
+        "American",
+        "French",
+        "Italian",
+        "Mexican"
+      ],
+      "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 1 person from Detroit to Kansas City from November 19th to November 21st, 2024, with a budget of $1,500. Accommodations should include a private room.",
-    "level": "medium"
+    "budget": 23100.0,
+    "query": "Design a 7-day travel itinerary for 7 people departing from Dallas to explore 3 cities in Tennessee from November 6th to November 12th, 2024. The budget is $23,100. Accommodations and activities should adhere to house rules allowing children under 10. Include dining options featuring American, French, Italian, and Mexican cuisines.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Kansas City",
-      "transportation": "Flight Number: F0339387, from Detroit to Kansas City, Departure Time: 08:18, Arrival Time: 09:10",
-      "breakfast": "-",
-      "attraction": "City Market, Kansas City",
-      "lunch": "Cafe Gratitude, Kansas City",
-      "dinner": "Beer Kitchen, Kansas City",
-      "accommodation": "Tuscany in Kansas City, Kansas City",
+      "current_city": "from Dallas to Memphis",
+      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
+      "breakfast": "Blues City Cafe, Memphis",
+      "attraction": "Memphis Zoo, Memphis",
+      "lunch": "Majestic Grille, Memphis",
+      "dinner": "Arcade Restaurant, Memphis",
+      "accommodation": "Super Central Location! Historic but Modern!, Memphis",
       "event": "-",
-      "point_of_interest_list": "Tuscany in Kansas City, stay from 08:00 to 09:00, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away; Tuscany in Kansas City, stay from 09:40 to 10:40, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away; City Market, visit from 11:30 to 13:50, nearest transit: CITY MARKET ON WALNUT AT 5TH ST EB, 50.51m away; Cafe Gratitude, visit from 13:57 to 14:56, nearest transit: ON SW BLVD AT CENTRAL WESTBOUND, 164.17m away; Beer Kitchen, visit from 19:51 to 21:00, nearest transit: ON WESTPORT AT MILL WESTBOUND, 79.64m away; Tuscany in Kansas City, stay from 22:15 to 08:00, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away."
+      "point_of_interest_list": "Super Central Location! Historic but Modern!, stay from 08:00 to 09:00, nearest transit: HULING-MAIN/TRO SB, 250.55m away; Blues City Cafe, visit from 09:25 to 10:16, nearest transit: SECOND@BEALE, 21.42m away; Memphis Zoo, visit from 11:30 to 16:00, nearest transit: N PARKWAY@WEST DR, 8.68m away; Majestic Grille, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Arcade Restaurant, visit from 19:51 to 21:00, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Super Central Location! Historic but Modern!, stay from 22:15 to 08:00, nearest transit: HULING-MAIN/TRO SB, 250.55m away."
     },
     {
       "days": 2,
-      "current_city": "from Kansas City to Kansas City",
-      "transportation": "Transfer, from Kansas City to Kansas City",
-      "breakfast": "Fern Bar, Kansas City",
-      "attraction": "Crown Center, Kansas City",
-      "lunch": "The Capital Grille, Kansas City",
-      "dinner": "Cafe Trio Restaurant, Kansas City",
-      "accommodation": "Tuscany in Kansas City, Kansas City",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Interstate Barbecue, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Cozy Corner, Memphis",
+      "dinner": "Flying Fish, Memphis",
+      "accommodation": "Super Central Location! Historic but Modern!, Memphis",
       "event": "-",
-      "point_of_interest_list": "Tuscany in Kansas City, stay from 08:00 to 09:00, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away; Fern Bar, visit from 09:25 to 10:16, nearest transit: ON 13TH ST BETWEEN WYANDOTTE AND CENTRAL WB, 45.99m away; Crown Center, visit from 11:30 to 13:50, nearest transit: ON GRAND AT 26TH SOUTHBOUND, 215.60m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: ON 47TH AT BROADWAY WESTBOUND FARSIDE, 233.22m away; Cafe Trio Restaurant, visit from 19:51 to 21:00, nearest transit: ON NICH PKWY AT 46TH TERR SOUTHBOUND, 122.23m away; Tuscany in Kansas City, stay from 22:15 to 08:00, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away."
+      "point_of_interest_list": "Super Central Location! Historic but Modern!, stay from 08:00 to 09:00, nearest transit: HULING-MAIN/TRO SB, 250.55m away; Interstate Barbecue, visit from 09:25 to 10:16, nearest transit: MALLORY@THIRD, 92.75m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Cozy Corner, visit from 13:57 to 14:56, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Flying Fish, visit from 19:51 to 21:00, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Super Central Location! Historic but Modern!, stay from 22:15 to 08:00, nearest transit: HULING-MAIN/TRO SB, 250.55m away."
     },
     {
       "days": 3,
-      "current_city": "from Kansas City to Detroit",
-      "transportation": "Flight Number: F0339392, from Kansas City to Detroit, Departure Time: 10:22, Arrival Time: 13:04",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Tennessee Aquarium, Chattanooga",
+      "lunch": "Bluegrass Grill, Chattanooga",
+      "dinner": "Community Pie, Chattanooga",
+      "accommodation": "Live Oak Treehouse at Treetop Escapes, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Super Central Location! Historic but Modern!, stay from 08:00 to 09:00, nearest transit: HULING-MAIN/TRO SB, 250.55m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 15:50, nearest transit: BRO AQ 1, 109.14m away; Bluegrass Grill, visit from 13:57 to 14:56, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Community Pie, visit from 19:51 to 21:00, nearest transit: MARKET + M.L.KING, 20.76m away; Live Oak Treehouse at Treetop Escapes, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 14661.56m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Chattanooga Zoo, Chattanooga",
+      "lunch": "Whitebird, Chattanooga",
+      "dinner": "Stir, Chattanooga",
+      "accommodation": "Live Oak Treehouse at Treetop Escapes, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Live Oak Treehouse at Treetop Escapes, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 14661.56m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Chattanooga Zoo, visit from 11:30 to 16:00, nearest transit: Holtzclaw & 5th-1, 123.88m away; Whitebird, visit from 13:57 to 14:56, nearest transit: 3RD + WALNUT, 188.07m away; Stir, visit from 19:51 to 21:00, nearest transit: MARKET + MAIN, 69.25m away; Live Oak Treehouse at Treetop Escapes, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 14661.56m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Nashville",
+      "transportation": "Transfer, from Chattanooga to Nashville",
+      "breakfast": "Smiling Elephant, Nashville",
+      "attraction": "Centennial Park, Nashville",
+      "lunch": "Aquarium Restaurant, Nashville",
+      "dinner": "The Standard, Nashville",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Live Oak Treehouse at Treetop Escapes, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 14661.56m away; Smiling Elephant, visit from 09:25 to 10:16, nearest transit: 8TH AVE S & BRADFORD AVE SB, 66.14m away; Centennial Park, visit from 11:30 to 16:35, nearest transit: WEST END AVE & 27TH AVE S WB, 441.64m away; Aquarium Restaurant, visit from 13:57 to 14:56, nearest transit: OPRY MILLS DR & GENERAL JACKSON'S, 170.74m away; The Standard, visit from 19:51 to 21:00, nearest transit: 9TH AVE N & COMMERCE ST SB, 91.13m away; Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 22:15 to 08:00, nearest transit: PEABODY STATION INBOUND, 149.43m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Nashville to Nashville",
+      "transportation": "Transfer, from Nashville to Nashville",
+      "breakfast": "417 Union, Nashville",
+      "attraction": "Downtown Nashville, Nashville",
+      "lunch": "1 Kitchen, Nashville",
+      "dinner": "The Bridge, Nashville",
+      "accommodation": "Little Zen Studio Apt. Downtown - Walk to Broadway, Nashville",
+      "event": "-",
+      "point_of_interest_list": "Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 08:00 to 09:00, nearest transit: PEABODY STATION INBOUND, 149.43m away; 417 Union, visit from 09:25 to 10:16, nearest transit: 5TH AVE & CHARLOTTE AVE NB, 153.66m away; Downtown Nashville, visit from 11:30 to 14:50, nearest transit: 5TH AVE N & COMMERCE ST NB, 140.94m away; 1 Kitchen, visit from 13:57 to 14:56, nearest transit: 8TH AVE S & DEMONBREUN ST SB, 67.82m away; The Bridge, visit from 19:51 to 21:00, nearest transit: 5TH AVE N & COMMERCE ST NB, 132.87m away; Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 22:15 to 08:00, nearest transit: PEABODY STATION INBOUND, 149.43m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Nashville to Dallas",
+      "transportation": "Flight Number: F0039984, from Nashville to Dallas, Departure Time: 19:57, Arrival Time: 21:45",
+      "breakfast": "The Farm House, Nashville",
+      "attraction": "Belmont Mansion, Nashville",
+      "lunch": "Pelato, Nashville",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Tuscany in Kansas City, stay from 08:00 to 09:00, nearest transit: ON CHOUTEAU AT PARVIN ROAD NB, 360.56m away."
+      "point_of_interest_list": "Little Zen Studio Apt. Downtown - Walk to Broadway, stay from 08:00 to 09:00, nearest transit: PEABODY STATION INBOUND, 149.43m away; The Farm House, visit from 09:25 to 10:16, nearest transit: CONVENTION CENTER STATION OUTBOUND, 114.93m away; Belmont Mansion, visit from 11:30 to 16:05, nearest transit: WEDGEWOOD AVE & 16TH AVE EB, 92.02m away; Pelato, visit from 13:57 to 14:56, nearest transit: 3RD AVE N & MONROE ST SB, 31.56m away."
     }
   ]
 }

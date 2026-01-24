@@ -2,58 +2,89 @@
   "idx": 247,
   "stages": [
     {
-      "city": "New York",
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "poi2transit": 74,
+        "events": 3
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Madison",
-      "to": "New York",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0152368, from Madison to New York, Departure Time: 06:00, Arrival Time: 09:10"
+      "from": "Denver",
+      "to": "Santa Rosa",
+      "date": "2024-11-08",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Madison",
-      "to": "New York",
+      "from": "Denver",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Self-driving, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $75.73"
+      "raw": "Self-driving, from Denver to Santa Rosa, Duration: 1311.8583333333333 mins, Distance: 2030.6128999999999 km, Estimated Cost: $101.53"
     },
     {
       "mode": "taxi",
-      "from": "Madison",
-      "to": "New York",
+      "from": "Denver",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69"
+      "raw": "Taxi, from Denver to Santa Rosa, Duration: 1311.8583333333333 mins, Distance: 2030.6128999999999 km, Estimated Cost: $2030.61"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Madison",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26"
+      "from": "Santa Rosa",
+      "to": "Fresno",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Madison",
+      "from": "Santa Rosa",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from New York to Madison, Duration: 1065.7733333333333 mins, Distance: 1519.9384 km, Estimated Cost: $76.00"
+      "raw": "Self-driving, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $18.74"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Madison",
+      "from": "Santa Rosa",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from New York to Madison, Duration: 1065.7733333333333 mins, Distance: 1519.9384 km, Estimated Cost: $1519.94"
+      "raw": "Taxi, from Santa Rosa to Fresno, Duration: 273.1983333333334 mins, Distance: 374.8415 km, Estimated Cost: $374.84"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": "2024-11-12",
+      "raw": "Flight Number: F0040929, from Fresno to Denver, Departure Time: 15:52, Arrival Time: 18:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $91.93"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Fresno to Denver, Duration: 1207.6533333333332 mins, Distance: 1838.6968 km, Estimated Cost: $1838.70"
     }
   ]
 }

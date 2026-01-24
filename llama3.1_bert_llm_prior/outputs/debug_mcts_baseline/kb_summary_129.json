@@ -2,6 +2,26 @@
   "idx": 129,
   "stages": [
     {
+      "city": "San Francisco",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
       "city": "San Diego",
       "counts": {
         "attractions": 18,
@@ -10,81 +30,92 @@
         "poi2transit": 75,
         "events": 0
       }
-    },
-    {
-      "city": "Monterey",
-      "counts": {
-        "attractions": 19,
-        "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 75,
-        "events": 0
-      }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Bend",
-      "to": "San Diego",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0449616, from Bend to San Diego, Departure Time: 14:15, Arrival Time: 16:31"
+      "from": "Boston",
+      "to": "San Francisco",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0241123, from Boston to San Francisco, Departure Time: 18:58, Arrival Time: 22:33"
     },
     {
       "mode": "self-driving",
-      "from": "Bend",
-      "to": "San Diego",
+      "from": "Boston",
+      "to": "San Francisco",
       "date": null,
-      "raw": "Self-driving, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $75.50"
+      "raw": "Self-driving, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco"
     },
     {
       "mode": "taxi",
-      "from": "Bend",
+      "from": "Boston",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $30.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Los Angeles, Duration: 427.6816666666667 mins, Distance: 613.2749 km, Estimated Cost: $613.27"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Diego",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
       "to": "San Diego",
       "date": null,
-      "raw": "Taxi, from Bend to San Diego, Duration: 1061.7866666666666 mins, Distance: 1509.9929 km, Estimated Cost: $1509.99"
+      "raw": "Self-driving, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $9.66"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Diego, Duration: 142.995 mins, Distance: 193.2245 km, Estimated Cost: $193.22"
     },
     {
       "mode": "flight",
       "from": "San Diego",
-      "to": "Monterey",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0485454, from San Diego to Monterey, Departure Time: 10:37, Arrival Time: 11:55"
+      "to": "Boston",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21"
     },
     {
       "mode": "self-driving",
       "from": "San Diego",
-      "to": "Monterey",
+      "to": "Boston",
       "date": null,
-      "raw": "Self-driving, from San Diego to Monterey, Duration: 498.705 mins, Distance: 644.9803 km, Estimated Cost: $32.25"
+      "raw": "Self-driving, from San Diego to Boston, Not feasible to drive from San Diego to Boston"
     },
     {
       "mode": "taxi",
       "from": "San Diego",
-      "to": "Monterey",
+      "to": "Boston",
       "date": null,
-      "raw": "Taxi, from San Diego to Monterey, Duration: 498.705 mins, Distance: 644.9803 km, Estimated Cost: $644.98"
-    },
-    {
-      "mode": "flight",
-      "from": "Monterey",
-      "to": "Bend",
-      "date": "2024-11-22",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Monterey",
-      "to": "Bend",
-      "date": null,
-      "raw": "Self-driving, from Monterey to Bend, Duration: 753.87 mins, Distance: 1005.8497 km, Estimated Cost: $50.29"
-    },
-    {
-      "mode": "taxi",
-      "from": "Monterey",
-      "to": "Bend",
-      "date": null,
-      "raw": "Taxi, from Monterey to Bend, Duration: 753.87 mins, Distance: 1005.8497 km, Estimated Cost: $1005.85"
+      "raw": "Taxi, from San Diego to Boston, Not feasible to drive from San Diego to Boston"
     }
   ]
 }

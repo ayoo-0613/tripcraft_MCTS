@@ -2,58 +2,89 @@
   "idx": 241,
   "stages": [
     {
-      "city": "Santa Fe",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 19,
+        "attractions": 14,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 74,
+        "poi2transit": 69,
         "events": 4
+      }
+    },
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 5
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Santa Fe",
-      "date": "2024-11-01",
-      "raw": "Flight Number: F0001544, from Denver to Santa Fe, Departure Time: 18:47, Arrival Time: 19:48"
+      "from": "Savannah",
+      "to": "Chattanooga",
+      "date": "2024-11-10",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Denver",
-      "to": "Santa Fe",
+      "from": "Savannah",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Denver to Santa Fe, Duration: 412.21 mins, Distance: 630.1888 km, Estimated Cost: $31.51"
+      "raw": "Self-driving, from Savannah to Chattanooga, Duration: 405.55 mins, Distance: 588.2941999999999 km, Estimated Cost: $29.41"
     },
     {
       "mode": "taxi",
-      "from": "Denver",
-      "to": "Santa Fe",
+      "from": "Savannah",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Denver to Santa Fe, Duration: 412.21 mins, Distance: 630.1888 km, Estimated Cost: $630.19"
+      "raw": "Taxi, from Savannah to Chattanooga, Duration: 405.55 mins, Distance: 588.2941999999999 km, Estimated Cost: $588.29"
     },
     {
       "mode": "flight",
-      "from": "Santa Fe",
-      "to": "Denver",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0000342, from Santa Fe to Denver, Departure Time: 13:14, Arrival Time: 14:25"
+      "from": "Chattanooga",
+      "to": "Nashville",
+      "date": "2024-11-12",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Santa Fe",
-      "to": "Denver",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Santa Fe to Denver, Duration: 412.9866666666667 mins, Distance: 631.7925 km, Estimated Cost: $31.59"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Santa Fe",
-      "to": "Denver",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Santa Fe to Denver, Duration: 412.9866666666667 mins, Distance: 631.7925 km, Estimated Cost: $631.79"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Savannah",
+      "date": "2024-11-14",
+      "raw": "Flight Number: F0047187, from Nashville to Savannah, Departure Time: 14:27, Arrival Time: 16:44"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Savannah",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Savannah, Duration: 549.3083333333333 mins, Distance: 795.3324 km, Estimated Cost: $39.77"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Savannah",
+      "date": null,
+      "raw": "Taxi, from Nashville to Savannah, Duration: 549.3083333333333 mins, Distance: 795.3324 km, Estimated Cost: $795.33"
     }
   ]
 }

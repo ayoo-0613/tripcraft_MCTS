@@ -1,65 +1,99 @@
 {
   "idx": 323,
   "JSON": {
-    "org": "Kansas City",
-    "dest": "Tampa",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Peoria",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-27",
-      "2024-11-28",
-      "2024-11-29"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
+      "house rule": "pets",
+      "cuisine": [
+        "American",
+        "Mexican",
+        "Southwestern",
+        "Spanish"
+      ],
       "room type": null,
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Sights & Landmarks",
+        "Museums"
+      ]
     },
-    "budget": 1800.0,
-    "query": "Plan a 3-day trip for 1 person from Kansas City to Tampa from November 27th to November 29th, 2024, with a budget of $1,800.",
-    "level": "easy"
+    "budget": 2550.0,
+    "query": "Design a 5-day travel itinerary for 1 person departing from Peoria to explore 2 cities in Tennessee from November 7th to November 11th, 2024. The budget is $2,550. Accommodations should allow pets. Include dining options featuring American, Mexican, Southwestern, and Spanish cuisines. The itinerary should also feature visits to sights, landmarks, and museums.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Kansas City to Tampa",
-      "transportation": "Flight Number: F0024862, from Kansas City to Tampa, Departure Time: 19:30, Arrival Time: 22:52",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Cozy Suite, Tampa",
+      "current_city": "from Peoria to Memphis",
+      "transportation": "Taxi, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $724.79",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Beale Street, Memphis; Graceland, Memphis",
+      "lunch": "Arcade Restaurant, Memphis",
+      "dinner": "Interstate Barbecue, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; Cozy Suite, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 3243.17m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Beale Street, visit from 11:30 to 13:57, nearest transit: BEALE-MAIN/TRO SB, 14.88m away; Arcade Restaurant, visit from 13:57 to 14:56, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Graceland, visit from 16:30 to 18:57, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from Tampa to Tampa",
-      "transportation": "Transfer, from Tampa to Tampa",
-      "breakfast": "Haven, Tampa",
-      "attraction": "Adventure Island, Tampa",
-      "lunch": "Ocean Prime, Tampa",
-      "dinner": "Olivia, Tampa",
-      "accommodation": "Cozy Suite, Tampa",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Sun Studio, Memphis; The Peabody Ducks, Memphis",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; Haven, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 13636.39m away; Adventure Island, visit from 11:30 to 17:20, nearest transit: Adventure Island Employee Entrance, 210.63m away; Ocean Prime, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 13591.45m away; Olivia, visit from 19:51 to 21:00, nearest transit: Busch Gardens Employee Entrance, 14172.81m away; Cozy Suite, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 3243.17m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Sun Studio, visit from 11:30 to 13:57, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; The Peabody Ducks, visit from 16:30 to 18:57, nearest transit: UNION AVE @ S 3RD ST, 50.00m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 3,
-      "current_city": "from Tampa to Kansas City",
-      "transportation": "Flight Number: F0056422, from Tampa to Kansas City, Departure Time: 21:23, Arrival Time: 00:04",
-      "breakfast": "Daily Eats, Tampa",
-      "attraction": "Tampa Theatre, Tampa",
-      "lunch": "Columbia Restaurant, Tampa",
-      "dinner": "-",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Lookout Mountain, Chattanooga; Tennessee Riverwalk, Chattanooga",
+      "lunch": "Stir, Chattanooga",
+      "dinner": "Bluegrass Grill, Chattanooga",
+      "accommodation": "Glenn Falls Tiny Cabin, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Lookout Mountain, visit from 11:30 to 14:42, nearest transit: 55TH + ALABAMA, 1650.28m away; Stir, visit from 13:57 to 14:56, nearest transit: MARKET + MAIN, 69.25m away; Tennessee Riverwalk, visit from 16:30 to 18:57, nearest transit: Amnicol a& River Terminal-1, 178.82m away; Bluegrass Grill, visit from 19:51 to 21:00, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Glenn Falls Tiny Cabin, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 428.92m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Coolidge Park, Chattanooga; Walnut Street Bridge, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "1885 Grill, Chattanooga",
+      "accommodation": "Glenn Falls Tiny Cabin, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Glenn Falls Tiny Cabin, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 428.92m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Coolidge Park, visit from 11:30 to 14:42, nearest transit: Frazier & Forrest-0, 132.99m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; Walnut Street Bridge, visit from 16:30 to 18:57, nearest transit: FRAZIER + TREMONT, 439.00m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Glenn Falls Tiny Cabin, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 428.92m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Peoria",
+      "transportation": "Transfer, from Chattanooga to Peoria",
+      "breakfast": "Whitebird, Chattanooga",
+      "attraction": "Tennessee Valley Railroad Museum, Chattanooga; Moon Pie General Store, Chattanooga",
+      "lunch": "Mellow Mushroom Chattanooga, Chattanooga",
+      "dinner": "Champy's, Chattanooga",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy Suite, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 3243.17m away; Daily Eats, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 13493.33m away; Tampa Theatre, visit from 11:30 to 14:50, nearest transit: Busch Gardens Employee Entrance, 10975.00m away; Columbia Restaurant, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 9370.50m away."
+      "point_of_interest_list": "Glenn Falls Tiny Cabin, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 428.92m away; Whitebird, visit from 09:25 to 10:16, nearest transit: 3RD + WALNUT, 188.07m away; Tennessee Valley Railroad Museum, visit from 11:30 to 13:57, nearest transit: Bonny Oaks & Redlands Dr-1, 1191.41m away; Mellow Mushroom Chattanooga, visit from 13:57 to 14:56, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; Moon Pie General Store, visit from 16:30 to 18:12, nearest transit: Broad & Jack's Alley, 46.95m away; Champy's, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + UNIVERSITY, 48.23m away."
     }
   ]
 }

@@ -1,68 +1,98 @@
 {
   "idx": 262,
   "JSON": {
-    "org": "Charlotte",
-    "dest": "Los Angeles",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Ontario",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-23",
-      "2024-11-24",
-      "2024-11-25"
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21",
+      "2024-11-22"
     ],
     "people_number": 2,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "parties",
       "cuisine": [
-        "Italian",
-        "French"
+        "American",
+        "Chinese",
+        "Mexican",
+        "Bar"
       ],
       "room type": null,
+      "transportation": "no self-driving",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": [
+        "Nature & Parks"
+      ]
     },
-    "budget": 5250.0,
-    "query": "Plan a 3-day trip for 2 people from Charlotte to Los Angeles from November 23rd to November 25th, 2024, with a budget of $5,250. Include dining options featuring Italian and French cuisine.",
-    "level": "medium"
+    "budget": 1950.0,
+    "query": "Design a 5-day travel itinerary for 2 people departing from Ontario to visit 2 cities in California from November 18th to November 22nd, 2024. The budget is $1,950. The trip should include visits to nature and parks, and dining options should feature American, Chinese, Mexican, and bar cuisines. Transportation should not involve self-driving, and there are no specific house rules or events to consider.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Charlotte to Los Angeles",
-      "transportation": "Taxi, from Charlotte to Los Angeles, Not feasible to drive from Charlotte to Los Angeles",
-      "breakfast": "Water Grill, Los Angeles",
-      "attraction": "The Broad, Los Angeles",
-      "lunch": "Providence, Los Angeles",
-      "dinner": "The Lobster, Los Angeles",
-      "accommodation": "Cozy Private Room In LA., Los Angeles",
+      "current_city": "from Ontario to Sacramento",
+      "transportation": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento",
+      "breakfast": "Cafeteria 15L, Sacramento",
+      "attraction": "McKinley Park, Sacramento",
+      "lunch": "Tower Cafe, Sacramento",
+      "dinner": "Orphan, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; The Broad, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away; Providence, visit from 13:57 to 14:56, nearest transit: Melrose & Gower (Westbound), 749.15m away; The Lobster, visit from 19:51 to 21:00, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Cafeteria 15L, visit from 09:25 to 10:16, nearest transit: 15TH ST & K ST (SB), 126.90m away; McKinley Park, visit from 11:30 to 16:35, nearest transit: MCKINLEY BLVD & 34TH ST (EB), 48.79m away; Tower Cafe, visit from 13:57 to 14:56, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Orphan, visit from 19:51 to 21:00, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 2,
-      "current_city": "from Los Angeles to Los Angeles",
-      "transportation": "Transfer, from Los Angeles to Los Angeles",
-      "breakfast": "Bestia, Los Angeles",
-      "attraction": "Hollywood Sign, Los Angeles",
-      "lunch": "Perch, Los Angeles",
-      "dinner": "Spire 73, Los Angeles",
-      "accommodation": "Cozy Private Room In LA., Los Angeles",
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Revival, Sacramento",
+      "attraction": "Capitol Park, Sacramento",
+      "lunch": "Localis, Sacramento",
+      "dinner": "Aviators Restaurant, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; Hollywood Sign, visit from 11:30 to 15:20, nearest transit: Beachwood & Westshire, 1574.74m away; Perch, visit from 13:57 to 14:56, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Spire 73, visit from 19:51 to 21:00, nearest transit: Figueroa St & 7th St, 109.52m away; Cozy Private Room In LA., stay from 22:15 to 08:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Revival, visit from 09:25 to 10:16, nearest transit: J ST & 6TH ST (EB), 79.22m away; Capitol Park, visit from 11:30 to 16:05, nearest transit: L ST & 14TH ST (WB), 86.40m away; Localis, visit from 13:57 to 14:56, nearest transit: 21ST ST & R ST (NB), 35.88m away; Aviators Restaurant, visit from 19:51 to 21:00, nearest transit: FREEPORT BLVD & MCALLISTER AVE (SB), 185.83m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 3,
-      "current_city": "from Los Angeles to Charlotte",
-      "transportation": "Flight Number: F0169590, from Los Angeles to Charlotte, Departure Time: 09:35, Arrival Time: 17:08",
+      "current_city": "from Sacramento to San Francisco",
+      "transportation": "Flight Number: F0459283, from Sacramento to San Francisco, Departure Time: 09:38, Arrival Time: 10:33",
       "breakfast": "-",
-      "attraction": "-",
+      "attraction": "Pier 39, San Francisco",
+      "lunch": "Eagle Cafe, San Francisco",
+      "dinner": "Capital Restaurant, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Pier 39, visit from 11:30 to 16:50, nearest transit: Mission @ Spear (Embarcadero), 2268.81m away; Eagle Cafe, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Outerlands, San Francisco",
+      "attraction": "Lands End, San Francisco",
+      "lunch": "Waterbar, San Francisco",
+      "dinner": "Quince, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Outerlands, visit from 09:25 to 10:16, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Lands End, visit from 11:30 to 16:35, nearest transit: Civic Center BART (9th and Market), 7487.45m away; Waterbar, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Quince, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Francisco to Ontario",
+      "transportation": "Taxi, from San Francisco to Ontario, Not feasible to drive from San Francisco to Ontario",
+      "breakfast": "Mo's Grill, San Francisco",
+      "attraction": "Golden Gate Park, San Francisco",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy Private Room In LA., stay from 08:00 to 09:00, nearest transit: MLK Jr. & Gramercy Pl., 251.86m away."
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Mo's Grill, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 1392.17m away; Golden Gate Park, visit from 11:30 to 16:50, nearest transit: Civic Center BART (9th and Market), 5974.62m away."
     }
   ]
 }

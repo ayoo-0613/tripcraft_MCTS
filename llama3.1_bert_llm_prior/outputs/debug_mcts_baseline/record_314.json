@@ -1,69 +1,91 @@
 {
   "idx": 314,
   "JSON": {
-    "org": "St. Louis",
-    "dest": "Tulsa",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": [
-        "Mediterranean",
-        "Mexican",
-        "American"
-      ],
-      "room type": "private room",
+      "house rule": "parties",
+      "cuisine": null,
+      "room type": "entire home",
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": "Nature & Parks"
     },
-    "budget": 1200.0,
-    "query": "Plan a 3-day trip for 2 people from St. Louis to Tulsa from November 19th to November 21st, 2024, with a budget of $1,200. Accommodations should include a private room, and dining options should feature Mediterranean, Mexican, and American cuisines.",
+    "budget": 1800.0,
+    "query": "Design a 5-day travel itinerary for 1 person starting from Lynchburg and visiting 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $1,800. Accommodations should be in an entire home, and the plan should include visits to nature and parks. Avoid accommodations that allow parties.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from St. Louis to Tulsa",
-      "transportation": "Taxi, from St. Louis to Tulsa, Duration: 428.56 mins, Distance: 635.4946 km, Estimated Cost: $635.49",
-      "breakfast": "The Tavern, Tulsa",
-      "attraction": "River Parks, Tulsa",
-      "lunch": "Juniper, Tulsa",
-      "dinner": "Savoy, Tulsa",
-      "accommodation": "The Jade Suite in Safe South Tulsa Neighborhood, Tulsa",
+      "current_city": "from Lynchburg to Greensboro",
+      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
+      "breakfast": "Blue Denim, Greensboro",
+      "attraction": "Gateway Gardens, Greensboro",
+      "lunch": "Green Valley Grill, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away; The Tavern, visit from 09:25 to 10:16, nearest transit: (7365) Archer St & Main St EB, 141.16m away; River Parks, visit from 11:30 to 16:35, nearest transit: (8912) RIVERSIDE PRKWY & E 56TH ST S SB, 32.34m away; Juniper, visit from 13:57 to 14:56, nearest transit: (7612) ELGIN AVE & 3RD ST SB, 33.69m away; Savoy, visit from 19:51 to 21:00, nearest transit: (6940) ST. FRANCIS HOSPITAL ER, 1418.53m away; The Jade Suite in Safe South Tulsa Neighborhood, stay from 22:15 to 08:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away."
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Blue Denim, visit from 09:25 to 10:16, nearest transit: International Civil Rights Museum, 72.70m away; Gateway Gardens, visit from 11:30 to 16:50, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; Green Valley Grill, visit from 13:57 to 14:56, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 2,
-      "current_city": "from Tulsa to Tulsa",
-      "transportation": "Transfer, from Tulsa to Tulsa",
-      "breakfast": "Chamber Restaurant, Tulsa",
-      "attraction": "Greenwood Rising, Tulsa",
-      "lunch": "The Vault, Tulsa",
-      "dinner": "-",
-      "accommodation": "The Jade Suite in Safe South Tulsa Neighborhood, Tulsa",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Mythos Grill, Greensboro",
+      "attraction": "Lake Brandt Marina, Greensboro",
+      "lunch": "Golden Wok, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "Peaceful Place, Greensboro",
       "event": "-",
-      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away; Chamber Restaurant, visit from 09:25 to 10:16, nearest transit: (8242) Cincinnati Ave & 5th St SB, 60.36m away; Greenwood Rising, visit from 11:30 to 15:20, nearest transit: (8823) 1ST AND GREENWOOD WB, 255.41m away; The Vault, visit from 13:57 to 14:56, nearest transit: (8243) Cincinnati Ave & 6th St SB, 41.83m away; The Jade Suite in Safe South Tulsa Neighborhood, stay from 22:15 to 08:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away."
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Mythos Grill, visit from 09:25 to 10:16, nearest transit: West Market/Walker, 60.36m away; Lake Brandt Marina, visit from 11:30 to 16:35, nearest transit: Cottage Pl/North Lake Homes (IB), 3290.67m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
     },
     {
       "days": 3,
-      "current_city": "from Tulsa to St. Louis",
-      "transportation": "Transfer, from Tulsa to St. Louis",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
+      "dinner": "Charlotte Bakery, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Charlotte Bakery, visit from 19:51 to 21:00, nearest transit: White Street Park and Ride, 1016826.02m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "The Capital Grille, Charlotte",
+      "attraction": "Freedom Park, Charlotte",
+      "lunch": "Queen Charlotte, Charlotte",
+      "dinner": "Charlotte Lane, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; The Capital Grille, visit from 09:25 to 10:16, nearest transit: Tryon St & 6th St, 103.97m away; Freedom Park, visit from 11:30 to 16:50, nearest transit: East Blvd & Kings Dr, 701.42m away; Queen Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6385477.65m away; Charlotte Lane, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 1612739.20m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34",
+      "breakfast": "Princess Charlotte, Charlotte",
+      "attraction": "Wing Haven, Charlotte",
+      "lunch": "Bistro Charlotte, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Jade Suite in Safe South Tulsa Neighborhood, stay from 08:00 to 09:00, nearest transit: (7348) Delaware Ave & 89th St EB, 1456.40m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Princess Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6465940.22m away; Wing Haven, visit from 11:30 to 16:50, nearest transit: Selwyn Ave & Sterling Rd, 345.69m away; Bistro Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7764630.63m away."
     }
   ]
 }

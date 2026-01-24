@@ -2,9 +2,19 @@
   "idx": 294,
   "stages": [
     {
-      "city": "San Francisco",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 27
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Boise",
-      "to": "San Francisco",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F0460749, from Boise to San Francisco, Departure Time: 16:30, Arrival Time: 17:09"
+      "from": "Lynchburg",
+      "to": "Greensboro",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Boise",
-      "to": "San Francisco",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Boise to San Francisco, Duration: 712.0466666666667 mins, Distance: 1029.3790999999999 km, Estimated Cost: $51.47"
+      "raw": "Self-driving, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $9.16"
     },
     {
       "mode": "taxi",
-      "from": "Boise",
-      "to": "San Francisco",
+      "from": "Lynchburg",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Boise to San Francisco, Duration: 712.0466666666667 mins, Distance: 1029.3790999999999 km, Estimated Cost: $1029.38"
+      "raw": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14"
     },
     {
       "mode": "flight",
-      "from": "San Francisco",
-      "to": "Boise",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0451666, from San Francisco to Boise, Departure Time: 08:35, Arrival Time: 11:18"
+      "from": "Greensboro",
+      "to": "Charlotte",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53"
     },
     {
       "mode": "self-driving",
-      "from": "San Francisco",
-      "to": "Boise",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from San Francisco to Boise, Duration: 712.2783333333333 mins, Distance: 1028.8601999999998 km, Estimated Cost: $51.44"
+      "raw": "Self-driving, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $7.27"
     },
     {
       "mode": "taxi",
-      "from": "San Francisco",
-      "to": "Boise",
+      "from": "Greensboro",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from San Francisco to Boise, Duration: 712.2783333333333 mins, Distance: 1028.8601999999998 km, Estimated Cost: $1028.86"
+      "raw": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $16.43"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Lynchburg",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61"
     }
   ]
 }

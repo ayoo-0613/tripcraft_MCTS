@@ -1,65 +1,91 @@
 {
   "idx": 229,
   "JSON": {
-    "org": "Sarasota",
-    "dest": "Atlanta",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Colorado Springs",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-13",
-      "2024-11-14",
-      "2024-11-15"
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11",
+      "2024-11-12"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
-      "transportation": null,
+      "transportation": "no flight",
       "event": null,
       "attraction": null
     },
-    "budget": 1350.0,
-    "query": "Plan a 3-day trip for 1 person from Sarasota to Atlanta from November 13th to November 15th, 2024, with a budget of $1,350.",
-    "level": "easy"
+    "budget": 2550.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Colorado Springs to explore 2 cities in California between November 8th and November 12th, 2024. The budget is $2,550, and the trip should avoid flights as a mode of transportation.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Sarasota to Atlanta",
-      "transportation": "Flight Number: F0046642, from Sarasota to Atlanta, Departure Time: 17:22, Arrival Time: 18:55",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Home Grown, Atlanta",
-      "accommodation": "Urban Oasis in Historic Inman Park, Atlanta",
+      "current_city": "from Colorado Springs to Santa Barbara",
+      "transportation": "Taxi, from Colorado Springs to Santa Barbara, Duration: 1238.2833333333333 mins, Distance: 1857.5446000000002 km, Estimated Cost: $1857.54",
+      "breakfast": "Shoreline Cafe, Santa Barbara",
+      "attraction": "Old Mission Santa Barbara, Santa Barbara; Shoreline Park, Santa Barbara",
+      "lunch": "Jane, Santa Barbara",
+      "dinner": "Bella Vista, Santa Barbara",
+      "accommodation": "Cozy Studio w/Private entrance & parking. KING BED, Santa Barbara",
       "event": "-",
-      "point_of_interest_list": "Urban Oasis in Historic Inman Park, stay from 08:00 to 09:00, nearest transit: IRWIN ST NE @ RANDOLPH ST NE, 653.83m away; Urban Oasis in Historic Inman Park, stay from 19:25 to 20:25, nearest transit: IRWIN ST NE @ RANDOLPH ST NE, 653.83m away; Home Grown, visit from 19:51 to 21:00, nearest transit: MEMORIAL DR SE @ GIBSON ST SE, 49.17m away; Urban Oasis in Historic Inman Park, stay from 22:15 to 08:00, nearest transit: IRWIN ST NE @ RANDOLPH ST NE, 653.83m away."
+      "point_of_interest_list": "Cozy Studio w/Private entrance & parking. KING BED, stay from 08:00 to 09:00, nearest transit: Calle Real & Calle Real Center, 250.81m away; Shoreline Cafe, visit from 09:25 to 10:16, nearest transit: Harbor, 329.01m away; Old Mission Santa Barbara, visit from 11:30 to 13:57, nearest transit: State & Pueblo, 638.96m away; Jane, visit from 13:57 to 14:56, nearest transit: Sola & Chapala, 144.45m away; Shoreline Park, visit from 16:30 to 20:27, nearest transit: Cliff & San Rafael, 657.29m away; Bella Vista, visit from 19:51 to 21:00, nearest transit: Coast Village & Middle, 425.00m away; Cozy Studio w/Private entrance & parking. KING BED, stay from 22:15 to 08:00, nearest transit: Calle Real & Calle Real Center, 250.81m away."
     },
     {
       "days": 2,
-      "current_city": "from Atlanta to Atlanta",
-      "transportation": "Transfer, from Atlanta to Atlanta",
-      "breakfast": "Canoe, Atlanta",
-      "attraction": "Georgia Aquarium, Atlanta",
-      "lunch": "Marcel, Atlanta",
-      "dinner": "The Capital Grille, Atlanta",
-      "accommodation": "Hampton Guest House, Atlanta",
+      "current_city": "from Santa Barbara to Santa Barbara",
+      "transportation": "Transfer, from Santa Barbara to Santa Barbara",
+      "breakfast": "The Palace Grill, Santa Barbara",
+      "attraction": "Reagan Ranch Center, Santa Barbara; The Granada Theatre, Santa Barbara",
+      "lunch": "The Lark, Santa Barbara",
+      "dinner": "The Black Sheep, Santa Barbara",
+      "accommodation": "Montecito Magic Full Suite Mountain Views and Pool, Santa Barbara",
       "event": "-",
-      "point_of_interest_list": "Hampton Guest House, stay from 08:00 to 09:00, nearest transit: TALMADGE RD @ WILLARDS WAY, 7090.65m away; Canoe, visit from 09:25 to 10:16, nearest transit: NORTHSIDE PKWY @ RIVER GREEN DR, 738.85m away; Georgia Aquarium, visit from 11:30 to 15:50, nearest transit: IVAN ALLEN JR BLVD NW @ LUCKIE ST, 131.37m away; Marcel, visit from 13:57 to 14:56, nearest transit: HOWELL MILL RD NW @ 14TH ST NW, 77.33m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: PEACHTREE RD @ E PACES FERRY RD NE, 94.17m away; Hampton Guest House, stay from 22:15 to 08:00, nearest transit: TALMADGE RD @ WILLARDS WAY, 7090.65m away."
+      "point_of_interest_list": "Montecito Magic Full Suite Mountain Views and Pool, stay from 08:00 to 09:00, nearest transit: Salinas & Mason, 1584.37m away; The Palace Grill, visit from 09:25 to 10:16, nearest transit: Cota & State, 28.38m away; Reagan Ranch Center, visit from 11:30 to 13:57, nearest transit: State & Yanonali, 36.75m away; The Lark, visit from 13:57 to 14:56, nearest transit: State & Yanonali, 142.59m away; The Granada Theatre, visit from 16:30 to 18:27, nearest transit: Anapamu & State, 64.42m away; The Black Sheep, visit from 19:51 to 21:00, nearest transit: Cota & State, 40.91m away; Montecito Magic Full Suite Mountain Views and Pool, stay from 22:15 to 08:00, nearest transit: Salinas & Mason, 1584.37m away."
     },
     {
       "days": 3,
-      "current_city": "from Atlanta to Sarasota",
-      "transportation": "Flight Number: F0069725, from Atlanta to Sarasota, Departure Time: 22:11, Arrival Time: 23:24",
-      "breakfast": "Cafe Agora, Atlanta",
-      "attraction": "Swan House, Atlanta",
-      "lunch": "Aria, Atlanta",
-      "dinner": "Bangkok Station, Atlanta",
+      "current_city": "from Santa Barbara to Los Angeles",
+      "transportation": "Transfer, from Santa Barbara to Los Angeles",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Montecito Magic Full Suite Mountain Views and Pool, stay from 08:00 to 09:00, nearest transit: Salinas & Mason, 1584.37m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Los Angeles to Colorado Springs",
+      "transportation": "Transfer, from Los Angeles to Colorado Springs",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Hampton Guest House, stay from 08:00 to 09:00, nearest transit: TALMADGE RD @ WILLARDS WAY, 7090.65m away; Cafe Agora, visit from 09:25 to 10:16, nearest transit: PEACHTREE ST @ PEACHTREE PL, 29.31m away; Swan House, visit from 11:30 to 15:20, nearest transit: PEACHTREE RD NW @ PHARR RD NW, 659.66m away; Aria, visit from 13:57 to 14:56, nearest transit: PIEDMONT RD NE @ E PACES FERRY RD NE, 250.25m away; Bangkok Station, visit from 19:51 to 21:00, nearest transit: PIEDMONT RD NE @ PEACHTREE DR NE, 153.20m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     }
   ]
 }

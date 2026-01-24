@@ -1,65 +1,93 @@
 {
   "idx": 201,
   "JSON": {
-    "org": "Denver",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Peoria",
+    "dest": "Tennessee",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-03",
-      "2024-11-04",
-      "2024-11-05"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
-    "people_number": 4,
+    "people_number": 3,
     "local_constraint": {
-      "house rule": "pets",
+      "house rule": "smoking",
       "cuisine": null,
-      "room type": "private room",
-      "transportation": "no self-driving",
+      "room type": "entire home",
+      "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Sights & Landmarks"
+      ]
     },
-    "budget": 3900.0,
-    "query": "Plan a 3-day trip for 4 people from Denver to Seattle from November 3rd to November 5th, 2024, with a budget of $3,900. Accommodations should include a private room, and the trip should not involve self-driving transportation. Pets should be allowed.",
+    "budget": 4550.0,
+    "query": "Design a 5-day travel itinerary for 3 people departing from Peoria to visit 2 cities in Tennessee from November 7th to November 11th, 2024. The budget is $4,550. Accommodations should be an entire home and must allow smoking. Include visits to sights and landmarks as part of the attractions.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Denver to Seattle",
-      "transportation": "Flight Number: F0032476, from Denver to Seattle, Departure Time: 14:28, Arrival Time: 16:16",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Lola, Seattle",
-      "accommodation": "Private Room in Townhome near Capitol Hill, Seattle",
+      "current_city": "from Peoria to Memphis",
+      "transportation": "Taxi, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $724.79",
+      "breakfast": "Majestic Grille, Memphis",
+      "attraction": "Graceland, Memphis",
+      "lunch": "Interstate Barbecue, Memphis",
+      "dinner": "Arcade Restaurant, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Private Room in Townhome near Capitol Hill, stay from 08:00 to 09:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away; Private Room in Townhome near Capitol Hill, stay from 16:46 to 17:46, nearest transit: E Madison St & 22nd Ave E, 94.31m away; Lola, visit from 19:51 to 21:00, nearest transit: Virginia St & 4th Ave, 26.10m away; Private Room in Townhome near Capitol Hill, stay from 22:15 to 08:00, nearest transit: E Madison St & 22nd Ave E, 94.31m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Majestic Grille, visit from 09:25 to 10:16, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Graceland, visit from 11:30 to 15:20, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Interstate Barbecue, visit from 13:57 to 14:56, nearest transit: MALLORY@THIRD, 92.75m away; Arcade Restaurant, visit from 19:51 to 21:00, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "Spinasse, Seattle",
-      "attraction": "Space Needle, Seattle",
-      "lunch": "Metropolitan Grill, Seattle",
-      "dinner": "The Capital Grille, Seattle",
-      "accommodation": "Cozy room near UW, Seattle",
+      "current_city": "from Memphis to Memphis",
+      "transportation": "Transfer, from Memphis to Memphis",
+      "breakfast": "Memphis Barbecue, Memphis",
+      "attraction": "Sun Studio, Memphis",
+      "lunch": "Flying Fish, Memphis",
+      "dinner": "Cozy Corner, Memphis",
+      "accommodation": "Crosstown Cottage, Memphis",
       "event": "-",
-      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Spinasse, visit from 09:25 to 10:16, nearest transit: E Pine St & 15th Ave, 90.45m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: 4th Ave & University, 41.04m away; Cozy room near UW, stay from 22:15 to 08:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away."
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Sun Studio, visit from 11:30 to 15:20, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to Denver",
-      "transportation": "Transfer, from Seattle to Denver",
-      "breakfast": "13 Coins Restaurant, Seattle",
-      "attraction": "Seattle Aquarium, Seattle",
-      "lunch": "Wild Ginger, Seattle",
-      "dinner": "Chan Seattle, Seattle",
+      "current_city": "from Memphis to Chattanooga",
+      "transportation": "Transfer, from Memphis to Chattanooga",
+      "breakfast": "Urban Stack, Chattanooga",
+      "attraction": "Lookout Mountain, Chattanooga",
+      "lunch": "Bluegrass Grill, Chattanooga",
+      "dinner": "Stir, Chattanooga",
+      "accommodation": "The Lookout Mountain Birdhouse, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Lookout Mountain, visit from 11:30 to 16:05, nearest transit: 55TH + ALABAMA, 1650.28m away; Bluegrass Grill, visit from 13:57 to 14:56, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Stir, visit from 19:51 to 21:00, nearest transit: MARKET + MAIN, 69.25m away; The Lookout Mountain Birdhouse, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 11017.58m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Chattanooga to Chattanooga",
+      "transportation": "Transfer, from Chattanooga to Chattanooga",
+      "breakfast": "Alleia, Chattanooga",
+      "attraction": "Tennessee Riverwalk, Chattanooga",
+      "lunch": "Community Pie, Chattanooga",
+      "dinner": "1885 Grill, Chattanooga",
+      "accommodation": "The Lookout Mountain Birdhouse, Chattanooga",
+      "event": "-",
+      "point_of_interest_list": "The Lookout Mountain Birdhouse, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 11017.58m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Tennessee Riverwalk, visit from 11:30 to 15:20, nearest transit: Amnicol a& River Terminal-1, 178.82m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; The Lookout Mountain Birdhouse, stay from 22:15 to 08:00, nearest transit: ALABAMA + 56TH, 11017.58m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Chattanooga to Peoria",
+      "transportation": "Transfer, from Chattanooga to Peoria",
+      "breakfast": "Whitebird, Chattanooga",
+      "attraction": "Coolidge Park, Chattanooga",
+      "lunch": "Mellow Mushroom Chattanooga, Chattanooga",
+      "dinner": "Champy's, Chattanooga",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; 13 Coins Restaurant, visit from 09:25 to 10:16, nearest transit: King Street Station, 107.40m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; Wild Ginger, visit from 13:57 to 14:56, nearest transit: 3rd Ave & Pike St, 13.86m away; Chan Seattle, visit from 19:51 to 21:00, nearest transit: Pine St & 9th Ave, 68.08m away."
+      "point_of_interest_list": "The Lookout Mountain Birdhouse, stay from 08:00 to 09:00, nearest transit: ALABAMA + 56TH, 11017.58m away; Whitebird, visit from 09:25 to 10:16, nearest transit: 3RD + WALNUT, 188.07m away; Coolidge Park, visit from 11:30 to 16:05, nearest transit: Frazier & Forrest-0, 132.99m away; Mellow Mushroom Chattanooga, visit from 13:57 to 14:56, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; Champy's, visit from 19:51 to 21:00, nearest transit: M.L.KING BLVD + UNIVERSITY, 48.23m away."
     }
   ]
 }

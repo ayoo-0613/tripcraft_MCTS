@@ -2,58 +2,89 @@
   "idx": 185,
   "stages": [
     {
-      "city": "Cincinnati",
+      "city": "Newburgh",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 74,
+        "accommodations": 17,
+        "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Watertown",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Sarasota",
-      "to": "Cincinnati",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0378723, from Sarasota to Cincinnati, Departure Time: 12:14, Arrival Time: 14:53"
+      "from": "Nashville",
+      "to": "Newburgh",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sarasota",
-      "to": "Cincinnati",
+      "from": "Nashville",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Self-driving, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $76.93"
+      "raw": "Self-driving, from Nashville to Newburgh, Duration: 1042.5016666666666 mins, Distance: 1498.384 km, Estimated Cost: $74.92"
     },
     {
       "mode": "taxi",
-      "from": "Sarasota",
-      "to": "Cincinnati",
+      "from": "Nashville",
+      "to": "Newburgh",
       "date": null,
-      "raw": "Taxi, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $1538.66"
+      "raw": "Taxi, from Nashville to Newburgh, Duration: 1042.5016666666666 mins, Distance: 1498.384 km, Estimated Cost: $1498.38"
     },
     {
       "mode": "flight",
-      "from": "Cincinnati",
-      "to": "Sarasota",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0379068, from Cincinnati to Sarasota, Departure Time: 21:20, Arrival Time: 23:32"
+      "from": "Newburgh",
+      "to": "Watertown",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Cincinnati",
-      "to": "Sarasota",
+      "from": "Newburgh",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Cincinnati to Sarasota, Duration: 1061.3583333333333 mins, Distance: 1538.9682 km, Estimated Cost: $76.95"
+      "raw": "Self-driving, from Newburgh to Watertown, Duration: 314.975 mins, Distance: 406.5794 km, Estimated Cost: $20.33"
     },
     {
       "mode": "taxi",
-      "from": "Cincinnati",
-      "to": "Sarasota",
+      "from": "Newburgh",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Cincinnati to Sarasota, Duration: 1061.3583333333333 mins, Distance: 1538.9682 km, Estimated Cost: $1538.97"
+      "raw": "Taxi, from Newburgh to Watertown, Duration: 314.975 mins, Distance: 406.5794 km, Estimated Cost: $406.58"
+    },
+    {
+      "mode": "flight",
+      "from": "Watertown",
+      "to": "Nashville",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Watertown",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Watertown to Nashville, Duration: 1038.9533333333334 mins, Distance: 1467.9079 km, Estimated Cost: $73.40"
+    },
+    {
+      "mode": "taxi",
+      "from": "Watertown",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Watertown to Nashville, Duration: 1038.9533333333334 mins, Distance: 1467.9079 km, Estimated Cost: $1467.91"
     }
   ]
 }

@@ -1,65 +1,91 @@
 {
   "idx": 242,
   "JSON": {
-    "org": "Nashville",
-    "dest": "New York",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Santa Fe",
+    "dest": "Colorado",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-07",
-      "2024-11-08",
-      "2024-11-09"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": null,
-      "room type": null,
+      "cuisine": "American",
+      "room type": "private room",
       "transportation": null,
       "event": null,
-      "attraction": null
+      "attraction": "Nature & Parks"
     },
-    "budget": 1950.0,
-    "query": "Plan a 3-day trip for 1 person from Nashville to New York from November 7th to November 9th, 2024, with a budget of $1,950.",
-    "level": "easy"
+    "budget": 2400.0,
+    "query": "Design a 5-day travel itinerary for 1 person traveling from Santa Fe to explore 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $2,400. Accommodations should include a private room, and the trip should feature American cuisine and visits to nature and parks.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Nashville to New York",
-      "transportation": "Taxi, from Nashville to New York, Duration: 994.2066666666667 mins, Distance: 1424.3848 km, Estimated Cost: $1424.38",
-      "breakfast": "Rainbow Room, New York",
-      "attraction": "Chelsea Market, New York; Times Square, New York",
-      "lunch": "Broadway Lounge, New York",
-      "dinner": "BOOM, New York",
-      "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+      "current_city": "from Santa Fe to Durango",
+      "transportation": "Taxi, from Santa Fe to Durango, Duration: 284.2033333333333 mins, Distance: 390.1447 km, Estimated Cost: $390.14",
+      "breakfast": "Bread, Durango",
+      "attraction": "The Colorado Trail, Durango",
+      "lunch": "Himalayan Kitchen, Durango",
+      "dinner": "Rice Monkeys, Durango",
+      "accommodation": "Private Bedroom and Bath - Walk Downtown!, Durango",
       "event": "-",
-      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Chelsea Market, visit from 11:30 to 12:27, nearest transit: W 14 ST/WASHINGTON ST, 131.35m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; Times Square, visit from 16:30 to 18:27, nearest transit: 7 AV/W 44 ST, 171.17m away; BOOM, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Minimal room 1 SofaBed + loft bed in Manhattan, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+      "point_of_interest_list": "Private Bedroom and Bath - Walk Downtown!, stay from 08:00 to 09:00, nearest transit: 5th Ave. & 3rd St., 81.00m away; Bread, visit from 09:25 to 10:16, nearest transit: Ptarmigan Center, 50.35m away; The Colorado Trail, visit from 11:30 to 16:35, nearest transit: Durango High School, 286.28m away; Himalayan Kitchen, visit from 13:57 to 14:56, nearest transit: Main Ave. & 9th St., 94.06m away; Rice Monkeys, visit from 19:51 to 21:00, nearest transit: Main Ave. & 11th St., 73.45m away; Private Bedroom and Bath - Walk Downtown!, stay from 22:15 to 08:00, nearest transit: 5th Ave. & 3rd St., 81.00m away."
     },
     {
       "days": 2,
-      "current_city": "from New York to New York",
-      "transportation": "Transfer, from New York to New York",
-      "breakfast": "Westway Diner, New York",
-      "attraction": "Brooklyn Bridge, New York; Rockefeller Center, New York",
-      "lunch": "-",
-      "dinner": "-",
-      "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+      "current_city": "from Durango to Durango",
+      "transportation": "Transfer, from Durango to Durango",
+      "breakfast": "College Drive Cafe, Durango",
+      "attraction": "Animas River Trail, Durango",
+      "lunch": "Mahogany Grille, Durango",
+      "dinner": "Carver Brewing Co., Durango",
+      "accommodation": "Animas Homestead, Durango",
       "event": "-",
-      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Westway Diner, visit from 09:25 to 10:16, nearest transit: 9 AV/W 44 ST, 44.32m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away; Minimal room 1 SofaBed + loft bed in Manhattan, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+      "point_of_interest_list": "Animas Homestead, stay from 08:00 to 09:00, nearest transit: Sunnyside, 18782.76m away; College Drive Cafe, visit from 09:25 to 10:16, nearest transit: College Dr. & 8th Ave, 166.74m away; Animas River Trail, visit from 11:30 to 16:50, nearest transit: Roosa Ave & 9th Street, 121.33m away; Mahogany Grille, visit from 13:57 to 14:56, nearest transit: Main Ave. & 7th St., 51.51m away; Carver Brewing Co., visit from 19:51 to 21:00, nearest transit: Main Ave. & 11th St., 100.92m away; Animas Homestead, stay from 22:15 to 08:00, nearest transit: Sunnyside, 18782.76m away."
     },
     {
       "days": 3,
-      "current_city": "from New York to Nashville",
-      "transportation": "Transfer, from New York to Nashville",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Durango to Colorado Springs",
+      "transportation": "Transfer, from Durango to Colorado Springs",
+      "breakfast": "Restaurant 1858, Colorado Springs",
+      "attraction": "Palmer Park, Colorado Springs",
+      "lunch": "Prime 25, Colorado Springs",
+      "dinner": "Cowboy Star, Colorado Springs",
+      "accommodation": "Casa De Mariposas, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "Animas Homestead, stay from 08:00 to 09:00, nearest transit: Sunnyside, 18782.76m away; Restaurant 1858, visit from 09:25 to 10:16, nearest transit: Moreno/Communication, 320.84m away; Palmer Park, visit from 11:30 to 16:35, nearest transit: Academy/Maizeland, 308.09m away; Prime 25, visit from 13:57 to 14:56, nearest transit: Brookside/Cascade, 181.96m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: Nevada/Eagle Rock, 261.61m away; Casa De Mariposas, stay from 22:15 to 08:00, nearest transit: Galley/Ford, 862.13m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Colorado Springs to Colorado Springs",
+      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
+      "breakfast": "Caspian Cafe Mediterranean, Colorado Springs",
+      "attraction": "Seven Falls, Colorado Springs",
+      "lunch": "Mountain Shadows Restaurant, Colorado Springs",
+      "dinner": "The Airplane Restaurant, Colorado Springs",
+      "accommodation": "Casa De Mariposas, Colorado Springs",
+      "event": "-",
+      "point_of_interest_list": "Casa De Mariposas, stay from 08:00 to 09:00, nearest transit: Galley/Ford, 862.13m away; Caspian Cafe Mediterranean, visit from 09:25 to 10:16, nearest transit: GoG/Northpark, 155.07m away; Seven Falls, visit from 11:30 to 16:50, nearest transit: Mesa/Lake, 2799.21m away; Mountain Shadows Restaurant, visit from 13:57 to 14:56, nearest transit: Colorado/23rd, 76.10m away; The Airplane Restaurant, visit from 19:51 to 21:00, nearest transit: Jet Wing/Fenton, 1384.10m away; Casa De Mariposas, stay from 22:15 to 08:00, nearest transit: Galley/Ford, 862.13m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Colorado Springs to Santa Fe",
+      "transportation": "Transfer, from Colorado Springs to Santa Fe",
+      "breakfast": "The Melting Pot, Colorado Springs",
+      "attraction": "Helen Hunt Falls, Colorado Springs",
+      "lunch": "TAPAteria, Colorado Springs",
+      "dinner": "The Rabbit Hole, Colorado Springs",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+      "point_of_interest_list": "Casa De Mariposas, stay from 08:00 to 09:00, nearest transit: Galley/Ford, 862.13m away; The Melting Pot, visit from 09:25 to 10:16, nearest transit: Cascade/Colorado, 160.80m away; Helen Hunt Falls, visit from 11:30 to 16:50, nearest transit: Mesa/Lake, 4478.97m away; TAPAteria, visit from 13:57 to 14:56, nearest transit: 26th/Cucharras, 107.17m away; The Rabbit Hole, visit from 19:51 to 21:00, nearest transit: Terminal, 121.11m away."
     }
   ]
 }

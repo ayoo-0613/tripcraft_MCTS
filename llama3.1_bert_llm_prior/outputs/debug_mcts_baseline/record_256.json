@@ -1,68 +1,94 @@
 {
   "idx": 256,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "Colorado Springs",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Martha's Vineyard",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 2,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "smoking",
       "cuisine": null,
-      "room type": "private room",
-      "transportation": null,
+      "room type": "entire home",
       "event": null,
       "attraction": [
-        "Sights & Landmarks",
-        "Nature & Parks"
-      ]
+        "Nature & Parks",
+        "Outdoor Activities"
+      ],
+      "transportation": null
     },
-    "budget": 1900.0,
-    "query": "Plan a 3-day trip for 2 people from Las Vegas to Colorado Springs from November 17th to November 19th, 2024, with a budget of $1,900. Accommodations should include a private room, and the itinerary should focus on visiting sights, landmarks, and nature parks.",
-    "level": "medium"
+    "budget": 3150.0,
+    "query": "Design a 5-day travel itinerary for 2 people starting from Martha's Vineyard and visiting 2 cities in New York between November 3rd and November 7th, 2024. The budget is $3,150. Accommodations should be an entire home and the plan should include attractions related to Nature & Parks and Outdoor Activities. Smoking should be allowed as per the house rules.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to Colorado Springs",
-      "transportation": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32",
-      "breakfast": "Restaurant 1858, Colorado Springs",
-      "attraction": "Palmer Park, Colorado Springs; Helen Hunt Falls, Colorado Springs",
-      "lunch": "Prime 25, Colorado Springs",
-      "dinner": "Caspian Cafe Mediterranean, Colorado Springs",
-      "accommodation": "Casa De Mariposas, Colorado Springs",
+      "current_city": "from Martha's Vineyard to Rochester",
+      "transportation": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88",
+      "breakfast": "Swan Market, Rochester",
+      "attraction": "Douglas Trail, Rochester",
+      "lunch": "Hunan Garden, Rochester",
+      "dinner": "Cafe Nucleus Rochester, Rochester",
+      "accommodation": "Guest home in Churchville, Rochester",
       "event": "-",
-      "point_of_interest_list": "Casa De Mariposas, stay from 08:00 to 09:00, nearest transit: Galley/Ford, 862.13m away; Restaurant 1858, visit from 09:25 to 10:16, nearest transit: Moreno/Communication, 320.84m away; Palmer Park, visit from 11:30 to 15:12, nearest transit: Academy/Maizeland, 308.09m away; Prime 25, visit from 13:57 to 14:56, nearest transit: Brookside/Cascade, 181.96m away; Helen Hunt Falls, visit from 16:30 to 20:27, nearest transit: Mesa/Lake, 4478.97m away; Caspian Cafe Mediterranean, visit from 19:51 to 21:00, nearest transit: GoG/Northpark, 155.07m away; Casa De Mariposas, stay from 22:15 to 08:00, nearest transit: Galley/Ford, 862.13m away."
+      "point_of_interest_list": "Guest home in Churchville, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away; Swan Market, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142628.73m away; Douglas Trail, visit from 11:30 to 16:50, nearest transit: 3rd Ave. SW & 2nd St. SW (North), 289.83m away; Hunan Garden, visit from 13:57 to 14:56, nearest transit: St. Mary's Hospital, 1030.16m away; Cafe Nucleus Rochester, visit from 19:51 to 21:00, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6491812.29m away; Guest home in Churchville, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away."
     },
     {
       "days": 2,
-      "current_city": "from Colorado Springs to Colorado Springs",
-      "transportation": "Transfer, from Colorado Springs to Colorado Springs",
-      "breakfast": "Cowboy Star, Colorado Springs",
-      "attraction": "Seven Falls, Colorado Springs; Seven Bridges Trail, Colorado Springs",
-      "lunch": "Mountain Shadows Restaurant, Colorado Springs",
-      "dinner": "-",
-      "accommodation": "The Master Suite at the Fisher House, Colorado Springs",
+      "current_city": "from Rochester to Rochester",
+      "transportation": "Transfer, from Rochester to Rochester",
+      "breakfast": "Jines Restaurant, Rochester",
+      "attraction": "Cobbs Hill Park, Rochester",
+      "lunch": "Don Vincenzo, Rochester",
+      "dinner": "Good Luck, Rochester",
+      "accommodation": "Luxury Entertaining 4BR House, Rochester",
       "event": "-",
-      "point_of_interest_list": "The Master Suite at the Fisher House, stay from 08:00 to 09:00, nearest transit: Uintah/24th, 223.24m away; Cowboy Star, visit from 09:25 to 10:16, nearest transit: Nevada/Eagle Rock, 261.61m away; Seven Falls, visit from 11:30 to 15:27, nearest transit: Mesa/Lake, 2799.21m away; Mountain Shadows Restaurant, visit from 13:57 to 14:56, nearest transit: Colorado/23rd, 76.10m away; Seven Bridges Trail, visit from 16:30 to 20:12, nearest transit: Mesa/Lake, 4548.45m away; The Master Suite at the Fisher House, stay from 22:15 to 08:00, nearest transit: Uintah/24th, 223.24m away."
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away; Jines Restaurant, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142527.42m away; Cobbs Hill Park, visit from 11:30 to 16:50, nearest transit: Winona 61 & Hwy. 14, 1142793.26m away; Don Vincenzo, visit from 13:57 to 14:56, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6492148.11m away; Good Luck, visit from 19:51 to 21:00, nearest transit: Winona 61 & Hwy. 14, 1141851.57m away; Luxury Entertaining 4BR House, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away."
     },
     {
       "days": 3,
-      "current_city": "from Colorado Springs to Las Vegas",
-      "transportation": "Transfer, from Colorado Springs to Las Vegas",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Rochester to Watertown",
+      "transportation": "Transfer, from Rochester to Watertown",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Charles River Greenway, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
+      "event": "-",
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Charles River Greenway, visit from 11:30 to 16:35, nearest transit: Northland Plaza, 418957.03m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Red Robin, Watertown",
+      "attraction": "Bramble Park Zoo, Watertown",
+      "lunch": "United China Restaurant, Watertown",
+      "dinner": "Fairground Inn, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Red Robin, visit from 09:25 to 10:16, nearest transit: Hannaford Foods, 63.20m away; Bramble Park Zoo, visit from 11:30 to 16:00, nearest transit: Target - Towne Center Parking, 1683726.61m away; United China Restaurant, visit from 13:57 to 14:56, nearest transit: Northland Plaza, 218.90m away; Fairground Inn, visit from 19:51 to 21:00, nearest transit: Coffeen VanDuzee, 215.08m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Watertown to Martha's Vineyard",
+      "transportation": "Transfer, from Watertown to Martha's Vineyard",
+      "breakfast": "The Crystal Restaurant, Watertown",
+      "attraction": "New York State Zoo at Thompson Park, Watertown",
+      "lunch": "Bistro 108, Watertown",
+      "dinner": "Texas Roadhouse, Watertown",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Master Suite at the Fisher House, stay from 08:00 to 09:00, nearest transit: Uintah/24th, 223.24m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; The Crystal Restaurant, visit from 09:25 to 10:16, nearest transit: Transfer Station, 208.03m away; New York State Zoo at Thompson Park, visit from 11:30 to 16:00, nearest transit: Northland Plaza, 962.27m away; Bistro 108, visit from 13:57 to 14:56, nearest transit: Transfer Station, 69.37m away; Texas Roadhouse, visit from 19:51 to 21:00, nearest transit: Walmart Outer - Arsenal Street Parking, 144.00m away."
     }
   ]
 }

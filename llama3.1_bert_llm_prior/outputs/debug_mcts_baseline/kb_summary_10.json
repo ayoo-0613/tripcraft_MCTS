@@ -2,89 +2,120 @@
   "idx": 10,
   "stages": [
     {
-      "city": "Cedar Rapids",
+      "city": "San Antonio",
       "counts": {
-        "attractions": 18,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 74,
-        "events": 2
+        "poi2transit": 75,
+        "events": 17
       }
     },
     {
-      "city": "Sioux City",
+      "city": "Houston",
       "counts": {
-        "attractions": 12,
+        "attractions": 20,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 67,
-        "events": 0
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 4
+      }
+    },
+    {
+      "city": "Amarillo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 12
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Atlanta",
-      "to": "Cedar Rapids",
-      "date": "2024-11-15",
-      "raw": "Flight Number: F0341002, from Atlanta to Cedar Rapids, Departure Time: 19:47, Arrival Time: 20:58"
+      "from": "Las Vegas",
+      "to": "San Antonio",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0003487, from Las Vegas to San Antonio, Departure Time: 15:11, Arrival Time: 19:31"
     },
     {
       "mode": "self-driving",
-      "from": "Atlanta",
-      "to": "Cedar Rapids",
+      "from": "Las Vegas",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Self-driving, from Atlanta to Cedar Rapids, Duration: 948.7716666666668 mins, Distance: 1347.778 km, Estimated Cost: $67.39"
+      "raw": "Self-driving, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $102.52"
     },
     {
       "mode": "taxi",
-      "from": "Atlanta",
-      "to": "Cedar Rapids",
+      "from": "Las Vegas",
+      "to": "San Antonio",
       "date": null,
-      "raw": "Taxi, from Atlanta to Cedar Rapids, Duration: 948.7716666666668 mins, Distance: 1347.778 km, Estimated Cost: $1347.78"
+      "raw": "Taxi, from Las Vegas to San Antonio, Duration: 1337.4416666666666 mins, Distance: 2050.3508 km, Estimated Cost: $2050.35"
     },
     {
       "mode": "flight",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
-      "date": "2024-11-17",
-      "raw": "-"
+      "from": "San Antonio",
+      "to": "Houston",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0034380, from San Antonio to Houston, Departure Time: 20:43, Arrival Time: 21:34"
     },
     {
       "mode": "self-driving",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
+      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
     },
     {
       "mode": "taxi",
-      "from": "Cedar Rapids",
-      "to": "Sioux City",
+      "from": "San Antonio",
+      "to": "Houston",
       "date": null,
-      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
     },
     {
       "mode": "flight",
-      "from": "Sioux City",
-      "to": "Atlanta",
-      "date": "2024-11-19",
-      "raw": "-"
+      "from": "Houston",
+      "to": "Amarillo",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0465913, from Houston to Amarillo, Departure Time: 10:11, Arrival Time: 12:03"
     },
     {
       "mode": "self-driving",
-      "from": "Sioux City",
-      "to": "Atlanta",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Self-driving, from Sioux City to Atlanta, Duration: 1193.4033333333332 mins, Distance: 1739.1845 km, Estimated Cost: $86.96"
+      "raw": "Self-driving, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $48.26"
     },
     {
       "mode": "taxi",
-      "from": "Sioux City",
-      "to": "Atlanta",
+      "from": "Houston",
+      "to": "Amarillo",
       "date": null,
-      "raw": "Taxi, from Sioux City to Atlanta, Duration: 1193.4033333333332 mins, Distance: 1739.1845 km, Estimated Cost: $1739.18"
+      "raw": "Taxi, from Houston to Amarillo, Duration: 649.19 mins, Distance: 965.1969 km, Estimated Cost: $965.20"
+    },
+    {
+      "mode": "flight",
+      "from": "Amarillo",
+      "to": "Las Vegas",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0064873, from Amarillo to Las Vegas, Departure Time: 10:48, Arrival Time: 10:47"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Amarillo",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $69.05"
+    },
+    {
+      "mode": "taxi",
+      "from": "Amarillo",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Amarillo to Las Vegas, Duration: 893.8033333333333 mins, Distance: 1381.0737 km, Estimated Cost: $1381.07"
     }
   ]
 }

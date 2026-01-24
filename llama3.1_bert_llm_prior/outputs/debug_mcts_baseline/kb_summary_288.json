@@ -2,58 +2,89 @@
   "idx": 288,
   "stages": [
     {
-      "city": "Baltimore",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Monterey",
+      "counts": {
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 8
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Miami",
-      "to": "Baltimore",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31"
+      "from": "Reno",
+      "to": "Los Angeles",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0093879, from Reno to Los Angeles, Departure Time: 10:37, Arrival Time: 11:56"
     },
     {
       "mode": "self-driving",
-      "from": "Miami",
-      "to": "Baltimore",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Self-driving, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $87.74"
+      "raw": "Self-driving, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $37.86"
     },
     {
       "mode": "taxi",
-      "from": "Miami",
-      "to": "Baltimore",
+      "from": "Reno",
+      "to": "Los Angeles",
       "date": null,
-      "raw": "Taxi, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $1754.86"
+      "raw": "Taxi, from Reno to Los Angeles, Duration: 576.4733333333334 mins, Distance: 757.2647 km, Estimated Cost: $757.26"
     },
     {
       "mode": "flight",
-      "from": "Baltimore",
-      "to": "Miami",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0039090, from Baltimore to Miami, Departure Time: 21:04, Arrival Time: 23:55"
+      "from": "Los Angeles",
+      "to": "Monterey",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0456627, from Los Angeles to Monterey, Departure Time: 09:32, Arrival Time: 10:43"
     },
     {
       "mode": "self-driving",
-      "from": "Baltimore",
-      "to": "Miami",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Self-driving, from Baltimore to Miami, Duration: 1218.4983333333332 mins, Distance: 1756.7002 km, Estimated Cost: $87.84"
+      "raw": "Self-driving, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $22.61"
     },
     {
       "mode": "taxi",
-      "from": "Baltimore",
-      "to": "Miami",
+      "from": "Los Angeles",
+      "to": "Monterey",
       "date": null,
-      "raw": "Taxi, from Baltimore to Miami, Duration: 1218.4983333333332 mins, Distance: 1756.7002 km, Estimated Cost: $1756.70"
+      "raw": "Taxi, from Los Angeles to Monterey, Duration: 361.0366666666667 mins, Distance: 452.2186 km, Estimated Cost: $452.22"
+    },
+    {
+      "mode": "flight",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": "2024-11-21",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Self-driving, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $28.35"
+    },
+    {
+      "mode": "taxi",
+      "from": "Monterey",
+      "to": "Reno",
+      "date": null,
+      "raw": "Taxi, from Monterey to Reno, Duration: 443.62166666666667 mins, Distance: 567.0569 km, Estimated Cost: $567.06"
     }
   ]
 }

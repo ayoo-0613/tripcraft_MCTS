@@ -1,94 +1,117 @@
 {
   "idx": 107,
   "JSON": {
-    "org": "Las Vegas",
-    "dest": "California",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Chicago",
+    "dest": "Iowa",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
-      "2024-11-17",
-      "2024-11-18",
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09"
     ],
     "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": [
-        "Italian",
-        "Mexican"
-      ],
+      "house rule": "smoking",
+      "cuisine": null,
       "room type": null,
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 1800.0,
-    "query": "Plan a 5-day trip for 1 person traveling from Las Vegas to explore 2 cities in California between November 17th and November 21st, 2024. The budget is $1,800. Include dining options with Italian and Mexican cuisine.",
+    "budget": 7500.0,
+    "query": "Plan a 7-day trip for 1 person from Chicago to explore 3 cities in Iowa between November 3rd and November 9th, 2024. The budget is $7,500, and accommodations should allow smoking.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Las Vegas to San Luis Obispo",
-      "transportation": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40",
-      "breakfast": "Cafe Roma, San Luis Obispo",
-      "attraction": "Wolff Vineyards, San Luis Obispo",
-      "lunch": "Sidecar, San Luis Obispo",
-      "dinner": "Luna Red, San Luis Obispo",
-      "accommodation": "Harris House, San Luis Obispo",
+      "current_city": "from Chicago to Mason City",
+      "transportation": "Flight Number: F0453854, from Chicago to Mason City, Departure Time: 13:53, Arrival Time: 15:13",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Birdsall's, Mason City",
+      "accommodation": "Cozy windfall, Mason City",
       "event": "-",
-      "point_of_interest_list": "Harris House, stay from 08:00 to 09:00, nearest transit: Higuera & South, 520.23m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Wolff Vineyards, visit from 11:30 to 14:50, nearest transit: Higuera & Prado, 7989.92m away; Sidecar, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 54.77m away; Luna Red, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 256.30m away; Harris House, stay from 22:15 to 08:00, nearest transit: Higuera & South, 520.23m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Cozy windfall, stay from 15:43 to 16:43, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Birdsall's, visit from 19:51 to 21:00, nearest transit: Fareway, 155.13m away; Cozy windfall, stay from 22:15 to 08:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away."
     },
     {
       "days": 2,
-      "current_city": "from San Luis Obispo to San Luis Obispo",
-      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
-      "breakfast": "Flour House, San Luis Obispo",
-      "attraction": "Farmers Market, San Luis Obispo",
-      "lunch": "Thai Palace, San Luis Obispo",
-      "dinner": "Eureka!, San Luis Obispo",
-      "accommodation": "Wilderness Cottage, San Luis Obispo",
+      "current_city": "from Mason City to Mason City",
+      "transportation": "Transfer, from Mason City to Mason City",
+      "breakfast": "Mason Jar, Mason City",
+      "attraction": "Rancho Deluxe, Mason City",
+      "lunch": "China Buffet, Mason City",
+      "dinner": "The Quarry, Mason City",
+      "accommodation": "Cozy windfall, Mason City",
       "event": "-",
-      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Flour House, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 142.15m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Eureka!, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 184.87m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Mason Jar, visit from 09:25 to 10:16, nearest transit: 24th St. SW and S Jefferson Ave., 464148.03m away; Rancho Deluxe, visit from 11:30 to 15:20, nearest transit: N Connecticut Ave. and 2nd St. NE, 111.40m away; China Buffet, visit from 13:57 to 14:56, nearest transit: S Taft Ave. and Frontage Rd. SW, 126.74m away; The Quarry, visit from 19:51 to 21:00, nearest transit: Central Park, 118.96m away; Cozy windfall, stay from 22:15 to 08:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away."
     },
     {
       "days": 3,
-      "current_city": "from San Luis Obispo to Fresno",
-      "transportation": "Transfer, from San Luis Obispo to Fresno",
-      "breakfast": "Fresno, Fresno",
-      "attraction": "Island Waterpark, Fresno",
-      "lunch": "Parma, Fresno",
-      "dinner": "Five, Fresno",
-      "accommodation": "The Dream Room, Fresno",
+      "current_city": "from Mason City to Fort Dodge",
+      "transportation": "Flight Number: F0457102, from Mason City to Fort Dodge, Departure Time: 16:01, Arrival Time: 16:52",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Subway, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Fresno, visit from 09:25 to 10:16, nearest transit: House| Pool | Arcade Games |Family Friendly SE HERNDON - MARKS, 557.44m away; Island Waterpark, visit from 11:30 to 17:20, nearest transit: SW SHAW - POLK, 867.35m away; Parma, visit from 13:57 to 14:56, nearest transit: SW Palm - Herndon, 199.36m away; Five, visit from 19:51 to 21:00, nearest transit: CHAMPLAIN - PERRIN, 74.64m away; The Dream Room, stay from 22:15 to 08:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away."
+      "point_of_interest_list": "Cozy windfall, stay from 08:00 to 09:00, nearest transit: S President Ave. and 7th St. SW, 101.64m away; Subway, visit from 19:51 to 21:00, nearest transit: A St and Ave O W, 101.37m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 4,
-      "current_city": "from Fresno to Fresno",
-      "transportation": "Transfer, from Fresno to Fresno",
-      "breakfast": "Elbow Room, Fresno",
-      "attraction": "Woodward Regional Park, Fresno",
-      "lunch": "Train Depot, Fresno",
-      "dinner": "Dog House Grill, Fresno",
-      "accommodation": "The Dream Room, Fresno",
+      "current_city": "from Fort Dodge to Fort Dodge",
+      "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+      "breakfast": "Village Inn, Fort Dodge",
+      "attraction": "Community Orchard, Fort Dodge",
+      "lunch": "Pizza Hut, Fort Dodge",
+      "dinner": "Sports Page, Fort Dodge",
+      "accommodation": "Peaceful Rest Apartment, Fort Dodge",
       "event": "-",
-      "point_of_interest_list": "The Dream Room, stay from 08:00 to 09:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away; Elbow Room, visit from 09:25 to 10:16, nearest transit: NW PALM - SHAW, 192.71m away; Woodward Regional Park, visit from 11:30 to 16:50, nearest transit: SW PERRIN - FOXHILL, 1167.50m away; Train Depot, visit from 13:57 to 14:56, nearest transit: NW ASHLAN - FIRST, 116.67m away; Dog House Grill, visit from 19:51 to 21:00, nearest transit: SW SHAW - CHESTNUT, 40.76m away; The Dream Room, stay from 22:15 to 08:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away."
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Village Inn, visit from 09:25 to 10:16, nearest transit: N 15th Ave and 20th Ave N, 67.45m away; Community Orchard, visit from 11:30 to 15:20, nearest transit: Village Green, 3093.21m away; Pizza Hut, visit from 13:57 to 14:56, nearest transit: Crossroads Mall Entrance/Younkers, 198.18m away; Sports Page, visit from 19:51 to 21:00, nearest transit: Evergreen Estates, 68.77m away; Peaceful Rest Apartment, stay from 22:15 to 08:00, nearest transit: Fort Frenzy, 27513.28m away."
     },
     {
       "days": 5,
-      "current_city": "from Fresno to Las Vegas",
-      "transportation": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30",
-      "breakfast": "Red Apple Cafe, Fresno",
-      "attraction": "Bad Axe Throwing Fresno, Fresno",
-      "lunch": "Fig Garden Village, Fresno",
+      "current_city": "from Fort Dodge to Cedar Rapids",
+      "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
+      "breakfast": "Zeppelins, Cedar Rapids",
+      "attraction": "Brucemore, Cedar Rapids",
+      "lunch": "350 First, Cedar Rapids",
+      "dinner": "The Map Room, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Peaceful Rest Apartment, stay from 08:00 to 09:00, nearest transit: Fort Frenzy, 27513.28m away; Zeppelins, visit from 09:25 to 10:16, nearest transit: The Fountains, 74.63m away; Brucemore, visit from 11:30 to 15:20, nearest transit: 1st Ave at Brucemore, 274.76m away; 350 First, visit from 13:57 to 14:56, nearest transit: 3rd St & 2nd Ave, 159.53m away; The Map Room, visit from 19:51 to 21:00, nearest transit: 5th Ave & RR tracks, 111.63m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from Cedar Rapids to Cedar Rapids",
+      "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+      "breakfast": "Irish Democrat, Cedar Rapids",
+      "attraction": "CSPS, Cedar Rapids",
+      "lunch": "The Breakfast House, Cedar Rapids",
+      "dinner": "The Blind Pig, Cedar Rapids",
+      "accommodation": "Charming Convenience, Cedar Rapids",
+      "event": "-",
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Irish Democrat, visit from 09:25 to 10:16, nearest transit: 1st Ave & 32nd St, 46.22m away; CSPS, visit from 11:30 to 14:50, nearest transit: 2nd St & 11th Ave, 75.03m away; The Breakfast House, visit from 13:57 to 14:56, nearest transit: 812 6th St (Jim's Foods), 38.50m away; The Blind Pig, visit from 19:51 to 21:00, nearest transit: 3335 Center Point Rd (Papa Murph), 140.18m away; Charming Convenience, stay from 22:15 to 08:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from Cedar Rapids to Chicago",
+      "transportation": "Flight Number: F0388768, from Cedar Rapids to Chicago, Departure Time: 16:23, Arrival Time: 17:38",
+      "breakfast": "Lightworks Cafe, Cedar Rapids",
+      "attraction": "Mount Trashmore, Cedar Rapids",
+      "lunch": "The Class Act Restaurant, Cedar Rapids",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "The Dream Room, stay from 08:00 to 09:00, nearest transit: SW CEDAR - ALLUVIAL, 582.63m away; Red Apple Cafe, visit from 09:25 to 10:16, nearest transit: NW HERNDON - INGRAM, 80.03m away; Bad Axe Throwing Fresno, visit from 11:30 to 13:50, nearest transit: SW Palm - Shields, 28.41m away; Fig Garden Village, visit from 13:57 to 14:56, nearest transit: NW PALM - SHAW, 83.73m away."
+      "point_of_interest_list": "Charming Convenience, stay from 08:00 to 09:00, nearest transit: Diagonal Dr & 3rd St, 134.35m away; Lightworks Cafe, visit from 09:25 to 10:16, nearest transit: 6th St & 6th Ave, 178.56m away; Mount Trashmore, visit from 11:30 to 16:10, nearest transit: C St & Rapids Ave, 656.14m away; The Class Act Restaurant, visit from 13:57 to 14:56, nearest transit: 76th Ave Dr & Kirkwood Hotel, 132.89m away."
     }
   ]
 }

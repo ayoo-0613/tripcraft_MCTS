@@ -2,89 +2,120 @@
   "idx": 49,
   "stages": [
     {
-      "city": "Cedar Rapids",
+      "city": "Memphis",
       "counts": {
-        "attractions": 18,
+        "attractions": 15,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 74,
-        "events": 22
+        "poi2transit": 70,
+        "events": 12
       }
     },
     {
-      "city": "Fort Dodge",
+      "city": "Nashville",
       "counts": {
-        "attractions": 7,
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 63,
-        "events": 12
+        "poi2transit": 75,
+        "events": 6
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0359670, from Denver to Cedar Rapids, Departure Time: 10:36, Arrival Time: 13:47"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": null,
-      "raw": "Self-driving, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $64.27"
-    },
-    {
-      "mode": "taxi",
-      "from": "Denver",
-      "to": "Cedar Rapids",
-      "date": null,
-      "raw": "Taxi, from Denver to Cedar Rapids, Duration: 834.1466666666668 mins, Distance: 1285.4643999999998 km, Estimated Cost: $1285.46"
-    },
-    {
-      "mode": "flight",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
-      "date": "2024-11-10",
+      "from": "Tampa",
+      "to": "Memphis",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
+      "from": "Tampa",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
+      "raw": "Self-driving, from Tampa to Memphis, Duration: 895.8066666666667 mins, Distance: 1240.1459 km, Estimated Cost: $62.01"
     },
     {
       "mode": "taxi",
-      "from": "Cedar Rapids",
-      "to": "Fort Dodge",
+      "from": "Tampa",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+      "raw": "Taxi, from Tampa to Memphis, Duration: 895.8066666666667 mins, Distance: 1240.1459 km, Estimated Cost: $1240.15"
     },
     {
       "mode": "flight",
-      "from": "Fort Dodge",
-      "to": "Denver",
-      "date": "2024-11-12",
-      "raw": "Flight Number: F3406692, from Fort Dodge to Denver, Departure Time: 18:17, Arrival Time: 18:58"
+      "from": "Memphis",
+      "to": "Nashville",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Fort Dodge",
-      "to": "Denver",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $56.17"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Fort Dodge",
-      "to": "Denver",
+      "from": "Memphis",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Fort Dodge to Denver, Duration: 763.2483333333333 mins, Distance: 1123.3499 km, Estimated Cost: $1123.35"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $10.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Chattanooga",
+      "date": null,
+      "raw": "Taxi, from Nashville to Chattanooga, Duration: 148.23666666666668 mins, Distance: 211.4268 km, Estimated Cost: $211.43"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": "2024-11-13",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Tampa, Duration: 628.1083333333333 mins, Distance: 921.7478000000001 km, Estimated Cost: $46.09"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Tampa",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Tampa, Duration: 628.1083333333333 mins, Distance: 921.7478000000001 km, Estimated Cost: $921.75"
     }
   ]
 }

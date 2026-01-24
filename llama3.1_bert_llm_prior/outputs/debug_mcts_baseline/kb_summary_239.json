@@ -2,58 +2,89 @@
   "idx": 239,
   "stages": [
     {
-      "city": "Long Beach",
+      "city": "Memphis",
       "counts": {
-        "attractions": 1,
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 14
+      }
+    },
+    {
+      "city": "Chattanooga",
+      "counts": {
+        "attractions": 14,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 56,
-        "events": 0
+        "poi2transit": 69,
+        "events": 29
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Chicago",
-      "to": "Long Beach",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0097982, from Chicago to Long Beach, Departure Time: 08:54, Arrival Time: 11:11"
+      "from": "Dallas",
+      "to": "Memphis",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0035794, from Dallas to Memphis, Departure Time: 15:34, Arrival Time: 16:44"
     },
     {
       "mode": "self-driving",
-      "from": "Chicago",
-      "to": "Long Beach",
+      "from": "Dallas",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach"
+      "raw": "Self-driving, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $36.47"
     },
     {
       "mode": "taxi",
-      "from": "Chicago",
-      "to": "Long Beach",
+      "from": "Dallas",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Chicago to Long Beach, Not feasible to drive from Chicago to Long Beach"
+      "raw": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47"
     },
     {
       "mode": "flight",
-      "from": "Long Beach",
-      "to": "Chicago",
-      "date": "2024-11-27",
-      "raw": "Flight Number: F0024770, from Long Beach to Chicago, Departure Time: 11:58, Arrival Time: 17:23"
+      "from": "Memphis",
+      "to": "Chattanooga",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Long Beach",
-      "to": "Chicago",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Long Beach to Chicago, Not feasible to drive from Long Beach to Chicago"
+      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
     },
     {
       "mode": "taxi",
-      "from": "Long Beach",
-      "to": "Chicago",
+      "from": "Memphis",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Long Beach to Chicago, Not feasible to drive from Long Beach to Chicago"
+      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
+    },
+    {
+      "mode": "flight",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0385554, from Chattanooga to Dallas, Departure Time: 05:56, Arrival Time: 07:10"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $63.74"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chattanooga",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $1274.84"
     }
   ]
 }

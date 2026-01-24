@@ -2,58 +2,89 @@
   "idx": 296,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Sacramento",
       "counts": {
-        "attractions": 19,
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Santa Rosa",
+      "counts": {
+        "attractions": 20,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 14
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Oklahoma City",
-      "to": "Seattle",
-      "date": "2024-11-01",
-      "raw": "Flight Number: F0240520, from Oklahoma City to Seattle, Departure Time: 18:33, Arrival Time: 20:36"
+      "from": "Tucson",
+      "to": "Sacramento",
+      "date": "2024-11-24",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Oklahoma City",
-      "to": "Seattle",
+      "from": "Tucson",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Oklahoma City to Seattle, Not feasible to drive from Oklahoma City to Seattle"
+      "raw": "Self-driving, from Tucson to Sacramento, Duration: 938.9416666666667 mins, Distance: 1395.5384 km, Estimated Cost: $69.78"
     },
     {
       "mode": "taxi",
-      "from": "Oklahoma City",
-      "to": "Seattle",
+      "from": "Tucson",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Oklahoma City to Seattle, Not feasible to drive from Oklahoma City to Seattle"
+      "raw": "Taxi, from Tucson to Sacramento, Duration: 938.9416666666667 mins, Distance: 1395.5384 km, Estimated Cost: $1395.54"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Oklahoma City",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0241794, from Seattle to Oklahoma City, Departure Time: 12:32, Arrival Time: 17:51"
+      "from": "Sacramento",
+      "to": "Santa Rosa",
+      "date": "2024-11-26",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Oklahoma City",
+      "from": "Sacramento",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Self-driving, from Seattle to Oklahoma City, Not feasible to drive from Seattle to Oklahoma City"
+      "raw": "Self-driving, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $7.60"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Oklahoma City",
+      "from": "Sacramento",
+      "to": "Santa Rosa",
       "date": null,
-      "raw": "Taxi, from Seattle to Oklahoma City, Not feasible to drive from Seattle to Oklahoma City"
+      "raw": "Taxi, from Sacramento to Santa Rosa, Duration: 118.51666666666667 mins, Distance: 151.93779999999998 km, Estimated Cost: $151.94"
+    },
+    {
+      "mode": "flight",
+      "from": "Santa Rosa",
+      "to": "Tucson",
+      "date": "2024-11-28",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Santa Rosa",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Self-driving, from Santa Rosa to Tucson, Duration: 995.8616666666666 mins, Distance: 1466.2021000000002 km, Estimated Cost: $73.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "Santa Rosa",
+      "to": "Tucson",
+      "date": null,
+      "raw": "Taxi, from Santa Rosa to Tucson, Duration: 995.8616666666666 mins, Distance: 1466.2021000000002 km, Estimated Cost: $1466.20"
     }
   ]
 }

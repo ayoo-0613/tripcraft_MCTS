@@ -2,58 +2,89 @@
   "idx": 188,
   "stages": [
     {
-      "city": "Tucson",
+      "city": "San Luis Obispo",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "Sacramento",
       "counts": {
         "attractions": 20,
         "restaurants": 35,
         "accommodations": 18,
         "poi2transit": 75,
-        "events": 30
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Tucson",
-      "date": "2024-11-01",
-      "raw": "Flight Number: F0003236, from Houston to Tucson, Departure Time: 13:57, Arrival Time: 14:23"
+      "from": "Bend",
+      "to": "San Luis Obispo",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Tucson",
+      "from": "Bend",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $85.71"
+      "raw": "Self-driving, from Bend to San Luis Obispo, Duration: 838.455 mins, Distance: 1147.4142 km, Estimated Cost: $57.37"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Tucson",
+      "from": "Bend",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Houston to Tucson, Duration: 1073.84 mins, Distance: 1714.1581 km, Estimated Cost: $1714.16"
+      "raw": "Taxi, from Bend to San Luis Obispo, Duration: 838.455 mins, Distance: 1147.4142 km, Estimated Cost: $1147.41"
     },
     {
       "mode": "flight",
-      "from": "Tucson",
-      "to": "Houston",
-      "date": "2024-11-03",
-      "raw": "Flight Number: F0034936, from Tucson to Houston, Departure Time: 13:05, Arrival Time: 17:07"
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Tucson",
-      "to": "Houston",
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Self-driving, from Tucson to Houston, Duration: 1072.2366666666667 mins, Distance: 1709.0013999999999 km, Estimated Cost: $85.45"
+      "raw": "Self-driving, from San Luis Obispo to Sacramento, Duration: 348.25166666666667 mins, Distance: 453.3913 km, Estimated Cost: $22.67"
     },
     {
       "mode": "taxi",
-      "from": "Tucson",
-      "to": "Houston",
+      "from": "San Luis Obispo",
+      "to": "Sacramento",
       "date": null,
-      "raw": "Taxi, from Tucson to Houston, Duration: 1072.2366666666667 mins, Distance: 1709.0013999999999 km, Estimated Cost: $1709.00"
+      "raw": "Taxi, from San Luis Obispo to Sacramento, Duration: 348.25166666666667 mins, Distance: 453.3913 km, Estimated Cost: $453.39"
+    },
+    {
+      "mode": "flight",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": null,
+      "raw": "Self-driving, from Sacramento to Bend, Duration: 502.39833333333337 mins, Distance: 701.3331999999999 km, Estimated Cost: $35.07"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sacramento",
+      "to": "Bend",
+      "date": null,
+      "raw": "Taxi, from Sacramento to Bend, Duration: 502.39833333333337 mins, Distance: 701.3331999999999 km, Estimated Cost: $701.33"
     }
   ]
 }

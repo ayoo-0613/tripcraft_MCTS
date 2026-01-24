@@ -1,65 +1,91 @@
 {
   "idx": 233,
   "JSON": {
-    "org": "Shreveport",
-    "dest": "Los Angeles",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Bend",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-25",
-      "2024-11-26",
-      "2024-11-27"
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21",
+      "2024-11-22"
     ],
-    "people_number": 6,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
       "room type": null,
+      "transportation": "no self-driving",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 14250.0,
-    "query": "Plan a 3-day trip for 6 people from Shreveport to Los Angeles from November 25th to November 27th, 2024, with a budget of $14,250.",
+    "budget": 2250.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Bend to explore 2 cities in California between November 18th and November 22nd, 2024. The budget is $2,250, and transportation should not involve self-driving.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Shreveport to Los Angeles",
-      "transportation": "Taxi, from Shreveport to Los Angeles, Not feasible to drive from Shreveport to Los Angeles",
-      "breakfast": "Providence, Los Angeles",
-      "attraction": "Hollywood Sign, Los Angeles; The Grove, Los Angeles",
-      "lunch": "Bestia, Los Angeles",
-      "dinner": "Water Grill, Los Angeles",
-      "accommodation": "Hollywood Hideaway, Los Angeles",
-      "event": "-",
-      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Providence, visit from 09:25 to 10:16, nearest transit: Melrose & Gower (Westbound), 749.15m away; Hollywood Sign, visit from 11:30 to 13:57, nearest transit: Beachwood & Westshire, 1574.74m away; Bestia, visit from 13:57 to 14:56, nearest transit: Molino St & Palmetto St, 869.23m away; The Grove, visit from 16:30 to 17:27, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; Water Grill, visit from 19:51 to 21:00, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
-    },
-    {
-      "days": 2,
-      "current_city": "from Los Angeles to Los Angeles",
-      "transportation": "Transfer, from Los Angeles to Los Angeles",
-      "breakfast": "Perch, Los Angeles",
-      "attraction": "Citadel Outlets, Los Angeles; Venice Beach, Los Angeles",
-      "lunch": "Spire 73, Los Angeles",
-      "dinner": "The Lobster, Los Angeles",
-      "accommodation": "Hollywood Hideaway, Los Angeles",
-      "event": "-",
-      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Perch, visit from 09:25 to 10:16, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Citadel Outlets, visit from 11:30 to 12:27, nearest transit: Herbert Ave & Whittier Blvd (4354), 3385.72m away; Spire 73, visit from 13:57 to 14:56, nearest transit: Figueroa St & 7th St, 109.52m away; Venice Beach, visit from 16:30 to 20:12, nearest transit: Pacific Ave & Washington Blvd (Arriving), 973.45m away; The Lobster, visit from 19:51 to 21:00, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
-    },
-    {
-      "days": 3,
-      "current_city": "from Los Angeles to Shreveport",
-      "transportation": "Flight Number: F2561207, from Los Angeles to Shreveport, Departure Time: 06:29, Arrival Time: 11:47",
+      "current_city": "from Bend to San Diego",
+      "transportation": "Flight Number: F0449616, from Bend to San Diego, Departure Time: 14:15, Arrival Time: 16:31",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
-      "dinner": "-",
+      "dinner": "Casa Guadalajara, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 17:01 to 18:01, nearest transit: Mission Bl & Sapphire St, 920.18m away; Casa Guadalajara, visit from 19:51 to 21:00, nearest transit: Taylor St & Juan St, 50.62m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Cafe Coyote, San Diego",
+      "attraction": "SeaWorld, San Diego; Little Italy, San Diego",
+      "lunch": "World Famous, San Diego",
+      "dinner": "Morning Glory, San Diego",
+      "accommodation": "Private Room & Bath! Steps to Restaurants & Shops, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Private Room & Bath! Steps to Restaurants & Shops, stay from 08:00 to 09:00, nearest transit: Adams Av & Hawley Bl, 292.57m away; Cafe Coyote, visit from 09:25 to 10:16, nearest transit: Juan St & Harney St, 216.77m away; SeaWorld, visit from 11:30 to 14:57, nearest transit: SeaWorld, 299.84m away; World Famous, visit from 13:57 to 14:56, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; Little Italy, visit from 16:30 to 18:27, nearest transit: Kettner Bl & Grape St, 155.04m away; Morning Glory, visit from 19:51 to 21:00, nearest transit: India St & Cedar St, 92.52m away; Private Room & Bath! Steps to Restaurants & Shops, stay from 22:15 to 08:00, nearest transit: Adams Av & Hawley Bl, 292.57m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from San Diego to Monterey",
+      "transportation": "Flight Number: F0485454, from San Diego to Monterey, Departure Time: 10:37, Arrival Time: 11:55",
+      "breakfast": "-",
+      "attraction": "Perry House, Monterey",
+      "lunch": "Fish Hopper, Monterey",
+      "dinner": "Tidal Coffee, Monterey",
+      "accommodation": "The Mermaid Bungalow, Monterey",
+      "event": "-",
+      "point_of_interest_list": "Private Room & Bath! Steps to Restaurants & Shops, stay from 08:00 to 09:00, nearest transit: Adams Av & Hawley Bl, 292.57m away; Perry House, visit from 11:30 to 14:13, nearest transit: Pacific / Scott, 79.46m away; Fish Hopper, visit from 13:57 to 14:56, nearest transit: Cannery Row / Prescott, 76.06m away; Tidal Coffee, visit from 19:51 to 21:00, nearest transit: Cannery Row / Drake, 46.73m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "Transfer, from Monterey to Monterey",
+      "breakfast": "Crystal Fish, Monterey",
+      "attraction": "MST Trolley, Monterey; 17-Mile Drive, Monterey",
+      "lunch": "Cafe Fina, Monterey",
+      "dinner": "Old Monterey Cafe, Monterey",
+      "accommodation": "The Mermaid Bungalow, Monterey",
+      "event": "-",
+      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Crystal Fish, visit from 09:25 to 10:16, nearest transit: Lighthouse / Hoffman, 98.34m away; MST Trolley, visit from 11:30 to 12:27, nearest transit: Cannery Row / Prescott, 18.07m away; Cafe Fina, visit from 13:57 to 14:56, nearest transit: Olivier St / 155 MPR Trail, 146.98m away; 17-Mile Drive, visit from 16:30 to 19:27, nearest transit: Asilomar - Conference Center, 2694.67m away; Old Monterey Cafe, visit from 19:51 to 21:00, nearest transit: Monterey Transit Plaza / Gate 3 Pearl, 45.93m away; The Mermaid Bungalow, stay from 22:15 to 08:00, nearest transit: Fremont / Francis Avenue, 146.00m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Monterey to Bend",
+      "transportation": "Transfer, from Monterey to Bend",
+      "breakfast": "Montrio, Monterey",
+      "attraction": "Coast Guard Pier, Monterey; Colton Hall Museum, Monterey",
+      "lunch": "Chart House, Monterey",
+      "dinner": "First Awakenings, Monterey",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Hollywood Hideaway, stay from 04:59 to 05:59, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+      "point_of_interest_list": "The Mermaid Bungalow, stay from 08:00 to 09:00, nearest transit: Fremont / Francis Avenue, 146.00m away; Montrio, visit from 09:25 to 10:16, nearest transit: Pacific / Parking Garage, 71.33m away; Coast Guard Pier, visit from 11:30 to 13:57, nearest transit: Foam / Reeside, 384.16m away; Chart House, visit from 13:57 to 14:56, nearest transit: Cannery Row / Drake, 139.04m away; Colton Hall Museum, visit from 16:30 to 18:57, nearest transit: Cass / El Dorado, 216.07m away; First Awakenings, visit from 19:51 to 21:00, nearest transit: David / Hawthorne, 56.63m away."
     }
   ]
 }

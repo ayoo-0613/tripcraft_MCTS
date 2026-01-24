@@ -1,93 +1,121 @@
 {
   "idx": 135,
   "JSON": {
-    "org": "Dallas",
-    "dest": "Tennessee",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Boston",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-02",
+      "2024-11-03",
       "2024-11-04",
       "2024-11-05",
       "2024-11-06",
       "2024-11-07",
       "2024-11-08"
     ],
-    "people_number": 4,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
-      "room type": "entire home",
-      "transportation": "no flight",
-      "event": [
-        "Arts & Theatre"
+      "house rule": "smoking",
+      "cuisine": [
+        "Chinese",
+        "American",
+        "Japanese"
       ],
-      "attraction": null
+      "room type": "private room",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": "Museums"
     },
-    "budget": 6000.0,
-    "query": "Design a 5-day travel itinerary for 4 people departing from Dallas to visit 2 cities in Tennessee from November 4th to November 8th, 2024. The budget is $6,000. Accommodations should be in an entire home, and the trip should avoid flights. Include events related to arts and theatre in the plan.",
+    "budget": 11250.0,
+    "query": "Design a 7-day travel itinerary for 1 person traveling from Boston to explore 3 cities in California between November 2nd and November 8th, 2024. The budget is $11,250. Accommodations should include a private room and adhere to smoking rules. The plan should feature visits to museums and dining options that include Chinese, American, and Japanese cuisines. Transportation should not involve self-driving.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Dallas to Memphis",
-      "transportation": "Taxi, from Dallas to Memphis, Duration: 476.3366666666667 mins, Distance: 729.4693000000001 km, Estimated Cost: $729.47",
-      "breakfast": "Arcade Restaurant, Memphis",
-      "attraction": "Graceland, Memphis; Sun Studio, Memphis",
-      "lunch": "Majestic Grille, Memphis",
-      "dinner": "Interstate Barbecue, Memphis",
-      "accommodation": "Crosstown Cottage, Memphis",
-      "event": "A Beautiful Noise (Touring), Memphis",
-      "point_of_interest_list": "Crosstown Cottage, stay from 08:00 to 09:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away; Arcade Restaurant, visit from 09:25 to 10:16, nearest transit: GE PATTERSON@MAIN (Central Station), 56.82m away; Graceland, visit from 11:30 to 13:57, nearest transit: ELVIS PRESLEY BLVD@DOLAN DR, 199.90m away; Majestic Grille, visit from 13:57 to 14:56, nearest transit: PEABODY-MAIN/TRO NB, 40.00m away; Sun Studio, visit from 16:30 to 18:57, nearest transit: UNION AVE@MARSHALL AVE, 90.18m away; Interstate Barbecue, visit from 19:51 to 21:00, nearest transit: MALLORY@THIRD, 92.75m away; Crosstown Cottage, stay from 22:15 to 08:00, nearest transit: N PARKWAY@STONEWALL, 456.50m away."
+      "current_city": "from Boston to San Francisco",
+      "transportation": "Taxi, from Boston to San Francisco, Not feasible to drive from Boston to San Francisco",
+      "breakfast": "Eagle Cafe, San Francisco",
+      "attraction": "Cable Car Museum, San Francisco",
+      "lunch": "Outerlands, San Francisco",
+      "dinner": "Capital Restaurant, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Cable Car Museum, visit from 11:30 to 15:20, nearest transit: Powell @ 22 4th, 1145.41m away; Outerlands, visit from 13:57 to 14:56, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
     },
     {
       "days": 2,
-      "current_city": "from Memphis to Memphis",
-      "transportation": "Transfer, from Memphis to Memphis",
-      "breakfast": "Memphis Barbecue, Memphis",
-      "attraction": "Memphis Zoo, Memphis; Backbeat Tours, Memphis",
-      "lunch": "Flying Fish, Memphis",
-      "dinner": "Cozy Corner, Memphis",
-      "accommodation": "Guest House, Memphis",
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Hillstone, San Francisco",
+      "attraction": "Walt Disney Family Museum, San Francisco",
+      "lunch": "Waterbar, San Francisco",
+      "dinner": "Quince, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
       "event": "-",
-      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Memphis Barbecue, visit from 09:25 to 10:16, nearest transit: HOLMES@SANTA MONICA, 4810.86m away; Memphis Zoo, visit from 11:30 to 14:37, nearest transit: N PARKWAY@WEST DR, 8.68m away; Flying Fish, visit from 13:57 to 14:56, nearest transit: UNION-MAIN/TRO NB, 140.97m away; Backbeat Tours, visit from 16:30 to 19:27, nearest transit: THIRD@PEABODYPL, 78.56m away; Cozy Corner, visit from 19:51 to 21:00, nearest transit: N PARKWAY@MANASSAS, 47.05m away; Guest House, stay from 22:15 to 08:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away."
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Hillstone, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Walt Disney Family Museum, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 4602.49m away; Waterbar, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Quince, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
     },
     {
       "days": 3,
-      "current_city": "from Memphis to Chattanooga",
-      "transportation": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73",
-      "breakfast": "Urban Stack, Chattanooga",
-      "attraction": "Tennessee Aquarium, Chattanooga; Chattanooga Zoo, Chattanooga",
-      "lunch": "Stir, Chattanooga",
-      "dinner": "Bluegrass Grill, Chattanooga",
-      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "current_city": "from San Francisco to Los Angeles",
+      "transportation": "Flight Number: F0038035, from San Francisco to Los Angeles, Departure Time: 21:57, Arrival Time: 23:05",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Guest House, stay from 08:00 to 09:00, nearest transit: GERMANTOWN@CORDOVA STATION, 3981.18m away; Urban Stack, visit from 09:25 to 10:16, nearest transit: MARKET + W 14TH, 96.11m away; Tennessee Aquarium, visit from 11:30 to 14:27, nearest transit: BRO AQ 1, 109.14m away; Stir, visit from 13:57 to 14:56, nearest transit: MARKET + MAIN, 69.25m away; Chattanooga Zoo, visit from 16:30 to 19:37, nearest transit: Holtzclaw & 5th-1, 123.88m away; Bluegrass Grill, visit from 19:51 to 21:00, nearest transit: MAIN + ROSSVILLE AVE, 46.22m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 4,
-      "current_city": "from Chattanooga to Chattanooga",
-      "transportation": "Transfer, from Chattanooga to Chattanooga",
-      "breakfast": "Alleia, Chattanooga",
-      "attraction": "Lookout Mountain, Chattanooga; Chattanooga Ghost Tours, Chattanooga",
-      "lunch": "Community Pie, Chattanooga",
-      "dinner": "1885 Grill, Chattanooga",
-      "accommodation": "Cozy Stylish Studio, Chattanooga",
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "The Broad, Los Angeles",
+      "lunch": "The Lobster, Los Angeles",
+      "dinner": "Providence, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
       "event": "-",
-      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Alleia, visit from 09:25 to 10:16, nearest transit: Main & Market Outbound, 49.84m away; Lookout Mountain, visit from 11:30 to 14:42, nearest transit: 55TH + ALABAMA, 1650.28m away; Community Pie, visit from 13:57 to 14:56, nearest transit: MARKET + M.L.KING, 20.76m away; Chattanooga Ghost Tours, visit from 16:30 to 18:57, nearest transit: MARKET + 5TH, 59.20m away; 1885 Grill, visit from 19:51 to 21:00, nearest transit: TENN AVE + INCLINE, 114.35m away; Cozy Stylish Studio, stay from 22:15 to 08:00, nearest transit: BONNOAK, 4223.21m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; The Broad, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away; The Lobster, visit from 13:57 to 14:56, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Providence, visit from 19:51 to 21:00, nearest transit: Melrose & Gower (Westbound), 749.15m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
     },
     {
       "days": 5,
-      "current_city": "from Chattanooga to Dallas",
-      "transportation": "Taxi, from Chattanooga to Dallas, Duration: 850.02 mins, Distance: 1274.8416000000002 km, Estimated Cost: $1274.84",
-      "breakfast": "Whitebird, Chattanooga",
-      "attraction": "Chattanooga Ducks, Chattanooga; Tennessee Riverwalk, Chattanooga",
-      "lunch": "Mellow Mushroom Chattanooga, Chattanooga",
-      "dinner": "Public House, Chattanooga",
+      "current_city": "from Los Angeles to San Diego",
+      "transportation": "Flight Number: F0482781, from Los Angeles to San Diego, Departure Time: 19:26, Arrival Time: 20:06",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 22:15 to 08:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "World Famous, San Diego",
+      "attraction": "USS Midway Museum, San Diego",
+      "lunch": "Cafe Coyote, San Diego",
+      "dinner": "Addison Restaurant, San Diego",
+      "accommodation": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 08:00 to 09:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; USS Midway Museum, visit from 11:30 to 15:20, nearest transit: Broadway Pier, 287.53m away; Cafe Coyote, visit from 13:57 to 14:56, nearest transit: Juan St & Harney St, 216.77m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 22:15 to 08:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Diego to Boston",
+      "transportation": "Flight Number: F0268923, from San Diego to Boston, Departure Time: 14:00, Arrival Time: 23:21",
+      "breakfast": "Morning Glory, San Diego",
+      "attraction": "Birch Aquarium at Scripps, San Diego",
+      "lunch": "-",
+      "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Cozy Stylish Studio, stay from 08:00 to 09:00, nearest transit: BONNOAK, 4223.21m away; Whitebird, visit from 09:25 to 10:16, nearest transit: 3RD + WALNUT, 188.07m away; Chattanooga Ducks, visit from 11:30 to 14:27, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 413.96m away; Mellow Mushroom Chattanooga, visit from 13:57 to 14:56, nearest transit: SHUTTLE PARK NORTH - INTERNAL, 25.51m away; Tennessee Riverwalk, visit from 16:30 to 18:57, nearest transit: Amnicol a& River Terminal-1, 178.82m away; Public House, visit from 19:51 to 21:00, nearest transit: HOUSTON + MARKET, 28.53m away."
+      "point_of_interest_list": "Twin Bed, Hot Tub, 15 min to Downtown&Beaches, stay from 08:00 to 09:00, nearest transit: Clairemont Mesa Bl & Limerick Av, 270.85m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away; Birch Aquarium at Scripps, visit from 11:30 to 15:40, nearest transit: La Jolla Shores Dr & Scripps Institute, 135.62m away."
     }
   ]
 }

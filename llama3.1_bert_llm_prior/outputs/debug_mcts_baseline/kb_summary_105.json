@@ -2,22 +2,32 @@
   "idx": 105,
   "stages": [
     {
-      "city": "San Diego",
+      "city": "Everett",
       "counts": {
-        "attractions": 18,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 18,
+        "poi2transit": 75,
+        "events": 1
+      }
+    },
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
         "poi2transit": 75,
         "events": 0
       }
     },
     {
-      "city": "Sacramento",
+      "city": "Yakima",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
+        "accommodations": 20,
+        "poi2transit": 74,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Atlanta",
-      "to": "San Diego",
-      "date": "2024-11-17",
-      "raw": "Flight Number: F0312251, from Atlanta to San Diego, Departure Time: 08:18, Arrival Time: 10:11"
+      "from": "Sacramento",
+      "to": "Everett",
+      "date": "2024-11-02",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Atlanta",
-      "to": "San Diego",
+      "from": "Sacramento",
+      "to": "Everett",
       "date": null,
-      "raw": "Self-driving, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego"
+      "raw": "Self-driving, from Sacramento to Everett, Duration: 905.6966666666667 mins, Distance: 1256.0838999999999 km, Estimated Cost: $62.80"
     },
     {
       "mode": "taxi",
-      "from": "Atlanta",
-      "to": "San Diego",
+      "from": "Sacramento",
+      "to": "Everett",
       "date": null,
-      "raw": "Taxi, from Atlanta to San Diego, Not feasible to drive from Atlanta to San Diego"
+      "raw": "Taxi, from Sacramento to Everett, Duration: 905.6966666666667 mins, Distance: 1256.0838999999999 km, Estimated Cost: $1256.08"
     },
     {
       "mode": "flight",
-      "from": "San Diego",
-      "to": "Sacramento",
-      "date": "2024-11-19",
-      "raw": "Flight Number: F0021044, from San Diego to Sacramento, Departure Time: 12:51, Arrival Time: 14:20"
+      "from": "Everett",
+      "to": "Seattle",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Diego",
-      "to": "Sacramento",
+      "from": "Everett",
+      "to": "Seattle",
       "date": null,
-      "raw": "Self-driving, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $40.53"
+      "raw": "Self-driving, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $2.34"
     },
     {
       "mode": "taxi",
-      "from": "San Diego",
-      "to": "Sacramento",
+      "from": "Everett",
+      "to": "Seattle",
       "date": null,
-      "raw": "Taxi, from San Diego to Sacramento, Duration: 561.8366666666666 mins, Distance: 810.6161999999999 km, Estimated Cost: $810.62"
+      "raw": "Taxi, from Everett to Seattle, Duration: 39.075 mins, Distance: 46.8085 km, Estimated Cost: $46.81"
     },
     {
       "mode": "flight",
-      "from": "Sacramento",
-      "to": "Atlanta",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0311434, from Sacramento to Atlanta, Departure Time: 06:56, Arrival Time: 14:13"
+      "from": "Seattle",
+      "to": "Yakima",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0510003, from Seattle to Yakima, Departure Time: 22:55, Arrival Time: 23:41"
     },
     {
       "mode": "self-driving",
-      "from": "Sacramento",
-      "to": "Atlanta",
+      "from": "Seattle",
+      "to": "Yakima",
       "date": null,
-      "raw": "Self-driving, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+      "raw": "Self-driving, from Seattle to Yakima, Duration: 163.36833333333334 mins, Distance: 229.5105 km, Estimated Cost: $11.48"
     },
     {
       "mode": "taxi",
-      "from": "Sacramento",
-      "to": "Atlanta",
+      "from": "Seattle",
+      "to": "Yakima",
       "date": null,
-      "raw": "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+      "raw": "Taxi, from Seattle to Yakima, Duration: 163.36833333333334 mins, Distance: 229.5105 km, Estimated Cost: $229.51"
+    },
+    {
+      "mode": "flight",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": "2024-11-08",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Self-driving, from Yakima to Sacramento, Duration: 781.63 mins, Distance: 1052.5548999999999 km, Estimated Cost: $52.63"
+    },
+    {
+      "mode": "taxi",
+      "from": "Yakima",
+      "to": "Sacramento",
+      "date": null,
+      "raw": "Taxi, from Yakima to Sacramento, Duration: 781.63 mins, Distance: 1052.5548999999999 km, Estimated Cost: $1052.55"
     }
   ]
 }

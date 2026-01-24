@@ -1,65 +1,91 @@
 {
   "idx": 230,
   "JSON": {
-    "org": "Houston",
-    "dest": "Seattle",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Oklahoma City",
+    "dest": "Texas",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-15",
-      "2024-11-16",
-      "2024-11-17"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "entire home",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 2550.0,
-    "query": "Plan a 3-day trip for 1 person from Houston to Seattle from November 15th to November 17th, 2024, with a budget of $2,550.",
-    "level": "easy"
+    "budget": 2400.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Oklahoma City to explore 2 cities in Texas between November 2nd and November 6th, 2024. The budget is $2,400, and accommodations should include an entire home.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Seattle",
-      "transportation": "Taxi, from Houston to Seattle, Not feasible to drive from Houston to Seattle",
-      "breakfast": "Lola, Seattle",
-      "attraction": "Space Needle, Seattle; Discovery Park, Seattle",
-      "lunch": "Metropolitan Grill, Seattle",
-      "dinner": "13 Coins Restaurant, Seattle",
-      "accommodation": "Queen Anne Courtyard Suite, Seattle",
+      "current_city": "from Oklahoma City to Corpus Christi",
+      "transportation": "Taxi, from Oklahoma City to Corpus Christi, Duration: 625.7616666666667 mins, Distance: 937.8675999999999 km, Estimated Cost: $937.87",
+      "breakfast": "Vietnam Restaurant, Corpus Christi",
+      "attraction": "The Selena Museum, Corpus Christi",
+      "lunch": "Yardarm Restaurant, Corpus Christi",
+      "dinner": "U & I Restaurant, Corpus Christi",
+      "accommodation": "Coastal Getaway, Corpus Christi",
       "event": "-",
-      "point_of_interest_list": "Queen Anne Courtyard Suite, stay from 08:00 to 09:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away; Lola, visit from 09:25 to 10:16, nearest transit: Virginia St & 4th Ave, 26.10m away; Space Needle, visit from 11:30 to 13:57, nearest transit: Seattle Center, 101.77m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; Discovery Park, visit from 16:30 to 20:27, nearest transit: Discovery Park Road & Texas Way, 604.23m away; 13 Coins Restaurant, visit from 19:51 to 21:00, nearest transit: King Street Station, 107.40m away; Queen Anne Courtyard Suite, stay from 22:15 to 08:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away."
+      "point_of_interest_list": "Coastal Getaway, stay from 08:00 to 09:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away; Vietnam Restaurant, visit from 09:25 to 10:16, nearest transit: Starr @ Chaparral, 25.27m away; The Selena Museum, visit from 11:30 to 15:20, nearest transit: 1345-Leopard@Cambell, 113.92m away; Yardarm Restaurant, visit from 13:57 to 14:56, nearest transit: 820-Robert @ Ocean Dr, 87.63m away; U & I Restaurant, visit from 19:51 to 21:00, nearest transit: 1890-Water @ Born, 88.55m away; Coastal Getaway, stay from 22:15 to 08:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away."
     },
     {
       "days": 2,
-      "current_city": "from Seattle to Seattle",
-      "transportation": "Transfer, from Seattle to Seattle",
-      "breakfast": "Chan Seattle, Seattle",
-      "attraction": "Seattle Aquarium, Seattle; Seattle Center, Seattle",
-      "lunch": "The Capital Grille, Seattle",
-      "dinner": "Tulio, Seattle",
-      "accommodation": "Magical Mountain Retreat and Sauna, Seattle",
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+      "breakfast": "Pier 99 Restaurant, Corpus Christi",
+      "attraction": "Cole Park, Corpus Christi",
+      "lunch": "Blue Clove, Corpus Christi",
+      "dinner": "Saltwater Grill, Corpus Christi",
+      "accommodation": "Coastal Getaway, Corpus Christi",
       "event": "-",
-      "point_of_interest_list": "Magical Mountain Retreat and Sauna, stay from 08:00 to 09:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away; Chan Seattle, visit from 09:25 to 10:16, nearest transit: Pine St & 9th Ave, 68.08m away; Seattle Aquarium, visit from 11:30 to 14:27, nearest transit: 2nd Ave & Pike St, 363.98m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: 4th Ave & University, 41.04m away; Seattle Center, visit from 16:30 to 19:42, nearest transit: Seattle Center, 84.22m away; Tulio, visit from 19:51 to 21:00, nearest transit: 5th Ave & Spring St, 55.15m away; Magical Mountain Retreat and Sauna, stay from 22:15 to 08:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away."
+      "point_of_interest_list": "Coastal Getaway, stay from 08:00 to 09:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away; Pier 99 Restaurant, visit from 09:25 to 10:16, nearest transit: 1318-Shoreline@Bridgeport, 126.66m away; Cole Park, visit from 11:30 to 16:50, nearest transit: 408-Santa Fe @ Clifford, 330.11m away; Blue Clove, visit from 13:57 to 14:56, nearest transit: 1006-Everhart @ Shea, 24.81m away; Saltwater Grill, visit from 19:51 to 21:00, nearest transit: 791-Cimarron, 78.84m away; Coastal Getaway, stay from 22:15 to 08:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away."
     },
     {
       "days": 3,
-      "current_city": "from Seattle to Houston",
-      "transportation": "Flight Number: F0250472, from Seattle to Houston, Departure Time: 22:49, Arrival Time: 04:45",
-      "breakfast": "Wild Ginger, Seattle",
-      "attraction": "Kerry Park, Seattle; Seattle Great Wheel, Seattle",
-      "lunch": "Spinasse, Seattle",
-      "dinner": "The Pink Door, Seattle",
+      "current_city": "from Corpus Christi to Amarillo",
+      "transportation": "Transfer, from Corpus Christi to Amarillo",
+      "breakfast": "Metropolitan, Amarillo",
+      "attraction": "Cadillac Ranch, Amarillo",
+      "lunch": "Crush, Amarillo",
+      "dinner": "Drunken Oyster, Amarillo",
+      "accommodation": "Cadillac Ranch Casita, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Coastal Getaway, stay from 08:00 to 09:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away; Metropolitan, visit from 09:25 to 10:16, nearest transit: SW 45th Ave & Wesley St (Colonies Church of Christ), 1638.39m away; Cadillac Ranch, visit from 11:30 to 15:20, nearest transit: 2810 S Soncy Rd (Applebee's), 4475.02m away; Crush, visit from 13:57 to 14:56, nearest transit: SE 7th Ave & S Polk St (Crush), 29.57m away; Drunken Oyster, visit from 19:51 to 21:00, nearest transit: SW 45th Ave & S Coulter St (Walmart), 107.92m away; Cadillac Ranch Casita, stay from 22:15 to 08:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "Transfer, from Amarillo to Amarillo",
+      "breakfast": "Pacific Rim, Amarillo",
+      "attraction": "Harrington House, Amarillo",
+      "lunch": "The Plaza Restaurant, Amarillo",
+      "dinner": "Coyote Bluff Cafe, Amarillo",
+      "accommodation": "Cadillac Ranch Casita, Amarillo",
+      "event": "-",
+      "point_of_interest_list": "Cadillac Ranch Casita, stay from 08:00 to 09:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away; Pacific Rim, visit from 09:25 to 10:16, nearest transit: S Georgia St & Civic Cir, 570.08m away; Harrington House, visit from 11:30 to 15:20, nearest transit: SW 15th Ave & S Harrison St, 214.28m away; The Plaza Restaurant, visit from 13:57 to 14:56, nearest transit: Westgate Pkwy West of Best Buy, 614.28m away; Coyote Bluff Cafe, visit from 19:51 to 21:00, nearest transit: S Grand St & SE 25th Ave, 75.41m away; Cadillac Ranch Casita, stay from 22:15 to 08:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Amarillo to Oklahoma City",
+      "transportation": "Transfer, from Amarillo to Oklahoma City",
+      "breakfast": "Texas Roadhouse, Amarillo",
+      "attraction": "Helium Monument, Amarillo",
+      "lunch": "Calico County Restaurant, Amarillo",
+      "dinner": "El Manantial, Amarillo",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Magical Mountain Retreat and Sauna, stay from 08:00 to 09:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away; Wild Ginger, visit from 09:25 to 10:16, nearest transit: 3rd Ave & Pike St, 13.86m away; Kerry Park, visit from 11:30 to 15:27, nearest transit: Queen Anne Ave N & W Highland Dr, 240.72m away; Spinasse, visit from 13:57 to 14:56, nearest transit: E Pine St & 15th Ave, 90.45m away; Seattle Great Wheel, visit from 16:30 to 20:57, nearest transit: 2nd Ave & Pike St, 414.45m away; The Pink Door, visit from 19:51 to 21:00, nearest transit: 2nd Ave & Stewart St, 176.00m away."
+      "point_of_interest_list": "Cadillac Ranch Casita, stay from 08:00 to 09:00, nearest transit: 2810 S Soncy Rd (Applebee's), 3205.30m away; Texas Roadhouse, visit from 09:25 to 10:16, nearest transit: S Georgia St & Stanley St (Crunch Fitness), 276.65m away; Helium Monument, visit from 11:30 to 15:20, nearest transit: NW Texas Hospital, 768.54m away; Calico County Restaurant, visit from 13:57 to 14:56, nearest transit: S Georgia St & Virginia Cir (Whataburger), 690.78m away; El Manantial, visit from 19:51 to 21:00, nearest transit: Amarillo Blvd & N Grand St (Wagon Wheel Motel), 333.03m away."
     }
   ]
 }

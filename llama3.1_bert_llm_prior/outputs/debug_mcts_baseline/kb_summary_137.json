@@ -2,89 +2,120 @@
   "idx": 137,
   "stages": [
     {
-      "city": "San Antonio",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 20,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
-        "events": 1
+        "poi2transit": 74,
+        "events": 6
       }
     },
     {
-      "city": "Houston",
+      "city": "Sioux City",
       "counts": {
-        "attractions": 20,
+        "attractions": 12,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 28
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "San Antonio",
-      "date": "2024-11-03",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0153294, from Detroit to Cedar Rapids, Departure Time: 15:49, Arrival Time: 16:25"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Self-driving, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $41.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Detroit",
+      "to": "Cedar Rapids",
+      "date": null,
+      "raw": "Taxi, from Detroit to Cedar Rapids, Duration: 569.2016666666666 mins, Distance: 825.088 km, Estimated Cost: $825.09"
+    },
+    {
+      "mode": "flight",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "San Antonio",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Charleston to San Antonio, Duration: 1415.1133333333335 mins, Distance: 2025.7825 km, Estimated Cost: $101.29"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "San Antonio",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Taxi, from Charleston to San Antonio, Duration: 1415.1133333333335 mins, Distance: 2025.7825 km, Estimated Cost: $2025.78"
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
     },
     {
       "mode": "flight",
-      "from": "San Antonio",
-      "to": "Houston",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0060728, from San Antonio to Houston, Departure Time: 06:45, Arrival Time: 07:33"
+      "from": "Sioux City",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "San Antonio",
-      "to": "Houston",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $15.73"
+      "raw": "Self-driving, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $9.45"
     },
     {
       "mode": "taxi",
-      "from": "San Antonio",
-      "to": "Houston",
+      "from": "Sioux City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from San Antonio to Houston, Duration: 209.68666666666667 mins, Distance: 314.6037 km, Estimated Cost: $314.60"
+      "raw": "Taxi, from Sioux City to Fort Dodge, Duration: 146.475 mins, Distance: 189.0304 km, Estimated Cost: $189.03"
     },
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Charleston",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0066166, from Houston to Charleston, Departure Time: 10:58, Arrival Time: 14:13"
+      "from": "Fort Dodge",
+      "to": "Detroit",
+      "date": "2024-11-11",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Charleston",
+      "from": "Fort Dodge",
+      "to": "Detroit",
       "date": null,
-      "raw": "Self-driving, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $85.66"
+      "raw": "Self-driving, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $53.65"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Charleston",
+      "from": "Fort Dodge",
+      "to": "Detroit",
       "date": null,
-      "raw": "Taxi, from Houston to Charleston, Duration: 1211.9216666666666 mins, Distance: 1713.136 km, Estimated Cost: $1713.14"
+      "raw": "Taxi, from Fort Dodge to Detroit, Duration: 748.2833333333333 mins, Distance: 1072.9909 km, Estimated Cost: $1072.99"
     }
   ]
 }

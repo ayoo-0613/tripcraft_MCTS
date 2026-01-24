@@ -1,65 +1,99 @@
 {
   "idx": 312,
   "JSON": {
-    "org": "New York",
-    "dest": "Reno",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Boise",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-02",
-      "2024-11-03",
-      "2024-11-04"
+      "2024-11-07",
+      "2024-11-08",
+      "2024-11-09",
+      "2024-11-10",
+      "2024-11-11"
     ],
-    "people_number": 2,
+    "people_number": 5,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": "American",
-      "room type": "private room",
+      "house rule": "smoking",
+      "cuisine": [
+        "Mexican",
+        "Italian",
+        "American"
+      ],
+      "room type": "entire home",
       "event": null,
-      "attraction": "Nature & Parks",
-      "transportation": null
+      "attraction": [
+        "Nature & Parks",
+        "Shopping",
+        "Museums"
+      ],
+      "transportation": "no flight"
     },
-    "budget": 4200.0,
-    "query": "Plan a 3-day trip for 2 people from New York to Reno from November 2nd to November 4th, 2024, with a budget of $4,200. Accommodations should include a private room. The itinerary should feature American cuisine and visits to Nature & Parks attractions.",
+    "budget": 9750.0,
+    "query": "Design a 5-day travel itinerary for 5 people departing from Boise to visit 2 cities in California from November 7th to November 11th, 2024. The budget is $9,750. Accommodations should be an entire home and must allow smoking. Include dining options featuring Mexican, Italian, and American cuisines. The itinerary should focus on attractions such as nature and parks, shopping, and museums. Transportation should exclude flights.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from New York to Reno",
-      "transportation": "Taxi, from New York to Reno, Not feasible to drive from New York to Reno",
-      "breakfast": "Roxy, Reno",
-      "attraction": "Animal Ark, Reno",
-      "lunch": "Red Bloom, Reno",
-      "dinner": "Oceano, Reno",
-      "accommodation": "Deluxe King @ Grand Sierra Resort., Reno",
+      "current_city": "from Boise to San Luis Obispo",
+      "transportation": "Taxi, from Boise to San Luis Obispo, Duration: 954.9116666666666 mins, Distance: 1344.6093 km, Estimated Cost: $1344.61",
+      "breakfast": "Cafe Roma, San Luis Obispo",
+      "attraction": "Farmers Market, San Luis Obispo",
+      "lunch": "Flour House, San Luis Obispo",
+      "dinner": "Luna Red, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
       "event": "-",
-      "point_of_interest_list": "Deluxe King @ Grand Sierra Resort., stay from 08:00 to 09:00, nearest transit: Grand Sierra Resort at Sportsbook, 134.90m away; Roxy, visit from 09:25 to 10:16, nearest transit: North Virginia Street and 5th Street, 167.76m away; Animal Ark, visit from 11:30 to 16:50, nearest transit: Echo Avenue and Mt Bismark Street, 14382.98m away; Red Bloom, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Moana Lane, 122.44m away; Oceano, visit from 19:51 to 21:00, nearest transit: S Virginia Street and Peppermill Lane, 100.57m away; Deluxe King @ Grand Sierra Resort., stay from 22:15 to 08:00, nearest transit: Grand Sierra Resort at Sportsbook, 134.90m away."
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Cafe Roma, visit from 09:25 to 10:16, nearest transit: Santa Rosa & Higuera, 751.61m away; Farmers Market, visit from 11:30 to 13:50, nearest transit: Marsh & Broad, 112.91m away; Flour House, visit from 13:57 to 14:56, nearest transit: Marsh & Broad, 142.15m away; Luna Red, visit from 19:51 to 21:00, nearest transit: Marsh & Broad, 256.30m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
     },
     {
       "days": 2,
-      "current_city": "from Reno to Reno",
-      "transportation": "Transfer, from Reno to Reno",
-      "breakfast": "The Buffet, Reno",
-      "attraction": "Virginia Lake Park, Reno",
-      "lunch": "Two Chicks Reno, Reno",
-      "dinner": "Wild River Grille, Reno",
-      "accommodation": "Sealy Super Comfy Mattress 4.1 Stars, Reno",
+      "current_city": "from San Luis Obispo to San Luis Obispo",
+      "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+      "breakfast": "Sidecar, San Luis Obispo",
+      "attraction": "Bishop Peak, San Luis Obispo",
+      "lunch": "Thai Palace, San Luis Obispo",
+      "dinner": "Apple Farm Restaurant, San Luis Obispo",
+      "accommodation": "Wilderness Cottage, San Luis Obispo",
       "event": "-",
-      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; The Buffet, visit from 09:25 to 10:16, nearest transit: W 4th Street and N Arlington Avenue, 105.18m away; Virginia Lake Park, visit from 11:30 to 16:50, nearest transit: Lakeside Drive and Brinkby Avenue, 38.73m away; Two Chicks Reno, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Thoma Street, 50.95m away; Wild River Grille, visit from 19:51 to 21:00, nearest transit: S Center Street and State Street, 157.23m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 22:15 to 08:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Sidecar, visit from 09:25 to 10:16, nearest transit: Marsh & Broad, 54.77m away; Bishop Peak, visit from 11:30 to 16:05, nearest transit: Santa Rosa & Foothill, 1404.87m away; Thai Palace, visit from 13:57 to 14:56, nearest transit: Government Center, 168.21m away; Apple Farm Restaurant, visit from 19:51 to 21:00, nearest transit: Monterey @ Peach Tree Inn, 45.99m away; Wilderness Cottage, stay from 22:15 to 08:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away."
     },
     {
       "days": 3,
-      "current_city": "from Reno to New York",
-      "transportation": "Flight Number: F0270515, from Reno to New York, Departure Time: 00:00, Arrival Time: 07:47",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from San Luis Obispo to Los Angeles",
+      "transportation": "Taxi, from San Luis Obispo to Los Angeles, Duration: 279.50333333333333 mins, Distance: 348.3962 km, Estimated Cost: $348.40",
+      "breakfast": "Water Grill, Los Angeles",
+      "attraction": "The Grove, Los Angeles",
+      "lunch": "The Lobster, Los Angeles",
+      "dinner": "Providence, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Wilderness Cottage, stay from 08:00 to 09:00, nearest transit: Kansas Ave & Highway 1, 3513.25m away; Water Grill, visit from 09:25 to 10:16, nearest transit: 6th St & Grand Ave (Eastbound), 102.29m away; The Grove, visit from 11:30 to 13:50, nearest transit: 3rd & Ogden (Eastbound), 143.67m away; The Lobster, visit from 13:57 to 14:56, nearest transit: Pacific Ave & Washington Blvd (Arriving), 4397.54m away; Providence, visit from 19:51 to 21:00, nearest transit: Melrose & Gower (Westbound), 749.15m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "Transfer, from Los Angeles to Los Angeles",
+      "breakfast": "Bestia, Los Angeles",
+      "attraction": "The Broad, Los Angeles",
+      "lunch": "Perch, Los Angeles",
+      "dinner": "Spire 73, Los Angeles",
+      "accommodation": "Hollywood Hideaway, Los Angeles",
+      "event": "-",
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Bestia, visit from 09:25 to 10:16, nearest transit: Molino St & Palmetto St, 869.23m away; The Broad, visit from 11:30 to 15:20, nearest transit: Grand Ave & 2nd St, 30.42m away; Perch, visit from 13:57 to 14:56, nearest transit: Hill St & 5th St (Northbound), 65.01m away; Spire 73, visit from 19:51 to 21:00, nearest transit: Figueroa St & 7th St, 109.52m away; Hollywood Hideaway, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Los Angeles to Boise",
+      "transportation": "Transfer, from Los Angeles to Boise",
+      "breakfast": "Cafe Gratitude Venice, Los Angeles",
+      "attraction": "Citadel Outlets, Los Angeles",
+      "lunch": "The Boiling Crab, Los Angeles",
+      "dinner": "Yang Chow, Los Angeles",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Sealy Super Comfy Mattress 4.1 Stars, stay from 00:00 to 00:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away; Sealy Super Comfy Mattress 4.1 Stars, stay from 08:00 to 09:00, nearest transit: Kietzke Lane and Vassar Street, 22.16m away."
+      "point_of_interest_list": "Hollywood Hideaway, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Cafe Gratitude Venice, visit from 09:25 to 10:16, nearest transit: Pacific Ave & Washington Blvd (Arriving), 2169.02m away; Citadel Outlets, visit from 11:30 to 13:50, nearest transit: Herbert Ave & Whittier Blvd (4354), 3385.72m away; The Boiling Crab, visit from 13:57 to 14:56, nearest transit: Vermont & Wilshire Blvd. (CW), 548.75m away; Yang Chow, visit from 19:51 to 21:00, nearest transit: Broadway & Alpine St, 85.36m away."
     }
   ]
 }

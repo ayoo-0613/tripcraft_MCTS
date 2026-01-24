@@ -1,65 +1,94 @@
 {
   "idx": 180,
   "JSON": {
-    "org": "Indianapolis",
-    "dest": "Detroit",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Martha's Vineyard",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-18",
-      "2024-11-19",
-      "2024-11-20"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 4,
+    "people_number": 2,
     "local_constraint": {
-      "house rule": "smoking",
+      "house rule": "visitors",
       "cuisine": null,
       "room type": "entire home",
       "event": null,
-      "attraction": null,
+      "attraction": [
+        "Nature & Parks",
+        "Outdoor Activities"
+      ],
       "transportation": null
     },
-    "budget": 3600.0,
-    "query": "Plan a 3-day trip for 4 people from Indianapolis to Detroit from November 18th to November 20th, 2024, with a budget of $3,600. Accommodations should include an entire home, and smoking should be allowed as per the house rules.",
+    "budget": 3150.0,
+    "query": "Design a 5-day travel itinerary for 2 people starting from Martha's Vineyard and visiting 2 cities in New York between November 3rd and November 7th, 2024. The budget is $3,150. Accommodations should be in an entire home and include activities related to nature, parks, and outdoor activities.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Indianapolis to Detroit",
-      "transportation": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08",
-      "breakfast": "Hudson Cafe, Detroit",
-      "attraction": "Motown Museum, Detroit",
-      "lunch": "Parc, Detroit",
-      "dinner": "The Whitney, Detroit",
-      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "current_city": "from Martha's Vineyard to Rochester",
+      "transportation": "Taxi, from Martha's Vineyard to Rochester, Duration: 604.2683333333333 mins, Distance: 746.8770999999999 km, Estimated Cost: $746.88",
+      "breakfast": "Swan Market, Rochester",
+      "attraction": "Douglas Trail, Rochester",
+      "lunch": "Hunan Garden, Rochester",
+      "dinner": "Cafe Nucleus Rochester, Rochester",
+      "accommodation": "Guest home in Churchville, Rochester",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Hudson Cafe, visit from 09:25 to 10:16, nearest transit: Campus Martius - Northbound, 130.86m away; Motown Museum, visit from 11:30 to 15:20, nearest transit: Grand Blvd, 1422.76m away; Parc, visit from 13:57 to 14:56, nearest transit: Campus Martius - Southbound, 82.17m away; The Whitney, visit from 19:51 to 21:00, nearest transit: Canfield St - Southbound, 81.76m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+      "point_of_interest_list": "Guest home in Churchville, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away; Swan Market, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142628.73m away; Douglas Trail, visit from 11:30 to 16:50, nearest transit: 3rd Ave. SW & 2nd St. SW (North), 289.83m away; Hunan Garden, visit from 13:57 to 14:56, nearest transit: St. Mary's Hospital, 1030.16m away; Cafe Nucleus Rochester, visit from 19:51 to 21:00, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6491812.29m away; Guest home in Churchville, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1123603.39m away."
     },
     {
       "days": 2,
-      "current_city": "from Detroit to Detroit",
-      "transportation": "Transfer, from Detroit to Detroit",
-      "breakfast": "Cliff Bells, Detroit",
-      "attraction": "Greektown, Detroit",
-      "lunch": "Grey Ghost Detroit, Detroit",
-      "dinner": "Dime Store, Detroit",
-      "accommodation": "Stay downtown and walk everywhere!, Detroit",
+      "current_city": "from Rochester to Rochester",
+      "transportation": "Transfer, from Rochester to Rochester",
+      "breakfast": "Jines Restaurant, Rochester",
+      "attraction": "Cobbs Hill Park, Rochester",
+      "lunch": "Don Vincenzo, Rochester",
+      "dinner": "Good Luck, Rochester",
+      "accommodation": "Luxury Entertaining 4BR House, Rochester",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Cliff Bells, visit from 09:25 to 10:16, nearest transit: Grand Circus - Southbound, 186.82m away; Greektown, visit from 11:30 to 14:50, nearest transit: Campus Martius - Northbound, 630.15m away; Grey Ghost Detroit, visit from 13:57 to 14:56, nearest transit: Mack Ave - Northbound, 279.12m away; Dime Store, visit from 19:51 to 21:00, nearest transit: Campus Martius - Southbound, 150.09m away; Stay downtown and walk everywhere!, stay from 22:15 to 08:00, nearest transit: Grand Circus - Southbound, 352.62m away."
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away; Jines Restaurant, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142527.42m away; Cobbs Hill Park, visit from 11:30 to 16:50, nearest transit: Winona 61 & Hwy. 14, 1142793.26m away; Don Vincenzo, visit from 13:57 to 14:56, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6492148.11m away; Good Luck, visit from 19:51 to 21:00, nearest transit: Winona 61 & Hwy. 14, 1141851.57m away; Luxury Entertaining 4BR House, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away."
     },
     {
       "days": 3,
-      "current_city": "from Detroit to Indianapolis",
-      "transportation": "Flight Number: F0161851, from Detroit to Indianapolis, Departure Time: 15:53, Arrival Time: 16:59",
-      "breakfast": "Vertical Detroit, Detroit",
-      "attraction": "Detroit Downtown, Detroit",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Rochester to Watertown",
+      "transportation": "Transfer, from Rochester to Watertown",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Charles River Greenway, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
+      "event": "-",
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Charles River Greenway, visit from 11:30 to 16:35, nearest transit: Northland Plaza, 418957.03m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Red Robin, Watertown",
+      "attraction": "Bramble Park Zoo, Watertown",
+      "lunch": "United China Restaurant, Watertown",
+      "dinner": "Fairground Inn, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Red Robin, visit from 09:25 to 10:16, nearest transit: Hannaford Foods, 63.20m away; Bramble Park Zoo, visit from 11:30 to 16:00, nearest transit: Target - Towne Center Parking, 1683726.61m away; United China Restaurant, visit from 13:57 to 14:56, nearest transit: Northland Plaza, 218.90m away; Fairground Inn, visit from 19:51 to 21:00, nearest transit: Coffeen VanDuzee, 215.08m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Watertown to Martha's Vineyard",
+      "transportation": "Transfer, from Watertown to Martha's Vineyard",
+      "breakfast": "The Crystal Restaurant, Watertown",
+      "attraction": "New York State Zoo at Thompson Park, Watertown",
+      "lunch": "Bistro 108, Watertown",
+      "dinner": "Texas Roadhouse, Watertown",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Stay downtown and walk everywhere!, stay from 08:00 to 09:00, nearest transit: Grand Circus - Southbound, 352.62m away; Vertical Detroit, visit from 09:25 to 10:16, nearest transit: Grand Circus - Northbound, 257.87m away; Detroit Downtown, visit from 11:30 to 14:50, nearest transit: Congress St, 56.59m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; The Crystal Restaurant, visit from 09:25 to 10:16, nearest transit: Transfer Station, 208.03m away; New York State Zoo at Thompson Park, visit from 11:30 to 16:00, nearest transit: Northland Plaza, 962.27m away; Bistro 108, visit from 13:57 to 14:56, nearest transit: Transfer Station, 69.37m away; Texas Roadhouse, visit from 19:51 to 21:00, nearest transit: Walmart Outer - Arsenal Street Parking, 144.00m away."
     }
   ]
 }

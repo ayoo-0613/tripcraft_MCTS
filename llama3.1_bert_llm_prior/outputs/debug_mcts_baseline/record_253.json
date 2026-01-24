@@ -1,65 +1,94 @@
 {
   "idx": 253,
   "JSON": {
-    "org": "Miami",
-    "dest": "San Francisco",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Wilmington",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-01",
-      "2024-11-02",
-      "2024-11-03"
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07",
+      "2024-11-08"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": "shared room",
-      "transportation": null,
+      "room type": null,
       "event": null,
-      "attraction": null
+      "attraction": [
+        "Nature & Parks",
+        "Outdoor Activities"
+      ],
+      "transportation": null
     },
-    "budget": 3150.0,
-    "query": "Plan a 3-day trip for 1 person from Miami to San Francisco from November 1st to November 3rd, 2024, with a budget of $3,150. Accommodations should include a shared room.",
+    "budget": 3900.0,
+    "query": "Plan a 5-day trip for 2 people traveling from Wilmington to explore 2 cities in New York between November 4th and November 8th, 2024. The budget is $3,900. Include attractions related to Nature & Parks and Outdoor Activities.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Miami to San Francisco",
-      "transportation": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco",
-      "breakfast": "Eagle Cafe, San Francisco",
-      "attraction": "Cable Cars, San Francisco",
-      "lunch": "Outerlands, San Francisco",
-      "dinner": "Capital Restaurant, San Francisco",
-      "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+      "current_city": "from Wilmington to Watertown",
+      "transportation": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15",
+      "breakfast": "Koreana, Watertown",
+      "attraction": "Charles River Greenway, Watertown; Bramble Park Zoo, Watertown",
+      "lunch": "Empire Square, Watertown",
+      "dinner": "Lotus Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Eagle Cafe, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Cable Cars, visit from 11:30 to 13:50, nearest transit: Powell @ 22 4th, 1246.40m away; Outerlands, visit from 13:57 to 14:56, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Single Bed in 4-Bed Female Capsule Room, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Koreana, visit from 09:25 to 10:16, nearest transit: Huntington Heights, 4044.95m away; Charles River Greenway, visit from 11:30 to 15:12, nearest transit: Northland Plaza, 418957.03m away; Empire Square, visit from 13:57 to 14:56, nearest transit: Transfer Station, 172.75m away; Bramble Park Zoo, visit from 16:30 to 19:37, nearest transit: Target - Towne Center Parking, 1683726.61m away; Lotus Restaurant, visit from 19:51 to 21:00, nearest transit: Price Chopper, 127.25m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 2,
-      "current_city": "from San Francisco to San Francisco",
-      "transportation": "Transfer, from San Francisco to San Francisco",
-      "breakfast": "Waterbar, San Francisco",
-      "attraction": "Twin Peaks, San Francisco",
-      "lunch": "Hillstone, San Francisco",
-      "dinner": "Pier Market Seafood Restaurant, San Francisco",
-      "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Red Robin, Watertown",
+      "attraction": "New York State Zoo at Thompson Park, Watertown; Adirondack River Outfitters, Watertown",
+      "lunch": "Fairground Inn, Watertown",
+      "dinner": "United China Restaurant, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Waterbar, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Hillstone, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Pier Market Seafood Restaurant, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 2413.84m away; Single Bed in 4-Bed Female Capsule Room, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Red Robin, visit from 09:25 to 10:16, nearest transit: Hannaford Foods, 63.20m away; New York State Zoo at Thompson Park, visit from 11:30 to 14:37, nearest transit: Northland Plaza, 962.27m away; Fairground Inn, visit from 13:57 to 14:56, nearest transit: Coffeen VanDuzee, 215.08m away; Adirondack River Outfitters, visit from 16:30 to 19:27, nearest transit: Transfer Station, 246.79m away; United China Restaurant, visit from 19:51 to 21:00, nearest transit: Northland Plaza, 218.90m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 3,
-      "current_city": "from San Francisco to Miami",
-      "transportation": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
+      "current_city": "from Watertown to New York",
+      "transportation": "Transfer, from Watertown to New York",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Central Park, New York; The High Line, New York",
+      "lunch": "Broadway Lounge, New York",
+      "dinner": "Lobster Place, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Central Park, visit from 11:30 to 14:42, nearest transit: 79 ST TRANSVERSE RD/CENTRAL PARK, 297.39m away; Broadway Lounge, visit from 13:57 to 14:56, nearest transit: 7 AV/W 44 ST, 146.82m away; The High Line, visit from 16:30 to 19:42, nearest transit: GREENWICH ST/HORATIO ST, 184.89m away; Lobster Place, visit from 19:51 to 21:00, nearest transit: W 14 ST/WASHINGTON ST, 138.20m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "BOOM, New York",
+      "attraction": "-",
+      "lunch": "Bryant Park Grill, New York",
+      "dinner": "R Lounge, New York",
+      "accommodation": "Private Studio with Shared Bath, New York",
+      "event": "-",
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; BOOM, visit from 09:25 to 10:16, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Bryant Park Grill, visit from 13:57 to 14:56, nearest transit: 5 AV/W 42 ST, 147.14m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; Private Studio with Shared Bath, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from New York to Wilmington",
+      "transportation": "Flight Number: F0122356, from New York to Wilmington, Departure Time: 08:59, Arrival Time: 10:55",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, stay from 06:31 to 07:31, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Single Bed in 4-Bed Female Capsule Room, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+      "point_of_interest_list": "Private Studio with Shared Bath, stay from 07:29 to 08:29, nearest transit: 3 AV/E 14 ST, 30.60m away; Private Studio with Shared Bath, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
     }
   ]
 }

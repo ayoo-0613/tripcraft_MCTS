@@ -1,65 +1,91 @@
 {
   "idx": 232,
   "JSON": {
-    "org": "Houston",
-    "dest": "Washington",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Nashville",
+    "dest": "Texas",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-06",
-      "2024-11-07",
-      "2024-11-08"
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": "entire home",
+      "room type": null,
+      "transportation": "no flight",
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": null
     },
-    "budget": 3300.0,
-    "query": "Plan a 3-day trip for 2 people from Houston to Washington from November 6th to November 8th, 2024, with a budget of $3,300. Accommodations should include an entire home.",
+    "budget": 2850.0,
+    "query": "Plan a 5-day trip for 1 person traveling from Nashville to explore 2 cities in Texas between November 1st and November 5th, 2024. The budget is $2,850, and the trip should avoid flights as a mode of transportation.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Washington",
-      "transportation": "Taxi, from Houston to Washington, Not feasible to drive from Houston to Washington",
-      "breakfast": "Unconventional Diner, Washington",
-      "attraction": "Lincoln Memorial, Washington; National Mall, Washington",
-      "lunch": "Cafe Milano, Washington",
-      "dinner": "The Hamilton, Washington",
-      "accommodation": "A Cozy room, Washington",
+      "current_city": "from Nashville to Amarillo",
+      "transportation": "Taxi, from Nashville to Amarillo, Duration: 983.1266666666667 mins, Distance: 1506.9196000000002 km, Estimated Cost: $1506.92",
+      "breakfast": "Drunken Oyster, Amarillo",
+      "attraction": "Cadillac Ranch, Amarillo",
+      "lunch": "Metropolitan, Amarillo",
+      "dinner": "Crush, Amarillo",
+      "accommodation": "The Pristine House, Amarillo",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; Unconventional Diner, visit from 09:25 to 10:16, nearest transit: MT VERNON SQ, 135.98m away; Lincoln Memorial, visit from 11:30 to 13:57, nearest transit: ARLINGTON CEMETERY METRORAIL STATION - MEMORIAL DRIVE FOR BLUE LINE TO DOWNTOWN LARGO (ELEVATOR), 1224.21m away; Cafe Milano, visit from 13:57 to 14:56, nearest transit: ROSSLYN, 1240.98m away; National Mall, visit from 16:30 to 19:42, nearest transit: Entrance A - 7 St, Maryland Av, 386.15m away; The Hamilton, visit from 19:51 to 21:00, nearest transit: ENTRANCE D - 13TH AND G STS. NW, 249.32m away; A Cozy room, stay from 22:15 to 08:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "The Pristine House, stay from 08:00 to 09:00, nearest transit: S Georgia St & Curtis Dr (Amarillo National Bank), 871.29m away; Drunken Oyster, visit from 09:25 to 10:16, nearest transit: SW 45th Ave & S Coulter St (Walmart), 107.92m away; Cadillac Ranch, visit from 11:30 to 15:20, nearest transit: 2810 S Soncy Rd (Applebee's), 4475.02m away; Metropolitan, visit from 13:57 to 14:56, nearest transit: SW 45th Ave & Wesley St (Colonies Church of Christ), 1638.39m away; Crush, visit from 19:51 to 21:00, nearest transit: SE 7th Ave & S Polk St (Crush), 29.57m away; The Pristine House, stay from 22:15 to 08:00, nearest transit: S Georgia St & Curtis Dr (Amarillo National Bank), 871.29m away."
     },
     {
       "days": 2,
-      "current_city": "from Washington to Washington",
-      "transportation": "Transfer, from Washington to Washington",
-      "breakfast": "The Tombs, Washington",
-      "attraction": "International Spy Museum, Washington; White House, Washington",
-      "lunch": "Kingbird, Washington",
-      "dinner": "The Capital Grille, Washington",
-      "accommodation": "A Cozy room, Washington",
+      "current_city": "from Amarillo to Amarillo",
+      "transportation": "Transfer, from Amarillo to Amarillo",
+      "breakfast": "Pacific Rim, Amarillo",
+      "attraction": "Harrington House, Amarillo",
+      "lunch": "The Plaza Restaurant, Amarillo",
+      "dinner": "Coyote Bluff Cafe, Amarillo",
+      "accommodation": "The Pristine House, Amarillo",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; The Tombs, visit from 09:25 to 10:16, nearest transit: ROSSLYN, 1065.40m away; International Spy Museum, visit from 11:30 to 13:57, nearest transit: Entrance C - 9 St, L'Enfant Plaza, 178.97m away; Kingbird, visit from 13:57 to 14:56, nearest transit: FOGGY BOTTOM, 488.73m away; White House, visit from 16:30 to 18:57, nearest transit: MCPHERSON SQ METRORAIL STATION - SW CORNER VERMONT AVE. & I ST., 409.99m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: ARCHIVES, 121.81m away; A Cozy room, stay from 22:15 to 08:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "The Pristine House, stay from 08:00 to 09:00, nearest transit: S Georgia St & Curtis Dr (Amarillo National Bank), 871.29m away; Pacific Rim, visit from 09:25 to 10:16, nearest transit: S Georgia St & Civic Cir, 570.08m away; Harrington House, visit from 11:30 to 15:20, nearest transit: SW 15th Ave & S Harrison St, 214.28m away; The Plaza Restaurant, visit from 13:57 to 14:56, nearest transit: Westgate Pkwy West of Best Buy, 614.28m away; Coyote Bluff Cafe, visit from 19:51 to 21:00, nearest transit: S Grand St & SE 25th Ave, 75.41m away; The Pristine House, stay from 22:15 to 08:00, nearest transit: S Georgia St & Curtis Dr (Amarillo National Bank), 871.29m away."
     },
     {
       "days": 3,
-      "current_city": "from Washington to Houston",
-      "transportation": "Flight Number: F0084522, from Washington to Houston, Departure Time: 07:04, Arrival Time: 09:31",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "-",
+      "current_city": "from Amarillo to Corpus Christi",
+      "transportation": "Transfer, from Amarillo to Corpus Christi",
+      "breakfast": "Vietnam Restaurant, Corpus Christi",
+      "attraction": "Cole Park, Corpus Christi",
+      "lunch": "Yardarm Restaurant, Corpus Christi",
+      "dinner": "U & I Restaurant, Corpus Christi",
+      "accommodation": "Coastal Getaway, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "The Pristine House, stay from 08:00 to 09:00, nearest transit: S Georgia St & Curtis Dr (Amarillo National Bank), 871.29m away; Vietnam Restaurant, visit from 09:25 to 10:16, nearest transit: Starr @ Chaparral, 25.27m away; Cole Park, visit from 11:30 to 16:50, nearest transit: 408-Santa Fe @ Clifford, 330.11m away; Yardarm Restaurant, visit from 13:57 to 14:56, nearest transit: 820-Robert @ Ocean Dr, 87.63m away; U & I Restaurant, visit from 19:51 to 21:00, nearest transit: 1890-Water @ Born, 88.55m away; Coastal Getaway, stay from 22:15 to 08:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Corpus Christi to Corpus Christi",
+      "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+      "breakfast": "Pier 99 Restaurant, Corpus Christi",
+      "attraction": "Bob Hall Pier, Corpus Christi",
+      "lunch": "Blue Clove, Corpus Christi",
+      "dinner": "Saltwater Grill, Corpus Christi",
+      "accommodation": "Coastal Getaway, Corpus Christi",
+      "event": "-",
+      "point_of_interest_list": "Coastal Getaway, stay from 08:00 to 09:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away; Pier 99 Restaurant, visit from 09:25 to 10:16, nearest transit: 1318-Shoreline@Bridgeport, 126.66m away; Bob Hall Pier, visit from 11:30 to 15:20, nearest transit: 1086-Whitecap, 2252.95m away; Blue Clove, visit from 13:57 to 14:56, nearest transit: 1006-Everhart @ Shea, 24.81m away; Saltwater Grill, visit from 19:51 to 21:00, nearest transit: 791-Cimarron, 78.84m away; Coastal Getaway, stay from 22:15 to 08:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Corpus Christi to Nashville",
+      "transportation": "Transfer, from Corpus Christi to Nashville",
+      "breakfast": "Executive Surf Club, Corpus Christi",
+      "attraction": "North Beach, Corpus Christi",
+      "lunch": "Black Diamond Oyster Bar, Corpus Christi",
+      "dinner": "Railroad Seafood Station & Brewing Co., Corpus Christi",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "A Cozy room, stay from 05:34 to 06:34, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away; A Cozy room, stay from 08:00 to 09:00, nearest transit: BENNING RD METRORAIL STATION - BENNING RD. NORTH OF E. CAPITOL ST., 58.60m away."
+      "point_of_interest_list": "Coastal Getaway, stay from 08:00 to 09:00, nearest transit: 357-Santa Fe @ Atlantic, 88.13m away; Executive Surf Club, visit from 09:25 to 10:16, nearest transit: 1507-Lawrence @ Chaparral, 93.27m away; North Beach, visit from 11:30 to 16:35, nearest transit: 1322-Surfside@VillaDelSol, 249.15m away; Black Diamond Oyster Bar, visit from 13:57 to 14:56, nearest transit: 665-NAS Drive @ Skipper, 63.73m away; Railroad Seafood Station & Brewing Co., visit from 19:51 to 21:00, nearest transit: 1859-Chaparral @ Power, 84.79m away."
     }
   ]
 }

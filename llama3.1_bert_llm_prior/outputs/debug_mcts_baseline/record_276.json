@@ -1,65 +1,91 @@
 {
   "idx": 276,
   "JSON": {
-    "org": "Houston",
-    "dest": "Key West",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-15",
-      "2024-11-16",
-      "2024-11-17"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
-      "transportation": null,
+      "room type": "private room",
+      "transportation": "no flight",
       "event": null,
-      "attraction": null
+      "attraction": "Sights & Landmarks"
     },
-    "budget": 2200.0,
-    "query": "Plan a 3-day trip for 2 people from Houston to Key West from November 15th to November 17th, 2024, with a budget of $2,200.",
-    "level": "easy"
+    "budget": 2100.0,
+    "query": "Design a 5-day travel itinerary for 1 person starting from Lynchburg and visiting 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $2,100. Accommodations should include a private room, and the mode of transportation should exclude flights. The itinerary should focus on visiting sights and landmarks.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Key West",
-      "transportation": "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West",
-      "breakfast": "Sunset Pier, Key West",
-      "attraction": "Mallory Square, Key West",
-      "lunch": "Blue Heaven, Key West",
-      "dinner": "Thirsty Mermaid, Key West",
-      "accommodation": "Yacht Your Ordinary Airbnb, Key West",
+      "current_city": "from Lynchburg to Greensboro",
+      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
+      "breakfast": "Blue Denim, Greensboro",
+      "attraction": "Blandwood, Greensboro",
+      "lunch": "Green Valley Grill, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Yacht Your Ordinary Airbnb, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away; Sunset Pier, visit from 09:25 to 10:16, nearest transit: Whitehead & Greene St., 318.33m away; Mallory Square, visit from 11:30 to 16:05, nearest transit: Whitehead & Greene St., 235.56m away; Blue Heaven, visit from 13:57 to 14:56, nearest transit: Petronia & Whitehead, 73.82m away; Thirsty Mermaid, visit from 19:51 to 21:00, nearest transit: Simonton & Southard St., 200.66m away; Yacht Your Ordinary Airbnb, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road (Opposite El Siboney), 398.10m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Blue Denim, visit from 09:25 to 10:16, nearest transit: International Civil Rights Museum, 72.70m away; Blandwood, visit from 11:30 to 15:20, nearest transit: Spring Garden/Blandwood (OB), 208.65m away; Green Valley Grill, visit from 13:57 to 14:56, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 2,
-      "current_city": "from Key West to Key West",
-      "transportation": "Transfer, from Key West to Key West",
-      "breakfast": "Seven Fish, Key West",
-      "attraction": "Southernmost Point, Key West",
-      "lunch": "Waterfront Brewery, Key West",
-      "dinner": "Onlywood Grill, Key West",
-      "accommodation": "Signature King, Key West",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Mythos Grill, Greensboro",
+      "attraction": "First National Bank Field, Greensboro",
+      "lunch": "Golden Wok, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Signature King, stay from 08:00 to 09:00, nearest transit: Key West - Opposite 24 North Hotel, 235.04m away; Seven Fish, visit from 09:25 to 10:16, nearest transit: Truman & Grinnell, 19.45m away; Southernmost Point, visit from 11:30 to 15:20, nearest transit: Whitehead & United, 162.79m away; Waterfront Brewery, visit from 13:57 to 14:56, nearest transit: Caroline & William, 119.49m away; Onlywood Grill, visit from 19:51 to 21:00, nearest transit: Caroline & William, 28.22m away; Signature King, stay from 22:15 to 08:00, nearest transit: Key West - Opposite 24 North Hotel, 235.04m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Mythos Grill, visit from 09:25 to 10:16, nearest transit: West Market/Walker, 60.36m away; First National Bank Field, visit from 11:30 to 15:20, nearest transit: 201 North Eugene St/Sandhill Center, 137.66m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 3,
-      "current_city": "from Key West to Houston",
-      "transportation": "Taxi, from Key West to Houston, Not feasible to drive from Key West to Houston",
-      "breakfast": "The Stoned Crab, Key West",
-      "attraction": "The Overseas Highway, Key West",
-      "lunch": "Harpoon Harry's, Key West",
-      "dinner": "-",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49",
+      "breakfast": "Charlotte Bakery, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "The Capital Grille, Charlotte",
+      "dinner": "Queen Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Charlotte Bakery, visit from 09:25 to 10:16, nearest transit: White Street Park and Ride, 1016826.02m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: Tryon St & 6th St, 103.97m away; Queen Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 6385477.65m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Charlotte Lane, Charlotte",
+      "attraction": "Fourth Ward, Charlotte",
+      "lunch": "Princess Charlotte, Charlotte",
+      "dinner": "Bistro Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Lane, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 1612739.20m away; Fourth Ward, visit from 11:30 to 14:50, nearest transit: Church St & 6th St, 129.82m away; Princess Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6465940.22m away; Bistro Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 7764630.63m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61",
+      "breakfast": "Charlotte Quay Restaurant, Charlotte",
+      "attraction": "Truist Field, Charlotte",
+      "lunch": "Charlotte's, Charlotte",
+      "dinner": "The Fig Tree Restaurant, Charlotte",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Signature King, stay from 08:00 to 09:00, nearest transit: Key West - Opposite 24 North Hotel, 235.04m away; The Stoned Crab, visit from 09:25 to 10:16, nearest transit: N Roosevelt & Key Plaza, 245.78m away; The Overseas Highway, visit from 11:30 to 15:50, nearest transit: Holiday Inn, 3477.98m away; Harpoon Harry's, visit from 13:57 to 14:56, nearest transit: Caroline & Grinnell, 83.92m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Quay Restaurant, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 5961834.13m away; Truist Field, visit from 11:30 to 15:20, nearest transit: 4th St & Graham St, 146.25m away; Charlotte's, visit from 13:57 to 14:56, nearest transit: Oakland St & Main Ave, 784407.98m away; The Fig Tree Restaurant, visit from 19:51 to 21:00, nearest transit: 7th St & Armory Dr, 103.61m away."
     }
   ]
 }

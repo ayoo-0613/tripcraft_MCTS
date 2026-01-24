@@ -2,12 +2,22 @@
   "idx": 283,
   "stages": [
     {
-      "city": "Indianapolis",
+      "city": "Watertown",
       "counts": {
-        "attractions": 20,
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 18
+      }
+    },
+    {
+      "city": "Rochester",
+      "counts": {
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 75,
+        "poi2transit": 73,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Detroit",
-      "to": "Indianapolis",
-      "date": "2024-11-24",
-      "raw": "Flight Number: F0161855, from Detroit to Indianapolis, Departure Time: 15:59, Arrival Time: 17:02"
+      "from": "St. Louis",
+      "to": "Watertown",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "St. Louis",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $22.39"
+      "raw": "Self-driving, from St. Louis to Watertown, Duration: 1078.1683333333333 mins, Distance: 1528.646 km, Estimated Cost: $76.43"
     },
     {
       "mode": "taxi",
-      "from": "Detroit",
-      "to": "Indianapolis",
+      "from": "St. Louis",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70"
+      "raw": "Taxi, from St. Louis to Watertown, Duration: 1078.1683333333333 mins, Distance: 1528.646 km, Estimated Cost: $1528.65"
     },
     {
       "mode": "flight",
-      "from": "Indianapolis",
-      "to": "Detroit",
-      "date": "2024-11-26",
-      "raw": "Flight Number: F0156896, from Indianapolis to Detroit, Departure Time: 18:40, Arrival Time: 19:45"
+      "from": "Watertown",
+      "to": "Rochester",
+      "date": "2024-11-05",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Watertown",
+      "to": "Rochester",
       "date": null,
-      "raw": "Self-driving, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $22.40"
+      "raw": "Self-driving, from Watertown to Rochester, Duration: 176.86333333333332 mins, Distance: 209.5633 km, Estimated Cost: $10.48"
     },
     {
       "mode": "taxi",
-      "from": "Indianapolis",
-      "to": "Detroit",
+      "from": "Watertown",
+      "to": "Rochester",
       "date": null,
-      "raw": "Taxi, from Indianapolis to Detroit, Duration: 328.4183333333333 mins, Distance: 448.0768 km, Estimated Cost: $448.08"
+      "raw": "Taxi, from Watertown to Rochester, Duration: 176.86333333333332 mins, Distance: 209.5633 km, Estimated Cost: $209.56"
+    },
+    {
+      "mode": "flight",
+      "from": "Rochester",
+      "to": "St. Louis",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Rochester",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Self-driving, from Rochester to St. Louis, Duration: 916.39 mins, Distance: 1303.6043 km, Estimated Cost: $65.18"
+    },
+    {
+      "mode": "taxi",
+      "from": "Rochester",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Taxi, from Rochester to St. Louis, Duration: 916.39 mins, Distance: 1303.6043 km, Estimated Cost: $1303.60"
     }
   ]
 }

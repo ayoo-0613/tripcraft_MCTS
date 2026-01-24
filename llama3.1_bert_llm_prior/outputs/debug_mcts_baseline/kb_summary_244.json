@@ -2,58 +2,89 @@
   "idx": 244,
   "stages": [
     {
-      "city": "Wichita",
+      "city": "Wilmington",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 3
+      }
+    },
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 74,
-        "events": 4
+        "poi2transit": 75,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Wichita",
-      "date": "2024-11-18",
-      "raw": "Flight Number: F0572674, from Houston to Wichita, Departure Time: 20:15, Arrival Time: 22:16"
+      "from": "New York",
+      "to": "Wilmington",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0116083, from New York to Wilmington, Departure Time: 14:20, Arrival Time: 16:45"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Wichita",
+      "from": "New York",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $48.34"
+      "raw": "Self-driving, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $48.06"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Wichita",
+      "from": "New York",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71"
+      "raw": "Taxi, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $961.15"
     },
     {
       "mode": "flight",
-      "from": "Wichita",
-      "to": "Houston",
-      "date": "2024-11-20",
-      "raw": "Flight Number: F0461655, from Wichita to Houston, Departure Time: 11:38, Arrival Time: 13:22"
+      "from": "Wilmington",
+      "to": "Charlotte",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0116723, from Wilmington to Charlotte, Departure Time: 04:53, Arrival Time: 05:58"
     },
     {
       "mode": "self-driving",
-      "from": "Wichita",
-      "to": "Houston",
+      "from": "Wilmington",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Self-driving, from Wichita to Houston, Duration: 634.1333333333333 mins, Distance: 965.9154 km, Estimated Cost: $48.30"
+      "raw": "Self-driving, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $15.93"
     },
     {
       "mode": "taxi",
-      "from": "Wichita",
-      "to": "Houston",
+      "from": "Wilmington",
+      "to": "Charlotte",
       "date": null,
-      "raw": "Taxi, from Wichita to Houston, Duration: 634.1333333333333 mins, Distance: 965.9154 km, Estimated Cost: $965.92"
+      "raw": "Taxi, from Wilmington to Charlotte, Duration: 245.71 mins, Distance: 318.6171 km, Estimated Cost: $318.62"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "New York",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0130061, from Charlotte to New York, Departure Time: 22:17, Arrival Time: 00:03"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "New York",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to New York, Duration: 733.0466666666667 mins, Distance: 999.4573 km, Estimated Cost: $49.97"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "New York",
+      "date": null,
+      "raw": "Taxi, from Charlotte to New York, Duration: 733.0466666666667 mins, Distance: 999.4573 km, Estimated Cost: $999.46"
     }
   ]
 }

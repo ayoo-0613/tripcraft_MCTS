@@ -1,68 +1,91 @@
 {
   "idx": 277,
   "JSON": {
-    "org": "Chicago",
-    "dest": "Lexington",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-19",
-      "2024-11-20",
-      "2024-11-21"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Indian",
-        "Italian"
-      ],
-      "room type": "entire home",
+      "cuisine": "American",
+      "room type": "private room",
+      "transportation": null,
       "event": null,
-      "attraction": null,
-      "transportation": null
+      "attraction": "Sights & Landmarks"
     },
-    "budget": 1500.0,
-    "query": "Plan a 3-day trip for 2 people from Chicago to Lexington from November 19th to November 21st, 2024, with a budget of $1,500. Accommodations should include an entire home, and dining options should feature Indian and Italian cuisines.",
-    "level": "medium"
+    "budget": 2100.0,
+    "query": "Design a 5-day travel itinerary for 1 person starting from Lynchburg to explore 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $2,100. Accommodations should include a private room. The trip should feature American cuisine and visits to sights and landmarks.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Chicago to Lexington",
-      "transportation": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
-      "breakfast": "Lockbox, Lexington",
-      "attraction": "Lexington Green, Lexington",
-      "lunch": "Double Dogs, Lexington",
-      "dinner": "The Triangle Grille, Lexington",
-      "accommodation": "Cozy Downtown Apt - 1 block from Rupp, Lexington",
+      "current_city": "from Lynchburg to Greensboro",
+      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
+      "breakfast": "Blue Denim, Greensboro",
+      "attraction": "Blandwood, Greensboro",
+      "lunch": "Green Valley Grill, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Cozy Downtown Apt - 1 block from Rupp, stay from 08:00 to 09:00, nearest transit: Maxwell @ Patterson, 124.11m away; Lockbox, visit from 09:25 to 10:16, nearest transit: West Main @ 269, 116.85m away; Lexington Green, visit from 11:30 to 15:20, nearest transit: Polo Club @ 2924, 1222296.78m away; Double Dogs, visit from 13:57 to 14:56, nearest transit: Bryant @ 2033 Outbound, 166.09m away; The Triangle Grille, visit from 19:51 to 21:00, nearest transit: North Broadway @ Main Inbound, 68.41m away; Cozy Downtown Apt - 1 block from Rupp, stay from 22:15 to 08:00, nearest transit: Maxwell @ Patterson, 124.11m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Blue Denim, visit from 09:25 to 10:16, nearest transit: International Civil Rights Museum, 72.70m away; Blandwood, visit from 11:30 to 15:20, nearest transit: Spring Garden/Blandwood (OB), 208.65m away; Green Valley Grill, visit from 13:57 to 14:56, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 2,
-      "current_city": "from Lexington to Lexington",
-      "transportation": "Transfer, from Lexington to Lexington",
-      "breakfast": "OBC Kitchen, Lexington",
-      "attraction": "Blue Grass Tours, Lexington",
-      "lunch": "Bluegrass Bistro, Lexington",
-      "dinner": "BRU Burger Bar Lexington, Lexington",
-      "accommodation": "Luxurious 1-bedroom with free parking on premise, Lexington",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Mythos Grill, Greensboro",
+      "attraction": "First National Bank Field, Greensboro",
+      "lunch": "Golden Wok, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Luxurious 1-bedroom with free parking on premise, stay from 08:00 to 09:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away; OBC Kitchen, visit from 09:25 to 10:16, nearest transit: Tates Creek @ Lansdowne Shoppes, 69.64m away; Blue Grass Tours, visit from 11:30 to 15:05, nearest transit: Enterprise @ 780 Inbound, 154.91m away; Bluegrass Bistro, visit from 13:57 to 14:56, nearest transit: Newtown @ Pintail (Marriott), 188.40m away; BRU Burger Bar Lexington, visit from 19:51 to 21:00, nearest transit: Beaumont Centre @ Beaumont Centre Circle, 83.60m away; Luxurious 1-bedroom with free parking on premise, stay from 22:15 to 08:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Mythos Grill, visit from 09:25 to 10:16, nearest transit: West Market/Walker, 60.36m away; First National Bank Field, visit from 11:30 to 15:20, nearest transit: 201 North Eugene St/Sandhill Center, 137.66m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 3,
-      "current_city": "from Lexington to Chicago",
-      "transportation": "Transfer, from Lexington to Chicago",
-      "breakfast": "The Rackhouse Tavern, Lexington",
-      "attraction": "Thoroughbred Park, Lexington",
-      "lunch": "The Ketch Seafood Grill, Lexington",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "Charlotte Bakery, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Charlotte Bakery, visit from 19:51 to 21:00, nearest transit: White Street Park and Ride, 1016826.02m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "The Capital Grille, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "Queen Charlotte, Charlotte",
+      "dinner": "Charlotte Lane, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; The Capital Grille, visit from 09:25 to 10:16, nearest transit: Tryon St & 6th St, 103.97m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; Queen Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6385477.65m away; Charlotte Lane, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 1612739.20m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34",
+      "breakfast": "Princess Charlotte, Charlotte",
+      "attraction": "Fourth Ward, Charlotte",
+      "lunch": "Bistro Charlotte, Charlotte",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Luxurious 1-bedroom with free parking on premise, stay from 08:00 to 09:00, nearest transit: Euclid @ Oldham Outbound, 48.57m away; The Rackhouse Tavern, visit from 09:25 to 10:16, nearest transit: Harrodsburg @ Saint Joseph Hosp Outbound, 224.59m away; Thoroughbred Park, visit from 11:30 to 16:50, nearest transit: Midland @ Short, 112.60m away; The Ketch Seafood Grill, visit from 13:57 to 14:56, nearest transit: Southland @ Rainbow, 237.59m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Princess Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6465940.22m away; Fourth Ward, visit from 11:30 to 14:50, nearest transit: Church St & 6th St, 129.82m away; Bistro Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7764630.63m away."
     }
   ]
 }

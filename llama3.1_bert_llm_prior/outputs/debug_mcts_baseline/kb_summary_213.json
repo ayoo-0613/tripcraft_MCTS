@@ -2,58 +2,89 @@
   "idx": 213,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "San Luis Obispo",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
         "events": 0
+      }
+    },
+    {
+      "city": "Fresno",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 6
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Sitka",
-      "to": "Seattle",
-      "date": "2024-11-06",
-      "raw": "Flight Number: F1136026, from Sitka to Seattle, Departure Time: 15:56, Arrival Time: 19:15"
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
+      "date": "2024-11-17",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Sitka",
-      "to": "Seattle",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Self-driving, from Sitka to Seattle, Not feasible to drive from Sitka to Seattle"
+      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
     },
     {
       "mode": "taxi",
-      "from": "Sitka",
-      "to": "Seattle",
+      "from": "Las Vegas",
+      "to": "San Luis Obispo",
       "date": null,
-      "raw": "Taxi, from Sitka to Seattle, Not feasible to drive from Sitka to Seattle"
+      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Sitka",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F1118297, from Seattle to Sitka, Departure Time: 17:12, Arrival Time: 18:43"
+      "from": "San Luis Obispo",
+      "to": "Fresno",
+      "date": "2024-11-19",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Sitka",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Self-driving, from Seattle to Sitka, Not feasible to drive from Seattle to Sitka"
+      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Sitka",
+      "from": "San Luis Obispo",
+      "to": "Fresno",
       "date": null,
-      "raw": "Taxi, from Seattle to Sitka, Not feasible to drive from Seattle to Sitka"
+      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
+    },
+    {
+      "mode": "flight",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fresno",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
     }
   ]
 }

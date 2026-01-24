@@ -2,11 +2,21 @@
   "idx": 177,
   "stages": [
     {
-      "city": "Seattle",
+      "city": "Watertown",
       "counts": {
         "attractions": 19,
         "restaurants": 35,
-        "accommodations": 20,
+        "accommodations": 18,
+        "poi2transit": 74,
+        "events": 15
+      }
+    },
+    {
+      "city": "New York",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
         "poi2transit": 75,
         "events": 0
       }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "Seattle",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0244901, from Charleston to Seattle, Departure Time: 18:43, Arrival Time: 21:30"
+      "from": "Wilmington",
+      "to": "Watertown",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "Seattle",
+      "from": "Wilmington",
+      "to": "Watertown",
       "date": null,
-      "raw": "Self-driving, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle"
+      "raw": "Self-driving, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $64.76"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "Seattle",
+      "from": "Wilmington",
+      "to": "Watertown",
       "date": null,
-      "raw": "Taxi, from Charleston to Seattle, Not feasible to drive from Charleston to Seattle"
+      "raw": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15"
     },
     {
       "mode": "flight",
-      "from": "Seattle",
-      "to": "Charleston",
-      "date": "2024-11-10",
-      "raw": "Flight Number: F0246154, from Seattle to Charleston, Departure Time: 09:13, Arrival Time: 17:15"
+      "from": "Watertown",
+      "to": "New York",
+      "date": "2024-11-06",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Seattle",
-      "to": "Charleston",
+      "from": "Watertown",
+      "to": "New York",
       "date": null,
-      "raw": "Self-driving, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston"
+      "raw": "Self-driving, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $25.81"
     },
     {
       "mode": "taxi",
-      "from": "Seattle",
-      "to": "Charleston",
+      "from": "Watertown",
+      "to": "New York",
       "date": null,
-      "raw": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston"
+      "raw": "Taxi, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $516.22"
+    },
+    {
+      "mode": "flight",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0122356, from New York to Wilmington, Departure Time: 08:59, Arrival Time: 10:55"
+    },
+    {
+      "mode": "self-driving",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Self-driving, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $48.06"
+    },
+    {
+      "mode": "taxi",
+      "from": "New York",
+      "to": "Wilmington",
+      "date": null,
+      "raw": "Taxi, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $961.15"
     }
   ]
 }

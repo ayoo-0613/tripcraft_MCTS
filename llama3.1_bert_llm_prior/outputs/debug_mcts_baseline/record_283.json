@@ -1,65 +1,94 @@
 {
   "idx": 283,
   "JSON": {
-    "org": "Detroit",
-    "dest": "Indianapolis",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "St. Louis",
+    "dest": "New York",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-24",
-      "2024-11-25",
-      "2024-11-26"
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06",
+      "2024-11-07"
     ],
-    "people_number": 1,
+    "people_number": 2,
     "local_constraint": {
-      "house rule": null,
+      "house rule": "smoking",
       "cuisine": null,
-      "room type": "private room",
+      "room type": null,
       "transportation": null,
-      "event": null,
+      "event": [
+        "Arts & Theatre",
+        "Music"
+      ],
       "attraction": null
     },
-    "budget": 1050.0,
-    "query": "Plan a 3-day trip for 1 person from Detroit to Indianapolis from November 24th to November 26th, 2024, with a budget of $1,050. Accommodations should include a private room.",
+    "budget": 3150.0,
+    "query": "Plan a 5-day trip for 2 people starting from St. Louis to explore 2 cities in New York between November 3rd and November 7th, 2024. The budget is $3,150. Accommodations should allow smoking, and the itinerary should include events related to arts, theatre, and music.",
     "level": "medium"
   },
-  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Detroit to Indianapolis",
-      "transportation": "Taxi, from Detroit to Indianapolis, Duration: 328.28 mins, Distance: 447.7004 km, Estimated Cost: $447.70",
-      "breakfast": "Vida, Indianapolis",
-      "attraction": "Monument Circle, Indianapolis; Indianapolis Zoo, Indianapolis",
-      "lunch": "Thai Spice, Indianapolis",
-      "dinner": "Yard House, Indianapolis",
-      "accommodation": "Historic Private Guest Suite, Indianapolis",
-      "event": "-",
-      "point_of_interest_list": "Historic Private Guest Suite, stay from 08:00 to 09:00, nearest transit: Michigan St & Spring St, 70.02m away; Vida, visit from 09:25 to 10:16, nearest transit: New York St & College Ave, 112.33m away; Monument Circle, visit from 11:30 to 13:57, nearest transit: Ohio St & Meridian St, 185.16m away; Thai Spice, visit from 13:57 to 14:56, nearest transit: County Line Rd at Greenwood Park Mall, 41.67m away; Indianapolis Zoo, visit from 16:30 to 19:37, nearest transit: Washington St & White River Pkwy W Dr, 244.02m away; Yard House, visit from 19:51 to 21:00, nearest transit: Washington St & Illinois St, 224.79m away; Historic Private Guest Suite, stay from 22:15 to 08:00, nearest transit: Michigan St & Spring St, 70.02m away."
+      "current_city": "from St. Louis to Watertown",
+      "transportation": "Taxi, from St. Louis to Watertown, Duration: 1078.1683333333333 mins, Distance: 1528.646 km, Estimated Cost: $1528.65",
+      "breakfast": "Bistro 108, Watertown",
+      "attraction": "THE PADDOCK CLUB, Watertown; Literatus & Co, Watertown",
+      "lunch": "Koreana, Watertown",
+      "dinner": "Empire Square, Watertown",
+      "accommodation": "The Hideaway Cabin, Watertown",
+      "event": "Jazz Jam, Watertown",
+      "point_of_interest_list": "The Hideaway Cabin, stay from 08:00 to 09:00, nearest transit: Target - Towne Center Parking, 16215.05m away; Bistro 108, visit from 09:25 to 10:16, nearest transit: Transfer Station, 69.37m away; THE PADDOCK CLUB, visit from 11:30 to 13:27, nearest transit: Transfer Station, 49.93m away; Koreana, visit from 13:57 to 14:56, nearest transit: Huntington Heights, 4044.95m away; Literatus & Co, visit from 16:30 to 17:27, nearest transit: Target - Towne Center Parking, 1033038.46m away; Empire Square, visit from 19:51 to 21:00, nearest transit: Transfer Station, 172.75m away; The Hideaway Cabin, stay from 22:15 to 08:00, nearest transit: Target - Towne Center Parking, 16215.05m away."
     },
     {
       "days": 2,
-      "current_city": "from Indianapolis to Indianapolis",
-      "transportation": "Transfer, from Indianapolis to Indianapolis",
-      "breakfast": "Mesh Indy, Indianapolis",
-      "attraction": "Central Canal, Indianapolis; Eagle Creek Park, Indianapolis",
-      "lunch": "Milktooth, Indianapolis",
-      "dinner": "The Capital Grille, Indianapolis",
-      "accommodation": "Queen Bed Getaway Room Downtown Indy, Indianapolis",
+      "current_city": "from Watertown to Watertown",
+      "transportation": "Transfer, from Watertown to Watertown",
+      "breakfast": "Lotus Restaurant, Watertown",
+      "attraction": "Salmon Run Mall, Watertown; Armenian Museum of America, Watertown",
+      "lunch": "Red Robin, Watertown",
+      "dinner": "Fairground Inn, Watertown",
+      "accommodation": "Northside Lodging, Watertown",
       "event": "-",
-      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Mesh Indy, visit from 09:25 to 10:16, nearest transit: Massachusetts Ave & Park Ave, 75.37m away; Central Canal, visit from 11:30 to 13:57, nearest transit: Washington St & West St - White River St, 138.65m away; Milktooth, visit from 13:57 to 14:56, nearest transit: Fletcher Place Station NB, 34.30m away; Eagle Creek Park, visit from 16:30 to 20:27, nearest transit: Intech Blvd & Network Way, 1850.05m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: Washington St & Illinois St, 95.94m away; Queen Bed Getaway Room Downtown Indy, stay from 22:15 to 08:00, nearest transit: New York St & State St, 65.71m away."
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Lotus Restaurant, visit from 09:25 to 10:16, nearest transit: Price Chopper, 127.25m away; Salmon Run Mall, visit from 11:30 to 12:27, nearest transit: Transfer Station, 220.90m away; Red Robin, visit from 13:57 to 14:56, nearest transit: Hannaford Foods, 63.20m away; Armenian Museum of America, visit from 16:30 to 18:57, nearest transit: Northland Plaza, 421122.69m away; Fairground Inn, visit from 19:51 to 21:00, nearest transit: Coffeen VanDuzee, 215.08m away; Northside Lodging, stay from 22:15 to 08:00, nearest transit: Curtis Apts, 476.97m away."
     },
     {
       "days": 3,
-      "current_city": "from Indianapolis to Detroit",
-      "transportation": "Flight Number: F0156896, from Indianapolis to Detroit, Departure Time: 18:40, Arrival Time: 19:45",
-      "breakfast": "Livery Indianapolis, Indianapolis",
-      "attraction": "The Fashion Mall at Keystone, Indianapolis; Victory Field, Indianapolis",
+      "current_city": "from Watertown to Rochester",
+      "transportation": "Transfer, from Watertown to Rochester",
+      "breakfast": "Swan Market, Rochester",
+      "attraction": "Restoration House, Rochester; Douglas Trail, Rochester",
+      "lunch": "Hunan Garden, Rochester",
+      "dinner": "Cafe Nucleus Rochester, Rochester",
+      "accommodation": "Luxury Entertaining 4BR House, Rochester",
+      "event": "-",
+      "point_of_interest_list": "Northside Lodging, stay from 08:00 to 09:00, nearest transit: Curtis Apts, 476.97m away; Swan Market, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142628.73m away; Restoration House, visit from 11:30 to 13:57, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6492204.41m away; Hunan Garden, visit from 13:57 to 14:56, nearest transit: St. Mary's Hospital, 1030.16m away; Douglas Trail, visit from 16:30 to 20:27, nearest transit: 3rd Ave. SW & 2nd St. SW (North), 289.83m away; Cafe Nucleus Rochester, visit from 19:51 to 21:00, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6491812.29m away; Luxury Entertaining 4BR House, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Rochester to Rochester",
+      "transportation": "Transfer, from Rochester to Rochester",
+      "breakfast": "Jines Restaurant, Rochester",
+      "attraction": "Rochester Castle, Rochester; Groome Transportation, Rochester",
+      "lunch": "Don Vincenzo, Rochester",
+      "dinner": "Good Luck, Rochester",
+      "accommodation": "Luxury Entertaining 4BR House, Rochester",
+      "event": "-",
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away; Jines Restaurant, visit from 09:25 to 10:16, nearest transit: Winona 61 & Hwy. 14, 1142527.42m away; Rochester Castle, visit from 11:30 to 13:57, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6491845.44m away; Don Vincenzo, visit from 13:57 to 14:56, nearest transit: Wabasha County Rd. 30-Old Fairgrounds, 6492148.11m away; Groome Transportation, visit from 16:30 to 17:27, nearest transit: St. Mary's Hospital, 939.18m away; Good Luck, visit from 19:51 to 21:00, nearest transit: Winona 61 & Hwy. 14, 1141851.57m away; Luxury Entertaining 4BR House, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Rochester to St. Louis",
+      "transportation": "Transfer, from Rochester to St. Louis",
+      "breakfast": "-",
+      "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Queen Bed Getaway Room Downtown Indy, stay from 08:00 to 09:00, nearest transit: New York St & State St, 65.71m away; Livery Indianapolis, visit from 09:25 to 10:16, nearest transit: Massachusetts Ave & Park Ave, 127.06m away; The Fashion Mall at Keystone, visit from 11:30 to 12:27, nearest transit: Keystone Crossing - 8700 N, 51.70m away; Victory Field, visit from 16:30 to 18:57, nearest transit: Washington St & Victory Field - 800 W, 132.89m away."
+      "point_of_interest_list": "Luxury Entertaining 4BR House, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141809.20m away."
     }
   ]
 }

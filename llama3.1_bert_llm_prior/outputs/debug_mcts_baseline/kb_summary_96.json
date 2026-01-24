@@ -2,89 +2,120 @@
   "idx": 96,
   "stages": [
     {
-      "city": "Memphis",
+      "city": "Los Angeles",
       "counts": {
-        "attractions": 15,
+        "attractions": 19,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 70,
-        "events": 12
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "Chattanooga",
+      "city": "San Francisco",
       "counts": {
-        "attractions": 14,
+        "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
-        "poi2transit": 69,
-        "events": 22
+        "poi2transit": 75,
+        "events": 0
+      }
+    },
+    {
+      "city": "San Diego",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "Detroit",
+      "to": "Los Angeles",
+      "date": "2024-11-01",
+      "raw": "Flight Number: F0333563, from Detroit to Los Angeles, Departure Time: 16:39, Arrival Time: 18:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Detroit",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Self-driving, from Detroit to Los Angeles, Not feasible to drive from Detroit to Los Angeles"
+    },
+    {
+      "mode": "taxi",
+      "from": "Detroit",
+      "to": "Los Angeles",
+      "date": null,
+      "raw": "Taxi, from Detroit to Los Angeles, Not feasible to drive from Detroit to Los Angeles"
+    },
+    {
+      "mode": "flight",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0033146, from Los Angeles to San Francisco, Departure Time: 05:49, Arrival Time: 06:56"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $30.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Los Angeles",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Los Angeles to San Francisco, Duration: 426.93 mins, Distance: 613.4517 km, Estimated Cost: $613.45"
+    },
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0060811, from San Francisco to San Diego, Departure Time: 21:52, Arrival Time: 23:09"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $40.31"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $806.29"
+    },
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Detroit",
       "date": "2024-11-07",
-      "raw": "-"
+      "raw": "Flight Number: F0319508, from San Diego to Detroit, Departure Time: 22:17, Arrival Time: 05:41"
     },
     {
       "mode": "self-driving",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "San Diego",
+      "to": "Detroit",
       "date": null,
-      "raw": "Self-driving, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $36.24"
+      "raw": "Self-driving, from San Diego to Detroit, Not feasible to drive from San Diego to Detroit"
     },
     {
       "mode": "taxi",
-      "from": "Peoria",
-      "to": "Memphis",
+      "from": "San Diego",
+      "to": "Detroit",
       "date": null,
-      "raw": "Taxi, from Peoria to Memphis, Duration: 495.185 mins, Distance: 724.7939 km, Estimated Cost: $724.79"
-    },
-    {
-      "mode": "flight",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": "2024-11-09",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": null,
-      "raw": "Self-driving, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $26.94"
-    },
-    {
-      "mode": "taxi",
-      "from": "Memphis",
-      "to": "Chattanooga",
-      "date": null,
-      "raw": "Taxi, from Memphis to Chattanooga, Duration: 373.76166666666666 mins, Distance: 538.7284000000001 km, Estimated Cost: $538.73"
-    },
-    {
-      "mode": "flight",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": "2024-11-11",
-      "raw": "-"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": null,
-      "raw": "Self-driving, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $44.97"
-    },
-    {
-      "mode": "taxi",
-      "from": "Chattanooga",
-      "to": "Peoria",
-      "date": null,
-      "raw": "Taxi, from Chattanooga to Peoria, Duration: 633.6733333333334 mins, Distance: 899.3865 km, Estimated Cost: $899.39"
+      "raw": "Taxi, from San Diego to Detroit, Not feasible to drive from San Diego to Detroit"
     }
   ]
 }

@@ -1,34 +1,30 @@
 {
   "idx": 305,
-  "reward": 11.785069680299262,
-  "budget_used": 1512.0,
+  "reward": 19.227851063219244,
+  "budget_used": 1687.3,
   "action_trace": [
     {
       "day": 1,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco",
+      "chosen": "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco",
       "candidates": [
-        "Flight Number: F0198184, from Miami to San Francisco, Departure Time: 21:21, Arrival Time: 00:57",
-        "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco"
+        "Flight Number: F0243016, from Washington to San Francisco, Departure Time: 17:49, Arrival Time: 21:12",
+        "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco"
       ]
     },
     {
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Monroe Studio 303",
+      "chosen": "Modern Single Studio",
       "candidates": [
-        "Monroe Studio 303",
         "Modern Single Studio",
         "Private cozy room 1",
-        "Recent Remodeled Beautiful Unit",
-        "Glorious Room in Victorian Home",
-        "Peaceful Studio in the Trees",
-        "Immaculate studio space with free parking",
-        "Spacious and charming 1bd apartment on Ocean Beach",
-        "Airy private room in quiet home, Castro",
-        "Updated Private Bedroom with Ensuite Bathroom."
+        "#1 Private room with private bathroom with tub",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "1 Queen bedded room w/full bath",
+        "Harry Potter Lego themed Guestroom"
       ]
     },
     {
@@ -38,65 +34,65 @@
       "chosen": "Eagle Cafe",
       "candidates": [
         "Eagle Cafe",
-        "Outerlands",
         "Capital Restaurant",
+        "Outerlands",
         "Waterbar",
-        "Hillstone",
-        "Pier Market Seafood Restaurant",
         "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
       "day": 1,
       "slot": "attraction1",
       "action_type": "add_attraction1",
-      "chosen": "Ferry Building Marketplace",
+      "chosen": "Oracle Park",
       "candidates": [
-        "Cable Cars",
         "Twin Peaks",
+        "Cable Cars",
         "Pier 39",
-        "Cable Car Museum",
         "Oracle Park",
-        "Golden Gate Park",
-        "Coit Tower",
-        "Golden Gate Bridge",
+        "Cable Car Museum",
         "Ferry Building Marketplace",
-        "Fisherman's Wharf",
+        "Coit Tower",
         "Lands End",
+        "Golden Gate Park",
+        "Fisherman's Wharf",
         "Japanese Tea Garden",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
         "California Academy of Sciences",
         "Palace of Fine Arts Theatre",
-        "Walt Disney Family Museum",
-        "Exploratorium",
         "Alcatraz Island",
+        "Exploratorium",
         "Ghirardelli Square"
       ]
     },
@@ -104,42 +100,42 @@
       "day": 1,
       "slot": "lunch",
       "action_type": "set_lunch",
-      "chosen": "Outerlands",
+      "chosen": "Capital Restaurant",
       "candidates": [
-        "Outerlands",
         "Capital Restaurant",
+        "Outerlands",
         "Waterbar",
-        "Hillstone",
-        "Pier Market Seafood Restaurant",
         "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
@@ -155,41 +151,41 @@
       "day": 1,
       "slot": "dinner",
       "action_type": "set_dinner",
-      "chosen": "Capital Restaurant",
+      "chosen": "Outerlands",
       "candidates": [
-        "Capital Restaurant",
+        "Outerlands",
         "Waterbar",
-        "Hillstone",
-        "Pier Market Seafood Restaurant",
         "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
@@ -203,18 +199,14 @@
       "day": 2,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "Monroe Studio 303",
+      "chosen": "Modern Single Studio",
       "candidates": [
-        "Monroe Studio 303",
         "Modern Single Studio",
         "Private cozy room 1",
-        "Recent Remodeled Beautiful Unit",
-        "Glorious Room in Victorian Home",
-        "Peaceful Studio in the Trees",
-        "Immaculate studio space with free parking",
-        "Spacious and charming 1bd apartment on Ocean Beach",
-        "Airy private room in quiet home, Castro",
-        "Updated Private Bedroom with Ensuite Bathroom."
+        "#1 Private room with private bathroom with tub",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "1 Queen bedded room w/full bath",
+        "Harry Potter Lego themed Guestroom"
       ]
     },
     {
@@ -224,61 +216,61 @@
       "chosen": "Waterbar",
       "candidates": [
         "Waterbar",
-        "Hillstone",
-        "Pier Market Seafood Restaurant",
         "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
       "day": 2,
       "slot": "attraction1",
       "action_type": "add_attraction1",
-      "chosen": "Cable Cars",
+      "chosen": "Twin Peaks",
       "candidates": [
-        "Cable Cars",
         "Twin Peaks",
+        "Cable Cars",
         "Pier 39",
         "Cable Car Museum",
-        "Oracle Park",
-        "Golden Gate Park",
+        "Ferry Building Marketplace",
         "Coit Tower",
-        "Golden Gate Bridge",
-        "Fisherman's Wharf",
         "Lands End",
+        "Golden Gate Park",
+        "Fisherman's Wharf",
         "Japanese Tea Garden",
+        "Golden Gate Bridge",
+        "Walt Disney Family Museum",
         "California Academy of Sciences",
         "Palace of Fine Arts Theatre",
-        "Walt Disney Family Museum",
-        "Exploratorium",
         "Alcatraz Island",
+        "Exploratorium",
         "Ghirardelli Square"
       ]
     },
@@ -286,39 +278,39 @@
       "day": 2,
       "slot": "lunch",
       "action_type": "set_lunch",
-      "chosen": "Hillstone",
+      "chosen": "Quince",
       "candidates": [
-        "Hillstone",
-        "Pier Market Seafood Restaurant",
         "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
@@ -334,38 +326,38 @@
       "day": 2,
       "slot": "dinner",
       "action_type": "set_dinner",
-      "chosen": "Pier Market Seafood Restaurant",
+      "chosen": "Hillstone",
       "candidates": [
-        "Pier Market Seafood Restaurant",
-        "Quince",
+        "Hillstone",
         "Blue Mermaid Restaurant",
+        "Pier Market Seafood Restaurant",
         "City View Restaurant",
-        "Crab House at Pier 39",
-        "Mersea Restaurant & Bar",
-        "Eight Am",
         "Tadich Grill",
+        "Crab House at Pier 39",
+        "Eight Am",
+        "Hog Island Oyster Co.",
         "Fog Harbor Fish House",
         "The Stinking Rose",
-        "Z & Y Restaurant",
-        "House of Prime Rib",
-        "Hog Island Oyster Co.",
         "Mo's Grill",
+        "House of Prime Rib",
+        "Mersea Restaurant & Bar",
         "John's Grill",
-        "Sears Fine Foods",
+        "Z & Y Restaurant",
+        "Original Joe's",
         "R&G Lounge",
         "Scoma's Restaurant",
-        "Original Joe's",
-        "Scala's Bistro",
         "The Codmother Fish & Chips",
-        "Trattoria Contadina",
-        "Luisa's Restaurant Wine Bar Since 1959",
+        "Scala's Bistro",
+        "Sears Fine Foods",
         "Morton's The Steakhouse",
-        "Fogo de Chao Brazilian Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
         "Honey Honey Cafe & Crepery",
         "Harris' Restaurant - The San Francisco Steakhouse",
-        "Akiko's Sushi Bar and Restaurant",
+        "Trattoria Contadina",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
         "Good Mong Kok Bakery",
-        "Kokkari Estiatorio"
+        "Akiko's Sushi Bar and Restaurant"
       ]
     },
     {
@@ -379,10 +371,22 @@
       "day": 3,
       "slot": "transport",
       "action_type": "set_transport",
-      "chosen": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
+      "chosen": "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46",
       "candidates": [
-        "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
-        "Taxi, from San Francisco to Miami, Not feasible to drive from San Francisco to Miami"
+        "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46",
+        "Taxi, from San Francisco to San Diego, Duration: 567.3449999999999 mins, Distance: 806.2903 km, Estimated Cost: $806.29"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "charming, colorful, close to beach",
+      "candidates": [
+        "charming, colorful, close to beach",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches"
       ]
     },
     {
@@ -436,36 +440,309 @@
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
+    },
+    {
+      "day": 4,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "charming, colorful, close to beach",
+      "candidates": [
+        "charming, colorful, close to beach",
+        "Big Bay Views, San Diego Bay",
+        "Great Beach Fun and Rest in Pacific Beach!",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Coyote",
+      "candidates": [
+        "Cafe Coyote",
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "The Fishery",
+        "Vessel Restaurant + Bar",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Trailer Park After Dark",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Mission Beach",
+        "Little Italy",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "Old Town San Diego",
+        "USS Midway Museum",
+        "Coronado Bridge",
+        "Point Loma",
+        "Sunset Cliffs Natural Park",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "La Jolla Shores Park",
+        "Mt. Soledad National Veterans Memorial",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "World Famous",
+      "candidates": [
+        "World Famous",
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "The Fishery",
+        "Vessel Restaurant + Bar",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Trailer Park After Dark",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Addison Restaurant",
+      "candidates": [
+        "Addison Restaurant",
+        "Morning Glory",
+        "Cowboy Star",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "The Fishery",
+        "Vessel Restaurant + Bar",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Trailer Park After Dark",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 4,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 5,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44",
+      "candidates": [
+        "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44",
+        "Taxi, from San Diego to Washington, Not feasible to drive from San Diego to Washington"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Morning Glory",
+      "candidates": [
+        "Morning Glory",
+        "Cowboy Star",
+        "Casa Guadalajara",
+        "Covewood Restaurant",
+        "The Fishery",
+        "Vessel Restaurant + Bar",
+        "Born & Raised",
+        "Oceana Coastal Kitchen",
+        "The Butcher Shop",
+        "Meze Greek Fusion",
+        "Civico 1845",
+        "Juniper and Ivy",
+        "Mister A'S",
+        "Barbusa",
+        "Dockside 1953",
+        "Alforon",
+        "Pacific Beach AleHouse",
+        "Las Hadas Grill",
+        "The Fish Market - San Diego",
+        "Ironside Fish & Oyster",
+        "Trailer Park After Dark",
+        "Lou & Mickey's",
+        "Ruth's Chris Steak House",
+        "Bencotto Italian Kitchen",
+        "Mimmo's",
+        "Din Tai Fung",
+        "Buon Appetito",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria",
+        "Provisional Kitchen, Cafe, and Mercantile",
+        "Union Kitchen and Tap Gaslamp",
+        "Filippi's Pizza Grotto Little Italy"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 5,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
     }
   ],
   "days": [
     {
       "day": 1,
-      "current_city": "from Miami to San Francisco",
-      "transportation": "Taxi, from Miami to San Francisco, Not feasible to drive from Miami to San Francisco",
-      "accommodation": "Monroe Studio 303",
+      "current_city": "from Washington to San Francisco",
+      "transportation": "Taxi, from Washington to San Francisco, Not feasible to drive from Washington to San Francisco",
+      "accommodation": "Modern Single Studio",
       "breakfast": "Eagle Cafe",
       "attractions": [
-        "Ferry Building Marketplace"
+        "Oracle Park"
       ],
-      "lunch": "Outerlands",
-      "dinner": "Capital Restaurant",
+      "lunch": "Capital Restaurant",
+      "dinner": "Outerlands",
       "poi_blocks": [
         {
-          "name": "Monroe Studio 303",
+          "name": "Modern Single Studio",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
           "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
+          "dist_m": 1283.6
         },
         {
-          "name": "Monroe Studio 303",
+          "name": "Modern Single Studio",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
           "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
+          "dist_m": 1283.6
         },
         {
           "name": "Eagle Cafe",
@@ -476,28 +753,28 @@
           "dist_m": 2308.55
         },
         {
-          "name": "Ferry Building Marketplace",
+          "name": "Oracle Park",
           "kind": "visit",
           "start": "11:30",
-          "end": "14:35",
-          "nearest_transit": "Mission @ Spear (Embarcadero)",
-          "dist_m": 334.47
-        },
-        {
-          "name": "Outerlands",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
-          "nearest_transit": "Civic Center BART (9th and Market)",
-          "dist_m": 8064.84
+          "end": "15:20",
+          "nearest_transit": "4th @ Library (Caltrain)",
+          "dist_m": 474.04
         },
         {
           "name": "Capital Restaurant",
           "kind": "visit",
-          "start": "19:51",
-          "end": "21:00",
+          "start": "13:57",
+          "end": "14:56",
           "nearest_transit": "Powell @ 22 4th",
           "dist_m": 972.3
+        },
+        {
+          "name": "Outerlands",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 8064.84
         }
       ]
     },
@@ -505,29 +782,29 @@
       "day": 2,
       "current_city": "from San Francisco to San Francisco",
       "transportation": "-",
-      "accommodation": "Monroe Studio 303",
+      "accommodation": "Modern Single Studio",
       "breakfast": "Waterbar",
       "attractions": [
-        "Cable Cars"
+        "Twin Peaks"
       ],
-      "lunch": "Hillstone",
-      "dinner": "Pier Market Seafood Restaurant",
+      "lunch": "Quince",
+      "dinner": "Hillstone",
       "poi_blocks": [
         {
-          "name": "Monroe Studio 303",
+          "name": "Modern Single Studio",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
           "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
+          "dist_m": 1283.6
         },
         {
-          "name": "Monroe Studio 303",
+          "name": "Modern Single Studio",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
           "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
+          "dist_m": 1283.6
         },
         {
           "name": "Waterbar",
@@ -538,56 +815,146 @@
           "dist_m": 478.55
         },
         {
-          "name": "Cable Cars",
+          "name": "Twin Peaks",
           "kind": "visit",
           "start": "11:30",
-          "end": "13:50",
-          "nearest_transit": "Powell @ 22 4th",
-          "dist_m": 1246.4
+          "end": "15:20",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 3888.9
         },
         {
-          "name": "Hillstone",
+          "name": "Quince",
           "kind": "visit",
           "start": "13:57",
           "end": "14:56",
           "nearest_transit": "Mission @ Spear (Embarcadero)",
-          "dist_m": 1784.87
+          "dist_m": 994.7
         },
         {
-          "name": "Pier Market Seafood Restaurant",
+          "name": "Hillstone",
           "kind": "visit",
           "start": "19:51",
           "end": "21:00",
           "nearest_transit": "Mission @ Spear (Embarcadero)",
-          "dist_m": 2413.84
+          "dist_m": 1784.87
         }
       ]
     },
     {
       "day": 3,
-      "current_city": "from San Francisco to Miami",
-      "transportation": "Flight Number: F0168322, from San Francisco to Miami, Departure Time: 08:01, Arrival Time: 16:20",
-      "accommodation": "-",
+      "current_city": "from San Francisco to San Diego",
+      "transportation": "Flight Number: F0083130, from San Francisco to San Diego, Departure Time: 22:29, Arrival Time: 23:46",
+      "accommodation": "charming, colorful, close to beach",
       "breakfast": "-",
       "attractions": [],
       "lunch": "-",
       "dinner": "-",
       "poi_blocks": [
         {
-          "name": "Monroe Studio 303",
-          "kind": "stay",
-          "start": "06:31",
-          "end": "07:31",
-          "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
-        },
-        {
-          "name": "Monroe Studio 303",
+          "name": "Modern Single Studio",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
           "nearest_transit": "Civic Center @ 7th (Yotel)",
-          "dist_m": 1571.78
+          "dist_m": 1283.6
+        },
+        {
+          "name": "charming, colorful, close to beach",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Jewell St & Garnet Av",
+          "dist_m": 578.25
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "charming, colorful, close to beach",
+      "breakfast": "Cafe Coyote",
+      "attractions": [
+        "SeaWorld"
+      ],
+      "lunch": "World Famous",
+      "dinner": "Addison Restaurant",
+      "poi_blocks": [
+        {
+          "name": "charming, colorful, close to beach",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Jewell St & Garnet Av",
+          "dist_m": 578.25
+        },
+        {
+          "name": "charming, colorful, close to beach",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Jewell St & Garnet Av",
+          "dist_m": 578.25
+        },
+        {
+          "name": "Cafe Coyote",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Juan St & Harney St",
+          "dist_m": 216.77
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:20",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "World Famous",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission Bl & Pacific Beach Dr",
+          "dist_m": 120.85
+        },
+        {
+          "name": "Addison Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mira Mesa Bl & Genetic Center Dr",
+          "dist_m": 4339.61
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "current_city": "from San Diego to Washington",
+      "transportation": "Flight Number: F0537782, from San Diego to Washington, Departure Time: 13:03, Arrival Time: 20:44",
+      "accommodation": "-",
+      "breakfast": "Morning Glory",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "charming, colorful, close to beach",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Jewell St & Garnet Av",
+          "dist_m": 578.25
+        },
+        {
+          "name": "Morning Glory",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "India St & Cedar St",
+          "dist_m": 92.52
         }
       ]
     }

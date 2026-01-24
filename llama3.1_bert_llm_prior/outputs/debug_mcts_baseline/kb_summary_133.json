@@ -2,89 +2,120 @@
   "idx": 133,
   "stages": [
     {
-      "city": "Watertown",
+      "city": "Mason City",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 74,
-        "events": 15
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
       }
     },
     {
-      "city": "New York",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
-        "poi2transit": 75,
-        "events": 0
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 24
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 18
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Wilmington",
-      "to": "Watertown",
-      "date": "2024-11-04",
+      "from": "St. Louis",
+      "to": "Mason City",
+      "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Wilmington",
-      "to": "Watertown",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $64.76"
+      "raw": "Self-driving, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $33.89"
     },
     {
       "mode": "taxi",
-      "from": "Wilmington",
-      "to": "Watertown",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Wilmington to Watertown, Duration: 944.4216666666667 mins, Distance: 1295.1494 km, Estimated Cost: $1295.15"
+      "raw": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76"
     },
     {
       "mode": "flight",
-      "from": "Watertown",
-      "to": "New York",
-      "date": "2024-11-06",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Watertown",
-      "to": "New York",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $25.81"
+      "raw": "Self-driving, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $11.15"
     },
     {
       "mode": "taxi",
-      "from": "Watertown",
-      "to": "New York",
+      "from": "Mason City",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Watertown to New York, Duration: 388.42833333333334 mins, Distance: 516.2155 km, Estimated Cost: $516.22"
+      "raw": "Taxi, from Mason City to Cedar Rapids, Duration: 162.18833333333333 mins, Distance: 222.99820000000003 km, Estimated Cost: $223.00"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Wilmington",
-      "date": "2024-11-08",
-      "raw": "Flight Number: F0122356, from New York to Wilmington, Departure Time: 08:59, Arrival Time: 10:55"
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
+      "date": "2024-11-09",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Wilmington",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $48.06"
+      "raw": "Self-driving, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $12.44"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Wilmington",
+      "from": "Cedar Rapids",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from New York to Wilmington, Duration: 700.6433333333333 mins, Distance: 961.1456 km, Estimated Cost: $961.15"
+      "raw": "Taxi, from Cedar Rapids to Fort Dodge, Duration: 180.19166666666666 mins, Distance: 248.7788 km, Estimated Cost: $248.78"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": "2024-11-11",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $35.24"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89"
     }
   ]
 }

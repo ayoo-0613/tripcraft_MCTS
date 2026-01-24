@@ -2,58 +2,89 @@
   "idx": 320,
   "stages": [
     {
-      "city": "New York",
+      "city": "Mason City",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 1
+      }
+    },
+    {
+      "city": "Fort Dodge",
+      "counts": {
+        "attractions": 7,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 9
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Charleston",
-      "to": "New York",
-      "date": "2024-11-23",
-      "raw": "Flight Number: F0145641, from Charleston to New York, Departure Time: 11:04, Arrival Time: 12:54"
+      "from": "St. Louis",
+      "to": "Mason City",
+      "date": "2024-11-12",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Charleston",
-      "to": "New York",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Self-driving, from Charleston to New York, Duration: 873.2083333333334 mins, Distance: 1221.3724 km, Estimated Cost: $61.07"
+      "raw": "Self-driving, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $33.89"
     },
     {
       "mode": "taxi",
-      "from": "Charleston",
-      "to": "New York",
+      "from": "St. Louis",
+      "to": "Mason City",
       "date": null,
-      "raw": "Taxi, from Charleston to New York, Duration: 873.2083333333334 mins, Distance: 1221.3724 km, Estimated Cost: $1221.37"
+      "raw": "Taxi, from St. Louis to Mason City, Duration: 495.9116666666667 mins, Distance: 677.7554 km, Estimated Cost: $677.76"
     },
     {
       "mode": "flight",
-      "from": "New York",
-      "to": "Charleston",
-      "date": "2024-11-25",
-      "raw": "Flight Number: F0135269, from New York to Charleston, Departure Time: 10:32, Arrival Time: 12:41"
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": "2024-11-14",
+      "raw": "Flight Number: F0462387, from Mason City to Fort Dodge, Departure Time: 15:52, Arrival Time: 16:30"
     },
     {
       "mode": "self-driving",
-      "from": "New York",
-      "to": "Charleston",
+      "from": "Mason City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Self-driving, from New York to Charleston, Duration: 877.5 mins, Distance: 1225.5765 km, Estimated Cost: $61.28"
+      "raw": "Self-driving, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $7.73"
     },
     {
       "mode": "taxi",
-      "from": "New York",
-      "to": "Charleston",
+      "from": "Mason City",
+      "to": "Fort Dodge",
       "date": null,
-      "raw": "Taxi, from New York to Charleston, Duration: 877.5 mins, Distance: 1225.5765 km, Estimated Cost: $1225.58"
+      "raw": "Taxi, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $154.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": "2024-11-16",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Self-driving, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $35.24"
+    },
+    {
+      "mode": "taxi",
+      "from": "Fort Dodge",
+      "to": "St. Louis",
+      "date": null,
+      "raw": "Taxi, from Fort Dodge to St. Louis, Duration: 513.2366666666667 mins, Distance: 704.8871 km, Estimated Cost: $704.89"
     }
   ]
 }

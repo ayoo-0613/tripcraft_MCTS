@@ -2,13 +2,23 @@
   "idx": 299,
   "stages": [
     {
-      "city": "Albuquerque",
+      "city": "Cedar Rapids",
       "counts": {
-        "attractions": 19,
+        "attractions": 18,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 75,
-        "events": 1
+        "accommodations": 19,
+        "poi2transit": 74,
+        "events": 19
+      }
+    },
+    {
+      "city": "Sioux City",
+      "counts": {
+        "attractions": 12,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 67,
+        "events": 7
       }
     }
   ],
@@ -16,44 +26,65 @@
     {
       "mode": "flight",
       "from": "Chicago",
-      "to": "Albuquerque",
-      "date": "2024-11-05",
-      "raw": "Flight Number: F0059776, from Chicago to Albuquerque, Departure Time: 12:45, Arrival Time: 14:47"
+      "to": "Cedar Rapids",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0001126, from Chicago to Cedar Rapids, Departure Time: 10:55, Arrival Time: 12:00"
     },
     {
       "mode": "self-driving",
       "from": "Chicago",
-      "to": "Albuquerque",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Chicago to Albuquerque, Duration: 1421.5666666666666 mins, Distance: 2152.9278 km, Estimated Cost: $107.65"
+      "raw": "Self-driving, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $19.81"
     },
     {
       "mode": "taxi",
       "from": "Chicago",
-      "to": "Albuquerque",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Chicago to Albuquerque, Duration: 1421.5666666666666 mins, Distance: 2152.9278 km, Estimated Cost: $2152.93"
+      "raw": "Taxi, from Chicago to Cedar Rapids, Duration: 279.47166666666664 mins, Distance: 396.1594 km, Estimated Cost: $396.16"
     },
     {
       "mode": "flight",
-      "from": "Albuquerque",
-      "to": "Chicago",
-      "date": "2024-11-07",
-      "raw": "Flight Number: F0064855, from Albuquerque to Chicago, Departure Time: 16:09, Arrival Time: 19:38"
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": "2024-11-04",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Albuquerque",
-      "to": "Chicago",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
       "date": null,
-      "raw": "Self-driving, from Albuquerque to Chicago, Duration: 1419.8666666666666 mins, Distance: 2146.3378 km, Estimated Cost: $107.32"
+      "raw": "Self-driving, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $21.31"
     },
     {
       "mode": "taxi",
-      "from": "Albuquerque",
+      "from": "Cedar Rapids",
+      "to": "Sioux City",
+      "date": null,
+      "raw": "Taxi, from Cedar Rapids to Sioux City, Duration: 310.7933333333333 mins, Distance: 426.1909 km, Estimated Cost: $426.19"
+    },
+    {
+      "mode": "flight",
+      "from": "Sioux City",
+      "to": "Chicago",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0467306, from Sioux City to Chicago, Departure Time: 07:41, Arrival Time: 09:12"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Sioux City",
       "to": "Chicago",
       "date": null,
-      "raw": "Taxi, from Albuquerque to Chicago, Duration: 1419.8666666666666 mins, Distance: 2146.3378 km, Estimated Cost: $2146.34"
+      "raw": "Self-driving, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $38.56"
+    },
+    {
+      "mode": "taxi",
+      "from": "Sioux City",
+      "to": "Chicago",
+      "date": null,
+      "raw": "Taxi, from Sioux City to Chicago, Duration: 582.1883333333334 mins, Distance: 771.2386 km, Estimated Cost: $771.24"
     }
   ]
 }

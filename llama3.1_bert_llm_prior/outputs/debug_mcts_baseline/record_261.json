@@ -1,67 +1,96 @@
 {
   "idx": 261,
   "JSON": {
-    "org": "Seattle",
-    "dest": "San Diego",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Ontario",
+    "dest": "California",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-05",
-      "2024-11-06",
-      "2024-11-07"
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21",
+      "2024-11-22"
     ],
-    "people_number": 2,
+    "people_number": 1,
     "local_constraint": {
-      "house rule": null,
-      "cuisine": null,
+      "house rule": "parties",
+      "cuisine": [
+        "American",
+        "Mexican"
+      ],
       "room type": null,
-      "transportation": "no self-driving",
+      "transportation": "no taxi",
       "event": null,
       "attraction": [
         "Sights & Landmarks"
       ]
     },
-    "budget": 2800.0,
-    "query": "Plan a 3-day trip for 2 people from Seattle to San Diego from November 5th to November 7th, 2024, with a budget of $2,800. The trip should avoid self-driving transportation and include visits to sights and landmarks.",
+    "budget": 1950.0,
+    "query": "Design a 5-day travel itinerary for 1 person traveling from Ontario to explore 2 cities in California from November 18th to November 22nd, 2024. The budget is $1,950. The plan should avoid taxis for transportation and include visits to sights and landmarks. Accommodations should follow house rules that do not allow parties, and dining options should feature American and Mexican cuisine.",
     "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Seattle to San Diego",
-      "transportation": "Flight Number: F0242768, from Seattle to San Diego, Departure Time: 11:41, Arrival Time: 14:20",
-      "breakfast": "-",
-      "attraction": "-",
-      "lunch": "-",
-      "dinner": "Cowboy Star, San Diego",
-      "accommodation": "Safe Private Sanctuary - TOWER STUDIO/ Northpark, San Diego",
+      "current_city": "from Ontario to Sacramento",
+      "transportation": "Taxi, from Ontario to Sacramento, Not feasible to drive from Ontario to Sacramento",
+      "breakfast": "Tower Cafe, Sacramento",
+      "attraction": "Old Sacramento, Sacramento",
+      "lunch": "Orphan, Sacramento",
+      "dinner": "Revival, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Safe Private Sanctuary - TOWER STUDIO/ Northpark, stay from 08:00 to 09:00, nearest transit: 30th St & Dwight St, 360.48m away; Safe Private Sanctuary - TOWER STUDIO/ Northpark, stay from 14:50 to 15:50, nearest transit: 30th St & Dwight St, 360.48m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Safe Private Sanctuary - TOWER STUDIO/ Northpark, stay from 22:15 to 08:00, nearest transit: 30th St & Dwight St, 360.48m away."
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Tower Cafe, visit from 09:25 to 10:16, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Old Sacramento, visit from 11:30 to 15:20, nearest transit: 3RD ST & K ST (NB), 235.49m away; Orphan, visit from 13:57 to 14:56, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; Revival, visit from 19:51 to 21:00, nearest transit: J ST & 6TH ST (EB), 79.22m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 2,
-      "current_city": "from San Diego to San Diego",
-      "transportation": "Transfer, from San Diego to San Diego",
-      "breakfast": "World Famous, San Diego",
-      "attraction": "Little Italy, San Diego",
-      "lunch": "Addison Restaurant, San Diego",
-      "dinner": "Cafe Coyote, San Diego",
-      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Localis, Sacramento",
+      "attraction": "Tower Bridge, Sacramento",
+      "lunch": "Aviators Restaurant, Sacramento",
+      "dinner": "The Waterboy, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; Little Italy, visit from 11:30 to 14:50, nearest transit: Kettner Bl & Grape St, 155.04m away; Addison Restaurant, visit from 13:57 to 14:56, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Cafe Coyote, visit from 19:51 to 21:00, nearest transit: Juan St & Harney St, 216.77m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Localis, visit from 09:25 to 10:16, nearest transit: 21ST ST & R ST (NB), 35.88m away; Tower Bridge, visit from 11:30 to 15:20, nearest transit: L ST & 4TH ST (WB), 26.39m away; Aviators Restaurant, visit from 13:57 to 14:56, nearest transit: FREEPORT BLVD & MCALLISTER AVE (SB), 185.83m away; The Waterboy, visit from 19:51 to 21:00, nearest transit: 21ST ST & CAPITOL AVE (NB), 117.25m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 3,
-      "current_city": "from San Diego to Seattle",
-      "transportation": "Flight Number: F0244073, from San Diego to Seattle, Departure Time: 15:28, Arrival Time: 18:12",
-      "breakfast": "Vessel Restaurant + Bar, San Diego",
-      "attraction": "Seaport Village, San Diego",
+      "current_city": "from Sacramento to San Francisco",
+      "transportation": "Flight Number: F0459283, from Sacramento to San Francisco, Departure Time: 09:38, Arrival Time: 10:33",
+      "breakfast": "-",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Eagle Cafe, San Francisco",
+      "dinner": "Capital Restaurant, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Eagle Cafe, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Capital Restaurant, visit from 19:51 to 21:00, nearest transit: Powell @ 22 4th, 972.30m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Outerlands, San Francisco",
+      "attraction": "Oracle Park, San Francisco",
+      "lunch": "Waterbar, San Francisco",
+      "dinner": "Quince, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Outerlands, visit from 09:25 to 10:16, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Oracle Park, visit from 11:30 to 15:20, nearest transit: 4th @ Library (Caltrain), 474.04m away; Waterbar, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Quince, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from San Francisco to Ontario",
+      "transportation": "Flight Number: F0365067, from San Francisco to Ontario, Departure Time: 08:58, Arrival Time: 10:25",
+      "breakfast": "-",
+      "attraction": "-",
       "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Vessel Restaurant + Bar, visit from 09:25 to 10:16, nearest transit: Rosecrans St & McCall St, 576.30m away; Seaport Village, visit from 11:30 to 15:20, nearest transit: Seaport Village Station, 377.46m away."
+      "point_of_interest_list": "Modern Single Studio, stay from 07:28 to 08:28, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
     }
   ]
 }

@@ -2,12 +2,22 @@
   "idx": 170,
   "stages": [
     {
-      "city": "Hartford",
+      "city": "Greensboro",
       "counts": {
-        "attractions": 17,
+        "attractions": 19,
         "restaurants": 35,
         "accommodations": 19,
-        "poi2transit": 73,
+        "poi2transit": 75,
+        "events": 30
+      }
+    },
+    {
+      "city": "Wilmington",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
         "events": 0
       }
     }
@@ -15,45 +25,66 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Houston",
-      "to": "Hartford",
-      "date": "2024-11-12",
-      "raw": "Flight Number: F0526338, from Houston to Hartford, Departure Time: 18:10, Arrival Time: 22:25"
+      "from": "Key West",
+      "to": "Greensboro",
+      "date": "2024-11-01",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Houston",
-      "to": "Hartford",
+      "from": "Key West",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Self-driving, from Houston to Hartford, Not feasible to drive from Houston to Hartford"
+      "raw": "Self-driving, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $76.53"
     },
     {
       "mode": "taxi",
-      "from": "Houston",
-      "to": "Hartford",
+      "from": "Key West",
+      "to": "Greensboro",
       "date": null,
-      "raw": "Taxi, from Houston to Hartford, Not feasible to drive from Houston to Hartford"
+      "raw": "Taxi, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $1530.67"
     },
     {
       "mode": "flight",
-      "from": "Hartford",
-      "to": "Houston",
-      "date": "2024-11-14",
-      "raw": "Flight Number: F0523993, from Hartford to Houston, Departure Time: 07:51, Arrival Time: 10:45"
+      "from": "Greensboro",
+      "to": "Wilmington",
+      "date": "2024-11-03",
+      "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Hartford",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Self-driving, from Hartford to Houston, Not feasible to drive from Hartford to Houston"
+      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
     },
     {
       "mode": "taxi",
-      "from": "Hartford",
-      "to": "Houston",
+      "from": "Greensboro",
+      "to": "Wilmington",
       "date": null,
-      "raw": "Taxi, from Hartford to Houston, Not feasible to drive from Hartford to Houston"
+      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+    },
+    {
+      "mode": "flight",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": "2024-11-05",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": null,
+      "raw": "Self-driving, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $75.34"
+    },
+    {
+      "mode": "taxi",
+      "from": "Wilmington",
+      "to": "Key West",
+      "date": null,
+      "raw": "Taxi, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $1506.70"
     }
   ]
 }

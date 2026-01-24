@@ -1,69 +1,91 @@
 {
   "idx": 278,
   "JSON": {
-    "org": "Houston",
-    "dest": "Wichita",
-    "days": 3,
-    "visiting_city_number": 1,
+    "org": "Lynchburg",
+    "dest": "North Carolina",
+    "days": 5,
+    "visiting_city_number": 2,
     "date": [
-      "2024-11-18",
-      "2024-11-19",
-      "2024-11-20"
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04",
+      "2024-11-05",
+      "2024-11-06"
     ],
-    "people_number": 6,
+    "people_number": 1,
     "local_constraint": {
       "house rule": null,
-      "cuisine": [
-        "Mediterranean",
-        "French",
-        "American"
-      ],
-      "room type": null,
-      "transportation": null,
+      "cuisine": "american",
+      "room type": "private room",
+      "transportation": "no flight",
       "event": null,
       "attraction": null
     },
-    "budget": 3900.0,
-    "query": "Plan a 3-day trip for 6 people from Houston to Wichita from November 18th to November 20th, 2024, with a budget of $3,900. The itinerary should include dining options featuring Mediterranean, French, and American cuisines.",
-    "level": "medium"
+    "budget": 2100.0,
+    "query": "Design a 5-day travel itinerary for 1 person starting from Lynchburg and visiting 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $2,100. Accommodations should include a private room, and the trip should avoid flights. Include American cuisine options in the plan.",
+    "level": "hard"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "persona": "Traveler Type: Adventure seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Houston to Wichita",
-      "transportation": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71",
-      "breakfast": "Newport Grill, Wichita",
-      "attraction": "Exploration Place, Wichita",
-      "lunch": "Mediterranean Grill, Wichita",
-      "dinner": "Beacon Restaurant, Wichita",
-      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "current_city": "from Lynchburg to Greensboro",
+      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
+      "breakfast": "Green Valley Grill, Greensboro",
+      "attraction": "Gateway Gardens, Greensboro",
+      "lunch": "Blue Denim, Greensboro",
+      "dinner": "The Sage Mule, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Newport Grill, visit from 09:25 to 10:16, nearest transit: 2000 Rock NB, 195.32m away; Exploration Place, visit from 11:30 to 15:20, nearest transit: Exploration Place, 91.96m away; Mediterranean Grill, visit from 13:57 to 14:56, nearest transit: Towne East Mall Drive OB, 117.07m away; Beacon Restaurant, visit from 19:51 to 21:00, nearest transit: Washington and Douglas IB, 66.33m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Green Valley Grill, visit from 09:25 to 10:16, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; Gateway Gardens, visit from 11:30 to 16:50, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; Blue Denim, visit from 13:57 to 14:56, nearest transit: International Civil Rights Museum, 72.70m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 2,
-      "current_city": "from Wichita to Wichita",
-      "transportation": "Transfer, from Wichita to Wichita",
-      "breakfast": "Prost, Wichita",
-      "attraction": "Old Town, Wichita",
-      "lunch": "Bella Vita, Wichita",
-      "dinner": "Cafe Bel Ami, Wichita",
-      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "current_city": "from Greensboro to Greensboro",
+      "transportation": "Transfer, from Greensboro to Greensboro",
+      "breakfast": "Golden Wok, Greensboro",
+      "attraction": "Carolina Theatre, Greensboro",
+      "lunch": "Mythos Grill, Greensboro",
+      "dinner": "Village Tavern, Greensboro",
+      "accommodation": "A little Southern Hospitality, Greensboro",
       "event": "-",
-      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Prost, visit from 09:25 to 10:16, nearest transit: Central and Volutsia OB, 49.11m away; Old Town, visit from 11:30 to 14:50, nearest transit: Washington and 2nd St IB, 155.80m away; Bella Vita, visit from 13:57 to 14:56, nearest transit: Douglas and West OB, 111.74m away; Cafe Bel Ami, visit from 19:51 to 21:00, nearest transit: Douglas and Market IB, 141.26m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Golden Wok, visit from 09:25 to 10:16, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Carolina Theatre, visit from 11:30 to 14:50, nearest transit: Washington/Eugene, 118.33m away; Mythos Grill, visit from 13:57 to 14:56, nearest transit: West Market/Walker, 60.36m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; A little Southern Hospitality, stay from 22:15 to 08:00, nearest transit: Glendale/Randleman Rd., 155.05m away."
     },
     {
       "days": 3,
-      "current_city": "from Wichita to Houston",
-      "transportation": "Transfer, from Wichita to Houston",
-      "breakfast": "Little Saigon, Wichita",
-      "attraction": "Music Theatre Wichita, Wichita",
-      "lunch": "The Sweet Spot, Wichita",
-      "dinner": "River City Brewery, Wichita",
+      "current_city": "from Greensboro to Charlotte",
+      "transportation": "Taxi, from Greensboro to Charlotte, Duration: 104.885 mins, Distance: 145.49 km, Estimated Cost: $145.49",
+      "breakfast": "Charlotte Bakery, Charlotte",
+      "attraction": "Spectrum Center, Charlotte",
+      "lunch": "Queen Charlotte, Charlotte",
+      "dinner": "The Capital Grille, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "A little Southern Hospitality, stay from 08:00 to 09:00, nearest transit: Glendale/Randleman Rd., 155.05m away; Charlotte Bakery, visit from 09:25 to 10:16, nearest transit: White Street Park and Ride, 1016826.02m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; Queen Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6385477.65m away; The Capital Grille, visit from 19:51 to 21:00, nearest transit: Tryon St & 6th St, 103.97m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 4,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "Transfer, from Charlotte to Charlotte",
+      "breakfast": "Princess Charlotte, Charlotte",
+      "attraction": "SouthPark, Charlotte",
+      "lunch": "Charlotte Lane, Charlotte",
+      "dinner": "Bistro Charlotte, Charlotte",
+      "accommodation": "Private room in apt uptown, Charlotte",
+      "event": "-",
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Princess Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6465940.22m away; SouthPark, visit from 11:30 to 13:50, nearest transit: Southpark Community Transit Center, 112.94m away; Charlotte Lane, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 1612739.20m away; Bistro Charlotte, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 7764630.63m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+    },
+    {
+      "days": 5,
+      "current_city": "from Charlotte to Lynchburg",
+      "transportation": "Taxi, from Charlotte to Lynchburg, Duration: 246.97 mins, Distance: 328.6148 km, Estimated Cost: $328.61",
+      "breakfast": "Charlotte Quay Restaurant, Charlotte",
+      "attraction": "Freedom Park, Charlotte",
+      "lunch": "Charlotte & Fritz, Charlotte",
+      "dinner": "Charlotte's, Charlotte",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Little Saigon, visit from 09:25 to 10:16, nearest transit: Broadway and 9th St IB, 34.07m away; Music Theatre Wichita, visit from 11:30 to 14:50, nearest transit: Douglas and Wichita IB, 145.76m away; The Sweet Spot, visit from 13:57 to 14:56, nearest transit: 8279 W Central OB, 64.66m away; River City Brewery, visit from 19:51 to 21:00, nearest transit: Douglas and Washington OB, 115.44m away."
+      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Charlotte Quay Restaurant, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 5961834.13m away; Freedom Park, visit from 11:30 to 16:50, nearest transit: East Blvd & Kings Dr, 701.42m away; Charlotte & Fritz, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7233404.02m away; Charlotte's, visit from 19:51 to 21:00, nearest transit: Oakland St & Main Ave, 784407.98m away."
     }
   ]
 }

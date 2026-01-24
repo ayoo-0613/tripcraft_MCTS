@@ -2,13 +2,23 @@
   "idx": 143,
   "stages": [
     {
-      "city": "Chattanooga",
+      "city": "Bristol",
       "counts": {
-        "attractions": 14,
+        "attractions": 15,
         "restaurants": 35,
-        "accommodations": 20,
-        "poi2transit": 69,
-        "events": 4
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 0
+      }
+    },
+    {
+      "city": "Memphis",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
+        "events": 12
       }
     },
     {
@@ -18,73 +28,94 @@
         "restaurants": 35,
         "accommodations": 19,
         "poi2transit": 75,
-        "events": 5
+        "events": 6
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Savannah",
-      "to": "Chattanooga",
-      "date": "2024-11-10",
+      "from": "Dallas",
+      "to": "Bristol",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0470114, from Dallas to Bristol, Departure Time: 13:29, Arrival Time: 16:42"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Dallas",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Self-driving, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $76.92"
+    },
+    {
+      "mode": "taxi",
+      "from": "Dallas",
+      "to": "Bristol",
+      "date": null,
+      "raw": "Taxi, from Dallas to Bristol, Duration: 1026.3316666666667 mins, Distance: 1538.4786000000001 km, Estimated Cost: $1538.48"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Memphis",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Savannah",
-      "to": "Chattanooga",
+      "from": "Bristol",
+      "to": "Memphis",
       "date": null,
-      "raw": "Self-driving, from Savannah to Chattanooga, Duration: 405.55 mins, Distance: 588.2941999999999 km, Estimated Cost: $29.41"
+      "raw": "Self-driving, from Bristol to Memphis, Duration: 552.7683333333333 mins, Distance: 810.1358 km, Estimated Cost: $40.51"
     },
     {
       "mode": "taxi",
-      "from": "Savannah",
-      "to": "Chattanooga",
+      "from": "Bristol",
+      "to": "Memphis",
       "date": null,
-      "raw": "Taxi, from Savannah to Chattanooga, Duration: 405.55 mins, Distance: 588.2941999999999 km, Estimated Cost: $588.29"
+      "raw": "Taxi, from Bristol to Memphis, Duration: 552.7683333333333 mins, Distance: 810.1358 km, Estimated Cost: $810.14"
     },
     {
       "mode": "flight",
-      "from": "Chattanooga",
+      "from": "Memphis",
       "to": "Nashville",
-      "date": "2024-11-12",
+      "date": "2024-11-09",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Chattanooga",
+      "from": "Memphis",
       "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
+      "raw": "Self-driving, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $16.91"
     },
     {
       "mode": "taxi",
-      "from": "Chattanooga",
+      "from": "Memphis",
       "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
+      "raw": "Taxi, from Memphis to Nashville, Duration: 235.45 mins, Distance: 338.1372 km, Estimated Cost: $338.14"
     },
     {
       "mode": "flight",
       "from": "Nashville",
-      "to": "Savannah",
-      "date": "2024-11-14",
-      "raw": "Flight Number: F0047187, from Nashville to Savannah, Departure Time: 14:27, Arrival Time: 16:44"
+      "to": "Dallas",
+      "date": "2024-11-11",
+      "raw": "Flight Number: F0013562, from Nashville to Dallas, Departure Time: 19:41, Arrival Time: 21:39"
     },
     {
       "mode": "self-driving",
       "from": "Nashville",
-      "to": "Savannah",
+      "to": "Dallas",
       "date": null,
-      "raw": "Self-driving, from Nashville to Savannah, Duration: 549.3083333333333 mins, Distance: 795.3324 km, Estimated Cost: $39.77"
+      "raw": "Self-driving, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $53.53"
     },
     {
       "mode": "taxi",
       "from": "Nashville",
-      "to": "Savannah",
+      "to": "Dallas",
       "date": null,
-      "raw": "Taxi, from Nashville to Savannah, Duration: 549.3083333333333 mins, Distance: 795.3324 km, Estimated Cost: $795.33"
+      "raw": "Taxi, from Nashville to Dallas, Duration: 709.0666666666667 mins, Distance: 1070.5431999999998 km, Estimated Cost: $1070.54"
     }
   ]
 }

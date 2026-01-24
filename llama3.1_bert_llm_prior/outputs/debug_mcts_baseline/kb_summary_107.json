@@ -2,89 +2,120 @@
   "idx": 107,
   "stages": [
     {
-      "city": "San Luis Obispo",
+      "city": "Mason City",
       "counts": {
         "attractions": 18,
         "restaurants": 35,
         "accommodations": 20,
         "poi2transit": 75,
-        "events": 0
+        "events": 1
       }
     },
     {
-      "city": "Fresno",
+      "city": "Fort Dodge",
       "counts": {
-        "attractions": 19,
+        "attractions": 7,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 19,
+        "poi2transit": 63,
+        "events": 15
+      }
+    },
+    {
+      "city": "Cedar Rapids",
+      "counts": {
+        "attractions": 18,
+        "restaurants": 35,
+        "accommodations": 19,
         "poi2transit": 74,
-        "events": 6
+        "events": 24
       }
     }
   ],
   "transports": [
     {
       "mode": "flight",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
-      "date": "2024-11-17",
+      "from": "Chicago",
+      "to": "Mason City",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0453854, from Chicago to Mason City, Departure Time: 13:53, Arrival Time: 15:13"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Chicago",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Self-driving, from Chicago to Mason City, Duration: 438.0133333333333 mins, Distance: 565.973 km, Estimated Cost: $28.30"
+    },
+    {
+      "mode": "taxi",
+      "from": "Chicago",
+      "to": "Mason City",
+      "date": null,
+      "raw": "Taxi, from Chicago to Mason City, Duration: 438.0133333333333 mins, Distance: 565.973 km, Estimated Cost: $565.97"
+    },
+    {
+      "mode": "flight",
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0457102, from Mason City to Fort Dodge, Departure Time: 16:01, Arrival Time: 16:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Self-driving, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $7.73"
+    },
+    {
+      "mode": "taxi",
+      "from": "Mason City",
+      "to": "Fort Dodge",
+      "date": null,
+      "raw": "Taxi, from Mason City to Fort Dodge, Duration: 113.67833333333333 mins, Distance: 154.6011 km, Estimated Cost: $154.60"
+    },
+    {
+      "mode": "flight",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
+      "date": "2024-11-07",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Self-driving, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $32.57"
+      "raw": "Self-driving, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $12.43"
     },
     {
       "mode": "taxi",
-      "from": "Las Vegas",
-      "to": "San Luis Obispo",
+      "from": "Fort Dodge",
+      "to": "Cedar Rapids",
       "date": null,
-      "raw": "Taxi, from Las Vegas to San Luis Obispo, Duration: 496.79 mins, Distance: 651.4035 km, Estimated Cost: $651.40"
+      "raw": "Taxi, from Fort Dodge to Cedar Rapids, Duration: 179.585 mins, Distance: 248.6451 km, Estimated Cost: $248.65"
     },
     {
       "mode": "flight",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
-      "date": "2024-11-19",
-      "raw": "-"
+      "from": "Cedar Rapids",
+      "to": "Chicago",
+      "date": "2024-11-09",
+      "raw": "Flight Number: F0388768, from Cedar Rapids to Chicago, Departure Time: 16:23, Arrival Time: 17:38"
     },
     {
       "mode": "self-driving",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "Cedar Rapids",
+      "to": "Chicago",
       "date": null,
-      "raw": "Self-driving, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $10.42"
+      "raw": "Self-driving, from Cedar Rapids to Chicago, Duration: 281.27166666666665 mins, Distance: 397.6572 km, Estimated Cost: $19.88"
     },
     {
       "mode": "taxi",
-      "from": "San Luis Obispo",
-      "to": "Fresno",
+      "from": "Cedar Rapids",
+      "to": "Chicago",
       "date": null,
-      "raw": "Taxi, from San Luis Obispo to Fresno, Duration: 190.81833333333333 mins, Distance: 208.33 km, Estimated Cost: $208.33"
-    },
-    {
-      "mode": "flight",
-      "from": "Fresno",
-      "to": "Las Vegas",
-      "date": "2024-11-21",
-      "raw": "Flight Number: F0049255, from Fresno to Las Vegas, Departure Time: 18:24, Arrival Time: 19:30"
-    },
-    {
-      "mode": "self-driving",
-      "from": "Fresno",
-      "to": "Las Vegas",
-      "date": null,
-      "raw": "Self-driving, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $31.73"
-    },
-    {
-      "mode": "taxi",
-      "from": "Fresno",
-      "to": "Las Vegas",
-      "date": null,
-      "raw": "Taxi, from Fresno to Las Vegas, Duration: 437.0183333333333 mins, Distance: 634.643 km, Estimated Cost: $634.64"
+      "raw": "Taxi, from Cedar Rapids to Chicago, Duration: 281.27166666666665 mins, Distance: 397.6572 km, Estimated Cost: $397.66"
     }
   ]
 }

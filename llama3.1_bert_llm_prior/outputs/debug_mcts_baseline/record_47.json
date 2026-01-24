@@ -1,91 +1,117 @@
 {
   "idx": 47,
   "JSON": {
-    "org": "Lynchburg",
-    "dest": "North Carolina",
-    "days": 5,
-    "visiting_city_number": 2,
+    "org": "Boston",
+    "dest": "California",
+    "days": 7,
+    "visiting_city_number": 3,
     "date": [
+      "2024-11-01",
       "2024-11-02",
       "2024-11-03",
       "2024-11-04",
       "2024-11-05",
-      "2024-11-06"
+      "2024-11-06",
+      "2024-11-07"
     ],
     "people_number": 1,
     "local_constraint": {
       "house rule": null,
       "cuisine": null,
-      "room type": null,
+      "room type": "entire home",
       "transportation": null,
       "event": null,
       "attraction": null
     },
-    "budget": 2100.0,
-    "query": "Plan a 5-day trip for 1 person from Lynchburg to explore 2 cities in North Carolina from November 2nd to November 6th, 2024, with a budget of $2,100.",
-    "level": "easy"
+    "budget": 12450.0,
+    "query": "Plan a 7-day trip for 1 person traveling from Boston to explore 3 cities in California between November 1st and November 7th, 2024. The budget is $12,450, and accommodations should include an entire home.",
+    "level": "medium"
   },
-  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Beaches",
   "plan": [
     {
       "days": 1,
-      "current_city": "from Lynchburg to Greensboro",
-      "transportation": "Taxi, from Lynchburg to Greensboro, Duration: 143.46166666666667 mins, Distance: 183.13660000000002 km, Estimated Cost: $183.14",
-      "breakfast": "Blue Denim, Greensboro",
-      "attraction": "Gateway Gardens, Greensboro",
-      "lunch": "Green Valley Grill, Greensboro",
-      "dinner": "The Sage Mule, Greensboro",
-      "accommodation": "Peaceful Place, Greensboro",
+      "current_city": "from Boston to San Diego",
+      "transportation": "Taxi, from Boston to San Diego, Not feasible to drive from Boston to San Diego",
+      "breakfast": "World Famous, San Diego",
+      "attraction": "Little Italy, San Diego",
+      "lunch": "Cafe Coyote, San Diego",
+      "dinner": "Addison Restaurant, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Blue Denim, visit from 09:25 to 10:16, nearest transit: International Civil Rights Museum, 72.70m away; Gateway Gardens, visit from 11:30 to 16:50, nearest transit: Gate City Blvd/Aster Drive, 280.90m away; Green Valley Grill, visit from 13:57 to 14:56, nearest transit: Green Valley Rd/Kathleen Avenu, 314.01m away; The Sage Mule, visit from 19:51 to 21:00, nearest transit: Battleground/Wharton St, 22.50m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; World Famous, visit from 09:25 to 10:16, nearest transit: Mission Bl & Pacific Beach Dr, 120.85m away; Little Italy, visit from 11:30 to 14:50, nearest transit: Kettner Bl & Grape St, 155.04m away; Cafe Coyote, visit from 13:57 to 14:56, nearest transit: Juan St & Harney St, 216.77m away; Addison Restaurant, visit from 19:51 to 21:00, nearest transit: Mira Mesa Bl & Genetic Center Dr, 4339.61m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
     },
     {
       "days": 2,
-      "current_city": "from Greensboro to Greensboro",
-      "transportation": "Transfer, from Greensboro to Greensboro",
-      "breakfast": "Mythos Grill, Greensboro",
-      "attraction": "Carolina Theatre, Greensboro",
-      "lunch": "Golden Wok, Greensboro",
-      "dinner": "Village Tavern, Greensboro",
-      "accommodation": "Peaceful Place, Greensboro",
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Morning Glory, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "The Fishery, San Diego",
+      "dinner": "Cowboy Star, San Diego",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants, San Diego",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Mythos Grill, visit from 09:25 to 10:16, nearest transit: West Market/Walker, 60.36m away; Carolina Theatre, visit from 11:30 to 14:50, nearest transit: Washington/Eugene, 118.33m away; Golden Wok, visit from 13:57 to 14:56, nearest transit: Sapp Rd/Wendover Place, 252.80m away; Village Tavern, visit from 19:51 to 21:00, nearest transit: Battleground/Westridge (CCB Ban), 192.47m away; Peaceful Place, stay from 22:15 to 08:00, nearest transit: Glendale/Allen Middle School, 40.68m away."
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Morning Glory, visit from 09:25 to 10:16, nearest transit: India St & Cedar St, 92.52m away; SeaWorld, visit from 11:30 to 16:20, nearest transit: SeaWorld, 299.84m away; The Fishery, visit from 13:57 to 14:56, nearest transit: Mission Bl & Opal St, 346.99m away; Cowboy Star, visit from 19:51 to 21:00, nearest transit: 10th Av & Market St, 50.81m away; Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 22:15 to 08:00, nearest transit: Mission Bl & Sapphire St, 920.18m away."
     },
     {
       "days": 3,
-      "current_city": "from Greensboro to Charlotte",
-      "transportation": "Flight Number: F0115706, from Greensboro to Charlotte, Departure Time: 16:05, Arrival Time: 16:53",
+      "current_city": "from San Diego to Sacramento",
+      "transportation": "Flight Number: F0034345, from San Diego to Sacramento, Departure Time: 12:53, Arrival Time: 14:16",
       "breakfast": "-",
       "attraction": "-",
       "lunch": "-",
-      "dinner": "Charlotte Bakery, Charlotte",
-      "accommodation": "Private room in apt uptown, Charlotte",
+      "dinner": "Orphan, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Peaceful Place, stay from 08:00 to 09:00, nearest transit: Glendale/Allen Middle School, 40.68m away; Charlotte Bakery, visit from 19:51 to 21:00, nearest transit: White Street Park and Ride, 1016826.02m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+      "point_of_interest_list": "Blue Beach House ?? 5 blocks to Beach /Restaurants, stay from 08:00 to 09:00, nearest transit: Mission Bl & Sapphire St, 920.18m away; Orphan, visit from 19:51 to 21:00, nearest transit: MCKINLEY BLVD & 35TH ST (WB), 231.17m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 4,
-      "current_city": "from Charlotte to Charlotte",
-      "transportation": "Transfer, from Charlotte to Charlotte",
-      "breakfast": "The Capital Grille, Charlotte",
-      "attraction": "Spectrum Center, Charlotte",
-      "lunch": "Queen Charlotte, Charlotte",
-      "dinner": "Charlotte Lane, Charlotte",
-      "accommodation": "Private room in apt uptown, Charlotte",
+      "current_city": "from Sacramento to Sacramento",
+      "transportation": "Transfer, from Sacramento to Sacramento",
+      "breakfast": "Tower Cafe, Sacramento",
+      "attraction": "Old Sacramento, Sacramento",
+      "lunch": "Localis, Sacramento",
+      "dinner": "Revival, Sacramento",
+      "accommodation": "The Cottage on Hendricks, Sacramento",
       "event": "-",
-      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; The Capital Grille, visit from 09:25 to 10:16, nearest transit: Tryon St & 6th St, 103.97m away; Spectrum Center, visit from 11:30 to 15:20, nearest transit: CTC/Arena CityLYNX, 95.01m away; Queen Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 6385477.65m away; Charlotte Lane, visit from 19:51 to 21:00, nearest transit: Beaty St @ 866, 1612739.20m away; Private room in apt uptown, stay from 22:15 to 08:00, nearest transit: Mint St CityLYNX, 60.17m away."
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Tower Cafe, visit from 09:25 to 10:16, nearest transit: LAND PARK DR & BROADWAY (SB), 54.53m away; Old Sacramento, visit from 11:30 to 15:20, nearest transit: 3RD ST & K ST (NB), 235.49m away; Localis, visit from 13:57 to 14:56, nearest transit: 21ST ST & R ST (NB), 35.88m away; Revival, visit from 19:51 to 21:00, nearest transit: J ST & 6TH ST (EB), 79.22m away; The Cottage on Hendricks, stay from 22:15 to 08:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away."
     },
     {
       "days": 5,
-      "current_city": "from Charlotte to Lynchburg",
-      "transportation": "Flight Number: F0234001, from Charlotte to Lynchburg, Departure Time: 20:25, Arrival Time: 21:34",
-      "breakfast": "Princess Charlotte, Charlotte",
-      "attraction": "SouthPark, Charlotte",
-      "lunch": "Bistro Charlotte, Charlotte",
+      "current_city": "from Sacramento to San Francisco",
+      "transportation": "Flight Number: F0455772, from Sacramento to San Francisco, Departure Time: 10:09, Arrival Time: 10:52",
+      "breakfast": "-",
+      "attraction": "Twin Peaks, San Francisco",
+      "lunch": "Eagle Cafe, San Francisco",
+      "dinner": "Outerlands, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "The Cottage on Hendricks, stay from 08:00 to 09:00, nearest transit: STOCKTON BLVD & 34TH ST (EB), 298.87m away; Twin Peaks, visit from 11:30 to 15:20, nearest transit: Civic Center BART (9th and Market), 3888.90m away; Eagle Cafe, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 2308.55m away; Outerlands, visit from 19:51 to 21:00, nearest transit: Civic Center BART (9th and Market), 8064.84m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 6,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "Transfer, from San Francisco to San Francisco",
+      "breakfast": "Capital Restaurant, San Francisco",
+      "attraction": "Cable Cars, San Francisco",
+      "lunch": "Quince, San Francisco",
+      "dinner": "Waterbar, San Francisco",
+      "accommodation": "Modern Single Studio, San Francisco",
+      "event": "-",
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Capital Restaurant, visit from 09:25 to 10:16, nearest transit: Powell @ 22 4th, 972.30m away; Cable Cars, visit from 11:30 to 13:50, nearest transit: Powell @ 22 4th, 1246.40m away; Quince, visit from 13:57 to 14:56, nearest transit: Mission @ Spear (Embarcadero), 994.70m away; Waterbar, visit from 19:51 to 21:00, nearest transit: Mission @ Spear (Embarcadero), 478.55m away; Modern Single Studio, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away."
+    },
+    {
+      "days": 7,
+      "current_city": "from San Francisco to Boston",
+      "transportation": "Flight Number: F0279196, from San Francisco to Boston, Departure Time: 14:54, Arrival Time: 23:52",
+      "breakfast": "Hillstone, San Francisco",
+      "attraction": "Oracle Park, San Francisco",
+      "lunch": "-",
       "dinner": "-",
       "accommodation": "-",
       "event": "-",
-      "point_of_interest_list": "Private room in apt uptown, stay from 08:00 to 09:00, nearest transit: Mint St CityLYNX, 60.17m away; Princess Charlotte, visit from 09:25 to 10:16, nearest transit: Beaty St @ 866, 6465940.22m away; SouthPark, visit from 11:30 to 13:50, nearest transit: Southpark Community Transit Center, 112.94m away; Bistro Charlotte, visit from 13:57 to 14:56, nearest transit: Beaty St @ 866, 7764630.63m away."
+      "point_of_interest_list": "Modern Single Studio, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1283.60m away; Hillstone, visit from 09:25 to 10:16, nearest transit: Mission @ Spear (Embarcadero), 1784.87m away; Oracle Park, visit from 11:30 to 15:20, nearest transit: 4th @ Library (Caltrain), 474.04m away."
     }
   ]
 }

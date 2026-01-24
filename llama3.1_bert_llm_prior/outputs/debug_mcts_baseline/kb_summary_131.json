@@ -2,22 +2,32 @@
   "idx": 131,
   "stages": [
     {
-      "city": "Greensboro",
+      "city": "Chattanooga",
       "counts": {
-        "attractions": 19,
+        "attractions": 14,
         "restaurants": 35,
-        "accommodations": 19,
-        "poi2transit": 75,
-        "events": 30
+        "accommodations": 20,
+        "poi2transit": 69,
+        "events": 21
       }
     },
     {
-      "city": "Wilmington",
+      "city": "Nashville",
       "counts": {
-        "attractions": 19,
+        "attractions": 20,
         "restaurants": 35,
-        "accommodations": 18,
+        "accommodations": 19,
         "poi2transit": 75,
+        "events": 1
+      }
+    },
+    {
+      "city": "Bristol",
+      "counts": {
+        "attractions": 15,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 70,
         "events": 0
       }
     }
@@ -25,66 +35,87 @@
   "transports": [
     {
       "mode": "flight",
-      "from": "Key West",
-      "to": "Greensboro",
+      "from": "Valparaiso",
+      "to": "Chattanooga",
       "date": "2024-11-01",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Key West",
-      "to": "Greensboro",
+      "from": "Valparaiso",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Self-driving, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $76.53"
+      "raw": "Self-driving, from Valparaiso to Chattanooga, Duration: 633.575 mins, Distance: 869.2596 km, Estimated Cost: $43.46"
     },
     {
       "mode": "taxi",
-      "from": "Key West",
-      "to": "Greensboro",
+      "from": "Valparaiso",
+      "to": "Chattanooga",
       "date": null,
-      "raw": "Taxi, from Key West to Greensboro, Duration: 1117.3233333333333 mins, Distance: 1530.6701 km, Estimated Cost: $1530.67"
+      "raw": "Taxi, from Valparaiso to Chattanooga, Duration: 633.575 mins, Distance: 869.2596 km, Estimated Cost: $869.26"
     },
     {
       "mode": "flight",
-      "from": "Greensboro",
-      "to": "Wilmington",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": "2024-11-03",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Greensboro",
-      "to": "Wilmington",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Self-driving, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $16.71"
+      "raw": "Self-driving, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $10.68"
     },
     {
       "mode": "taxi",
-      "from": "Greensboro",
-      "to": "Wilmington",
+      "from": "Chattanooga",
+      "to": "Nashville",
       "date": null,
-      "raw": "Taxi, from Greensboro to Wilmington, Duration: 238.51333333333332 mins, Distance: 334.28679999999997 km, Estimated Cost: $334.29"
+      "raw": "Taxi, from Chattanooga to Nashville, Duration: 150.45166666666668 mins, Distance: 213.5283 km, Estimated Cost: $213.53"
     },
     {
       "mode": "flight",
-      "from": "Wilmington",
-      "to": "Key West",
+      "from": "Nashville",
+      "to": "Bristol",
       "date": "2024-11-05",
       "raw": "-"
     },
     {
       "mode": "self-driving",
-      "from": "Wilmington",
-      "to": "Key West",
+      "from": "Nashville",
+      "to": "Bristol",
       "date": null,
-      "raw": "Self-driving, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $75.34"
+      "raw": "Self-driving, from Nashville to Bristol, Duration: 319.115 mins, Distance: 467.80559999999997 km, Estimated Cost: $23.39"
     },
     {
       "mode": "taxi",
-      "from": "Wilmington",
-      "to": "Key West",
+      "from": "Nashville",
+      "to": "Bristol",
       "date": null,
-      "raw": "Taxi, from Wilmington to Key West, Duration: 1095.2533333333333 mins, Distance: 1506.7018999999998 km, Estimated Cost: $1506.70"
+      "raw": "Taxi, from Nashville to Bristol, Duration: 319.115 mins, Distance: 467.80559999999997 km, Estimated Cost: $467.81"
+    },
+    {
+      "mode": "flight",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": "2024-11-07",
+      "raw": "-"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Self-driving, from Bristol to Valparaiso, Duration: 654.4283333333333 mins, Distance: 914.0614 km, Estimated Cost: $45.70"
+    },
+    {
+      "mode": "taxi",
+      "from": "Bristol",
+      "to": "Valparaiso",
+      "date": null,
+      "raw": "Taxi, from Bristol to Valparaiso, Duration: 654.4283333333333 mins, Distance: 914.0614 km, Estimated Cost: $914.06"
     }
   ]
 }
