@@ -159,6 +159,9 @@ def _convert_plan_text(
     timeout: float,
     max_retries: int,
 ) -> List[Dict[str, Any]]:
+    direct = _extract_json_array(plan_text)
+    if direct is not None:
+        return direct
     prompt = PROMPT_PREFIX + plan_text.strip() + "\n\nJSON:\n"
     for attempt in range(max_retries + 1):
         try:

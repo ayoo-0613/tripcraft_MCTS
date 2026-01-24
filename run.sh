@@ -10,9 +10,9 @@ export MODEL_NAME="${MODEL_NAME:-ollama}"                           # ollama / g
 export OPENAI_API_KEY="${OPENAI_API_KEY:-}"                         # Required only for OpenAI models
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                            # Your Google API key
 export DAYS="${DAYS:-3 5 7}"                                        # 3/5/7
-export STRATEGIES="${STRATEGIES:-direct_og react direct_param}"     # direct_og / direct_param / react / reflexion
+export STRATEGIES="${STRATEGIES:-direct_og direct_param}"     # direct_og / direct_param / react / reflexion
 export POSTPROCESS="${POSTPROCESS:-1}"                             # 1 to generate eval jsonl via Ollama
-export SKIP_EXISTING="${SKIP_EXISTING:-1}"                         # 1 to skip generation if jsonl already exists
+export SKIP_EXISTING="${SKIP_EXISTING:-0}"                         # 1 to skip generation if jsonl already exists
 
 # Ollama settings (used when MODEL_NAME=ollama or MODEL_NAME=ollama:<model>)
 export OLLAMA_MODEL="${OLLAMA_MODEL:-llama3.1:8b}"
