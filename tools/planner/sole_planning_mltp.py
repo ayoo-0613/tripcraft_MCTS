@@ -21,6 +21,7 @@ from tools.planner.apis import (
     VerifierRepairPlanner,
     ReflexionPlanner,
     PlanExecutePlanner,
+    TemplateActionPlanner,
 )
 import openai
 
@@ -41,6 +42,10 @@ from agents.prompts import (
     plan_execute_prompt_param,
     verifier_repair_prompt_param,
     reflexion_repair_prompt_param,
+    template_guidance_prompt_param,
+    action_select_prompt,
+    action_select_prompt_react,
+    action_select_prompt_reflexion,
 )
 
 
@@ -69,6 +74,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="gpt4o")
     parser.add_argument("--output_dir", type=str, default="./")
     parser.add_argument("--strategy", type=str, default="direct_og")
+    parser.add_argument("--action_strategy", type=str, default="direct")
     parser.add_argument("--csv_file", type=str, required=True, help="Path to the reference_info.csv file")
     parser.add_argument("--output_jsonl", type=str, default="", help="Write results to a jsonl file instead of per-sample json")
     args = parser.parse_args()
@@ -120,6 +126,15 @@ if __name__ == "__main__":
             plan_prompt=plan_skeleton_prompt_param,
             execute_prompt=plan_execute_prompt_param,
         )
+    elif args.strategy == "template_action":
+        planner = TemplateActionPlanner(
+            model_name=args.model_name,
+            template_prompt=template_guidance_prompt_param,
+            action_prompt=action_select_prompt,
+            action_prompt_react=action_select_prompt_react,
+            action_prompt_reflexion=action_select_prompt_reflexion,
+            action_strategy=args.action_strategy,
+        )
 
     else:
         raise ValueError(f"Unknown strategy: {args.strategy}")
@@ -154,6 +169,14 @@ if __name__ == "__main__":
                         reference_information, query_data['query'], query_data['persona']
                     )
                 elif args.strategy in ['reflexion', 'verifier_repair', 'plan_execute']:
+                    planner_results = planner.run(
+                        reference_information,
+                        query_data['query'],
+                        query_data['persona'],
+                        query_data=query_data,
+                    )
+                    time.sleep(8)
+                elif args.strategy in ['template_action']:
                     planner_results = planner.run(
                         reference_information,
                         query_data['query'],

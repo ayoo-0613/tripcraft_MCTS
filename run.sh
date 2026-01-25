@@ -10,7 +10,8 @@ export MODEL_NAME="${MODEL_NAME:-ollama}"                           # ollama / g
 export OPENAI_API_KEY="${OPENAI_API_KEY:-}"                         # Required only for OpenAI models
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                            # Your Google API key
 export DAYS="${DAYS:-3 5 7}"                                        # 3/5/7
-export STRATEGIES="${STRATEGIES:-reflexion verifier_repair plan_execute react}"     # direct_og / direct_param / react / reflexion / verifier_repair / plan_execute
+export STRATEGIES="${STRATEGIES:-template_action}"     # direct_og / direct_param / react / reflexion / verifier_repair / plan_execute / template_action
+export ACTION_STRATEGIES="${ACTION_STRATEGIES:-direct react reflexion}"             # for template_action: direct / react / reflexion
 export POSTPROCESS="${POSTPROCESS:-1}"                             # 1 to generate eval jsonl via Ollama
 export SKIP_EXISTING="${SKIP_EXISTING:-0}"                         # 1 to skip generation if jsonl already exists
 
@@ -33,10 +34,17 @@ cd tools/planner
 run_one() {
   local day="$1"
   local strategy="$2"
-  local set_type="${strategy}/${day}day"
+  local action_strategy="${3:-}"
   local csv_file="${CSV_DIR}/tripcraft_${day}day.csv"
+  local set_type="${strategy}/${day}day"
   local output_jsonl="${OUTPUT_DIR}/${strategy}/${day}.jsonl"
   local eval_jsonl="${OUTPUT_DIR}/${strategy}/${day}_eval.jsonl"
+
+  if [[ "$strategy" == "template_action" ]]; then
+    set_type="${strategy}/${action_strategy}/${day}day"
+    output_jsonl="${OUTPUT_DIR}/${strategy}/${action_strategy}/${day}.jsonl"
+    eval_jsonl="${OUTPUT_DIR}/${strategy}/${action_strategy}/${day}_eval.jsonl"
+  fi
 
   if [[ "$SKIP_EXISTING" == "1" && -s "$output_jsonl" ]]; then
     echo "==> Found existing ${output_jsonl}; skipping generation"
@@ -49,7 +57,8 @@ run_one() {
         --output_jsonl "$output_jsonl" \
         --csv_file "$csv_file" \
         --model_name "$MODEL_NAME" \
-        --strategy "$strategy"
+        --strategy "$strategy" \
+        ${action_strategy:+--action_strategy "$action_strategy"}
   fi
 
   if [[ "$POSTPROCESS" == "1" ]]; then
@@ -70,6 +79,12 @@ run_one() {
 
 for day in $DAYS; do
   for strategy in $STRATEGIES; do
-    run_one "$day" "$strategy"
+    if [[ "$strategy" == "template_action" ]]; then
+      for action_strategy in $ACTION_STRATEGIES; do
+        run_one "$day" "$strategy" "$action_strategy"
+      done
+    else
+      run_one "$day" "$strategy"
+    fi
   done
 done

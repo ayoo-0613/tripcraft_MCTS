@@ -507,6 +507,106 @@ plan_execute_prompt_param = PromptTemplate(
     template=PLAN_EXECUTE_INSTRUCTION_PARAM,
 )
 
+# LLM-guided template + action selection (MCTS-style filling).
+TEMPLATE_GUIDANCE_INSTRUCTION_PARAM = """You are a proficient planner. Based on the provided information, query, and persona, produce a high-level JSON template for the travel plan. The template should guide action selection later and must NOT include specific POI names, flight numbers, or exact accommodations/restaurants. Use abstract hints instead (e.g., "museum", "park", "local cuisine", "budget hotel").
+
+IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
+- Return ONLY a JSON array. Do not include any other text or Markdown.
+- Each array item must include exactly these keys:
+  "days", "current_city", "transportation", "breakfast", "attraction",
+  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
+- Use "-" if any field is intentionally skipped.
+- Use "TBD" when a concrete entity is required but unspecified.
+- For "attraction", list desired types or themes separated by ";" (e.g., "Museum; Park") or "-" if none.
+- "days" is an integer day number starting from 1.
+- When traveling between cities that day, set "current_city" to "from A to B".
+- Ensure valid JSON with double quotes, no trailing commas.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+ACTION_SELECT_INSTRUCTION = """You are selecting exactly ONE action from candidates to fill the template.
+Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index of the chosen candidate.
+If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
+
+Context:
+Day: {day}
+Slot: {slot}
+Traveler Persona:
+{persona}
+Query: {query}
+Local Constraints: {local_constraint}
+Template Day JSON:
+{template_day}
+
+Candidates:
+{candidates}
+
+Output: """
+
+ACTION_SELECT_REACT_INSTRUCTION = """You are selecting exactly ONE action from candidates to fill the template.
+Think step by step to align with the template, constraints, and persona, but ONLY output the final JSON object.
+Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index of the chosen candidate.
+If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
+
+Context:
+Day: {day}
+Slot: {slot}
+Traveler Persona:
+{persona}
+Query: {query}
+Local Constraints: {local_constraint}
+Template Day JSON:
+{template_day}
+
+Candidates:
+{candidates}
+
+Output: """
+
+ACTION_SELECT_REFLEXION_INSTRUCTION = """You previously chose an action index. Reflect on whether it matches the template, constraints, and persona.
+If it is suboptimal, change it. Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index.
+
+Previous choice: {initial_choice}
+
+Context:
+Day: {day}
+Slot: {slot}
+Traveler Persona:
+{persona}
+Query: {query}
+Local Constraints: {local_constraint}
+Template Day JSON:
+{template_day}
+
+Candidates:
+{candidates}
+
+Output: """
+
+template_guidance_prompt_param = PromptTemplate(
+    input_variables=["text", "query", "persona"],
+    template=TEMPLATE_GUIDANCE_INSTRUCTION_PARAM,
+)
+
+action_select_prompt = PromptTemplate(
+    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates"],
+    template=ACTION_SELECT_INSTRUCTION,
+)
+
+action_select_prompt_react = PromptTemplate(
+    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates"],
+    template=ACTION_SELECT_REACT_INSTRUCTION,
+)
+
+action_select_prompt_reflexion = PromptTemplate(
+    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates", "initial_choice"],
+    template=ACTION_SELECT_REFLEXION_INSTRUCTION,
+)
+
 verifier_repair_prompt = PromptTemplate(
     input_variables=["text", "query", "persona", "plan_json", "failures"],
     template=VERIFIER_REPAIR_INSTRUCTION,
