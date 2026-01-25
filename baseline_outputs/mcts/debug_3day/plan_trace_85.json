@@ -1,0 +1,460 @@
+{
+  "idx": 85,
+  "reward": 14.629760794115928,
+  "budget_used": 4331.75,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Charlotte to Fort Wayne, Duration: 696.1800000000001 mins, Distance: 929.145 km, Estimated Cost: $929.14",
+      "candidates": [
+        "Flight Number: F0232606, from Charlotte to Fort Wayne, Departure Time: 20:06, Arrival Time: 21:49",
+        "Taxi, from Charlotte to Fort Wayne, Duration: 696.1800000000001 mins, Distance: 929.145 km, Estimated Cost: $929.14"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lakeside Park Bungalow",
+      "candidates": [
+        "Lakeside Park Bungalow",
+        "Paris themed Luxury Apartment in Country Woods",
+        "Downtown Carriage House / Pet Ok",
+        "Friendly Foster Park bungalow!",
+        "*The Cambridge Place*",
+        "Carriage House near Downtown",
+        "Airy Studio Near Downtown",
+        "Welcome To Pine Cone",
+        "Sunny Victorian 1-Bedroom apartment near Downtown",
+        "2 BR Centrally Located Bungalow Close to Downtown",
+        "Garden Suite Zoo • SportsOne • • Nightlife • MarioKart",
+        "✨ Luxurious 2 bd home - downtown w/ free parking ✨",
+        "The Palomino - Centrally Located Loft Apartment",
+        "Mid-Century Modern Villa near DuPont | High Design",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Up Scale | Full Kitchen | Pet Friendly | WI-FI",
+        "Fit for a KING, lovingly restored guest house"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Casa Ristorante",
+      "candidates": [
+        "Casa Ristorante",
+        "800 Degrees Wood Fired Pizza",
+        "Wu's Fine Chinese Cuisine",
+        "Agaves Mexican Grill",
+        "Han Dynasty",
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Embassy Theatre",
+      "candidates": [
+        "Embassy Theatre",
+        "Room to Escape",
+        "DeBrand Fine Chocolates",
+        "Fort Wayne Food Tours",
+        "Parkview Field",
+        "Fort Wayne Trails",
+        "Historic Fort Wayne",
+        "Fort Wayne Firefighters Museum",
+        "Fort Wayne Escape Room",
+        "Allen County Public Library",
+        "Locked Up Escape Room - Fort Wayne",
+        "Fort Wayne Visitors Center",
+        "Fort Wayne Outfitters and Bike Depot",
+        "Fort Wayne Children's Zoo",
+        "Fort Wayne Museum of Art",
+        "Foellinger Theatre - Fort Wayne Parks and Recreation",
+        "Foellinger-Freimann Botanical Conservatory"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "800 Degrees Wood Fired Pizza",
+      "candidates": [
+        "800 Degrees Wood Fired Pizza",
+        "Wu's Fine Chinese Cuisine",
+        "Agaves Mexican Grill",
+        "Han Dynasty",
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Wu's Fine Chinese Cuisine",
+      "candidates": [
+        "Wu's Fine Chinese Cuisine",
+        "Agaves Mexican Grill",
+        "Han Dynasty",
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Lakeside Park Bungalow",
+      "candidates": [
+        "Lakeside Park Bungalow",
+        "Paris themed Luxury Apartment in Country Woods",
+        "Downtown Carriage House / Pet Ok",
+        "Friendly Foster Park bungalow!",
+        "*The Cambridge Place*",
+        "Carriage House near Downtown",
+        "Airy Studio Near Downtown",
+        "Welcome To Pine Cone",
+        "Sunny Victorian 1-Bedroom apartment near Downtown",
+        "2 BR Centrally Located Bungalow Close to Downtown",
+        "Garden Suite Zoo • SportsOne • • Nightlife • MarioKart",
+        "✨ Luxurious 2 bd home - downtown w/ free parking ✨",
+        "The Palomino - Centrally Located Loft Apartment",
+        "Mid-Century Modern Villa near DuPont | High Design",
+        "The Tiny Shed Glamping-Beautiful Country Escape",
+        "Up Scale | Full Kitchen | Pet Friendly | WI-FI",
+        "Fit for a KING, lovingly restored guest house"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Agaves Mexican Grill",
+      "candidates": [
+        "Agaves Mexican Grill",
+        "Han Dynasty",
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Room to Escape",
+      "candidates": [
+        "Room to Escape",
+        "DeBrand Fine Chocolates",
+        "Fort Wayne Food Tours",
+        "Parkview Field",
+        "Fort Wayne Trails",
+        "Historic Fort Wayne",
+        "Fort Wayne Firefighters Museum",
+        "Fort Wayne Escape Room",
+        "Allen County Public Library",
+        "Locked Up Escape Room - Fort Wayne",
+        "Fort Wayne Visitors Center",
+        "Fort Wayne Outfitters and Bike Depot",
+        "Fort Wayne Children's Zoo",
+        "Fort Wayne Museum of Art",
+        "Foellinger Theatre - Fort Wayne Parks and Recreation",
+        "Foellinger-Freimann Botanical Conservatory"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Han Dynasty",
+      "candidates": [
+        "Han Dynasty",
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Original Oley's Pizza",
+      "candidates": [
+        "The Original Oley's Pizza",
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0232668, from Fort Wayne to Charlotte, Departure Time: 13:20, Arrival Time: 14:59",
+      "candidates": [
+        "Flight Number: F0232668, from Fort Wayne to Charlotte, Departure Time: 13:20, Arrival Time: 14:59",
+        "Taxi, from Fort Wayne to Charlotte, Duration: 697.2533333333333 mins, Distance: 928.2366999999999 km, Estimated Cost: $928.24"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Los cabos mexican grill",
+      "candidates": [
+        "Los cabos mexican grill",
+        "Ziano's Italian eatery",
+        "Salvatori's",
+        "Biaggi's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Charlotte to Fort Wayne",
+      "transportation": "Taxi, from Charlotte to Fort Wayne, Duration: 696.1800000000001 mins, Distance: 929.145 km, Estimated Cost: $929.14",
+      "accommodation": "Lakeside Park Bungalow",
+      "breakfast": "Casa Ristorante",
+      "attractions": [
+        "Embassy Theatre"
+      ],
+      "lunch": "800 Degrees Wood Fired Pizza",
+      "dinner": "Wu's Fine Chinese Cuisine",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Casa Ristorante",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "CASA Ristorante",
+          "dist_m": 34.94
+        },
+        {
+          "name": "Embassy Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Northbound on Harrison @ Jefferson",
+          "dist_m": 44.14
+        },
+        {
+          "name": "800 Degrees Wood Fired Pizza",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Parkview YMCA",
+          "dist_m": 1362.82
+        },
+        {
+          "name": "Wu's Fine Chinese Cuisine",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Coldwater Rd. at Coliseum Blvd. (SB)",
+          "dist_m": 60.58
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Fort Wayne to Fort Wayne",
+      "transportation": "-",
+      "accommodation": "Lakeside Park Bungalow",
+      "breakfast": "Agaves Mexican Grill",
+      "attractions": [
+        "Room to Escape"
+      ],
+      "lunch": "Han Dynasty",
+      "dinner": "The Original Oley's Pizza",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Agaves Mexican Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Coldwater Rd. south of Washington Center Rd. (SB)",
+          "dist_m": 220.71
+        },
+        {
+          "name": "Room to Escape",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Coldwater Rd. south of Ernst Dr. (SB)",
+          "dist_m": 342.38
+        },
+        {
+          "name": "Han Dynasty",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Village at Time Corners Taco Bell",
+          "dist_m": 77.16
+        },
+        {
+          "name": "The Original Oley's Pizza",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Liberty Mills Apts. 6101 Cornwallis Dr.",
+          "dist_m": 2376.66
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Fort Wayne to Charlotte",
+      "transportation": "Flight Number: F0232668, from Fort Wayne to Charlotte, Departure Time: 13:20, Arrival Time: 14:59",
+      "accommodation": "-",
+      "breakfast": "Los cabos mexican grill",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Lakeside Park Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "East State Blvd. west of California Ave. (WB)",
+          "dist_m": 447.88
+        },
+        {
+          "name": "Los cabos mexican grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Kroger's at Dupont Village, 601 E. Dupont Rd.",
+          "dist_m": 345.53
+        }
+      ]
+    }
+  ]
+}

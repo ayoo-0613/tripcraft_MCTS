@@ -1,0 +1,59 @@
+{
+  "idx": 21,
+  "stages": [
+    {
+      "city": "Las Vegas",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "San Francisco",
+      "to": "Las Vegas",
+      "date": "2024-11-02",
+      "raw": "Flight Number: F0008113, from San Francisco to Las Vegas, Departure Time: 08:13, Arrival Time: 09:31"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Francisco",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from San Francisco to Las Vegas, Duration: 633.3083333333333 mins, Distance: 911.9522 km, Estimated Cost: $45.60"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Francisco",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from San Francisco to Las Vegas, Duration: 633.3083333333333 mins, Distance: 911.9522 km, Estimated Cost: $911.95"
+    },
+    {
+      "mode": "flight",
+      "from": "Las Vegas",
+      "to": "San Francisco",
+      "date": "2024-11-04",
+      "raw": "Flight Number: F0036639, from Las Vegas to San Francisco, Departure Time: 22:50, Arrival Time: 00:18"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Las Vegas",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Self-driving, from Las Vegas to San Francisco, Duration: 635.1733333333334 mins, Distance: 911.6445 km, Estimated Cost: $45.58"
+    },
+    {
+      "mode": "taxi",
+      "from": "Las Vegas",
+      "to": "San Francisco",
+      "date": null,
+      "raw": "Taxi, from Las Vegas to San Francisco, Duration: 635.1733333333334 mins, Distance: 911.6445 km, Estimated Cost: $911.64"
+    }
+  ]
+}

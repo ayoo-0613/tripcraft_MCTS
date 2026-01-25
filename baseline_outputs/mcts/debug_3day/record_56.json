@@ -1,0 +1,65 @@
+{
+  "idx": 56,
+  "JSON": {
+    "org": "Washington",
+    "dest": "Savannah",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-12",
+      "2024-11-13",
+      "2024-11-14"
+    ],
+    "people_number": 8,
+    "local_constraint": {
+      "house rule": "no parties",
+      "cuisine": null,
+      "room type": null,
+      "transportation": "no flight",
+      "event": null,
+      "attraction": null
+    },
+    "budget": 7200.0,
+    "query": "Plan a 3-day trip for 8 people from Washington to Savannah from November 12th to November 14th, 2024, with a budget of $7,200. The trip should avoid flights and adhere to house rules prohibiting parties.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Washington to Savannah",
+      "transportation": "Taxi, from Washington to Savannah, Duration: 641.56 mins, Distance: 930.7148000000001 km, Estimated Cost: $930.71",
+      "breakfast": "Common Restaurant, Savannah",
+      "attraction": "SCADstory, Savannah",
+      "lunch": "River House, Savannah",
+      "dinner": "Madame Butterfly, Savannah",
+      "accommodation": "Suite Liberty, Elegant | Refined | By Chippewa, Savannah",
+      "event": "-",
+      "point_of_interest_list": "Suite Liberty, Elegant | Refined | By Chippewa, stay from 08:00 to 09:00, nearest transit: DRAYTON & LIBERTY, 98.48m away; Common Restaurant, visit from 09:25 to 10:16, nearest transit: DRAYTON & BROUGHTON, 62.61m away; SCADstory, visit from 11:30 to 15:20, nearest transit: DRAYTON & CHARLTON, 100.71m away; River House, visit from 13:57 to 14:56, nearest transit: BRYAN & BULL, 213.09m away; Madame Butterfly, visit from 19:51 to 21:00, nearest transit: WHITAKER & BROUGHTON, 81.87m away; Suite Liberty, Elegant | Refined | By Chippewa, stay from 22:15 to 08:00, nearest transit: DRAYTON & LIBERTY, 98.48m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Savannah to Savannah",
+      "transportation": "Transfer, from Savannah to Savannah",
+      "breakfast": "Noble Fare, Savannah",
+      "attraction": "City Market, Savannah",
+      "lunch": "Alligator Soul, Savannah",
+      "dinner": "Driftaway Cafe, Savannah",
+      "accommodation": "Historic District Garden Apartment at Forsyth Park, Savannah",
+      "event": "-",
+      "point_of_interest_list": "Historic District Garden Apartment at Forsyth Park, stay from 08:00 to 09:00, nearest transit: BARNARD & BOLTON SB, 153.15m away; Noble Fare, visit from 09:25 to 10:16, nearest transit: LIBERTY & JEFFERSON, 120.34m away; City Market, visit from 11:30 to 14:35, nearest transit: CONGRESS & JEFFERSON, 51.55m away; Alligator Soul, visit from 13:57 to 14:56, nearest transit: WHITAKER & BROUGHTON, 112.63m away; Driftaway Cafe, visit from 19:51 to 21:00, nearest transit: MONTGOMERY CROSS & BILLINGS EB, 650.17m away; Historic District Garden Apartment at Forsyth Park, stay from 22:15 to 08:00, nearest transit: BARNARD & BOLTON SB, 153.15m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Savannah to Washington",
+      "transportation": "Taxi, from Savannah to Washington, Duration: 640.9533333333333 mins, Distance: 929.4431999999999 km, Estimated Cost: $929.44",
+      "breakfast": "1540 Room, Savannah",
+      "attraction": "Forsyth Park, Savannah",
+      "lunch": "Crystal Beer Parlor, Savannah",
+      "dinner": "The Collins Quarter, Savannah",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Historic District Garden Apartment at Forsyth Park, stay from 08:00 to 09:00, nearest transit: BARNARD & BOLTON SB, 153.15m away; 1540 Room, visit from 09:25 to 10:16, nearest transit: DRAYTON & LIBERTY, 61.97m away; Forsyth Park, visit from 11:30 to 16:50, nearest transit: DRAYTON & GWINNETT, 120.14m away; Crystal Beer Parlor, visit from 13:57 to 14:56, nearest transit: MONTGOMERY & WAYNE NB, 185.19m away; The Collins Quarter, visit from 19:51 to 21:00, nearest transit: OGLETHORPE & BULL WB, 18.61m away."
+    }
+  ]
+}

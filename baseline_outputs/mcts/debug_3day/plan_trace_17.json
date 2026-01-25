@@ -1,0 +1,471 @@
+{
+  "idx": 17,
+  "reward": 14.012286551206696,
+  "budget_used": 1015.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0023728, from Chicago to Cincinnati, Departure Time: 13:30, Arrival Time: 15:24",
+      "candidates": [
+        "Flight Number: F0023728, from Chicago to Cincinnati, Departure Time: 13:30, Arrival Time: 15:24",
+        "Taxi, from Chicago to Cincinnati, Duration: 338.94 mins, Distance: 465.88620000000003 km, Estimated Cost: $465.89"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+      "candidates": [
+        "Luxury King Bed Suite! Resort Pool-Free Parking",
+        "Gorgeous Lofted Oasis Fully Equipped | Central OTR",
+        "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums",
+        "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+        "Carter #6, Two Bedroom Apartment near Xavier",
+        "Arcade in OTR,Walk to TQL stadium & GABP",
+        "Cincinnati D-Listers Extravaganza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Swampwater Grill",
+      "candidates": [
+        "Swampwater Grill",
+        "Boca",
+        "Cincinnati Dinner Train",
+        "Oriental Wok",
+        "The Melting Pot",
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxury King Bed Suite! Resort Pool-Free Parking",
+      "candidates": [
+        "Luxury King Bed Suite! Resort Pool-Free Parking",
+        "Gorgeous Lofted Oasis Fully Equipped | Central OTR",
+        "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums",
+        "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+        "Carter #6, Two Bedroom Apartment near Xavier",
+        "Arcade in OTR,Walk to TQL stadium & GABP",
+        "Cincinnati D-Listers Extravaganza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Boca",
+      "candidates": [
+        "Boca",
+        "Cincinnati Dinner Train",
+        "Oriental Wok",
+        "The Melting Pot",
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fountain Square",
+      "candidates": [
+        "Fountain Square",
+        "Eden Park",
+        "Findlay Market",
+        "Carew Tower",
+        "American Sign Museum",
+        "Hard Rock Casino Cincinnati",
+        "Great American Ball Park",
+        "Greater Cincinnati Police Museum",
+        "National Underground Railroad Freedom Center",
+        "Cincinnati Museum Center",
+        "Smale Riverfront Park",
+        "Cincinnati Art Museum",
+        "Kenwood Towne Centre",
+        "Rhinegeist Brewery",
+        "Cincinnati Zoo & Botanical Garden",
+        "Spring Grove Cemetery & Arboretum",
+        "Roebling Suspension Bridge",
+        "Krohn Conservatory",
+        "Cincinnati Reds Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cincinnati Dinner Train",
+      "candidates": [
+        "Cincinnati Dinner Train",
+        "Oriental Wok",
+        "The Melting Pot",
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Oriental Wok",
+      "candidates": [
+        "Oriental Wok",
+        "The Melting Pot",
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0052334, from Cincinnati to Chicago, Departure Time: 20:23, Arrival Time: 20:46",
+      "candidates": [
+        "Flight Number: F0052334, from Cincinnati to Chicago, Departure Time: 20:23, Arrival Time: 20:46",
+        "Taxi, from Cincinnati to Chicago, Duration: 339.975 mins, Distance: 467.3805 km, Estimated Cost: $467.38"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Melting Pot",
+      "candidates": [
+        "The Melting Pot",
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Eden Park",
+      "candidates": [
+        "Eden Park",
+        "Findlay Market",
+        "Carew Tower",
+        "American Sign Museum",
+        "Hard Rock Casino Cincinnati",
+        "Great American Ball Park",
+        "Greater Cincinnati Police Museum",
+        "National Underground Railroad Freedom Center",
+        "Cincinnati Museum Center",
+        "Smale Riverfront Park",
+        "Cincinnati Art Museum",
+        "Kenwood Towne Centre",
+        "Rhinegeist Brewery",
+        "Cincinnati Zoo & Botanical Garden",
+        "Spring Grove Cemetery & Arboretum",
+        "Roebling Suspension Bridge",
+        "Krohn Conservatory",
+        "Cincinnati Reds Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Sleepy Bee Cafe - Oakley",
+      "candidates": [
+        "Sleepy Bee Cafe - Oakley",
+        "The Turf Club",
+        "Pelicans Reef",
+        "Five On Vine",
+        "Incline Public House",
+        "Ambar India",
+        "The Eagle Food and Beer Hall",
+        "Montgomery Inn at the Boathouse",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Cincinnati",
+      "transportation": "Flight Number: F0023728, from Chicago to Cincinnati, Departure Time: 13:30, Arrival Time: 15:24",
+      "accommodation": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Swampwater Grill",
+      "poi_blocks": [
+        {
+          "name": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+          "kind": "stay",
+          "start": "15:54",
+          "end": "16:54",
+          "nearest_transit": "GILBERT AVE & DURRELL AVE",
+          "dist_m": 80.35
+        },
+        {
+          "name": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "GILBERT AVE & DURRELL AVE",
+          "dist_m": 80.35
+        },
+        {
+          "name": "Swampwater Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "KELLOGG AVE & CONGRESS AVE",
+          "dist_m": 145.82
+        },
+        {
+          "name": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GILBERT AVE & DURRELL AVE",
+          "dist_m": 80.35
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Cincinnati to Cincinnati",
+      "transportation": "-",
+      "accommodation": "Luxury King Bed Suite! Resort Pool-Free Parking",
+      "breakfast": "Boca",
+      "attractions": [
+        "Fountain Square"
+      ],
+      "lunch": "Cincinnati Dinner Train",
+      "dinner": "Oriental Wok",
+      "poi_blocks": [
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "Boca",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6TH ST & MAIN ST",
+          "dist_m": 42.37
+        },
+        {
+          "name": "Fountain Square",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "5TH ST & FOUNTAIN SQUARE",
+          "dist_m": 53.6
+        },
+        {
+          "name": "Cincinnati Dinner Train",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "WIEHE RD & ROSEDALE AVE",
+          "dist_m": 158.62
+        },
+        {
+          "name": "Oriental Wok",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MADISON RD & OBSERVATORY AVE",
+          "dist_m": 197.0
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Cincinnati to Chicago",
+      "transportation": "Flight Number: F0052334, from Cincinnati to Chicago, Departure Time: 20:23, Arrival Time: 20:46",
+      "accommodation": "-",
+      "breakfast": "The Melting Pot",
+      "attractions": [
+        "Eden Park"
+      ],
+      "lunch": "Sleepy Bee Cafe - Oakley",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "The Melting Pot",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MONTGOMERY RD 10981",
+          "dist_m": 148.77
+        },
+        {
+          "name": "Eden Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "GILBERT AVE & EDEN PARK DR",
+          "dist_m": 132.39
+        },
+        {
+          "name": "Sleepy Bee Cafe - Oakley",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MADISON RD & GILMORE AVE",
+          "dist_m": 59.86
+        }
+      ]
+    }
+  ]
+}

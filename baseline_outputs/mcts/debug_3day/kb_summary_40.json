@@ -1,0 +1,59 @@
+{
+  "idx": 40,
+  "stages": [
+    {
+      "city": "Atlanta",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 6
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Montgomery",
+      "to": "Atlanta",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F0155918, from Montgomery to Atlanta, Departure Time: 07:24, Arrival Time: 09:23"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Montgomery",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Self-driving, from Montgomery to Atlanta, Duration: 179.01166666666668 mins, Distance: 259.3936 km, Estimated Cost: $12.97"
+    },
+    {
+      "mode": "taxi",
+      "from": "Montgomery",
+      "to": "Atlanta",
+      "date": null,
+      "raw": "Taxi, from Montgomery to Atlanta, Duration: 179.01166666666668 mins, Distance: 259.3936 km, Estimated Cost: $259.39"
+    },
+    {
+      "mode": "flight",
+      "from": "Atlanta",
+      "to": "Montgomery",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0159867, from Atlanta to Montgomery, Departure Time: 17:46, Arrival Time: 17:36"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Atlanta",
+      "to": "Montgomery",
+      "date": null,
+      "raw": "Self-driving, from Atlanta to Montgomery, Duration: 178.06833333333333 mins, Distance: 258.9032 km, Estimated Cost: $12.95"
+    },
+    {
+      "mode": "taxi",
+      "from": "Atlanta",
+      "to": "Montgomery",
+      "date": null,
+      "raw": "Taxi, from Atlanta to Montgomery, Duration: 178.06833333333333 mins, Distance: 258.9032 km, Estimated Cost: $258.90"
+    }
+  ]
+}

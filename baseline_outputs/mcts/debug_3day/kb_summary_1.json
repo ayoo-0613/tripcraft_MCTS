@@ -1,0 +1,59 @@
+{
+  "idx": 1,
+  "stages": [
+    {
+      "city": "Baltimore",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 4
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Savannah",
+      "to": "Baltimore",
+      "date": "2024-11-18",
+      "raw": "Flight Number: F0017531, from Savannah to Baltimore, Departure Time: 19:35, Arrival Time: 21:22"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Savannah",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Self-driving, from Savannah to Baltimore, Duration: 697.9766666666667 mins, Distance: 991.1270999999999 km, Estimated Cost: $49.56"
+    },
+    {
+      "mode": "taxi",
+      "from": "Savannah",
+      "to": "Baltimore",
+      "date": null,
+      "raw": "Taxi, from Savannah to Baltimore, Duration: 697.9766666666667 mins, Distance: 991.1270999999999 km, Estimated Cost: $991.13"
+    },
+    {
+      "mode": "flight",
+      "from": "Baltimore",
+      "to": "Savannah",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0022253, from Baltimore to Savannah, Departure Time: 20:48, Arrival Time: 22:26"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Baltimore",
+      "to": "Savannah",
+      "date": null,
+      "raw": "Self-driving, from Baltimore to Savannah, Duration: 698.9566666666667 mins, Distance: 993.7875 km, Estimated Cost: $49.69"
+    },
+    {
+      "mode": "taxi",
+      "from": "Baltimore",
+      "to": "Savannah",
+      "date": null,
+      "raw": "Taxi, from Baltimore to Savannah, Duration: 698.9566666666667 mins, Distance: 993.7875 km, Estimated Cost: $993.79"
+    }
+  ]
+}

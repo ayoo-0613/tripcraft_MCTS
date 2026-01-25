@@ -1,0 +1,59 @@
+{
+  "idx": 38,
+  "stages": [
+    {
+      "city": "Seattle",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Seattle",
+      "date": "2024-11-23",
+      "raw": "Flight Number: F0254365, from San Diego to Seattle, Departure Time: 16:17, Arrival Time: 19:15"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Seattle, Duration: 1427.1833333333334 mins, Distance: 2018.8546999999999 km, Estimated Cost: $100.94"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Seattle",
+      "date": null,
+      "raw": "Taxi, from San Diego to Seattle, Duration: 1427.1833333333334 mins, Distance: 2018.8546999999999 km, Estimated Cost: $2018.85"
+    },
+    {
+      "mode": "flight",
+      "from": "Seattle",
+      "to": "San Diego",
+      "date": "2024-11-25",
+      "raw": "Flight Number: F0255651, from Seattle to San Diego, Departure Time: 11:30, Arrival Time: 14:12"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Seattle",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from Seattle to San Diego, Duration: 1428.7183333333335 mins, Distance: 2018.8195 km, Estimated Cost: $100.94"
+    },
+    {
+      "mode": "taxi",
+      "from": "Seattle",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from Seattle to San Diego, Duration: 1428.7183333333335 mins, Distance: 2018.8195 km, Estimated Cost: $2018.82"
+    }
+  ]
+}

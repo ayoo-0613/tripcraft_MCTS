@@ -1,0 +1,59 @@
+{
+  "idx": 32,
+  "stages": [
+    {
+      "city": "Nashville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 6
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Albany",
+      "to": "Nashville",
+      "date": "2024-11-06",
+      "raw": "Flight Number: F2105072, from Albany to Nashville, Departure Time: 11:04, Arrival Time: 12:47"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Albany",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Self-driving, from Albany to Nashville, Duration: 1127.4199999999998 mins, Distance: 1590.8158999999998 km, Estimated Cost: $79.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "Albany",
+      "to": "Nashville",
+      "date": null,
+      "raw": "Taxi, from Albany to Nashville, Duration: 1127.4199999999998 mins, Distance: 1590.8158999999998 km, Estimated Cost: $1590.82"
+    },
+    {
+      "mode": "flight",
+      "from": "Nashville",
+      "to": "Albany",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F1348960, from Nashville to Albany, Departure Time: 12:31, Arrival Time: 15:32"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Nashville",
+      "to": "Albany",
+      "date": null,
+      "raw": "Self-driving, from Nashville to Albany, Duration: 1129.8600000000001 mins, Distance: 1615.2378 km, Estimated Cost: $80.76"
+    },
+    {
+      "mode": "taxi",
+      "from": "Nashville",
+      "to": "Albany",
+      "date": null,
+      "raw": "Taxi, from Nashville to Albany, Duration: 1129.8600000000001 mins, Distance: 1615.2378 km, Estimated Cost: $1615.24"
+    }
+  ]
+}

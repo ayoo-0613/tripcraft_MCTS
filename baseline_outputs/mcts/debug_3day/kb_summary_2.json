@@ -1,0 +1,59 @@
+{
+  "idx": 2,
+  "stages": [
+    {
+      "city": "Washington",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Montgomery",
+      "to": "Washington",
+      "date": "2024-11-08",
+      "raw": "Flight Number: F0428937, from Montgomery to Washington, Departure Time: 15:54, Arrival Time: 18:44"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Montgomery",
+      "to": "Washington",
+      "date": null,
+      "raw": "Self-driving, from Montgomery to Washington, Duration: 906.42 mins, Distance: 1284.9725 km, Estimated Cost: $64.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "Montgomery",
+      "to": "Washington",
+      "date": null,
+      "raw": "Taxi, from Montgomery to Washington, Duration: 906.42 mins, Distance: 1284.9725 km, Estimated Cost: $1284.97"
+    },
+    {
+      "mode": "flight",
+      "from": "Washington",
+      "to": "Montgomery",
+      "date": "2024-11-10",
+      "raw": "Flight Number: F0429050, from Washington to Montgomery, Departure Time: 16:44, Arrival Time: 17:42"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Washington",
+      "to": "Montgomery",
+      "date": null,
+      "raw": "Self-driving, from Washington to Montgomery, Duration: 910.0733333333334 mins, Distance: 1287.7221000000002 km, Estimated Cost: $64.39"
+    },
+    {
+      "mode": "taxi",
+      "from": "Washington",
+      "to": "Montgomery",
+      "date": null,
+      "raw": "Taxi, from Washington to Montgomery, Duration: 910.0733333333334 mins, Distance: 1287.7221000000002 km, Estimated Cost: $1287.72"
+    }
+  ]
+}

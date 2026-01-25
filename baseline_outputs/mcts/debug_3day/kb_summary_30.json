@@ -1,0 +1,59 @@
+{
+  "idx": 30,
+  "stages": [
+    {
+      "city": "Albuquerque",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 1
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "San Diego",
+      "to": "Albuquerque",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0060618, from San Diego to Albuquerque, Departure Time: 10:23, Arrival Time: 13:14"
+    },
+    {
+      "mode": "self-driving",
+      "from": "San Diego",
+      "to": "Albuquerque",
+      "date": null,
+      "raw": "Self-driving, from San Diego to Albuquerque, Duration: 860.8466666666667 mins, Distance: 1304.9912 km, Estimated Cost: $65.25"
+    },
+    {
+      "mode": "taxi",
+      "from": "San Diego",
+      "to": "Albuquerque",
+      "date": null,
+      "raw": "Taxi, from San Diego to Albuquerque, Duration: 860.8466666666667 mins, Distance: 1304.9912 km, Estimated Cost: $1304.99"
+    },
+    {
+      "mode": "flight",
+      "from": "Albuquerque",
+      "to": "San Diego",
+      "date": "2024-11-07",
+      "raw": "Flight Number: F0064861, from Albuquerque to San Diego, Departure Time: 13:47, Arrival Time: 14:29"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Albuquerque",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Self-driving, from Albuquerque to San Diego, Duration: 859.2716666666668 mins, Distance: 1302.2421000000002 km, Estimated Cost: $65.11"
+    },
+    {
+      "mode": "taxi",
+      "from": "Albuquerque",
+      "to": "San Diego",
+      "date": null,
+      "raw": "Taxi, from Albuquerque to San Diego, Duration: 859.2716666666668 mins, Distance: 1302.2421000000002 km, Estimated Cost: $1302.24"
+    }
+  ]
+}

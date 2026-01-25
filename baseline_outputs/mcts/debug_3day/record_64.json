@@ -1,0 +1,65 @@
+{
+  "idx": 64,
+  "JSON": {
+    "org": "Boston",
+    "dest": "Wilmington",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-02",
+      "2024-11-03",
+      "2024-11-04"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": "sights and landmarks"
+    },
+    "budget": 4500.0,
+    "query": "Plan a 3-day trip for 4 people from Boston to Wilmington from November 2nd to November 4th, 2024, with a budget of $4,500. Include visits to sights and landmarks.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Boston to Wilmington",
+      "transportation": "Taxi, from Boston to Wilmington, Duration: 962.64 mins, Distance: 1302.4002 km, Estimated Cost: $1302.40",
+      "breakfast": "Pilot House, Wilmington",
+      "attraction": "Downtown Wilmington, Wilmington",
+      "lunch": "The Basics, Wilmington",
+      "dinner": "Catch, Wilmington",
+      "accommodation": "Dockside at The Cove, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Dockside at The Cove, stay from 08:00 to 09:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away; Pilot House, visit from 09:25 to 10:16, nearest transit: Front St SB at Ann St, 112.21m away; Downtown Wilmington, visit from 11:30 to 14:50, nearest transit: Front St SB at Chestnut St, 66.26m away; The Basics, visit from 13:57 to 14:56, nearest transit: Front St NB at Grace St, 96.37m away; Catch, visit from 19:51 to 21:00, nearest transit: Market St WB at Dollar General, 552.38m away; Dockside at The Cove, stay from 22:15 to 08:00, nearest transit: Harnett St WB at Live Oak Bank Pavilion, 251.42m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wilmington to Wilmington",
+      "transportation": "Transfer, from Wilmington to Wilmington",
+      "breakfast": "Manna, Wilmington",
+      "attraction": "Riverwalk, Wilmington",
+      "lunch": "Fish Bites Seafood, Wilmington",
+      "dinner": "PinPoint Restaurant, Wilmington",
+      "accommodation": "Crestwood Cottage, Wilmington",
+      "event": "-",
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Manna, visit from 09:25 to 10:16, nearest transit: Front St SB at Chestnut St, 150.96m away; Riverwalk, visit from 11:30 to 15:20, nearest transit: Front St SB at Market St, 105.98m away; Fish Bites Seafood, visit from 13:57 to 14:56, nearest transit: Carolina Beach Rd NB at College Rd, 2839.13m away; PinPoint Restaurant, visit from 19:51 to 21:00, nearest transit: Front St NB at Market St, 42.83m away; Crestwood Cottage, stay from 22:15 to 08:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wilmington to Boston",
+      "transportation": "Flight Number: F1368978, from Wilmington to Boston, Departure Time: 14:51, Arrival Time: 16:46",
+      "breakfast": "Copper Penny, Wilmington",
+      "attraction": "Bellamy Mansion, Wilmington",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Crestwood Cottage, stay from 08:00 to 09:00, nearest transit: Market St WB at Stevenson-Hendrick Mazda, 836.45m away; Copper Penny, visit from 09:25 to 10:16, nearest transit: Front St SB at Chestnut St, 63.70m away; Bellamy Mansion, visit from 11:30 to 15:20, nearest transit: Market St WB at 4th St, 135.15m away."
+    }
+  ]
+}

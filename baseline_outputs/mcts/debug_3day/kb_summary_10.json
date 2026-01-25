@@ -1,0 +1,59 @@
+{
+  "idx": 10,
+  "stages": [
+    {
+      "city": "Louisville",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 4
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Miami",
+      "to": "Louisville",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F0388834, from Miami to Louisville, Departure Time: 15:47, Arrival Time: 18:13"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Miami",
+      "to": "Louisville",
+      "date": null,
+      "raw": "Self-driving, from Miami to Louisville, Duration: 1178.2683333333334 mins, Distance: 1690.3182 km, Estimated Cost: $84.52"
+    },
+    {
+      "mode": "taxi",
+      "from": "Miami",
+      "to": "Louisville",
+      "date": null,
+      "raw": "Taxi, from Miami to Louisville, Duration: 1178.2683333333334 mins, Distance: 1690.3182 km, Estimated Cost: $1690.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Louisville",
+      "to": "Miami",
+      "date": "2024-11-23",
+      "raw": "Flight Number: F0123474, from Louisville to Miami, Departure Time: 15:47, Arrival Time: 18:17"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Louisville",
+      "to": "Miami",
+      "date": null,
+      "raw": "Self-driving, from Louisville to Miami, Duration: 1180.025 mins, Distance: 1690.8601 km, Estimated Cost: $84.54"
+    },
+    {
+      "mode": "taxi",
+      "from": "Louisville",
+      "to": "Miami",
+      "date": null,
+      "raw": "Taxi, from Louisville to Miami, Duration: 1180.025 mins, Distance: 1690.8601 km, Estimated Cost: $1690.86"
+    }
+  ]
+}

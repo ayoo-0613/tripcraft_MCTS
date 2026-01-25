@@ -1,0 +1,74 @@
+{
+  "idx": 27,
+  "JSON": {
+    "org": "Charlotte",
+    "dest": "Lexington",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-22",
+      "2024-11-23",
+      "2024-11-24"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "French",
+        "Indian",
+        "Italian",
+        "American"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": [
+        "sights",
+        "landmarks",
+        "traveler resources"
+      ]
+    },
+    "budget": 1200.0,
+    "query": "Plan a 3-day trip for 2 people from Charlotte to Lexington from November 22nd to November 24th, 2024, with a budget of $1,200. Accommodations should allow pets. Include dining options featuring French, Indian, Italian, and American cuisines, and visits to attractions such as sights, landmarks, and traveler resources.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Charlotte to Lexington",
+      "transportation": "Taxi, from Charlotte to Lexington, Duration: 475.10999999999996 mins, Distance: 606.9498000000001 km, Estimated Cost: $606.95",
+      "breakfast": "Lockbox, Lexington",
+      "attraction": "Thoroughbred Park, Lexington",
+      "lunch": "The Triangle Grille, Lexington",
+      "dinner": "OBC Kitchen, Lexington",
+      "accommodation": "A single room for your stay, Lexington",
+      "event": "-",
+      "point_of_interest_list": "A single room for your stay, stay from 08:00 to 09:00, nearest transit: Chandler Hospital, 202.96m away; Lockbox, visit from 09:25 to 10:16, nearest transit: West Main @ 269, 116.85m away; Thoroughbred Park, visit from 11:30 to 16:50, nearest transit: Midland @ Short, 112.60m away; The Triangle Grille, visit from 13:57 to 14:56, nearest transit: North Broadway @ Main Inbound, 68.41m away; OBC Kitchen, visit from 19:51 to 21:00, nearest transit: Tates Creek @ Lansdowne Shoppes, 69.64m away; A single room for your stay, stay from 22:15 to 08:00, nearest transit: Chandler Hospital, 202.96m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Lexington to Lexington",
+      "transportation": "Transfer, from Lexington to Lexington",
+      "breakfast": "Double Dogs, Lexington",
+      "attraction": "Blue Grass Tours, Lexington",
+      "lunch": "Keeneland Track Kitchen, Lexington",
+      "dinner": "-",
+      "accommodation": "Centrally Located Lex Apartment!, Lexington",
+      "event": "-",
+      "point_of_interest_list": "Centrally Located Lex Apartment!, stay from 08:00 to 09:00, nearest transit: North Upper @ 2nd, 107.95m away; Double Dogs, visit from 09:25 to 10:16, nearest transit: Bryant @ 2033 Outbound, 166.09m away; Blue Grass Tours, visit from 11:30 to 15:05, nearest transit: Enterprise @ 780 Inbound, 154.91m away; Keeneland Track Kitchen, visit from 13:57 to 14:56, nearest transit: Keeneland Race Track, 480.33m away; Centrally Located Lex Apartment!, stay from 22:15 to 08:00, nearest transit: North Upper @ 2nd, 107.95m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Lexington to Charlotte",
+      "transportation": "Transfer, from Lexington to Charlotte",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Centrally Located Lex Apartment!, stay from 08:00 to 09:00, nearest transit: North Upper @ 2nd, 107.95m away."
+    }
+  ]
+}

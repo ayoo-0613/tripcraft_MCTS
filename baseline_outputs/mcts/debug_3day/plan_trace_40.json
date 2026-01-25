@@ -1,0 +1,634 @@
+{
+  "idx": 40,
+  "reward": 18.07965289390339,
+  "budget_used": 4672.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Montgomery to Atlanta, Duration: 179.01166666666668 mins, Distance: 259.3936 km, Estimated Cost: $259.39",
+      "candidates": [
+        "Taxi, from Montgomery to Atlanta, Duration: 179.01166666666668 mins, Distance: 259.3936 km, Estimated Cost: $259.39"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "candidates": [
+        "Alpaca Treehouse in the Bamboo Forest",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Urban Farm Stay in Heart of Atlanta"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Home Grown",
+      "candidates": [
+        "Home Grown",
+        "The Capital Grille",
+        "Aria",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Swan House",
+      "candidates": [
+        "Swan House",
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "World of Coca-Cola",
+        "Jimmy Carter Presidential Library & Museum",
+        "High Museum of Art",
+        "Atlanta Botanical Garden",
+        "Center for Puppetry Arts",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Aria",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Aria",
+      "candidates": [
+        "Aria",
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Alpaca Treehouse in the Bamboo Forest",
+      "candidates": [
+        "Alpaca Treehouse in the Bamboo Forest",
+        "SUN LIT BUNGALOW | GOOD VIBES & LOTS OF WINE",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Tiny House Urban Farm Stay in Heart of Atlanta"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Steamhouse Lounge",
+      "candidates": [
+        "Steamhouse Lounge",
+        "Atlanta Breakfast Club",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Georgia Aquarium",
+      "candidates": [
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "World of Coca-Cola",
+        "Jimmy Carter Presidential Library & Museum",
+        "High Museum of Art",
+        "Atlanta Botanical Garden",
+        "Center for Puppetry Arts",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Atlanta Breakfast Club",
+      "candidates": [
+        "Atlanta Breakfast Club",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "South City Kitchen Midtown",
+      "candidates": [
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Atlanta to Montgomery, Duration: 178.06833333333333 mins, Distance: 258.9032 km, Estimated Cost: $258.90",
+      "candidates": [
+        "Taxi, from Atlanta to Montgomery, Duration: 178.06833333333333 mins, Distance: 258.9032 km, Estimated Cost: $258.90"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Trader Vic's",
+      "candidates": [
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Zoo Atlanta",
+      "candidates": [
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "World of Coca-Cola",
+        "Jimmy Carter Presidential Library & Museum",
+        "High Museum of Art",
+        "Atlanta Botanical Garden",
+        "Center for Puppetry Arts",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Americano Atlanta",
+      "candidates": [
+        "The Americano Atlanta",
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ted's Montana Grill",
+      "candidates": [
+        "Ted's Montana Grill",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Nikolai's Roof",
+        "White Oak Kitchen & Cocktails",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "Fox Bros. Bar-B-Q",
+        "Copeland's of New Orleans Atlanta",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Montgomery to Atlanta",
+      "transportation": "Taxi, from Montgomery to Atlanta, Duration: 179.01166666666668 mins, Distance: 259.3936 km, Estimated Cost: $259.39",
+      "accommodation": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "breakfast": "Home Grown",
+      "attractions": [
+        "Swan House"
+      ],
+      "lunch": "The Capital Grille",
+      "dinner": "Aria",
+      "poi_blocks": [
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Home Grown",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MEMORIAL DR SE @ GIBSON ST SE",
+          "dist_m": 49.17
+        },
+        {
+          "name": "Swan House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "PEACHTREE RD NW @ PHARR RD NW",
+          "dist_m": 659.66
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEACHTREE RD @ E PACES FERRY RD NE",
+          "dist_m": 94.17
+        },
+        {
+          "name": "Aria",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PIEDMONT RD NE @ E PACES FERRY RD NE",
+          "dist_m": 250.25
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Alpaca Treehouse in the Bamboo Forest",
+      "breakfast": "Steamhouse Lounge",
+      "attractions": [
+        "Georgia Aquarium"
+      ],
+      "lunch": "Atlanta Breakfast Club",
+      "dinner": "South City Kitchen Midtown",
+      "poi_blocks": [
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Steamhouse Lounge",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W PEACHTREE ST @ 12TH ST",
+          "dist_m": 93.0
+        },
+        {
+          "name": "Georgia Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 131.37
+        },
+        {
+          "name": "Atlanta Breakfast Club",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 42.63
+        },
+        {
+          "name": "South City Kitchen Midtown",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE ST @ 14TH ST NE",
+          "dist_m": 128.52
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Montgomery",
+      "transportation": "Taxi, from Atlanta to Montgomery, Duration: 178.06833333333333 mins, Distance: 258.9032 km, Estimated Cost: $258.90",
+      "accommodation": "-",
+      "breakfast": "Trader Vic's",
+      "attractions": [
+        "Zoo Atlanta"
+      ],
+      "lunch": "The Americano Atlanta",
+      "dinner": "Ted's Montana Grill",
+      "poi_blocks": [
+        {
+          "name": "Alpaca Treehouse in the Bamboo Forest",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BOULDERCREST DR SE @ WAINWRIGHT DR SE",
+          "dist_m": 360.67
+        },
+        {
+          "name": "Trader Vic's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MITCHELL ST @ MANGUM ST",
+          "dist_m": 173.24
+        },
+        {
+          "name": "Zoo Atlanta",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:00",
+          "nearest_transit": "CHEROKEE AVE @ GRANT PARK PL",
+          "dist_m": 195.14
+        },
+        {
+          "name": "The Americano Atlanta",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEACHTREE RD @ HIGHLAND DR",
+          "dist_m": 110.28
+        },
+        {
+          "name": "Ted's Montana Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "LUCKIE ST @ CONE ST",
+          "dist_m": 67.84
+        }
+      ]
+    }
+  ]
+}

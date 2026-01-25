@@ -1,0 +1,65 @@
+{
+  "idx": 26,
+  "JSON": {
+    "org": "Chicago",
+    "dest": "Reno",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-19",
+      "2024-11-20",
+      "2024-11-21"
+    ],
+    "people_number": 8,
+    "local_constraint": {
+      "house rule": "no children under 10",
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 14100.0,
+    "query": "Plan a 3-day trip for 8 people from Chicago to Reno from November 19th to November 21st, 2024, with a budget of $14,100. Accommodations should follow the house rule of not allowing children under 10.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Chicago to Reno",
+      "transportation": "Taxi, from Chicago to Reno, Not feasible to drive from Chicago to Reno",
+      "breakfast": "Oceano, Reno",
+      "attraction": "Atlantis Casino, Reno",
+      "lunch": "Red Bloom, Reno",
+      "dinner": "Purple Parrot, Reno",
+      "accommodation": "Cozy Cottage, Reno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; Oceano, visit from 09:25 to 10:16, nearest transit: S Virginia Street and Peppermill Lane, 100.57m away; Atlantis Casino, visit from 11:30 to 14:20, nearest transit: S Virginia Street and W Peckham Lane, 87.31m away; Red Bloom, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Moana Lane, 122.44m away; Purple Parrot, visit from 19:51 to 21:00, nearest transit: S Virginia Street and W Peckham Lane, 36.43m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Reno to Reno",
+      "transportation": "Transfer, from Reno to Reno",
+      "breakfast": "The Buffet, Reno",
+      "attraction": "Animal Ark, Reno",
+      "lunch": "Wild River Grille, Reno",
+      "dinner": "Roxy, Reno",
+      "accommodation": "Cozy Cottage, Reno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; The Buffet, visit from 09:25 to 10:16, nearest transit: W 4th Street and N Arlington Avenue, 105.18m away; Animal Ark, visit from 11:30 to 16:50, nearest transit: Echo Avenue and Mt Bismark Street, 14382.98m away; Wild River Grille, visit from 13:57 to 14:56, nearest transit: S Center Street and State Street, 157.23m away; Roxy, visit from 19:51 to 21:00, nearest transit: North Virginia Street and 5th Street, 167.76m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Reno to Chicago",
+      "transportation": "Flight Number: F1217254, from Reno to Chicago, Departure Time: 23:38, Arrival Time: 05:17",
+      "breakfast": "Two Chicks Reno, Reno",
+      "attraction": "The Discovery, Reno",
+      "lunch": "Twisted Fork, Reno",
+      "dinner": "The Brew Brothers, Reno",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; Two Chicks Reno, visit from 09:25 to 10:16, nearest transit: S Virginia Street and Thoma Street, 50.95m away; The Discovery, visit from 11:30 to 15:20, nearest transit: S Center Street and E Liberty Street, 48.94m away; Twisted Fork, visit from 13:57 to 14:56, nearest transit: Double R Boulevard and Double Diamond Parkway, 1365.79m away; The Brew Brothers, visit from 19:51 to 21:00, nearest transit: North Virginia Street and 5th Street, 176.00m away."
+    }
+  ]
+}

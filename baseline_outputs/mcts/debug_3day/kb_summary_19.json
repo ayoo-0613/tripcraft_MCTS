@@ -1,0 +1,59 @@
+{
+  "idx": 19,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Denver",
+      "to": "Houston",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0019079, from Denver to Houston, Departure Time: 10:43, Arrival Time: 13:52"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Denver",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Denver to Houston, Duration: 1118.4283333333333 mins, Distance: 1657.4703 km, Estimated Cost: $82.87"
+    },
+    {
+      "mode": "taxi",
+      "from": "Denver",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Denver to Houston, Duration: 1118.4283333333333 mins, Distance: 1657.4703 km, Estimated Cost: $1657.47"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Denver",
+      "date": "2024-11-21",
+      "raw": "Flight Number: F0049386, from Houston to Denver, Departure Time: 22:44, Arrival Time: 23:57"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Houston to Denver, Duration: 1117.0766666666668 mins, Distance: 1660.4122 km, Estimated Cost: $83.02"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Houston to Denver, Duration: 1117.0766666666668 mins, Distance: 1660.4122 km, Estimated Cost: $1660.41"
+    }
+  ]
+}

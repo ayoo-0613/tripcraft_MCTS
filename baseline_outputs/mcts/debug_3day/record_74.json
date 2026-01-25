@@ -1,0 +1,70 @@
+{
+  "idx": 74,
+  "JSON": {
+    "org": "Everett",
+    "dest": "San Diego",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-27",
+      "2024-11-28",
+      "2024-11-29"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Chinese",
+        "Mexican",
+        "Italian",
+        "Asian"
+      ],
+      "room type": "non-shared room",
+      "transportation": null,
+      "event": "outdoor activities and museums",
+      "attraction": null
+    },
+    "budget": 1950.0,
+    "query": "Plan a 3-day trip for 2 people from Everett to San Diego from November 27th to November 29th, 2024, with a budget of $1,950. Accommodations should be in a non-shared room. Include dining options featuring Chinese, Mexican, Italian, and Asian cuisines, as well as visits to outdoor activities and museums.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Everett to San Diego",
+      "transportation": "Flight Number: F0515548, from Everett to San Diego, Departure Time: 10:02, Arrival Time: 12:48",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "Cafe Coyote, San Diego",
+      "dinner": "Casa Guadalajara, San Diego",
+      "accommodation": "Big Bay Views, San Diego Bay, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Big Bay Views, stay from 08:00 to 09:00; Cafe Coyote, visit from 13:57 to 14:56; Big Bay Views, stay from 22:15 to 08:00; Casa Guadalajara, visit from 19:51 to 21:00"
+    },
+    {
+      "days": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "Transfer, from San Diego to San Diego",
+      "breakfast": "Civico 1845, San Diego",
+      "attraction": "SeaWorld, San Diego",
+      "lunch": "Barbusa, San Diego",
+      "dinner": "Las Hadas Grill, San Diego",
+      "accommodation": "Big Bay Views, San Diego Bay, San Diego",
+      "event": "-",
+      "point_of_interest_list": "Big Bay Views, stay from 08:00 to 09:00; Civico 1845, visit from 09:25 to 10:16; SeaWorld, visit from 11:30 to 16:20; Barbusa, visit from 13:57 to 14:56; Big Bay Views, stay from 22:15 to 08:00; Las Hadas Grill, visit from 19:51 to 21:00"
+    },
+    {
+      "days": 3,
+      "current_city": "from San Diego to Everett",
+      "transportation": "Taxi, from San Diego to Everett, Not feasible to drive from San Diego to Everett",
+      "breakfast": "Bencotto Italian Kitchen, San Diego",
+      "attraction": "Mission Beach, San Diego",
+      "lunch": "Mimmo's, San Diego",
+      "dinner": "La Puerta, San Diego",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Big Bay Views, stay from 08:00 to 09:00; Bencotto Italian Kitchen, visit from 09:25 to 10:16; Mission Beach, visit from 11:30 to 16:35; Mimmo's, visit from 13:57 to 14:56; Big Bay Views, stay from 22:15 to 08:00"
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "idx": 35,
+  "reward": 14.722043417729607,
+  "budget_used": 1067.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1340312, from Nashville to Sioux Falls, Departure Time: 14:08, Arrival Time: 16:28",
+      "candidates": [
+        "Flight Number: F1340312, from Nashville to Sioux Falls, Departure Time: 14:08, Arrival Time: 16:28",
+        "Taxi, from Nashville to Sioux Falls, Duration: 1007.0416666666666 mins, Distance: 1481.2943 km, Estimated Cost: $1481.29"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+      "candidates": [
+        "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+        "Elegant&Cozy-Country Club, Sanf. Med., Auggie&USF",
+        "Room #3",
+        "*Tiny Haven*Cozy tiny home in central Sioux Falls!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Golden Bowl",
+      "candidates": [
+        "Golden Bowl",
+        "Grille 26",
+        "All Day Cafe",
+        "Texas Roadhouse",
+        "Azteca",
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+      "candidates": [
+        "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+        "Elegant&Cozy-Country Club, Sanf. Med., Auggie&USF",
+        "Room #3",
+        "*Tiny Haven*Cozy tiny home in central Sioux Falls!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Grille 26",
+      "candidates": [
+        "Grille 26",
+        "All Day Cafe",
+        "Texas Roadhouse",
+        "Azteca",
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Old Courthouse Museum",
+      "candidates": [
+        "Old Courthouse Museum",
+        "Washington Pavilion",
+        "Falls Park",
+        "SculptureWalk",
+        "Wild Water West",
+        "Arc of Dreams",
+        "Butterfly House & Aquarium",
+        "St. Joseph Cathedral",
+        "Tuthill Park",
+        "WoodGrain Brewing Company",
+        "Denny Sanford Premier Center",
+        "Great Bear Recreation Park",
+        "Good Earth State Park",
+        "USS South Dakota Battleship Memorial",
+        "Mary Jo Wegner Arboretum",
+        "Great Plains Zoo & Delbridge Museum of Natural History",
+        "Pettigrew Home & Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "All Day Cafe",
+      "candidates": [
+        "All Day Cafe",
+        "Texas Roadhouse",
+        "Azteca",
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Texas Roadhouse",
+      "candidates": [
+        "Texas Roadhouse",
+        "Azteca",
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2562961, from Sioux Falls to Nashville, Departure Time: 21:34, Arrival Time: 23:42",
+      "candidates": [
+        "Flight Number: F2562961, from Sioux Falls to Nashville, Departure Time: 21:34, Arrival Time: 23:42",
+        "Taxi, from Sioux Falls to Nashville, Duration: 1003.3666666666667 mins, Distance: 1481.1742 km, Estimated Cost: $1481.17"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Azteca",
+      "candidates": [
+        "Azteca",
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Washington Pavilion",
+      "candidates": [
+        "Washington Pavilion",
+        "Falls Park",
+        "SculptureWalk",
+        "Wild Water West",
+        "Arc of Dreams",
+        "Butterfly House & Aquarium",
+        "St. Joseph Cathedral",
+        "Tuthill Park",
+        "WoodGrain Brewing Company",
+        "Denny Sanford Premier Center",
+        "Great Bear Recreation Park",
+        "Good Earth State Park",
+        "USS South Dakota Battleship Memorial",
+        "Mary Jo Wegner Arboretum",
+        "Great Plains Zoo & Delbridge Museum of Natural History",
+        "Pettigrew Home & Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Barrel House",
+      "candidates": [
+        "The Barrel House",
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Phillips Avenue Diner",
+      "candidates": [
+        "Phillips Avenue Diner",
+        "ROAM Kitchen & Bar",
+        "JL Beers",
+        "Harvester Kitchen",
+        "Granite City Food & Brewery",
+        "Original Pancake House",
+        "Crack'd Pot Restaurant & Bakery",
+        "Mama's Ladas",
+        "Sanaa s Gourmet Mediterranean",
+        "Chef Lance's On Phillips",
+        "22TEN Kitchen Cocktails",
+        "Tarquin Argentinian Restaurant",
+        "Minerva's",
+        "Carino's Italian",
+        "CRAVE American Kitchen & Sushi Bar",
+        "Dynasty Chinese and Vietnamese Cuisine",
+        "Carnaval Brazilian Grill",
+        "Swamp Daddy's Cajun Kitchen",
+        "Sickies Garage Burgers & Brews",
+        "Parker's Bistro",
+        "MacKenzie River Pizza, Grill & Pub",
+        "Sushi Masa",
+        "M.B. Haskett Delicatessen",
+        "The Blarney Stone Pub - Sioux Falls",
+        "Crawford's Bar & Grill",
+        "Steak-Out Sioux Falls, SD",
+        "Tomacelli's Pizza & Pasta",
+        "Morrie’s Steakhouse",
+        "Phnom Penh Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Nashville to Sioux Falls",
+      "transportation": "Flight Number: F1340312, from Nashville to Sioux Falls, Departure Time: 14:08, Arrival Time: 16:28",
+      "accommodation": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "Golden Bowl",
+      "poi_blocks": [
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "16:58",
+          "end": "17:58",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        },
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        },
+        {
+          "name": "Golden Bowl",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Minnesota (mid-block)/33rd SW corner",
+          "dist_m": 108.53
+        },
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Sioux Falls to Sioux Falls",
+      "transportation": "-",
+      "accommodation": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+      "breakfast": "Grille 26",
+      "attractions": [
+        "Old Courthouse Museum"
+      ],
+      "lunch": "All Day Cafe",
+      "dinner": "Texas Roadhouse",
+      "poi_blocks": [
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        },
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        },
+        {
+          "name": "Grille 26",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "26th (midblock)/Western NE corner",
+          "dist_m": 22.42
+        },
+        {
+          "name": "Old Courthouse Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Phillips/7th NW corner",
+          "dist_m": 215.45
+        },
+        {
+          "name": "All Day Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "41st/Holly NE corner",
+          "dist_m": 156.19
+        },
+        {
+          "name": "Texas Roadhouse",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Terry/Gateway SE corner",
+          "dist_m": 476.25
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Sioux Falls to Nashville",
+      "transportation": "Flight Number: F2562961, from Sioux Falls to Nashville, Departure Time: 21:34, Arrival Time: 23:42",
+      "accommodation": "-",
+      "breakfast": "Azteca",
+      "attractions": [
+        "Washington Pavilion"
+      ],
+      "lunch": "The Barrel House",
+      "dinner": "Phillips Avenue Diner",
+      "poi_blocks": [
+        {
+          "name": "Luxury&Cozy-Country Club, Sanf. Med., Auggie&USF",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Western/22nd NW corner",
+          "dist_m": 27.92
+        },
+        {
+          "name": "Azteca",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Minnesota/16th SE corner",
+          "dist_m": 93.56
+        },
+        {
+          "name": "Washington Pavilion",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "Dakota/11th SE corner",
+          "dist_m": 79.08
+        },
+        {
+          "name": "The Barrel House",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Sycamore/26th NW corner",
+          "dist_m": 3050.28
+        },
+        {
+          "name": "Phillips Avenue Diner",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "10th/Main SW corner",
+          "dist_m": 128.0
+        }
+      ]
+    }
+  ]
+}

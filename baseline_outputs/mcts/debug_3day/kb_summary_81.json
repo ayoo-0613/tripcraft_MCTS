@@ -1,0 +1,59 @@
+{
+  "idx": 81,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Cleveland",
+      "to": "Houston",
+      "date": "2024-11-26",
+      "raw": "Flight Number: F0108700, from Cleveland to Houston, Departure Time: 12:54, Arrival Time: 15:04"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Cleveland",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $104.32"
+    },
+    {
+      "mode": "taxi",
+      "from": "Cleveland",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Cleveland to Houston, Duration: 1434.7733333333333 mins, Distance: 2086.4672 km, Estimated Cost: $2086.47"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Cleveland",
+      "date": "2024-11-28",
+      "raw": "Flight Number: F0107429, from Houston to Cleveland, Departure Time: 07:38, Arrival Time: 11:20"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Self-driving, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Cleveland",
+      "date": null,
+      "raw": "Taxi, from Houston to Cleveland, Not feasible to drive from Houston to Cleveland"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "idx": 78,
+  "stages": [
+    {
+      "city": "Charlotte",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Denver",
+      "to": "Charlotte",
+      "date": "2024-11-13",
+      "raw": "Flight Number: F0176005, from Denver to Charlotte, Departure Time: 01:02, Arrival Time: 06:07"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Denver",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Self-driving, from Denver to Charlotte, Not feasible to drive from Denver to Charlotte"
+    },
+    {
+      "mode": "taxi",
+      "from": "Denver",
+      "to": "Charlotte",
+      "date": null,
+      "raw": "Taxi, from Denver to Charlotte, Not feasible to drive from Denver to Charlotte"
+    },
+    {
+      "mode": "flight",
+      "from": "Charlotte",
+      "to": "Denver",
+      "date": "2024-11-15",
+      "raw": "Flight Number: F0170998, from Charlotte to Denver, Departure Time: 18:19, Arrival Time: 20:02"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Charlotte",
+      "to": "Denver",
+      "date": null,
+      "raw": "Self-driving, from Charlotte to Denver, Not feasible to drive from Charlotte to Denver"
+    },
+    {
+      "mode": "taxi",
+      "from": "Charlotte",
+      "to": "Denver",
+      "date": null,
+      "raw": "Taxi, from Charlotte to Denver, Not feasible to drive from Charlotte to Denver"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "idx": 27,
+  "reward": 13.137136333330782,
+  "budget_used": 1187.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Charlotte to Lexington, Duration: 475.10999999999996 mins, Distance: 606.9498000000001 km, Estimated Cost: $606.95",
+      "candidates": [
+        "Flight Number: F0233086, from Charlotte to Lexington, Departure Time: 20:32, Arrival Time: 21:53",
+        "Taxi, from Charlotte to Lexington, Duration: 475.10999999999996 mins, Distance: 606.9498000000001 km, Estimated Cost: $606.95"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "A single room for your stay",
+      "candidates": [
+        "Centrally Located Lex Apartment!",
+        "Lexington Home for Bluegrass Adventures",
+        "Canopy of trees",
+        "Downtown Digs-Spacious Loft",
+        "A single room for your stay",
+        "Cozy BoHo Paradise - Elegantly Peaceful",
+        "Luxurious 1-bedroom with free parking on premise",
+        "Lexington Apt. with parking & private entrance",
+        "New! One Bedroom Apt - Close to Everything",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "EmeraldShinobi Villa Plus",
+        "Convenient for 2, No cleaning fee Discounts to 10%",
+        "Unique Stay - 1907 Log Cabin Near Kentucky River",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Lockbox",
+      "candidates": [
+        "Lockbox",
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Double Dogs",
+        "BRU Burger Bar Lexington",
+        "Josie's",
+        "The Rackhouse Tavern",
+        "Dudley's on Short",
+        "The Ketch Seafood Grill",
+        "Malone's Hamburg",
+        "Bella Notte",
+        "Frank And Dino’s",
+        "Coles 735 Main",
+        "Distilled Restaurant & Bourbon Bar",
+        "J. Alexander's Restaurant",
+        "Malone's Palomar",
+        "The Blue Heron Steakhouse",
+        "Keeneland Track Kitchen",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Carson's Food & Drink - On Main",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Thoroughbred Park",
+      "candidates": [
+        "Blue Grass Tours",
+        "Keeneland",
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Lexington Visitors Center",
+        "Kentucky Horse Park",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Triangle Grille",
+      "candidates": [
+        "The Triangle Grille",
+        "OBC Kitchen",
+        "Double Dogs",
+        "BRU Burger Bar Lexington",
+        "Josie's",
+        "The Rackhouse Tavern",
+        "Dudley's on Short",
+        "The Ketch Seafood Grill",
+        "Malone's Hamburg",
+        "Bella Notte",
+        "Frank And Dino’s",
+        "Coles 735 Main",
+        "Distilled Restaurant & Bourbon Bar",
+        "J. Alexander's Restaurant",
+        "Malone's Palomar",
+        "The Blue Heron Steakhouse",
+        "Keeneland Track Kitchen",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Carson's Food & Drink - On Main",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "OBC Kitchen",
+      "candidates": [
+        "OBC Kitchen",
+        "Double Dogs",
+        "BRU Burger Bar Lexington",
+        "Josie's",
+        "The Rackhouse Tavern",
+        "Dudley's on Short",
+        "The Ketch Seafood Grill",
+        "Malone's Hamburg",
+        "Bella Notte",
+        "Frank And Dino’s",
+        "Coles 735 Main",
+        "Distilled Restaurant & Bourbon Bar",
+        "J. Alexander's Restaurant",
+        "Malone's Palomar",
+        "The Blue Heron Steakhouse",
+        "Keeneland Track Kitchen",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Carson's Food & Drink - On Main",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Centrally Located Lex Apartment!",
+      "candidates": [
+        "Centrally Located Lex Apartment!",
+        "Lexington Home for Bluegrass Adventures",
+        "Canopy of trees",
+        "Downtown Digs-Spacious Loft",
+        "A single room for your stay",
+        "Cozy BoHo Paradise - Elegantly Peaceful",
+        "Luxurious 1-bedroom with free parking on premise",
+        "Lexington Apt. with parking & private entrance",
+        "New! One Bedroom Apt - Close to Everything",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "EmeraldShinobi Villa Plus",
+        "Convenient for 2, No cleaning fee Discounts to 10%",
+        "Unique Stay - 1907 Log Cabin Near Kentucky River",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Double Dogs",
+      "candidates": [
+        "Double Dogs",
+        "BRU Burger Bar Lexington",
+        "Josie's",
+        "The Rackhouse Tavern",
+        "Dudley's on Short",
+        "The Ketch Seafood Grill",
+        "Malone's Hamburg",
+        "Bella Notte",
+        "Frank And Dino’s",
+        "Coles 735 Main",
+        "Distilled Restaurant & Bourbon Bar",
+        "J. Alexander's Restaurant",
+        "Malone's Palomar",
+        "The Blue Heron Steakhouse",
+        "Keeneland Track Kitchen",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Carson's Food & Drink - On Main",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Blue Grass Tours",
+      "candidates": [
+        "Blue Grass Tours",
+        "Keeneland",
+        "Lexington Cemetery",
+        "Lexington Visitors Center",
+        "Kentucky Horse Park",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Keeneland Track Kitchen",
+      "candidates": [
+        "BRU Burger Bar Lexington",
+        "Josie's",
+        "The Rackhouse Tavern",
+        "Dudley's on Short",
+        "The Ketch Seafood Grill",
+        "Malone's Hamburg",
+        "Bella Notte",
+        "Frank And Dino’s",
+        "Coles 735 Main",
+        "Distilled Restaurant & Bourbon Bar",
+        "J. Alexander's Restaurant",
+        "Malone's Palomar",
+        "The Blue Heron Steakhouse",
+        "Keeneland Track Kitchen",
+        "Ramsey's Diner Zandale",
+        "Pies & Pints",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Carson's Food & Drink - On Main",
+        "Harry's American Bar & Grill",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Lexington to Charlotte",
+      "candidates": [
+        "Transfer, from Lexington to Charlotte"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Charlotte to Lexington",
+      "transportation": "Taxi, from Charlotte to Lexington, Duration: 475.10999999999996 mins, Distance: 606.9498000000001 km, Estimated Cost: $606.95",
+      "accommodation": "A single room for your stay",
+      "breakfast": "Lockbox",
+      "attractions": [
+        "Thoroughbred Park"
+      ],
+      "lunch": "The Triangle Grille",
+      "dinner": "OBC Kitchen",
+      "poi_blocks": [
+        {
+          "name": "A single room for your stay",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Chandler Hospital",
+          "dist_m": 202.96
+        },
+        {
+          "name": "A single room for your stay",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Chandler Hospital",
+          "dist_m": 202.96
+        },
+        {
+          "name": "Lockbox",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "West Main @ 269",
+          "dist_m": 116.85
+        },
+        {
+          "name": "Thoroughbred Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Midland @ Short",
+          "dist_m": 112.6
+        },
+        {
+          "name": "The Triangle Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "North Broadway @ Main Inbound",
+          "dist_m": 68.41
+        },
+        {
+          "name": "OBC Kitchen",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Tates Creek @ Lansdowne Shoppes",
+          "dist_m": 69.64
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Lexington to Lexington",
+      "transportation": "-",
+      "accommodation": "Centrally Located Lex Apartment!",
+      "breakfast": "Double Dogs",
+      "attractions": [
+        "Blue Grass Tours"
+      ],
+      "lunch": "Keeneland Track Kitchen",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Centrally Located Lex Apartment!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "North Upper @ 2nd",
+          "dist_m": 107.95
+        },
+        {
+          "name": "Centrally Located Lex Apartment!",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "North Upper @ 2nd",
+          "dist_m": 107.95
+        },
+        {
+          "name": "Double Dogs",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Bryant @ 2033 Outbound",
+          "dist_m": 166.09
+        },
+        {
+          "name": "Blue Grass Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "Enterprise @ 780 Inbound",
+          "dist_m": 154.91
+        },
+        {
+          "name": "Keeneland Track Kitchen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Keeneland Race Track",
+          "dist_m": 480.33
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Lexington to Charlotte",
+      "transportation": "Transfer, from Lexington to Charlotte",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Centrally Located Lex Apartment!",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "North Upper @ 2nd",
+          "dist_m": 107.95
+        }
+      ]
+    }
+  ]
+}
