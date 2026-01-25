@@ -8,7 +8,7 @@ from typing import Any, Dict, Optional
 
 from .env import TripCraftEnv
 from .guidance import GuidanceConfig, build_guidance
-from .io import load_rows, load_rows_from_json, row_from_dict
+from .io import TripCraftRow, load_rows, load_rows_from_json, row_from_dict
 from .mcts import mcts_search
 from .ollama_client import OllamaClient
 from .ref_parser import build_unified_kb
@@ -34,7 +34,10 @@ def _render_prompt(template: str, **kwargs: str) -> str:
     try:
         return template.format(**kwargs)
     except Exception:
-        return template
+        out = template
+        for key, value in kwargs.items():
+            out = out.replace("{" + key + "}", str(value))
+        return out
 
 
 def _load_llm_config(value: Optional[str]) -> Dict[str, Any]:
@@ -66,6 +69,54 @@ def _print_progress(done: int, total: int, width: int = 30) -> None:
     sys.stderr.flush()
 
 
+def _coalesce(value: Any, fallback: Any) -> Any:
+    if value is None:
+        return fallback
+    if isinstance(value, str) and value.strip() == "":
+        return fallback
+    if isinstance(value, (list, dict)) and not value:
+        return fallback
+    return value
+
+
+def _normalize_dates(value: Any, fallback: Optional[list]) -> list:
+    if value is None:
+        return fallback or []
+    if isinstance(value, list):
+        return [str(x) for x in value]
+    return [str(value)]
+
+
+def _normalize_local_constraint(value: Any, fallback: Dict[str, Any]) -> Dict[str, Any]:
+    if not isinstance(value, dict):
+        return fallback
+    return value
+
+
+def _override_row_from_query(row: TripCraftRow, query_obj: Dict[str, Any]) -> TripCraftRow:
+    if not isinstance(query_obj, dict) or not query_obj:
+        return row
+    local_constraint = _normalize_local_constraint(
+        _coalesce(query_obj.get("local_constraint"), row.local_constraint),
+        row.local_constraint,
+    )
+    return TripCraftRow(
+        idx=row.idx,
+        org=str(_coalesce(query_obj.get("org"), row.org)),
+        dest=str(_coalesce(query_obj.get("dest"), row.dest)),
+        days=int(_coalesce(query_obj.get("days"), row.days) or 0),
+        visiting_city_number=int(_coalesce(query_obj.get("visiting_city_number"), row.visiting_city_number) or 0),
+        date=_normalize_dates(_coalesce(query_obj.get("date"), row.date), row.date),
+        people_number=int(_coalesce(query_obj.get("people_number"), row.people_number) or 0),
+        local_constraint=local_constraint,
+        budget=float(_coalesce(query_obj.get("budget"), row.budget) or 0.0),
+        query=row.query,
+        level=row.level,
+        persona=row.persona,
+        ref_blocks=row.ref_blocks,
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     input_group = parser.add_mutually_exclusive_group(required=True)
@@ -81,6 +132,8 @@ def main() -> None:
     parser.add_argument("--llm_model", type=str, default=None)
     parser.add_argument("--llm_base_url", type=str, default=None)
     parser.add_argument("--query_prompt", type=str, default=None)
+    parser.add_argument("--llm_parse_query", action="store_true", help="Use LLM to parse each row's query into JSON overrides.")
+    parser.add_argument("--llm_query_prompt", type=str, default=None, help="Optional prompt for LLM query->JSON parsing.")
     parser.add_argument("--query_output_json", type=str, default=None)
     parser.add_argument("--query_context_json", type=str, default=None)
     parser.add_argument("--query_model", type=str, default=None)
@@ -106,6 +159,8 @@ def main() -> None:
     parser.add_argument("--temporal_guidance", type=str, default="none", choices=["none", "ollama"])
     parser.add_argument("--temporal_prompt", type=str, default=None)
     parser.add_argument("--temporal_timeout", type=float, default=None)
+    parser.add_argument("--llm_render_plan", action="store_true", help="Use LLM to render final plan JSON from selected actions.")
+    parser.add_argument("--llm_render_prompt", type=str, default=None, help="Optional prompt for LLM plan rendering.")
     args = parser.parse_args()
     if args.topk <= 0:
         raise ValueError("--topk must be a positive integer.")
@@ -127,7 +182,7 @@ def main() -> None:
     query_timeout = args.query_timeout
     if query_timeout is None:
         query_timeout = _cfg_get(llm_cfg, "timeout_sec", "query_timeout_sec")
-    query_timeout = float(query_timeout) if query_timeout is not None else 20.0
+    query_timeout = float(query_timeout) if query_timeout is not None else 999.0
     query_prompt_path = args.query_prompt or _cfg_get(llm_cfg, "query_prompt")
 
     guidance_endpoint = args.guidance_endpoint or _cfg_get(llm_cfg, "endpoint", "guidance_endpoint")
@@ -138,7 +193,7 @@ def main() -> None:
     guidance_timeout = args.guidance_timeout
     if guidance_timeout is None:
         guidance_timeout = _cfg_get(llm_cfg, "timeout_sec", "guidance_timeout_sec")
-    guidance_timeout = float(guidance_timeout) if guidance_timeout is not None else 10.0
+    guidance_timeout = float(guidance_timeout) if guidance_timeout is not None else 999.0
 
     temporal_model = llm_model
     temporal_base_url = llm_base_url
@@ -147,6 +202,22 @@ def main() -> None:
     if temporal_timeout is None:
         temporal_timeout = _cfg_get(llm_cfg, "temporal_timeout_sec", "temporal_timeout")
     temporal_timeout = float(temporal_timeout) if temporal_timeout is not None else guidance_timeout
+
+    llm_query_prompt_path = args.llm_query_prompt or query_prompt_path
+    llm_render_prompt_path = args.llm_render_prompt or _cfg_get(llm_cfg, "render_prompt")
+
+    query_prompt_template = None
+    llm_query_client: Optional[OllamaClient] = None
+    if args.llm_parse_query or args.input_query or args.input_query_file:
+        if not query_model:
+            raise ValueError("--llm_model or llm_config:model is required for LLM query parsing.")
+        prompt_path = Path(__file__).parent / "prompts" / "query_to_json.txt"
+        query_prompt_template = _load_prompt(llm_query_prompt_path, prompt_path)
+        llm_query_client = OllamaClient(
+            base_url=query_base_url,
+            model=query_model,
+            timeout_sec=query_timeout,
+        )
 
     rows = []
     if args.input_csv:
@@ -159,22 +230,18 @@ def main() -> None:
             query_text = _read_text(Path(args.input_query_file))
         if not query_text:
             raise ValueError("Query input is empty.")
-        if not query_model:
-            raise ValueError("--llm_model or llm_config:model is required when using --input_query or --input_query_file.")
 
-        prompt_path = Path(__file__).parent / "prompts" / "query_to_json.txt"
-        prompt_template = _load_prompt(query_prompt_path, prompt_path)
+        prompt_template = query_prompt_template
+        if prompt_template is None:
+            raise ValueError("LLM query prompt is not available.")
         context_json = "{}"
         if args.query_context_json:
             context_json = _read_text(Path(args.query_context_json)) or "{}"
         prompt_text = _render_prompt(prompt_template, query_text=query_text, context_json=context_json)
 
-        client = OllamaClient(
-            base_url=query_base_url,
-            model=query_model,
-            timeout_sec=query_timeout,
-        )
-        query_obj = client.generate_json(prompt_text)
+        if llm_query_client is None:
+            raise ValueError("LLM query client is not initialized.")
+        query_obj = llm_query_client.generate_json(prompt_text)
         if not query_obj:
             raise ValueError("LLM query-to-JSON output is empty or invalid.")
         if args.query_output_json:
@@ -187,9 +254,28 @@ def main() -> None:
     debug_dir = Path(args.debug_dir) if args.debug_dir else (out_path.parent / "debug_mcts_baseline")
     debug_dir.mkdir(parents=True, exist_ok=True)
 
+    render_prompt_template = None
+    llm_render_client: Optional[OllamaClient] = None
+    if args.llm_render_plan:
+        if not llm_model:
+            raise ValueError("--llm_model or llm_config:model is required for LLM plan rendering.")
+        render_prompt_path = Path(__file__).parent / "prompts" / "render_plan_from_actions.txt"
+        render_prompt_template = _load_prompt(llm_render_prompt_path, render_prompt_path)
+        llm_render_client = OllamaClient(
+            base_url=llm_base_url,
+            model=llm_model,
+            timeout_sec=query_timeout,
+        )
+
     with out_path.open("w", encoding="utf-8", errors="replace") as f:
         total = len(rows)
         for idx, row in enumerate(rows, start=1):
+            if args.llm_parse_query and llm_query_client and query_prompt_template and row.query:
+                prompt_text = _render_prompt(query_prompt_template, query_text=row.query, context_json="{}")
+                query_obj = llm_query_client.generate_json(prompt_text)
+                if query_obj:
+                    query_obj["query"] = row.query
+                    row = _override_row_from_query(row, query_obj)
             if not row.ref_blocks:
                 raise ValueError(f"row idx={row.idx} is missing reference_information.")
             template = make_output_record_template(row)
@@ -233,6 +319,21 @@ def main() -> None:
                 feasibility_weight=args.mcts_feasibility_weight,
             )
             rec = fill_template_with_state(template, row, kb, terminal_state, temporal_client=temporal_client)
+
+            if args.llm_render_plan and llm_render_client and render_prompt_template:
+                actions_json = json.dumps(rec.get("plan", []), ensure_ascii=False)
+                prompt_text = _render_prompt(
+                    render_prompt_template,
+                    actions_json=actions_json,
+                    query=row.query or "",
+                    persona=row.persona or "",
+                )
+                rendered_plan = llm_render_client.generate_json_list(prompt_text)
+                if rendered_plan:
+                    candidate = dict(rec)
+                    candidate["plan"] = rendered_plan
+                    if not validate_record(candidate):
+                        rec = candidate
 
             errs = validate_record(rec)
             if errs:

@@ -55,6 +55,8 @@ from z3 import (
     unknown,
 )
 
+from mcts_baseline.ollama_client import OllamaClient
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.append(str(REPO_ROOT))
@@ -188,6 +190,83 @@ def _safe_json_or_ast(v: Any) -> Any:
         except Exception:
             return v
     return v
+
+
+def _load_prompt(path: Optional[str], default_path: Path) -> str:
+    if path:
+        return Path(path).read_text(encoding="utf-8", errors="replace")
+    return default_path.read_text(encoding="utf-8", errors="replace")
+
+
+def _render_prompt(template: str, **kwargs: Any) -> str:
+    try:
+        return template.format(**kwargs)
+    except Exception:
+        out = template
+        for key, value in kwargs.items():
+            out = out.replace("{" + key + "}", str(value))
+        return out
+
+
+def _coalesce(value: Any, fallback: Any) -> Any:
+    if value is None:
+        return fallback
+    if isinstance(value, str) and value.strip() == "":
+        return fallback
+    if isinstance(value, (list, dict)) and not value:
+        return fallback
+    return value
+
+
+def _merge_query_json(base: Dict[str, Any], override: Dict[str, Any]) -> Dict[str, Any]:
+    if not isinstance(override, dict) or not override:
+        return base
+    merged = dict(base)
+    for key in [
+        "org",
+        "dest",
+        "days",
+        "visiting_city_number",
+        "date",
+        "people_number",
+        "local_constraint",
+        "budget",
+        "query",
+        "level",
+    ]:
+        if key in override:
+            merged[key] = _coalesce(override.get(key), merged.get(key))
+    return merged
+
+
+def _is_valid_plan_list(plan: Any, days: int) -> bool:
+    if not isinstance(plan, list) or not plan:
+        return False
+    if days and len(plan) != days:
+        return False
+    required = {
+        "days",
+        "current_city",
+        "transportation",
+        "breakfast",
+        "attraction",
+        "lunch",
+        "dinner",
+        "accommodation",
+        "event",
+        "point_of_interest_list",
+    }
+    for idx, item in enumerate(plan, start=1):
+        if not isinstance(item, dict):
+            return False
+        if not required.issubset(item.keys()):
+            return False
+        try:
+            if int(item.get("days", idx)) != idx:
+                return False
+        except Exception:
+            return False
+    return True
 
 
 def _get_first_existing(d: Dict[str, Any], keys: List[str], default: Any = None) -> Any:
@@ -2343,11 +2422,36 @@ def main():
     ap.add_argument("--candidates_dir", type=str, default=None, help="可选: 外部候选集目录，用于替换 plan 回退策略")
     ap.add_argument("--emit_smt2_dir", type=str, default=None, help="可选: 输出每条样本的 SMT2")
     ap.add_argument("--eval_mode", action="store_true", help="评测模式：关闭 persona POI + 放宽餐次间隔")
+    ap.add_argument("--llm_parse_query", action="store_true", help="Use LLM to parse each row query into JSON overrides.")
+    ap.add_argument("--llm_model", type=str, default=None)
+    ap.add_argument("--llm_base_url", type=str, default="http://localhost:11434")
+    ap.add_argument("--llm_timeout", type=float, default=20.0)
+    ap.add_argument("--llm_query_prompt", type=str, default=None)
+    ap.add_argument("--llm_render_plan", action="store_true", help="Use LLM to render final plan JSON from selected actions.")
+    ap.add_argument("--llm_render_prompt", type=str, default=None)
     args = ap.parse_args()
 
     if args.eval_mode:
         global TIME_SLOTS
         TIME_SLOTS = dict(EVAL_TIME_SLOTS)
+
+    llm_client: Optional[OllamaClient] = None
+    query_prompt_template: Optional[str] = None
+    render_prompt_template: Optional[str] = None
+    if args.llm_parse_query or args.llm_render_plan:
+        if not args.llm_model:
+            raise ValueError("--llm_model is required for LLM parsing/rendering.")
+        llm_client = OllamaClient(
+            base_url=args.llm_base_url,
+            model=args.llm_model,
+            timeout_sec=args.llm_timeout,
+        )
+    if args.llm_parse_query:
+        default_query_prompt = REPO_ROOT / "mcts_baseline" / "prompts" / "query_to_json.txt"
+        query_prompt_template = _load_prompt(args.llm_query_prompt, default_query_prompt)
+    if args.llm_render_plan:
+        default_render_prompt = REPO_ROOT / "mcts_baseline" / "prompts" / "render_plan_from_actions.txt"
+        render_prompt_template = _load_prompt(args.llm_render_prompt, default_render_prompt)
 
     df = pd.read_csv(args.input_csv)
     df = df.reset_index(drop=True)
@@ -2366,6 +2470,16 @@ def main():
         row["__row_index__"] = i
 
         idx, query_json, persona, plan_from_row, reference_info = parse_row_to_instance(row)
+        if args.llm_parse_query and llm_client and query_prompt_template:
+            query_text = row.get("query", "")
+            if isinstance(query_text, str) and query_text.strip():
+                prompt_text = _render_prompt(query_prompt_template, query_text=query_text, context_json="{}")
+                llm_query = llm_client.generate_json(prompt_text)
+                if llm_query:
+                    llm_query["query"] = query_text
+                    if "level" not in llm_query and "level" in row:
+                        llm_query["level"] = row.get("level", "")
+                    query_json = _merge_query_json(query_json, llm_query)
         q = queryspec_from_query_json(query_json)
 
         # 候选集优先来自外部目录，其次来自 reference_info，再次来自 plan 回退
@@ -2412,6 +2526,18 @@ def main():
             use_optimize=not args.eval_mode,
         )
         rec = make_output_record(idx, query_json, persona, solved, err)
+
+        if args.llm_render_plan and llm_client and render_prompt_template:
+            actions_json = json.dumps(rec.get("plan", []), ensure_ascii=False)
+            prompt_text = _render_prompt(
+                render_prompt_template,
+                actions_json=actions_json,
+                query=query_json.get("query", ""),
+                persona=persona or "",
+            )
+            rendered_plan = llm_client.generate_json_list(prompt_text)
+            if _is_valid_plan_list(rendered_plan, q.days):
+                rec["plan"] = rendered_plan
 
         out_lines.append(json.dumps(rec, ensure_ascii=False))
         count += 1

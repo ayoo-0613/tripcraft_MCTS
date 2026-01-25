@@ -31,6 +31,13 @@ def main() -> int:
     )
     parser.add_argument("--max_rows", type=int, default=-1, help="Max rows per CSV (default: all).")
     parser.add_argument("--solver_timeout_ms", type=int, default=60000)
+    parser.add_argument("--llm_parse_query", action="store_true")
+    parser.add_argument("--llm_model", type=str, default=None)
+    parser.add_argument("--llm_base_url", type=str, default="http://localhost:11434")
+    parser.add_argument("--llm_timeout", type=float, default=20.0)
+    parser.add_argument("--llm_query_prompt", type=str, default=None)
+    parser.add_argument("--llm_render_plan", action="store_true")
+    parser.add_argument("--llm_render_prompt", type=str, default=None)
     parser.add_argument(
         "--emit_smt2_dir",
         type=str,
@@ -62,6 +69,20 @@ def main() -> int:
             "--solver_timeout_ms",
             str(args.solver_timeout_ms),
         ]
+        if args.llm_parse_query:
+            cmd.append("--llm_parse_query")
+        if args.llm_model:
+            cmd += ["--llm_model", str(args.llm_model)]
+        if args.llm_base_url:
+            cmd += ["--llm_base_url", str(args.llm_base_url)]
+        if args.llm_timeout is not None:
+            cmd += ["--llm_timeout", str(args.llm_timeout)]
+        if args.llm_query_prompt:
+            cmd += ["--llm_query_prompt", str(args.llm_query_prompt)]
+        if args.llm_render_plan:
+            cmd.append("--llm_render_plan")
+        if args.llm_render_prompt:
+            cmd += ["--llm_render_prompt", str(args.llm_render_prompt)]
         if args.eval_mode:
             cmd.append("--eval_mode")
         if args.emit_smt2_dir:

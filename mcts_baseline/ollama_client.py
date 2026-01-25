@@ -82,6 +82,14 @@ class OllamaClient:
         text = self._chat([prompt]).strip()
         return _parse_json_obj(text)
 
+    def chat(self, prompt_text: str) -> str:
+        prompt = {"role": "user", "content": prompt_text}
+        return self._chat([prompt]).strip()
+
+    def generate_json_list(self, prompt_text: str) -> List[Dict[str, Any]]:
+        text = self.chat(prompt_text)
+        return _parse_json_list(text)
+
 
 def _parse_priors(text: str, n: int) -> List[float]:
     try:
@@ -123,11 +131,29 @@ def _parse_json_obj(text: str) -> Dict[str, Any]:
     return {}
 
 
+def _parse_json_list(text: str) -> List[Dict[str, Any]]:
+    try:
+        obj = json.loads(_extract_json_list(text))
+        if isinstance(obj, list):
+            return [item for item in obj if isinstance(item, dict)]
+    except Exception:
+        return []
+    return []
+
+
 def _extract_json(text: str) -> str:
     text = text.strip()
     if text.startswith("{") and text.endswith("}"):
         return text
     m = re.search(r"\\{.*\\}", text, flags=re.DOTALL)
+    return m.group(0) if m else text
+
+
+def _extract_json_list(text: str) -> str:
+    text = text.strip()
+    if text.startswith("[") and text.endswith("]"):
+        return text
+    m = re.search(r"\\[.*\\]", text, flags=re.DOTALL)
     return m.group(0) if m else text
 
 

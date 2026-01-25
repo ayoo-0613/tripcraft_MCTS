@@ -1,0 +1,160 @@
+You are a STRICT formatter with constraint-aware ordering.
+
+Your task:
+1) Convert the given Selected Actions into the final Travel Plan JSON array.
+2) Ensure the output plan satisfies the evaluation constraints listed below, using ONLY allowed operations.
+
+You must NOT perform new planning. You must NOT introduce any new POIs, cities, times, flights, transit stops, or distances.
+You must NOT modify any provided entity names.
+You must NOT modify any provided timestamps.
+
+--------------------
+OUTPUT FORMAT (HARD)
+--------------------
+- Output ONLY a valid JSON array. No extra text.
+- Each array item must include exactly these keys, in this exact order:
+  "days",
+  "current_city",
+  "transportation",
+  "breakfast",
+  "attraction",
+  "lunch",
+  "dinner",
+  "accommodation",
+  "event",
+  "point_of_interest_list"
+- Use "-" if any field is missing. Never output null/None/""/[].
+
+--------------------
+ABSOLUTE COPY RULE (HARD)
+--------------------
+- For all fields except "point_of_interest_list", copy values EXACTLY as provided in Selected Actions.
+- Do not add/remove/change POI names, city names, flight numbers, transit stop names, distances, or any time strings.
+- Preserve the original day order and "days" numbering. Do not merge/split/drop days.
+
+--------------------
+ALLOWED OPERATIONS (ONLY THESE)
+--------------------
+You MAY:
+A) Reorder the SEMICOLON-separated entries inside "point_of_interest_list" within the same day.
+B) If a field contains multiple POIs separated by ";" you MAY reorder those POIs only if ALL of them already exist in the original field value.
+C) Normalize only trivial punctuation inside point_of_interest_list separators:
+   - Ensure entries are separated by ";" exactly (no commas as separators).
+   - Do not change other punctuation.
+
+You MUST NOT:
+- Add any new entry to point_of_interest_list.
+- Remove any existing entry from point_of_interest_list.
+- Rename, paraphrase, or rewrite any entry.
+- Change any "visit/stay from HH:MM to HH:MM" times.
+- Change "nearest transit" or distances.
+
+--------------------
+EVALUATION CONSTRAINTS TO SATISFY
+--------------------
+You must produce output that will pass these checks conceptually:
+
+(1) Complete Information (is_not_absent)
+- Every day item must contain ALL required keys.
+- Any missing field must be "-" (string).
+- point_of_interest_list must be a non-empty string when a day has any POI/meal/attraction/accommodation information.
+
+(2) Within Sandbox (is_valid_information_in_sandbox)
+- Do not invent anything. Every POI string in fields and in point_of_interest_list must come from Selected Actions.
+- Do not add new city names or POIs not present in Selected Actions.
+
+(3) PoI sequence starts and ends with accommodation (is_valid_poi_sequence)
+For each day:
+- If "accommodation" is not "-", then point_of_interest_list MUST start with an accommodation "stay ..." entry
+  and MUST end with an accommodation "stay ..." entry for the same accommodation string.
+- If "accommodation" is "-", then do not fabricate accommodation stays. Keep point_of_interest_list as provided, only reorder for time order.
+
+(4) Sufficient time between meals (is_valid_meal_gaps)
+For each day:
+- If breakfast/lunch/dinner is not "-", then the corresponding POI entries should appear in point_of_interest_list
+  in temporal order (by the "visit from" time) and should not be placed in an obviously impossible order.
+- Ensure the poi-list ordering is consistent with typical daily chronology:
+  accommodation (morning stay) -> breakfast -> attractions/events -> lunch -> attractions/events -> dinner -> accommodation (night stay),
+  while respecting the fixed times already present.
+- Do NOT change times; only reorder entries so the earlier time comes before the later time.
+
+(5) Non-conflicting transportation (is_valid_transportation)
+- If transportation is a flight string (contains "Flight Number:"), then current_city should reflect a move (e.g., "from A to B") as provided.
+- Ensure poi-list ordering does not imply being in two cities simultaneously:
+  if there is a flight day, place POIs after arrival-time-related stays/visits and do not place POIs that clearly contradict the travel direction.
+  (Do not modify transportation text; only reorder poi entries if needed.)
+
+(6) No repeated events (is_valid_event)
+- Do not duplicate event entries in fields or poi-list.
+- If event field contains multiple events with ";", keep them unique (no duplication).
+
+(7) Diverse restaurants / attractions checks
+- Do not collapse multiple attractions into one string and do not duplicate the same restaurant name multiple times in the same day.
+- Preserve diversity by keeping all items exactly as provided; only reorder.
+
+(8) Within Current City (is_valid_information_in_current_city) and Reasonable City Route
+- Do not change current_city strings.
+- Do not place poi entries in an order that contradicts the day’s current_city travel direction.
+
+--------------------
+CONSTRAINT-AWARE REORDERING PROCEDURE (DETERMINISTIC)
+--------------------
+For each day, do the following:
+
+Step 1: Parse point_of_interest_list into entries split by ";".
+Step 2: Identify entry types by substring patterns (no inference beyond text):
+- Accommodation stay entries contain ", stay from "
+- Meal entries contain ", visit from " AND match EXACT restaurant strings appearing in breakfast/lunch/dinner fields
+- Attraction entries contain ", visit from " AND match any POI appearing in "attraction" field (split by ";")
+- Event entries contain ", visit from " AND match any POI appearing in "event" field (split by ";")
+Step 3: Sort entries by their start time (HH:MM) extracted from "from HH:MM to".
+- If two entries have identical start times, keep their original relative order.
+Step 4: Apply sequence constraints:
+- If accommodation is not "-", ensure the first entry is an accommodation stay for that accommodation.
+  If that accommodation stay entry exists later in the list, move it to the front (without changing its text).
+- If accommodation is not "-", ensure the last entry is an accommodation stay for the same accommodation.
+  If such an entry exists earlier, move it to the end.
+Step 5: Meal gap coherence constraint (ordering only):
+- Ensure breakfast entry appears before lunch entry, and lunch before dinner, when they exist in poi-list.
+  If the times already enforce the order, keep the time order.
+  If times conflict, do NOT change times; keep chronological time order as primary.
+
+After reordering, re-join entries using ";" with no additional text added.
+
+--------------------
+REFERENCE EXAMPLE (FORMAT GUIDANCE)
+--------------------
+This example illustrates the expected JSON array structure and poi-list style.
+Do NOT copy its values into the output.
+
+[
+  {
+    "days": 1,
+    "current_city": "from Savannah to Baltimore",
+    "transportation": "Flight Number: F3145312, from Savannah to Baltimore, Departure Time: 08:02, Arrival Time: 09:47",
+    "breakfast": "-",
+    "attraction": "Peabody Library; Baltimore Museum of Art",
+    "lunch": "Charleston Restaurant",
+    "dinner": "The Capital Grille",
+    "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views, Baltimore",
+    "event": "-",
+    "point_of_interest_list": "Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 10:20 to 10:50, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away;Charleston Restaurant, visit from 13:00 to 15:00, nearest transit: SHOT TOWER STATION (METRO) sb, 915.06m away;Baltimore Museum of Art, visit from 15:30 to 17:30, nearest transit: PENN NORTH METRO North Entrance, 2638.55m away;Peabody Library, visit from 18:30 to 20:00, nearest transit: STATE CENTER (METRO) sb, 660.61m away;The Capital Grille, visit from 21:00 to 22:00, nearest transit: SHOT TOWER METRO West Entrance, 293.21m away;Luxe Houseboat: Stunning Inner Harbor 360 Views, stay from 23:15 to 08:30, nearest transit: SHOT TOWER METRO West Entrance, 841.96m away."
+  }
+]
+
+--------------------
+ACTUAL INPUT
+--------------------
+Selected Actions JSON:
+{actions_json}
+
+Query:
+{query}
+
+Traveler Persona:
+{persona}
+
+--------------------
+OUTPUT
+--------------------
+Return ONLY the formatted JSON array.
