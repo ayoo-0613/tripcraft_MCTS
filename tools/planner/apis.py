@@ -413,84 +413,92 @@ class TemplateActionPlanner:
         self.topk = topk
 
     def run(self, text, query, persona, query_data=None) -> str:
-        template_text = self.runner.chat(self.template_prompt.format(text=text, query=query, persona=persona))
-        parsed = _extract_json_array(template_text)
-        template_list = _normalize_plan(parsed) if parsed is not None else []
-
         query_data = _coerce_query_data(query_data)
-        if not query_data:
-            return template_text
-
-        from mcts_baseline.env import TripCraftEnv
-        from mcts_baseline.formatter import fill_template_with_state
         from mcts_baseline.io import row_from_dict
-        from mcts_baseline.ref_parser import build_unified_kb
         from mcts_baseline.templater import make_output_record_template
 
-        row = row_from_dict(query_data, idx_default=1)
+        row = row_from_dict(query_data or {}, idx_default=1)
+        fallback_plan = json.dumps(make_output_record_template(row)["plan"], ensure_ascii=True)
+
+        try:
+            template_text = self.runner.chat(self.template_prompt.format(text=text, query=query, persona=persona))
+            parsed = _extract_json_array(template_text)
+            template_list = _normalize_plan(parsed) if parsed is not None else []
+        except Exception:
+            template_list = []
+
+        if not query_data:
+            return fallback_plan
         if not row.ref_blocks:
-            return template_text
+            return fallback_plan
 
-        kb = build_unified_kb(row.org, row.ref_blocks)
-        env = TripCraftEnv(row=row, kb=kb, topk=self.topk)
-        state = env.initial_state()
-        base_template = make_output_record_template(row)["plan"]
-        if not template_list:
-            template_list = base_template
-        elif len(template_list) < row.days:
-            for i, day in enumerate(template_list):
-                base_template[i].update(day)
-            template_list = base_template
-        elif len(template_list) > row.days:
-            template_list = template_list[:row.days]
-        for d in range(1, row.days + 1):
-            cc, _, _ = env._city_movement_for_day(d)
-            template_list[d - 1]["current_city"] = cc
+        try:
+            from mcts_baseline.env import TripCraftEnv
+            from mcts_baseline.formatter import fill_template_with_state
+            from mcts_baseline.ref_parser import build_unified_kb
 
-        while not env.is_terminal(state):
-            slot = env._slot_name(state)
-            actions = env.legal_actions(state, topk=self.topk)
-            if not actions:
-                state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
-                continue
-            if slot == "end_day":
-                state = env.apply_action(state, actions[0], record_trace=False)
-                continue
+            kb = build_unified_kb(row.org, row.ref_blocks)
+            env = TripCraftEnv(row=row, kb=kb, topk=self.topk)
+            state = env.initial_state()
+            base_template = make_output_record_template(row)["plan"]
+            if not template_list:
+                template_list = base_template
+            elif len(template_list) < row.days:
+                for i, day in enumerate(template_list):
+                    base_template[i].update(day)
+                template_list = base_template
+            elif len(template_list) > row.days:
+                template_list = template_list[:row.days]
+            for d in range(1, row.days + 1):
+                cc, _, _ = env._city_movement_for_day(d)
+                template_list[d - 1]["current_city"] = cc
 
-            day_idx = max(state.day - 1, 0)
-            day_template = template_list[day_idx] if day_idx < len(template_list) else {}
-            candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
-            base_kwargs = dict(
-                day=state.day,
-                slot=slot,
-                persona=persona,
-                query=query,
-                local_constraint=json.dumps(query_data.get("local_constraint") or {}, ensure_ascii=True),
-                template_day=json.dumps(day_template or {}, ensure_ascii=True),
-                candidates=json.dumps(candidates, ensure_ascii=True),
-            )
-            if self.action_strategy == "react":
-                prompt = self.action_prompt_react.format(**base_kwargs)
-                response = self.runner.chat(prompt)
-                idx = _parse_choice_index(response, len(actions))
-            elif self.action_strategy == "reflexion":
-                prompt = self.action_prompt.format(**base_kwargs)
-                response = self.runner.chat(prompt)
-                idx = _parse_choice_index(response, len(actions))
-                initial_choice = idx if idx is not None else 0
-                prompt = self.action_prompt_reflexion.format(initial_choice=initial_choice, **base_kwargs)
-                response = self.runner.chat(prompt)
-                idx = _parse_choice_index(response, len(actions)) if response else idx
-            else:
-                prompt = self.action_prompt.format(**base_kwargs)
-                response = self.runner.chat(prompt)
-                idx = _parse_choice_index(response, len(actions))
-            chosen = actions[idx] if idx is not None else actions[0]
-            state = env.apply_action(state, chosen, record_trace=False)
+            while not env.is_terminal(state):
+                slot = env._slot_name(state)
+                actions = env.legal_actions(state, topk=self.topk)
+                if not actions:
+                    state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
+                    continue
+                if slot == "end_day":
+                    state = env.apply_action(state, actions[0], record_trace=False)
+                    continue
 
-        template = make_output_record_template(row)
-        record = fill_template_with_state(template, row, kb, state)
-        return json.dumps(record.get("plan", []), ensure_ascii=True)
+                day_idx = max(state.day - 1, 0)
+                day_template = template_list[day_idx] if day_idx < len(template_list) else {}
+                candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
+                base_kwargs = dict(
+                    day=state.day,
+                    slot=slot,
+                    persona=persona,
+                    query=query,
+                    local_constraint=json.dumps(query_data.get("local_constraint") or {}, ensure_ascii=True),
+                    template_day=json.dumps(day_template or {}, ensure_ascii=True),
+                    candidates=json.dumps(candidates, ensure_ascii=True),
+                )
+                if self.action_strategy == "react":
+                    prompt = self.action_prompt_react.format(**base_kwargs)
+                    response = self.runner.chat(prompt)
+                    idx = _parse_choice_index(response, len(actions))
+                elif self.action_strategy == "reflexion":
+                    prompt = self.action_prompt.format(**base_kwargs)
+                    response = self.runner.chat(prompt)
+                    idx = _parse_choice_index(response, len(actions))
+                    initial_choice = idx if idx is not None else 0
+                    prompt = self.action_prompt_reflexion.format(initial_choice=initial_choice, **base_kwargs)
+                    response = self.runner.chat(prompt)
+                    idx = _parse_choice_index(response, len(actions)) if response else idx
+                else:
+                    prompt = self.action_prompt.format(**base_kwargs)
+                    response = self.runner.chat(prompt)
+                    idx = _parse_choice_index(response, len(actions))
+                chosen = actions[idx] if idx is not None else actions[0]
+                state = env.apply_action(state, chosen, record_trace=False)
+
+            template = make_output_record_template(row)
+            record = fill_template_with_state(template, row, kb, state)
+            return json.dumps(record.get("plan", []), ensure_ascii=True)
+        except Exception:
+            return fallback_plan
 
 
 class VerifierRepairPlanner:

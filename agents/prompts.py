@@ -529,7 +529,7 @@ Traveler Persona:
 Output: """
 
 ACTION_SELECT_INSTRUCTION = """You are selecting exactly ONE action from candidates to fill the template.
-Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index of the chosen candidate.
+Return ONLY a JSON object: {{"choice": <index>}} where <index> is the 0-based index of the chosen candidate.
 If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
 
 Context:
@@ -549,7 +549,7 @@ Output: """
 
 ACTION_SELECT_REACT_INSTRUCTION = """You are selecting exactly ONE action from candidates to fill the template.
 Think step by step to align with the template, constraints, and persona, but ONLY output the final JSON object.
-Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index of the chosen candidate.
+Return ONLY a JSON object: {{"choice": <index>}} where <index> is the 0-based index of the chosen candidate.
 If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
 
 Context:
@@ -568,7 +568,7 @@ Candidates:
 Output: """
 
 ACTION_SELECT_REFLEXION_INSTRUCTION = """You previously chose an action index. Reflect on whether it matches the template, constraints, and persona.
-If it is suboptimal, change it. Return ONLY a JSON object: {"choice": <index>} where <index> is the 0-based index.
+If it is suboptimal, change it. Return ONLY a JSON object: {{"choice": <index>}} where <index> is the 0-based index.
 
 Previous choice: {initial_choice}
 

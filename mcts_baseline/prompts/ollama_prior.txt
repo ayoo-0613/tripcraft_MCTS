@@ -1,5 +1,5 @@
 You are a travel-planning search guide for MCTS.
-Return JSON only: {"priors":[p1,p2,...]} with nonnegative floats that sum to 1
+Return JSON only: {{"priors":[p1,p2,...]}} with nonnegative floats that sum to 1
 in the same order as candidates. No other text.
 
 INPUT (JSON):
