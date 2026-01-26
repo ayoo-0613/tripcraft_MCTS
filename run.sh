@@ -10,7 +10,7 @@ export ACTION_STRATEGY="${ACTION_STRATEGY:-direct}"  # direct / react / reflexio
 export OLLAMA_BASE_URL="http://localhost:11434"      # ollama server
 export OLLAMA_TIMEOUT="999"
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                 # Your Google API key
-export DAY="3day"                                   # 3day/5day/7day
+export DAY="5day"                                   # 3day/5day/7day
 if [[ "$STRATEGY" == "template_action" ]]; then
   export SET_TYPE="${SET_TYPE:-${STRATEGY}/${ACTION_STRATEGY}/${DAY}}"
   export OUTPUT_JSONL="${OUTPUT_JSONL:-${OUTPUT_DIR}/${STRATEGY}/${ACTION_STRATEGY}/${DAY}.jsonl}"
