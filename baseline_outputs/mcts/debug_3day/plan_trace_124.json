@@ -1,0 +1,593 @@
+{
+  "idx": 124,
+  "reward": 15.233755931863389,
+  "budget_used": 1494.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Jackson to Atlanta, Duration: 416.27833333333336 mins, Distance: 614.0448 km, Estimated Cost: $614.04",
+      "candidates": [
+        "Flight Number: F0032859, from Jackson to Atlanta, Departure Time: 18:35, Arrival Time: 20:37",
+        "Taxi, from Jackson to Atlanta, Duration: 416.27833333333336 mins, Distance: 614.0448 km, Estimated Cost: $614.04"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Grant Park Guest House | Charming Tiny House",
+        "New Sky Views HighRise",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Chic, Clean, City Loft Getaway",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Home Grown",
+      "candidates": [
+        "Home Grown",
+        "Marcel",
+        "Canoe",
+        "The Capital Grille",
+        "Aria",
+        "Bangkok Station",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Zoo Atlanta",
+      "candidates": [
+        "Georgia Aquarium",
+        "Swan House",
+        "Zoo Atlanta",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Atlanta History Center",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "Atlanta Botanical Garden",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Marcel",
+      "candidates": [
+        "Marcel",
+        "Canoe",
+        "The Capital Grille",
+        "Aria",
+        "Bangkok Station",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Grant Park Guest House | Charming Tiny House",
+        "New Sky Views HighRise",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Chic, Clean, City Loft Getaway",
+        "Midtown Hidden Gem @Piedmont Park/Private+Parking"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bangkok Station",
+      "candidates": [
+        "Canoe",
+        "The Capital Grille",
+        "Aria",
+        "Bangkok Station",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Georgia Aquarium",
+      "candidates": [
+        "Georgia Aquarium",
+        "Swan House",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Atlanta History Center",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "Atlanta Botanical Garden",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Canoe",
+      "candidates": [
+        "Canoe",
+        "The Capital Grille",
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Atlanta to Jackson",
+      "candidates": [
+        "Transfer, from Atlanta to Jackson"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Atlanta Breakfast Club",
+      "candidates": [
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "Cafe Agora",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "The Americano Atlanta",
+        "St. Cecilia",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "The Optimist",
+        "No Mas! Cantina",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Copeland's of New Orleans Atlanta",
+        "Aviva by Kameel",
+        "Fox Bros. Bar-B-Q",
+        "Murphy's Restaurant",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Ray's in the City",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kevin Rathbun Steak",
+        "Pasta Da Pulcinella",
+        "Max's Coal Oven Pizzeria",
+        "La Grotta Ristorante Italiano",
+        "La Tavola Trattoria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Swan House",
+      "candidates": [
+        "Swan House",
+        "Fox Theatre",
+        "Piedmont Park",
+        "Atlanta History Center",
+        "State Farm Arena",
+        "Centennial Olympic Park",
+        "Atlanta Botanical Garden",
+        "Mercedes Benz Stadium",
+        "National Center for Civil and Human Rights",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Jackson to Atlanta",
+      "transportation": "Taxi, from Jackson to Atlanta, Duration: 416.27833333333336 mins, Distance: 614.0448 km, Estimated Cost: $614.04",
+      "accommodation": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "breakfast": "Home Grown",
+      "attractions": [
+        "Zoo Atlanta"
+      ],
+      "lunch": "-",
+      "dinner": "Marcel",
+      "poi_blocks": [
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Home Grown",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MEMORIAL DR SE @ GIBSON ST SE",
+          "dist_m": 49.17
+        },
+        {
+          "name": "Zoo Atlanta",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:00",
+          "nearest_transit": "CHEROKEE AVE @ GRANT PARK PL",
+          "dist_m": 195.14
+        },
+        {
+          "name": "Marcel",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "HOWELL MILL RD NW @ 14TH ST NW",
+          "dist_m": 77.33
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+      "breakfast": "Bangkok Station",
+      "attractions": [
+        "Georgia Aquarium"
+      ],
+      "lunch": "Canoe",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Bangkok Station",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "PIEDMONT RD NE @ PEACHTREE DR NE",
+          "dist_m": 153.2
+        },
+        {
+          "name": "Georgia Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 131.37
+        },
+        {
+          "name": "Canoe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "NORTHSIDE PKWY @ RIVER GREEN DR",
+          "dist_m": 738.85
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE RD @ E PACES FERRY RD NE",
+          "dist_m": 94.17
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Jackson",
+      "transportation": "Transfer, from Atlanta to Jackson",
+      "accommodation": "-",
+      "breakfast": "Atlanta Breakfast Club",
+      "attractions": [
+        "Swan House"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "N HIGHLAND AVE NE @ ADAIR AVE NE",
+          "dist_m": 97.11
+        },
+        {
+          "name": "Atlanta Breakfast Club",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 42.63
+        },
+        {
+          "name": "Swan House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "PEACHTREE RD NW @ PHARR RD NW",
+          "dist_m": 659.66
+        }
+      ]
+    }
+  ]
+}

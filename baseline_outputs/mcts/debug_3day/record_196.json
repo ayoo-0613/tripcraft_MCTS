@@ -1,0 +1,65 @@
+{
+  "idx": 196,
+  "JSON": {
+    "org": "Denver",
+    "dest": "Kansas City",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-25",
+      "2024-11-26",
+      "2024-11-27"
+    ],
+    "people_number": 3,
+    "local_constraint": {
+      "house rule": "pets",
+      "cuisine": null,
+      "room type": "private room",
+      "transportation": null,
+      "event": "concerts and shows",
+      "attraction": null
+    },
+    "budget": 3300.0,
+    "query": "Plan a 3-day trip for 3 people from Denver to Kansas City from November 25th to November 27th, 2024, with a budget of $3,300. Accommodations should include a private room and allow pets. Include activities related to concerts and shows.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Denver to Kansas City",
+      "transportation": "Taxi, from Denver to Kansas City, Duration: 619.7666666666667 mins, Distance: 969.824 km, Estimated Cost: $969.82",
+      "breakfast": "Cafe Gratitude, Kansas City",
+      "attraction": "Boulevard Brewing Company, Kansas City",
+      "lunch": "The Capital Grille, Kansas City",
+      "dinner": "Beer Kitchen, Kansas City",
+      "accommodation": "Close to Downtown, KU Med & Plaza- Breakfast, Kansas City",
+      "event": "-",
+      "point_of_interest_list": "Close to Downtown, KU Med & Plaza- Breakfast, stay from 08:00 to 09:00, nearest transit: ON ROE AT 48TH NORTHBOUND, 391.10m away; Cafe Gratitude, visit from 09:25 to 10:16, nearest transit: ON SW BLVD AT CENTRAL WESTBOUND, 164.17m away; Boulevard Brewing Company, visit from 11:30 to 14:50, nearest transit: ON SOUTHWEST BLVD AT 25TH NORTHBOUND, 39.21m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: ON 47TH AT BROADWAY WESTBOUND FARSIDE, 233.22m away; Beer Kitchen, visit from 19:51 to 21:00, nearest transit: ON WESTPORT AT MILL WESTBOUND, 79.64m away; Close to Downtown, KU Med & Plaza- Breakfast, stay from 22:15 to 08:00, nearest transit: ON ROE AT 48TH NORTHBOUND, 391.10m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Kansas City to Kansas City",
+      "transportation": "Transfer, from Kansas City to Kansas City",
+      "breakfast": "Cafe Trio Restaurant, Kansas City",
+      "attraction": "City Market, Kansas City",
+      "lunch": "Fern Bar, Kansas City",
+      "dinner": "The Majestic Restaurant, Kansas City",
+      "accommodation": "Broadway private room (2 min walk from KU Med), Kansas City",
+      "event": "-",
+      "point_of_interest_list": "Broadway private room (2 min walk from KU Med), stay from 08:00 to 09:00, nearest transit: ON 39TH AT WYOMING WESTBOUND, 634.68m away; Cafe Trio Restaurant, visit from 09:25 to 10:16, nearest transit: ON NICH PKWY AT 46TH TERR SOUTHBOUND, 122.23m away; City Market, visit from 11:30 to 13:50, nearest transit: CITY MARKET ON WALNUT AT 5TH ST EB, 50.51m away; Fern Bar, visit from 13:57 to 14:56, nearest transit: ON 13TH ST BETWEEN WYANDOTTE AND CENTRAL WB, 45.99m away; The Majestic Restaurant, visit from 19:51 to 21:00, nearest transit: ON 11TH AT CENTRAL WESTBOUND, 221.78m away; Broadway private room (2 min walk from KU Med), stay from 22:15 to 08:00, nearest transit: ON 39TH AT WYOMING WESTBOUND, 634.68m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Kansas City to Denver",
+      "transportation": "Flight Number: F0024831, from Kansas City to Denver, Departure Time: 00:28, Arrival Time: 01:02",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Broadway private room (2 min walk from KU Med), stay from 00:00 to 00:00, nearest transit: ON 39TH AT WYOMING WESTBOUND, 634.68m away; Broadway private room (2 min walk from KU Med), stay from 08:00 to 09:00, nearest transit: ON 39TH AT WYOMING WESTBOUND, 634.68m away."
+    }
+  ]
+}

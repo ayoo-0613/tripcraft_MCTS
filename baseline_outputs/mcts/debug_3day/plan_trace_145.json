@@ -1,0 +1,628 @@
+{
+  "idx": 145,
+  "reward": 15.565982721081376,
+  "budget_used": 7380.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Shreveport to Los Angeles, Not feasible to drive from Shreveport to Los Angeles",
+      "candidates": [
+        "Flight Number: F1339573, from Shreveport to Los Angeles, Departure Time: 12:48, Arrival Time: 13:49",
+        "Taxi, from Shreveport to Los Angeles, Not feasible to drive from Shreveport to Los Angeles"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hollywood Hideaway",
+      "candidates": [
+        "Hollywood Hideaway"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Bavel",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Broad",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Citadel Outlets",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "The Broad",
+        "Universal Studios Hollywood",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "Dodger Stadium",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "The Getty Center",
+        "Battleship USS Iowa Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Providence",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Hollywood Sign",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Citadel Outlets",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Universal Studios Hollywood",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "Dodger Stadium",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "The Getty Center",
+        "Battleship USS Iowa Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hollywood Hideaway",
+      "candidates": [
+        "Hollywood Hideaway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "Perch",
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Grove",
+      "candidates": [
+        "The Grove",
+        "Citadel Outlets",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Universal Studios Hollywood",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "Dodger Stadium",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "The Getty Center",
+        "Battleship USS Iowa Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Citadel Outlets",
+      "candidates": [
+        "Citadel Outlets",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Universal Studios Hollywood",
+        "Petersen Automotive Museum",
+        "Griffith Park",
+        "California Science Center",
+        "Crypto.com Arena",
+        "Dodger Stadium",
+        "Walt Disney Concert Hall",
+        "Griffith Observatory",
+        "The Getty Center",
+        "Battleship USS Iowa Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art",
+        "La Brea Tar Pits and Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Spire 73",
+      "candidates": [
+        "Spire 73",
+        "The Lobster",
+        "Cafe Gratitude Venice",
+        "Yang Chow",
+        "Patina Restaurant",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "25 Degrees",
+        "Belles Beach House",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Park's BBQ",
+        "Maccheroni Republic",
+        "n/naka",
+        "Au Lac Dtla",
+        "The Palm - L.A. Downtown",
+        "Pizzeria Mozza",
+        "The Butcher's Daughter",
+        "22nd Street Landing Seafood Grill & Bar",
+        "Olive & Thyme",
+        "Langer's Delicatessen Restaurant",
+        "Brent's Deli Northridge",
+        "71Above Restaurant and Skylounge",
+        "Republique",
+        "El Compadre",
+        "Yamashiro Hollywood",
+        "Katsuya",
+        "Raffaello Ristorante",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2561207, from Los Angeles to Shreveport, Departure Time: 06:29, Arrival Time: 11:47",
+      "candidates": [
+        "Flight Number: F2561207, from Los Angeles to Shreveport, Departure Time: 06:29, Arrival Time: 11:47",
+        "Taxi, from Los Angeles to Shreveport, Not feasible to drive from Los Angeles to Shreveport"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Shreveport to Los Angeles",
+      "transportation": "Taxi, from Shreveport to Los Angeles, Not feasible to drive from Shreveport to Los Angeles",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "Bavel",
+      "attractions": [
+        "The Broad",
+        "Hollywood Sign"
+      ],
+      "lunch": "Providence",
+      "dinner": "Bestia",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Bavel",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 153.71
+        },
+        {
+          "name": "The Broad",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 30.42
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        },
+        {
+          "name": "Hollywood Sign",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Beachwood & Westshire",
+          "dist_m": 1574.74
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Hollywood Hideaway",
+      "breakfast": "Water Grill",
+      "attractions": [
+        "The Grove",
+        "Citadel Outlets"
+      ],
+      "lunch": "Perch",
+      "dinner": "Spire 73",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        },
+        {
+          "name": "The Grove",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "12:27",
+          "nearest_transit": "3rd & Ogden (Eastbound)",
+          "dist_m": 143.67
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        },
+        {
+          "name": "Citadel Outlets",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "17:27",
+          "nearest_transit": "Herbert Ave & Whittier Blvd (4354)",
+          "dist_m": 3385.72
+        },
+        {
+          "name": "Spire 73",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Figueroa St & 7th St",
+          "dist_m": 109.52
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Shreveport",
+      "transportation": "Flight Number: F2561207, from Los Angeles to Shreveport, Departure Time: 06:29, Arrival Time: 11:47",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "04:59",
+          "end": "05:59",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        },
+        {
+          "name": "Hollywood Hideaway",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Oxnard St & Radford Ave",
+          "dist_m": 386.65
+        }
+      ]
+    }
+  ]
+}

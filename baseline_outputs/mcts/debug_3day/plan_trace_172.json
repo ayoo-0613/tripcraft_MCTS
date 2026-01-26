@@ -1,0 +1,555 @@
+{
+  "idx": 172,
+  "reward": 14.462915090268595,
+  "budget_used": 3922.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Dallas to Monterey, Not feasible to drive from Dallas to Monterey",
+      "candidates": [
+        "Flight Number: F0400237, from Dallas to Monterey, Departure Time: 19:00, Arrival Time: 20:49",
+        "Taxi, from Dallas to Monterey, Not feasible to drive from Dallas to Monterey"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Mermaid Bungalow",
+      "candidates": [
+        "The Mermaid Bungalow",
+        "Basic King",
+        "Cozy home in sunny Seaside!",
+        "Sallie’s Cottage",
+        "Pacific Grove Mid Century Near Beach",
+        "Private Room w/Ensuite Bathroom at Monterey Hostel",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Fish Hopper",
+      "candidates": [
+        "Fish Hopper",
+        "Tidal Coffee",
+        "Crystal Fish",
+        "Old Monterey Cafe",
+        "Cafe Fina",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Perry House",
+      "candidates": [
+        "Perry House",
+        "MST Trolley",
+        "Cannery Row",
+        "Pierce Ranch Vineyards Tasting Room",
+        "Colton Hall Museum",
+        "17-Mile Drive",
+        "Coast Guard Pier",
+        "Monterey Bay",
+        "Dennis the Menace Park",
+        "Del Monte Beach",
+        "Monterey County Youth Museum",
+        "Monterey Bay Aquarium",
+        "Monterey Peninsula Recreational Trail",
+        "Old Monterey Farmer's Market",
+        "California Sea Otter Game Refuge",
+        "San Carlos Cathedral",
+        "Monterey Museum of Art",
+        "Jacks Peak County Park",
+        "Doc Rickett's Pacific Biological Laboratories"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Tidal Coffee",
+      "candidates": [
+        "Tidal Coffee",
+        "Crystal Fish",
+        "Old Monterey Cafe",
+        "Cafe Fina",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Crystal Fish",
+      "candidates": [
+        "Crystal Fish",
+        "Old Monterey Cafe",
+        "Cafe Fina",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Mermaid Bungalow",
+      "candidates": [
+        "The Mermaid Bungalow",
+        "Basic King",
+        "Cozy home in sunny Seaside!",
+        "Sallie’s Cottage",
+        "Pacific Grove Mid Century Near Beach",
+        "Private Room w/Ensuite Bathroom at Monterey Hostel",
+        "Bird Room with Shared Bathroom"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Old Monterey Cafe",
+      "candidates": [
+        "Old Monterey Cafe",
+        "Cafe Fina",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "MST Trolley",
+      "candidates": [
+        "MST Trolley",
+        "Cannery Row",
+        "Pierce Ranch Vineyards Tasting Room",
+        "Colton Hall Museum",
+        "17-Mile Drive",
+        "Coast Guard Pier",
+        "Monterey Bay",
+        "Dennis the Menace Park",
+        "Del Monte Beach",
+        "Monterey County Youth Museum",
+        "Monterey Bay Aquarium",
+        "Monterey Peninsula Recreational Trail",
+        "Old Monterey Farmer's Market",
+        "California Sea Otter Game Refuge",
+        "San Carlos Cathedral",
+        "Monterey Museum of Art",
+        "Jacks Peak County Park",
+        "Doc Rickett's Pacific Biological Laboratories"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cafe Fina",
+      "candidates": [
+        "Cafe Fina",
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Montrio",
+      "candidates": [
+        "Montrio",
+        "Crown & Anchor",
+        "First Awakenings",
+        "C restaurant + bar",
+        "Chart House",
+        "Bistro Moulin",
+        "Sandbar & Grill",
+        "Schooners Monterey",
+        "Bubba Gump Shrimp Co.",
+        "Tarpy's",
+        "Monterey's Fish House",
+        "The Sardine Factory",
+        "Sea Harvest Restaurant & Fish Market",
+        "Hula's Island Grill",
+        "Abalonetti Bar and Grill",
+        "Louie Linguini's",
+        "Cibo Ristorante Italiano",
+        "Old Fisherman's  Grotto",
+        "Domenico's On the Wharf",
+        "Compagno's Market & Deli",
+        "Peter B's Brewpub",
+        "Rosine's Restaurant",
+        "Gianni's Pizza",
+        "Loulou's Griddle In The Middle"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0386991, from Monterey to Dallas, Departure Time: 05:27, Arrival Time: 10:40",
+      "candidates": [
+        "Flight Number: F0386991, from Monterey to Dallas, Departure Time: 05:27, Arrival Time: 10:40",
+        "Taxi, from Monterey to Dallas, Not feasible to drive from Monterey to Dallas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Dallas to Monterey",
+      "transportation": "Taxi, from Dallas to Monterey, Not feasible to drive from Dallas to Monterey",
+      "accommodation": "The Mermaid Bungalow",
+      "breakfast": "Fish Hopper",
+      "attractions": [
+        "Perry House"
+      ],
+      "lunch": "Tidal Coffee",
+      "dinner": "Crystal Fish",
+      "poi_blocks": [
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "Fish Hopper",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 76.06
+        },
+        {
+          "name": "Perry House",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Pacific / Scott",
+          "dist_m": 79.46
+        },
+        {
+          "name": "Tidal Coffee",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Cannery Row / Drake",
+          "dist_m": 46.73
+        },
+        {
+          "name": "Crystal Fish",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Lighthouse / Hoffman",
+          "dist_m": 98.34
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Monterey to Monterey",
+      "transportation": "-",
+      "accommodation": "The Mermaid Bungalow",
+      "breakfast": "Old Monterey Cafe",
+      "attractions": [
+        "MST Trolley"
+      ],
+      "lunch": "Cafe Fina",
+      "dinner": "Montrio",
+      "poi_blocks": [
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "Old Monterey Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Monterey Transit Plaza / Gate 3 Pearl",
+          "dist_m": 45.93
+        },
+        {
+          "name": "MST Trolley",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Cannery Row / Prescott",
+          "dist_m": 18.07
+        },
+        {
+          "name": "Cafe Fina",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Olivier St / 155 MPR Trail",
+          "dist_m": 146.98
+        },
+        {
+          "name": "Montrio",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Pacific / Parking Garage",
+          "dist_m": 71.33
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Monterey to Dallas",
+      "transportation": "Flight Number: F0386991, from Monterey to Dallas, Departure Time: 05:27, Arrival Time: 10:40",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "03:57",
+          "end": "04:57",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        },
+        {
+          "name": "The Mermaid Bungalow",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Fremont / Francis Avenue",
+          "dist_m": 146.0
+        }
+      ]
+    }
+  ]
+}

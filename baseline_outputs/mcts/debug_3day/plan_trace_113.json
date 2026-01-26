@@ -1,0 +1,445 @@
+{
+  "idx": 113,
+  "reward": 13.205709923593492,
+  "budget_used": 1789.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0183017, from San Juan to Charlotte, Departure Time: 06:58, Arrival Time: 10:53",
+      "candidates": [
+        "Flight Number: F0183017, from San Juan to Charlotte, Departure Time: 06:58, Arrival Time: 10:53"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private room in apt uptown",
+      "candidates": [
+        "Private room in apt uptown",
+        "Comfy private bed and bath",
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in Charlotte, just outside of Uptown!",
+        "3-BDR Direct Waterfront Cottage",
+        "Room with a king bed.",
+        "Villa Heights Hideaway",
+        "Colorful, Comfortable, Private and Unique",
+        "Walk to Light Rail from a Roomy Basement Apartment",
+        "Tippah Treehouse Retreat",
+        "Lovely Studio Apartment for 2 with a patio garden",
+        "Quiet, Comfy and Stress Free Studio",
+        "Bedroom with Private Patio & Gym Near Uptown!"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Spectrum Center",
+      "candidates": [
+        "Spectrum Center",
+        "SouthPark",
+        "Freedom Park",
+        "Wing Haven",
+        "Mint Museum Uptown",
+        "Fourth Ward",
+        "Truist Field",
+        "Charlotte Premium Outlets",
+        "Old Mecklenburg Brewery",
+        "Discovery Place Science",
+        "Billy Graham Library",
+        "Carowinds",
+        "Romare Bearden Park",
+        "NASCAR Hall of Fame",
+        "Levine Museum of the New South",
+        "The Bank Of America Stadium",
+        "McDowell Nature Center and Preserve",
+        "Sullenberger Aviation Museum",
+        "Hendrick Motorsports Complex",
+        "Belk Theater at Blumenthal Performing Arts Center"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "The Fig Tree Restaurant",
+        "Midwood Smokehouse",
+        "Mac's Speed Shop",
+        "Mert's Heart and Soul",
+        "Cabo Fish Taco Baja Seagrill",
+        "Pinky's Westside Grill",
+        "Rooster's Wood-Fired Kitchen - Uptown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Fig Tree Restaurant",
+      "candidates": [
+        "The Fig Tree Restaurant",
+        "Midwood Smokehouse",
+        "Mac's Speed Shop",
+        "Mert's Heart and Soul",
+        "Cabo Fish Taco Baja Seagrill",
+        "Pinky's Westside Grill",
+        "Rooster's Wood-Fired Kitchen - Uptown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private room in apt uptown",
+      "candidates": [
+        "Private room in apt uptown",
+        "Comfy private bed and bath",
+        "Modern Walkable Uptown Flat- 7 blocks to Panthers",
+        "Jungle themed airnhb",
+        "Quiet Cozy Stay in CLT",
+        "Unique Studio in the Heart of Uptown Charlotte",
+        "Private room in Charlotte, just outside of Uptown!",
+        "3-BDR Direct Waterfront Cottage",
+        "Room with a king bed.",
+        "Villa Heights Hideaway",
+        "Colorful, Comfortable, Private and Unique",
+        "Walk to Light Rail from a Roomy Basement Apartment",
+        "Tippah Treehouse Retreat",
+        "Lovely Studio Apartment for 2 with a patio garden",
+        "Quiet, Comfy and Stress Free Studio",
+        "Bedroom with Private Patio & Gym Near Uptown!"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Midwood Smokehouse",
+      "candidates": [
+        "Midwood Smokehouse",
+        "Mac's Speed Shop",
+        "Mert's Heart and Soul",
+        "Cabo Fish Taco Baja Seagrill",
+        "Pinky's Westside Grill",
+        "Rooster's Wood-Fired Kitchen - Uptown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SouthPark",
+      "candidates": [
+        "SouthPark",
+        "Freedom Park",
+        "Wing Haven",
+        "Mint Museum Uptown",
+        "Fourth Ward",
+        "Truist Field",
+        "Charlotte Premium Outlets",
+        "Old Mecklenburg Brewery",
+        "Discovery Place Science",
+        "Billy Graham Library",
+        "Carowinds",
+        "Romare Bearden Park",
+        "NASCAR Hall of Fame",
+        "Levine Museum of the New South",
+        "The Bank Of America Stadium",
+        "McDowell Nature Center and Preserve",
+        "Sullenberger Aviation Museum",
+        "Hendrick Motorsports Complex",
+        "Belk Theater at Blumenthal Performing Arts Center"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Mac's Speed Shop",
+      "candidates": [
+        "Mac's Speed Shop",
+        "Mert's Heart and Soul",
+        "Cabo Fish Taco Baja Seagrill",
+        "Pinky's Westside Grill",
+        "Rooster's Wood-Fired Kitchen - Uptown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mert's Heart and Soul",
+      "candidates": [
+        "Mert's Heart and Soul",
+        "Cabo Fish Taco Baja Seagrill",
+        "Pinky's Westside Grill",
+        "Rooster's Wood-Fired Kitchen - Uptown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0193445, from Charlotte to San Juan, Departure Time: 09:02, Arrival Time: 12:43",
+      "candidates": [
+        "Flight Number: F0193445, from Charlotte to San Juan, Departure Time: 09:02, Arrival Time: 12:43"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from San Juan to Charlotte",
+      "transportation": "Flight Number: F0183017, from San Juan to Charlotte, Departure Time: 06:58, Arrival Time: 10:53",
+      "accommodation": "Private room in apt uptown",
+      "breakfast": "-",
+      "attractions": [
+        "Spectrum Center"
+      ],
+      "lunch": "The Capital Grille",
+      "dinner": "The Fig Tree Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "11:23",
+          "end": "12:23",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        },
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        },
+        {
+          "name": "Spectrum Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "CTC/Arena CityLYNX",
+          "dist_m": 95.01
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Tryon St & 6th St",
+          "dist_m": 103.97
+        },
+        {
+          "name": "The Fig Tree Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "7th St & Armory Dr",
+          "dist_m": 103.61
+        },
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Charlotte to Charlotte",
+      "transportation": "-",
+      "accommodation": "Private room in apt uptown",
+      "breakfast": "Midwood Smokehouse",
+      "attractions": [
+        "SouthPark"
+      ],
+      "lunch": "Mac's Speed Shop",
+      "dinner": "Mert's Heart and Soul",
+      "poi_blocks": [
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        },
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        },
+        {
+          "name": "Midwood Smokehouse",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Central Ave & Clement Ave",
+          "dist_m": 40.68
+        },
+        {
+          "name": "SouthPark",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "Southpark Community Transit Center",
+          "dist_m": 112.94
+        },
+        {
+          "name": "Mac's Speed Shop",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "New Bern Station",
+          "dist_m": 544.51
+        },
+        {
+          "name": "Mert's Heart and Soul",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "College St & 6th St",
+          "dist_m": 64.34
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Charlotte to San Juan",
+      "transportation": "Flight Number: F0193445, from Charlotte to San Juan, Departure Time: 09:02, Arrival Time: 12:43",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "07:32",
+          "end": "08:32",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        },
+        {
+          "name": "Private room in apt uptown",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mint St CityLYNX",
+          "dist_m": 60.17
+        }
+      ]
+    }
+  ]
+}

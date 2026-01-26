@@ -1,0 +1,59 @@
+{
+  "idx": 300,
+  "stages": [
+    {
+      "city": "Kansas City",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 20,
+        "poi2transit": 75,
+        "events": 4
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Las Vegas",
+      "to": "Kansas City",
+      "date": "2024-11-20",
+      "raw": "Flight Number: F0023242, from Las Vegas to Kansas City, Departure Time: 14:18, Arrival Time: 18:53"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Las Vegas",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Self-driving, from Las Vegas to Kansas City, Duration: 1384.365 mins, Distance: 2172.5742999999998 km, Estimated Cost: $108.63"
+    },
+    {
+      "mode": "taxi",
+      "from": "Las Vegas",
+      "to": "Kansas City",
+      "date": null,
+      "raw": "Taxi, from Las Vegas to Kansas City, Duration: 1384.365 mins, Distance: 2172.5742999999998 km, Estimated Cost: $2172.57"
+    },
+    {
+      "mode": "flight",
+      "from": "Kansas City",
+      "to": "Las Vegas",
+      "date": "2024-11-22",
+      "raw": "Flight Number: F0053552, from Kansas City to Las Vegas, Departure Time: 10:51, Arrival Time: 11:48"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Kansas City",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Kansas City to Las Vegas, Duration: 1382.5316666666665 mins, Distance: 2173.3572000000004 km, Estimated Cost: $108.67"
+    },
+    {
+      "mode": "taxi",
+      "from": "Kansas City",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Kansas City to Las Vegas, Duration: 1382.5316666666665 mins, Distance: 2173.3572000000004 km, Estimated Cost: $2173.36"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "idx": 185,
+  "reward": 16.85124409347985,
+  "budget_used": 2234.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $1538.66",
+      "candidates": [
+        "Flight Number: F0378723, from Sarasota to Cincinnati, Departure Time: 12:14, Arrival Time: 14:53",
+        "Taxi, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $1538.66"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+      "candidates": [
+        "Luxury King Bed Suite! Resort Pool-Free Parking",
+        "Gorgeous Lofted Oasis Fully Equipped | Central OTR",
+        "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums",
+        "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+        "Carter #6, Two Bedroom Apartment near Xavier",
+        "Cincinnati D-Listers Extravaganza"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Swampwater Grill",
+      "candidates": [
+        "Swampwater Grill",
+        "The Melting Pot",
+        "Oriental Wok",
+        "Cincinnati Dinner Train",
+        "The Turf Club",
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fountain Square",
+      "candidates": [
+        "Fountain Square",
+        "Eden Park",
+        "Findlay Market",
+        "American Sign Museum",
+        "Carew Tower",
+        "Hard Rock Casino Cincinnati",
+        "Cincinnati Museum Center",
+        "Greater Cincinnati Police Museum",
+        "Cincinnati Art Museum",
+        "National Underground Railroad Freedom Center",
+        "Great American Ball Park",
+        "Kenwood Towne Centre",
+        "Smale Riverfront Park",
+        "Rhinegeist Brewery",
+        "Cincinnati Zoo & Botanical Garden",
+        "Krohn Conservatory",
+        "Roebling Suspension Bridge",
+        "Spring Grove Cemetery & Arboretum",
+        "Cincinnati Reds Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Melting Pot",
+      "candidates": [
+        "The Melting Pot",
+        "Oriental Wok",
+        "Cincinnati Dinner Train",
+        "The Turf Club",
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Oriental Wok",
+      "candidates": [
+        "Oriental Wok",
+        "Cincinnati Dinner Train",
+        "The Turf Club",
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxury King Bed Suite! Resort Pool-Free Parking",
+      "candidates": [
+        "Luxury King Bed Suite! Resort Pool-Free Parking",
+        "Gorgeous Lofted Oasis Fully Equipped | Central OTR",
+        "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums",
+        "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+        "Carter #6, Two Bedroom Apartment near Xavier",
+        "Cincinnati D-Listers Extravaganza"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cincinnati Dinner Train",
+      "candidates": [
+        "Cincinnati Dinner Train",
+        "The Turf Club",
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Eden Park",
+      "candidates": [
+        "Eden Park",
+        "Findlay Market",
+        "American Sign Museum",
+        "Carew Tower",
+        "Hard Rock Casino Cincinnati",
+        "Cincinnati Museum Center",
+        "Greater Cincinnati Police Museum",
+        "Cincinnati Art Museum",
+        "National Underground Railroad Freedom Center",
+        "Great American Ball Park",
+        "Kenwood Towne Centre",
+        "Smale Riverfront Park",
+        "Rhinegeist Brewery",
+        "Cincinnati Zoo & Botanical Garden",
+        "Krohn Conservatory",
+        "Roebling Suspension Bridge",
+        "Spring Grove Cemetery & Arboretum",
+        "Cincinnati Reds Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Turf Club",
+      "candidates": [
+        "The Turf Club",
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Five On Vine",
+      "candidates": [
+        "Five On Vine",
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Cincinnati to Sarasota",
+      "candidates": [
+        "Transfer, from Cincinnati to Sarasota"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sleepy Bee Cafe - Oakley",
+      "candidates": [
+        "Sleepy Bee Cafe - Oakley",
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Findlay Market",
+      "candidates": [
+        "Findlay Market",
+        "American Sign Museum",
+        "Carew Tower",
+        "Hard Rock Casino Cincinnati",
+        "Cincinnati Museum Center",
+        "Greater Cincinnati Police Museum",
+        "Cincinnati Art Museum",
+        "National Underground Railroad Freedom Center",
+        "Great American Ball Park",
+        "Kenwood Towne Centre",
+        "Smale Riverfront Park",
+        "Rhinegeist Brewery",
+        "Cincinnati Zoo & Botanical Garden",
+        "Krohn Conservatory",
+        "Roebling Suspension Bridge",
+        "Spring Grove Cemetery & Arboretum",
+        "Cincinnati Reds Hall of Fame & Museum"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pelicans Reef",
+      "candidates": [
+        "Pelicans Reef",
+        "Incline Public House",
+        "The Eagle Food and Beer Hall",
+        "Boomtown Biscuits & Whiskey",
+        "Jeff Ruby's Precinct",
+        "Montgomery Inn at the Boathouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Sarasota to Cincinnati",
+      "transportation": "Taxi, from Sarasota to Cincinnati, Duration: 1062.2516666666666 mins, Distance: 1538.6571000000001 km, Estimated Cost: $1538.66",
+      "accommodation": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+      "breakfast": "Swampwater Grill",
+      "attractions": [
+        "Fountain Square"
+      ],
+      "lunch": "The Melting Pot",
+      "dinner": "Oriental Wok",
+      "poi_blocks": [
+        {
+          "name": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "GILBERT AVE & DURRELL AVE",
+          "dist_m": 80.35
+        },
+        {
+          "name": "Renovated 2 BR-King bed-Free Parking-Walnut Hills",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "GILBERT AVE & DURRELL AVE",
+          "dist_m": 80.35
+        },
+        {
+          "name": "Swampwater Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "KELLOGG AVE & CONGRESS AVE",
+          "dist_m": 145.82
+        },
+        {
+          "name": "Fountain Square",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "5TH ST & FOUNTAIN SQUARE",
+          "dist_m": 53.6
+        },
+        {
+          "name": "The Melting Pot",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "MONTGOMERY RD 10981",
+          "dist_m": 148.77
+        },
+        {
+          "name": "Oriental Wok",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "MADISON RD & OBSERVATORY AVE",
+          "dist_m": 197.0
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Cincinnati to Cincinnati",
+      "transportation": "-",
+      "accommodation": "Luxury King Bed Suite! Resort Pool-Free Parking",
+      "breakfast": "Cincinnati Dinner Train",
+      "attractions": [
+        "Eden Park"
+      ],
+      "lunch": "The Turf Club",
+      "dinner": "Five On Vine",
+      "poi_blocks": [
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "Cincinnati Dinner Train",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "WIEHE RD & ROSEDALE AVE",
+          "dist_m": 158.62
+        },
+        {
+          "name": "Eden Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "GILBERT AVE & EDEN PARK DR",
+          "dist_m": 132.39
+        },
+        {
+          "name": "The Turf Club",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "EASTERN AVE & PHYLLIS LN",
+          "dist_m": 86.9
+        },
+        {
+          "name": "Five On Vine",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "WALNUT ST & 13TH ST",
+          "dist_m": 134.59
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Cincinnati to Sarasota",
+      "transportation": "Transfer, from Cincinnati to Sarasota",
+      "accommodation": "-",
+      "breakfast": "Sleepy Bee Cafe - Oakley",
+      "attractions": [
+        "Findlay Market"
+      ],
+      "lunch": "Pelicans Reef",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Luxury King Bed Suite! Resort Pool-Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "PETE ROSE WAY & EGGLESTON AVE",
+          "dist_m": 751.16
+        },
+        {
+          "name": "Sleepy Bee Cafe - Oakley",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MADISON RD & GILMORE AVE",
+          "dist_m": 59.86
+        },
+        {
+          "name": "Findlay Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "FINDLAY MARKET-ELM Station, Elm & Glass Alley",
+          "dist_m": 68.13
+        },
+        {
+          "name": "Pelicans Reef",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "BEECHMONT AVE & PADDISON RD",
+          "dist_m": 79.15
+        }
+      ]
+    }
+  ]
+}

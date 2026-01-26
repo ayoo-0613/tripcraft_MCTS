@@ -1,0 +1,517 @@
+{
+  "idx": 183,
+  "reward": 11.427839880118384,
+  "budget_used": 1213.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta",
+      "candidates": [
+        "Flight Number: F0311431, from Sacramento to Atlanta, Departure Time: 06:54, Arrival Time: 13:55",
+        "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Tiny House Retreat * Stock Tank Pool",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Urban Oasis in Historic Inman Park",
+        "New Sky Views HighRise",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Grant Park Guest House | Charming Tiny House",
+        "Designer Den | Chic Luxury in a Hip Area",
+        "Chic, Clean, City Loft Getaway"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Home Grown",
+      "candidates": [
+        "Home Grown",
+        "The Capital Grille",
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fox Theatre",
+      "candidates": [
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Swan House",
+        "Piedmont Park",
+        "Fox Theatre",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "Centennial Olympic Park",
+        "High Museum of Art",
+        "Mercedes Benz Stadium",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "World of Coca-Cola",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Aria",
+      "candidates": [
+        "Aria",
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Hampton Guest House",
+      "candidates": [
+        "Hampton Guest House",
+        "Urban Nature Retreat | Pets | Insurance",
+        "Urban Oasis in Historic Inman Park",
+        "New Sky Views HighRise",
+        "Alpaca Treehouse in the Bamboo Forest",
+        "Tiny House Retreat * Stock Tank Pool",
+        "Charm in the Heart of Va-Hi: Serene Studio Retreat",
+        "Designer Suite Piedmont Park/Beltline & Parking",
+        "Tiny House Urban Farm Stay in Heart of Atlanta",
+        "Grant Park Guest House | Charming Tiny House",
+        "Designer Den | Chic Luxury in a Hip Area",
+        "Chic, Clean, City Loft Getaway"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Atlanta Breakfast Club",
+      "candidates": [
+        "Atlanta Breakfast Club",
+        "Steamhouse Lounge",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Georgia Aquarium",
+      "candidates": [
+        "Georgia Aquarium",
+        "Zoo Atlanta",
+        "Swan House",
+        "Piedmont Park",
+        "Fernbank Museum",
+        "Atlanta History Center",
+        "Lenox Square",
+        "State Farm Arena",
+        "Atlanta Botanical Garden",
+        "Centennial Olympic Park",
+        "High Museum of Art",
+        "Mercedes Benz Stadium",
+        "Jimmy Carter Presidential Library & Museum",
+        "Center for Puppetry Arts",
+        "World of Coca-Cola",
+        "National Center for Civil and Human Rights",
+        "College Football Hall of Fame",
+        "Martin Luther King Jr. National Historic Site"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Steamhouse Lounge",
+      "candidates": [
+        "Steamhouse Lounge",
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "South City Kitchen Midtown",
+      "candidates": [
+        "South City Kitchen Midtown",
+        "Trader Vic's",
+        "Poor Calvin's",
+        "Ted's Montana Grill",
+        "Nikolai's Roof",
+        "Murphy's Restaurant",
+        "By George restaurant and bar",
+        "White Oak Kitchen & Cocktails",
+        "Bone's Restaurant",
+        "Buttermilk Kitchen",
+        "Copeland's of New Orleans Atlanta",
+        "Fox Bros. Bar-B-Q",
+        "The Sun Dial Restaurant, Bar & View",
+        "Stoney River Steakhouse and Grill",
+        "Kevin Rathbun Steak",
+        "Max's Coal Oven Pizzeria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0314572, from Atlanta to Sacramento, Departure Time: 08:53, Arrival Time: 11:07",
+      "candidates": [
+        "Flight Number: F0314572, from Atlanta to Sacramento, Departure Time: 08:53, Arrival Time: 11:07",
+        "Taxi, from Atlanta to Sacramento, Not feasible to drive from Atlanta to Sacramento"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Sacramento to Atlanta",
+      "transportation": "Taxi, from Sacramento to Atlanta, Not feasible to drive from Sacramento to Atlanta",
+      "accommodation": "Tiny House Retreat * Stock Tank Pool",
+      "breakfast": "Home Grown",
+      "attractions": [
+        "Fox Theatre"
+      ],
+      "lunch": "The Capital Grille",
+      "dinner": "Aria",
+      "poi_blocks": [
+        {
+          "name": "Tiny House Retreat * Stock Tank Pool",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "WHITEFOORD AVE @ FINLEY ST",
+          "dist_m": 103.1
+        },
+        {
+          "name": "Tiny House Retreat * Stock Tank Pool",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "WHITEFOORD AVE @ FINLEY ST",
+          "dist_m": 103.1
+        },
+        {
+          "name": "Home Grown",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MEMORIAL DR SE @ GIBSON ST SE",
+          "dist_m": 49.17
+        },
+        {
+          "name": "Fox Theatre",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "PEACHTREE ST NE @ PONCE DE LEON AVE",
+          "dist_m": 41.68
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "PEACHTREE RD @ E PACES FERRY RD NE",
+          "dist_m": 94.17
+        },
+        {
+          "name": "Aria",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PIEDMONT RD NE @ E PACES FERRY RD NE",
+          "dist_m": 250.25
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Atlanta to Atlanta",
+      "transportation": "-",
+      "accommodation": "Hampton Guest House",
+      "breakfast": "Atlanta Breakfast Club",
+      "attractions": [
+        "Georgia Aquarium"
+      ],
+      "lunch": "Steamhouse Lounge",
+      "dinner": "South City Kitchen Midtown",
+      "poi_blocks": [
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Atlanta Breakfast Club",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 42.63
+        },
+        {
+          "name": "Georgia Aquarium",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "IVAN ALLEN JR BLVD NW @ LUCKIE ST",
+          "dist_m": 131.37
+        },
+        {
+          "name": "Steamhouse Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "W PEACHTREE ST @ 12TH ST",
+          "dist_m": 93.0
+        },
+        {
+          "name": "South City Kitchen Midtown",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "PEACHTREE ST @ 14TH ST NE",
+          "dist_m": 128.52
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Atlanta to Sacramento",
+      "transportation": "Flight Number: F0314572, from Atlanta to Sacramento, Departure Time: 08:53, Arrival Time: 11:07",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "07:23",
+          "end": "08:23",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        },
+        {
+          "name": "Hampton Guest House",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "TALMADGE RD @ WILLARDS WAY",
+          "dist_m": 7090.65
+        }
+      ]
+    }
+  ]
+}

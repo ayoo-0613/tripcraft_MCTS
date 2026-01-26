@@ -1,0 +1,69 @@
+{
+  "idx": 278,
+  "JSON": {
+    "org": "Houston",
+    "dest": "Wichita",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Mediterranean",
+        "French",
+        "American"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 3900.0,
+    "query": "Plan a 3-day trip for 6 people from Houston to Wichita from November 18th to November 20th, 2024, with a budget of $3,900. The itinerary should include dining options featuring Mediterranean, French, and American cuisines.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Houston to Wichita",
+      "transportation": "Taxi, from Houston to Wichita, Duration: 635.0849999999999 mins, Distance: 966.714 km, Estimated Cost: $966.71",
+      "breakfast": "Mediterranean Grill, Wichita",
+      "attraction": "Exploration Place, Wichita",
+      "lunch": "Beacon Restaurant, Wichita",
+      "dinner": "Cafe Bel Ami, Wichita",
+      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Mediterranean Grill, visit from 09:25 to 10:16, nearest transit: Towne East Mall Drive OB, 117.07m away; Exploration Place, visit from 11:30 to 15:20, nearest transit: Exploration Place, 91.96m away; Beacon Restaurant, visit from 13:57 to 14:56, nearest transit: Washington and Douglas IB, 66.33m away; Cafe Bel Ami, visit from 19:51 to 21:00, nearest transit: Douglas and Market IB, 141.26m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Wichita to Wichita",
+      "transportation": "Transfer, from Wichita to Wichita",
+      "breakfast": "River City Brewery, Wichita",
+      "attraction": "Old Town, Wichita",
+      "lunch": "Homegrown, Wichita",
+      "dinner": "Whiskey Dicks, Wichita",
+      "accommodation": "Modern 3BR Home 10 minutes from Downtown, Wichita",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; River City Brewery, visit from 09:25 to 10:16, nearest transit: Douglas and Washington OB, 115.44m away; Old Town, visit from 11:30 to 14:50, nearest transit: Washington and 2nd St IB, 155.80m away; Homegrown, visit from 13:57 to 14:56, nearest transit: Orange Fitness, 79.22m away; Whiskey Dicks, visit from 19:51 to 21:00, nearest transit: Seneca and McCormick OB, 236.36m away; Modern 3BR Home 10 minutes from Downtown, stay from 22:15 to 08:00, nearest transit: Central and Nevada OB, 223.97m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Wichita to Houston",
+      "transportation": "Transfer, from Wichita to Houston",
+      "breakfast": "Oak & Pie, Wichita",
+      "attraction": "Music Theatre Wichita, Wichita",
+      "lunch": "Texas Roadhouse, Wichita",
+      "dinner": "Bricktown Brewery, Wichita",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Modern 3BR Home 10 minutes from Downtown, stay from 08:00 to 09:00, nearest transit: Central and Nevada OB, 223.97m away; Oak & Pie, visit from 09:25 to 10:16, nearest transit: Greenwich and 22nd St OB, 85.40m away; Music Theatre Wichita, visit from 11:30 to 14:50, nearest transit: Douglas and Wichita IB, 145.76m away; Texas Roadhouse, visit from 13:57 to 14:56, nearest transit: Taft and Ralstin IB, 517.47m away; Bricktown Brewery, visit from 19:51 to 21:00, nearest transit: 21st St and Tyler IB, 182.91m away."
+    }
+  ]
+}

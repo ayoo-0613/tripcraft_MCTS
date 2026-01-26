@@ -1,0 +1,65 @@
+{
+  "idx": 127,
+  "JSON": {
+    "org": "Atlanta",
+    "dest": "Reno",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-01",
+      "2024-11-02",
+      "2024-11-03"
+    ],
+    "people_number": 6,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": null,
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 12000.0,
+    "query": "Plan a 3-day trip for 6 people from Atlanta to Reno from November 1st to November 3rd, 2024, with a budget of $12,000.",
+    "level": "easy"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Atlanta to Reno",
+      "transportation": "Taxi, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno",
+      "breakfast": "Roxy, Reno",
+      "attraction": "Animal Ark, Reno; The Discovery, Reno",
+      "lunch": "Oceano, Reno",
+      "dinner": "Red Bloom, Reno",
+      "accommodation": "Cozy Cottage, Reno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; Roxy, visit from 09:25 to 10:16, nearest transit: North Virginia Street and 5th Street, 167.76m away; Animal Ark, visit from 11:30 to 15:27, nearest transit: Echo Avenue and Mt Bismark Street, 14382.98m away; Oceano, visit from 13:57 to 14:56, nearest transit: S Virginia Street and Peppermill Lane, 100.57m away; The Discovery, visit from 16:30 to 18:57, nearest transit: S Center Street and E Liberty Street, 48.94m away; Red Bloom, visit from 19:51 to 21:00, nearest transit: S Virginia Street and Moana Lane, 122.44m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Reno to Reno",
+      "transportation": "Transfer, from Reno to Reno",
+      "breakfast": "The Buffet, Reno",
+      "attraction": "Reno Arch, Reno; Atlantis Casino, Reno",
+      "lunch": "Purple Parrot, Reno",
+      "dinner": "Wild River Grille, Reno",
+      "accommodation": "Cozy Cottage, Reno",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; The Buffet, visit from 09:25 to 10:16, nearest transit: W 4th Street and N Arlington Avenue, 105.18m away; Reno Arch, visit from 11:30 to 13:57, nearest transit: N Center Street and E 1st Street, 160.53m away; Purple Parrot, visit from 13:57 to 14:56, nearest transit: S Virginia Street and W Peckham Lane, 36.43m away; Atlantis Casino, visit from 16:30 to 17:57, nearest transit: S Virginia Street and W Peckham Lane, 87.31m away; Wild River Grille, visit from 19:51 to 21:00, nearest transit: S Center Street and State Street, 157.23m away; Cozy Cottage, stay from 22:15 to 08:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Reno to Atlanta",
+      "transportation": "Flight Number: F2946739, from Reno to Atlanta, Departure Time: 14:18, Arrival Time: 21:15",
+      "breakfast": "Two Chicks Reno, Reno",
+      "attraction": "National Automobile Museum, Reno",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy Cottage, stay from 08:00 to 09:00, nearest transit: S Arlington Avenue and St Lawrence Avenue, 131.82m away; Two Chicks Reno, visit from 09:25 to 10:16, nearest transit: S Virginia Street and Thoma Street, 50.95m away; National Automobile Museum, visit from 11:30 to 14:13, nearest transit: Mill Street and River Rock Street, 88.22m away."
+    }
+  ]
+}

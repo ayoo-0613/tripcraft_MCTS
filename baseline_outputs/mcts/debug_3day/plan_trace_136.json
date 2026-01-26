@@ -1,0 +1,625 @@
+{
+  "idx": 136,
+  "reward": 14.609162290988678,
+  "budget_used": 2249.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from New York to Washington, Duration: 284.14000000000004 mins, Distance: 365.18890000000005 km, Estimated Cost: $365.19",
+      "candidates": [
+        "Flight Number: F0109437, from New York to Washington, Departure Time: 15:09, Arrival Time: 17:07",
+        "Taxi, from New York to Washington, Duration: 284.14000000000004 mins, Distance: 365.18890000000005 km, Estimated Cost: $365.19"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+      "candidates": [
+        "Sunny Self Contained English Basement",
+        "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+        "King Bed | Free Parking | DCA Airport",
+        "King Studio | 2500 Penn, a Placemakr Experience",
+        "2 Queen Apt Suite | 2500 Penn Placemakr Experience",
+        "Blue House by the Zoo- Mt. Pleasant-AdMo-CoHi",
+        "near Metro’s Red Line | Gym | Restaurant access",
+        "A Classy Corner of DC // Minutes walk to Dupont Circle",
+        "The Half Note Bedroom at HUM District Music"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Unconventional Diner",
+      "candidates": [
+        "Unconventional Diner",
+        "Cafe Milano",
+        "The Hamilton",
+        "The Tombs",
+        "Kingbird",
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "International Spy Museum",
+      "candidates": [
+        "Lincoln Memorial",
+        "National Mall",
+        "International Spy Museum",
+        "White House",
+        "Vietnam Veterans Memorial",
+        "The National Archives Museum",
+        "Washington Monument",
+        "Ford's Theatre",
+        "United States Holocaust Memorial Museum",
+        "National Museum of American History",
+        "National Air and Space Museum",
+        "U.S. Capitol",
+        "Library of Congress",
+        "Korean War Veterans Memorial",
+        "Hillwood Estate, Museum & Gardens",
+        "National Museum of African American History and Culture",
+        "United States Botanic Garden",
+        "National Portrait Gallery",
+        "Smithsonian National Museum of Natural History",
+        "National Gallery of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Cafe Milano",
+      "candidates": [
+        "Cafe Milano",
+        "The Hamilton",
+        "The Tombs",
+        "Kingbird",
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Hamilton",
+      "candidates": [
+        "The Hamilton",
+        "The Tombs",
+        "Kingbird",
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Sunny Self Contained English Basement",
+      "candidates": [
+        "Sunny Self Contained English Basement",
+        "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+        "King Bed | Free Parking | DCA Airport",
+        "King Studio | 2500 Penn, a Placemakr Experience",
+        "2 Queen Apt Suite | 2500 Penn Placemakr Experience",
+        "Blue House by the Zoo- Mt. Pleasant-AdMo-CoHi",
+        "near Metro’s Red Line | Gym | Restaurant access",
+        "A Classy Corner of DC // Minutes walk to Dupont Circle",
+        "The Half Note Bedroom at HUM District Music"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Tombs",
+      "candidates": [
+        "The Tombs",
+        "Kingbird",
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lincoln Memorial",
+      "candidates": [
+        "Lincoln Memorial",
+        "National Mall",
+        "White House",
+        "Vietnam Veterans Memorial",
+        "The National Archives Museum",
+        "Washington Monument",
+        "Ford's Theatre",
+        "United States Holocaust Memorial Museum",
+        "National Museum of American History",
+        "National Air and Space Museum",
+        "U.S. Capitol",
+        "Library of Congress",
+        "Korean War Veterans Memorial",
+        "Hillwood Estate, Museum & Gardens",
+        "National Museum of African American History and Culture",
+        "United States Botanic Garden",
+        "National Portrait Gallery",
+        "Smithsonian National Museum of Natural History",
+        "National Gallery of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Kingbird",
+      "candidates": [
+        "Kingbird",
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0104831, from Washington to New York, Departure Time: 12:28, Arrival Time: 14:36",
+      "candidates": [
+        "Flight Number: F0104831, from Washington to New York, Departure Time: 12:28, Arrival Time: 14:36",
+        "Taxi, from Washington to New York, Duration: 279.27666666666664 mins, Distance: 362.3425 km, Estimated Cost: $362.34"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Founding Farmers DC",
+      "candidates": [
+        "Founding Farmers DC",
+        "Fiola",
+        "The Pembroke",
+        "RPM Italian",
+        "L'Ardente",
+        "Mi Vida Restaurante",
+        "Georgia Brown's",
+        "Succotash Prime",
+        "Sichuan Pavilion",
+        "The Dabney",
+        "Gerrard Street Kitchen",
+        "1789 Restaurant & Bar",
+        "Fiola Mare DC",
+        "FIG & OLIVE",
+        "Smoke & Mirrors Rooftop Bar",
+        "Old Ebbitt Grill",
+        "Ambar Shaw",
+        "Clyde's of Georgetown",
+        "Bourbon Steak - Four Seasons Washington DC",
+        "Ambar Capitol Hill",
+        "La Grande Boucherie",
+        "Martin's Tavern",
+        "Founding Farmers Fishers & Bakers",
+        "Thip Khao",
+        "Zaytinya by Jose Andres",
+        "Jaleo by Jose Andres",
+        "The Palm - Washington, D.C.",
+        "Joe's Seafood Prime Steak & Stone Crab",
+        "Filomena Ristorante - Georgetown"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from New York to Washington",
+      "transportation": "Taxi, from New York to Washington, Duration: 284.14000000000004 mins, Distance: 365.18890000000005 km, Estimated Cost: $365.19",
+      "accommodation": "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+      "breakfast": "Unconventional Diner",
+      "attractions": [
+        "International Spy Museum"
+      ],
+      "lunch": "Cafe Milano",
+      "dinner": "The Hamilton",
+      "poi_blocks": [
+        {
+          "name": "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MT VERNON SQ METRORAIL STATION",
+          "dist_m": 333.96
+        },
+        {
+          "name": "Spacious Glamour in Shaw/Convention Ctr/DWTN APT",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MT VERNON SQ METRORAIL STATION",
+          "dist_m": 333.96
+        },
+        {
+          "name": "Unconventional Diner",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MT VERNON SQ",
+          "dist_m": 135.98
+        },
+        {
+          "name": "International Spy Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Entrance C - 9 St, L'Enfant Plaza",
+          "dist_m": 178.97
+        },
+        {
+          "name": "Cafe Milano",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "ROSSLYN",
+          "dist_m": 1240.98
+        },
+        {
+          "name": "The Hamilton",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "ENTRANCE D - 13TH AND G STS. NW",
+          "dist_m": 249.32
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Washington to Washington",
+      "transportation": "-",
+      "accommodation": "Sunny Self Contained English Basement",
+      "breakfast": "The Tombs",
+      "attractions": [
+        "Lincoln Memorial"
+      ],
+      "lunch": "Kingbird",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Sunny Self Contained English Basement",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "RHODE ISLAND AVE METRORAIL STATION - SOUTH SIDE RHODE ISLAND AVE., NE, WEST OF 8TH ST.",
+          "dist_m": 1141.98
+        },
+        {
+          "name": "Sunny Self Contained English Basement",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "RHODE ISLAND AVE METRORAIL STATION - SOUTH SIDE RHODE ISLAND AVE., NE, WEST OF 8TH ST.",
+          "dist_m": 1141.98
+        },
+        {
+          "name": "The Tombs",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "ROSSLYN",
+          "dist_m": 1065.4
+        },
+        {
+          "name": "Lincoln Memorial",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "ARLINGTON CEMETERY METRORAIL STATION - MEMORIAL DRIVE FOR BLUE LINE TO DOWNTOWN LARGO (ELEVATOR)",
+          "dist_m": 1224.21
+        },
+        {
+          "name": "Kingbird",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "FOGGY BOTTOM",
+          "dist_m": 488.73
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "ARCHIVES",
+          "dist_m": 121.81
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Washington to New York",
+      "transportation": "Flight Number: F0104831, from Washington to New York, Departure Time: 12:28, Arrival Time: 14:36",
+      "accommodation": "-",
+      "breakfast": "Founding Farmers DC",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Sunny Self Contained English Basement",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "RHODE ISLAND AVE METRORAIL STATION - SOUTH SIDE RHODE ISLAND AVE., NE, WEST OF 8TH ST.",
+          "dist_m": 1141.98
+        },
+        {
+          "name": "Founding Farmers DC",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "FARRAGUT WEST",
+          "dist_m": 239.64
+        }
+      ]
+    }
+  ]
+}

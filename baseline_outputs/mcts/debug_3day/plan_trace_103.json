@@ -1,0 +1,602 @@
+{
+  "idx": 103,
+  "reward": 18.07139559813749,
+  "budget_used": 3094.2,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage",
+      "candidates": [
+        "Flight Number: F1527139, from Las Vegas to Anchorage, Departure Time: 19:34, Arrival Time: 23:45",
+        "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Pebble House Studio",
+      "candidates": [
+        "The Pebble House Studio",
+        "Bootlegger’s Nest",
+        "The Tanglewood House • Bright + Cozy -Near Airport",
+        "Views Alaskan Prospect Heights Guesthouse",
+        "Private Room in Hostel with View/Parking/Gym 303"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Ginger",
+      "candidates": [
+        "Ginger",
+        "Club Paris",
+        "Orso",
+        "Snow City Cafe",
+        "Jens' Restaurant",
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Alaska Tour & Travel",
+      "candidates": [
+        "Anchorage Museum",
+        "Earthquake Park",
+        "Alaska Railroad",
+        "Alaska Tour & Travel",
+        "Wilderness Express Train",
+        "Salmon Berry Travel & Tours",
+        "Alaska Railroad Depot",
+        "Anchorage City Trolley Tours",
+        "Rust's Flying Service",
+        "Segway Tours of Anchorage",
+        "Tony Knowles Coastal Trail",
+        "Alaska Cruise Transportation - ACT",
+        "Pablo Bicycle Rentals",
+        "Alaska Park Connection Motorcoach",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Chugach State Park"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Club Paris",
+      "candidates": [
+        "Club Paris",
+        "Orso",
+        "Snow City Cafe",
+        "Jens' Restaurant",
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Orso",
+      "candidates": [
+        "Orso",
+        "Snow City Cafe",
+        "Jens' Restaurant",
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The Pebble House Studio",
+      "candidates": [
+        "The Pebble House Studio",
+        "Bootlegger’s Nest",
+        "The Tanglewood House • Bright + Cozy -Near Airport",
+        "Views Alaskan Prospect Heights Guesthouse",
+        "Private Room in Hostel with View/Parking/Gym 303"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Snow City Cafe",
+      "candidates": [
+        "Snow City Cafe",
+        "Jens' Restaurant",
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Anchorage Museum",
+      "candidates": [
+        "Anchorage Museum",
+        "Earthquake Park",
+        "Alaska Railroad",
+        "Wilderness Express Train",
+        "Salmon Berry Travel & Tours",
+        "Alaska Railroad Depot",
+        "Anchorage City Trolley Tours",
+        "Rust's Flying Service",
+        "Segway Tours of Anchorage",
+        "Tony Knowles Coastal Trail",
+        "Alaska Cruise Transportation - ACT",
+        "Pablo Bicycle Rentals",
+        "Alaska Park Connection Motorcoach",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Chugach State Park"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Jens' Restaurant",
+      "candidates": [
+        "Jens' Restaurant",
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Wild Scoops",
+      "candidates": [
+        "Wild Scoops",
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+      "candidates": [
+        "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+        "Taxi, from Anchorage to Las Vegas, Not feasible to drive from Anchorage to Las Vegas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Pho Lena",
+      "candidates": [
+        "Pho Lena",
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Earthquake Park",
+      "candidates": [
+        "Earthquake Park",
+        "Alaska Railroad",
+        "Wilderness Express Train",
+        "Salmon Berry Travel & Tours",
+        "Alaska Railroad Depot",
+        "Anchorage City Trolley Tours",
+        "Rust's Flying Service",
+        "Segway Tours of Anchorage",
+        "Tony Knowles Coastal Trail",
+        "Alaska Cruise Transportation - ACT",
+        "Pablo Bicycle Rentals",
+        "Alaska Park Connection Motorcoach",
+        "Visit Anchorage Log Cabin Visitor Information Center",
+        "Chugach State Park"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Kaladi Brothers Coffee",
+      "candidates": [
+        "Kaladi Brothers Coffee",
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "F Street Station",
+      "candidates": [
+        "F Street Station",
+        "Crush Bistro",
+        "Gwennies Old Alaska Restaurant",
+        "Glacier Brewhouse",
+        "Crow's Nest",
+        "Kobuk Coffee Co",
+        "Kincaid Grill and Wine Bar",
+        "Spenard Roadhouse",
+        "Ray's Place",
+        "Fire Island Rustic Bakeshop",
+        "49th State Brewing - Anchorage",
+        "Sushi & Sushi Restaurant",
+        "Bear Tooth Theatrepub & Grill",
+        "Simon & Seafort's Saloon & Grill",
+        "Moose's Tooth Pub and Pizzeria",
+        "Humpy's Great Alaskan Alehouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Anchorage",
+      "transportation": "Taxi, from Las Vegas to Anchorage, Not feasible to drive from Las Vegas to Anchorage",
+      "accommodation": "The Pebble House Studio",
+      "breakfast": "Ginger",
+      "attractions": [
+        "Alaska Tour & Travel"
+      ],
+      "lunch": "Club Paris",
+      "dinner": "Orso",
+      "poi_blocks": [
+        {
+          "name": "The Pebble House Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & OREGON WNW",
+          "dist_m": 86.89
+        },
+        {
+          "name": "The Pebble House Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SPENARD & OREGON WNW",
+          "dist_m": 86.89
+        },
+        {
+          "name": "Ginger",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "C STREET & 5TH AVENUE NNW",
+          "dist_m": 167.17
+        },
+        {
+          "name": "Alaska Tour & Travel",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:50",
+          "nearest_transit": "ARCTIC & 41ST AVENUE NNE",
+          "dist_m": 111.23
+        },
+        {
+          "name": "Club Paris",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "C STREET & 5TH AVENUE NNW",
+          "dist_m": 152.23
+        },
+        {
+          "name": "Orso",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5TH AVENUE & F STREET WNW",
+          "dist_m": 125.77
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Anchorage to Anchorage",
+      "transportation": "-",
+      "accommodation": "The Pebble House Studio",
+      "breakfast": "Snow City Cafe",
+      "attractions": [
+        "Anchorage Museum"
+      ],
+      "lunch": "Jens' Restaurant",
+      "dinner": "Wild Scoops",
+      "poi_blocks": [
+        {
+          "name": "The Pebble House Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & OREGON WNW",
+          "dist_m": 86.89
+        },
+        {
+          "name": "The Pebble House Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SPENARD & OREGON WNW",
+          "dist_m": 86.89
+        },
+        {
+          "name": "Snow City Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6TH AVENUE & K STREET ESE",
+          "dist_m": 252.75
+        },
+        {
+          "name": "Anchorage Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "6TH AVENUE & C STREET ESE",
+          "dist_m": 48.52
+        },
+        {
+          "name": "Jens' Restaurant",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "ARCTIC & 34TH AVENUE SSW",
+          "dist_m": 85.08
+        },
+        {
+          "name": "Wild Scoops",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5TH AVENUE & F STREET WNW",
+          "dist_m": 131.66
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Anchorage to Las Vegas",
+      "transportation": "Flight Number: F0254349, from Anchorage to Las Vegas, Departure Time: 22:57, Arrival Time: 05:03",
+      "accommodation": "-",
+      "breakfast": "Pho Lena",
+      "attractions": [
+        "Earthquake Park"
+      ],
+      "lunch": "Kaladi Brothers Coffee",
+      "dinner": "F Street Station",
+      "poi_blocks": [
+        {
+          "name": "The Pebble House Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SPENARD & OREGON WNW",
+          "dist_m": 86.89
+        },
+        {
+          "name": "Pho Lena",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SPENARD & 33RD AVENUE NNW",
+          "dist_m": 83.42
+        },
+        {
+          "name": "Earthquake Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "WISCONSIN & 29TH AVENUE SSW",
+          "dist_m": 1731.37
+        },
+        {
+          "name": "Kaladi Brothers Coffee",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "I STREET & 13TH AVENUE NNE",
+          "dist_m": 67.68
+        },
+        {
+          "name": "F Street Station",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5TH AVENUE & F STREET WNW",
+          "dist_m": 154.46
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "idx": 127,
+  "reward": 17.10137001648645,
+  "budget_used": 4781.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno",
+      "candidates": [
+        "Flight Number: F2942666, from Atlanta to Reno, Departure Time: 09:56, Arrival Time: 12:06",
+        "Taxi, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Cottage",
+      "candidates": [
+        "Cozy Cottage",
+        "The Foley Nest",
+        "5 STAR IN SPARKS",
+        "Evie’s Studio",
+        "Cozy Suite in a Convenient Location!",
+        "Rustic Cozy Brick Bungalow in Old Southwest Reno",
+        "Deluxe King @ Grand Sierra Resort.",
+        "Charming Midtown Retreat w/ private yard",
+        "Suite at Quail Cottage near everything!",
+        "The Garden | Midtown's Botanical Oasis",
+        "Cozy, modern retreat steps from Midtown & Hospital",
+        "Not your mama’s casita!",
+        "Sealy Super Comfy Mattress 4.1 Stars"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Roxy",
+      "candidates": [
+        "Roxy",
+        "Oceano",
+        "Red Bloom",
+        "The Buffet",
+        "Purple Parrot",
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Animal Ark",
+      "candidates": [
+        "Animal Ark",
+        "The Discovery",
+        "Reno Arch",
+        "Atlantis Casino",
+        "National Automobile Museum",
+        "Greater Nevada Field",
+        "Virginia Lake Park",
+        "Peppermill Casino",
+        "Circus Circus Casino",
+        "Truckee River Walk",
+        "Casino at Silver Legacy Resort",
+        "Reno Riverwalk District",
+        "Magique at The Theatre",
+        "Nevada Museum of Art",
+        "Wilbur D. May Center",
+        "Mt. Rose Ski Resort",
+        "Casino at the Eldorado",
+        "Eldorado Showroom",
+        "Rancho San Rafael Regional Park",
+        "Fleischmann Planetarium"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Oceano",
+      "candidates": [
+        "Oceano",
+        "Red Bloom",
+        "The Buffet",
+        "Purple Parrot",
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Discovery",
+      "candidates": [
+        "The Discovery",
+        "Reno Arch",
+        "Atlantis Casino",
+        "National Automobile Museum",
+        "Greater Nevada Field",
+        "Virginia Lake Park",
+        "Peppermill Casino",
+        "Circus Circus Casino",
+        "Truckee River Walk",
+        "Casino at Silver Legacy Resort",
+        "Reno Riverwalk District",
+        "Magique at The Theatre",
+        "Nevada Museum of Art",
+        "Wilbur D. May Center",
+        "Mt. Rose Ski Resort",
+        "Casino at the Eldorado",
+        "Eldorado Showroom",
+        "Rancho San Rafael Regional Park",
+        "Fleischmann Planetarium"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Red Bloom",
+      "candidates": [
+        "Red Bloom",
+        "The Buffet",
+        "Purple Parrot",
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Cottage",
+      "candidates": [
+        "Cozy Cottage",
+        "The Foley Nest",
+        "5 STAR IN SPARKS",
+        "Evie’s Studio",
+        "Cozy Suite in a Convenient Location!",
+        "Rustic Cozy Brick Bungalow in Old Southwest Reno",
+        "Deluxe King @ Grand Sierra Resort.",
+        "Charming Midtown Retreat w/ private yard",
+        "Suite at Quail Cottage near everything!",
+        "The Garden | Midtown's Botanical Oasis",
+        "Cozy, modern retreat steps from Midtown & Hospital",
+        "Not your mama’s casita!",
+        "Sealy Super Comfy Mattress 4.1 Stars"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Buffet",
+      "candidates": [
+        "The Buffet",
+        "Purple Parrot",
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Reno Arch",
+      "candidates": [
+        "Reno Arch",
+        "Atlantis Casino",
+        "National Automobile Museum",
+        "Greater Nevada Field",
+        "Virginia Lake Park",
+        "Peppermill Casino",
+        "Circus Circus Casino",
+        "Truckee River Walk",
+        "Casino at Silver Legacy Resort",
+        "Reno Riverwalk District",
+        "Magique at The Theatre",
+        "Nevada Museum of Art",
+        "Wilbur D. May Center",
+        "Mt. Rose Ski Resort",
+        "Casino at the Eldorado",
+        "Eldorado Showroom",
+        "Rancho San Rafael Regional Park",
+        "Fleischmann Planetarium"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Purple Parrot",
+      "candidates": [
+        "Purple Parrot",
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Atlantis Casino",
+      "candidates": [
+        "Atlantis Casino",
+        "National Automobile Museum",
+        "Greater Nevada Field",
+        "Virginia Lake Park",
+        "Peppermill Casino",
+        "Circus Circus Casino",
+        "Truckee River Walk",
+        "Casino at Silver Legacy Resort",
+        "Reno Riverwalk District",
+        "Magique at The Theatre",
+        "Nevada Museum of Art",
+        "Wilbur D. May Center",
+        "Mt. Rose Ski Resort",
+        "Casino at the Eldorado",
+        "Eldorado Showroom",
+        "Rancho San Rafael Regional Park",
+        "Fleischmann Planetarium"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Wild River Grille",
+      "candidates": [
+        "Wild River Grille",
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F2946739, from Reno to Atlanta, Departure Time: 14:18, Arrival Time: 21:15",
+      "candidates": [
+        "Flight Number: F2946739, from Reno to Atlanta, Departure Time: 14:18, Arrival Time: 21:15",
+        "Taxi, from Reno to Atlanta, Not feasible to drive from Reno to Atlanta"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Two Chicks Reno",
+      "candidates": [
+        "Two Chicks Reno",
+        "Twisted Fork",
+        "The Brew Brothers",
+        "Stone House Cafe",
+        "Squeeze In NW Reno",
+        "Smiling with hope Pizza",
+        "Texas Roadhouse",
+        "Bistro Napa",
+        "La Strada",
+        "Atlantis Steakhouse",
+        "Charlie Palmer Steak Reno",
+        "Bricks Restaurant & Wine Bar",
+        "Bimini Steakhouse",
+        "The Grill At Quail Corners",
+        "Lulou's Restaurant",
+        "Romanza Ristorante Italiano",
+        "Miguel's Mexican Food",
+        "SouthCreek Pizza Company",
+        "Bertha Miranda's Mexican Restaurant",
+        "Pho 777 Vietnamese Restaurant",
+        "Smee's Alaskan Fish Bar",
+        "Johnny's Ristorante Italiano",
+        "Oyster & Sushi Bar on the Sky Terrace",
+        "Toucan Charlie's Buffet & Grille",
+        "Kwok's Bistro",
+        "Peg's Glorified Ham n Eggs",
+        "Kauboi Izakaya",
+        "La Famiglia Ristorante Italiano",
+        "MARIO'S Portofino RISTORANTE ITALIANO"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "National Automobile Museum",
+      "candidates": [
+        "National Automobile Museum",
+        "Greater Nevada Field",
+        "Virginia Lake Park",
+        "Peppermill Casino",
+        "Circus Circus Casino",
+        "Truckee River Walk",
+        "Casino at Silver Legacy Resort",
+        "Reno Riverwalk District",
+        "Magique at The Theatre",
+        "Nevada Museum of Art",
+        "Wilbur D. May Center",
+        "Mt. Rose Ski Resort",
+        "Casino at the Eldorado",
+        "Eldorado Showroom",
+        "Rancho San Rafael Regional Park",
+        "Fleischmann Planetarium"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Atlanta to Reno",
+      "transportation": "Taxi, from Atlanta to Reno, Not feasible to drive from Atlanta to Reno",
+      "accommodation": "Cozy Cottage",
+      "breakfast": "Roxy",
+      "attractions": [
+        "Animal Ark",
+        "The Discovery"
+      ],
+      "lunch": "Oceano",
+      "dinner": "Red Bloom",
+      "poi_blocks": [
+        {
+          "name": "Cozy Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S Arlington Avenue and St Lawrence Avenue",
+          "dist_m": 131.82
+        },
+        {
+          "name": "Cozy Cottage",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S Arlington Avenue and St Lawrence Avenue",
+          "dist_m": 131.82
+        },
+        {
+          "name": "Roxy",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "North Virginia Street and 5th Street",
+          "dist_m": 167.76
+        },
+        {
+          "name": "Animal Ark",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "Echo Avenue and Mt Bismark Street",
+          "dist_m": 14382.98
+        },
+        {
+          "name": "Oceano",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "S Virginia Street and Peppermill Lane",
+          "dist_m": 100.57
+        },
+        {
+          "name": "The Discovery",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "S Center Street and E Liberty Street",
+          "dist_m": 48.94
+        },
+        {
+          "name": "Red Bloom",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "S Virginia Street and Moana Lane",
+          "dist_m": 122.44
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Reno to Reno",
+      "transportation": "-",
+      "accommodation": "Cozy Cottage",
+      "breakfast": "The Buffet",
+      "attractions": [
+        "Reno Arch",
+        "Atlantis Casino"
+      ],
+      "lunch": "Purple Parrot",
+      "dinner": "Wild River Grille",
+      "poi_blocks": [
+        {
+          "name": "Cozy Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S Arlington Avenue and St Lawrence Avenue",
+          "dist_m": 131.82
+        },
+        {
+          "name": "Cozy Cottage",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "S Arlington Avenue and St Lawrence Avenue",
+          "dist_m": 131.82
+        },
+        {
+          "name": "The Buffet",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 4th Street and N Arlington Avenue",
+          "dist_m": 105.18
+        },
+        {
+          "name": "Reno Arch",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "N Center Street and E 1st Street",
+          "dist_m": 160.53
+        },
+        {
+          "name": "Purple Parrot",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "S Virginia Street and W Peckham Lane",
+          "dist_m": 36.43
+        },
+        {
+          "name": "Atlantis Casino",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "17:57",
+          "nearest_transit": "S Virginia Street and W Peckham Lane",
+          "dist_m": 87.31
+        },
+        {
+          "name": "Wild River Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "S Center Street and State Street",
+          "dist_m": 157.23
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Reno to Atlanta",
+      "transportation": "Flight Number: F2946739, from Reno to Atlanta, Departure Time: 14:18, Arrival Time: 21:15",
+      "accommodation": "-",
+      "breakfast": "Two Chicks Reno",
+      "attractions": [
+        "National Automobile Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Cottage",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "S Arlington Avenue and St Lawrence Avenue",
+          "dist_m": 131.82
+        },
+        {
+          "name": "Two Chicks Reno",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "S Virginia Street and Thoma Street",
+          "dist_m": 50.95
+        },
+        {
+          "name": "National Automobile Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:13",
+          "nearest_transit": "Mill Street and River Rock Street",
+          "dist_m": 88.22
+        }
+      ]
+    }
+  ]
+}

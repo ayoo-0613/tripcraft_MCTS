@@ -1,0 +1,427 @@
+{
+  "idx": 260,
+  "reward": 14.665920541290971,
+  "budget_used": 1635.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from St. Louis to San Diego, Not feasible to drive from St. Louis to San Diego",
+      "candidates": [
+        "Flight Number: F0099295, from St. Louis to San Diego, Departure Time: 09:49, Arrival Time: 11:33",
+        "Taxi, from St. Louis to San Diego, Not feasible to drive from St. Louis to San Diego"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Cafe Coyote",
+      "candidates": [
+        "Cafe Coyote",
+        "Casa Guadalajara",
+        "Alforon",
+        "Las Hadas Grill",
+        "Din Tai Fung",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Little Italy",
+      "candidates": [
+        "SeaWorld",
+        "Mission Beach",
+        "Little Italy",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Sunset Cliffs Natural Park",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "La Jolla Shores Park",
+        "Mt. Soledad National Veterans Memorial",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Casa Guadalajara",
+      "candidates": [
+        "Casa Guadalajara",
+        "Alforon",
+        "Las Hadas Grill",
+        "Din Tai Fung",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Alforon",
+      "candidates": [
+        "Alforon",
+        "Las Hadas Grill",
+        "Din Tai Fung",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "candidates": [
+        "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+        "South Mission Beach - Hotel Style Unit w/ AC",
+        "*BEAUTIFUL* Sunny Home in Golden Hill",
+        "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+        "Safe Hip Quiet GARDEN STUDIO / Northpark",
+        "Award-Winning, Family-Friendly 2BR on Balboa Park",
+        "Beach Getaway ♥Romantic Patio& Fire ☝Remote Office",
+        "Private Room & Bath! Steps to Restaurants & Shops",
+        "Twin Bed, Hot Tub, 15 min to Downtown&Beaches",
+        "Bed in 4-Bed room in Stylish Hostel"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Las Hadas Grill",
+      "candidates": [
+        "Las Hadas Grill",
+        "Din Tai Fung",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "SeaWorld",
+      "candidates": [
+        "SeaWorld",
+        "Mission Beach",
+        "Seaport Village",
+        "Petco Park",
+        "San Diego Zoo",
+        "USS Midway Museum",
+        "Sunset Cliffs Natural Park",
+        "Old Town San Diego",
+        "Point Loma",
+        "Coronado Bridge",
+        "Balboa Park",
+        "Birch Aquarium at Scripps",
+        "La Jolla Shores Park",
+        "Mt. Soledad National Veterans Memorial",
+        "Cabrillo National Monument",
+        "Old Town San Diego State Historic Park",
+        "Torrey Pines State Natural Reserve"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Din Tai Fung",
+      "candidates": [
+        "Din Tai Fung",
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "La Puerta",
+      "candidates": [
+        "La Puerta",
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0025891, from San Diego to St. Louis, Departure Time: 12:31, Arrival Time: 17:51",
+      "candidates": [
+        "Flight Number: F0025891, from San Diego to St. Louis, Departure Time: 12:31, Arrival Time: 17:51",
+        "Taxi, from San Diego to St. Louis, Not feasible to drive from San Diego to St. Louis"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "El Agave Restaurant & Tequileria",
+      "candidates": [
+        "El Agave Restaurant & Tequileria"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from St. Louis to San Diego",
+      "transportation": "Taxi, from St. Louis to San Diego, Not feasible to drive from St. Louis to San Diego",
+      "accommodation": "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+      "breakfast": "Cafe Coyote",
+      "attractions": [
+        "Little Italy"
+      ],
+      "lunch": "Casa Guadalajara",
+      "dinner": "Alforon",
+      "poi_blocks": [
+        {
+          "name": "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "30th St & Dwight St",
+          "dist_m": 360.48
+        },
+        {
+          "name": "Safe Private Sanctuary - TOWER STUDIO/ Northpark",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "30th St & Dwight St",
+          "dist_m": 360.48
+        },
+        {
+          "name": "Cafe Coyote",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Juan St & Harney St",
+          "dist_m": 216.77
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "Kettner Bl & Grape St",
+          "dist_m": 155.04
+        },
+        {
+          "name": "Casa Guadalajara",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Taylor St & Juan St",
+          "dist_m": 50.62
+        },
+        {
+          "name": "Alforon",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "El Cajon Bl & 59th St",
+          "dist_m": 121.18
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Diego to San Diego",
+      "transportation": "-",
+      "accommodation": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+      "breakfast": "Las Hadas Grill",
+      "attractions": [
+        "SeaWorld"
+      ],
+      "lunch": "Din Tai Fung",
+      "dinner": "La Puerta",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "Las Hadas Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "4th Av & G St",
+          "dist_m": 140.49
+        },
+        {
+          "name": "SeaWorld",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:20",
+          "nearest_transit": "SeaWorld",
+          "dist_m": 299.84
+        },
+        {
+          "name": "Din Tai Fung",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "La Jolla Village Dr & Genesee Av",
+          "dist_m": 68.36
+        },
+        {
+          "name": "La Puerta",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "4th Av & G St",
+          "dist_m": 127.08
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Diego to St. Louis",
+      "transportation": "Flight Number: F0025891, from San Diego to St. Louis, Departure Time: 12:31, Arrival Time: 17:51",
+      "accommodation": "-",
+      "breakfast": "El Agave Restaurant & Tequileria",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Blue Beach House ?? 5 blocks to Beach /Restaurants",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Mission Bl & Sapphire St",
+          "dist_m": 920.18
+        },
+        {
+          "name": "El Agave Restaurant & Tequileria",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Sunset Bl & Witherby St",
+          "dist_m": 469.6
+        }
+      ]
+    }
+  ]
+}

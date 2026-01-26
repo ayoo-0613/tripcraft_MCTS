@@ -1,0 +1,635 @@
+{
+  "idx": 288,
+  "reward": 15.5214828188065,
+  "budget_used": 1654.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "candidates": [
+        "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+        "Taxi, from Miami to Baltimore, Duration: 1217.07 mins, Distance: 1754.8571000000002 km, Estimated Cost: $1754.86"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "candidates": [
+        "Charming Baltimore Home w/Parking - Dog Friendly!",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Loaded Home - Heart Of Fells Point Waterfront Area",
+        "Private Bed next to JHH",
+        "Cozy loft in great location",
+        "Entire Comfy Studio @Charles Village -5min frm JHU",
+        "Private Queen Suite (B) Fells and Hopkins Medical"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Bed next to JHH",
+      "candidates": [
+        "Charming Baltimore Home w/Parking - Dog Friendly!",
+        "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+        "Loaded Home - Heart Of Fells Point Waterfront Area",
+        "Private Bed next to JHH",
+        "Cozy loft in great location",
+        "Entire Comfy Studio @Charles Village -5min frm JHU",
+        "Private Queen Suite (B) Fells and Hopkins Medical"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Charleston Restaurant",
+      "candidates": [
+        "Charleston Restaurant",
+        "Phillips Seafood",
+        "The Capital Grille",
+        "The Food Market",
+        "Blue Moon Cafe",
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Maryland Zoo",
+      "candidates": [
+        "Little Italy",
+        "Inner Harbor",
+        "Peabody Library",
+        "Horseshoe Casino",
+        "The Maryland Zoo",
+        "National Aquarium",
+        "Federal Hill Park",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Top of the World Observation Level",
+        "B&O Railroad Museum",
+        "Fell's Point",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "M&T Bank Stadium",
+        "Oriole Park at Camden Yards",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Phillips Seafood",
+      "candidates": [
+        "Phillips Seafood",
+        "The Capital Grille",
+        "The Food Market",
+        "Blue Moon Cafe",
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Little Italy",
+      "candidates": [
+        "Little Italy",
+        "Inner Harbor",
+        "Peabody Library",
+        "Horseshoe Casino",
+        "National Aquarium",
+        "Federal Hill Park",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Top of the World Observation Level",
+        "B&O Railroad Museum",
+        "Fell's Point",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "M&T Bank Stadium",
+        "Oriole Park at Camden Yards",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Capital Grille",
+      "candidates": [
+        "The Capital Grille",
+        "The Food Market",
+        "Blue Moon Cafe",
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Baltimore to Miami",
+      "candidates": [
+        "Transfer, from Baltimore to Miami"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "The Food Market",
+      "candidates": [
+        "The Food Market",
+        "Blue Moon Cafe",
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Inner Harbor",
+      "candidates": [
+        "Inner Harbor",
+        "Peabody Library",
+        "Horseshoe Casino",
+        "National Aquarium",
+        "Federal Hill Park",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Top of the World Observation Level",
+        "B&O Railroad Museum",
+        "Fell's Point",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "M&T Bank Stadium",
+        "Oriole Park at Camden Yards",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Blue Moon Cafe",
+      "candidates": [
+        "Blue Moon Cafe",
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Peabody Library",
+      "candidates": [
+        "Peabody Library",
+        "Horseshoe Casino",
+        "National Aquarium",
+        "Federal Hill Park",
+        "Sagamore Spirit Distillery",
+        "Maryland Science Center",
+        "American Visionary Art Museum",
+        "Top of the World Observation Level",
+        "B&O Railroad Museum",
+        "Fell's Point",
+        "The Walters Art Museum",
+        "Baltimore Museum of Art",
+        "M&T Bank Stadium",
+        "Oriole Park at Camden Yards",
+        "Hippodrome Theatre",
+        "Edgar Allan Poe's Grave Site and Memorial",
+        "Fort McHenry National Monument And Historic Shrine"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Helmand",
+      "candidates": [
+        "The Helmand",
+        "LP Steamers",
+        "CLAVEL",
+        "Cinghiale",
+        "La Scala",
+        "Angies Seafood",
+        "Toki Underground Baltimore",
+        "Rec Pier Chop House",
+        "Gertrude's Chesapeake Kitchen",
+        "Nick's Fish House",
+        "Rusty Scupper",
+        "Pratt Street Ale House",
+        "Restaurante Tio Pepe",
+        "Cypriana of Roland Park",
+        "Alexander's Tavern",
+        "La Tavola",
+        "Thames Street Oyster House",
+        "Tagliata",
+        "Amicci's",
+        "Magdalena, A Maryland Bistro",
+        "The Abbey Burger Bistro",
+        "One-Eyed Mike's",
+        "Miss Shirley's Cafe, Inner Harbor",
+        "Dalesio's of Little Italy Restaurant",
+        "Luna Del Sea Steak & Seafood Bistro",
+        "Twist Fell's Point",
+        "Mama's On the Half Shell",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Chiapparelli's Restaurant",
+        "Sotto Sopra"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Miami to Baltimore",
+      "transportation": "Flight Number: F0033616, from Miami to Baltimore, Departure Time: 20:50, Arrival Time: 23:31",
+      "accommodation": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 841.96
+        },
+        {
+          "name": "Luxe Houseboat: Stunning Inner Harbor 360 Views",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 841.96
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Baltimore to Baltimore",
+      "transportation": "-",
+      "accommodation": "Private Bed next to JHH",
+      "breakfast": "Charleston Restaurant",
+      "attractions": [
+        "The Maryland Zoo",
+        "Little Italy"
+      ],
+      "lunch": "Phillips Seafood",
+      "dinner": "The Capital Grille",
+      "poi_blocks": [
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "Charleston Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 915.06
+        },
+        {
+          "name": "The Maryland Zoo",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:37",
+          "nearest_transit": "MONDAWMIN METRO Escalator 4",
+          "dist_m": 586.5
+        },
+        {
+          "name": "Phillips Seafood",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 344.26
+        },
+        {
+          "name": "Little Italy",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "19:07",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 507.45
+        },
+        {
+          "name": "The Capital Grille",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "SHOT TOWER METRO West Entrance",
+          "dist_m": 293.21
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Baltimore to Miami",
+      "transportation": "Transfer, from Baltimore to Miami",
+      "accommodation": "-",
+      "breakfast": "The Food Market",
+      "attractions": [
+        "Inner Harbor",
+        "Peabody Library"
+      ],
+      "lunch": "Blue Moon Cafe",
+      "dinner": "The Helmand",
+      "poi_blocks": [
+        {
+          "name": "Private Bed next to JHH",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "JOHNS HOPKINS STATION (METRO)",
+          "dist_m": 457.98
+        },
+        {
+          "name": "The Food Market",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "MONDAWMIN METRO Main Entrance",
+          "dist_m": 2207.42
+        },
+        {
+          "name": "Inner Harbor",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "CHARLES CENTER METRO Stair 5",
+          "dist_m": 594.73
+        },
+        {
+          "name": "Blue Moon Cafe",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "SHOT TOWER STATION (METRO) sb",
+          "dist_m": 1161.67
+        },
+        {
+          "name": "Peabody Library",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "16:57",
+          "nearest_transit": "STATE CENTER (METRO) sb",
+          "dist_m": 660.61
+        },
+        {
+          "name": "The Helmand",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "STATE CENTER (METRO) sb",
+          "dist_m": 508.53
+        }
+      ]
+    }
+  ]
+}

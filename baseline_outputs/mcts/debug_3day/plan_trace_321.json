@@ -1,0 +1,690 @@
+{
+  "idx": 321,
+  "reward": 16.559914777155743,
+  "budget_used": 1102.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles",
+      "candidates": [
+        "Flight Number: F0101338, from Kansas City to Los Angeles, Departure Time: 13:55, Arrival Time: 15:20",
+        "Taxi, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "Cozy and Bright Private Room",
+        "Guest house with private parking",
+        "Topanga Pool House",
+        "Room in Happy Hollywood Home",
+        "Hollywood Hideaway",
+        "Cabin on the Rocks",
+        "Cozy Beverly Hills Studio Guest House",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "Kasa Sunset | Deluxe King Studio in Hollywood",
+        "Oceanfront Sunset Serenity in Malibu",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Autumn's Modern 1 bedroom with Charming Courtyard.",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Secluded & Charming Hillside Studio+Pool+SkyDeck✨"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Patina Restaurant",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Patina Restaurant",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Hollywood Sign",
+      "candidates": [
+        "Hollywood Sign",
+        "The Grove",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Citadel Outlets",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Universal Studios Hollywood",
+        "California Science Center",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "The Getty Center",
+        "La Brea Tar Pits and Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Providence",
+      "candidates": [
+        "Providence",
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "The Grove",
+      "candidates": [
+        "The Grove",
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Citadel Outlets",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Universal Studios Hollywood",
+        "California Science Center",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "The Getty Center",
+        "La Brea Tar Pits and Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bestia",
+      "candidates": [
+        "Bestia",
+        "Water Grill",
+        "Perch",
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Private Room In LA.",
+      "candidates": [
+        "Cozy Private Room In LA.",
+        "Cozy and Bright Private Room",
+        "Guest house with private parking",
+        "Topanga Pool House",
+        "Room in Happy Hollywood Home",
+        "Hollywood Hideaway",
+        "Cabin on the Rocks",
+        "Cozy Beverly Hills Studio Guest House",
+        "Venice Studio – Steps from Boardwalk, Ocean View",
+        "*New! Historic Hollywood Hills Bungalow + Pool",
+        "Rare find! Garden Oasis Guest House in heart of LA",
+        "Pristine Mid Century Gem Near USC Hospital",
+        "Kasa Sunset | Deluxe King Studio in Hollywood",
+        "Oceanfront Sunset Serenity in Malibu",
+        "Clean Energy Wi-Fi Garden Home / Helms Platform",
+        "Autumn's Modern 1 bedroom with Charming Courtyard.",
+        "MidCity private suite w/ fireplace & HOT TUB!",
+        "Secluded & Charming Hillside Studio+Pool+SkyDeck✨"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Water Grill",
+      "candidates": [
+        "Water Grill",
+        "Perch",
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Venice Beach",
+      "candidates": [
+        "Venice Beach",
+        "Venice Canals Walkway",
+        "Citadel Outlets",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Universal Studios Hollywood",
+        "California Science Center",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "The Getty Center",
+        "La Brea Tar Pits and Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Perch",
+      "candidates": [
+        "Perch",
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Venice Canals Walkway",
+      "candidates": [
+        "Venice Canals Walkway",
+        "Citadel Outlets",
+        "The Broad",
+        "Petersen Automotive Museum",
+        "Universal Studios Hollywood",
+        "California Science Center",
+        "Griffith Park",
+        "Crypto.com Arena",
+        "Griffith Observatory",
+        "Dodger Stadium",
+        "Battleship USS Iowa Museum",
+        "Walt Disney Concert Hall",
+        "The Getty Center",
+        "La Brea Tar Pits and Museum",
+        "Hollywood Walk of Fame",
+        "Los Angeles County Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "The Lobster",
+      "candidates": [
+        "The Lobster",
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0028235, from Los Angeles to Kansas City, Departure Time: 12:37, Arrival Time: 17:30",
+      "candidates": [
+        "Flight Number: F0028235, from Los Angeles to Kansas City, Departure Time: 12:37, Arrival Time: 17:30",
+        "Taxi, from Los Angeles to Kansas City, Not feasible to drive from Los Angeles to Kansas City"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Spire 73",
+      "candidates": [
+        "Spire 73",
+        "Cafe Gratitude Venice",
+        "Bavel",
+        "Yang Chow",
+        "The Boiling Crab",
+        "Leo & Lily",
+        "Belles Beach House",
+        "25 Degrees",
+        "Ayara Thai Cuisine",
+        "Bubba Gump Shrimp Co.",
+        "Musso & Frank Grill",
+        "Maccheroni Republic",
+        "Park's BBQ",
+        "Au Lac Dtla",
+        "n/naka",
+        "22nd Street Landing Seafood Grill & Bar",
+        "The Butcher's Daughter",
+        "Langer's Delicatessen Restaurant",
+        "Pizzeria Mozza",
+        "Olive & Thyme",
+        "The Palm - L.A. Downtown",
+        "71Above Restaurant and Skylounge",
+        "Brent's Deli Northridge",
+        "El Compadre",
+        "Republique",
+        "Yamashiro Hollywood",
+        "Raffaello Ristorante",
+        "Katsuya",
+        "L'Antica Pizzeria Da Michele"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Kansas City to Los Angeles",
+      "transportation": "Taxi, from Kansas City to Los Angeles, Not feasible to drive from Kansas City to Los Angeles",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "Patina Restaurant",
+      "attractions": [
+        "Hollywood Sign",
+        "The Grove"
+      ],
+      "lunch": "Providence",
+      "dinner": "Bestia",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Patina Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Grand Ave & 2nd St",
+          "dist_m": 62.65
+        },
+        {
+          "name": "Hollywood Sign",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Beachwood & Westshire",
+          "dist_m": 1574.74
+        },
+        {
+          "name": "Providence",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Melrose & Gower (Westbound)",
+          "dist_m": 749.15
+        },
+        {
+          "name": "The Grove",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "17:27",
+          "nearest_transit": "3rd & Ogden (Eastbound)",
+          "dist_m": 143.67
+        },
+        {
+          "name": "Bestia",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Molino St & Palmetto St",
+          "dist_m": 869.23
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Los Angeles to Los Angeles",
+      "transportation": "-",
+      "accommodation": "Cozy Private Room In LA.",
+      "breakfast": "Water Grill",
+      "attractions": [
+        "Venice Beach",
+        "Venice Canals Walkway"
+      ],
+      "lunch": "Perch",
+      "dinner": "The Lobster",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Water Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "6th St & Grand Ave (Eastbound)",
+          "dist_m": 102.29
+        },
+        {
+          "name": "Venice Beach",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:12",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 973.45
+        },
+        {
+          "name": "Perch",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Hill St & 5th St (Northbound)",
+          "dist_m": 65.01
+        },
+        {
+          "name": "Venice Canals Walkway",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 428.75
+        },
+        {
+          "name": "The Lobster",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Pacific Ave & Washington Blvd (Arriving)",
+          "dist_m": 4397.54
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Los Angeles to Kansas City",
+      "transportation": "Flight Number: F0028235, from Los Angeles to Kansas City, Departure Time: 12:37, Arrival Time: 17:30",
+      "accommodation": "-",
+      "breakfast": "Spire 73",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Private Room In LA.",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "MLK Jr. & Gramercy Pl.",
+          "dist_m": 251.86
+        },
+        {
+          "name": "Spire 73",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Figueroa St & 7th St",
+          "dist_m": 109.52
+        }
+      ]
+    }
+  ]
+}

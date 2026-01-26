@@ -1,0 +1,417 @@
+{
+  "idx": 143,
+  "reward": 9.73586791714651,
+  "budget_used": 314.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Washington to Las Vegas, Not feasible to drive from Washington to Las Vegas",
+      "candidates": [
+        "Flight Number: F0229371, from Washington to Las Vegas, Departure Time: 09:06, Arrival Time: 12:03",
+        "Taxi, from Washington to Las Vegas, Not feasible to drive from Washington to Las Vegas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room Next to Strip",
+      "candidates": [
+        "Hidden Oasis",
+        "Adorable Sendera Santa",
+        "Private Room Next to Strip",
+        "Our lovely master bedroom",
+        "Luxury Suite Las Vegas",
+        "Casita in the Sun",
+        "Gamble Adventure | Restaurant. Outside Pool",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Private Cozy Room with own entrance and pool .",
+        "Cozy Casita+Private Patio+grill",
+        "Super cozy brand new furnished private room! 2",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Studio 100% Private-Just 10 min. to Strip",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Clean Cozy Room w/att'd Private Bath",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Carmine's",
+      "candidates": [
+        "Carmine's",
+        "Nora's Italian Cuisine",
+        "Mercato Della Pescheria Las Vegas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "High Roller",
+      "candidates": [
+        "High Roller",
+        "The Mob Museum",
+        "The Neon Museum",
+        "The LINQ Promenade",
+        "Fremont Street Experience",
+        "The Las Vegas Strip",
+        "Wynn Las Vegas Casino",
+        "Hoover Dam Bypass",
+        "Titanic: The Artifact Exhibition",
+        "Las Vegas North Premium Outlets",
+        "Fashion Show Las Vegas",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Stratosphere Tower",
+        "Zak Bagans' The Haunted Museum",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "Eiffel Tower Viewing Deck",
+        "Red Rock Canyon National Conservation Area",
+        "Pinball Hall Of Fame"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Nora's Italian Cuisine",
+      "candidates": [
+        "Nora's Italian Cuisine",
+        "Mercato Della Pescheria Las Vegas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Mercato Della Pescheria Las Vegas",
+      "candidates": [
+        "Mercato Della Pescheria Las Vegas"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private Room Next to Strip",
+      "candidates": [
+        "Hidden Oasis",
+        "Adorable Sendera Santa",
+        "Private Room Next to Strip",
+        "Our lovely master bedroom",
+        "Luxury Suite Las Vegas",
+        "Casita in the Sun",
+        "Gamble Adventure | Restaurant. Outside Pool",
+        "Renovated Luxury Studio Suite in Tower 3",
+        "Private Cozy Room with own entrance and pool .",
+        "Cozy Casita+Private Patio+grill",
+        "Super cozy brand new furnished private room! 2",
+        "MGM Grand! Vegas Strip 16th Floor Renovated Suite",
+        "Studio 100% Private-Just 10 min. to Strip",
+        "Luxury Suite - Balcony & Las Vegas Strip Views!",
+        "Clean Cozy Room w/att'd Private Bath",
+        "Vdara Studio 52nd FL Bellagio Ftns NO RESORT FEES"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "The Mob Museum",
+      "candidates": [
+        "The Mob Museum",
+        "The Neon Museum",
+        "The LINQ Promenade",
+        "Fremont Street Experience",
+        "The Las Vegas Strip",
+        "Wynn Las Vegas Casino",
+        "Hoover Dam Bypass",
+        "Titanic: The Artifact Exhibition",
+        "Las Vegas North Premium Outlets",
+        "Fashion Show Las Vegas",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Stratosphere Tower",
+        "Zak Bagans' The Haunted Museum",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "Eiffel Tower Viewing Deck",
+        "Red Rock Canyon National Conservation Area",
+        "Pinball Hall Of Fame"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Washington, Not feasible to drive from Las Vegas to Washington",
+      "candidates": [
+        "Flight Number: F0171913, from Las Vegas to Washington, Departure Time: 13:17, Arrival Time: 20:23",
+        "Taxi, from Las Vegas to Washington, Not feasible to drive from Las Vegas to Washington"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "skip_breakfast",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Fremont Street Experience",
+      "candidates": [
+        "The Neon Museum",
+        "The LINQ Promenade",
+        "Fremont Street Experience",
+        "The Las Vegas Strip",
+        "Wynn Las Vegas Casino",
+        "Hoover Dam Bypass",
+        "Titanic: The Artifact Exhibition",
+        "Las Vegas North Premium Outlets",
+        "Fashion Show Las Vegas",
+        "Fountains of Bellagio",
+        "Bellagio Conservatory & Botanical Garden",
+        "Stratosphere Tower",
+        "Zak Bagans' The Haunted Museum",
+        "The Grand Canal Shoppes at The Venetian Resort",
+        "Eiffel Tower Viewing Deck",
+        "Red Rock Canyon National Conservation Area",
+        "Pinball Hall Of Fame"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Washington to Las Vegas",
+      "transportation": "Taxi, from Washington to Las Vegas, Not feasible to drive from Washington to Las Vegas",
+      "accommodation": "Private Room Next to Strip",
+      "breakfast": "Carmine's",
+      "attractions": [
+        "High Roller"
+      ],
+      "lunch": "Nora's Italian Cuisine",
+      "dinner": "Mercato Della Pescheria Las Vegas",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Carmine's",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "The Strat",
+          "dist_m": 3610.12
+        },
+        {
+          "name": "High Roller",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "The Strat",
+          "dist_m": 3481.22
+        },
+        {
+          "name": "Nora's Italian Cuisine",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "The Strat",
+          "dist_m": 6762.82
+        },
+        {
+          "name": "Mercato Della Pescheria Las Vegas",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 2970.27
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Las Vegas to Las Vegas",
+      "transportation": "-",
+      "accommodation": "Private Room Next to Strip",
+      "breakfast": "-",
+      "attractions": [
+        "The Mob Museum"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "The Mob Museum",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Mob Museum",
+          "dist_m": 48.14
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Las Vegas to Washington",
+      "transportation": "Taxi, from Las Vegas to Washington, Not feasible to drive from Las Vegas to Washington",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [
+        "Fremont Street Experience"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private Room Next to Strip",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "The Strat",
+          "dist_m": 1578.93
+        },
+        {
+          "name": "Fremont Street Experience",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Circa",
+          "dist_m": 232.83
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "idx": 297,
+  "reward": 12.935635570827689,
+  "budget_used": 7289.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43",
+      "candidates": [
+        "Flight Number: F1169882, from Missoula to San Francisco, Departure Time: 16:11, Arrival Time: 17:33",
+        "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Single Studio",
+      "candidates": [
+        "Modern Single Studio",
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "Stylish Room in The Heart Of San Francisco",
+        "Modern Double Studio with Bay Window",
+        "#1 Private room with private bathroom with tub",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Eagle Cafe",
+      "candidates": [
+        "Eagle Cafe",
+        "Outerlands",
+        "Capital Restaurant",
+        "Quince",
+        "Hillstone",
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Oracle Park",
+      "candidates": [
+        "Twin Peaks",
+        "Cable Cars",
+        "Oracle Park",
+        "Pier 39",
+        "Cable Car Museum",
+        "Coit Tower",
+        "Ferry Building Marketplace",
+        "Lands End",
+        "Golden Gate Park",
+        "Japanese Tea Garden",
+        "Golden Gate Bridge",
+        "Fisherman's Wharf",
+        "California Academy of Sciences",
+        "Walt Disney Family Museum",
+        "Exploratorium",
+        "Palace of Fine Arts Theatre",
+        "Alcatraz Island",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Outerlands",
+      "candidates": [
+        "Outerlands",
+        "Capital Restaurant",
+        "Quince",
+        "Hillstone",
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Capital Restaurant",
+      "candidates": [
+        "Capital Restaurant",
+        "Quince",
+        "Hillstone",
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Modern Single Studio",
+      "candidates": [
+        "Modern Single Studio",
+        "Private cozy room 1",
+        "Harry Potter Lego themed Guestroom",
+        "Stylish Room in The Heart Of San Francisco",
+        "Modern Double Studio with Bay Window",
+        "#1 Private room with private bathroom with tub",
+        "#3 SF 24th ave& kirkham st King master bedroom",
+        "#1 Deluxe king room next to The Ritz- Carlton",
+        "Updated Private Bedroom with Ensuite Bathroom.",
+        "Single Bed in 4-Bed Female Capsule Room"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Quince",
+      "candidates": [
+        "Quince",
+        "Hillstone",
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Twin Peaks",
+      "candidates": [
+        "Twin Peaks",
+        "Cable Cars",
+        "Pier 39",
+        "Cable Car Museum",
+        "Coit Tower",
+        "Ferry Building Marketplace",
+        "Lands End",
+        "Golden Gate Park",
+        "Japanese Tea Garden",
+        "Golden Gate Bridge",
+        "Fisherman's Wharf",
+        "California Academy of Sciences",
+        "Walt Disney Family Museum",
+        "Exploratorium",
+        "Palace of Fine Arts Theatre",
+        "Alcatraz Island",
+        "Ghirardelli Square"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Hillstone",
+      "candidates": [
+        "Hillstone",
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Waterbar",
+      "candidates": [
+        "Waterbar",
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+      "candidates": [
+        "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+        "Taxi, from San Francisco to Missoula, Duration: 1112.4816666666666 mins, Distance: 1581.5231999999999 km, Estimated Cost: $1581.52"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "City View Restaurant",
+      "candidates": [
+        "City View Restaurant",
+        "Blue Mermaid Restaurant",
+        "Tadich Grill",
+        "Pier Market Seafood Restaurant",
+        "Eight Am",
+        "The Stinking Rose",
+        "House of Prime Rib",
+        "Mo's Grill",
+        "Z & Y Restaurant",
+        "Hog Island Oyster Co.",
+        "Crab House at Pier 39",
+        "Original Joe's",
+        "Mersea Restaurant & Bar",
+        "John's Grill",
+        "Fog Harbor Fish House",
+        "R&G Lounge",
+        "Sears Fine Foods",
+        "Scoma's Restaurant",
+        "The Codmother Fish & Chips",
+        "Scala's Bistro",
+        "Morton's The Steakhouse",
+        "Trattoria Contadina",
+        "Honey Honey Cafe & Crepery",
+        "Harris' Restaurant - The San Francisco Steakhouse",
+        "Luisa's Restaurant Wine Bar Since 1959",
+        "Fogo de Chao Brazilian Steakhouse",
+        "Kokkari Estiatorio",
+        "Good Mong Kok Bakery",
+        "Akiko's Sushi Bar and Restaurant"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Missoula to San Francisco",
+      "transportation": "Taxi, from Missoula to San Francisco, Duration: 1111.1516666666669 mins, Distance: 1581.4349 km, Estimated Cost: $1581.43",
+      "accommodation": "Modern Single Studio",
+      "breakfast": "Eagle Cafe",
+      "attractions": [
+        "Oracle Park"
+      ],
+      "lunch": "Outerlands",
+      "dinner": "Capital Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Eagle Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 2308.55
+        },
+        {
+          "name": "Oracle Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "4th @ Library (Caltrain)",
+          "dist_m": 474.04
+        },
+        {
+          "name": "Outerlands",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 8064.84
+        },
+        {
+          "name": "Capital Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 972.3
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from San Francisco to San Francisco",
+      "transportation": "-",
+      "accommodation": "Modern Single Studio",
+      "breakfast": "Quince",
+      "attractions": [
+        "Twin Peaks"
+      ],
+      "lunch": "Hillstone",
+      "dinner": "Waterbar",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "Quince",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 994.7
+        },
+        {
+          "name": "Twin Peaks",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Civic Center BART (9th and Market)",
+          "dist_m": 3888.9
+        },
+        {
+          "name": "Hillstone",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 1784.87
+        },
+        {
+          "name": "Waterbar",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Mission @ Spear (Embarcadero)",
+          "dist_m": 478.55
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from San Francisco to Missoula",
+      "transportation": "Flight Number: F1154352, from San Francisco to Missoula, Departure Time: 12:11, Arrival Time: 15:19",
+      "accommodation": "-",
+      "breakfast": "City View Restaurant",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Modern Single Studio",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Civic Center @ 7th (Yotel)",
+          "dist_m": 1283.6
+        },
+        {
+          "name": "City View Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Powell @ 22 4th",
+          "dist_m": 1055.48
+        }
+      ]
+    }
+  ]
+}

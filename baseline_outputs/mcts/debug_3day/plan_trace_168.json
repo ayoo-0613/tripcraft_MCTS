@@ -1,0 +1,646 @@
+{
+  "idx": 168,
+  "reward": 15.774965777043892,
+  "budget_used": 1491.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Martha's Vineyard to New York, Duration: 405.94166666666666 mins, Distance: 428.0015 km, Estimated Cost: $428.00",
+      "candidates": [
+        "Flight Number: F1547631, from Martha's Vineyard to New York, Departure Time: 13:22, Arrival Time: 14:39",
+        "Taxi, from Martha's Vineyard to New York, Duration: 405.94166666666666 mins, Distance: 428.0015 km, Estimated Cost: $428.00"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "NYC Bliss | Sightseeing. Fitness Center",
+      "candidates": [
+        "Standard 1 King at Hotel Indigo Williamsburg",
+        "One King room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "NYC Bliss | Sightseeing. Fitness Center",
+        "East Village, Private room with access to garden",
+        "Serenity at the Heart of NYC l No Cleaning fee",
+        "Minimal room 1 SofaBed + loft bed in Manhattan"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Rainbow Room",
+      "candidates": [
+        "Rainbow Room",
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "R Lounge",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Rockefeller Center",
+      "candidates": [
+        "Times Square",
+        "Chelsea Market",
+        "Brooklyn Bridge",
+        "Rockefeller Center",
+        "The High Line",
+        "SUMMIT One Vanderbilt",
+        "Manhattan Skyline",
+        "Central Park",
+        "The Oculus",
+        "One World Observatory",
+        "Empire State Building",
+        "Top of the Rock",
+        "New York Public Library",
+        "Staten Island Ferry",
+        "Statue of Liberty",
+        "Grand Central Terminal",
+        "The National 9/11 Memorial & Museum",
+        "American Museum of Natural History",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Broadway Lounge",
+      "candidates": [
+        "Broadway Lounge",
+        "Lobster Place",
+        "BOOM",
+        "R Lounge",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Lobster Place",
+      "candidates": [
+        "Lobster Place",
+        "BOOM",
+        "R Lounge",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Standard 1 King at Hotel Indigo Williamsburg",
+      "candidates": [
+        "Standard 1 King at Hotel Indigo Williamsburg",
+        "One King room at Brooklyn",
+        "Dazzling Oasis | Times Square. Restaurant",
+        "One Bedroom 2 Queen room at Brooklyn",
+        "NYC Bliss | Sightseeing. Fitness Center",
+        "East Village, Private room with access to garden",
+        "Serenity at the Heart of NYC l No Cleaning fee",
+        "Minimal room 1 SofaBed + loft bed in Manhattan"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "BOOM",
+      "candidates": [
+        "BOOM",
+        "R Lounge",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Times Square",
+      "candidates": [
+        "Times Square",
+        "Chelsea Market",
+        "Brooklyn Bridge",
+        "The High Line",
+        "SUMMIT One Vanderbilt",
+        "Manhattan Skyline",
+        "Central Park",
+        "The Oculus",
+        "One World Observatory",
+        "Empire State Building",
+        "Top of the Rock",
+        "New York Public Library",
+        "Staten Island Ferry",
+        "Statue of Liberty",
+        "Grand Central Terminal",
+        "The National 9/11 Memorial & Museum",
+        "American Museum of Natural History",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "R Lounge",
+      "candidates": [
+        "R Lounge",
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Bryant Park Grill",
+      "candidates": [
+        "Bryant Park Grill",
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from New York to Martha's Vineyard",
+      "candidates": [
+        "Transfer, from New York to Martha's Vineyard"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Westway Diner",
+      "candidates": [
+        "Harry's",
+        "Westway Diner",
+        "Burger & Lobster",
+        "Times Square Diner",
+        "Gaonnuri",
+        "Peak Restaurant & Bar",
+        "Mari Vanna",
+        "Bstro 38",
+        "RH Rooftop Restaurant New York",
+        "Carmine's",
+        "Sylvia's Restaurant",
+        "Rao's Restaurant",
+        "Manhatta",
+        "FIG & OLIVE",
+        "Gallaghers Steakhouse",
+        "Nobu Fifty Seven",
+        "Central Park Boathouse",
+        "Papillon Bistro & Bar",
+        "La Grande Boucherie",
+        "Blue Smoke Battery Park City",
+        "Sarge’s Delicatessen & Diner",
+        "The Skylark - Rooftop Bar",
+        "Trattoria Trecolori",
+        "Piccola Cucina Estiatorio",
+        "Azalea Ristorante",
+        "Del Frisco's Grille",
+        "Lillie's Victorian Establishment",
+        "Piccola Cucina Osteria",
+        "Del Frisco's Double Eagle Steakhouse"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Chelsea Market",
+      "candidates": [
+        "Chelsea Market",
+        "Brooklyn Bridge",
+        "The High Line",
+        "SUMMIT One Vanderbilt",
+        "Manhattan Skyline",
+        "Central Park",
+        "The Oculus",
+        "One World Observatory",
+        "Empire State Building",
+        "Top of the Rock",
+        "New York Public Library",
+        "Staten Island Ferry",
+        "Statue of Liberty",
+        "Grand Central Terminal",
+        "The National 9/11 Memorial & Museum",
+        "American Museum of Natural History",
+        "The Metropolitan Museum of Art"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Martha's Vineyard to New York",
+      "transportation": "Taxi, from Martha's Vineyard to New York, Duration: 405.94166666666666 mins, Distance: 428.0015 km, Estimated Cost: $428.00",
+      "accommodation": "NYC Bliss | Sightseeing. Fitness Center",
+      "breakfast": "Rainbow Room",
+      "attractions": [
+        "Rockefeller Center"
+      ],
+      "lunch": "Broadway Lounge",
+      "dinner": "Lobster Place",
+      "poi_blocks": [
+        {
+          "name": "NYC Bliss | Sightseeing. Fitness Center",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "W 34 ST/BROADWAY",
+          "dist_m": 60.68
+        },
+        {
+          "name": "NYC Bliss | Sightseeing. Fitness Center",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "W 34 ST/BROADWAY",
+          "dist_m": 60.68
+        },
+        {
+          "name": "Rainbow Room",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 50 ST/AVENUE OF THE AMERICAS",
+          "dist_m": 92.4
+        },
+        {
+          "name": "Rockefeller Center",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "W 49 ST/5 AV",
+          "dist_m": 88.57
+        },
+        {
+          "name": "Broadway Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "7 AV/W 44 ST",
+          "dist_m": 146.82
+        },
+        {
+          "name": "Lobster Place",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 138.2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from New York to New York",
+      "transportation": "-",
+      "accommodation": "Standard 1 King at Hotel Indigo Williamsburg",
+      "breakfast": "BOOM",
+      "attractions": [
+        "Times Square"
+      ],
+      "lunch": "R Lounge",
+      "dinner": "Bryant Park Grill",
+      "poi_blocks": [
+        {
+          "name": "Standard 1 King at Hotel Indigo Williamsburg",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "FDR DR/555 FDR DR",
+          "dist_m": 1963.47
+        },
+        {
+          "name": "Standard 1 King at Hotel Indigo Williamsburg",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "FDR DR/555 FDR DR",
+          "dist_m": 1963.47
+        },
+        {
+          "name": "BOOM",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 126.07
+        },
+        {
+          "name": "Times Square",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "7 AV/W 44 ST",
+          "dist_m": 171.17
+        },
+        {
+          "name": "R Lounge",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "W 49 ST/7 AV",
+          "dist_m": 131.04
+        },
+        {
+          "name": "Bryant Park Grill",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "5 AV/W 42 ST",
+          "dist_m": 147.14
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from New York to Martha's Vineyard",
+      "transportation": "Transfer, from New York to Martha's Vineyard",
+      "accommodation": "-",
+      "breakfast": "Westway Diner",
+      "attractions": [
+        "Chelsea Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Standard 1 King at Hotel Indigo Williamsburg",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "FDR DR/555 FDR DR",
+          "dist_m": 1963.47
+        },
+        {
+          "name": "Westway Diner",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "9 AV/W 44 ST",
+          "dist_m": 44.32
+        },
+        {
+          "name": "Chelsea Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "W 14 ST/WASHINGTON ST",
+          "dist_m": 131.35
+        }
+      ]
+    }
+  ]
+}

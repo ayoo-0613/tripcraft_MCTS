@@ -1,7 +1,7 @@
 {
   "idx": 27,
-  "reward": 13.137136333330782,
-  "budget_used": 1187.0,
+  "reward": 12.23122236843162,
+  "budget_used": 1195.0,
   "action_trace": [
     {
       "day": 1,
@@ -17,19 +17,17 @@
       "day": 1,
       "slot": "accommodation",
       "action_type": "set_accommodation",
-      "chosen": "A single room for your stay",
+      "chosen": "Downtown Digs-Spacious Loft",
       "candidates": [
         "Centrally Located Lex Apartment!",
         "Lexington Home for Bluegrass Adventures",
         "Canopy of trees",
         "Downtown Digs-Spacious Loft",
-        "A single room for your stay",
         "Cozy BoHo Paradise - Elegantly Peaceful",
         "Luxurious 1-bedroom with free parking on premise",
         "Lexington Apt. with parking & private entrance",
         "New! One Bedroom Apt - Close to Everything",
         "Lovely Downtown Apt 1 Block from Rupp!",
-        "EmeraldShinobi Villa Plus",
         "Convenient for 2, No cleaning fee Discounts to 10%",
         "Unique Stay - 1907 Log Cabin Near Kentucky River",
         "Cozy Downtown Apt - 1 block from Rupp"
@@ -73,7 +71,7 @@
       "day": 1,
       "slot": "attraction1",
       "action_type": "add_attraction1",
-      "chosen": "Thoroughbred Park",
+      "chosen": "Blue Grass Tours",
       "candidates": [
         "Blue Grass Tours",
         "Keeneland",
@@ -176,13 +174,11 @@
         "Lexington Home for Bluegrass Adventures",
         "Canopy of trees",
         "Downtown Digs-Spacious Loft",
-        "A single room for your stay",
         "Cozy BoHo Paradise - Elegantly Peaceful",
         "Luxurious 1-bedroom with free parking on premise",
         "Lexington Apt. with parking & private entrance",
         "New! One Bedroom Apt - Close to Everything",
         "Lovely Downtown Apt 1 Block from Rupp!",
-        "EmeraldShinobi Villa Plus",
         "Convenient for 2, No cleaning fee Discounts to 10%",
         "Unique Stay - 1907 Log Cabin Near Kentucky River",
         "Cozy Downtown Apt - 1 block from Rupp"
@@ -223,10 +219,10 @@
       "day": 2,
       "slot": "attraction1",
       "action_type": "add_attraction1",
-      "chosen": "Blue Grass Tours",
+      "chosen": "Keeneland",
       "candidates": [
-        "Blue Grass Tours",
         "Keeneland",
+        "Thoroughbred Park",
         "Lexington Cemetery",
         "Lexington Visitors Center",
         "Kentucky Horse Park",
@@ -237,45 +233,6 @@
     {
       "day": 2,
       "slot": "lunch",
-      "action_type": "set_lunch",
-      "chosen": "Keeneland Track Kitchen",
-      "candidates": [
-        "BRU Burger Bar Lexington",
-        "Josie's",
-        "The Rackhouse Tavern",
-        "Dudley's on Short",
-        "The Ketch Seafood Grill",
-        "Malone's Hamburg",
-        "Bella Notte",
-        "Frank And Dino’s",
-        "Coles 735 Main",
-        "Distilled Restaurant & Bourbon Bar",
-        "J. Alexander's Restaurant",
-        "Malone's Palomar",
-        "The Blue Heron Steakhouse",
-        "Keeneland Track Kitchen",
-        "Ramsey's Diner Zandale",
-        "Pies & Pints",
-        "Taj India Indian Restaurant",
-        "Sutton's Family Italian Restaurant",
-        "Carson's Food & Drink - On Main",
-        "Harry's American Bar & Grill",
-        "Joe Bologna's Restaurant and Pizzeria",
-        "Giuseppe's Ristorante Italiano"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "attraction2",
-      "action_type": "skip_attraction2",
-      "chosen": "-",
-      "candidates": [
-        "-"
-      ]
-    },
-    {
-      "day": 2,
-      "slot": "dinner",
       "action_type": "end_day",
       "chosen": "-",
       "candidates": null
@@ -302,29 +259,29 @@
       "day": 1,
       "current_city": "from Charlotte to Lexington",
       "transportation": "Taxi, from Charlotte to Lexington, Duration: 475.10999999999996 mins, Distance: 606.9498000000001 km, Estimated Cost: $606.95",
-      "accommodation": "A single room for your stay",
+      "accommodation": "Downtown Digs-Spacious Loft",
       "breakfast": "Lockbox",
       "attractions": [
-        "Thoroughbred Park"
+        "Blue Grass Tours"
       ],
       "lunch": "The Triangle Grille",
       "dinner": "OBC Kitchen",
       "poi_blocks": [
         {
-          "name": "A single room for your stay",
+          "name": "Downtown Digs-Spacious Loft",
           "kind": "stay",
           "start": "08:00",
           "end": "09:00",
-          "nearest_transit": "Chandler Hospital",
-          "dist_m": 202.96
+          "nearest_transit": "4th @ Johnson",
+          "dist_m": 167.44
         },
         {
-          "name": "A single room for your stay",
+          "name": "Downtown Digs-Spacious Loft",
           "kind": "stay",
           "start": "22:15",
           "end": "08:00",
-          "nearest_transit": "Chandler Hospital",
-          "dist_m": 202.96
+          "nearest_transit": "4th @ Johnson",
+          "dist_m": 167.44
         },
         {
           "name": "Lockbox",
@@ -335,12 +292,12 @@
           "dist_m": 116.85
         },
         {
-          "name": "Thoroughbred Park",
+          "name": "Blue Grass Tours",
           "kind": "visit",
           "start": "11:30",
-          "end": "16:50",
-          "nearest_transit": "Midland @ Short",
-          "dist_m": 112.6
+          "end": "15:05",
+          "nearest_transit": "Enterprise @ 780 Inbound",
+          "dist_m": 154.91
         },
         {
           "name": "The Triangle Grille",
@@ -367,9 +324,9 @@
       "accommodation": "Centrally Located Lex Apartment!",
       "breakfast": "Double Dogs",
       "attractions": [
-        "Blue Grass Tours"
+        "Keeneland"
       ],
-      "lunch": "Keeneland Track Kitchen",
+      "lunch": "-",
       "dinner": "-",
       "poi_blocks": [
         {
@@ -397,20 +354,12 @@
           "dist_m": 166.09
         },
         {
-          "name": "Blue Grass Tours",
+          "name": "Keeneland",
           "kind": "visit",
           "start": "11:30",
-          "end": "15:05",
-          "nearest_transit": "Enterprise @ 780 Inbound",
-          "dist_m": 154.91
-        },
-        {
-          "name": "Keeneland Track Kitchen",
-          "kind": "visit",
-          "start": "13:57",
-          "end": "14:56",
+          "end": "14:20",
           "nearest_transit": "Keeneland Race Track",
-          "dist_m": 480.33
+          "dist_m": 190.39
         }
       ]
     },

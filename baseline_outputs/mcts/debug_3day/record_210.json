@@ -1,0 +1,69 @@
+{
+  "idx": 210,
+  "JSON": {
+    "org": "Raleigh",
+    "dest": "Tampa",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-18",
+      "2024-11-19",
+      "2024-11-20"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Chinese",
+        "Indian",
+        "Italian"
+      ],
+      "room type": "entire home",
+      "transportation": "no flight",
+      "event": null,
+      "attraction": "sights and landmarks"
+    },
+    "budget": 1500.0,
+    "query": "Plan a 3-day trip for 2 people from Raleigh to Tampa from November 18th to November 20th, 2024, with a budget of $1,500. Accommodations should be an entire home. The trip should include visits to sights and landmarks, and dining options should feature Chinese, Indian, and Italian cuisines. Transportation should not involve flights.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Raleigh to Tampa",
+      "transportation": "Taxi, from Raleigh to Tampa, Duration: 728.44 mins, Distance: 1044.7846 km, Estimated Cost: $1044.78",
+      "breakfast": "Yummy House China Bistro, Tampa",
+      "attraction": "Adventure Island, Tampa",
+      "lunch": "Bernini Restaurant, Tampa",
+      "dinner": "La Terrazza Restaurant, Tampa",
+      "accommodation": "Amazing Apt by Tampa Airport!, Tampa",
+      "event": "-",
+      "point_of_interest_list": "Amazing Apt by Tampa Airport!, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 12976.06m away; Yummy House China Bistro, visit from 09:25 to 10:16, nearest transit: Busch Gardens Employee Entrance, 5274.93m away; Adventure Island, visit from 11:30 to 17:20, nearest transit: Adventure Island Employee Entrance, 210.63m away; Bernini Restaurant, visit from 13:57 to 14:56, nearest transit: Busch Gardens Employee Entrance, 9397.67m away; La Terrazza Restaurant, visit from 19:51 to 21:00, nearest transit: Busch Gardens Employee Entrance, 9415.25m away; Amazing Apt by Tampa Airport!, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 12976.06m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Tampa to Tampa",
+      "transportation": "Transfer, from Tampa to Tampa",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "The Gardens, Tampa",
+      "event": "-",
+      "point_of_interest_list": "The Gardens, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 13888.49m away; The Gardens, stay from 22:15 to 08:00, nearest transit: U Mall to MSC, 13888.49m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Tampa to Raleigh",
+      "transportation": "Transfer, from Tampa to Raleigh",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "The Gardens, stay from 08:00 to 09:00, nearest transit: U Mall to MSC, 13888.49m away."
+    }
+  ]
+}

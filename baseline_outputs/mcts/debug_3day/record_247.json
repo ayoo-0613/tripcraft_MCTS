@@ -1,0 +1,68 @@
+{
+  "idx": 247,
+  "JSON": {
+    "org": "Madison",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23"
+    ],
+    "people_number": 3,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "Italian",
+        "French"
+      ],
+      "room type": null,
+      "transportation": null,
+      "event": "museums",
+      "attraction": null
+    },
+    "budget": 4950.0,
+    "query": "Plan a 3-day trip for 3 people traveling from Madison to New York from November 21st to November 23rd, 2024. The budget is $4,950. Include visits to museums and dining options featuring Italian and French cuisine.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Madison to New York",
+      "transportation": "Taxi, from Madison to New York, Duration: 1054.9716666666668 mins, Distance: 1514.6925 km, Estimated Cost: $1514.69",
+      "breakfast": "Carmine's, New York",
+      "attraction": "SUMMIT One Vanderbilt, New York; Times Square, New York",
+      "lunch": "FIG & OLIVE, New York",
+      "dinner": "Rao's Restaurant, New York",
+      "accommodation": "Dazzling Oasis | Times Square. Restaurant, New York",
+      "event": "-",
+      "point_of_interest_list": "Dazzling Oasis | Times Square. Restaurant, stay from 08:00 to 09:00, nearest transit: W 50 ST/7 AV, 82.76m away; Carmine's, visit from 09:25 to 10:16, nearest transit: 7 AV/W 44 ST, 61.95m away; SUMMIT One Vanderbilt, visit from 11:30 to 13:57, nearest transit: E 42 ST/MADISON AV, 28.59m away; FIG & OLIVE, visit from 13:57 to 14:56, nearest transit: 5 AV/W 52 ST, 84.16m away; Times Square, visit from 16:30 to 18:27, nearest transit: 7 AV/W 44 ST, 171.17m away; Rao's Restaurant, visit from 19:51 to 21:00, nearest transit: E 116 ST/PLEASANT AV, 168.60m away; Dazzling Oasis | Times Square. Restaurant, stay from 22:15 to 08:00, nearest transit: W 50 ST/7 AV, 82.76m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "La Grande Boucherie, New York",
+      "attraction": "Brooklyn Bridge, New York; Rockefeller Center, New York",
+      "lunch": "Papillon Bistro & Bar, New York",
+      "dinner": "Trattoria Trecolori, New York",
+      "accommodation": "Standard 1 King at Hotel Indigo Williamsburg, New York",
+      "event": "-",
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; La Grande Boucherie, visit from 09:25 to 10:16, nearest transit: 7 AV/W 54 ST, 124.66m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Papillon Bistro & Bar, visit from 13:57 to 14:56, nearest transit: MADISON AV/E 53 ST, 82.27m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away; Trattoria Trecolori, visit from 19:51 to 21:00, nearest transit: 8 AV/W 46 ST, 97.17m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 22:15 to 08:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to Madison",
+      "transportation": "Flight Number: F0161114, from New York to Madison, Departure Time: 08:05, Arrival Time: 09:26",
+      "breakfast": "-",
+      "attraction": "-",
+      "lunch": "-",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 06:35 to 07:35, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
+    }
+  ]
+}

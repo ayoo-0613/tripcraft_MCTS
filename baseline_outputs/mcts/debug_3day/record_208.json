@@ -1,0 +1,69 @@
+{
+  "idx": 208,
+  "JSON": {
+    "org": "St. Louis",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-21",
+      "2024-11-22",
+      "2024-11-23"
+    ],
+    "people_number": 7,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": [
+        "French",
+        "Mediterranean",
+        "Italian"
+      ],
+      "room type": "entire home",
+      "transportation": "no self-driving",
+      "event": null,
+      "attraction": "food and drink"
+    },
+    "budget": 9450.0,
+    "query": "Plan a 3-day trip for 7 people from St. Louis to Seattle from November 21st to November 23rd, 2024, with a budget of $9,450. Accommodations should be an entire home, and no self-driving transportation is allowed. Include dining options featuring French, Mediterranean, and Italian cuisines, as well as attractions related to food and drink.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from St. Louis to Seattle",
+      "transportation": "Flight Number: F0253112, from St. Louis to Seattle, Departure Time: 06:56, Arrival Time: 09:22",
+      "breakfast": "-",
+      "attraction": "Space Needle, Seattle",
+      "lunch": "Lola, Seattle",
+      "dinner": "Tulio, Seattle",
+      "accommodation": "Cozy room near UW, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Cozy room near UW, stay from 09:52 to 10:52, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Lola, visit from 13:57 to 14:56, nearest transit: Virginia St & 4th Ave, 26.10m away; Tulio, visit from 19:51 to 21:00, nearest transit: 5th Ave & Spring St, 55.15m away; Cozy room near UW, stay from 22:15 to 08:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "Spinasse, Seattle",
+      "attraction": "Seattle Aquarium, Seattle",
+      "lunch": "The Pink Door, Seattle",
+      "dinner": "Rocco's, Seattle",
+      "accommodation": "Cozy room near UW, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Spinasse, visit from 09:25 to 10:16, nearest transit: E Pine St & 15th Ave, 90.45m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; The Pink Door, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Stewart St, 176.00m away; Rocco's, visit from 19:51 to 21:00, nearest transit: 3rd Ave & Bell St, 90.96m away; Cozy room near UW, stay from 22:15 to 08:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to St. Louis",
+      "transportation": "Taxi, from Seattle to St. Louis, Not feasible to drive from Seattle to St. Louis",
+      "breakfast": "Tilikum Place Cafe, Seattle",
+      "attraction": "Seattle Center, Seattle",
+      "lunch": "Il Terrazzo Carmine, Seattle",
+      "dinner": "Place Pigalle Restaurant and Bar, Seattle",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Cozy room near UW, stay from 08:00 to 09:00, nearest transit: 24th Ave E & Boyer Ave E, 117.13m away; Tilikum Place Cafe, visit from 09:25 to 10:16, nearest transit: Denny Way & 5th Ave N, 65.89m away; Seattle Center, visit from 11:30 to 16:05, nearest transit: Seattle Center, 84.22m away; Il Terrazzo Carmine, visit from 13:57 to 14:56, nearest transit: Alaskan Way S & S Jackson St, 103.57m away; Place Pigalle Restaurant and Bar, visit from 19:51 to 21:00, nearest transit: 2nd Ave & Pike St, 154.30m away."
+    }
+  ]
+}

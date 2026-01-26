@@ -1,0 +1,69 @@
+{
+  "idx": 320,
+  "JSON": {
+    "org": "Charleston",
+    "dest": "New York",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-23",
+      "2024-11-24",
+      "2024-11-25"
+    ],
+    "people_number": 4,
+    "local_constraint": {
+      "house rule": "no visitors",
+      "cuisine": [
+        "Italian",
+        "French",
+        "Contemporary"
+      ],
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": "sights and landmarks"
+    },
+    "budget": 4500.0,
+    "query": "Plan a 3-day trip for 4 people from Charleston to New York from November 23rd to November 25th, 2024, with a budget of $4,500. Accommodations should be an entire home that allows visitors. Include dining options featuring Italian, French, or Contemporary cuisine, and prioritize visits to sights and landmarks.",
+    "level": "hard"
+  },
+  "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Charleston to New York",
+      "transportation": "Taxi, from Charleston to New York, Duration: 873.2083333333334 mins, Distance: 1221.3724 km, Estimated Cost: $1221.37",
+      "breakfast": "Rainbow Room, New York",
+      "attraction": "Times Square, New York; Manhattan Skyline, New York",
+      "lunch": "BOOM, New York",
+      "dinner": "R Lounge, New York",
+      "accommodation": "NYC Bliss | Sightseeing. Fitness Center, New York",
+      "event": "-",
+      "point_of_interest_list": "NYC Bliss | Sightseeing. Fitness Center, stay from 08:00 to 09:00, nearest transit: W 34 ST/BROADWAY, 60.68m away; Rainbow Room, visit from 09:25 to 10:16, nearest transit: W 50 ST/AVENUE OF THE AMERICAS, 92.40m away; Times Square, visit from 11:30 to 13:27, nearest transit: 7 AV/W 44 ST, 171.17m away; BOOM, visit from 13:57 to 14:56, nearest transit: W 14 ST/WASHINGTON ST, 126.07m away; Manhattan Skyline, visit from 16:30 to 18:57, nearest transit: EAST BROADWAY/FORSYTH ST, 67.74m away; R Lounge, visit from 19:51 to 21:00, nearest transit: W 49 ST/7 AV, 131.04m away; NYC Bliss | Sightseeing. Fitness Center, stay from 22:15 to 08:00, nearest transit: W 34 ST/BROADWAY, 60.68m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from New York to New York",
+      "transportation": "Transfer, from New York to New York",
+      "breakfast": "Carmine's, New York",
+      "attraction": "Chelsea Market, New York; Rockefeller Center, New York",
+      "lunch": "FIG & OLIVE, New York",
+      "dinner": "Manhatta, New York",
+      "accommodation": "Standard 1 King at Hotel Indigo Williamsburg, New York",
+      "event": "-",
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Carmine's, visit from 09:25 to 10:16, nearest transit: 7 AV/W 44 ST, 61.95m away; Chelsea Market, visit from 11:30 to 12:27, nearest transit: W 14 ST/WASHINGTON ST, 131.35m away; FIG & OLIVE, visit from 13:57 to 14:56, nearest transit: 5 AV/W 52 ST, 84.16m away; Rockefeller Center, visit from 16:30 to 18:57, nearest transit: W 49 ST/5 AV, 88.57m away; Manhatta, visit from 19:51 to 21:00, nearest transit: BROADWAY/THAMES ST, 199.51m away; Standard 1 King at Hotel Indigo Williamsburg, stay from 22:15 to 08:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from New York to Charleston",
+      "transportation": "Transfer, from New York to Charleston",
+      "breakfast": "Rao's Restaurant, New York",
+      "attraction": "Brooklyn Bridge, New York; SUMMIT One Vanderbilt, New York",
+      "lunch": "Papillon Bistro & Bar, New York",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Standard 1 King at Hotel Indigo Williamsburg, stay from 08:00 to 09:00, nearest transit: FDR DR/555 FDR DR, 1963.47m away; Rao's Restaurant, visit from 09:25 to 10:16, nearest transit: E 116 ST/PLEASANT AV, 168.60m away; Brooklyn Bridge, visit from 11:30 to 13:57, nearest transit: PEARL ST/PECK SLIP, 511.19m away; Papillon Bistro & Bar, visit from 13:57 to 14:56, nearest transit: MADISON AV/E 53 ST, 82.27m away; SUMMIT One Vanderbilt, visit from 16:30 to 18:57, nearest transit: E 42 ST/MADISON AV, 28.59m away."
+    }
+  ]
+}

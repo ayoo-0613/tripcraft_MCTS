@@ -1,0 +1,686 @@
+{
+  "idx": 271,
+  "reward": 17.178145442085928,
+  "budget_used": 1298.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West",
+      "candidates": [
+        "Flight Number: F0986596, from Houston to Key West, Departure Time: 12:22, Arrival Time: 15:57",
+        "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Yacht Your Ordinary Airbnb",
+      "candidates": [
+        "Yacht Your Ordinary Airbnb",
+        "Nuns Room, A single travelers delight!",
+        "Charming Houseboat in Key West",
+        "Poolside Truman Annex 2 Bed | Conch Life Condo",
+        "Stay on the Roxie!",
+        "Dockside 2BD Monte Carlo @ Perry Marina",
+        "Full houseboat with large observation deck",
+        "Newly renovated + Free Full Breakfast - Queen Room",
+        "Newly renovated + Free Full Breakfast - King Bed",
+        "At Mine | Key West Suite steps from Duval Street"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sunset Pier",
+      "candidates": [
+        "Sunset Pier",
+        "Blue Heaven",
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Duval Street",
+      "candidates": [
+        "Mallory Square",
+        "Southernmost Point",
+        "The Overseas Highway",
+        "Duval Street",
+        "Truman Little White House",
+        "Higgs Beach",
+        "Key West Garden Club",
+        "US 1 Mile Marker 0",
+        "The Ernest Hemingway Home and Museum",
+        "Mel Fisher Maritime Heritage Museum",
+        "Smathers Beach",
+        "Florida Keys Eco-Discovery Center",
+        "Hemingway Rum -Papa's Pilar Distillery",
+        "Key West Butterfly and Nature Conservatory",
+        "U.S. Coast Guard Cutter Ingham Maritime Museum",
+        "Key West Lighthouse and Keeper's Quarters Museum",
+        "Fort Zachary Taylor Historic State Park",
+        "Key West Shipwreck Museum",
+        "Saint Mary Star of the Sea"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Blue Heaven",
+      "candidates": [
+        "Blue Heaven",
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Prime Steakhouse",
+      "candidates": [
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Prime Steakhouse",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Yacht Your Ordinary Airbnb",
+      "candidates": [
+        "Yacht Your Ordinary Airbnb",
+        "Nuns Room, A single travelers delight!",
+        "Charming Houseboat in Key West",
+        "Poolside Truman Annex 2 Bed | Conch Life Condo",
+        "Stay on the Roxie!",
+        "Dockside 2BD Monte Carlo @ Perry Marina",
+        "Full houseboat with large observation deck",
+        "Newly renovated + Free Full Breakfast - Queen Room",
+        "Newly renovated + Free Full Breakfast - King Bed",
+        "At Mine | Key West Suite steps from Duval Street"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Thirsty Mermaid",
+      "candidates": [
+        "Thirsty Mermaid",
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Mallory Square",
+      "candidates": [
+        "Mallory Square",
+        "Southernmost Point",
+        "The Overseas Highway",
+        "Truman Little White House",
+        "Higgs Beach",
+        "Key West Garden Club",
+        "US 1 Mile Marker 0",
+        "The Ernest Hemingway Home and Museum",
+        "Mel Fisher Maritime Heritage Museum",
+        "Smathers Beach",
+        "Florida Keys Eco-Discovery Center",
+        "Hemingway Rum -Papa's Pilar Distillery",
+        "Key West Butterfly and Nature Conservatory",
+        "U.S. Coast Guard Cutter Ingham Maritime Museum",
+        "Key West Lighthouse and Keeper's Quarters Museum",
+        "Fort Zachary Taylor Historic State Park",
+        "Key West Shipwreck Museum",
+        "Saint Mary Star of the Sea"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Seven Fish",
+      "candidates": [
+        "Seven Fish",
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Waterfront Brewery",
+      "candidates": [
+        "Waterfront Brewery",
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0987158, from Key West to Houston, Departure Time: 16:45, Arrival Time: 19:01",
+      "candidates": [
+        "Flight Number: F0987158, from Key West to Houston, Departure Time: 16:45, Arrival Time: 19:01",
+        "Taxi, from Key West to Houston, Not feasible to drive from Key West to Houston"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Onlywood Grill",
+      "candidates": [
+        "Onlywood Grill",
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Southernmost Point",
+      "candidates": [
+        "Southernmost Point",
+        "The Overseas Highway",
+        "Truman Little White House",
+        "Higgs Beach",
+        "Key West Garden Club",
+        "US 1 Mile Marker 0",
+        "The Ernest Hemingway Home and Museum",
+        "Mel Fisher Maritime Heritage Museum",
+        "Smathers Beach",
+        "Florida Keys Eco-Discovery Center",
+        "Hemingway Rum -Papa's Pilar Distillery",
+        "Key West Butterfly and Nature Conservatory",
+        "U.S. Coast Guard Cutter Ingham Maritime Museum",
+        "Key West Lighthouse and Keeper's Quarters Museum",
+        "Fort Zachary Taylor Historic State Park",
+        "Key West Shipwreck Museum",
+        "Saint Mary Star of the Sea"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Stoned Crab",
+      "candidates": [
+        "The Stoned Crab",
+        "Hot Tin Roof",
+        "Kaya island Eats",
+        "Two Friends Patio Restaurant",
+        "Bistro 245",
+        "Cafe Marquesa",
+        "Seaside Cafe at the Mansion",
+        "Harpoon Harry's",
+        "Key West Cuban Coffee Shop",
+        "The Lobster Shack Key West",
+        "A&B Lobster House",
+        "The Breakfast Club, Too",
+        "Latitudes - Sunset Key Cottages",
+        "Conch Republic Seafood Company",
+        "Moondog Cafe & Bakery",
+        "First Flight Island Restaurant & Brewery",
+        "Louie's Backyard",
+        "Red Shoe Island Bistro",
+        "El Siboney Restaurant",
+        "Boat House Bar & Grill",
+        "Salute! On The Beach",
+        "Santiago's Bodega",
+        "Frita's Cuban Burger Cafe",
+        "The Flaming Buoy Filet Co.",
+        "Pepe's Cafe",
+        "La Trattoria Oceanside",
+        "Clemente's Trolley Pizzeria",
+        "El Meson De Pepe's Restaurant & Bar"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Houston to Key West",
+      "transportation": "Taxi, from Houston to Key West, Not feasible to drive from Houston to Key West",
+      "accommodation": "Yacht Your Ordinary Airbnb",
+      "breakfast": "Sunset Pier",
+      "attractions": [
+        "Duval Street"
+      ],
+      "lunch": "Blue Heaven",
+      "dinner": "Prime Steakhouse",
+      "poi_blocks": [
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Sunset Pier",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Whitehead & Greene St.",
+          "dist_m": 318.33
+        },
+        {
+          "name": "Duval Street",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Simonton & Dey St.",
+          "dist_m": 269.63
+        },
+        {
+          "name": "Blue Heaven",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Petronia & Whitehead",
+          "dist_m": 73.82
+        },
+        {
+          "name": "Prime Steakhouse",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Caroline & Grinnell",
+          "dist_m": 4.21
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Key West to Key West",
+      "transportation": "-",
+      "accommodation": "Yacht Your Ordinary Airbnb",
+      "breakfast": "Thirsty Mermaid",
+      "attractions": [
+        "Mallory Square"
+      ],
+      "lunch": "Seven Fish",
+      "dinner": "Waterfront Brewery",
+      "poi_blocks": [
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Thirsty Mermaid",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Simonton & Southard St.",
+          "dist_m": 200.66
+        },
+        {
+          "name": "Mallory Square",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:05",
+          "nearest_transit": "Whitehead & Greene St.",
+          "dist_m": 235.56
+        },
+        {
+          "name": "Seven Fish",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Truman & Grinnell",
+          "dist_m": 19.45
+        },
+        {
+          "name": "Waterfront Brewery",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Caroline & William",
+          "dist_m": 119.49
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Key West to Houston",
+      "transportation": "Flight Number: F0987158, from Key West to Houston, Departure Time: 16:45, Arrival Time: 19:01",
+      "accommodation": "-",
+      "breakfast": "Onlywood Grill",
+      "attractions": [
+        "Southernmost Point"
+      ],
+      "lunch": "The Stoned Crab",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Yacht Your Ordinary Airbnb",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "5th Ave & Shrimp Road (Opposite El Siboney)",
+          "dist_m": 398.1
+        },
+        {
+          "name": "Onlywood Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Caroline & William",
+          "dist_m": 28.22
+        },
+        {
+          "name": "Southernmost Point",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "Whitehead & United",
+          "dist_m": 162.79
+        },
+        {
+          "name": "The Stoned Crab",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "N Roosevelt & Key Plaza",
+          "dist_m": 245.78
+        }
+      ]
+    }
+  ]
+}

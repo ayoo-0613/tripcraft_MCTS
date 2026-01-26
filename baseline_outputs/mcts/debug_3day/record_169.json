@@ -1,0 +1,65 @@
+{
+  "idx": 169,
+  "JSON": {
+    "org": "Santa Rosa",
+    "dest": "Seattle",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-24",
+      "2024-11-25",
+      "2024-11-26"
+    ],
+    "people_number": 1,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 1500.0,
+    "query": "Plan a 3-day trip for 1 person from Santa Rosa to Seattle from November 24th to November 26th, 2024, with a budget of $1,500. Accommodations should include an entire home.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Santa Rosa to Seattle",
+      "transportation": "Flight Number: F0514692, from Santa Rosa to Seattle, Departure Time: 07:06, Arrival Time: 09:15",
+      "breakfast": "-",
+      "attraction": "Space Needle, Seattle",
+      "lunch": "Metropolitan Grill, Seattle",
+      "dinner": "Lola, Seattle",
+      "accommodation": "Queen Anne Courtyard Suite, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Queen Anne Courtyard Suite, stay from 08:00 to 09:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away; Queen Anne Courtyard Suite, stay from 09:45 to 10:45, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away; Space Needle, visit from 11:30 to 15:20, nearest transit: Seattle Center, 101.77m away; Metropolitan Grill, visit from 13:57 to 14:56, nearest transit: 2nd Ave & Marion St, 39.95m away; Lola, visit from 19:51 to 21:00, nearest transit: Virginia St & 4th Ave, 26.10m away; Queen Anne Courtyard Suite, stay from 22:15 to 08:00, nearest transit: Queen Anne Ave N & W Howe St, 58.44m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Seattle to Seattle",
+      "transportation": "Transfer, from Seattle to Seattle",
+      "breakfast": "13 Coins Restaurant, Seattle",
+      "attraction": "Discovery Park, Seattle",
+      "lunch": "The Capital Grille, Seattle",
+      "dinner": "Canlis Restaurant, Seattle",
+      "accommodation": "Magical Mountain Retreat and Sauna, Seattle",
+      "event": "-",
+      "point_of_interest_list": "Magical Mountain Retreat and Sauna, stay from 08:00 to 09:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away; 13 Coins Restaurant, visit from 09:25 to 10:16, nearest transit: King Street Station, 107.40m away; Discovery Park, visit from 11:30 to 16:50, nearest transit: Discovery Park Road & Texas Way, 604.23m away; The Capital Grille, visit from 13:57 to 14:56, nearest transit: 4th Ave & University, 41.04m away; Canlis Restaurant, visit from 19:51 to 21:00, nearest transit: Dexter Ave N & Wheeler St, 87.69m away; Magical Mountain Retreat and Sauna, stay from 22:15 to 08:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Seattle to Santa Rosa",
+      "transportation": "Flight Number: F0515222, from Seattle to Santa Rosa, Departure Time: 18:08, Arrival Time: 20:01",
+      "breakfast": "Wild Ginger, Seattle",
+      "attraction": "Seattle Aquarium, Seattle",
+      "lunch": "Tulio, Seattle",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Magical Mountain Retreat and Sauna, stay from 08:00 to 09:00, nearest transit: S Alder Ave & E Stanley St, 9276.19m away; Wild Ginger, visit from 09:25 to 10:16, nearest transit: 3rd Ave & Pike St, 13.86m away; Seattle Aquarium, visit from 11:30 to 15:50, nearest transit: 2nd Ave & Pike St, 363.98m away; Tulio, visit from 13:57 to 14:56, nearest transit: 5th Ave & Spring St, 55.15m away."
+    }
+  ]
+}

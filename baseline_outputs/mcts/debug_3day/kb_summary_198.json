@@ -1,0 +1,59 @@
+{
+  "idx": 198,
+  "stages": [
+    {
+      "city": "New York",
+      "counts": {
+        "attractions": 19,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Dallas",
+      "to": "New York",
+      "date": "2024-11-03",
+      "raw": "Flight Number: F0009344, from Dallas to New York, Departure Time: 17:35, Arrival Time: 21:44"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Dallas",
+      "to": "New York",
+      "date": null,
+      "raw": "Self-driving, from Dallas to New York, Not feasible to drive from Dallas to New York"
+    },
+    {
+      "mode": "taxi",
+      "from": "Dallas",
+      "to": "New York",
+      "date": null,
+      "raw": "Taxi, from Dallas to New York, Not feasible to drive from Dallas to New York"
+    },
+    {
+      "mode": "flight",
+      "from": "New York",
+      "to": "Dallas",
+      "date": "2024-11-05",
+      "raw": "Flight Number: F0059549, from New York to Dallas, Departure Time: 11:28, Arrival Time: 14:15"
+    },
+    {
+      "mode": "self-driving",
+      "from": "New York",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Self-driving, from New York to Dallas, Not feasible to drive from New York to Dallas"
+    },
+    {
+      "mode": "taxi",
+      "from": "New York",
+      "to": "Dallas",
+      "date": null,
+      "raw": "Taxi, from New York to Dallas, Not feasible to drive from New York to Dallas"
+    }
+  ]
+}

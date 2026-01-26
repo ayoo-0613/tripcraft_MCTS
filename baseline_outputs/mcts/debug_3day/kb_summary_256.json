@@ -1,0 +1,59 @@
+{
+  "idx": 256,
+  "stages": [
+    {
+      "city": "Colorado Springs",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 19,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Las Vegas",
+      "to": "Colorado Springs",
+      "date": "2024-11-17",
+      "raw": "Flight Number: F0092582, from Las Vegas to Colorado Springs, Departure Time: 16:03, Arrival Time: 18:30"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Las Vegas",
+      "to": "Colorado Springs",
+      "date": null,
+      "raw": "Self-driving, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $65.47"
+    },
+    {
+      "mode": "taxi",
+      "from": "Las Vegas",
+      "to": "Colorado Springs",
+      "date": null,
+      "raw": "Taxi, from Las Vegas to Colorado Springs, Duration: 844.2 mins, Distance: 1309.3198 km, Estimated Cost: $1309.32"
+    },
+    {
+      "mode": "flight",
+      "from": "Colorado Springs",
+      "to": "Las Vegas",
+      "date": "2024-11-19",
+      "raw": "Flight Number: F0018785, from Colorado Springs to Las Vegas, Departure Time: 05:40, Arrival Time: 06:34"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Colorado Springs",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Self-driving, from Colorado Springs to Las Vegas, Duration: 842.7216666666667 mins, Distance: 1310.3346999999999 km, Estimated Cost: $65.52"
+    },
+    {
+      "mode": "taxi",
+      "from": "Colorado Springs",
+      "to": "Las Vegas",
+      "date": null,
+      "raw": "Taxi, from Colorado Springs to Las Vegas, Duration: 842.7216666666667 mins, Distance: 1310.3346999999999 km, Estimated Cost: $1310.33"
+    }
+  ]
+}

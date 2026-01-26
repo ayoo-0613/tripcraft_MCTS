@@ -1,0 +1,689 @@
+{
+  "idx": 310,
+  "reward": 16.50546073510303,
+  "budget_used": 1035.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
+      "candidates": [
+        "Flight Number: F0019707, from Las Vegas to Ontario, Departure Time: 07:51, Arrival Time: 08:50",
+        "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Breathtaking Lakeview Condo | Free Parking",
+      "candidates": [
+        "Amazing Condo Heart of Downtown + 1 Free Parking",
+        "3rd floor-Amsterdam Room",
+        "Cozy Room in Midtown Toronto",
+        "Breathtaking Lakeview Condo | Free Parking",
+        "Private Hideaway Downtown, Private Entrance",
+        "Away to Relax! Lake View, 2nd floor, Private Bath",
+        "Comfy & Clean Room - Little Italy :)",
+        "Near Airport Free Parking Private Clean Bedrm #1"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sunset Grill",
+      "candidates": [
+        "Sunset Grill",
+        "The Everest Grill",
+        "Beijing Restaurant",
+        "Shanghai Restaurant",
+        "Healthy Rabbit",
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Butterfly Conservatory",
+      "candidates": [
+        "Butterfly Conservatory",
+        "White Water Walk",
+        "CN Tower",
+        "Little Canada",
+        "Steam Whistle Brewery",
+        "Casa Loma",
+        "Skylon Tower",
+        "Toronto Island Park",
+        "Niagara Falls Canada",
+        "Chateau Des Charmes Winery",
+        "St. Lawrence Market",
+        "Rogers Centre",
+        "Royal Ontario Museum",
+        "Distillery Historic District",
+        "Hockey Hall of Fame",
+        "Konzelmann Estate Winery",
+        "Ripley's Aquarium of Canada",
+        "Art Gallery of Ontario"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Everest Grill",
+      "candidates": [
+        "The Everest Grill",
+        "Beijing Restaurant",
+        "Shanghai Restaurant",
+        "Healthy Rabbit",
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "White Water Walk",
+      "candidates": [
+        "White Water Walk",
+        "CN Tower",
+        "Little Canada",
+        "Steam Whistle Brewery",
+        "Casa Loma",
+        "Skylon Tower",
+        "Toronto Island Park",
+        "Niagara Falls Canada",
+        "Chateau Des Charmes Winery",
+        "St. Lawrence Market",
+        "Rogers Centre",
+        "Royal Ontario Museum",
+        "Distillery Historic District",
+        "Hockey Hall of Fame",
+        "Konzelmann Estate Winery",
+        "Ripley's Aquarium of Canada",
+        "Art Gallery of Ontario"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Beijing Restaurant",
+      "candidates": [
+        "Beijing Restaurant",
+        "Shanghai Restaurant",
+        "Healthy Rabbit",
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Amazing Condo Heart of Downtown + 1 Free Parking",
+      "candidates": [
+        "Amazing Condo Heart of Downtown + 1 Free Parking",
+        "3rd floor-Amsterdam Room",
+        "Cozy Room in Midtown Toronto",
+        "Breathtaking Lakeview Condo | Free Parking",
+        "Private Hideaway Downtown, Private Entrance",
+        "Away to Relax! Lake View, 2nd floor, Private Bath",
+        "Comfy & Clean Room - Little Italy :)",
+        "Near Airport Free Parking Private Clean Bedrm #1"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Shanghai Restaurant",
+      "candidates": [
+        "Shanghai Restaurant",
+        "Healthy Rabbit",
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "CN Tower",
+      "candidates": [
+        "CN Tower",
+        "Little Canada",
+        "Steam Whistle Brewery",
+        "Casa Loma",
+        "Skylon Tower",
+        "Toronto Island Park",
+        "Niagara Falls Canada",
+        "Chateau Des Charmes Winery",
+        "St. Lawrence Market",
+        "Rogers Centre",
+        "Royal Ontario Museum",
+        "Distillery Historic District",
+        "Hockey Hall of Fame",
+        "Konzelmann Estate Winery",
+        "Ripley's Aquarium of Canada",
+        "Art Gallery of Ontario"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Healthy Rabbit",
+      "candidates": [
+        "Healthy Rabbit",
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "add_attraction2",
+      "chosen": "Little Canada",
+      "candidates": [
+        "Little Canada",
+        "Steam Whistle Brewery",
+        "Casa Loma",
+        "Skylon Tower",
+        "Toronto Island Park",
+        "Niagara Falls Canada",
+        "Chateau Des Charmes Winery",
+        "St. Lawrence Market",
+        "Rogers Centre",
+        "Royal Ontario Museum",
+        "Distillery Historic District",
+        "Hockey Hall of Fame",
+        "Konzelmann Estate Winery",
+        "Ripley's Aquarium of Canada",
+        "Art Gallery of Ontario"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Cafe Andreou",
+      "candidates": [
+        "Cafe Andreou",
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+      "candidates": [
+        "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+        "Taxi, from Ontario to Las Vegas, Not feasible to drive from Ontario to Las Vegas"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Kingswood Restaurant",
+      "candidates": [
+        "Kingswood Restaurant",
+        "Duke on Park",
+        "China King Restaurant",
+        "Blessings Eatery",
+        "Homestead Cafe and Museum",
+        "The Golden Teapot",
+        "Sai Thai Kitchen",
+        "Sociable Kitchen & Tavern",
+        "The Olde School Restaurant",
+        "Joy Sushi",
+        "Yong Great Wall Buffet",
+        "Hudson Public Kitchen + Bar",
+        "On The Lam Restaurant",
+        "Taal Fine Indian Cuisine",
+        "Crazy Canuck Smokehouse",
+        "Gran Sasso Restaurant",
+        "Angel's Diner",
+        "Sammy's Rec Room",
+        "St. Louis Bar & Grill",
+        "Al Dente Pizza Pasta Grill",
+        "Jumbo Dragon Chinese Restaurant",
+        "Luciani's Pizza",
+        "Nine North Viet-Thai Cuisine",
+        "The WORKS Craft Burgers & Beer",
+        "Kel's Family Restaurant",
+        "Speekezzies Cafe & Wine Bar",
+        "Zander's Fire Grill and Brew Lounge",
+        "Zaza's Pizzzeria",
+        "The Keg Steakhouse + Bar - Brantford"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Steam Whistle Brewery",
+      "candidates": [
+        "Steam Whistle Brewery",
+        "Casa Loma",
+        "Skylon Tower",
+        "Toronto Island Park",
+        "Niagara Falls Canada",
+        "Chateau Des Charmes Winery",
+        "St. Lawrence Market",
+        "Rogers Centre",
+        "Royal Ontario Museum",
+        "Distillery Historic District",
+        "Hockey Hall of Fame",
+        "Konzelmann Estate Winery",
+        "Ripley's Aquarium of Canada",
+        "Art Gallery of Ontario"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Las Vegas to Ontario",
+      "transportation": "Taxi, from Las Vegas to Ontario, Not feasible to drive from Las Vegas to Ontario",
+      "accommodation": "Breathtaking Lakeview Condo | Free Parking",
+      "breakfast": "Sunset Grill",
+      "attractions": [
+        "Butterfly Conservatory",
+        "White Water Walk"
+      ],
+      "lunch": "The Everest Grill",
+      "dinner": "Beijing Restaurant",
+      "poi_blocks": [
+        {
+          "name": "Breathtaking Lakeview Condo | Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Exhibition GO",
+          "dist_m": 1030.92
+        },
+        {
+          "name": "Breathtaking Lakeview Condo | Free Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Exhibition GO",
+          "dist_m": 1030.92
+        },
+        {
+          "name": "Sunset Grill",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 513.23
+        },
+        {
+          "name": "Butterfly Conservatory",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:27",
+          "nearest_transit": "Niagara Falls GO",
+          "dist_m": 3035.92
+        },
+        {
+          "name": "The Everest Grill",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Wayne Gretzky Pkwy. @ Chatham St.",
+          "dist_m": 721.26
+        },
+        {
+          "name": "White Water Walk",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "20:12",
+          "nearest_transit": "Niagara Falls GO",
+          "dist_m": 328.08
+        },
+        {
+          "name": "Beijing Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 2199.42
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Ontario to Ontario",
+      "transportation": "-",
+      "accommodation": "Amazing Condo Heart of Downtown + 1 Free Parking",
+      "breakfast": "Shanghai Restaurant",
+      "attractions": [
+        "CN Tower",
+        "Little Canada"
+      ],
+      "lunch": "Healthy Rabbit",
+      "dinner": "Cafe Andreou",
+      "poi_blocks": [
+        {
+          "name": "Amazing Condo Heart of Downtown + 1 Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Union Station",
+          "dist_m": 1935.82
+        },
+        {
+          "name": "Amazing Condo Heart of Downtown + 1 Free Parking",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Union Station",
+          "dist_m": 1935.82
+        },
+        {
+          "name": "Shanghai Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Wayne Gretzky Pkwy. @ Chatham St.",
+          "dist_m": 1490.23
+        },
+        {
+          "name": "CN Tower",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:57",
+          "nearest_transit": "Union Station",
+          "dist_m": 598.48
+        },
+        {
+          "name": "Healthy Rabbit",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 642.61
+        },
+        {
+          "name": "Little Canada",
+          "kind": "visit",
+          "start": "16:30",
+          "end": "18:57",
+          "nearest_transit": "Union Station",
+          "dist_m": 1278.56
+        },
+        {
+          "name": "Cafe Andreou",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 384.54
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Ontario to Las Vegas",
+      "transportation": "Flight Number: F0050572, from Ontario to Las Vegas, Departure Time: 14:00, Arrival Time: 14:49",
+      "accommodation": "-",
+      "breakfast": "Kingswood Restaurant",
+      "attractions": [
+        "Steam Whistle Brewery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Amazing Condo Heart of Downtown + 1 Free Parking",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Union Station",
+          "dist_m": 1935.82
+        },
+        {
+          "name": "Kingswood Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Brantford Bus Terminal",
+          "dist_m": 833.84
+        },
+        {
+          "name": "Steam Whistle Brewery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:43",
+          "nearest_transit": "Union Station",
+          "dist_m": 649.77
+        }
+      ]
+    }
+  ]
+}

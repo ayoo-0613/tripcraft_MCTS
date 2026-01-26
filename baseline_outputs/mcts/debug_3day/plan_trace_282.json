@@ -1,0 +1,263 @@
+{
+  "idx": 282,
+  "reward": 8.095230074863785,
+  "budget_used": 1496.5,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74",
+      "candidates": [
+        "Flight Number: F2559024, from Newburgh to Savannah, Departure Time: 16:02, Arrival Time: 18:24",
+        "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Room Near Starland District",
+      "candidates": [
+        "Delightful barn loft apartment.",
+        "The Garden Tiny House",
+        "Beautiful Sunny Room",
+        "Cozy Room Near Starland District",
+        "The Green Gecko",
+        "Historic District Perch with Cathedral Views!",
+        "Historic District Garden Apartment at Forsyth Park",
+        "King bedroom private bathroom",
+        "Midnight Inn Suite: Historic Savannah Retreat!",
+        "Perfect location! Home on Forsyth!",
+        "Secret Riverfront Sanctuary With Incredible Views!",
+        "Luxe Townhome in Historic Downtown Savannah",
+        "Starlander Ltd.: The Coffee Suite, w/ private bath",
+        "King Bed, Very Walkable Location! By FREE Shuttle"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Common Restaurant",
+      "candidates": [
+        "Common Restaurant",
+        "River House",
+        "Noble Fare",
+        "Alligator Soul",
+        "Driftaway Cafe",
+        "1540 Room",
+        "The Grey",
+        "Crystal Beer Parlor",
+        "Madame Butterfly",
+        "The Collins Quarter",
+        "Toast! All Day",
+        "Belford's Savannah",
+        "Cotton & Rye",
+        "Mrs. Wilkes Dining Room",
+        "The Public Kitchen & Bar",
+        "Little Duck Diner",
+        "17 Hundred 90 Restaurant",
+        "Planters Tavern",
+        "Rocks on the Roof",
+        "Olde Pink House Restaurant",
+        "The Cotton Exchange Tavern & Restaurant",
+        "Goose Feathers Cafe & Bakery",
+        "Wright Square Bistro",
+        "The Pirates' House",
+        "Garibaldi's Cafe",
+        "Jazz'd Tapas Bar",
+        "Boar's Head Grill & Tavern",
+        "Chive Sea Bar & Lounge",
+        "Stone & Webster Chophouse",
+        "B. Matthew's Eatery",
+        "Huey's On The River",
+        "Bella Napoli Italian Bistro",
+        "Wiley's Championship BBQ",
+        "Vic's On the River",
+        "Vinnie Van Go-Go's"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "City Market",
+      "candidates": [
+        "City Market",
+        "Forsyth Park",
+        "Old Fort Jackson",
+        "SCADstory",
+        "American Prohibition Museum",
+        "Historic River Street",
+        "Webb Military Museum",
+        "Pin Point Heritage Museum",
+        "Historic Savannah Theatre",
+        "First African Baptist Church",
+        "Congregation Mickve Israel",
+        "Savannah Historic District",
+        "Wormsloe Historic Site",
+        "The Olde Pink House",
+        "Cathedral of St. John the Baptist",
+        "The Old Sorrel Weed House Museum & Tours",
+        "Owens-Thomas House & Slave Quarters",
+        "Bonaventure Cemetery",
+        "Skidaway Island State Park",
+        "Chippewa Square"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Savannah to Newburgh",
+      "candidates": [
+        "Transfer, from Savannah to Newburgh"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Newburgh to Savannah",
+      "transportation": "Taxi, from Newburgh to Savannah, Duration: 993.6550000000001 mins, Distance: 1386.7441999999999 km, Estimated Cost: $1386.74",
+      "accommodation": "Cozy Room Near Starland District",
+      "breakfast": "Common Restaurant",
+      "attractions": [
+        "City Market"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Cozy Room Near Starland District",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "E BROAD & 35th NB",
+          "dist_m": 65.21
+        },
+        {
+          "name": "Cozy Room Near Starland District",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "E BROAD & 35th NB",
+          "dist_m": 65.21
+        },
+        {
+          "name": "Common Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "DRAYTON & BROUGHTON",
+          "dist_m": 62.61
+        },
+        {
+          "name": "City Market",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:35",
+          "nearest_transit": "CONGRESS & JEFFERSON",
+          "dist_m": 51.55
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Savannah to Savannah",
+      "transportation": "-",
+      "accommodation": "King Bed, Very Walkable Location! By FREE Shuttle",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "ABERCORN & 33rd SB",
+          "dist_m": 35.1
+        },
+        {
+          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "ABERCORN & 33rd SB",
+          "dist_m": 35.1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Savannah to Newburgh",
+      "transportation": "Transfer, from Savannah to Newburgh",
+      "accommodation": "-",
+      "breakfast": "-",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "King Bed, Very Walkable Location! By FREE Shuttle",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "ABERCORN & 33rd SB",
+          "dist_m": 35.1
+        }
+      ]
+    }
+  ]
+}

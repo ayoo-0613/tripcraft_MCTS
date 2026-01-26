@@ -1,0 +1,59 @@
+{
+  "idx": 285,
+  "stages": [
+    {
+      "city": "Houston",
+      "counts": {
+        "attractions": 20,
+        "restaurants": 35,
+        "accommodations": 18,
+        "poi2transit": 75,
+        "events": 0
+      }
+    }
+  ],
+  "transports": [
+    {
+      "mode": "flight",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": "2024-11-23",
+      "raw": "Flight Number: F0076039, from Memphis to Houston, Departure Time: 05:37, Arrival Time: 07:06"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": null,
+      "raw": "Self-driving, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $45.62"
+    },
+    {
+      "mode": "taxi",
+      "from": "Memphis",
+      "to": "Houston",
+      "date": null,
+      "raw": "Taxi, from Memphis to Houston, Duration: 625.41 mins, Distance: 912.3689 km, Estimated Cost: $912.37"
+    },
+    {
+      "mode": "flight",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": "2024-11-25",
+      "raw": "Flight Number: F0097214, from Houston to Memphis, Departure Time: 15:11, Arrival Time: 16:56"
+    },
+    {
+      "mode": "self-driving",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Self-driving, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $45.57"
+    },
+    {
+      "mode": "taxi",
+      "from": "Houston",
+      "to": "Memphis",
+      "date": null,
+      "raw": "Taxi, from Houston to Memphis, Duration: 625.0183333333333 mins, Distance: 911.4177 km, Estimated Cost: $911.42"
+    }
+  ]
+}

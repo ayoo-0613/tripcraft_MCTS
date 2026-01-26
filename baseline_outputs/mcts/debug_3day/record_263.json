@@ -1,0 +1,65 @@
+{
+  "idx": 263,
+  "JSON": {
+    "org": "Seattle",
+    "dest": "Charleston",
+    "days": 3,
+    "visiting_city_number": 1,
+    "date": [
+      "2024-11-11",
+      "2024-11-12",
+      "2024-11-13"
+    ],
+    "people_number": 2,
+    "local_constraint": {
+      "house rule": null,
+      "cuisine": null,
+      "room type": "entire home",
+      "transportation": null,
+      "event": null,
+      "attraction": null
+    },
+    "budget": 5850.0,
+    "query": "Plan a 3-day trip for 2 people from Seattle to Charleston from November 11th to November 13th, 2024, with a budget of $5,850. Accommodations should include an entire home.",
+    "level": "medium"
+  },
+  "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+  "plan": [
+    {
+      "days": 1,
+      "current_city": "from Seattle to Charleston",
+      "transportation": "Taxi, from Seattle to Charleston, Not feasible to drive from Seattle to Charleston",
+      "breakfast": "Revival, Charleston",
+      "attraction": "The Citadel, Charleston",
+      "lunch": "Charleston Grill, Charleston",
+      "dinner": "Magnolias, Charleston",
+      "accommodation": "Lodge Alley Inn Steps to Charleston Harbor -Studio, Charleston",
+      "event": "-",
+      "point_of_interest_list": "Lodge Alley Inn Steps to Charleston Harbor -Studio, stay from 08:00 to 09:00, nearest transit: East Bay St / Vendue Range, 68.87m away; Revival, visit from 09:25 to 10:16, nearest transit: East Bay St / Vendue Range, 37.70m away; The Citadel, visit from 11:30 to 15:20, nearest transit: Elmwood Ave / Moultrie St, 174.87m away; Charleston Grill, visit from 13:57 to 14:56, nearest transit: King St / Market St, 36.10m away; Magnolias, visit from 19:51 to 21:00, nearest transit: East Bay St / Vendue Range, 58.40m away; Lodge Alley Inn Steps to Charleston Harbor -Studio, stay from 22:15 to 08:00, nearest transit: East Bay St / Vendue Range, 68.87m away."
+    },
+    {
+      "days": 2,
+      "current_city": "from Charleston to Charleston",
+      "transportation": "Transfer, from Charleston to Charleston",
+      "breakfast": "Peninsula Grill, Charleston",
+      "attraction": "Middleton Place, Charleston",
+      "lunch": "The Ordinary, Charleston",
+      "dinner": "FIG, Charleston",
+      "accommodation": "Waterfront Home Near Downtown!, Charleston",
+      "event": "-",
+      "point_of_interest_list": "Waterfront Home Near Downtown!, stay from 08:00 to 09:00, nearest transit: Folly Rd / Patterson Ave, 2495.09m away; Peninsula Grill, visit from 09:25 to 10:16, nearest transit: Market St / Meeting St, 23.88m away; Middleton Place, visit from 11:30 to 16:05, nearest transit: Dorchester Rd / Park Forest Pkwy, 3298.85m away; The Ordinary, visit from 13:57 to 14:56, nearest transit: King St / Cannon St, 22.53m away; FIG, visit from 19:51 to 21:00, nearest transit: Meeting St / Hasell St, 35.30m away; Waterfront Home Near Downtown!, stay from 22:15 to 08:00, nearest transit: Folly Rd / Patterson Ave, 2495.09m away."
+    },
+    {
+      "days": 3,
+      "current_city": "from Charleston to Seattle",
+      "transportation": "Flight Number: F0248118, from Charleston to Seattle, Departure Time: 18:49, Arrival Time: 21:29",
+      "breakfast": "Gingerline, Charleston",
+      "attraction": "The Charleston Museum, Charleston",
+      "lunch": "Husk Restaurant, Charleston",
+      "dinner": "-",
+      "accommodation": "-",
+      "event": "-",
+      "point_of_interest_list": "Waterfront Home Near Downtown!, stay from 08:00 to 09:00, nearest transit: Folly Rd / Patterson Ave, 2495.09m away; Gingerline, visit from 09:25 to 10:16, nearest transit: Market St / Meeting St, 185.22m away; The Charleston Museum, visit from 11:30 to 15:20, nearest transit: Charleston Museum / Visitors Center, 4.15m away; Husk Restaurant, visit from 13:57 to 14:56, nearest transit: Meeting St / Queen St, 76.78m away."
+    }
+  ]
+}

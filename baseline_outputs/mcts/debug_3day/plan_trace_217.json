@@ -1,0 +1,541 @@
+{
+  "idx": 217,
+  "reward": 14.590720409153883,
+  "budget_used": 1492.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett",
+      "candidates": [
+        "Flight Number: F0510917, from Tucson to Everett, Departure Time: 14:06, Arrival Time: 17:19",
+        "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Cozy Room in Healing Home",
+      "candidates": [
+        "Private room rental",
+        "Cozy Room in Healing Home",
+        "Large Room with Private Bathroom"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Vintage Cafe",
+      "candidates": [
+        "Vintage Cafe",
+        "The Irishmen",
+        "Curries In Everett",
+        "La Palmera Family Mexican",
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Ray's Drive In",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Escape Everett",
+      "candidates": [
+        "Escape Everett",
+        "At Large Brewing",
+        "Legion Park",
+        "Imagine Children's Museum",
+        "Spencer Island Park",
+        "Everett Farmers Market",
+        "Jetty Island",
+        "Thornton Sullivan Park",
+        "The Historic Everett Theatre",
+        "Grand Avenue Park",
+        "Port of Everett Marina",
+        "Village Theatre - Everett",
+        "Howarth Park",
+        "Museum of Flight Restoration Center",
+        "Angel of the Winds Arena",
+        "Narbeck Wetland Sanctuary Park",
+        "Schack Art Center",
+        "Flying Heritage & Combat Armor Museum",
+        "Evergreen Arboretum & Gardens"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "The Irishmen",
+      "candidates": [
+        "The Irishmen",
+        "Curries In Everett",
+        "La Palmera Family Mexican",
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Ray's Drive In",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Ray's Drive In",
+      "candidates": [
+        "Curries In Everett",
+        "La Palmera Family Mexican",
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Ray's Drive In",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Private room rental",
+      "candidates": [
+        "Private room rental",
+        "Cozy Room in Healing Home",
+        "Large Room with Private Bathroom"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Curries In Everett",
+      "candidates": [
+        "Curries In Everett",
+        "La Palmera Family Mexican",
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "At Large Brewing",
+      "candidates": [
+        "At Large Brewing",
+        "Legion Park",
+        "Imagine Children's Museum",
+        "Spencer Island Park",
+        "Everett Farmers Market",
+        "Jetty Island",
+        "Thornton Sullivan Park",
+        "The Historic Everett Theatre",
+        "Grand Avenue Park",
+        "Port of Everett Marina",
+        "Village Theatre - Everett",
+        "Howarth Park",
+        "Museum of Flight Restoration Center",
+        "Angel of the Winds Arena",
+        "Narbeck Wetland Sanctuary Park",
+        "Schack Art Center",
+        "Flying Heritage & Combat Armor Museum",
+        "Evergreen Arboretum & Gardens"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "La Palmera Family Mexican",
+      "candidates": [
+        "La Palmera Family Mexican",
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Anthony's Homeport",
+      "candidates": [
+        "Anthony's Homeport",
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+      "candidates": [
+        "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+        "Taxi, from Everett to Tucson, Not feasible to drive from Everett to Tucson"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Tampico Mexican Restaurant",
+      "candidates": [
+        "Tampico Mexican Restaurant",
+        "Major League Pizza",
+        "Emory's on Silver Lake",
+        "Terracotta Red Bistro",
+        "Wendy's Country Cafe",
+        "Buck's American Cafe",
+        "Anthony's Woodfire Grill",
+        "Brooklyn Brothers Pizzeria",
+        "Capers + Olives",
+        "Chianti Italian Restaurant",
+        "El Paraiso Mexican Grill",
+        "Mazatlan Restaurant",
+        "Lombardi's Italian Restaurant & Wine Bar",
+        "Shawn O'Donnell's American Grill and Irish Pub",
+        "J Ramen and Sushi",
+        "Nick's Jr Burgers and Gyros",
+        "Kate's Greek & American Deli",
+        "Scuttlebutt Brewing Co",
+        "Bluewater Organic Distilling: Bar & Bistro"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "skip_attraction1",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Tucson to Everett",
+      "transportation": "Taxi, from Tucson to Everett, Not feasible to drive from Tucson to Everett",
+      "accommodation": "Cozy Room in Healing Home",
+      "breakfast": "Vintage Cafe",
+      "attractions": [
+        "Escape Everett"
+      ],
+      "lunch": "The Irishmen",
+      "dinner": "Ray's Drive In",
+      "poi_blocks": [
+        {
+          "name": "Cozy Room in Healing Home",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "BROADWAY & 21ST ST - NB",
+          "dist_m": 256.71
+        },
+        {
+          "name": "Cozy Room in Healing Home",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "BROADWAY & 21ST ST - NB",
+          "dist_m": 256.71
+        },
+        {
+          "name": "Vintage Cafe",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "HEWITT AVE & HOYT AVE - WB",
+          "dist_m": 44.63
+        },
+        {
+          "name": "Escape Everett",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "13:50",
+          "nearest_transit": "MAPLE ST & PACIFIC AVE - SB",
+          "dist_m": 48.26
+        },
+        {
+          "name": "The Irishmen",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "WETMORE AVE & HEWITT AVE - NB",
+          "dist_m": 94.94
+        },
+        {
+          "name": "Ray's Drive In",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "BROADWAY & 14TH ST - SB",
+          "dist_m": 43.08
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Everett to Everett",
+      "transportation": "-",
+      "accommodation": "Private room rental",
+      "breakfast": "Curries In Everett",
+      "attractions": [
+        "At Large Brewing"
+      ],
+      "lunch": "La Palmera Family Mexican",
+      "dinner": "Anthony's Homeport",
+      "poi_blocks": [
+        {
+          "name": "Private room rental",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "19TH AVE SE & 116TH ST SE - NB",
+          "dist_m": 2248.62
+        },
+        {
+          "name": "Private room rental",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "19TH AVE SE & 116TH ST SE - NB",
+          "dist_m": 2248.62
+        },
+        {
+          "name": "Curries In Everett",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "EVERGREEN WAY & 73RD - SB",
+          "dist_m": 34.5
+        },
+        {
+          "name": "At Large Brewing",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "14:50",
+          "nearest_transit": "W MARINE VIEW DR & CALIFORNIA ST - NB",
+          "dist_m": 38.11
+        },
+        {
+          "name": "La Palmera Family Mexican",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "EVERGREEN WAY & 116TH - SB",
+          "dist_m": 207.06
+        },
+        {
+          "name": "Anthony's Homeport",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "W MARINE VIEW DR & 16TH ST - SB",
+          "dist_m": 690.67
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Everett to Tucson",
+      "transportation": "Flight Number: F0511444, from Everett to Tucson, Departure Time: 12:21, Arrival Time: 15:21",
+      "accommodation": "-",
+      "breakfast": "Tampico Mexican Restaurant",
+      "attractions": [],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Private room rental",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "19TH AVE SE & 116TH ST SE - NB",
+          "dist_m": 2248.62
+        },
+        {
+          "name": "Tampico Mexican Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "BROADWAY & 23RD ST - SB",
+          "dist_m": 37.15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "idx": 277,
+  "reward": 15.751984039923975,
+  "budget_used": 1487.0,
+  "action_trace": [
+    {
+      "day": 1,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
+      "candidates": [
+        "Flight Number: F0391184, from Chicago to Lexington, Departure Time: 20:37, Arrival Time: 22:57",
+        "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "The FLAT at Bell Place - Downtown/Horse Park",
+      "candidates": [
+        "Luxurious 1-bedroom with free parking on premise",
+        "New! One Bedroom Apt - Close to Everything",
+        "The FLAT at Bell Place - Downtown/Horse Park",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "Downtown Apt-1 block from Main-Free Parking",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Frank And Dino’s",
+      "candidates": [
+        "Frank And Dino’s",
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Pies & Pints",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Blue Grass Tours",
+      "candidates": [
+        "Blue Grass Tours",
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Kentucky Horse Park",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Bella Notte",
+      "candidates": [
+        "Bella Notte",
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Pies & Pints",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Taj India Indian Restaurant",
+      "candidates": [
+        "Taj India Indian Restaurant",
+        "Sutton's Family Italian Restaurant",
+        "Pies & Pints",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 1,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 2,
+      "slot": "accommodation",
+      "action_type": "set_accommodation",
+      "chosen": "Luxurious 1-bedroom with free parking on premise",
+      "candidates": [
+        "Luxurious 1-bedroom with free parking on premise",
+        "New! One Bedroom Apt - Close to Everything",
+        "The FLAT at Bell Place - Downtown/Horse Park",
+        "Lovely Downtown Apt 1 Block from Rupp!",
+        "Downtown Apt-1 block from Main-Free Parking",
+        "Cozy Downtown Apt - 1 block from Rupp"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Sutton's Family Italian Restaurant",
+      "candidates": [
+        "Sutton's Family Italian Restaurant",
+        "Pies & Pints",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Thoroughbred Park",
+      "candidates": [
+        "Thoroughbred Park",
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Kentucky Horse Park",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "lunch",
+      "action_type": "set_lunch",
+      "chosen": "Pies & Pints",
+      "candidates": [
+        "Pies & Pints",
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "dinner",
+      "action_type": "set_dinner",
+      "chosen": "Joe Bologna's Restaurant and Pizzeria",
+      "candidates": [
+        "Joe Bologna's Restaurant and Pizzeria",
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 2,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    },
+    {
+      "day": 3,
+      "slot": "transport",
+      "action_type": "set_transport",
+      "chosen": "Transfer, from Lexington to Chicago",
+      "candidates": [
+        "Transfer, from Lexington to Chicago"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "breakfast",
+      "action_type": "set_breakfast",
+      "chosen": "Giuseppe's Ristorante Italiano",
+      "candidates": [
+        "Giuseppe's Ristorante Italiano"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction1",
+      "action_type": "add_attraction1",
+      "chosen": "Lexington Cemetery",
+      "candidates": [
+        "Lexington Cemetery",
+        "Keeneland",
+        "Lexington Visitors Center",
+        "Kentucky Horse Park",
+        "James E. Pepper Distillery",
+        "Lexington Brewing & Distilling Co."
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "lunch",
+      "action_type": "skip_lunch",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "attraction2",
+      "action_type": "skip_attraction2",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "dinner",
+      "action_type": "skip_dinner",
+      "chosen": "-",
+      "candidates": [
+        "-"
+      ]
+    },
+    {
+      "day": 3,
+      "slot": "end_day",
+      "action_type": "end_day",
+      "chosen": "-",
+      "candidates": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "current_city": "from Chicago to Lexington",
+      "transportation": "Taxi, from Chicago to Lexington, Duration: 424.1 mins, Distance: 595.2691 km, Estimated Cost: $595.27",
+      "accommodation": "The FLAT at Bell Place - Downtown/Horse Park",
+      "breakfast": "Frank And Dino’s",
+      "attractions": [
+        "Blue Grass Tours"
+      ],
+      "lunch": "Bella Notte",
+      "dinner": "Taj India Indian Restaurant",
+      "poi_blocks": [
+        {
+          "name": "The FLAT at Bell Place - Downtown/Horse Park",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Midland @ Lewis",
+          "dist_m": 298.44
+        },
+        {
+          "name": "The FLAT at Bell Place - Downtown/Horse Park",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Midland @ Lewis",
+          "dist_m": 298.44
+        },
+        {
+          "name": "Frank And Dino’s",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "West Main @ 269",
+          "dist_m": 109.34
+        },
+        {
+          "name": "Blue Grass Tours",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:05",
+          "nearest_transit": "Enterprise @ 780 Inbound",
+          "dist_m": 154.91
+        },
+        {
+          "name": "Bella Notte",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "Nicholasville @ Mansion Apts",
+          "dist_m": 73.14
+        },
+        {
+          "name": "Taj India Indian Restaurant",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "Richmond @ Patchen",
+          "dist_m": 98.84
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "current_city": "from Lexington to Lexington",
+      "transportation": "-",
+      "accommodation": "Luxurious 1-bedroom with free parking on premise",
+      "breakfast": "Sutton's Family Italian Restaurant",
+      "attractions": [
+        "Thoroughbred Park"
+      ],
+      "lunch": "Pies & Pints",
+      "dinner": "Joe Bologna's Restaurant and Pizzeria",
+      "poi_blocks": [
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "22:15",
+          "end": "08:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "Sutton's Family Italian Restaurant",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Locust Hill @ Man-O-War Center/Kroger",
+          "dist_m": 91.39
+        },
+        {
+          "name": "Thoroughbred Park",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "16:50",
+          "nearest_transit": "Midland @ Short",
+          "dist_m": 112.6
+        },
+        {
+          "name": "Pies & Pints",
+          "kind": "visit",
+          "start": "13:57",
+          "end": "14:56",
+          "nearest_transit": "North Broadway @ Main Inbound",
+          "dist_m": 54.72
+        },
+        {
+          "name": "Joe Bologna's Restaurant and Pizzeria",
+          "kind": "visit",
+          "start": "19:51",
+          "end": "21:00",
+          "nearest_transit": "South Limestone @ Warren",
+          "dist_m": 115.87
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "current_city": "from Lexington to Chicago",
+      "transportation": "Transfer, from Lexington to Chicago",
+      "accommodation": "-",
+      "breakfast": "Giuseppe's Ristorante Italiano",
+      "attractions": [
+        "Lexington Cemetery"
+      ],
+      "lunch": "-",
+      "dinner": "-",
+      "poi_blocks": [
+        {
+          "name": "Luxurious 1-bedroom with free parking on premise",
+          "kind": "stay",
+          "start": "08:00",
+          "end": "09:00",
+          "nearest_transit": "Euclid @ Oldham Outbound",
+          "dist_m": 48.57
+        },
+        {
+          "name": "Giuseppe's Ristorante Italiano",
+          "kind": "visit",
+          "start": "09:25",
+          "end": "10:16",
+          "nearest_transit": "Wal Mart @ Nicholas Park",
+          "dist_m": 1206.73
+        },
+        {
+          "name": "Lexington Cemetery",
+          "kind": "visit",
+          "start": "11:30",
+          "end": "15:20",
+          "nearest_transit": "West Main @ 833",
+          "dist_m": 497.5
+        }
+      ]
+    }
+  ]
+}
