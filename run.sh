@@ -15,7 +15,7 @@ STRATEGIES=("llm_direct" "llm_cot" "llm_reflexion")
 
 for STRATEGY in "${STRATEGIES[@]}"; do
     for DAY in 3day 5day 7day; do
-        CSV_FILE="${ROOT_DIR}/TripCraft/Tripcraftzip/tripcraft_${DAY}.csv"
+        CSV_FILE="${ROOT_DIR}/Tripcraft/Tripcraftzip/tripcraft_${DAY}.csv"
         OUTPUT_SUBDIR="${OUTPUT_DIR}/${STRATEGY}/${DAY}"
         python tools/planner/sole_planning_mltp.py \
             --day $DAY \
