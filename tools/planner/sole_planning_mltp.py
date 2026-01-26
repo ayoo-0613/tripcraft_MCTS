@@ -165,6 +165,8 @@ if __name__ == "__main__":
     # Iterate over data and generate results
     with jsonl_ctx as jsonl_f, get_openai_callback() as cb:
         for number, query_data in enumerate(tqdm(query_data_list, desc="Processing data")):
+            if not query_data.get("idx"):
+                query_data["idx"] = number + 1
             if args.day == '3day':
                 reference_information = query_data['reference_information']
             elif args.day == '5day':
