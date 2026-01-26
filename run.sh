@@ -4,23 +4,21 @@
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Export environment variables with paths
-export OUTPUT_DIR="${ROOT_DIR}/output"    # Path to your output directory
-export MODEL_NAME="gpt-4o"     #qwen    #phi4             # Model name (you can change it as needed)
-export OPENAI_API_KEY="YOUR_OPENAI_KEY"             # Your OpenAI API key
+export OUTPUT_DIR="${ROOT_DIR}/llm_gen_plan"    # Path to your output directory
+export OUTPUT_JSONL_PREFIX="${OUTPUT_DIR}/llm_template_baseline"
+export MODEL_NAME="ollama:llama3.1:8b"     # qwen / phi4 / ollama:llama3.1:8b
+export OPENAI_API_KEY="YOUR_OPENAI_KEY"             # Your OpenAI API key (required for OpenAI models)
+# export MODEL_NAME="ollama:llama3.1:8b"           # Use local Ollama model (example)
+# export OLLAMA_MODEL="llama3.1:8b"                # Used when MODEL_NAME="ollama"
+export OLLAMA_BASE_URL="http://localhost:11434"   # Optional Ollama server URL
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                 # Your Google API key
-export DAY="3day"                                           # 3day/5day/7day
-export SET_TYPE="3day_gpt4o_orig"                            # Set type- name of folder in O/P directory where generated outputs get saved 
-export STRATEGY="direct_og"                                # direct_og / direct_param
-export CSV_FILE="${ROOT_DIR}/TripCraft/Tripcraftzip/tripcraft_3day.csv"  # Path to your CSV file
-
-# Navigate to the planner directory
-cd tools/planner
-
-# Run the Python script with the environment variables
-python sole_planning_mltp.py \
-    --day $DAY \
-    --set_type $SET_TYPE \
-    --output_dir $OUTPUT_DIR \
-    --csv_file $CSV_FILE \
-    --model_name $MODEL_NAME \
-    --strategy $STRATEGY
+export STRATEGY="direct"                                  # direct / cot / react / reflexion
+for DAY in 3day 5day 7day; do
+    CSV_FILE="${ROOT_DIR}/TripCraft/Tripcraftzip/tripcraft_${DAY}.csv"
+    OUTPUT_JSONL="${OUTPUT_JSONL_PREFIX}_${DAY}.jsonl"
+    python tools/planner/sole_planning_template_llm.py \
+        --output_jsonl $OUTPUT_JSONL \
+        --csv_file $CSV_FILE \
+        --model_name $MODEL_NAME \
+        --strategy $STRATEGY
+done

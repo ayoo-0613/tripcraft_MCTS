@@ -5,6 +5,10 @@ from langchain.prompts import PromptTemplate
 from agents.prompts import planner_agent_prompt_direct_og, planner_agent_prompt_direct_param
 # from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
+try:
+    from langchain_community.chat_models import ChatOllama
+except Exception:
+    ChatOllama = None
 from langchain.llms.base import BaseLLM
 # from langchain_community.llms import OpenAI
 from langchain.schema import (
@@ -25,7 +29,7 @@ import torch
 import argparse
 
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', '')
 # openai.api_key = OPENAI_API_KEY
 # GOOGLE_API_KEY = os.environ['GOOGLE_API_KEY']
 
@@ -61,6 +65,7 @@ class Planner:
         self.scratchpad: str = ''
         self.model_name = model_name
         self.enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+        self.ollama_model = None
         
         if model_name in ['qwen','phi4']:
             model_path = {
@@ -76,7 +81,20 @@ class Planner:
                 offload_folder="offload",  # Enables CPU offloading
                 attn_implementation="flash_attention_2"  # Speeds up inference
             )
+        elif model_name.startswith("ollama"):
+            if model_name == "ollama":
+                self.ollama_model = os.environ.get("OLLAMA_MODEL", "").strip()
+            else:
+                self.ollama_model = model_name.split(":", 1)[-1].strip()
+            if not self.ollama_model:
+                raise ValueError("OLLAMA model not set. Use MODEL_NAME='ollama:MODEL' or set OLLAMA_MODEL.")
+            if ChatOllama is None:
+                raise ImportError("ChatOllama is not available. Install langchain-community with Ollama support.")
+            base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
+            self.llm = ChatOllama(model=self.ollama_model, temperature=0, base_url=base_url)
         else:
+            if not OPENAI_API_KEY:
+                raise ValueError("OPENAI_API_KEY is not set.")
             self.llm = ChatOpenAI(model_name=model_name, temperature=0, max_tokens=4096, openai_api_key=OPENAI_API_KEY)
         
         print(f"PlannerAgent {model_name} loaded.")
@@ -98,6 +116,8 @@ class Planner:
                 generated_text = generated_text[response_start + len(prompt):].strip()
             
             return generated_text
+        elif self.ollama_model:
+            return self.llm([HumanMessage(content=prompt)]).content
         else:
             if len(self.enc.encode(prompt)) > 12000:
                 return 'Max Token Length Exceeded.'
