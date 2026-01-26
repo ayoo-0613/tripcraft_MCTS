@@ -418,19 +418,12 @@ class TemplateActionPlanner:
         from mcts_baseline.templater import make_output_record_template
 
         row = row_from_dict(query_data or {}, idx_default=1)
-        fallback_plan = json.dumps(make_output_record_template(row)["plan"], ensure_ascii=True)
-
-        try:
-            template_text = self.runner.chat(self.template_prompt.format(text=text, query=query, persona=persona))
-            parsed = _extract_json_array(template_text)
-            template_list = _normalize_plan(parsed) if parsed is not None else []
-        except Exception:
-            template_list = []
+        fallback_record = make_output_record_template(row)
 
         if not query_data:
-            return fallback_plan
+            return fallback_record
         if not row.ref_blocks:
-            return fallback_plan
+            return fallback_record
 
         try:
             from mcts_baseline.env import TripCraftEnv
@@ -440,15 +433,7 @@ class TemplateActionPlanner:
             kb = build_unified_kb(row.org, row.ref_blocks)
             env = TripCraftEnv(row=row, kb=kb, topk=self.topk)
             state = env.initial_state()
-            base_template = make_output_record_template(row)["plan"]
-            if not template_list:
-                template_list = base_template
-            elif len(template_list) < row.days:
-                for i, day in enumerate(template_list):
-                    base_template[i].update(day)
-                template_list = base_template
-            elif len(template_list) > row.days:
-                template_list = template_list[:row.days]
+            template_list = make_output_record_template(row)["plan"]
             for d in range(1, row.days + 1):
                 cc, _, _ = env._city_movement_for_day(d)
                 template_list[d - 1]["current_city"] = cc
@@ -496,9 +481,9 @@ class TemplateActionPlanner:
 
             template = make_output_record_template(row)
             record = fill_template_with_state(template, row, kb, state)
-            return json.dumps(record.get("plan", []), ensure_ascii=True)
+            return record
         except Exception:
-            return fallback_plan
+            return fallback_record
 
 
 class VerifierRepairPlanner:

@@ -194,11 +194,20 @@ if __name__ == "__main__":
             print(planner_results)
 
             if jsonl_f:
-                record = {
-                    "index": number + 1,
-                    f"{args.model_name}_{args.strategy}_sole-planning_results": planner_results,
-                }
-                json.dump(record, jsonl_f, ensure_ascii=True)
+                if (
+                    args.strategy == "template_action"
+                    and isinstance(planner_results, dict)
+                    and "plan" in planner_results
+                    and "JSON" in planner_results
+                    and "idx" in planner_results
+                ):
+                    json.dump(planner_results, jsonl_f, ensure_ascii=True)
+                else:
+                    record = {
+                        "index": number + 1,
+                        f"{args.model_name}_{args.strategy}_sole-planning_results": planner_results,
+                    }
+                    json.dump(record, jsonl_f, ensure_ascii=True)
                 jsonl_f.write("\n")
             else:
                 # Ensure the directory exists
@@ -217,7 +226,16 @@ if __name__ == "__main__":
                 # if args.strategy in ['react', 'reflexion']:
                 #     result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results_logs'] = scratchpad
 
-                result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results'] = planner_results
+                if (
+                    args.strategy == "template_action"
+                    and isinstance(planner_results, dict)
+                    and "plan" in planner_results
+                    and "JSON" in planner_results
+                    and "idx" in planner_results
+                ):
+                    result[-1] = planner_results
+                else:
+                    result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results'] = planner_results
 
                 # Write to JSON file
                 with open(result_file, 'w') as f:

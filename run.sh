@@ -2,15 +2,22 @@
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Export environment variables with paths
-export OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/llm_output/outputs}"  # Path to your output directory
+export OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/lama_output}"  # Path to your output directory
 export MODEL_NAME="ollama"                           # local ollama (or ollama:<model>)
 export OLLAMA_MODEL="llama3.1:8b"                    # required when MODEL_NAME=ollama
+export STRATEGY="template_action"                    # direct_og / direct_param / react / reflexion / verifier_repair / plan_execute / template_action
+export ACTION_STRATEGY="${ACTION_STRATEGY:-direct}"  # direct / react / reflexion (only for template_action)
 export OLLAMA_BASE_URL="http://localhost:11434"      # ollama server
 export OLLAMA_TIMEOUT="999"
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                 # Your Google API key
-export DAY="3day"                                           # 3day/5day/7day
-export SET_TYPE="3day_llama_para"                            # Set type- name of folder in O/P directory where generated outputs get saved 
-export STRATEGY="direct_param"                            # use planner_agent_prompt_direct_param
+export DAY="3day"                                   # 3day/5day/7day
+if [[ "$STRATEGY" == "template_action" ]]; then
+  export SET_TYPE="${SET_TYPE:-${STRATEGY}/${ACTION_STRATEGY}/${DAY}}"
+  export OUTPUT_JSONL="${OUTPUT_JSONL:-${OUTPUT_DIR}/${STRATEGY}/${ACTION_STRATEGY}/${DAY}.jsonl}"
+else
+  export SET_TYPE="${SET_TYPE:-${STRATEGY}/${DAY}}"
+  export OUTPUT_JSONL="${OUTPUT_JSONL:-${OUTPUT_DIR}/${STRATEGY}/${DAY}.jsonl}"
+fi
 export CSV_DIR="${ROOT_DIR}/Tripcraft/Tripcraftzip"
 if [[ ! -d "$CSV_DIR" ]]; then
   CSV_DIR="${ROOT_DIR}/TripCraft/Tripcraftzip"
@@ -27,4 +34,6 @@ python sole_planning_mltp.py \
     --output_dir $OUTPUT_DIR \
     --csv_file $CSV_FILE \
     --model_name $MODEL_NAME \
-    --strategy $STRATEGY
+    --strategy $STRATEGY \
+    ${ACTION_STRATEGY:+--action_strategy "$ACTION_STRATEGY"} \
+    --output_jsonl "$OUTPUT_JSONL"
