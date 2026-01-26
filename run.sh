@@ -18,6 +18,11 @@ else
   export SET_TYPE="${SET_TYPE:-${STRATEGY}/${DAY}}"
   export OUTPUT_JSONL="${OUTPUT_JSONL:-${OUTPUT_DIR}/${STRATEGY}/${DAY}.jsonl}"
 fi
+export ONE_SHOT="${ONE_SHOT:-1}"                    # 1 to use one-shot action selection
+ONE_SHOT_FLAG=""
+if [[ "$ONE_SHOT" == "1" ]]; then
+  ONE_SHOT_FLAG="--one_shot"
+fi
 export CSV_DIR="${ROOT_DIR}/Tripcraft/Tripcraftzip"
 if [[ ! -d "$CSV_DIR" ]]; then
   CSV_DIR="${ROOT_DIR}/TripCraft/Tripcraftzip"
@@ -36,4 +41,5 @@ python sole_planning_mltp.py \
     --model_name $MODEL_NAME \
     --strategy $STRATEGY \
     ${ACTION_STRATEGY:+--action_strategy "$ACTION_STRATEGY"} \
+    $ONE_SHOT_FLAG \
     --output_jsonl "$OUTPUT_JSONL"

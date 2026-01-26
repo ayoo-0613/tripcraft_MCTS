@@ -14,6 +14,7 @@ from agents.prompts import (
     action_select_prompt,
     action_select_prompt_react,
     action_select_prompt_reflexion,
+    action_select_prompt_batch,
 )
 # from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
@@ -393,6 +394,31 @@ def _action_view(action: Dict[str, Any]) -> Dict[str, Any]:
     return view
 
 
+def _parse_choice_list(text: str, max_len: int) -> List[Optional[int]]:
+    parsed = _extract_json_array(text)
+    if not isinstance(parsed, list):
+        return []
+    choices: List[Optional[int]] = []
+    for item in parsed[:max_len]:
+        idx: Optional[int] = None
+        if isinstance(item, dict) and "choice" in item:
+            try:
+                idx = int(item["choice"])
+            except Exception:
+                idx = None
+        elif isinstance(item, int):
+            idx = item
+        elif isinstance(item, str):
+            match = re.search(r"-?\\d+", item)
+            if match:
+                try:
+                    idx = int(match.group(0))
+                except Exception:
+                    idx = None
+        choices.append(idx)
+    return choices
+
+
 class TemplateActionPlanner:
     def __init__(
         self,
@@ -401,16 +427,20 @@ class TemplateActionPlanner:
         action_prompt: PromptTemplate,
         action_prompt_react: PromptTemplate,
         action_prompt_reflexion: PromptTemplate,
+        action_prompt_one_shot: PromptTemplate,
         action_strategy: str = "direct",
         topk: int = 5,
+        one_shot: bool = False,
     ) -> None:
         self.runner = LLMRunner(model_name=model_name)
         self.template_prompt = template_prompt
         self.action_prompt = action_prompt
         self.action_prompt_react = action_prompt_react
         self.action_prompt_reflexion = action_prompt_reflexion
+        self.action_prompt_one_shot = action_prompt_one_shot
         self.action_strategy = str(action_strategy or "direct").lower()
         self.topk = topk
+        self.one_shot = one_shot
 
     def run(self, text, query, persona, query_data=None) -> str:
         query_data = _coerce_query_data(query_data)
@@ -438,46 +468,92 @@ class TemplateActionPlanner:
                 cc, _, _ = env._city_movement_for_day(d)
                 template_list[d - 1]["current_city"] = cc
 
-            while not env.is_terminal(state):
-                slot = env._slot_name(state)
-                actions = env.legal_actions(state, topk=self.topk)
-                if not actions:
-                    state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
-                    continue
-                if slot == "end_day":
-                    state = env.apply_action(state, actions[0], record_trace=False)
-                    continue
+            if self.one_shot:
+                preview_state = env.initial_state()
+                steps: List[Dict[str, Any]] = []
+                actions_by_step: List[List[Dict[str, Any]]] = []
+                while not env.is_terminal(preview_state):
+                    slot = env._slot_name(preview_state)
+                    actions = env.legal_actions(preview_state, topk=self.topk)
+                    if not actions:
+                        preview_state = env.apply_action(preview_state, {"type": "end_day"}, record_trace=False)
+                        continue
+                    if slot == "end_day":
+                        preview_state = env.apply_action(preview_state, actions[0], record_trace=False)
+                        continue
+                    day_idx = max(preview_state.day - 1, 0)
+                    day_template = template_list[day_idx] if day_idx < len(template_list) else {}
+                    candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
+                    steps.append(
+                        {
+                            "day": preview_state.day,
+                            "slot": slot,
+                            "template_day": day_template or {},
+                            "candidates": candidates,
+                        }
+                    )
+                    actions_by_step.append(actions)
+                    # Advance with a deterministic action to enumerate subsequent slots.
+                    preview_state = env.apply_action(preview_state, actions[0], record_trace=False)
 
-                day_idx = max(state.day - 1, 0)
-                day_template = template_list[day_idx] if day_idx < len(template_list) else {}
-                candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
-                base_kwargs = dict(
-                    day=state.day,
-                    slot=slot,
+                prompt = self.action_prompt_one_shot.format(
                     text=text,
-                    persona=persona,
                     query=query,
-                    template_day=json.dumps(day_template or {}, ensure_ascii=True),
-                    candidates=json.dumps(candidates, ensure_ascii=True),
+                    persona=persona,
+                    template=json.dumps(template_list, ensure_ascii=True),
+                    steps=json.dumps(steps, ensure_ascii=True),
                 )
-                if self.action_strategy == "react":
-                    prompt = self.action_prompt_react.format(**base_kwargs)
-                    response = self.runner.chat(prompt)
-                    idx = _parse_choice_index(response, len(actions))
-                elif self.action_strategy == "reflexion":
-                    prompt = self.action_prompt.format(**base_kwargs)
-                    response = self.runner.chat(prompt)
-                    idx = _parse_choice_index(response, len(actions))
-                    initial_choice = idx if idx is not None else 0
-                    prompt = self.action_prompt_reflexion.format(initial_choice=initial_choice, **base_kwargs)
-                    response = self.runner.chat(prompt)
-                    idx = _parse_choice_index(response, len(actions)) if response else idx
-                else:
-                    prompt = self.action_prompt.format(**base_kwargs)
-                    response = self.runner.chat(prompt)
-                    idx = _parse_choice_index(response, len(actions))
-                chosen = actions[idx] if idx is not None else actions[0]
-                state = env.apply_action(state, chosen, record_trace=False)
+                response = self.runner.chat(prompt)
+                choice_list = _parse_choice_list(response or "", len(actions_by_step))
+
+                state = env.initial_state()
+                for i, actions in enumerate(actions_by_step):
+                    idx = choice_list[i] if i < len(choice_list) else None
+                    if idx is None or idx < 0 or idx >= len(actions):
+                        idx = 0
+                    chosen = actions[idx]
+                    state = env.apply_action(state, chosen, record_trace=False)
+            else:
+                while not env.is_terminal(state):
+                    slot = env._slot_name(state)
+                    actions = env.legal_actions(state, topk=self.topk)
+                    if not actions:
+                        state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
+                        continue
+                    if slot == "end_day":
+                        state = env.apply_action(state, actions[0], record_trace=False)
+                        continue
+
+                    day_idx = max(state.day - 1, 0)
+                    day_template = template_list[day_idx] if day_idx < len(template_list) else {}
+                    candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
+                    base_kwargs = dict(
+                        day=state.day,
+                        slot=slot,
+                        text=text,
+                        persona=persona,
+                        query=query,
+                        template_day=json.dumps(day_template or {}, ensure_ascii=True),
+                        candidates=json.dumps(candidates, ensure_ascii=True),
+                    )
+                    if self.action_strategy == "react":
+                        prompt = self.action_prompt_react.format(**base_kwargs)
+                        response = self.runner.chat(prompt)
+                        idx = _parse_choice_index(response, len(actions))
+                    elif self.action_strategy == "reflexion":
+                        prompt = self.action_prompt.format(**base_kwargs)
+                        response = self.runner.chat(prompt)
+                        idx = _parse_choice_index(response, len(actions))
+                        initial_choice = idx if idx is not None else 0
+                        prompt = self.action_prompt_reflexion.format(initial_choice=initial_choice, **base_kwargs)
+                        response = self.runner.chat(prompt)
+                        idx = _parse_choice_index(response, len(actions)) if response else idx
+                    else:
+                        prompt = self.action_prompt.format(**base_kwargs)
+                        response = self.runner.chat(prompt)
+                        idx = _parse_choice_index(response, len(actions))
+                    chosen = actions[idx] if idx is not None else actions[0]
+                    state = env.apply_action(state, chosen, record_trace=False)
 
             template = make_output_record_template(row)
             record = fill_template_with_state(template, row, kb, state)

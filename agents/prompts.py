@@ -535,6 +535,24 @@ Candidates:
 
 Output: """
 
+ACTION_SELECT_BATCH_INSTRUCTION = """You are selecting actions for multiple slots to fill the template.
+Return ONLY a JSON array with length equal to the number of steps.
+Each item can be either an integer index or an object {{"choice": <index>}}.
+Indices are 0-based and correspond to the candidates list for that step.
+If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Template JSON:
+{template}
+
+Steps (ordered):
+{steps}
+
+Output: """
+
 template_guidance_prompt_param = PromptTemplate(
     input_variables=["text", "query", "persona"],
     template=TEMPLATE_GUIDANCE_INSTRUCTION_PARAM,
@@ -553,6 +571,11 @@ action_select_prompt_react = PromptTemplate(
 action_select_prompt_reflexion = PromptTemplate(
     input_variables=["day", "slot", "text", "persona", "query", "template_day", "candidates", "initial_choice"],
     template=ACTION_SELECT_REFLEXION_INSTRUCTION,
+)
+
+action_select_prompt_batch = PromptTemplate(
+    input_variables=["text", "query", "persona", "template", "steps"],
+    template=ACTION_SELECT_BATCH_INSTRUCTION,
 )
 
 verifier_repair_prompt = PromptTemplate(

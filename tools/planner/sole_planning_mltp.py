@@ -46,6 +46,7 @@ from agents.prompts import (
     action_select_prompt,
     action_select_prompt_react,
     action_select_prompt_reflexion,
+    action_select_prompt_batch,
 )
 
 
@@ -75,6 +76,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default="./")
     parser.add_argument("--strategy", type=str, default="direct_og")
     parser.add_argument("--action_strategy", type=str, default="direct")
+    parser.add_argument("--one_shot", action="store_true", help="Use one-shot action selection for template_action.")
     parser.add_argument("--csv_file", type=str, required=True, help="Path to the reference_info.csv file")
     parser.add_argument("--output_jsonl", type=str, default="", help="Write results to a jsonl file instead of per-sample json")
     args = parser.parse_args()
@@ -133,7 +135,9 @@ if __name__ == "__main__":
             action_prompt=action_select_prompt,
             action_prompt_react=action_select_prompt_react,
             action_prompt_reflexion=action_select_prompt_reflexion,
+            action_prompt_one_shot=action_select_prompt_batch,
             action_strategy=args.action_strategy,
+            one_shot=args.one_shot,
         )
 
     else:
@@ -175,7 +179,6 @@ if __name__ == "__main__":
                         query_data['persona'],
                         query_data=query_data,
                     )
-                    time.sleep(8)
                 elif args.strategy in ['template_action']:
                     planner_results = planner.run(
                         reference_information,
@@ -183,12 +186,10 @@ if __name__ == "__main__":
                         query_data['persona'],
                         query_data=query_data,
                     )
-                    time.sleep(8)
                 else:
                     planner_results = planner.run(
                         reference_information, query_data['query'], query_data['persona']
                     )
-                    time.sleep(8)
                 if planner_results is not None:
                     break
             print(planner_results)
