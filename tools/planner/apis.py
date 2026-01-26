@@ -454,9 +454,9 @@ class TemplateActionPlanner:
                 base_kwargs = dict(
                     day=state.day,
                     slot=slot,
+                    text=text,
                     persona=persona,
                     query=query,
-                    local_constraint=json.dumps(query_data.get("local_constraint") or {}, ensure_ascii=True),
                     template_day=json.dumps(day_template or {}, ensure_ascii=True),
                     candidates=json.dumps(candidates, ensure_ascii=True),
                 )

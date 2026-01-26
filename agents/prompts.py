@@ -483,10 +483,10 @@ If the template indicates skipping this slot (value "-" or "none"), choose a ski
 Context:
 Day: {day}
 Slot: {slot}
+Given information: {text}
+Query: {query}
 Traveler Persona:
 {persona}
-Query: {query}
-Local Constraints: {local_constraint}
 Template Day JSON:
 {template_day}
 
@@ -496,17 +496,17 @@ Candidates:
 Output: """
 
 ACTION_SELECT_REACT_INSTRUCTION = """You are selecting exactly ONE action from candidates to fill the template.
-Think step by step to align with the template, constraints, and persona, but ONLY output the final JSON object.
+Think step by step to align with the template and persona, but ONLY output the final JSON object.
 Return ONLY a JSON object: {{"choice": <index>}} where <index> is the 0-based index of the chosen candidate.
 If the template indicates skipping this slot (value "-" or "none"), choose a skip_* action if present.
 
 Context:
 Day: {day}
 Slot: {slot}
+Given information: {text}
+Query: {query}
 Traveler Persona:
 {persona}
-Query: {query}
-Local Constraints: {local_constraint}
 Template Day JSON:
 {template_day}
 
@@ -515,7 +515,7 @@ Candidates:
 
 Output: """
 
-ACTION_SELECT_REFLEXION_INSTRUCTION = """You previously chose an action index. Reflect on whether it matches the template, constraints, and persona.
+ACTION_SELECT_REFLEXION_INSTRUCTION = """You previously chose an action index. Reflect on whether it matches the template and persona.
 If it is suboptimal, change it. Return ONLY a JSON object: {{"choice": <index>}} where <index> is the 0-based index.
 
 Previous choice: {initial_choice}
@@ -523,10 +523,10 @@ Previous choice: {initial_choice}
 Context:
 Day: {day}
 Slot: {slot}
+Given information: {text}
+Query: {query}
 Traveler Persona:
 {persona}
-Query: {query}
-Local Constraints: {local_constraint}
 Template Day JSON:
 {template_day}
 
@@ -541,17 +541,17 @@ template_guidance_prompt_param = PromptTemplate(
 )
 
 action_select_prompt = PromptTemplate(
-    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates"],
+    input_variables=["day", "slot", "text", "persona", "query", "template_day", "candidates"],
     template=ACTION_SELECT_INSTRUCTION,
 )
 
 action_select_prompt_react = PromptTemplate(
-    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates"],
+    input_variables=["day", "slot", "text", "persona", "query", "template_day", "candidates"],
     template=ACTION_SELECT_REACT_INSTRUCTION,
 )
 
 action_select_prompt_reflexion = PromptTemplate(
-    input_variables=["day", "slot", "persona", "query", "local_constraint", "template_day", "candidates", "initial_choice"],
+    input_variables=["day", "slot", "text", "persona", "query", "template_day", "candidates", "initial_choice"],
     template=ACTION_SELECT_REFLEXION_INSTRUCTION,
 )
 
