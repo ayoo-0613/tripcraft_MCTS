@@ -14,7 +14,7 @@ export OLLAMA_BASE_URL="http://localhost:11434"   # Optional Ollama server URL
 # export GOOGLE_API_KEY="YOUR_GOOGLE_KEY"                 # Your Google API key
 export STRATEGY="direct"                                  # direct / cot / react / reflexion
 for DAY in 3day 5day 7day; do
-    CSV_FILE="${ROOT_DIR}/TripCraft/Tripcraftzip/tripcraft_${DAY}.csv"
+    CSV_FILE="${ROOT_DIR}/Tripcraft/Tripcraftzip/tripcraft_${DAY}.csv"
     OUTPUT_JSONL="${OUTPUT_JSONL_PREFIX}_${DAY}.jsonl"
     python tools/planner/sole_planning_template_llm.py \
         --output_jsonl $OUTPUT_JSONL \
