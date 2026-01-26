@@ -1,6 +1,6 @@
 from langchain.prompts import PromptTemplate
 
-PLANNER_INSTRUCTION_OG = """You are a proficient planner. Based on the provided information, query and persona, please give a detailed travel plan, including specifics such as flight numbers (e.g., F0123456), restaurant names, and accommodation names. Note that all the information in your plans should be derived from the provided data. Additionally, all details should align with common sense. The symbol '-' indicates that information is unnecessary. For example, in the provided sample, you do not need to plan after returning to the departure city. When you travel to two cities in one day, you should note it in the "Current City" section as in the example (i.e., from A to B). Include events happening on that day, if any. Provide a Point of Interest List, which is an ordered list of places visited throughout the day. This list should include only accommodations, attractions, or restaurants and their starting and ending timestamps. Each day must start and end with the accommodation where the traveler is staying.
+PLANNER_INSTRUCTION_OG = """You are a proficient planner. Based on the provided information, query and persona, please give a detailed travel plan, including specifics such as flight numbers (e.g., F0123456), restaurant names, and accommodation names. Note that all the information in your plans should be derived from the provided data. You must adhere to the format given in the example. Additionally, all details should align with common sense. The symbol '-' indicates that information is unnecessary. For example, in the provided sample, you do not need to plan after returning to the departure city. When you travel to two cities in one day, you should note it in the "Current City" section as in the example (i.e., from A to B). Include events happening on that day, if any. Provide a Point of Interest List, which is an ordered list of places visited throughout the day. This list should include only accommodations, attractions, or restaurants and their starting and ending timestamps. Each day must start and end with the accommodation where the traveler is staying.
  
 
 ****** Example ******  
@@ -47,32 +47,6 @@ Event: -
 Point of Interest List: Affordable Spacious Refurbished Room in Bushwick!, stay from 07:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Subway, visit from 09:00 to 10:00, nearest transit: Subway Station, 150m away; Books Monument, visit from 10:30 to 13:30, nearest transit: Central Library Stop, 200m away; Olive Tree Cafe, visit from 14:00 to 15:00, nearest transit: Cafe Station, 250m away; Kylin Skybar, visit from 19:00 to 20:00, nearest transit: Skybar Stop, 180m away.  
 
 ****** Example Ends ******
-
-IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
-- Return ONLY a JSON array. Do not include any other text or Markdown.
-- Each array item must include exactly these keys:
-  "days", "current_city", "transportation", "breakfast", "attraction",
-  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
-- Use "-" if any field is missing. Use ";" to separate multiple items.
-- "days" is an integer day number starting from 1.
-- When traveling between cities that day, set "current_city" to "from A to B".
-- Ensure valid JSON with double quotes, no trailing commas.
-
-JSON Example:
-[
-  {{
-    "days": 1,
-    "current_city": "from Ithaca to Charlotte",
-    "transportation": "Flight Number: F3633413, from Ithaca to Charlotte, Departure Time: 05:15, Arrival Time: 07:28",
-    "breakfast": "Nagaland's Kitchen, Charlotte",
-    "attraction": "The Charlotte Museum of History, Charlotte",
-    "lunch": "Cafe Maple Street, Charlotte",
-    "dinner": "Bombay Vada Pav, Charlotte",
-    "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte",
-    "event": "-",
-    "point_of_interest_list": "Affordable Spacious Refurbished Room in Bushwick!, stay from 08:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Nagaland's Kitchen, visit from 09:00 to 09:45, nearest transit: Uptown Station, 200m away."
-  }}
-]
 
 Given information: {text}
 Query: {query}
@@ -80,7 +54,7 @@ Traveler Persona:
 {persona}
 Output: """
 
-PLANNER_INSTRUCTION_PARAMETER_INFO = """You are a proficient planner. Based on the provided information, query and persona, please give a detailed travel plan, including specifics such as flight numbers (e.g., F0123456), restaurant names, and accommodation names. Note that all the information in your plans should be derived from the provided data. Additionally, all details should align with common sense. The symbol '-' indicates that information is unnecessary. For example, in the provided sample, you do not need to plan after returning to the departure city. When you travel to two cities in one day, you should note it in the "Current City" section as in the example (i.e., from A to B). Include events happening on that day, if any. Provide a Point of Interest List, which is an ordered list of places visited throughout the day. This list should include accommodations, attractions, or restaurants and their starting and ending timestamps. Each day must start and end with the accommodation where the traveler is staying. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
+PLANNER_INSTRUCTION_PARAMETER_INFO = """You are a proficient planner. Based on the provided information, query and persona, please give a detailed travel plan, including specifics such as flight numbers (e.g., F0123456), restaurant names, and accommodation names. Note that all the information in your plans should be derived from the provided data. You must adhere to the format given in the example. Additionally, all details should align with common sense. The symbol '-' indicates that information is unnecessary. For example, in the provided sample, you do not need to plan after returning to the departure city. When you travel to two cities in one day, you should note it in the "Current City" section as in the example (i.e., from A to B). Include events happening on that day, if any. Provide a Point of Interest List, which is an ordered list of places visited throughout the day. This list should include accommodations, attractions, or restaurants and their starting and ending timestamps. Each day must start and end with the accommodation where the traveler is staying. Breakfast is ideally scheduled at 9:40 AM and lasts about 50 minutes. Lunch is best planned for 2:20 PM, with a duration of around an hour. Dinner should take place at 8:45 PM, lasting approximately 1 hour and 15 minutes. Laidback Travelers typically explore one attraction per day and sometimes opt for more, while Adventure Seekers often visit 2 or 3 attractions, occasionally exceeding that number.
  
 
 ****** Example ******  
@@ -127,32 +101,6 @@ Event: -
 Point of Interest List: Affordable Spacious Refurbished Room in Bushwick!, stay from 07:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Subway, visit from 09:00 to 10:00, nearest transit: Subway Station, 150m away; Books Monument, visit from 10:30 to 13:30, nearest transit: Central Library Stop, 200m away; Olive Tree Cafe, visit from 14:00 to 15:00, nearest transit: Cafe Station, 250m away; Kylin Skybar, visit from 19:00 to 20:00, nearest transit: Skybar Stop, 180m away.  
 
 ****** Example Ends ******
-
-IMPORTANT OUTPUT FORMAT (STRICT JSON ONLY):
-- Return ONLY a JSON array. Do not include any other text or Markdown.
-- Each array item must include exactly these keys:
-  "days", "current_city", "transportation", "breakfast", "attraction",
-  "lunch", "dinner", "accommodation", "event", "point_of_interest_list".
-- Use "-" if any field is missing. Use ";" to separate multiple items.
-- "days" is an integer day number starting from 1.
-- When traveling between cities that day, set "current_city" to "from A to B".
-- Ensure valid JSON with double quotes, no trailing commas.
-
-JSON Example:
-[
-  {{
-    "days": 1,
-    "current_city": "from Ithaca to Charlotte",
-    "transportation": "Flight Number: F3633413, from Ithaca to Charlotte, Departure Time: 05:15, Arrival Time: 07:28",
-    "breakfast": "Nagaland's Kitchen, Charlotte",
-    "attraction": "The Charlotte Museum of History, Charlotte",
-    "lunch": "Cafe Maple Street, Charlotte",
-    "dinner": "Bombay Vada Pav, Charlotte",
-    "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte",
-    "event": "-",
-    "point_of_interest_list": "Affordable Spacious Refurbished Room in Bushwick!, stay from 08:00 to 08:30, nearest transit: Bushwick Stop, 100m away; Nagaland's Kitchen, visit from 09:00 to 09:45, nearest transit: Uptown Station, 200m away."
-  }}
-]
 
 Given information: {text}
 Query: {query}

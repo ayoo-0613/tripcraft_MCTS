@@ -26,13 +26,13 @@ MCTS_OUT="${MCTS_OUT:-${OUTPUT_ROOT}/mcts}"
 MCTS_ROLLOUTS="${MCTS_ROLLOUTS:-200}"
 MCTS_TOPK="${MCTS_TOPK:-20}"
 MCTS_LLM_PARSE_QUERY="${MCTS_LLM_PARSE_QUERY:-1}"   # 1 to enable
-MCTS_LLM_RENDER="${MCTS_LLM_RENDER:-1}"             # 1 to enable
+MCTS_LLM_RENDER="${MCTS_LLM_RENDER:-0}"             # 1 to enable
 
 # Solver settings.
 SOLVER_OUT="${SOLVER_OUT:-${OUTPUT_ROOT}/solver}"
 SOLVER_TIMEOUT_MS="${SOLVER_TIMEOUT_MS:-60000}"
 SOLVER_LLM_PARSE_QUERY="${SOLVER_LLM_PARSE_QUERY:-1}"   # 1 to enable
-SOLVER_LLM_RENDER="${SOLVER_LLM_RENDER:-1}"             # 1 to enable
+SOLVER_LLM_RENDER="${SOLVER_LLM_RENDER:-0}"             # 1 to enable
 
 mkdir -p "$MCTS_OUT" "$SOLVER_OUT"
 
