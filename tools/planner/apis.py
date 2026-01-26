@@ -99,11 +99,11 @@ class Planner:
         
         print(f"PlannerAgent {model_name} loaded.")
 
-    def run(self, text, query, persona, log_file=None) -> str:
+    def run(self, text, query, persona, template=None, candidates=None, issues=None, log_file=None) -> str:
         if log_file:
-            log_file.write('\n---------------Planner\n' + self._build_agent_prompt(text, query, persona))
+            log_file.write('\n---------------Planner\n' + self._build_agent_prompt(text, query, persona, template, candidates, issues))
         
-        prompt = self._build_agent_prompt(text, query, persona)
+        prompt = self._build_agent_prompt(text, query, persona, template, candidates, issues)
         
         if self.model_name in ['qwen','phi4']:
             inputs = self.tokenizer(prompt, return_tensors="pt").to("cuda")
@@ -133,8 +133,15 @@ class Planner:
             else:
                 return self.llm([HumanMessage(content=prompt)]).content
 
-    def _build_agent_prompt(self, text, query, persona) -> str:
-        return self.agent_prompt.format(text=text, query=query, persona=persona)
+    def _build_agent_prompt(self, text, query, persona, template=None, candidates=None, issues=None) -> str:
+        kwargs = {"text": text, "query": query, "persona": persona}
+        if "template" in getattr(self.agent_prompt, "input_variables", []):
+            kwargs["template"] = template or ""
+        if "candidates" in getattr(self.agent_prompt, "input_variables", []):
+            kwargs["candidates"] = candidates or ""
+        if "issues" in getattr(self.agent_prompt, "input_variables", []):
+            kwargs["issues"] = issues or ""
+        return self.agent_prompt.format(**kwargs)
 
 
 # class ReactPlanner:

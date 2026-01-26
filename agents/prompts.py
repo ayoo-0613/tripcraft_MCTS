@@ -108,6 +108,159 @@ Traveler Persona:
 {persona}
 Output: """
 
+PLANNER_INSTRUCTION_LLM_DIRECT = """You are a planner. Based ONLY on the given information, choose actions by index for each day to fill the template.
+Output ONLY valid JSON. Do NOT include explanations.
+
+Rules:
+- Choose indices that exist in each candidate list.
+- Use at most 2 attractions per day.
+- If you want to skip a slot, choose the index of "-" in that list.
+- Output must exactly match the schema below.
+
+Schema:
+{{
+  "days": [
+    {{
+      "day": 1,
+      "transportation_idx": 0,
+      "accommodation_idx": 0,
+      "breakfast_idx": 0,
+      "lunch_idx": 0,
+      "dinner_idx": 0,
+      "attraction_idxs": [0, 1],
+      "event_idx": 0
+    }}
+  ]
+}}
+
+Template JSON:
+{template}
+
+Candidates JSON (each slot list contains objects with "idx" and "value"):
+{candidates}
+
+Given information:
+{text}
+Query: {query}
+Traveler Persona:
+{persona}
+"""
+
+PLANNER_INSTRUCTION_LLM_DIRECT_REPAIR = """You must output ONLY valid JSON. Do NOT include explanations.
+
+Task: Convert the draft output into the required JSON schema by choosing indices from the Candidates JSON.
+Rules:
+- Choose indices that exist in each candidate list.
+- Use at most 2 attractions per day.
+- If you want to skip a slot, choose the index of "-" in that list.
+- Output must exactly match the schema below.
+
+Schema:
+{{
+  "days": [
+    {{
+      "day": 1,
+      "transportation_idx": 0,
+      "accommodation_idx": 0,
+      "breakfast_idx": 0,
+      "lunch_idx": 0,
+      "dinner_idx": 0,
+      "attraction_idxs": [0, 1],
+      "event_idx": 0
+    }}
+  ]
+}}
+
+Candidates JSON:
+{candidates}
+
+Draft output:
+{text}
+"""
+
+PLANNER_INSTRUCTION_LLM_COT_PLAN = """You are a planner. Produce a slot-level allocation plan for each day using the given information.
+Output only plain text (no JSON). Keep it concise and structured by day.
+
+Template JSON:
+{template}
+
+Candidates JSON (each slot list contains objects with "idx" and "value"):
+{candidates}
+
+Given information:
+{text}
+Query: {query}
+Traveler Persona:
+{persona}
+"""
+
+PLANNER_INSTRUCTION_LLM_COT_FILL = """You must output ONLY valid JSON. Do NOT include explanations.
+
+Task: Convert the draft allocation plan into the required JSON schema by choosing indices from the Candidates JSON.
+Rules:
+- Choose indices that exist in each candidate list.
+- Use at most 2 attractions per day.
+- If you want to skip a slot, choose the index of "-" in that list.
+- Output must exactly match the schema below.
+
+Schema:
+{{
+  "days": [
+    {{
+      "day": 1,
+      "transportation_idx": 0,
+      "accommodation_idx": 0,
+      "breakfast_idx": 0,
+      "lunch_idx": 0,
+      "dinner_idx": 0,
+      "attraction_idxs": [0, 1],
+      "event_idx": 0
+    }}
+  ]
+}}
+
+Candidates JSON:
+{candidates}
+
+Draft allocation plan:
+{text}
+"""
+
+PLANNER_INSTRUCTION_LLM_REFLEXION_REPAIR = """You must output ONLY valid JSON. Do NOT include explanations.
+
+Task: Repair the slot assignments to fix the issues. Choose indices from the Candidates JSON.
+Rules:
+- Choose indices that exist in each candidate list.
+- Use at most 2 attractions per day.
+- If you want to skip a slot, choose the index of "-" in that list.
+- Output must exactly match the schema below.
+
+Schema:
+{{
+  "days": [
+    {{
+      "day": 1,
+      "transportation_idx": 0,
+      "accommodation_idx": 0,
+      "breakfast_idx": 0,
+      "lunch_idx": 0,
+      "dinner_idx": 0,
+      "attraction_idxs": [0, 1],
+      "event_idx": 0
+    }}
+  ]
+}}
+
+Candidates JSON:
+{candidates}
+
+Detected issues:
+{issues}
+
+Draft output:
+{text}
+"""
+
 
 
 planner_agent_prompt_direct_og = PromptTemplate(
@@ -118,6 +271,31 @@ planner_agent_prompt_direct_og = PromptTemplate(
 planner_agent_prompt_direct_param = PromptTemplate(
                         input_variables=["text","query","persona"],
                         template = PLANNER_INSTRUCTION_PARAMETER_INFO,
+                        )
+
+planner_agent_prompt_llm_direct = PromptTemplate(
+                        input_variables=["text","query","persona","template","candidates"],
+                        template = PLANNER_INSTRUCTION_LLM_DIRECT,
+                        )
+
+planner_agent_prompt_llm_direct_repair = PromptTemplate(
+                        input_variables=["text","candidates"],
+                        template = PLANNER_INSTRUCTION_LLM_DIRECT_REPAIR,
+                        )
+
+planner_agent_prompt_llm_cot_plan = PromptTemplate(
+                        input_variables=["text","query","persona","template","candidates"],
+                        template = PLANNER_INSTRUCTION_LLM_COT_PLAN,
+                        )
+
+planner_agent_prompt_llm_cot_fill = PromptTemplate(
+                        input_variables=["text","candidates"],
+                        template = PLANNER_INSTRUCTION_LLM_COT_FILL,
+                        )
+
+planner_agent_prompt_llm_reflexion_repair = PromptTemplate(
+                        input_variables=["text","candidates","issues"],
+                        template = PLANNER_INSTRUCTION_LLM_REFLEXION_REPAIR,
                         )
 
 # cot_planner_agent_prompt = PromptTemplate(
