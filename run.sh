@@ -5,7 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/lama_output}"  # Path to your output directory
 export MODEL_NAME="ollama"                           # local ollama (or ollama:<model>)
 export OLLAMA_MODEL="llama3.1:8b"                    # required when MODEL_NAME=ollama
-export STRATEGY="template_action"                    # direct_og / direct_param / react / reflexion / verifier_repair / plan_execute / template_action
+export STRATEGY="template_action"                    # direct_og / direct_param / react / reflexion / verifier_repair / plan_execute / template_action / fixed_direct / fixed_cot / fixed_react / fixed_reflexion
 export ACTION_STRATEGY="${ACTION_STRATEGY:-direct}"  # direct / react / reflexion (only for template_action)
 export OLLAMA_BASE_URL="http://localhost:11434"      # ollama server
 export OLLAMA_TIMEOUT="999"

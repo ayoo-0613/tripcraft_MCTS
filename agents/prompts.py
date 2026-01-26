@@ -558,6 +558,86 @@ template_guidance_prompt_param = PromptTemplate(
     template=TEMPLATE_GUIDANCE_INSTRUCTION_PARAM,
 )
 
+# Fixed-skeleton baselines (Direct / CoT / ReAct / Reflexion) with raw reference_information.
+FIXED_SKELETON_DIRECT_INSTRUCTION = """You are a proficient planner. Fill in the fixed JSON skeleton using ONLY the provided information.
+Return ONLY a JSON array. Do not include any extra text or Markdown.
+Do NOT change the skeleton structure or keys. Use "-" if any field is missing.
+
+Fixed skeleton JSON:
+{plan_json}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+FIXED_SKELETON_COT_PLAN_INSTRUCTION = """You are creating a slot-level allocation plan for a fixed travel-plan skeleton.
+Return ONLY a JSON array of objects: {{"day": <int>, "slot": "<slot>", "plan": "<short plan>"}}.
+Keep each plan concise (<= 12 words). Use ONLY the provided information.
+
+Fixed skeleton JSON:
+{plan_json}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+FIXED_SKELETON_COT_EXEC_INSTRUCTION = """You are finalizing the fixed travel-plan skeleton.
+Use the provided slot-level plan, then output ONLY a JSON array (no extra text).
+Do NOT change the skeleton structure or keys. Use "-" if any field is missing.
+
+Slot-level plan:
+{slot_plan}
+
+Fixed skeleton JSON:
+{plan_json}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
+FIXED_SKELETON_REACT_INSTRUCTION = """You are filling exactly ONE slot in a fixed skeleton.
+Return ONLY a JSON object: {{"value": "<filled value>"}}.
+Use "-" if the value is missing. Use ONLY the provided information.
+
+Partial plan JSON:
+{partial_plan}
+
+Context:
+Day: {day}
+Slot: {slot}
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+
+Output: """
+
+FIXED_SKELETON_REFLEXION_INSTRUCTION = """You are repairing a fixed-skeleton plan based on verifier failures.
+Return ONLY a JSON array. Do NOT include any extra text.
+Do NOT change the skeleton structure or keys. Use "-" if any field is missing.
+Perform exactly one repair.
+
+Verifier failures (must fix all):
+{failures}
+
+Current plan JSON:
+{plan_json}
+
+Fixed skeleton JSON:
+{plan_json_template}
+
+Given information: {text}
+Query: {query}
+Traveler Persona:
+{persona}
+Output: """
+
 action_select_prompt = PromptTemplate(
     input_variables=["day", "slot", "text", "persona", "query", "template_day", "candidates"],
     template=ACTION_SELECT_INSTRUCTION,
@@ -576,6 +656,31 @@ action_select_prompt_reflexion = PromptTemplate(
 action_select_prompt_batch = PromptTemplate(
     input_variables=["text", "query", "persona", "template", "steps"],
     template=ACTION_SELECT_BATCH_INSTRUCTION,
+)
+
+fixed_skeleton_direct_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json"],
+    template=FIXED_SKELETON_DIRECT_INSTRUCTION,
+)
+
+fixed_skeleton_cot_plan_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json"],
+    template=FIXED_SKELETON_COT_PLAN_INSTRUCTION,
+)
+
+fixed_skeleton_cot_execute_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "slot_plan"],
+    template=FIXED_SKELETON_COT_EXEC_INSTRUCTION,
+)
+
+fixed_skeleton_react_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "partial_plan", "day", "slot"],
+    template=FIXED_SKELETON_REACT_INSTRUCTION,
+)
+
+fixed_skeleton_reflexion_prompt = PromptTemplate(
+    input_variables=["text", "query", "persona", "plan_json", "plan_json_template", "failures"],
+    template=FIXED_SKELETON_REFLEXION_INSTRUCTION,
 )
 
 verifier_repair_prompt = PromptTemplate(

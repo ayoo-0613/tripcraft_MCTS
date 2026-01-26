@@ -22,6 +22,7 @@ from tools.planner.apis import (
     ReflexionPlanner,
     PlanExecutePlanner,
     TemplateActionPlanner,
+    FixedSkeletonPlanner,
 )
 import openai
 
@@ -139,6 +140,14 @@ if __name__ == "__main__":
             action_strategy=args.action_strategy,
             one_shot=args.one_shot,
         )
+    elif args.strategy == "fixed_direct":
+        planner = FixedSkeletonPlanner(model_name=args.model_name, strategy="direct")
+    elif args.strategy == "fixed_cot":
+        planner = FixedSkeletonPlanner(model_name=args.model_name, strategy="cot")
+    elif args.strategy == "fixed_react":
+        planner = FixedSkeletonPlanner(model_name=args.model_name, strategy="react")
+    elif args.strategy == "fixed_reflexion":
+        planner = FixedSkeletonPlanner(model_name=args.model_name, strategy="reflexion")
 
     else:
         raise ValueError(f"Unknown strategy: {args.strategy}")
@@ -179,7 +188,7 @@ if __name__ == "__main__":
                         query_data['persona'],
                         query_data=query_data,
                     )
-                elif args.strategy in ['template_action']:
+                elif args.strategy in ['template_action', 'fixed_direct', 'fixed_cot', 'fixed_react', 'fixed_reflexion']:
                     planner_results = planner.run(
                         reference_information,
                         query_data['query'],
@@ -196,7 +205,7 @@ if __name__ == "__main__":
 
             if jsonl_f:
                 if (
-                    args.strategy == "template_action"
+                    args.strategy in ["template_action", "fixed_direct", "fixed_cot", "fixed_react", "fixed_reflexion"]
                     and isinstance(planner_results, dict)
                     and "plan" in planner_results
                     and "JSON" in planner_results
@@ -228,7 +237,7 @@ if __name__ == "__main__":
                 #     result[-1][f'{args.model_name}_{args.strategy}_sole-planning_results_logs'] = scratchpad
 
                 if (
-                    args.strategy == "template_action"
+                    args.strategy in ["template_action", "fixed_direct", "fixed_cot", "fixed_react", "fixed_reflexion"]
                     and isinstance(planner_results, dict)
                     and "plan" in planner_results
                     and "JSON" in planner_results

@@ -10,6 +10,14 @@ from .ollama_client import OllamaClient
 
 _ATTRACTIONS_DATA = None
 
+# Evaluation-friendly fixed template slots (used when no LLM temporal guidance).
+_EVAL_MEAL_SLOTS = {
+    "breakfast": ("09:00", "09:30"),
+    "lunch": ("13:30", "14:30"),
+    "dinner": ("19:30", "20:30"),
+}
+_EVAL_ATTRACTION_SLOTS = [("10:00", "12:30"), ("15:30", "18:30")]
+
 
 def _load_attractions_data():
     global _ATTRACTIONS_DATA
@@ -180,6 +188,46 @@ def _default_visit_times(draft: Any, persona: str, kb: UnifiedKB, day: int, city
     return times
 
 
+def _apply_fixed_template_times(draft: Any) -> None:
+    """
+    Apply evaluation-friendly fixed time slots to POI visit blocks.
+    This is used when LLM temporal guidance is disabled.
+    """
+    if not getattr(draft, "poi_blocks", None):
+        return
+
+    name_to_indices: Dict[str, List[int]] = {}
+    for idx, block in enumerate(draft.poi_blocks):
+        if block.kind != "visit":
+            continue
+        name_to_indices.setdefault(block.name, []).append(idx)
+
+    assigned: set = set()
+
+    def assign(name: str, window: Tuple[str, str]) -> None:
+        if not name or name == "-":
+            return
+        for idx in name_to_indices.get(name, []):
+            if idx in assigned:
+                continue
+            block = draft.poi_blocks[idx]
+            block.start, block.end = window
+            assigned.add(idx)
+            return
+
+    # Meals in fixed slots.
+    assign(getattr(draft, "breakfast", "-"), _EVAL_MEAL_SLOTS["breakfast"])
+    assign(getattr(draft, "lunch", "-"), _EVAL_MEAL_SLOTS["lunch"])
+    assign(getattr(draft, "dinner", "-"), _EVAL_MEAL_SLOTS["dinner"])
+
+    # Attractions in fixed slots.
+    attractions = [a for a in (getattr(draft, "attractions", []) or []) if a and a != "-"]
+    for idx, name in enumerate(attractions):
+        if idx >= len(_EVAL_ATTRACTION_SLOTS):
+            break
+        assign(name, _EVAL_ATTRACTION_SLOTS[idx])
+
+
 def _find_visit_duration(kb: UnifiedKB, day: int, name: str) -> Optional[float]:
     if not name:
         return None
@@ -210,6 +258,10 @@ def _apply_temporal_guidance(
 ) -> None:
     if not getattr(draft, "poi_blocks", None):
         return
+    if client is None:
+        _apply_fixed_template_times(draft)
+        return
+
     city = _stage_city_for_day(kb, day)
     default_times = _default_visit_times(draft, row.persona, kb, day, city)
     for block in draft.poi_blocks:
@@ -219,9 +271,6 @@ def _apply_temporal_guidance(
         if not window:
             continue
         block.start, block.end = window
-
-    if client is None:
-        return
 
     attractions = [a for a in (getattr(draft, "attractions", []) or []) if a and a != "-"]
     attraction_set = set(attractions)

@@ -15,6 +15,11 @@ from agents.prompts import (
     action_select_prompt_react,
     action_select_prompt_reflexion,
     action_select_prompt_batch,
+    fixed_skeleton_direct_prompt,
+    fixed_skeleton_cot_plan_prompt,
+    fixed_skeleton_cot_execute_prompt,
+    fixed_skeleton_react_prompt,
+    fixed_skeleton_reflexion_prompt,
 )
 # from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
@@ -32,7 +37,7 @@ import json
 import openai
 import time
 from enum import Enum
-from typing import Any, Dict, List, Union, Literal, Optional
+from typing import Any, Dict, List, Union, Literal, Optional, Tuple
 # from langchain_google_genai import ChatGoogleGenerativeAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
@@ -419,6 +424,312 @@ def _parse_choice_list(text: str, max_len: int) -> List[Optional[int]]:
     return choices
 
 
+def _repair_choice_list(text: str, expected_len: int) -> List[Optional[int]]:
+    choices = _parse_choice_list(text, expected_len)
+    if len(choices) >= expected_len:
+        return choices[:expected_len]
+    raw = str(text or "")
+    nums = [int(m.group(0)) for m in re.finditer(r"-?\d+", raw)]
+    if nums:
+        return nums[:expected_len]
+    return choices
+
+
+def _repair_choice_index(text: str, max_index: int) -> Optional[int]:
+    idx = _parse_choice_index(text, max_index)
+    if idx is not None:
+        return idx
+    raw = str(text or "")
+    match = re.search(r"-?\d+", raw)
+    if not match:
+        return None
+    try:
+        idx = int(match.group(0))
+    except Exception:
+        return None
+    if idx < 0 or idx >= max_index:
+        return None
+    return idx
+
+
+def _pad_choices(choices: List[Optional[int]], length: int) -> List[Optional[int]]:
+    padded = list(choices[:length])
+    while len(padded) < length:
+        padded.append(0)
+    return padded
+
+
+def _action_key(action: Dict[str, Any]) -> Tuple[str, str]:
+    return (
+        str(action.get("type") or ""),
+        str(action.get("name") or action.get("raw") or action.get("eval_poi_name") or "-"),
+    )
+
+
+def _match_action_index(
+    choice_idx: Optional[int],
+    reference_actions: List[Dict[str, Any]],
+    current_actions: List[Dict[str, Any]],
+) -> int:
+    if choice_idx is None or choice_idx < 0 or choice_idx >= len(reference_actions):
+        return 0
+    target = reference_actions[choice_idx]
+    target_key = _action_key(target)
+    for idx, action in enumerate(current_actions):
+        if _action_key(action) == target_key:
+            return idx
+    return 0
+
+
+def _state_fingerprint(state: Any) -> Tuple[Any, ...]:
+    return (
+        getattr(state, "day", None),
+        getattr(state, "substep", None),
+        getattr(state, "time_cursor_min", None),
+        getattr(state, "budget_used", None),
+        getattr(state, "done", None),
+    )
+
+
+def _apply_action_safe(env: Any, state: Any, action: Dict[str, Any]) -> Any:
+    before = _state_fingerprint(state)
+    state = env.apply_action(state, action, record_trace=False)
+    if _state_fingerprint(state) == before:
+        state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
+    return state
+
+
+def _candidate_actions_from_kb(
+    env: Any,
+    row: Any,
+    kb: Any,
+    state: Any,
+    topk: int,
+) -> List[Dict[str, Any]]:
+    from mcts_baseline.retrieval import topk_accommodations, topk_attractions, topk_restaurants
+
+    slot = env._slot_name(state)
+    stage = env._stage_for_day(state.day)
+
+    used_restaurants = set()
+    used_attractions = set()
+    for i, d in enumerate(state.drafts):
+        stage_i = env._stage_for_day(i + 1)
+        city = stage_i.city if stage_i is not None else ""
+        if d.breakfast != "-":
+            used_restaurants.add((d.breakfast, city))
+        if d.lunch != "-":
+            used_restaurants.add((d.lunch, city))
+        if d.dinner != "-":
+            used_restaurants.add((d.dinner, city))
+        for attr in d.attractions:
+            if attr != "-":
+                used_attractions.add((attr, city))
+
+    if slot == "transport":
+        current_city, frm, to = env._city_movement_for_day(state.day)
+        date = row.date[state.day - 1] if state.day - 1 < len(row.date) else ""
+        options = [t for t in kb.transports if t.frm == frm and t.to == to and (t.date is None or t.date == date)]
+        if not options:
+            options = [t for t in kb.transports if t.frm == frm and t.to == to]
+        transport_constraint = (row.local_constraint or {}).get("transportation")
+        if transport_constraint == "no flight":
+            options = [t for t in options if t.mode != "flight"]
+        elif transport_constraint == "no self-driving":
+            options = [t for t in options if t.mode != "self-driving"]
+
+        def rank(mode: str) -> int:
+            return {"flight": 3, "self-driving": 2, "taxi": 1}.get(mode, 0)
+
+        options = sorted(options, key=lambda t: rank(t.mode), reverse=True)[:topk]
+        if not options:
+            return [{"type": "set_transport", "raw": "-", "from": frm, "to": to, "candidates": ["-"]}]
+        cand_raws = [t.raw for t in options]
+        return [
+            {
+                "type": "set_transport",
+                "raw": t.raw,
+                "from": frm,
+                "to": to,
+                "eval_poi_name": "-",
+                "meta": {"cost": t.cost, "mode": t.mode, "duration_min": t.duration_min},
+                "candidates": cand_raws,
+            }
+            for t in options
+        ]
+
+    if slot == "accommodation":
+        if stage is None:
+            return [{"type": "set_accommodation", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        cands = topk_accommodations(stage, local_constraint=row.local_constraint or {}, k=topk)
+        if not cands:
+            return [{"type": "set_accommodation", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        names = [c["name"] for c in cands]
+        return [
+            {
+                "type": "set_accommodation",
+                "name": c["name"],
+                "eval_poi_name": c["name"],
+                "meta": c,
+                "candidates": names,
+            }
+            for c in cands
+        ]
+
+    if slot in {"breakfast", "lunch", "dinner"}:
+        if stage is None:
+            return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        cands = topk_restaurants(stage, meal=slot, local_constraint=row.local_constraint or {}, k=topk)
+        cands = [c for c in cands if (c["name"], stage.city) not in used_restaurants]
+        if not cands:
+            return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        names = [c["name"] for c in cands]
+        actions = [
+            {
+                "type": f"set_{slot}",
+                "name": c["name"],
+                "eval_poi_name": c["name"],
+                "meta": c,
+                "candidates": names,
+            }
+            for c in cands
+        ]
+        return actions
+
+    if slot in {"attraction1", "attraction2"}:
+        if stage is None:
+            return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        cands = topk_attractions(stage, local_constraint=row.local_constraint or {}, k=topk)
+        cands = [c for c in cands if (c["name"], stage.city) not in used_attractions]
+        if not cands:
+            return [{"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]}]
+        names = [c["name"] for c in cands]
+        actions = [
+            {
+                "type": f"add_{slot}",
+                "name": c["name"],
+                "eval_poi_name": c["name"],
+                "meta": c,
+                "candidates": names,
+            }
+            for c in cands
+        ]
+        if slot == "attraction2":
+            actions.append({"type": f"skip_{slot}", "name": "-", "eval_poi_name": "-", "candidates": ["-"]})
+        return actions
+
+    if slot == "end_day":
+        return [{"type": "end_day", "eval_poi_name": "-"}]
+
+    return []
+
+
+def _build_fixed_skeleton_steps(
+    env: Any,
+    row: Any,
+    kb: Any,
+    template_list: List[Dict[str, Any]],
+    topk: int,
+) -> Tuple[List[Dict[str, Any]], List[List[Dict[str, Any]]]]:
+    preview_state = env.initial_state()
+    steps: List[Dict[str, Any]] = []
+    actions_by_step: List[List[Dict[str, Any]]] = []
+    while not env.is_terminal(preview_state):
+        slot = env._slot_name(preview_state)
+        actions = _candidate_actions_from_kb(env, row, kb, preview_state, topk)
+        if not actions:
+            preview_state = _apply_action_safe(env, preview_state, {"type": "end_day"})
+            continue
+        if slot == "end_day":
+            preview_state = _apply_action_safe(env, preview_state, actions[0])
+            continue
+        day_idx = max(preview_state.day - 1, 0)
+        day_template = template_list[day_idx] if day_idx < len(template_list) else {}
+        candidates = [dict(index=i, **_action_view(a)) for i, a in enumerate(actions)]
+        steps.append(
+            {
+                "day": preview_state.day,
+                "slot": slot,
+                "template_day": day_template or {},
+                "candidates": candidates,
+            }
+        )
+        actions_by_step.append(actions)
+        preview_state = _apply_action_safe(env, preview_state, actions[0])
+    return steps, actions_by_step
+
+
+def _apply_choice_sequence(
+    env: Any,
+    row: Any,
+    kb: Any,
+    actions_by_step: List[List[Dict[str, Any]]],
+    choices: List[Optional[int]],
+    topk: int,
+) -> Any:
+    state = env.initial_state()
+    step_idx = 0
+    while not env.is_terminal(state):
+        slot = env._slot_name(state)
+        actions = _candidate_actions_from_kb(env, row, kb, state, topk)
+        if not actions:
+            state = _apply_action_safe(env, state, {"type": "end_day"})
+            continue
+        if slot == "end_day":
+            state = _apply_action_safe(env, state, actions[0])
+            continue
+        if step_idx < len(actions_by_step):
+            ref_actions = actions_by_step[step_idx]
+            choice_idx = choices[step_idx] if step_idx < len(choices) else None
+            idx = _match_action_index(choice_idx, ref_actions, actions)
+        else:
+            idx = 0
+        state = _apply_action_safe(env, state, actions[idx])
+        step_idx += 1
+    return state
+
+
+def _build_partial_plan_snapshot(
+    template_list: List[Dict[str, Any]],
+    state: Any,
+) -> List[Dict[str, Any]]:
+    plan: List[Dict[str, Any]] = []
+    for i, draft in enumerate(state.drafts):
+        template_day = template_list[i] if i < len(template_list) else {}
+        current_city = draft.current_city if draft.current_city != "-" else template_day.get("current_city", "-")
+        attractions = draft.attractions or []
+        plan.append(
+            {
+                "days": i + 1,
+                "current_city": current_city,
+                "transportation": draft.transportation,
+                "breakfast": draft.breakfast,
+                "attraction": "; ".join(attractions) if attractions else "-",
+                "lunch": draft.lunch,
+                "dinner": draft.dinner,
+                "accommodation": draft.accommodation,
+                "event": draft.event,
+                "point_of_interest_list": "-",
+            }
+        )
+    return plan
+
+
+def _verify_plan(query_data: Optional[Dict[str, Any]], plan: Any) -> List[str]:
+    if not isinstance(plan, list) or not plan:
+        return ["Plan is not valid JSON array with required keys."]
+    failures: List[str] = []
+    for idx, day in enumerate(plan, start=1):
+        if not isinstance(day, dict):
+            failures.append(f"Day {idx} is not a JSON object.")
+            continue
+        missing = [k for k in REQUIRED_PLAN_KEYS if k not in day]
+        if missing:
+            failures.append(f"Day {idx} missing keys: {', '.join(missing)}")
+    failures += _collect_failures(query_data, plan)
+    return failures
+
+
 class TemplateActionPlanner:
     def __init__(
         self,
@@ -518,10 +829,10 @@ class TemplateActionPlanner:
                     slot = env._slot_name(state)
                     actions = env.legal_actions(state, topk=self.topk)
                     if not actions:
-                        state = env.apply_action(state, {"type": "end_day"}, record_trace=False)
+                        state = _apply_action_safe(env, state, {"type": "end_day"})
                         continue
                     if slot == "end_day":
-                        state = env.apply_action(state, actions[0], record_trace=False)
+                        state = _apply_action_safe(env, state, actions[0])
                         continue
 
                     day_idx = max(state.day - 1, 0)
@@ -557,6 +868,171 @@ class TemplateActionPlanner:
 
             template = make_output_record_template(row)
             record = fill_template_with_state(template, row, kb, state)
+            return record
+        except Exception:
+            return fallback_record
+
+
+def _build_constraints_summary(row: Any) -> str:
+    parts = [
+        f"org={getattr(row, 'org', '')}",
+        f"dest={getattr(row, 'dest', '')}",
+        f"days={getattr(row, 'days', '')}",
+        f"people={getattr(row, 'people_number', '')}",
+        f"budget={getattr(row, 'budget', '')}",
+    ]
+    dates = getattr(row, "date", None)
+    if dates:
+        parts.append(f"dates={dates}")
+    local_constraint = getattr(row, "local_constraint", None)
+    if local_constraint:
+        try:
+            parts.append(f"local_constraint={json.dumps(local_constraint, ensure_ascii=True)}")
+        except Exception:
+            parts.append(f"local_constraint={local_constraint}")
+    return "; ".join([p for p in parts if p and p != "None"])
+
+
+def _parse_value_object(text: str) -> Optional[str]:
+    cleaned = _strip_code_fence(str(text or "").strip())
+    if cleaned == "":
+        return None
+    try:
+        obj = json.loads(cleaned)
+        if isinstance(obj, dict) and "value" in obj:
+            return str(obj["value"])
+        if isinstance(obj, str):
+            return obj
+    except Exception:
+        pass
+    return cleaned
+
+
+class FixedSkeletonPlanner:
+    def __init__(
+        self,
+        model_name: str,
+        strategy: str,
+        direct_prompt: PromptTemplate = fixed_skeleton_direct_prompt,
+        cot_plan_prompt: PromptTemplate = fixed_skeleton_cot_plan_prompt,
+        cot_execute_prompt: PromptTemplate = fixed_skeleton_cot_execute_prompt,
+        react_prompt: PromptTemplate = fixed_skeleton_react_prompt,
+        reflexion_prompt: PromptTemplate = fixed_skeleton_reflexion_prompt,
+        topk: int = 5,
+    ) -> None:
+        self.runner = LLMRunner(model_name=model_name)
+        self.strategy = str(strategy or "direct").lower()
+        self.direct_prompt = direct_prompt
+        self.cot_plan_prompt = cot_plan_prompt
+        self.cot_execute_prompt = cot_execute_prompt
+        self.react_prompt = react_prompt
+        self.reflexion_prompt = reflexion_prompt
+        self.topk = topk
+
+    def run(self, text, query, persona, query_data=None) -> str:
+        query_data = _coerce_query_data(query_data)
+        from mcts_baseline.io import row_from_dict
+        from mcts_baseline.templater import make_output_record_template
+
+        row = row_from_dict(query_data or {}, idx_default=1)
+        fallback_record = make_output_record_template(row)
+
+        try:
+            template = make_output_record_template(row)
+            template_list = template["plan"]
+            template_json = json.dumps(template_list, ensure_ascii=True)
+
+            if self.strategy == "direct":
+                prompt = self.direct_prompt.format(
+                    text=text,
+                    query=query,
+                    persona=persona,
+                    plan_json=template_json,
+                )
+                response = self.runner.chat(prompt)
+                parsed = _extract_json_array(response or "")
+                plan_list = _normalize_plan(parsed) if parsed is not None else None
+                if plan_list is None:
+                    plan_list = template_list
+            elif self.strategy == "cot":
+                plan_prompt = self.cot_plan_prompt.format(
+                    text=text,
+                    query=query,
+                    persona=persona,
+                    plan_json=template_json,
+                )
+                slot_plan = self.runner.chat(plan_prompt)
+                execute_prompt = self.cot_execute_prompt.format(
+                    text=text,
+                    query=query,
+                    persona=persona,
+                    plan_json=template_json,
+                    slot_plan=slot_plan,
+                )
+                response = self.runner.chat(execute_prompt)
+                parsed = _extract_json_array(response or "")
+                plan_list = _normalize_plan(parsed) if parsed is not None else None
+                if plan_list is None:
+                    plan_list = template_list
+            elif self.strategy == "react":
+                plan_list = json.loads(template_json)
+                slot_order = [
+                    "current_city",
+                    "transportation",
+                    "breakfast",
+                    "attraction",
+                    "lunch",
+                    "dinner",
+                    "accommodation",
+                    "event",
+                    "point_of_interest_list",
+                ]
+                for day_idx, day in enumerate(plan_list, start=1):
+                    for slot in slot_order:
+                        partial_plan = json.dumps(plan_list, ensure_ascii=True)
+                        prompt = self.react_prompt.format(
+                            text=text,
+                            query=query,
+                            persona=persona,
+                            partial_plan=partial_plan,
+                            day=day_idx,
+                            slot=slot,
+                        )
+                        response = self.runner.chat(prompt)
+                        value = _parse_value_object(response)
+                        day[slot] = value if value is not None else "-"
+            elif self.strategy == "reflexion":
+                prompt = self.direct_prompt.format(
+                    text=text,
+                    query=query,
+                    persona=persona,
+                    plan_json=template_json,
+                )
+                response = self.runner.chat(prompt)
+                parsed = _extract_json_array(response or "")
+                plan_list = _normalize_plan(parsed) if parsed is not None else None
+                if plan_list is None:
+                    plan_list = template_list
+                failures = _verify_plan(query_data, plan_list) if query_data else []
+                if failures:
+                    repair_prompt = self.reflexion_prompt.format(
+                        text=text,
+                        query=query,
+                        persona=persona,
+                        failures="; ".join(failures),
+                        plan_json=json.dumps(plan_list, ensure_ascii=True),
+                        plan_json_template=template_json,
+                    )
+                    repair_response = self.runner.chat(repair_prompt)
+                    parsed = _extract_json_array(repair_response or "")
+                    repaired = _normalize_plan(parsed) if parsed is not None else None
+                    if repaired is not None:
+                        plan_list = repaired
+            else:
+                raise ValueError(f"Unknown fixed-skeleton strategy: {self.strategy}")
+
+            record = template
+            record["plan"] = plan_list
             return record
         except Exception:
             return fallback_record
