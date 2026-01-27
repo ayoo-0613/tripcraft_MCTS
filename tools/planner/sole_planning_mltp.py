@@ -297,6 +297,37 @@ def _verify_choice(choice: dict, candidates_payload: dict) -> list:
     return issues
 
 
+def _extract_day_choice(choice: dict, day: int) -> dict:
+    if not isinstance(choice, dict):
+        return {}
+    days = choice.get("days")
+    if isinstance(days, list) and days:
+        for item in days:
+            if not isinstance(item, dict):
+                continue
+            try:
+                if int(item.get("day")) == day:
+                    return item
+            except Exception:
+                continue
+        if len(days) == 1 and isinstance(days[0], dict):
+            return days[0]
+    idx_keys = {
+        "transportation_idx",
+        "accommodation_idx",
+        "breakfast_idx",
+        "lunch_idx",
+        "dinner_idx",
+        "attraction_idxs",
+        "event_idx",
+    }
+    if any(k in choice for k in idx_keys):
+        out = dict(choice)
+        out["day"] = day
+        return out
+    return {}
+
+
 def _apply_day_plan(env: TripCraftEnv, state, day_plan: dict) -> None:
     while True:
         slot = env._slot_name(state)
@@ -407,9 +438,10 @@ if __name__ == "__main__":
     # Iterate over data and generate results
     with get_openai_callback() as cb:
         for number, query_data in enumerate(tqdm(query_data_list, desc="Processing data")):
+            row_idx = int(query_data.get("idx") or (number + 1))
             output_dir = os.path.join(args.output_dir, args.set_type)
             os.makedirs(output_dir, exist_ok=True)
-            result_file = os.path.join(output_dir, f'llama_generated_plan_{number+1}.json')
+            result_file = os.path.join(output_dir, f'llama_generated_plan_{row_idx}.json')
             if args.skip_existing and os.path.exists(result_file):
                 continue
             if args.day == '3day':
@@ -425,87 +457,173 @@ if __name__ == "__main__":
                 reference_information = json.dumps(reference_information_1 + reference_information_2 + reference_information_3)
             if args.strategy in ['llm_direct', 'llm_cot', 'llm_reflexion']:
                 row = row_from_dict(query_data, idx_default=number + 1)
+                row_idx = row.idx
+                result_file = os.path.join(output_dir, f'llama_generated_plan_{row_idx}.json')
+                if args.skip_existing and os.path.exists(result_file):
+                    continue
                 template = make_output_record_template(row)
                 kb = build_unified_kb(row.org, row.ref_blocks)
                 env = TripCraftEnv(row=row, kb=kb, topk=5)
                 state = env.initial_state()
                 template_json = json.dumps(template, ensure_ascii=False, indent=2)
                 candidates_payload = _build_candidates_payload(row, kb, env, topk=5)
-                candidates_json = _format_candidates_for_llm(candidates_payload)
-                if args.strategy == 'llm_cot':
-                    draft_plan = planner.run(
-                        reference_information,
-                        query_data['query'],
-                        query_data['persona'],
-                        template=template_json,
-                        candidates=candidates_json,
-                    )
-                    fill_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_cot_fill)
-                    planner_results = fill_planner.run(
-                        draft_plan,
-                        "",
-                        "",
-                        candidates=candidates_json,
-                    )
-                    choice = _safe_json_loads(planner_results)
-                    if not choice:
-                        repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
-                        repair_raw = repair_planner.run(
-                            planner_results,
-                            "",
-                            "",
-                            candidates=candidates_json,
-                        )
-                        choice = _safe_json_loads(repair_raw)
-                    choice = choice or {"days": []}
-                elif args.strategy == 'llm_reflexion':
-                    planner_results = planner.run(
-                        reference_information,
-                        query_data['query'],
-                        query_data['persona'],
-                        template=template_json,
-                        candidates=candidates_json,
-                    )
-                    choice = _safe_json_loads(planner_results)
-                    issues = _verify_choice(choice, candidates_payload) if choice else ["invalid_json"]
-                    if issues:
-                        repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_reflexion_repair)
-                        issues_text = "\n".join(issues)
-                        repair_raw = repair_planner.run(
-                            planner_results,
-                            "",
-                            "",
-                            candidates=candidates_json,
-                            issues=issues_text,
-                        )
-                        choice = _safe_json_loads(repair_raw)
-                    choice = choice or {"days": []}
-                else:
-                    planner_results = planner.run(
-                        reference_information,
-                        query_data['query'],
-                        query_data['persona'],
-                        template=template_json,
-                        candidates=candidates_json,
-                    )
-                    choice = _safe_json_loads(planner_results)
-                    if not choice:
-                        repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
-                        repair_raw = repair_planner.run(
-                            planner_results,
-                            "",
-                            "",
-                            candidates=candidates_json,
-                        )
-                        choice = _safe_json_loads(repair_raw)
-                    choice = choice or {"days": []}
-                day_choices = {int(d.get("day")): d for d in choice.get("days", []) if isinstance(d, dict)}
                 day_plans = {}
-                for day_info in candidates_payload["days"]:
-                    day = int(day_info["day"])
-                    day_choice = day_choices.get(day, {})
-                    day_plans[day] = _resolve_day_plan_from_idx(day_info, day_choice)
-                    _apply_day_plan(env, state, day_plans[day])
+                use_per_day = args.day in ["5day", "7day"]
+                if use_per_day:
+                    for day_info in candidates_payload["days"]:
+                        day = int(day_info["day"])
+                        day_template = {
+                            "idx": template.get("idx"),
+                            "JSON": template.get("JSON"),
+                            "persona": template.get("persona"),
+                            "plan": [template["plan"][day - 1]],
+                        }
+                        day_template_json = json.dumps(day_template, ensure_ascii=False, indent=2)
+                        day_candidates_payload = {"days": [day_info]}
+                        day_candidates_json = _format_candidates_for_llm(day_candidates_payload)
+                        if args.strategy == 'llm_cot':
+                            draft_plan = planner.run(
+                                reference_information,
+                                query_data['query'],
+                                query_data['persona'],
+                                template=day_template_json,
+                                candidates=day_candidates_json,
+                            )
+                            fill_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_cot_fill)
+                            planner_results = fill_planner.run(
+                                draft_plan,
+                                "",
+                                "",
+                                candidates=day_candidates_json,
+                            )
+                            choice = _safe_json_loads(planner_results)
+                            if not choice:
+                                repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
+                                repair_raw = repair_planner.run(
+                                    planner_results,
+                                    "",
+                                    "",
+                                    candidates=day_candidates_json,
+                                )
+                                choice = _safe_json_loads(repair_raw)
+                        elif args.strategy == 'llm_reflexion':
+                            planner_results = planner.run(
+                                reference_information,
+                                query_data['query'],
+                                query_data['persona'],
+                                template=day_template_json,
+                                candidates=day_candidates_json,
+                            )
+                            choice = _safe_json_loads(planner_results)
+                            issues = _verify_choice(choice, day_candidates_payload) if choice else ["invalid_json"]
+                            if issues:
+                                repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_reflexion_repair)
+                                issues_text = "\n".join(issues)
+                                repair_raw = repair_planner.run(
+                                    planner_results,
+                                    "",
+                                    "",
+                                    candidates=day_candidates_json,
+                                    issues=issues_text,
+                                )
+                                choice = _safe_json_loads(repair_raw)
+                        else:
+                            planner_results = planner.run(
+                                reference_information,
+                                query_data['query'],
+                                query_data['persona'],
+                                template=day_template_json,
+                                candidates=day_candidates_json,
+                            )
+                            choice = _safe_json_loads(planner_results)
+                            if not choice:
+                                repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
+                                repair_raw = repair_planner.run(
+                                    planner_results,
+                                    "",
+                                    "",
+                                    candidates=day_candidates_json,
+                                )
+                                choice = _safe_json_loads(repair_raw)
+                        choice = choice or {"days": []}
+                        day_choice = _extract_day_choice(choice, day)
+                        day_plans[day] = _resolve_day_plan_from_idx(day_info, day_choice)
+                        _apply_day_plan(env, state, day_plans[day])
+                else:
+                    candidates_json = _format_candidates_for_llm(candidates_payload)
+                    if args.strategy == 'llm_cot':
+                        draft_plan = planner.run(
+                            reference_information,
+                            query_data['query'],
+                            query_data['persona'],
+                            template=template_json,
+                            candidates=candidates_json,
+                        )
+                        fill_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_cot_fill)
+                        planner_results = fill_planner.run(
+                            draft_plan,
+                            "",
+                            "",
+                            candidates=candidates_json,
+                        )
+                        choice = _safe_json_loads(planner_results)
+                        if not choice:
+                            repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
+                            repair_raw = repair_planner.run(
+                                planner_results,
+                                "",
+                                "",
+                                candidates=candidates_json,
+                            )
+                            choice = _safe_json_loads(repair_raw)
+                        choice = choice or {"days": []}
+                    elif args.strategy == 'llm_reflexion':
+                        planner_results = planner.run(
+                            reference_information,
+                            query_data['query'],
+                            query_data['persona'],
+                            template=template_json,
+                            candidates=candidates_json,
+                        )
+                        choice = _safe_json_loads(planner_results)
+                        issues = _verify_choice(choice, candidates_payload) if choice else ["invalid_json"]
+                        if issues:
+                            repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_reflexion_repair)
+                            issues_text = "\n".join(issues)
+                            repair_raw = repair_planner.run(
+                                planner_results,
+                                "",
+                                "",
+                                candidates=candidates_json,
+                                issues=issues_text,
+                            )
+                            choice = _safe_json_loads(repair_raw)
+                        choice = choice or {"days": []}
+                    else:
+                        planner_results = planner.run(
+                            reference_information,
+                            query_data['query'],
+                            query_data['persona'],
+                            template=template_json,
+                            candidates=candidates_json,
+                        )
+                        choice = _safe_json_loads(planner_results)
+                        if not choice:
+                            repair_planner = Planner(model_name=args.model_name, agent_prompt=planner_agent_prompt_llm_direct_repair)
+                            repair_raw = repair_planner.run(
+                                planner_results,
+                                "",
+                                "",
+                                candidates=candidates_json,
+                            )
+                            choice = _safe_json_loads(repair_raw)
+                        choice = choice or {"days": []}
+                    day_choices = {int(d.get("day")): d for d in choice.get("days", []) if isinstance(d, dict)}
+                    for day_info in candidates_payload["days"]:
+                        day = int(day_info["day"])
+                        day_choice = day_choices.get(day, {})
+                        day_plans[day] = _resolve_day_plan_from_idx(day_info, day_choice)
+                        _apply_day_plan(env, state, day_plans[day])
                 planner_results = fill_template_with_state(template, row, kb, state)
                 for day in range(1, row.days + 1):
                     event = day_plans.get(day, {}).get("event", "-")
