@@ -1,0 +1,100 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 13,
+            "JSON": {
+                "org": "Tampa",
+                "dest": "Illinois",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 6,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "American",
+                        "Mexican",
+                        "Italian",
+                        "Cajun & Creole"
+                    ],
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 10200.0,
+                "query": "Plan a 5-day trip for 6 people traveling from Tampa to explore 2 cities in Illinois between November 1st and November 5th, 2024. The budget is $10,200. Include dining options with American, Mexican, Italian, and Cajun & Creole cuisines.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Tampa to Bloomington",
+                    "transportation": "Transfer, from Tampa to Bloomington",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "White Oak Oasis, Bloomington",
+                    "event": "-",
+                    "point_of_interest_list": "White Oak Oasis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 254625.65m away; White Oak Oasis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Prow Rd @ Meadows Hospital, 254625.65m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Bloomington to Bloomington",
+                    "transportation": "Transfer, from Bloomington to Bloomington",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "White Oak Oasis, Bloomington",
+                    "event": "-",
+                    "point_of_interest_list": "White Oak Oasis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 254625.65m away; White Oak Oasis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Prow Rd @ Meadows Hospital, 254625.65m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Bloomington to Champaign",
+                    "transportation": "Transfer, from Bloomington to Champaign",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "No Fees! - The Chanute - Your Home Base, Champaign",
+                    "event": "-",
+                    "point_of_interest_list": "White Oak Oasis, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Prow Rd @ Meadows Hospital, 254625.65m away; No Fees! - The Chanute - Your Home Base, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Viking North (South Side), 18169.70m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Champaign to Champaign",
+                    "transportation": "Transfer, from Champaign to Champaign",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "No Fees! - The Chanute - Your Home Base, Champaign",
+                    "event": "-",
+                    "point_of_interest_list": "No Fees! - The Chanute - Your Home Base, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Viking North (South Side), 18169.70m away; No Fees! - The Chanute - Your Home Base, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Viking North (South Side), 18169.70m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Champaign to Tampa",
+                    "transportation": "Transfer, from Champaign to Tampa",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "No Fees! - The Chanute - Your Home Base, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Viking North (South Side), 18169.70m away."
+                }
+            ]
+        }
+    }
+]

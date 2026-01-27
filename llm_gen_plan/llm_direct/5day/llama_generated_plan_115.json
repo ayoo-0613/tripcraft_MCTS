@@ -1,0 +1,98 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 115,
+            "JSON": {
+                "org": "Greensboro",
+                "dest": "Florida",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "Chinese",
+                        "American"
+                    ],
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 3500.0,
+                "query": "Plan a 5-day trip for 2 people from Greensboro to explore 2 cities in Florida from November 2nd to November 6th, 2024. The budget is $3,500. Include dining options with Chinese and American cuisines.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Greensboro to Key West",
+                    "transportation": "Transfer, from Greensboro to Key West",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Dockside 2BD Monte Carlo @ Perry Marina, Key West",
+                    "event": "-",
+                    "point_of_interest_list": "Dockside 2BD Monte Carlo @ Perry Marina, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road, 257.28m away; Dockside 2BD Monte Carlo @ Perry Marina, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road, 257.28m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Key West to Key West",
+                    "transportation": "Transfer, from Key West to Key West",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Dockside 2BD Monte Carlo @ Perry Marina, Key West",
+                    "event": "-",
+                    "point_of_interest_list": "Dockside 2BD Monte Carlo @ Perry Marina, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road, 257.28m away; Dockside 2BD Monte Carlo @ Perry Marina, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 5th Ave & Shrimp Road, 257.28m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Key West to Gainesville",
+                    "transportation": "Transfer, from Key West to Gainesville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private In-Law Suite - 1 mile from UF Campus, Gainesville",
+                    "event": "-",
+                    "point_of_interest_list": "Dockside 2BD Monte Carlo @ Perry Marina, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 5th Ave & Shrimp Road, 257.28m away; Private In-Law Suite - 1 mile from UF Campus, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Atlantic Design, 224.43m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Gainesville to Gainesville",
+                    "transportation": "Transfer, from Gainesville to Gainesville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private In-Law Suite - 1 mile from UF Campus, Gainesville",
+                    "event": "-",
+                    "point_of_interest_list": "Private In-Law Suite - 1 mile from UF Campus, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Atlantic Design, 224.43m away; Private In-Law Suite - 1 mile from UF Campus, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Atlantic Design, 224.43m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Gainesville to Greensboro",
+                    "transportation": "Transfer, from Gainesville to Greensboro",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Private In-Law Suite - 1 mile from UF Campus, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Atlantic Design, 224.43m away."
+                }
+            ]
+        }
+    }
+]

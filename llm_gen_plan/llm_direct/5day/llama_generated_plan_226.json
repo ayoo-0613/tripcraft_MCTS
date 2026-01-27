@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 226,
+            "JSON": {
+                "org": "St. Louis",
+                "dest": "Iowa",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08",
+                    "2024-11-09"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": "private room",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2550.0,
+                "query": "Plan a 5-day trip for 1 person traveling from St. Louis to explore 2 cities in Iowa between November 5th and November 9th, 2024. The budget is $2,550, and accommodations should include a private room.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from St. Louis to Fort Dodge",
+                    "transportation": "Transfer, from St. Louis to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Fort Dodge to Fort Dodge",
+                    "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Fort Dodge to Sioux City",
+                    "transportation": "Transfer, from Fort Dodge to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Sioux City to Sioux City",
+                    "transportation": "Transfer, from Sioux City to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Sioux City to St. Louis",
+                    "transportation": "Transfer, from Sioux City to St. Louis",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                }
+            ]
+        }
+    }
+]

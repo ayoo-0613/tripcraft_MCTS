@@ -1,0 +1,121 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 22,
+            "JSON": {
+                "org": "Denver",
+                "dest": "Iowa",
+                "days": 7,
+                "visiting_city_number": 3,
+                "date": [
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08",
+                    "2024-11-09",
+                    "2024-11-10",
+                    "2024-11-11"
+                ],
+                "people_number": 4,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 25200.0,
+                "query": "Plan a 7-day trip for 4 people starting from Denver and visiting 3 cities in Iowa between November 5th and November 11th, 2024. The budget is $25,200.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Denver to Fort Dodge",
+                    "transportation": "Transfer, from Denver to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Fort Dodge to Fort Dodge",
+                    "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Fort Dodge to Cedar Rapids",
+                    "transportation": "Transfer, from Fort Dodge to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Cedar Rapids to Cedar Rapids",
+                    "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Cedar Rapids to Sioux City",
+                    "transportation": "Transfer, from Cedar Rapids to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 6,
+                    "current_city": "from Sioux City to Sioux City",
+                    "transportation": "Transfer, from Sioux City to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 7,
+                    "current_city": "from Sioux City to Denver",
+                    "transportation": "Transfer, from Sioux City to Denver",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                }
+            ]
+        }
+    }
+]

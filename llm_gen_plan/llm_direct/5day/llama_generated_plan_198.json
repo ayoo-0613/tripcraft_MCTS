@@ -1,0 +1,97 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 198,
+            "JSON": {
+                "org": "Las Vegas",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-17",
+                    "2024-11-18",
+                    "2024-11-19",
+                    "2024-11-20",
+                    "2024-11-21"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": "parties",
+                    "cuisine": null,
+                    "room type": "entire home",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": [
+                        "Nature & Parks"
+                    ]
+                },
+                "budget": 1800.0,
+                "query": "Design a 5-day travel itinerary for 1 person starting from Las Vegas and visiting 2 cities in California between November 17th and November 21st, 2024. The budget is $1,800. Accommodations should be in an entire home and must follow house rules that allow parties. Include visits to attractions related to nature and parks.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Las Vegas to San Luis Obispo",
+                    "transportation": "Transfer, from Las Vegas to San Luis Obispo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "SLO Casita, a short walk to everything!, San Luis Obispo",
+                    "event": "-",
+                    "point_of_interest_list": "SLO Casita, a short walk to everything!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Government Center, 706.85m away; SLO Casita, a short walk to everything!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Government Center, 706.85m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from San Luis Obispo to San Luis Obispo",
+                    "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "SLO Casita, a short walk to everything!, San Luis Obispo",
+                    "event": "-",
+                    "point_of_interest_list": "SLO Casita, a short walk to everything!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Government Center, 706.85m away; SLO Casita, a short walk to everything!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Government Center, 706.85m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from San Luis Obispo to Fresno",
+                    "transportation": "Transfer, from San Luis Obispo to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "SLO Casita, a short walk to everything!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Government Center, 706.85m away; Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Fresno to Fresno",
+                    "transportation": "Transfer, from Fresno to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away; Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Fresno to Las Vegas",
+                    "transportation": "Transfer, from Fresno to Las Vegas",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 144,
+            "JSON": {
+                "org": "Las Vegas",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-22",
+                    "2024-11-23",
+                    "2024-11-24",
+                    "2024-11-25",
+                    "2024-11-26"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": "smoking",
+                    "cuisine": null,
+                    "room type": "entire home",
+                    "transportation": "no self-driving",
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2100.0,
+                "query": "Design a 5-day travel itinerary for 2 people starting from Las Vegas and visiting 2 cities in California between November 22nd and November 26th, 2024. The budget is $2,100. Accommodations should be an entire home, and transportation should not involve self-driving.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Las Vegas to Fresno",
+                    "transportation": "Transfer, from Las Vegas to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away; Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Fresno to Fresno",
+                    "transportation": "Transfer, from Fresno to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away; Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: NW WISHON - WELDON, 145.45m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Fresno to Sacramento",
+                    "transportation": "Transfer, from Fresno to Sacramento",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "\u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, Sacramento",
+                    "event": "-",
+                    "point_of_interest_list": "Rm # 1, Shared Bath in Hist. Dwtn Tower Dist, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: NW WISHON - WELDON, 145.45m away; \u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Sacramento to Sacramento",
+                    "transportation": "Transfer, from Sacramento to Sacramento",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "\u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, Sacramento",
+                    "event": "-",
+                    "point_of_interest_list": "\u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away; \u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Sacramento to Las Vegas",
+                    "transportation": "Transfer, from Sacramento to Las Vegas",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "\u2605Luxurious Top-Floor, Balcony View, Private Bath\u2605, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Q ST & 5TH ST (EB), 9.45m away."
+                }
+            ]
+        }
+    }
+]

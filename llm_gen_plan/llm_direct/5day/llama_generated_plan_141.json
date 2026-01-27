@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 141,
+            "JSON": {
+                "org": "Asheville",
+                "dest": "New York",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": "Concerts & Shows",
+                    "transportation": null
+                },
+                "budget": 4200.0,
+                "query": "Plan a 5-day trip for 2 people traveling from Asheville to explore 2 cities in New York between November 2nd and November 6th, 2024. The budget is $4,200. Include activities related to concerts and shows.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Asheville to Rochester",
+                    "transportation": "Transfer, from Asheville to Rochester",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Henrietta Apartment, Rochester",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Historic Henrietta Apartment, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Rochester to Rochester",
+                    "transportation": "Transfer, from Rochester to Rochester",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Henrietta Apartment, Rochester",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Historic Henrietta Apartment, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Rochester to Watertown",
+                    "transportation": "Transfer, from Rochester to Watertown",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy Dark Academia-Inspired Aprt, Watertown",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Cozy Dark Academia-Inspired Aprt, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Northland Plaza, 911.45m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Watertown to Watertown",
+                    "transportation": "Transfer, from Watertown to Watertown",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy Dark Academia-Inspired Aprt, Watertown",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy Dark Academia-Inspired Aprt, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Northland Plaza, 911.45m away; Cozy Dark Academia-Inspired Aprt, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Northland Plaza, 911.45m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Watertown to Asheville",
+                    "transportation": "Transfer, from Watertown to Asheville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy Dark Academia-Inspired Aprt, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Northland Plaza, 911.45m away."
+                }
+            ]
+        }
+    }
+]

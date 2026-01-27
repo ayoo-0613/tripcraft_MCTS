@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 146,
+            "JSON": {
+                "org": "Cleveland",
+                "dest": "New York",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2400.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Cleveland to explore 2 cities in New York between November 3rd and November 7th, 2024, with a budget of $2,400.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Cleveland to Rochester",
+                    "transportation": "Transfer, from Cleveland to Rochester",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Henrietta Apartment, Rochester",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Historic Henrietta Apartment, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Rochester to Rochester",
+                    "transportation": "Transfer, from Rochester to Rochester",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Henrietta Apartment, Rochester",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Historic Henrietta Apartment, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Rochester to Newburgh",
+                    "transportation": "Transfer, from Rochester to Newburgh",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Stunner w/WasherDryer, Balcony, 2 bedroom, Newburgh",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Henrietta Apartment, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Winona 61 & Hwy. 14, 1141460.71m away; Historic Stunner w/WasherDryer, Balcony, 2 bedroom, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Grand St & South St, 154.76m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Newburgh to Newburgh",
+                    "transportation": "Transfer, from Newburgh to Newburgh",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Historic Stunner w/WasherDryer, Balcony, 2 bedroom, Newburgh",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Stunner w/WasherDryer, Balcony, 2 bedroom, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Grand St & South St, 154.76m away; Historic Stunner w/WasherDryer, Balcony, 2 bedroom, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Grand St & South St, 154.76m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Newburgh to Cleveland",
+                    "transportation": "Transfer, from Newburgh to Cleveland",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Historic Stunner w/WasherDryer, Balcony, 2 bedroom, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Grand St & South St, 154.76m away."
+                }
+            ]
+        }
+    }
+]

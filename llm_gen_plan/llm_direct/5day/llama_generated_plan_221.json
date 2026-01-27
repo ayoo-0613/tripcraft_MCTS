@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 221,
+            "JSON": {
+                "org": "Houston",
+                "dest": "Iowa",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08"
+                ],
+                "people_number": 4,
+                "local_constraint": {
+                    "house rule": "visitors",
+                    "cuisine": null,
+                    "room type": "entire home",
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 10800.0,
+                "query": "Plan a 5-day trip for 4 people traveling from Houston to explore 2 cities in Iowa between November 4th and November 8th, 2024. The budget is $10,800, and accommodations should include an entire home. Ensure the house rules allow visitors.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Houston to Mason City",
+                    "transportation": "Transfer, from Houston to Mason City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "One Bedroom Lake Retreat, Mason City",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; One Bedroom Lake Retreat, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Best Buy, 12990.88m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Mason City to Mason City",
+                    "transportation": "Transfer, from Mason City to Mason City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "One Bedroom Lake Retreat, Mason City",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; One Bedroom Lake Retreat, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Best Buy, 12990.88m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Mason City to Cedar Rapids",
+                    "transportation": "Transfer, from Mason City to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Cedar Rapids to Cedar Rapids",
+                    "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Cedar Rapids to Houston",
+                    "transportation": "Transfer, from Cedar Rapids to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Adventure Seeker | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                }
+            ]
+        }
+    }
+]

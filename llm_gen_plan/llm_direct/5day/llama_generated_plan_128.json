@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 128,
+            "JSON": {
+                "org": "Nashville",
+                "dest": "Texas",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2850.0,
+                "query": "Plan a 5-day trip for 1 person from Nashville to explore 2 cities in Texas between November 1st and November 5th, 2024, with a budget of $2,850.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Nashville to Amarillo",
+                    "transportation": "Transfer, from Nashville to Amarillo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Side Street Private Guesthouse, Amarillo",
+                    "event": "-",
+                    "point_of_interest_list": "Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away; Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Amarillo to Amarillo",
+                    "transportation": "Transfer, from Amarillo to Amarillo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Side Street Private Guesthouse, Amarillo",
+                    "event": "-",
+                    "point_of_interest_list": "Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away; Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Amarillo to Corpus Christi",
+                    "transportation": "Transfer, from Amarillo to Corpus Christi",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Just Remodeled Condo I Named Shark, Corpus Christi",
+                    "event": "-",
+                    "point_of_interest_list": "Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away; Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Compass Street, 668.14m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Corpus Christi to Corpus Christi",
+                    "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Just Remodeled Condo I Named Shark, Corpus Christi",
+                    "event": "-",
+                    "point_of_interest_list": "Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Compass Street, 668.14m away; Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Compass Street, 668.14m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Corpus Christi to Nashville",
+                    "transportation": "Transfer, from Corpus Christi to Nashville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Compass Street, 668.14m away."
+                }
+            ]
+        }
+    }
+]

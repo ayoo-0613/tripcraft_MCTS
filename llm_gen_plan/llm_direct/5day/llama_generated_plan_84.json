@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 84,
+            "JSON": {
+                "org": "St. Louis",
+                "dest": "Iowa",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-12",
+                    "2024-11-13",
+                    "2024-11-14",
+                    "2024-11-15",
+                    "2024-11-16"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": "entire home",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2550.0,
+                "query": "Plan a 5-day trip for 1 person traveling from St. Louis to explore 2 cities in Iowa between November 12th and November 16th, 2024. The budget is $2,550, and accommodations should include an entire home.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife.",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from St. Louis to Mason City",
+                    "transportation": "Transfer, from St. Louis to Mason City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "One Bedroom Lake Retreat, Mason City",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; One Bedroom Lake Retreat, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 22:15 to 08:00, nearest transit: Best Buy, 12990.88m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Mason City to Mason City",
+                    "transportation": "Transfer, from Mason City to Mason City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "One Bedroom Lake Retreat, Mason City",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; One Bedroom Lake Retreat, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 22:15 to 08:00, nearest transit: Best Buy, 12990.88m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Mason City to Fort Dodge",
+                    "transportation": "Transfer, from Mason City to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "One Bedroom Lake Retreat, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 08:00 to 09:00, nearest transit: Best Buy, 12990.88m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Fort Dodge to Fort Dodge",
+                    "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Fort Dodge to St. Louis",
+                    "transportation": "Transfer, from Fort Dodge to St. Louis",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Forests/Wildlife., stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away."
+                }
+            ]
+        }
+    }
+]

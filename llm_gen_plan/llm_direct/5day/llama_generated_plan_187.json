@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 187,
+            "JSON": {
+                "org": "Memphis",
+                "dest": "Texas",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": "no flight",
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2550.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Memphis to explore 2 cities in Texas between November 1st and November 5th, 2024. The budget is $2,550, and the trip should avoid flights as a mode of transportation.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Memphis to Corpus Christi",
+                    "transportation": "Transfer, from Memphis to Corpus Christi",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Just Remodeled Condo I Named Shark, Corpus Christi",
+                    "event": "-",
+                    "point_of_interest_list": "Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Compass Street, 668.14m away; Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Compass Street, 668.14m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Corpus Christi to Corpus Christi",
+                    "transportation": "Transfer, from Corpus Christi to Corpus Christi",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Just Remodeled Condo I Named Shark, Corpus Christi",
+                    "event": "-",
+                    "point_of_interest_list": "Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Compass Street, 668.14m away; Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Compass Street, 668.14m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Corpus Christi to Houston",
+                    "transportation": "Transfer, from Corpus Christi to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, Houston",
+                    "event": "-",
+                    "point_of_interest_list": "Just Remodeled Condo I Named Shark, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Compass Street, 668.14m away; A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Houston Ave @ Bingham St, 302.24m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Houston to Houston",
+                    "transportation": "Transfer, from Houston to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, Houston",
+                    "event": "-",
+                    "point_of_interest_list": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Houston Ave @ Bingham St, 302.24m away; A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Houston Ave @ Bingham St, 302.24m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Houston to Memphis",
+                    "transportation": "Transfer, from Houston to Memphis",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Houston Ave @ Bingham St, 302.24m away."
+                }
+            ]
+        }
+    }
+]

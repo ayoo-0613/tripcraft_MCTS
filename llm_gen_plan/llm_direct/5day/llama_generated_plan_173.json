@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 173,
+            "JSON": {
+                "org": "Washington",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08",
+                    "2024-11-09"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": "private room",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 5100.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Washington to explore 2 cities in California between November 5th and November 9th, 2024. The budget is $5,100, and accommodations should include a private room.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Washington to San Francisco",
+                    "transportation": "Transfer, from Washington to San Francisco",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+                    "event": "-",
+                    "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Single Bed in 4-Bed Female Capsule Room, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from San Francisco to San Francisco",
+                    "transportation": "Transfer, from San Francisco to San Francisco",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Single Bed in 4-Bed Female Capsule Room, San Francisco",
+                    "event": "-",
+                    "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Single Bed in 4-Bed Female Capsule Room, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from San Francisco to San Diego",
+                    "transportation": "Transfer, from San Francisco to San Diego",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bed in 4-Bed room in Stylish Hostel, San Diego",
+                    "event": "-",
+                    "point_of_interest_list": "Single Bed in 4-Bed Female Capsule Room, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Civic Center @ 7th (Yotel), 1100.12m away; Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Cable St & Newport Av, 118.17m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from San Diego to San Diego",
+                    "transportation": "Transfer, from San Diego to San Diego",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bed in 4-Bed room in Stylish Hostel, San Diego",
+                    "event": "-",
+                    "point_of_interest_list": "Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Cable St & Newport Av, 118.17m away; Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Cable St & Newport Av, 118.17m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from San Diego to Washington",
+                    "transportation": "Transfer, from San Diego to Washington",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Adventure | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Cable St & Newport Av, 118.17m away."
+                }
+            ]
+        }
+    }
+]

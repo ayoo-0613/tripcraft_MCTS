@@ -1,0 +1,99 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 121,
+            "JSON": {
+                "org": "Missoula",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-21",
+                    "2024-11-22",
+                    "2024-11-23",
+                    "2024-11-24",
+                    "2024-11-25"
+                ],
+                "people_number": 4,
+                "local_constraint": {
+                    "house rule": "children under 10",
+                    "cuisine": [
+                        "Mediterranean",
+                        "French",
+                        "American"
+                    ],
+                    "room type": "entire home",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 5850.0,
+                "query": "Design a 5-day travel itinerary for 4 people departing from Missoula to visit 2 cities in California from November 21st to November 25th, 2024. The budget is $5,850. Accommodations should be an entire home, and the house rules must allow children under 10. Include dining options featuring Mediterranean, French, and American cuisines.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Forests/Wildlife",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Missoula to Los Angeles",
+                    "transportation": "Transfer, from Missoula to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Los Angeles to Los Angeles",
+                    "transportation": "Transfer, from Los Angeles to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Los Angeles to San Luis Obispo",
+                    "transportation": "Transfer, from Los Angeles to San Luis Obispo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "SLO Casita, a short walk to everything!, San Luis Obispo",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; SLO Casita, a short walk to everything!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Government Center, 706.85m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from San Luis Obispo to San Luis Obispo",
+                    "transportation": "Transfer, from San Luis Obispo to San Luis Obispo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "SLO Casita, a short walk to everything!, San Luis Obispo",
+                    "event": "-",
+                    "point_of_interest_list": "SLO Casita, a short walk to everything!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Government Center, 706.85m away; SLO Casita, a short walk to everything!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Government Center, 706.85m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from San Luis Obispo to Missoula",
+                    "transportation": "Transfer, from San Luis Obispo to Missoula",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "SLO Casita, a short walk to everything!, traveler: Adventure Seeker | purpose: Nature | spending: Economical Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Government Center, 706.85m away."
+                }
+            ]
+        }
+    }
+]

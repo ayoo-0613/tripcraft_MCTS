@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 184,
+            "JSON": {
+                "org": "Peoria",
+                "dest": "Texas",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2850.0,
+                "query": "Plan a 5-day trip for 1 person from Peoria to explore 2 cities in Texas, from November 1st to November 5th, 2024, with a budget of $2,850.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Peoria to Houston",
+                    "transportation": "Transfer, from Peoria to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, Houston",
+                    "event": "-",
+                    "point_of_interest_list": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Houston Ave @ Bingham St, 302.24m away; A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Houston Ave @ Bingham St, 302.24m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Houston to Houston",
+                    "transportation": "Transfer, from Houston to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, Houston",
+                    "event": "-",
+                    "point_of_interest_list": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Houston Ave @ Bingham St, 302.24m away; A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Houston Ave @ Bingham St, 302.24m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Houston to Amarillo",
+                    "transportation": "Transfer, from Houston to Amarillo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Side Street Private Guesthouse, Amarillo",
+                    "event": "-",
+                    "point_of_interest_list": "A| CLEAN \u20222 Monitor Desk \u2022 4KTV \u2022 PRIVATE Entrance, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Houston Ave @ Bingham St, 302.24m away; Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Amarillo to Amarillo",
+                    "transportation": "Transfer, from Amarillo to Amarillo",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Side Street Private Guesthouse, Amarillo",
+                    "event": "-",
+                    "point_of_interest_list": "Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away; Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Amarillo to Peoria",
+                    "transportation": "Transfer, from Amarillo to Peoria",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Side Street Private Guesthouse, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: S Georgia St & SW 34th Ave, 252.00m away."
+                }
+            ]
+        }
+    }
+]

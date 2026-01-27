@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 155,
+            "JSON": {
+                "org": "Bend",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-08",
+                    "2024-11-09",
+                    "2024-11-10",
+                    "2024-11-11",
+                    "2024-11-12"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": "private room",
+                    "transportation": "no flight",
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2250.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Bend to explore 2 cities in California between November 8th and November 12th, 2024. The budget is $2,250. Accommodations should include a private room, and the trip should avoid flights.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Bend to Los Angeles",
+                    "transportation": "Transfer, from Bend to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Los Angeles to Los Angeles",
+                    "transportation": "Transfer, from Los Angeles to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Los Angeles to Redding",
+                    "transportation": "Transfer, from Los Angeles to Redding",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Relax and Enjoy!, Redding",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Relax and Enjoy!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Redding to Redding",
+                    "transportation": "Transfer, from Redding to Redding",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Relax and Enjoy!, Redding",
+                    "event": "-",
+                    "point_of_interest_list": "Relax and Enjoy!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away; Relax and Enjoy!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Redding to Bend",
+                    "transportation": "Transfer, from Redding to Bend",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Relax and Enjoy!, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                }
+            ]
+        }
+    }
+]

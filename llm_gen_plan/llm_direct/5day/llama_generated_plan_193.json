@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 193,
+            "JSON": {
+                "org": "Houston",
+                "dest": "Tennessee",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08",
+                    "2024-11-09",
+                    "2024-11-10"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 3000.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Houston to explore 2 cities in Tennessee between November 6th and November 10th, 2024, with a budget of $3,000.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Houston to Memphis",
+                    "transportation": "Transfer, from Houston to Memphis",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy 1 Bedroom Guest House, Memphis",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy 1 Bedroom Guest House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: ECHLES@CARNES, 246.18m away; Cozy 1 Bedroom Guest House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: ECHLES@CARNES, 246.18m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Memphis to Memphis",
+                    "transportation": "Transfer, from Memphis to Memphis",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy 1 Bedroom Guest House, Memphis",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy 1 Bedroom Guest House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: ECHLES@CARNES, 246.18m away; Cozy 1 Bedroom Guest House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: ECHLES@CARNES, 246.18m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Memphis to Bristol",
+                    "transportation": "Transfer, from Memphis to Bristol",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Walk to State Street - Remodeled Home, Bristol",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy 1 Bedroom Guest House, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: ECHLES@CARNES, 246.18m away; Walk to State Street - Remodeled Home, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Bristol to Bristol",
+                    "transportation": "Transfer, from Bristol to Bristol",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Walk to State Street - Remodeled Home, Bristol",
+                    "event": "-",
+                    "point_of_interest_list": "Walk to State Street - Remodeled Home, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away; Walk to State Street - Remodeled Home, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Downtown Transfer Center, 1324.41m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Bristol to Houston",
+                    "transportation": "Transfer, from Bristol to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Walk to State Street - Remodeled Home, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Downtown Transfer Center, 1324.41m away."
+                }
+            ]
+        }
+    }
+]

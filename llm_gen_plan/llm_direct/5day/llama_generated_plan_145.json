@@ -1,0 +1,100 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 145,
+            "JSON": {
+                "org": "Denver",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-22",
+                    "2024-11-23",
+                    "2024-11-24",
+                    "2024-11-25",
+                    "2024-11-26"
+                ],
+                "people_number": 3,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "Indian",
+                        "Italian",
+                        "American",
+                        "Mexican"
+                    ],
+                    "room type": "entire home",
+                    "transportation": "no self-driving",
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 5500.0,
+                "query": "Design a 5-day travel itinerary for 3 people departing from Denver to visit 2 cities in California between November 22nd and November 26th, 2024. The budget is $5,500. Accommodations should be an entire home, and transportation should not involve self-driving. Include dining options featuring Indian, Italian, American, and Mexican cuisines.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Denver to Monterey",
+                    "transportation": "Transfer, from Denver to Monterey",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bird Room with Shared Bathroom, Monterey",
+                    "event": "-",
+                    "point_of_interest_list": "Bird Room with Shared Bathroom, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away; Bird Room with Shared Bathroom, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Monterey to Monterey",
+                    "transportation": "Transfer, from Monterey to Monterey",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bird Room with Shared Bathroom, Monterey",
+                    "event": "-",
+                    "point_of_interest_list": "Bird Room with Shared Bathroom, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away; Bird Room with Shared Bathroom, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Monterey to Fresno",
+                    "transportation": "Transfer, from Monterey to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Lazy Private Cottage, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "Bird Room with Shared Bathroom, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Canyon Del Rey / Carlton Drive, 516.37m away; Lazy Private Cottage, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Fresno to Fresno",
+                    "transportation": "Transfer, from Fresno to Fresno",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Lazy Private Cottage, Fresno",
+                    "event": "-",
+                    "point_of_interest_list": "Lazy Private Cottage, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: SW Riverside - El Paso, 20723.14m away; Lazy Private Cottage, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Fresno to Denver",
+                    "transportation": "Transfer, from Fresno to Denver",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Lazy Private Cottage, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: SW Riverside - El Paso, 20723.14m away."
+                }
+            ]
+        }
+    }
+]

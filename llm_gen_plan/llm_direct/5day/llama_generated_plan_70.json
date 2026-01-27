@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 70,
+            "JSON": {
+                "org": "Denver",
+                "dest": "Iowa",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-16",
+                    "2024-11-17",
+                    "2024-11-18",
+                    "2024-11-19",
+                    "2024-11-20"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": "pets",
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 3000.0,
+                "query": "Plan a 5-day trip for 1 person from Denver to explore 2 cities in Iowa between November 16th and November 20th, 2024. The budget is $3,000, and accommodations should allow pets.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Denver to Cedar Rapids",
+                    "transportation": "Transfer, from Denver to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Cedar Rapids to Cedar Rapids",
+                    "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Cedar Rapids to Fort Dodge",
+                    "transportation": "Transfer, from Cedar Rapids to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Fort Dodge to Fort Dodge",
+                    "transportation": "Transfer, from Fort Dodge to Fort Dodge",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Twin Lakes Family Escape, Fort Dodge",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away; Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: Starlite, 33928.75m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Fort Dodge to Denver",
+                    "transportation": "Transfer, from Fort Dodge to Denver",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Twin Lakes Family Escape, traveler: Laidback Traveler | purpose: Relaxation | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: Starlite, 33928.75m away."
+                }
+            ]
+        }
+    }
+]

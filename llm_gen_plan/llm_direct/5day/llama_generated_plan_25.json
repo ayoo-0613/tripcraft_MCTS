@@ -1,0 +1,98 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 25,
+            "JSON": {
+                "org": "Helena",
+                "dest": "Colorado",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": "parties",
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": [
+                        "Museums",
+                        "Nature & Parks"
+                    ],
+                    "transportation": "no flight"
+                },
+                "budget": 2550.0,
+                "query": "Design a 5-day travel itinerary for 1 person traveling from Helena to explore 2 cities in Colorado between November 1st and November 5th, 2024. The budget is $2,550. The trip should avoid flights and include visits to museums and nature & parks. Accommodations should follow house rules that do not allow parties.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Helena to Colorado Springs",
+                    "transportation": "Transfer, from Helena to Colorado Springs",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private, Spacious Basement Suite in N CO Springs, Colorado Springs",
+                    "event": "-",
+                    "point_of_interest_list": "Private, Spacious Basement Suite in N CO Springs, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Research/Telstar, 10996.28m away; Private, Spacious Basement Suite in N CO Springs, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Research/Telstar, 10996.28m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Colorado Springs to Colorado Springs",
+                    "transportation": "Transfer, from Colorado Springs to Colorado Springs",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private, Spacious Basement Suite in N CO Springs, Colorado Springs",
+                    "event": "-",
+                    "point_of_interest_list": "Private, Spacious Basement Suite in N CO Springs, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Research/Telstar, 10996.28m away; Private, Spacious Basement Suite in N CO Springs, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Research/Telstar, 10996.28m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Colorado Springs to Durango",
+                    "transportation": "Transfer, from Colorado Springs to Durango",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Bedroom and Bath - Walk Downtown!, Durango",
+                    "event": "-",
+                    "point_of_interest_list": "Private, Spacious Basement Suite in N CO Springs, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Research/Telstar, 10996.28m away; Private Bedroom and Bath - Walk Downtown!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 5th Ave. & 3rd St., 81.00m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Durango to Durango",
+                    "transportation": "Transfer, from Durango to Durango",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Bedroom and Bath - Walk Downtown!, Durango",
+                    "event": "-",
+                    "point_of_interest_list": "Private Bedroom and Bath - Walk Downtown!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 5th Ave. & 3rd St., 81.00m away; Private Bedroom and Bath - Walk Downtown!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 5th Ave. & 3rd St., 81.00m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Durango to Helena",
+                    "transportation": "Transfer, from Durango to Helena",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Private Bedroom and Bath - Walk Downtown!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 5th Ave. & 3rd St., 81.00m away."
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 78,
+            "JSON": {
+                "org": "Everett",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-23",
+                    "2024-11-24",
+                    "2024-11-25",
+                    "2024-11-26",
+                    "2024-11-27"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": "children under 10",
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 4200.0,
+                "query": "Plan a 5-day trip for 2 people traveling from Everett to explore 2 cities in California between November 23rd and November 27th, 2024. The budget is $4,200. Accommodations should adhere to house rules that allow children under 10.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Everett to Los Angeles",
+                    "transportation": "Transfer, from Everett to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Los Angeles to Los Angeles",
+                    "transportation": "Transfer, from Los Angeles to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Los Angeles to San Francisco",
+                    "transportation": "Transfer, from Los Angeles to San Francisco",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Updated Private Bedroom with Ensuite Bathroom., San Francisco",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Updated Private Bedroom with Ensuite Bathroom., traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 1111 8th Street (CCA/Adobe), 5985.81m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from San Francisco to San Francisco",
+                    "transportation": "Transfer, from San Francisco to San Francisco",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Updated Private Bedroom with Ensuite Bathroom., San Francisco",
+                    "event": "-",
+                    "point_of_interest_list": "Updated Private Bedroom with Ensuite Bathroom., traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 1111 8th Street (CCA/Adobe), 5985.81m away; Updated Private Bedroom with Ensuite Bathroom., traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 1111 8th Street (CCA/Adobe), 5985.81m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from San Francisco to Everett",
+                    "transportation": "Transfer, from San Francisco to Everett",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Updated Private Bedroom with Ensuite Bathroom., traveler: Laidback Traveler | purpose: Adventure | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 1111 8th Street (CCA/Adobe), 5985.81m away."
+                }
+            ]
+        }
+    }
+]

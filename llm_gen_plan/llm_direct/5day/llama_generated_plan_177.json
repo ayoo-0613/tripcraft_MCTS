@@ -1,0 +1,100 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 177,
+            "JSON": {
+                "org": "Wilmington",
+                "dest": "New York",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07",
+                    "2024-11-08"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "American",
+                        "Steakhouse",
+                        "Bar",
+                        "Pub"
+                    ],
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": "no flight"
+                },
+                "budget": 3900.0,
+                "query": "Design a 5-day travel itinerary for 2 people starting from Wilmington and visiting 2 cities in New York between November 4th and November 8th, 2024. The budget is $3,900. The trip should avoid flights and include dining options featuring American, Steakhouse, Bar, and Pub cuisines.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Wilmington to Watertown",
+                    "transportation": "Transfer, from Wilmington to Watertown",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy Dark Academia-Inspired Aprt, Watertown",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy Dark Academia-Inspired Aprt, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Northland Plaza, 911.45m away; Cozy Dark Academia-Inspired Aprt, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Northland Plaza, 911.45m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Watertown to Watertown",
+                    "transportation": "Transfer, from Watertown to Watertown",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cozy Dark Academia-Inspired Aprt, Watertown",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy Dark Academia-Inspired Aprt, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Northland Plaza, 911.45m away; Cozy Dark Academia-Inspired Aprt, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Northland Plaza, 911.45m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Watertown to New York",
+                    "transportation": "Transfer, from Watertown to New York",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+                    "event": "-",
+                    "point_of_interest_list": "Cozy Dark Academia-Inspired Aprt, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Northland Plaza, 911.45m away; Minimal room 1 SofaBed + loft bed in Manhattan, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from New York to New York",
+                    "transportation": "Transfer, from New York to New York",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Minimal room 1 SofaBed + loft bed in Manhattan, New York",
+                    "event": "-",
+                    "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away; Minimal room 1 SofaBed + loft bed in Manhattan, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from New York to Wilmington",
+                    "transportation": "Transfer, from New York to Wilmington",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Minimal room 1 SofaBed + loft bed in Manhattan, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 9 AV/W 30 ST, 139.35m away."
+                }
+            ]
+        }
+    }
+]

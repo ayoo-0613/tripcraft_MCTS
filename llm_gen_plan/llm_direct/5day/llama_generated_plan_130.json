@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 130,
+            "JSON": {
+                "org": "Tucson",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-22",
+                    "2024-11-23",
+                    "2024-11-24",
+                    "2024-11-25",
+                    "2024-11-26"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2250.0,
+                "query": "Plan a 5-day trip for 1 person from Tucson to explore 2 cities in California between November 22nd and November 26th, 2024, with a budget of $2,250.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Tucson to San Diego",
+                    "transportation": "Transfer, from Tucson to San Diego",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bed in 4-Bed room in Stylish Hostel, San Diego",
+                    "event": "-",
+                    "point_of_interest_list": "Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Cable St & Newport Av, 118.17m away; Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Cable St & Newport Av, 118.17m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from San Diego to San Diego",
+                    "transportation": "Transfer, from San Diego to San Diego",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bed in 4-Bed room in Stylish Hostel, San Diego",
+                    "event": "-",
+                    "point_of_interest_list": "Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Cable St & Newport Av, 118.17m away; Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Cable St & Newport Av, 118.17m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from San Diego to Redding",
+                    "transportation": "Transfer, from San Diego to Redding",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Relax and Enjoy!, Redding",
+                    "event": "-",
+                    "point_of_interest_list": "Bed in 4-Bed room in Stylish Hostel, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Cable St & Newport Av, 118.17m away; Relax and Enjoy!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Redding to Redding",
+                    "transportation": "Transfer, from Redding to Redding",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Relax and Enjoy!, Redding",
+                    "event": "-",
+                    "point_of_interest_list": "Relax and Enjoy!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away; Relax and Enjoy!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Redding to Tucson",
+                    "transportation": "Transfer, from Redding to Tucson",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Relax and Enjoy!, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Lake Blvd at Panorama Dr, 566.63m away."
+                }
+            ]
+        }
+    }
+]

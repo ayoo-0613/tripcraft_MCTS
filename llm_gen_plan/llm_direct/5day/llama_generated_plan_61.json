@@ -1,0 +1,98 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 61,
+            "JSON": {
+                "org": "Chicago",
+                "dest": "Iowa",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06"
+                ],
+                "people_number": 3,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "Mexican",
+                        "American"
+                    ],
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 7000.0,
+                "query": "Plan a 5-day trip for 3 people traveling from Chicago to explore 2 cities in Iowa between November 2nd and November 6th, 2024. The budget is $7,000, and the itinerary should include dining options with Mexican and American cuisines.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Chicago to Cedar Rapids",
+                    "transportation": "Transfer, from Chicago to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Cedar Rapids to Cedar Rapids",
+                    "transportation": "Transfer, from Cedar Rapids to Cedar Rapids",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "The Uptown B - Private, Modern, Comfortable Stay, Cedar Rapids",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: 6th Ave & 22nd St, 215.70m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Cedar Rapids to Sioux City",
+                    "transportation": "Transfer, from Cedar Rapids to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "The Uptown B - Private, Modern, Comfortable Stay, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: 6th Ave & 22nd St, 215.70m away; Bungalow, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Sioux City to Sioux City",
+                    "transportation": "Transfer, from Sioux City to Sioux City",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Bungalow, Sioux City",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away; Bungalow, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Sioux City to Chicago",
+                    "transportation": "Transfer, from Sioux City to Chicago",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Bungalow, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: LaPlante Ave & Metropolitain St, 91.69m away."
+                }
+            ]
+        }
+    }
+]

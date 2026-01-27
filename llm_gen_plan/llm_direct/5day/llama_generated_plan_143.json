@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 143,
+            "JSON": {
+                "org": "Savannah",
+                "dest": "Tennessee",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-10",
+                    "2024-11-11",
+                    "2024-11-12",
+                    "2024-11-13",
+                    "2024-11-14"
+                ],
+                "people_number": 7,
+                "local_constraint": {
+                    "house rule": "children under 10",
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 15750.0,
+                "query": "Plan a 5-day trip for 7 people traveling from Savannah to explore 2 cities in Tennessee between November 10th and November 14th, 2024. The budget is $15,750. Please ensure accommodations follow the house rule of no children under 10.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Savannah to Chattanooga",
+                    "transportation": "Transfer, from Savannah to Chattanooga",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-Downtown 6 miles -Mtn Views, Chattanooga",
+                    "event": "-",
+                    "point_of_interest_list": "-Downtown 6 miles -Mtn Views, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: MAIN + RIVERFRONT, 3475.51m away; -Downtown 6 miles -Mtn Views, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: MAIN + RIVERFRONT, 3475.51m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Chattanooga to Chattanooga",
+                    "transportation": "Transfer, from Chattanooga to Chattanooga",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-Downtown 6 miles -Mtn Views, Chattanooga",
+                    "event": "-",
+                    "point_of_interest_list": "-Downtown 6 miles -Mtn Views, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: MAIN + RIVERFRONT, 3475.51m away; -Downtown 6 miles -Mtn Views, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: MAIN + RIVERFRONT, 3475.51m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Chattanooga to Nashville",
+                    "transportation": "Transfer, from Chattanooga to Nashville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+                    "event": "-",
+                    "point_of_interest_list": "-Downtown 6 miles -Mtn Views, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: MAIN + RIVERFRONT, 3475.51m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Nashville to Nashville",
+                    "transportation": "Transfer, from Nashville to Nashville",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "12 South Original - Restored craftsman from 1905!, Nashville",
+                    "event": "-",
+                    "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away; 12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Nashville to Savannah",
+                    "transportation": "Transfer, from Nashville to Savannah",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "12 South Original - Restored craftsman from 1905!, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: 12TH AVE S & SWEETBRIAR AVE NB, 31.55m away."
+                }
+            ]
+        }
+    }
+]

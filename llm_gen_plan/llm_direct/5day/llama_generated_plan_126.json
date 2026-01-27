@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 126,
+            "JSON": {
+                "org": "Colorado Springs",
+                "dest": "California",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-08",
+                    "2024-11-09",
+                    "2024-11-10",
+                    "2024-11-11",
+                    "2024-11-12"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2550.0,
+                "query": "Plan a 5-day trip for 1 person traveling from Colorado Springs to explore 2 cities in California between November 8th and November 12th, 2024, with a budget of $2,550.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Colorado Springs to Santa Barbara",
+                    "transportation": "Transfer, from Colorado Springs to Santa Barbara",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Surfers Dream House (Cal-King Bed), Santa Barbara",
+                    "event": "-",
+                    "point_of_interest_list": "Surfers Dream House (Cal-King Bed), traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Hwy 150 & Camino Carreta, 3973.98m away; Surfers Dream House (Cal-King Bed), traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Hwy 150 & Camino Carreta, 3973.98m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Santa Barbara to Santa Barbara",
+                    "transportation": "Transfer, from Santa Barbara to Santa Barbara",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Surfers Dream House (Cal-King Bed), Santa Barbara",
+                    "event": "-",
+                    "point_of_interest_list": "Surfers Dream House (Cal-King Bed), traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Hwy 150 & Camino Carreta, 3973.98m away; Surfers Dream House (Cal-King Bed), traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Hwy 150 & Camino Carreta, 3973.98m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Santa Barbara to Los Angeles",
+                    "transportation": "Transfer, from Santa Barbara to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Surfers Dream House (Cal-King Bed), traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Hwy 150 & Camino Carreta, 3973.98m away; Hollywood Hideaway, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Los Angeles to Los Angeles",
+                    "transportation": "Transfer, from Los Angeles to Los Angeles",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Hollywood Hideaway, Los Angeles",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away; Hollywood Hideaway, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Los Angeles to Colorado Springs",
+                    "transportation": "Transfer, from Los Angeles to Colorado Springs",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Hollywood Hideaway, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: Oxnard St & Radford Ave, 386.65m away."
+                }
+            ]
+        }
+    }
+]

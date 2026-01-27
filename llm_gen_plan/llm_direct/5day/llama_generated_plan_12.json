@@ -1,0 +1,95 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 12,
+            "JSON": {
+                "org": "Lynchburg",
+                "dest": "North Carolina",
+                "days": 5,
+                "visiting_city_number": 2,
+                "date": [
+                    "2024-11-02",
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05",
+                    "2024-11-06"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": "no flight",
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2100.0,
+                "query": "Plan a 5-day trip for 1 person from Lynchburg to explore 2 cities in North Carolina between November 2nd and November 6th, 2024. The budget is $2,100, and the trip should avoid flights as a mode of transportation.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Lynchburg to Greensboro",
+                    "transportation": "Transfer, from Lynchburg to Greensboro",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cottage at Three Magnolias, Greensboro",
+                    "event": "-",
+                    "point_of_interest_list": "Cottage at Three Magnolias, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Battleground/Bessemer Ave (OB), 702.72m away; Cottage at Three Magnolias, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Battleground/Bessemer Ave (OB), 702.72m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Greensboro to Greensboro",
+                    "transportation": "Transfer, from Greensboro to Greensboro",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Cottage at Three Magnolias, Greensboro",
+                    "event": "-",
+                    "point_of_interest_list": "Cottage at Three Magnolias, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Battleground/Bessemer Ave (OB), 702.72m away; Cottage at Three Magnolias, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Battleground/Bessemer Ave (OB), 702.72m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Greensboro to Charlotte",
+                    "transportation": "Transfer, from Greensboro to Charlotte",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Quiet Cozy Stay in CLT, Charlotte",
+                    "event": "-",
+                    "point_of_interest_list": "Cottage at Three Magnolias, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Battleground/Bessemer Ave (OB), 702.72m away; Quiet Cozy Stay in CLT, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Tryon St & Choate Rd, 121.01m away."
+                },
+                {
+                    "days": 4,
+                    "current_city": "from Charlotte to Charlotte",
+                    "transportation": "Transfer, from Charlotte to Charlotte",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Quiet Cozy Stay in CLT, Charlotte",
+                    "event": "-",
+                    "point_of_interest_list": "Quiet Cozy Stay in CLT, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Tryon St & Choate Rd, 121.01m away; Quiet Cozy Stay in CLT, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Tryon St & Choate Rd, 121.01m away."
+                },
+                {
+                    "days": 5,
+                    "current_city": "from Charlotte to Lynchburg",
+                    "transportation": "Transfer, from Charlotte to Lynchburg",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Quiet Cozy Stay in CLT, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Tryon St & Choate Rd, 121.01m away."
+                }
+            ]
+        }
+    }
+]
