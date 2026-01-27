@@ -1,0 +1,77 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 4,
+            "JSON": {
+                "org": "Green Bay",
+                "dest": "Atlanta",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-20",
+                    "2024-11-21",
+                    "2024-11-22"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "Mexican",
+                        "Italian",
+                        "French",
+                        "Mediterranean"
+                    ],
+                    "room type": "not shared room",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": [
+                        "Shopping",
+                        "Concerts & Shows"
+                    ]
+                },
+                "budget": 1650.0,
+                "query": "Plan a 3-day trip for 2 people traveling from Green Bay to Atlanta from November 20th to November 22nd, 2024, with a budget of $1,650. Accommodations should be in a non-shared room. Include dining options featuring Mexican, Italian, French, or Mediterranean cuisine, and activities such as shopping and attending concerts or shows.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Green Bay to Atlanta",
+                    "transportation": "Flight Number: F0325012, from Green Bay to Atlanta, Departure Time: 05:34, Arrival Time: 08:30",
+                    "breakfast": "-",
+                    "attraction": "Fox Theatre, Atlanta; Lenox Square, Atlanta",
+                    "lunch": "-",
+                    "dinner": "La Tavola Trattoria, Atlanta",
+                    "accommodation": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, Atlanta",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 09:00 to 10:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; Fox Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 13:42, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Lenox Square, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 16:30 to 17:27, nearest transit: PEACHTREE RD NE @ LENOX PKWY, 230.44m away; La Tavola Trattoria, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Atlanta to Atlanta",
+                    "transportation": "Transfer, from Atlanta to Atlanta",
+                    "breakfast": "La Tavola Trattoria, Atlanta",
+                    "attraction": "Fox Theatre, Atlanta; Lenox Square, Atlanta",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, Atlanta",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; La Tavola Trattoria, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; Fox Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 13:42, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Lenox Square, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 16:30 to 17:27, nearest transit: PEACHTREE RD NE @ LENOX PKWY, 230.44m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Atlanta to Green Bay",
+                    "transportation": "Flight Number: F0353574, from Atlanta to Green Bay, Departure Time: 22:54, Arrival Time: 23:52",
+                    "breakfast": "La Tavola Trattoria, Atlanta",
+                    "attraction": "Fox Theatre, Atlanta; Lenox Square, Atlanta",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; La Tavola Trattoria, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; Fox Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 11:30 to 13:42, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Lenox Square, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Cities, visit from 16:30 to 17:27, nearest transit: PEACHTREE RD NE @ LENOX PKWY, 230.44m away."
+                }
+            ]
+        }
+    }
+]

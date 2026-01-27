@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 9,
+            "JSON": {
+                "org": "Sarasota",
+                "dest": "Cincinnati",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-05",
+                    "2024-11-06",
+                    "2024-11-07"
+                ],
+                "people_number": 2,
+                "local_constraint": {
+                    "house rule": "pets",
+                    "cuisine": null,
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 2250.0,
+                "query": "Plan a 3-day trip for 2 people from Sarasota to Cincinnati from November 5th to November 7th, 2024, with a budget of $2,250. Accommodations should allow pets.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Luxury Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Sarasota to Cincinnati",
+                    "transportation": "Flight Number: F0378723, from Sarasota to Cincinnati, Departure Time: 12:14, Arrival Time: 14:53",
+                    "breakfast": "Bakersfield OTR, Cincinnati",
+                    "attraction": "Cincinnati Zoo & Botanical Garden, Cincinnati; Fountain Square, Cincinnati",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, Cincinnati",
+                    "event": "-",
+                    "point_of_interest_list": "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Riverfront Transit Center Stop, 40.45m away; Bakersfield OTR, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: VINE ST & 12TH ST, 35.37m away; Cincinnati Zoo & Botanical Garden, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:43, nearest transit: VINE ST & ERKENBRECHER AVE, 14.90m away; CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 15:23 to 16:23, nearest transit: Riverfront Transit Center Stop, 40.45m away; Fountain Square, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 16:30 to 20:03, nearest transit: 5TH ST & FOUNTAIN SQUARE, 53.60m away; CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Riverfront Transit Center Stop, 40.45m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Cincinnati to Cincinnati",
+                    "transportation": "Transfer, from Cincinnati to Cincinnati",
+                    "breakfast": "Bakersfield OTR, Cincinnati",
+                    "attraction": "Cincinnati Zoo & Botanical Garden, Cincinnati; Findlay Market, Cincinnati",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, Cincinnati",
+                    "event": "-",
+                    "point_of_interest_list": "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Riverfront Transit Center Stop, 40.45m away; Bakersfield OTR, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: VINE ST & 12TH ST, 35.37m away; Cincinnati Zoo & Botanical Garden, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 11:30 to 15:43, nearest transit: VINE ST & ERKENBRECHER AVE, 14.90m away; Findlay Market, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 16:30 to 18:33, nearest transit: FINDLAY MARKET-ELM Station, Elm & Glass Alley, 68.13m away; CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Riverfront Transit Center Stop, 40.45m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Cincinnati to Sarasota",
+                    "transportation": "Self-driving, from Cincinnati to Sarasota, Duration: 1061.3583333333333 mins, Distance: 1538.9682 km, Estimated Cost: $76.95",
+                    "breakfast": "Bakersfield OTR, Cincinnati",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "CBD/OTR Pool, Gym, Free Parking, Steps to Stadiums, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Riverfront Transit Center Stop, 40.45m away; Bakersfield OTR, traveler: Laidback Traveler | purpose: Nature | spending: Luxury Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: VINE ST & 12TH ST, 35.37m away."
+                }
+            ]
+        }
+    }
+]

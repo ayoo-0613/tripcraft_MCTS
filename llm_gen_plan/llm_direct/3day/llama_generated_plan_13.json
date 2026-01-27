@@ -1,0 +1,72 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 13,
+            "JSON": {
+                "org": "Everett",
+                "dest": "Tucson",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-24",
+                    "2024-11-25",
+                    "2024-11-26"
+                ],
+                "people_number": 4,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "Italian",
+                        "American"
+                    ],
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 5400.0,
+                "query": "Plan a 3-day trip for 4 people from Everett to Tucson from November 24th to November 26th, 2024, with a budget of $5,400. Include dining options featuring Italian and American cuisines.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Everett to Tucson",
+                    "transportation": "Flight Number: F0514789, from Everett to Tucson, Departure Time: 10:18, Arrival Time: 13:07",
+                    "breakfast": "-",
+                    "attraction": "University of Arizona, Tucson; Reid Park Zoo, Tucson",
+                    "lunch": "Guadalajara Original Grill, Tucson",
+                    "dinner": "Locale Neighborhood Italian, Tucson",
+                    "accommodation": "UofA gem. Gorgeous and convenient., Tucson",
+                    "event": "-",
+                    "point_of_interest_list": "UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Babcock, 309.81m away; University of Arizona, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Old Main, 110.57m away; UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 13:37 to 14:37, nearest transit: Babcock, 309.81m away; Guadalajara Original Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: 9004 Lot, 238.37m away; Reid Park Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:43, nearest transit: El Con Center, 1507.93m away; Locale Neighborhood Italian, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: El Con Center, 1020.01m away; UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Babcock, 309.81m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Tucson to Tucson",
+                    "transportation": "Transfer, from Tucson to Tucson",
+                    "breakfast": "Guadalajara Original Grill, Tucson",
+                    "attraction": "University of Arizona, Tucson; Tucson Botanical Gardens, Tucson",
+                    "lunch": "Cafe a La C'Art, Tucson",
+                    "dinner": "-",
+                    "accommodation": "UofA gem. Gorgeous and convenient., Tucson",
+                    "event": "-",
+                    "point_of_interest_list": "UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Babcock, 309.81m away; Guadalajara Original Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 9004 Lot, 238.37m away; University of Arizona, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Old Main, 110.57m away; Cafe a La C'Art, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: USA Building, 555.21m away; Tucson Botanical Gardens, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 21:33, nearest transit: El Con Center, 2932.13m away; UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: Babcock, 309.81m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Tucson to Everett",
+                    "transportation": "Flight Number: F0515324, from Tucson to Everett, Departure Time: 14:11, Arrival Time: 17:26",
+                    "breakfast": "Guadalajara Original Grill, Tucson",
+                    "attraction": "University of Arizona, Tucson; DeGrazia Gallery in the Sun Museum, Tucson",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "UofA gem. Gorgeous and convenient., traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: Babcock, 309.81m away; Guadalajara Original Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: 9004 Lot, 238.37m away; University of Arizona, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Old Main, 110.57m away; DeGrazia Gallery in the Sun Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 19:18, nearest transit: 9004 Lot, 7865.53m away."
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 8,
+            "JSON": {
+                "org": "Shreveport",
+                "dest": "Las Vegas",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-11",
+                    "2024-11-12",
+                    "2024-11-13"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 1800.0,
+                "query": "Plan a 3-day trip for 1 person from Shreveport to Las Vegas from November 11th to November 13th, 2024, with a budget of $1,800.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Shreveport to Las Vegas",
+                    "transportation": "Flight Number: F0372514, from Shreveport to Las Vegas, Departure Time: 22:37, Arrival Time: 00:07",
+                    "breakfast": "Ameribrunch Cafe, Las Vegas",
+                    "attraction": "The Mob Museum, Las Vegas; The Neon Museum, Las Vegas",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "C/private full bed tv free wif, Las Vegas",
+                    "event": "-",
+                    "point_of_interest_list": "C/private full bed tv free wif, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: The Strat, 4542.98m away; Ameribrunch Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Fremont East Entertainment District, 393.75m away; The Mob Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Mob Museum, 48.14m away; The Neon Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: Mob Museum, 752.88m away; C/private full bed tv free wif, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: The Strat, 4542.98m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Las Vegas to Las Vegas",
+                    "transportation": "Transfer, from Las Vegas to Las Vegas",
+                    "breakfast": "Ameribrunch Cafe, Las Vegas",
+                    "attraction": "The Mob Museum, Las Vegas; The Neon Museum, Las Vegas",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "C/private full bed tv free wif, Las Vegas",
+                    "event": "-",
+                    "point_of_interest_list": "C/private full bed tv free wif, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: The Strat, 4542.98m away; Ameribrunch Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Fremont East Entertainment District, 393.75m away; The Mob Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Mob Museum, 48.14m away; The Neon Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: Mob Museum, 752.88m away; C/private full bed tv free wif, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: The Strat, 4542.98m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Las Vegas to Shreveport",
+                    "transportation": "Flight Number: F2107836, from Las Vegas to Shreveport, Departure Time: 16:11, Arrival Time: 20:56",
+                    "breakfast": "Ameribrunch Cafe, Las Vegas",
+                    "attraction": "The Mob Museum, Las Vegas; The Neon Museum, Las Vegas",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "C/private full bed tv free wif, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: The Strat, 4542.98m away; Ameribrunch Cafe, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: Fremont East Entertainment District, 393.75m away; The Mob Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: Mob Museum, 48.14m away; The Neon Museum, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: Mob Museum, 752.88m away."
+                }
+            ]
+        }
+    }
+]

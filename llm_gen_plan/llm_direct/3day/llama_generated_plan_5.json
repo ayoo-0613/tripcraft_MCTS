@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 5,
+            "JSON": {
+                "org": "Sacramento",
+                "dest": "Atlanta",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-18",
+                    "2024-11-19",
+                    "2024-11-20"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 2700.0,
+                "query": "Plan a 3-day trip for 1 person from Sacramento to Atlanta from November 18th to November 20th, 2024, with a budget of $2,700.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Sacramento to Atlanta",
+                    "transportation": "Flight Number: F0311431, from Sacramento to Atlanta, Departure Time: 06:54, Arrival Time: 13:55",
+                    "breakfast": "La Tavola Trattoria, Atlanta",
+                    "attraction": "Fox Theatre, Atlanta; College Football Hall of Fame, Atlanta",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, Atlanta",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; La Tavola Trattoria, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; Fox Theatre, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:48, nearest transit: PEACHTREE ST NE @ PONCE DE LEON AVE, 41.68m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 14:25 to 15:25, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; College Football Hall of Fame, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 16:30 to 20:03, nearest transit: MARIETTA ST NW @ PARK AVE WEST, 70.48m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Atlanta to Atlanta",
+                    "transportation": "Transfer, from Atlanta to Atlanta",
+                    "breakfast": "La Tavola Trattoria, Atlanta",
+                    "attraction": "Georgia Aquarium, Atlanta; Centennial Olympic Park, Atlanta",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, Atlanta",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; La Tavola Trattoria, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away; Georgia Aquarium, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:33, nearest transit: IVAN ALLEN JR BLVD NW @ LUCKIE ST, 131.37m away; Centennial Olympic Park, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 16:30 to 20:48, nearest transit: MARIETTA ST @ PARK AVE WEST, 143.86m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Atlanta to Sacramento",
+                    "transportation": "Flight Number: F0314572, from Atlanta to Sacramento, Departure Time: 08:53, Arrival Time: 11:07",
+                    "breakfast": "La Tavola Trattoria, Atlanta",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 07:23 to 08:23, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; Birds-n-Bees bnb - Intown ATL - 1 Gig Internet, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: CASCADE AVE SW @ 1113, 82.40m away; La Tavola Trattoria, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: VIRGINIA AVE NE @ TODD RD NE, 27.36m away."
+                }
+            ]
+        }
+    }
+]

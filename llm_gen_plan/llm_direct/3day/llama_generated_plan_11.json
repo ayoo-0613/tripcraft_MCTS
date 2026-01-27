@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 11,
+            "JSON": {
+                "org": "Sarasota",
+                "dest": "Baltimore",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-22",
+                    "2024-11-23",
+                    "2024-11-24"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 1800.0,
+                "query": "Plan a 3-day trip for 1 person from Sarasota to Baltimore from November 22nd to November 24th, 2024, with a budget of $1,800.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Adventure; Spending Preference: Luxury Traveler; Location Preference: Forests/Wildlife",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Sarasota to Baltimore",
+                    "transportation": "Flight Number: F0054983, from Sarasota to Baltimore, Departure Time: 13:12, Arrival Time: 15:32",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "Hippodrome Theatre, Baltimore; Edgar Allan Poe's Grave Site and Memorial, Baltimore",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Bed next to JHH, Baltimore",
+                    "event": "-",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; Hippodrome Theatre, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 13:27, nearest transit: LEXINGTON MARKET (METRO) sb, 137.78m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 16:02 to 17:02, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Edgar Allan Poe's Grave Site and Memorial, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 18:57, nearest transit: LEXINGTON MARKET (METRO) sb, 246.16m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Baltimore to Baltimore",
+                    "transportation": "Transfer, from Baltimore to Baltimore",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "National Aquarium, Baltimore; Little Italy, Baltimore",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Bed next to JHH, Baltimore",
+                    "event": "-",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; National Aquarium, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 11:30 to 14:27, nearest transit: SHOT TOWER METRO West Entrance, 474.59m away; Little Italy, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 16:30 to 19:07, nearest transit: SHOT TOWER STATION (METRO) sb, 507.45m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Baltimore to Sarasota",
+                    "transportation": "Flight Number: F0077663, from Baltimore to Sarasota, Departure Time: 14:30, Arrival Time: 16:47",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Adventure | spending: Luxury Traveler | location: Forests/Wildlife, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away."
+                }
+            ]
+        }
+    }
+]

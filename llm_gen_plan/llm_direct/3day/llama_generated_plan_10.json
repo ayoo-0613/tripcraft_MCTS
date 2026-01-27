@@ -1,0 +1,72 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 10,
+            "JSON": {
+                "org": "Miami",
+                "dest": "Louisville",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-21",
+                    "2024-11-22",
+                    "2024-11-23"
+                ],
+                "people_number": 6,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": [
+                        "American",
+                        "Asian"
+                    ],
+                    "room type": null,
+                    "event": null,
+                    "attraction": null,
+                    "transportation": null
+                },
+                "budget": 8250.0,
+                "query": "Plan a 3-day trip for 6 people from Miami to Louisville from November 21st to November 23rd, 2024, with a budget of $8,250. Include dining options featuring American and Asian cuisines.",
+                "level": "medium"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Cities",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Miami to Louisville",
+                    "transportation": "Flight Number: F0388834, from Miami to Louisville, Departure Time: 15:47, Arrival Time: 18:13",
+                    "breakfast": "SIlvio's Italian Restaurant, Louisville",
+                    "attraction": "Louisville Zoo, Louisville; Louisville Slugger Museum & Factory, Louisville",
+                    "lunch": "Brown Hotel Lobby Bar & Grill, Louisville",
+                    "dinner": "Coals Artisan Pizza, Louisville",
+                    "accommodation": "Charming Home In The Highlands, Louisville",
+                    "event": "Civic, Louisville",
+                    "point_of_interest_list": "Charming Home In The Highlands, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Baxter @ Morton, 80.31m away; SIlvio's Italian Restaurant, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Shelbyville @ Fairfax, 46.65m away; Louisville Zoo, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:43, nearest transit: Louisville Zoo, 42.80m away; Brown Hotel Lobby Bar & Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Broadway @ 4th, 23.43m away; Louisville Slugger Museum & Factory, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 20:03, nearest transit: 8th @ Market, 139.94m away; Charming Home In The Highlands, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 18:43 to 19:43, nearest transit: Baxter @ Morton, 80.31m away; Coals Artisan Pizza, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: Frankfort @ 3744, 28.02m away; Charming Home In The Highlands, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Baxter @ Morton, 80.31m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Louisville to Louisville",
+                    "transportation": "Transfer, from Louisville to Louisville",
+                    "breakfast": "Brown Hotel Lobby Bar & Grill, Louisville",
+                    "attraction": "Frazier History Museum, Louisville; Muhammad Ali Center, Louisville",
+                    "lunch": "Coals Artisan Pizza, Louisville",
+                    "dinner": "Porch Kitchen & Bar, Louisville",
+                    "accommodation": "Experience the Unique Re-Nu Shipping Container #5, Louisville",
+                    "event": "Civic, Louisville",
+                    "point_of_interest_list": "Experience the Unique Re-Nu Shipping Container #5, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Chestnut @ Liberty, 51.45m away; Brown Hotel Lobby Bar & Grill, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Broadway @ 4th, 23.43m away; Frazier History Museum, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 11:30 to 15:03, nearest transit: Market @ S 8th, 183.51m away; Coals Artisan Pizza, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 13:57 to 14:56, nearest transit: Frankfort @ 3744, 28.02m away; Muhammad Ali Center, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 16:30 to 20:03, nearest transit: Main @ 7th, 185.29m away; Porch Kitchen & Bar, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 19:51 to 21:00, nearest transit: W. Jefferson @ 2nd, 40.98m away; Experience the Unique Re-Nu Shipping Container #5, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 22:15 to 08:00, nearest transit: Chestnut @ Liberty, 51.45m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Louisville to Miami",
+                    "transportation": "Flight Number: F0123474, from Louisville to Miami, Departure Time: 15:47, Arrival Time: 18:17",
+                    "breakfast": "Dragon King's Daughter, Louisville",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "Civic, Louisville",
+                    "point_of_interest_list": "Experience the Unique Re-Nu Shipping Container #5, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, stay from 08:00 to 09:00, nearest transit: Chestnut @ Liberty, 51.45m away; Dragon King's Daughter, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Cities, visit from 09:25 to 10:16, nearest transit: Bardstown @ Grinstead, 54.71m away."
+                }
+            ]
+        }
+    }
+]

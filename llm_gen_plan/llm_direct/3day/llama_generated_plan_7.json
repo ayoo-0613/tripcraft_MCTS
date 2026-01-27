@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 7,
+            "JSON": {
+                "org": "Raleigh",
+                "dest": "New York",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-03",
+                    "2024-11-04",
+                    "2024-11-05"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 1800.0,
+                "query": "Plan a 3-day trip for 1 person from Raleigh to New York from November 3rd to November 5th, 2024, with a budget of $1,800.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Cultural Exploration; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Raleigh to New York",
+                    "transportation": "Flight Number: F0115509, from Raleigh to New York, Departure Time: 05:55, Arrival Time: 07:33",
+                    "breakfast": "Blue Smoke Battery Park City, New York",
+                    "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Studio with Shared Bath, New York",
+                    "event": "-",
+                    "point_of_interest_list": "Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:03 to 09:03, nearest transit: 3 AV/E 14 ST, 30.60m away; Blue Smoke Battery Park City, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: E 42 ST/MADISON AV, 28.59m away; New York Public Library, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: 5 AV/W 42 ST, 34.90m away; Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from New York to New York",
+                    "transportation": "Transfer, from New York to New York",
+                    "breakfast": "Blue Smoke Battery Park City, New York",
+                    "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private Studio with Shared Bath, New York",
+                    "event": "-",
+                    "point_of_interest_list": "Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Blue Smoke Battery Park City, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: E 42 ST/MADISON AV, 28.59m away; New York Public Library, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: 5 AV/W 42 ST, 34.90m away; Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: 3 AV/E 14 ST, 30.60m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from New York to Raleigh",
+                    "transportation": "Flight Number: F0115451, from New York to Raleigh, Departure Time: 05:54, Arrival Time: 07:28",
+                    "breakfast": "Blue Smoke Battery Park City, New York",
+                    "attraction": "SUMMIT One Vanderbilt, New York; New York Public Library, New York",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 04:24 to 05:24, nearest transit: 3 AV/E 14 ST, 30.60m away; Private Studio with Shared Bath, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: 3 AV/E 14 ST, 30.60m away; Blue Smoke Battery Park City, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: VESEY ST/NORTH END AV, 10.23m away; SUMMIT One Vanderbilt, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 11:30 to 15:03, nearest transit: E 42 ST/MADISON AV, 28.59m away; New York Public Library, traveler: Laidback Traveler | purpose: Cultural Exploration | spending: Economical Traveler | location: Beaches, visit from 16:30 to 20:03, nearest transit: 5 AV/W 42 ST, 34.90m away."
+                }
+            ]
+        }
+    }
+]

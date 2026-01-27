@@ -1,0 +1,69 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 1,
+            "JSON": {
+                "org": "Savannah",
+                "dest": "Baltimore",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-18",
+                    "2024-11-19",
+                    "2024-11-20"
+                ],
+                "people_number": 1,
+                "local_constraint": {
+                    "house rule": null,
+                    "cuisine": null,
+                    "room type": null,
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 1500.0,
+                "query": "Plan a 3-day trip for 1 person from Savannah to Baltimore from November 18th to November 20th, 2024, with a budget of $1,500.",
+                "level": "easy"
+            },
+            "persona": "Traveler Type: Adventure Seeker; Purpose of Travel: Cultural Exploration; Spending Preference: Luxury Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Savannah to Baltimore",
+                    "transportation": "Flight Number: F0017531, from Savannah to Baltimore, Departure Time: 19:35, Arrival Time: 21:22",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "Hippodrome Theatre, Baltimore; Edgar Allan Poe's Grave Site and Memorial, Baltimore",
+                    "lunch": "The Helmand, Baltimore",
+                    "dinner": "Dalesio's of Little Italy Restaurant, Baltimore",
+                    "accommodation": "Private Bed next to JHH, Baltimore",
+                    "event": "East, Baltimore",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; Hippodrome Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:27, nearest transit: LEXINGTON MARKET (METRO) sb, 137.78m away; The Helmand, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: STATE CENTER (METRO) sb, 508.53m away; Edgar Allan Poe's Grave Site and Memorial, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: LEXINGTON MARKET (METRO) sb, 246.16m away; Dalesio's of Little Italy Restaurant, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SHOT TOWER STATION (METRO) sb, 597.76m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 21:52 to 22:15, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Baltimore to Baltimore",
+                    "transportation": "Transfer, from Baltimore to Baltimore",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "Hippodrome Theatre, Baltimore; Edgar Allan Poe's Grave Site and Memorial, Baltimore",
+                    "lunch": "The Helmand, Baltimore",
+                    "dinner": "Dalesio's of Little Italy Restaurant, Baltimore",
+                    "accommodation": "Private Bed next to JHH, Baltimore",
+                    "event": "East, Baltimore",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; Hippodrome Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:27, nearest transit: LEXINGTON MARKET (METRO) sb, 137.78m away; The Helmand, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: STATE CENTER (METRO) sb, 508.53m away; Edgar Allan Poe's Grave Site and Memorial, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: LEXINGTON MARKET (METRO) sb, 246.16m away; Dalesio's of Little Italy Restaurant, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SHOT TOWER STATION (METRO) sb, 597.76m away; Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Baltimore to Savannah",
+                    "transportation": "Flight Number: F0022253, from Baltimore to Savannah, Departure Time: 20:48, Arrival Time: 22:26",
+                    "breakfast": "Miss Shirley's Cafe, Inner Harbor, Baltimore",
+                    "attraction": "Hippodrome Theatre, Baltimore; Edgar Allan Poe's Grave Site and Memorial, Baltimore",
+                    "lunch": "The Helmand, Baltimore",
+                    "dinner": "Dalesio's of Little Italy Restaurant, Baltimore",
+                    "accommodation": "-",
+                    "event": "East, Baltimore",
+                    "point_of_interest_list": "Private Bed next to JHH, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: JOHNS HOPKINS STATION (METRO), 457.98m away; Miss Shirley's Cafe, Inner Harbor, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 09:25 to 10:16, nearest transit: SHOT TOWER METRO West Entrance, 285.29m away; Hippodrome Theatre, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 11:30 to 13:27, nearest transit: LEXINGTON MARKET (METRO) sb, 137.78m away; The Helmand, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 13:57 to 14:56, nearest transit: STATE CENTER (METRO) sb, 508.53m away; Edgar Allan Poe's Grave Site and Memorial, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 16:30 to 18:57, nearest transit: LEXINGTON MARKET (METRO) sb, 246.16m away; Dalesio's of Little Italy Restaurant, traveler: Adventure Seeker | purpose: Cultural Exploration | spending: Luxury Traveler | location: Beaches, visit from 19:51 to 21:00, nearest transit: SHOT TOWER STATION (METRO) sb, 597.76m away."
+                }
+            ]
+        }
+    }
+]

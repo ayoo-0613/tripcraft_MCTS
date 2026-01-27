@@ -1,0 +1,72 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 2,
+            "JSON": {
+                "org": "Montgomery",
+                "dest": "Washington",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-08",
+                    "2024-11-09",
+                    "2024-11-10"
+                ],
+                "people_number": 8,
+                "local_constraint": {
+                    "house rule": "smoking",
+                    "cuisine": null,
+                    "room type": "private room",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": [
+                        "Sights & Landmarks",
+                        "Concerts & Shows"
+                    ]
+                },
+                "budget": 8400.0,
+                "query": "Plan a 3-day trip for 8 people from Montgomery to Washington from November 8th to November 10th, 2024, with a budget of $8,400. Accommodations should include a private room and allow smoking. The itinerary should feature visits to sights and landmarks as well as concerts and shows.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Nature; Spending Preference: Economical Traveler; Location Preference: Mountains",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Montgomery to Washington",
+                    "transportation": "Taxi, from Montgomery to Washington, Duration: 906.42 mins, Distance: 1284.9725 km, Estimated Cost: $1284.97",
+                    "breakfast": "Zaytinya by Jose Andres, Washington",
+                    "attraction": "National Mall, Washington; White House, Washington",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private room in Capitol Hill, Washington",
+                    "event": "-",
+                    "point_of_interest_list": "Private room in Capitol Hill, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: POTOMAC AVE METRORAIL STATION - NE CORNER 14TH ST. & POTOMAC AVE., SE, NORTH OF PENNSYLVANIA AVE., 296.75m away; Zaytinya by Jose Andres, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: GALLERY PLACE CHINATOWN, 35.74m away; National Mall, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:48, nearest transit: Entrance A - 7 St, Maryland Av, 386.15m away; White House, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 16:30 to 20:03, nearest transit: MCPHERSON SQ METRORAIL STATION - SW CORNER VERMONT AVE. & I ST., 409.99m away; Private room in Capitol Hill, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: POTOMAC AVE METRORAIL STATION - NE CORNER 14TH ST. & POTOMAC AVE., SE, NORTH OF PENNSYLVANIA AVE., 296.75m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Washington to Washington",
+                    "transportation": "Transfer, from Washington to Washington",
+                    "breakfast": "Zaytinya by Jose Andres, Washington",
+                    "attraction": "Library of Congress, Washington; U.S. Capitol, Washington",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Private room in Capitol Hill, Washington",
+                    "event": "-",
+                    "point_of_interest_list": "Private room in Capitol Hill, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: POTOMAC AVE METRORAIL STATION - NE CORNER 14TH ST. & POTOMAC AVE., SE, NORTH OF PENNSYLVANIA AVE., 296.75m away; Zaytinya by Jose Andres, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: GALLERY PLACE CHINATOWN, 35.74m away; Library of Congress, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 14:03, nearest transit: CAPITOL SOUTH METRORAIL STATION - FIRST & C STS. SE, 352.10m away; U.S. Capitol, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 16:30 to 20:03, nearest transit: CAPITOL SOUTH METRORAIL STATION - FIRST & C STS. SE, 540.60m away; Private room in Capitol Hill, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 22:15 to 08:00, nearest transit: POTOMAC AVE METRORAIL STATION - NE CORNER 14TH ST. & POTOMAC AVE., SE, NORTH OF PENNSYLVANIA AVE., 296.75m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Washington to Montgomery",
+                    "transportation": "Flight Number: F0429050, from Washington to Montgomery, Departure Time: 16:44, Arrival Time: 17:42",
+                    "breakfast": "Zaytinya by Jose Andres, Washington",
+                    "attraction": "Washington Monument, Washington; Hillwood Estate, Museum & Gardens, Washington",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Private room in Capitol Hill, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, stay from 08:00 to 09:00, nearest transit: POTOMAC AVE METRORAIL STATION - NE CORNER 14TH ST. & POTOMAC AVE., SE, NORTH OF PENNSYLVANIA AVE., 296.75m away; Zaytinya by Jose Andres, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 09:25 to 10:16, nearest transit: GALLERY PLACE CHINATOWN, 35.74m away; Washington Monument, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 11:30 to 15:03, nearest transit: SMITHSONIAN, 557.33m away; Hillwood Estate, Museum & Gardens, traveler: Laidback Traveler | purpose: Nature | spending: Economical Traveler | location: Mountains, visit from 16:30 to 20:33, nearest transit: VAN NESS-UDC, RED LINE CENTER PLATFORM, 895.59m away."
+                }
+            ]
+        }
+    }
+]

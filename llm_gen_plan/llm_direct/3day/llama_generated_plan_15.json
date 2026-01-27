@@ -1,0 +1,73 @@
+[
+    {
+        "ollama:llama3.1:8b_llm_direct_sole-planning_results": {
+            "idx": 15,
+            "JSON": {
+                "org": "Houston",
+                "dest": "Tucson",
+                "days": 3,
+                "visiting_city_number": 1,
+                "date": [
+                    "2024-11-01",
+                    "2024-11-02",
+                    "2024-11-03"
+                ],
+                "people_number": 4,
+                "local_constraint": {
+                    "house rule": "parties",
+                    "cuisine": [
+                        "American",
+                        "Mexican",
+                        "Italian"
+                    ],
+                    "room type": "entire home",
+                    "transportation": null,
+                    "event": null,
+                    "attraction": null
+                },
+                "budget": 3150.0,
+                "query": "Plan a 3-day trip for 4 people from Houston to Tucson from November 1st to November 3rd, 2024, with a budget of $3,150. Accommodations should be an entire home, and the house rules should allow parties. Include dining options with American, Mexican, and Italian cuisines.",
+                "level": "hard"
+            },
+            "persona": "Traveler Type: Laidback Traveler; Purpose of Travel: Relaxation; Spending Preference: Economical Traveler; Location Preference: Beaches",
+            "plan": [
+                {
+                    "days": 1,
+                    "current_city": "from Houston to Tucson",
+                    "transportation": "Transfer, from Houston to Tucson",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Tucson home 1 mile to University of Arizona-Ask ME, Tucson",
+                    "event": "-",
+                    "point_of_interest_list": "Tucson home 1 mile to University of Arizona-Ask ME, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: AHSL/ Health Sciences Innovation Building, 1835.24m away; Tucson home 1 mile to University of Arizona-Ask ME, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: AHSL/ Health Sciences Innovation Building, 1835.24m away."
+                },
+                {
+                    "days": 2,
+                    "current_city": "from Tucson to Tucson",
+                    "transportation": "Transfer, from Tucson to Tucson",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "Tucson home 1 mile to University of Arizona-Ask ME, Tucson",
+                    "event": "-",
+                    "point_of_interest_list": "Tucson home 1 mile to University of Arizona-Ask ME, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: AHSL/ Health Sciences Innovation Building, 1835.24m away; Tucson home 1 mile to University of Arizona-Ask ME, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 22:15 to 08:00, nearest transit: AHSL/ Health Sciences Innovation Building, 1835.24m away."
+                },
+                {
+                    "days": 3,
+                    "current_city": "from Tucson to Houston",
+                    "transportation": "Transfer, from Tucson to Houston",
+                    "breakfast": "-",
+                    "attraction": "-",
+                    "lunch": "-",
+                    "dinner": "-",
+                    "accommodation": "-",
+                    "event": "-",
+                    "point_of_interest_list": "Tucson home 1 mile to University of Arizona-Ask ME, traveler: Laidback Traveler | purpose: Relaxation | spending: Economical Traveler | location: Beaches, stay from 08:00 to 09:00, nearest transit: AHSL/ Health Sciences Innovation Building, 1835.24m away."
+                }
+            ]
+        }
+    }
+]
