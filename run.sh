@@ -23,6 +23,7 @@ for STRATEGY in "${STRATEGIES[@]}"; do
             --output_dir "${OUTPUT_DIR}" \
             --csv_file $CSV_FILE \
             --model_name $MODEL_NAME \
-            --strategy $STRATEGY
+            --strategy $STRATEGY \
+            --skip_existing
     done
 done

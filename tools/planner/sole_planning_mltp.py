@@ -379,6 +379,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default="./")
     parser.add_argument("--strategy", type=str, default="direct_og")
     parser.add_argument("--csv_file", type=str, required=True, help="Path to the reference_info.csv file")
+    parser.add_argument("--skip_existing", action="store_true", help="Skip if output file already exists")
     args = parser.parse_args()
 
     # Load data from CSV
@@ -406,6 +407,11 @@ if __name__ == "__main__":
     # Iterate over data and generate results
     with get_openai_callback() as cb:
         for number, query_data in enumerate(tqdm(query_data_list, desc="Processing data")):
+            output_dir = os.path.join(args.output_dir, args.set_type)
+            os.makedirs(output_dir, exist_ok=True)
+            result_file = os.path.join(output_dir, f'llama_generated_plan_{number+1}.json')
+            if args.skip_existing and os.path.exists(result_file):
+                continue
             if args.day == '3day':
                 reference_information = query_data['reference_information']
             elif args.day == '5day':
@@ -515,12 +521,7 @@ if __name__ == "__main__":
                         break
             print(planner_results)
 
-            # Ensure the directory exists
-            output_dir = os.path.join(args.output_dir, args.set_type)
-            os.makedirs(output_dir, exist_ok=True)
-
             # Load previous results if available
-            result_file = os.path.join(output_dir, f'llama_generated_plan_{number+1}.json')
             if os.path.exists(result_file):
                 with open(result_file, 'r') as f:
                     result = json.load(f)
